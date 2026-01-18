@@ -1,0 +1,170 @@
+# WorldConfig
+
+## Overview
+- Documentation for `WorldConfig`.
+- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
+
+## Constructors
+- `WorldConfig(null)`
+  - Creates a `WorldConfig` instance.
+- `WorldConfig()`
+  - Creates a `WorldConfig` instance.
+- `WorldConfig(Void dummy)`
+  - Creates a `WorldConfig` instance.
+
+## Methods
+- `getUuid()`
+  - Executes `getUuid` behavior.
+- `setUuid(UUID uuid)`
+  - Executes `setUuid` behavior.
+- `isDeleteOnUniverseStart()`
+  - Executes `isDeleteOnUniverseStart` behavior.
+- `setDeleteOnUniverseStart(boolean deleteOnUniverseStart)`
+  - Executes `setDeleteOnUniverseStart` behavior.
+- `isDeleteOnRemove()`
+  - Executes `isDeleteOnRemove` behavior.
+- `setDeleteOnRemove(boolean deleteOnRemove)`
+  - Executes `setDeleteOnRemove` behavior.
+- `isSavingConfig()`
+  - Executes `isSavingConfig` behavior.
+- `setSavingConfig(boolean savingConfig)`
+  - Executes `setSavingConfig` behavior.
+- `getDisplayName()`
+  - Executes `getDisplayName` behavior.
+- `setDisplayName(String name)`
+  - Executes `setDisplayName` behavior.
+- `formatDisplayName(@Nonnull String name)`
+  - Executes `formatDisplayName` behavior.
+- `getSeed()`
+  - Executes `getSeed` behavior.
+- `setSeed(long seed)`
+  - Executes `setSeed` behavior.
+- `getSpawnProvider()`
+  - Executes `getSpawnProvider` behavior.
+- `setSpawnProvider(ISpawnProvider spawnProvider)`
+  - Executes `setSpawnProvider` behavior.
+- `setDefaultSpawnProvider(@Nonnull IWorldGen generator)`
+  - Executes `setDefaultSpawnProvider` behavior.
+- `getWorldGenProvider()`
+  - Executes `getWorldGenProvider` behavior.
+- `setWorldGenProvider(IWorldGenProvider worldGenProvider)`
+  - Executes `setWorldGenProvider` behavior.
+- `getWorldMapProvider()`
+  - Executes `getWorldMapProvider` behavior.
+- `setWorldMapProvider(IWorldMapProvider worldMapProvider)`
+  - Executes `setWorldMapProvider` behavior.
+- `getChunkStorageProvider()`
+  - Executes `getChunkStorageProvider` behavior.
+- `setChunkStorageProvider(IChunkStorageProvider chunkStorageProvider)`
+  - Executes `setChunkStorageProvider` behavior.
+- `getChunkConfig()`
+  - Executes `getChunkConfig` behavior.
+- `setChunkConfig(@Nonnull ChunkConfig chunkConfig)`
+  - Executes `setChunkConfig` behavior.
+- `isTicking()`
+  - Executes `isTicking` behavior.
+- `setTicking(boolean ticking)`
+  - Executes `setTicking` behavior.
+- `isBlockTicking()`
+  - Executes `isBlockTicking` behavior.
+- `setBlockTicking(boolean ticking)`
+  - Executes `setBlockTicking` behavior.
+- `isPvpEnabled()`
+  - Executes `isPvpEnabled` behavior.
+- `isFallDamageEnabled()`
+  - Executes `isFallDamageEnabled` behavior.
+- `setPvpEnabled(boolean pvpEnabled)`
+  - Executes `setPvpEnabled` behavior.
+- `isGameTimePaused()`
+  - Executes `isGameTimePaused` behavior.
+- `setGameTimePaused(boolean gameTimePaused)`
+  - Executes `setGameTimePaused` behavior.
+- `getGameTime()`
+  - Executes `getGameTime` behavior.
+- `setGameTime(Instant gameTime)`
+  - Executes `setGameTime` behavior.
+- `getForcedWeather()`
+  - Executes `getForcedWeather` behavior.
+- `setForcedWeather(String forcedWeather)`
+  - Executes `setForcedWeather` behavior.
+- `setClientEffects(ClientEffectWorldSettings clientEffects)`
+  - Executes `setClientEffects` behavior.
+- `getClientEffects()`
+  - Executes `getClientEffects` behavior.
+- `getRequiredPlugins()`
+  - Executes `getRequiredPlugins` behavior.
+- `setRequiredPlugins(Map<PluginIdentifier, SemverRange> requiredPlugins)`
+  - Executes `setRequiredPlugins` behavior.
+- `getGameMode()`
+  - Executes `getGameMode` behavior.
+- `setGameMode(GameMode gameMode)`
+  - Executes `setGameMode` behavior.
+- `isSpawningNPC()`
+  - Executes `isSpawningNPC` behavior.
+- `setSpawningNPC(boolean spawningNPC)`
+  - Executes `setSpawningNPC` behavior.
+- `isSpawnMarkersEnabled()`
+  - Executes `isSpawnMarkersEnabled` behavior.
+- `setIsSpawnMarkersEnabled(boolean spawnMarkersEnabled)`
+  - Executes `setIsSpawnMarkersEnabled` behavior.
+- `isAllNPCFrozen()`
+  - Executes `isAllNPCFrozen` behavior.
+- `setIsAllNPCFrozen(boolean allNPCFrozen)`
+  - Executes `setIsAllNPCFrozen` behavior.
+- `getGameplayConfig()`
+  - Executes `getGameplayConfig` behavior.
+- `setGameplayConfig(String gameplayConfig)`
+  - Executes `setGameplayConfig` behavior.
+- `getDeathConfigOverride()`
+  - Executes `getDeathConfigOverride` behavior.
+- `getDaytimeDurationSecondsOverride()`
+  - Executes `getDaytimeDurationSecondsOverride` behavior.
+- `getNighttimeDurationSecondsOverride()`
+  - Executes `getNighttimeDurationSecondsOverride` behavior.
+- `isCompassUpdating()`
+  - Executes `isCompassUpdating` behavior.
+- `setCompassUpdating(boolean compassUpdating)`
+  - Executes `setCompassUpdating` behavior.
+- `isSavingPlayers()`
+  - Executes `isSavingPlayers` behavior.
+- `setSavingPlayers(boolean savingPlayers)`
+  - Executes `setSavingPlayers` behavior.
+- `canUnloadChunks()`
+  - Executes `canUnloadChunks` behavior.
+- `setCanUnloadChunks(boolean unloadingChunks)`
+  - Executes `setCanUnloadChunks` behavior.
+- `canSaveChunks()`
+  - Executes `canSaveChunks` behavior.
+- `setCanSaveChunks(boolean savingChunks)`
+  - Executes `setCanSaveChunks` behavior.
+- `shouldSaveNewChunks()`
+  - Executes `shouldSaveNewChunks` behavior.
+- `setSaveNewChunks(boolean saveNewChunks)`
+  - Executes `setSaveNewChunks` behavior.
+- `isObjectiveMarkersEnabled()`
+  - Executes `isObjectiveMarkersEnabled` behavior.
+- `setObjectiveMarkersEnabled(boolean objectiveMarkersEnabled)`
+  - Executes `setObjectiveMarkersEnabled` behavior.
+- `getResourceStorageProvider()`
+  - Executes `getResourceStorageProvider` behavior.
+- `setResourceStorageProvider(@Nonnull IResourceStorageProvider resourceStorageProvider)`
+  - Executes `setResourceStorageProvider` behavior.
+- `markChanged()`
+  - Executes `markChanged` behavior.
+- `consumeHasChanged()`
+  - Executes `consumeHasChanged` behavior.
+- `load(@Nonnull Path path)`
+  - Executes `load` behavior.
+- `save(@Nonnull Path path, WorldConfig worldConfig)`
+  - Executes `save` behavior.
+- `getPregenerateRegion()`
+  - Executes `getPregenerateRegion` behavior.
+- `setPregenerateRegion(@Nullable Box2D pregenerateRegion)`
+  - Executes `setPregenerateRegion` behavior.
+- `getKeepLoadedRegion()`
+  - Executes `getKeepLoadedRegion` behavior.
+- `setKeepLoadedRegion(@Nullable Box2D keepLoadedRegion)`
+  - Executes `setKeepLoadedRegion` behavior.
+
+## Notes
+- No additional notes.

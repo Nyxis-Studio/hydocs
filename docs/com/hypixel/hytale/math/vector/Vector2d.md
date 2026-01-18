@@ -1,0 +1,126 @@
+# Vector2d
+
+## Overview
+- Documentation for `Vector2d`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector2d(0.0, 0.0)`
+  - Creates a `Vector2d` instance.
+- `Vector2d()`
+  - Creates a `Vector2d` instance.
+- `Vector2d(@Nonnull Vector2d v)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(double x, double y)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(@Nonnull Random random, double length)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(Math.max(a.x, b.x)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(Math.min(a.x, b.x)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(a.x + t * (b.x - a.x)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(this.x, this.y)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(0.0, 1.0)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(0.0, -1.0)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(1.0, 0.0)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(-1.0, 0.0)`
+  - Creates a `Vector2d` instance.
+- `Vector2d(1.0, 1.0)`
+  - Creates a `Vector2d` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(double x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(double y)`
+  - Executes `setY` behavior.
+- `assign(@Nonnull Vector2d v)`
+  - Executes `assign` behavior.
+- `assign(double v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull double[] v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull float[] v)`
+  - Executes `assign` behavior.
+- `assign(double x, double y)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector2d v)`
+  - Executes `add` behavior.
+- `add(double x, double y)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector2d v, double s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector2d v)`
+  - Executes `subtract` behavior.
+- `subtract(double x, double y)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(double s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector2d p)`
+  - Executes `scale` behavior.
+- `dot(@Nonnull Vector2d other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector2d v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(double x, double y)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector2d v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(double x, double y)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(double newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(double maxLength)`
+  - Executes `clampLength` behavior.
+- `floor()`
+  - Executes `floor` behavior.
+- `ceil()`
+  - Executes `ceil` behavior.
+- `clipToZero(double epsilon)`
+  - Executes `clipToZero` behavior.
+- `closeToZero(double epsilon)`
+  - Executes `closeToZero` behavior.
+- `isFinite()`
+  - Executes `isFinite` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `max(@Nonnull Vector2d a, @Nonnull Vector2d b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector2d a, @Nonnull Vector2d b)`
+  - Executes `min` behavior.
+- `lerp(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`
+  - Executes `lerp` behavior.
+- `lerpUnclamped(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`
+  - Executes `lerpUnclamped` behavior.
+- `distance(double x1, double y1, double x2, double y2)`
+  - Executes `distance` behavior.
+- `distanceSquared(double x1, double y1, double x2, double y2)`
+  - Executes `distanceSquared` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+
+## Notes
+- No additional notes.

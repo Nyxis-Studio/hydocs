@@ -1,0 +1,195 @@
+# BuilderRole
+
+## Overview
+- Documentation for `BuilderRole`.
+- Declared as a class in `com.hypixel.hytale.server.npc.role.builders`.
+
+## Constructors
+- None.
+
+## Methods
+- `getShortDescription()`
+  - Executes `getShortDescription` behavior.
+- `getLongDescription()`
+  - Executes `getLongDescription` behavior.
+- `getBuilderDescriptorState()`
+  - Executes `getBuilderDescriptorState` behavior.
+- `build(@Nonnull BuilderSupport builderSupport)`
+  - Executes `build` behavior.
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+  - Executes `validate` behavior.
+- `readConfig(@Nonnull JsonElement data)`
+  - Executes `readConfig` behavior.
+- `getIdentifier()`
+  - Executes `getIdentifier` behavior.
+- `canSpawn(@Nonnull SpawningContext context)`
+  - Executes `canSpawn` behavior.
+- `category()`
+  - Executes `category` behavior.
+- `getSpawnModelName(ExecutionContext context, Scope modifierScope)`
+  - Executes `getSpawnModelName` behavior.
+- `createModifierScope(ExecutionContext executionContext)`
+  - Executes `createModifierScope` behavior.
+- `createExecutionScope()`
+  - Executes `createExecutionScope` behavior.
+- `markNeedsReload()`
+  - Executes `markNeedsReload` behavior.
+- `getSpawnParticles()`
+  - Executes `getSpawnParticles` behavior.
+- `getSpawnParticleOffset()`
+  - Executes `getSpawnParticleOffset` behavior.
+- `getSpawnViewDistance()`
+  - Executes `getSpawnViewDistance` behavior.
+- `isEnabled(ExecutionContext context)`
+  - Executes `isEnabled` behavior.
+- `getMaxHealth(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getMaxHealth` behavior.
+- `getDisplayNames()`
+  - Executes `getDisplayNames` behavior.
+- `getNameTranslationKey(BuilderSupport support)`
+  - Executes `getNameTranslationKey` behavior.
+- `getAppearance(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getAppearance` behavior.
+- `isBreathesInAir(BuilderSupport support)`
+  - Executes `isBreathesInAir` behavior.
+- `isBreathesInWater(BuilderSupport support)`
+  - Executes `isBreathesInWater` behavior.
+- `getOpaqueBlockSet()`
+  - Executes `getOpaqueBlockSet` behavior.
+- `getInertia()`
+  - Executes `getInertia` behavior.
+- `getKnockbackScale()`
+  - Executes `getKnockbackScale` behavior.
+- `getHotbarItems(@Nonnull BuilderSupport support)`
+  - Executes `getHotbarItems` behavior.
+- `getOffHandItems(@Nonnull BuilderSupport support)`
+  - Executes `getOffHandItems` behavior.
+- `getInventoryItemsDropList(@Nonnull BuilderSupport support)`
+  - Executes `getInventoryItemsDropList` behavior.
+- `getArmor()`
+  - Executes `getArmor` behavior.
+- `isPickupDropOnDeath()`
+  - Executes `isPickupDropOnDeath` behavior.
+- `getDropListId(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getDropListId` behavior.
+- `getStartState()`
+  - Executes `getStartState` behavior.
+- `getStartStateIndex()`
+  - Executes `getStartStateIndex` behavior.
+- `getStartSubStateIndex()`
+  - Executes `getStartSubStateIndex` behavior.
+- `getCollisionDistance()`
+  - Executes `getCollisionDistance` behavior.
+- `getCollisionForceFalloff()`
+  - Executes `getCollisionForceFalloff` behavior.
+- `isAvoidingEntities()`
+  - Executes `isAvoidingEntities` behavior.
+- `getCollisionRadius()`
+  - Executes `getCollisionRadius` behavior.
+- `getSeparationDistance()`
+  - Executes `getSeparationDistance` behavior.
+- `getSeparationWeight()`
+  - Executes `getSeparationWeight` behavior.
+- `getSeparationDistanceTarget()`
+  - Executes `getSeparationDistanceTarget` behavior.
+- `getSeparationNearRadiusTarget()`
+  - Executes `getSeparationNearRadiusTarget` behavior.
+- `getSeparationFarRadiusTarget()`
+  - Executes `getSeparationFarRadiusTarget` behavior.
+- `isApplySeparation(BuilderSupport support)`
+  - Executes `isApplySeparation` behavior.
+- `isStayingInEnvironment()`
+  - Executes `isStayingInEnvironment` behavior.
+- `getAllowedEnvironments()`
+  - Executes `getAllowedEnvironments` behavior.
+- `getEntityAvoidanceStrength()`
+  - Executes `getEntityAvoidanceStrength` behavior.
+- `getFlockSpawnTypes(@Nonnull BuilderSupport support)`
+  - Executes `getFlockSpawnTypes` behavior.
+- `isFlockSpawnTypeRandom(@Nonnull BuilderSupport support)`
+  - Executes `isFlockSpawnTypeRandom` behavior.
+- `getFlockAllowedRoles(@Nonnull BuilderSupport support)`
+  - Executes `getFlockAllowedRoles` behavior.
+- `isCanLeadFlock(@Nonnull BuilderSupport support)`
+  - Executes `isCanLeadFlock` behavior.
+- `getFlockWeightAlignment()`
+  - Executes `getFlockWeightAlignment` behavior.
+- `getFlockWeightSeparation()`
+  - Executes `getFlockWeightSeparation` behavior.
+- `getFlockWeightCohesion()`
+  - Executes `getFlockWeightCohesion` behavior.
+- `getFlockInfluenceRange()`
+  - Executes `getFlockInfluenceRange` behavior.
+- `getDebugFlags()`
+  - Executes `getDebugFlags` behavior.
+- `getCollisionViewAngle()`
+  - Executes `getCollisionViewAngle` behavior.
+- `getBalanceAsset(@Nonnull BuilderSupport support)`
+  - Executes `getBalanceAsset` behavior.
+- `getDeathAnimationTime()`
+  - Executes `getDeathAnimationTime` behavior.
+- `getDeathInteraction(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getDeathInteraction` behavior.
+- `getDespawnAnimationTime()`
+  - Executes `getDespawnAnimationTime` behavior.
+- `isDisableDamageFlock()`
+  - Executes `isDisableDamageFlock` behavior.
+- `getDisableDamageGroups(@Nonnull BuilderSupport support)`
+  - Executes `getDisableDamageGroups` behavior.
+- `isInvulnerable(BuilderSupport support)`
+  - Executes `isInvulnerable` behavior.
+- `getInventorySlots()`
+  - Executes `getInventorySlots` behavior.
+- `getHotbarSlots()`
+  - Executes `getHotbarSlots` behavior.
+- `getOffHandSlots()`
+  - Executes `getOffHandSlots` behavior.
+- `getDefaultOffHandSlot(@Nonnull BuilderSupport support)`
+  - Executes `getDefaultOffHandSlot` behavior.
+- `getBusyStates()`
+  - Executes `getBusyStates` behavior.
+- `getDefaultPlayerAttitude(@Nonnull BuilderSupport support)`
+  - Executes `getDefaultPlayerAttitude` behavior.
+- `getDefaultNPCAttitude(@Nonnull BuilderSupport support)`
+  - Executes `getDefaultNPCAttitude` behavior.
+- `getAttitudeGroup(@Nonnull BuilderSupport support)`
+  - Executes `getAttitudeGroup` behavior.
+- `getItemAttitudeGroup(@Nonnull BuilderSupport support)`
+  - Executes `getItemAttitudeGroup` behavior.
+- `isCorpseStaysInFlock()`
+  - Executes `isCorpseStaysInFlock` behavior.
+- `getMotionControllerMap(@Nonnull BuilderSupport support)`
+  - Executes `getMotionControllerMap` behavior.
+- `getInitialMotionController(@Nonnull BuilderSupport support)`
+  - Executes `getInitialMotionController` behavior.
+- `getInstructionList(@Nonnull BuilderSupport support)`
+  - Executes `getInstructionList` behavior.
+- `getInteractionInstruction(@Nonnull BuilderSupport support)`
+  - Executes `getInteractionInstruction` behavior.
+- `getDeathInstruction(@Nonnull BuilderSupport support)`
+  - Executes `getDeathInstruction` behavior.
+- `getStateTransitionController(@Nonnull BuilderSupport support)`
+  - Executes `getStateTransitionController` behavior.
+- `registerStateEvaluator(@Nonnull BuilderSupport support)`
+  - Executes `registerStateEvaluator` behavior.
+- `getInteractionVars(@Nonnull BuilderSupport support)`
+  - Executes `getInteractionVars` behavior.
+- `isMemory(ExecutionContext context)`
+  - Executes `isMemory` behavior.
+- `isMemory(ExecutionContext context, Scope modifierScope)`
+  - Executes `isMemory` behavior.
+- `getMemoriesCategory(ExecutionContext context, Scope modifierScope)`
+  - Executes `getMemoriesCategory` behavior.
+- `getMemoriesNameOverride(ExecutionContext context)`
+  - Executes `getMemoriesNameOverride` behavior.
+- `getMemoriesNameOverride(ExecutionContext context, @NullableDecl Scope modifierScope)`
+  - Executes `getMemoriesNameOverride` behavior.
+- `getNameTranslationKey(ExecutionContext context, @NullableDecl Scope modifierScope)`
+  - Executes `getNameTranslationKey` behavior.
+- `getSpawnLockTime(BuilderSupport support)`
+  - Executes `getSpawnLockTime` behavior.
+- `runLoadTimeValidationHelper0(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, @Nonnull List<String> errors)`
+  - Executes `runLoadTimeValidationHelper0` behavior.
+
+## Notes
+- No additional notes.

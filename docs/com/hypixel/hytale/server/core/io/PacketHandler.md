@@ -1,0 +1,118 @@
+# PacketHandler
+
+## Overview
+- Documentation for `PacketHandler`.
+- Declared as a class in `com.hypixel.hytale.server.core.io`.
+
+## Constructors
+- `PacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion)`
+  - Creates a `PacketHandler` instance.
+
+## Methods
+- `getChannel()`
+  - Executes `getChannel` behavior.
+- `setCompressionEnabled(boolean compressionEnabled)`
+  - Executes `setCompressionEnabled` behavior.
+- `isCompressionEnabled()`
+  - Executes `isCompressionEnabled` behavior.
+- `getIdentifier()`
+  - Executes `getIdentifier` behavior.
+- `getProtocolVersion()`
+  - Executes `getProtocolVersion` behavior.
+- `registered(@Nullable PacketHandler oldHandler)`
+  - Executes `registered` behavior.
+- `registered0(@Nullable PacketHandler oldHandler)`
+  - Executes `registered0` behavior.
+- `unregistered(@Nullable PacketHandler newHandler)`
+  - Executes `unregistered` behavior.
+- `unregistered0(@Nullable PacketHandler newHandler)`
+  - Executes `unregistered0` behavior.
+- `handle(@Nonnull Packet packet)`
+  - Executes `handle` behavior.
+- `accept(@Nonnull Packet var1)`
+  - Executes `accept` behavior.
+- `logCloseMessage()`
+  - Executes `logCloseMessage` behavior.
+- `closed(ChannelHandlerContext ctx)`
+  - Executes `closed` behavior.
+- `setQueuePackets(boolean queuePackets)`
+  - Executes `setQueuePackets` behavior.
+- `tryFlush()`
+  - Executes `tryFlush` behavior.
+- `write(Packet ... packets)`
+  - Executes `write` behavior.
+- `write(@Nonnull Packet[] packets, @Nonnull Packet finalPacket)`
+  - Executes `write` behavior.
+- `write(@Nonnull Packet packet)`
+  - Executes `write` behavior.
+- `writeNoCache(@Nonnull Packet packet)`
+  - Executes `writeNoCache` behavior.
+- `writePacket(@Nonnull Packet packet, boolean cache)`
+  - Executes `writePacket` behavior.
+- `handleOutboundAndCachePackets(@Nonnull Packet[] packets, @Nonnull Packet[] cachedPackets)`
+  - Executes `handleOutboundAndCachePackets` behavior.
+- `handleOutboundAndCachePacket(@Nonnull Packet packet)`
+  - Executes `handleOutboundAndCachePacket` behavior.
+- `disconnect(@Nonnull String message)`
+  - Executes `disconnect` behavior.
+- `disconnect0(@Nonnull String message)`
+  - Executes `disconnect0` behavior.
+- `getPacketStatsRecorder()`
+  - Executes `getPacketStatsRecorder` behavior.
+- `getPingInfo(@Nonnull PongType pongType)`
+  - Executes `getPingInfo` behavior.
+- `getOperationTimeoutThreshold()`
+  - Executes `getOperationTimeoutThreshold` behavior.
+- `tickPing(float dt)`
+  - Executes `tickPing` behavior.
+- `sendPing()`
+  - Executes `sendPing` behavior.
+- `handlePong(@Nonnull Pong packet)`
+  - Executes `handlePong` behavior.
+- `setTimeout(@Nonnull String stageId, @Nonnull BooleanSupplier meets, long def, @Nonnull TimeUnit timeUnit)`
+  - Executes `setTimeout` behavior.
+- `clearTimeout()`
+  - Executes `clearTimeout` behavior.
+- `getAuth()`
+  - Executes `getAuth` behavior.
+- `stillActive()`
+  - Executes `stillActive` behavior.
+- `getQueuedPacketsCount()`
+  - Executes `getQueuedPacketsCount` behavior.
+- `isLocalConnection()`
+  - Executes `isLocalConnection` behavior.
+- `isLANConnection()`
+  - Executes `isLANConnection` behavior.
+- `getDisconnectReason()`
+  - Executes `getDisconnectReason` behavior.
+- `setClientReadyForChunksFuture(@Nonnull CompletableFuture<Void> clientReadyFuture)`
+  - Executes `setClientReadyForChunksFuture` behavior.
+- `getClientReadyForChunksFuture()`
+  - Executes `getClientReadyForChunksFuture` behavior.
+- `logConnectionTimings(@Nonnull Channel channel, @Nonnull String message, @Nonnull Level level)`
+  - Executes `logConnectionTimings` behavior.
+- `getServerDisconnectReason()`
+  - Executes `getServerDisconnectReason` behavior.
+- `setServerDisconnectReason(String serverDisconnectReason)`
+  - Executes `setServerDisconnectReason` behavior.
+- `getClientDisconnectType()`
+  - Executes `getClientDisconnectType` behavior.
+- `setClientDisconnectType(DisconnectType clientDisconnectType)`
+  - Executes `setClientDisconnectType` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `recordSent(int id, long timestamp)`
+  - Executes `recordSent` behavior.
+- `handlePacket(@Nonnull Pong packet)`
+  - Executes `handlePacket` behavior.
+- `getPingType()`
+  - Executes `getPingType` behavior.
+- `getPacketQueueMetric()`
+  - Executes `getPacketQueueMetric` behavior.
+- `getPingMetricSet()`
+  - Executes `getPingMetricSet` behavior.
+- `clear()`
+  - Executes `clear` behavior.
+
+## Notes
+- No additional notes.

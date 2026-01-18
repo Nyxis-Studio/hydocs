@@ -1,0 +1,110 @@
+# BrushConfig
+
+## Overview
+- Documentation for `BrushConfig`.
+- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes`.
+
+## Constructors
+- `BrushConfig()`
+  - Creates a `BrushConfig` instance.
+- `BrushConfig(@Nonnull BrushConfig other)`
+  - Creates a `BrushConfig` instance.
+
+## Methods
+- `beginExecution(Vector3i origin, boolean isHoldDownInteraction, InteractionType interactionType)`
+  - Executes `beginExecution` behavior.
+- `endExecution()`
+  - Executes `endExecution` behavior.
+- `resetToDefaultValues()`
+  - Executes `resetToDefaultValues` behavior.
+- `isHoldDownInteraction()`
+  - Executes `isHoldDownInteraction` behavior.
+- `isCurrentlyExecuting()`
+  - Executes `isCurrentlyExecuting` behavior.
+- `getInteractionType()`
+  - Executes `getInteractionType` behavior.
+- `getOrigin()`
+  - Executes `getOrigin` behavior.
+- `getOriginOffset()`
+  - Executes `getOriginOffset` behavior.
+- `setOriginOffset(Vector3i originOffset)`
+  - Executes `setOriginOffset` behavior.
+- `modifyOriginOffset(@Nonnull Vector3i originOffsetOffset)`
+  - Executes `modifyOriginOffset` behavior.
+- `updateOriginWithOffsets()`
+  - Executes `updateOriginWithOffsets` behavior.
+- `getRandom()`
+  - Executes `getRandom` behavior.
+- `getNextBlock()`
+  - Executes `getNextBlock` behavior.
+- `getNextMaterial()`
+  - Executes `getNextMaterial` behavior.
+- `getBlockMask()`
+  - Executes `getBlockMask` behavior.
+- `setOperationMask(BlockMask mask)`
+  - Executes `setOperationMask` behavior.
+- `appendOperationMask(BlockMask mask)`
+  - Executes `appendOperationMask` behavior.
+- `clearOperationMask()`
+  - Executes `clearOperationMask` behavior.
+- `setUseBrushMask(boolean useBrushMask)`
+  - Executes `setUseBrushMask` behavior.
+- `setUseOperationMask(boolean useOperationMask)`
+  - Executes `setUseOperationMask` behavior.
+- `setBrushMask(BlockMask mask)`
+  - Executes `setBrushMask` behavior.
+- `refreshCombinedMasks()`
+  - Executes `refreshCombinedMasks` behavior.
+- `getDensity()`
+  - Executes `getDensity` behavior.
+- `setDensity(int density)`
+  - Executes `setDensity` behavior.
+- `getHistoryMask()`
+  - Executes `getHistoryMask` behavior.
+- `setHistoryMask(HistoryMask historyMask)`
+  - Executes `setHistoryMask` behavior.
+- `getShapeWidth()`
+  - Executes `getShapeWidth` behavior.
+- `setShapeWidth(int shapeWidth)`
+  - Executes `setShapeWidth` behavior.
+- `getShapeHeight()`
+  - Executes `getShapeHeight` behavior.
+- `setShapeHeight(int shapeHeight)`
+  - Executes `setShapeHeight` behavior.
+- `getShapeThickness()`
+  - Executes `getShapeThickness` behavior.
+- `setShapeThickness(int shapeThickness)`
+  - Executes `setShapeThickness` behavior.
+- `isCapped()`
+  - Executes `isCapped` behavior.
+- `setCapped(boolean capped)`
+  - Executes `setCapped` behavior.
+- `getShape()`
+  - Executes `getShape` behavior.
+- `setShape(BrushShape shape)`
+  - Executes `setShape` behavior.
+- `getPattern()`
+  - Executes `getPattern` behavior.
+- `setPattern(BlockPattern pattern)`
+  - Executes `setPattern` behavior.
+- `setErrorFlag(String errorMessage)`
+  - Executes `setErrorFlag` behavior.
+- `clearError()`
+  - Executes `clearError` behavior.
+- `isHasExecutionContextEncounteredError()`
+  - Executes `isHasExecutionContextEncounteredError` behavior.
+- `getExecutionErrorMessage()`
+  - Executes `getExecutionErrorMessage` behavior.
+- `getOriginAfterOffset()`
+  - Executes `getOriginAfterOffset` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `getInfo()`
+  - Executes `getInfo` behavior.
+- `getValue(BrushConfig brushConfig)`
+  - Executes `getValue` behavior.
+- `loadData(BrushConfig copyTo, BrushConfig copyFrom)`
+  - Executes `loadData` behavior.
+
+## Notes
+- No additional notes.

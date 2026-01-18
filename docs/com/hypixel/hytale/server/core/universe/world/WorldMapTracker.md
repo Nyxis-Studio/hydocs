@@ -1,0 +1,98 @@
+# WorldMapTracker
+
+## Overview
+- Documentation for `WorldMapTracker`.
+- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
+
+## Constructors
+- `WorldMapTracker(@Nonnull Player player)`
+  - Creates a `WorldMapTracker` instance.
+
+## Methods
+- `tick(float dt)`
+  - Executes `tick` behavior.
+- `updateCurrentZoneAndBiome(@Nonnull Ref<EntityStore> ref, @Nullable ZoneDiscoveryInfo zoneDiscoveryInfo, @Nullable String biomeName, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateCurrentZoneAndBiome` behavior.
+- `onZoneDiscovered(@Nonnull Ref<EntityStore> ref, @Nonnull ZoneDiscoveryInfo zoneDiscoveryInfo, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `onZoneDiscovered` behavior.
+- `updateWorldMap(@Nonnull World world, float dt, @Nonnull WorldMapSettings worldMapSettings, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+  - Executes `updateWorldMap` behavior.
+- `updatePointsOfInterest(@Nonnull World world, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+  - Executes `updatePointsOfInterest` behavior.
+- `trySendMarker(int chunkViewRadius, int playerChunkX, int playerChunkZ, @Nonnull MapMarker marker)`
+  - Executes `trySendMarker` behavior.
+- `trySendMarker(int chunkViewRadius, int playerChunkX, int playerChunkZ, @Nonnull Vector3d markerPos, float markerYaw, @Nonnull String markerId, @Nonnull String markerDisplayName, @Nonnull T param, @Nonnull TriFunction<String, String, T, MapMarker> markerSupplier)`
+  - Executes `trySendMarker` behavior.
+- `trySendMarker(int chunkViewRadius, int playerChunkX, int playerChunkZ, double markerX, double markerZ, float markerYaw, @Nonnull String markerId, @Nonnull String markerName, @Nonnull T param, @Nonnull TriFunction<String, String, T, MapMarker> markerSupplier)`
+  - Executes `trySendMarker` behavior.
+- `unloadImages(int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+  - Executes `unloadImages` behavior.
+- `processPendingReloadChunks(@Nonnull World world)`
+  - Executes `processPendingReloadChunks` behavior.
+- `loadImages(@Nonnull World world, int chunkViewRadius, int playerChunkX, int playerChunkZ, int maxGeneration)`
+  - Executes `loadImages` behavior.
+- `loadWorldMap(@Nonnull World world, @Nonnull Box2D worldMapArea, int maxGeneration)`
+  - Executes `loadWorldMap` behavior.
+- `writeUpdatePacket(@Nullable List<MapChunk> list)`
+  - Executes `writeUpdatePacket` behavior.
+- `getSentMarkers()`
+  - Executes `getSentMarkers` behavior.
+- `getPlayer()`
+  - Executes `getPlayer` behavior.
+- `clear()`
+  - Executes `clear` behavior.
+- `clearChunks(@Nonnull LongSet chunkIndices)`
+  - Executes `clearChunks` behavior.
+- `sendSettings(@Nonnull World world)`
+  - Executes `sendSettings` behavior.
+- `hasDiscoveredZone(@Nonnull String zoneName)`
+  - Executes `hasDiscoveredZone` behavior.
+- `discoverZone(@Nonnull World world, @Nonnull String zoneName)`
+  - Executes `discoverZone` behavior.
+- `undiscoverZone(@Nonnull World world, @Nonnull String zoneName)`
+  - Executes `undiscoverZone` behavior.
+- `discoverZones(@Nonnull World world, @Nonnull Set<String> zoneNames)`
+  - Executes `discoverZones` behavior.
+- `undiscoverZones(@Nonnull World world, @Nonnull Set<String> zoneNames)`
+  - Executes `undiscoverZones` behavior.
+- `isAllowTeleportToCoordinates()`
+  - Executes `isAllowTeleportToCoordinates` behavior.
+- `setAllowTeleportToCoordinates(@Nonnull World world, boolean allowTeleportToCoordinates)`
+  - Executes `setAllowTeleportToCoordinates` behavior.
+- `isAllowTeleportToMarkers()`
+  - Executes `isAllowTeleportToMarkers` behavior.
+- `setAllowTeleportToMarkers(@Nonnull World world, boolean allowTeleportToMarkers)`
+  - Executes `setAllowTeleportToMarkers` behavior.
+- `getPlayerMapFilter()`
+  - Executes `getPlayerMapFilter` behavior.
+- `setPlayerMapFilter(Predicate<PlayerRef> playerMapFilter)`
+  - Executes `setPlayerMapFilter` behavior.
+- `setClientHasWorldMapVisible(boolean visible)`
+  - Executes `setClientHasWorldMapVisible` behavior.
+- `shouldUpdatePlayerMarkers()`
+  - Executes `shouldUpdatePlayerMarkers` behavior.
+- `resetPlayerMarkersUpdateTimer()`
+  - Executes `resetPlayerMarkersUpdateTimer` behavior.
+- `getViewRadiusOverride()`
+  - Executes `getViewRadiusOverride` behavior.
+- `getCurrentBiomeName()`
+  - Executes `getCurrentBiomeName` behavior.
+- `getCurrentZone()`
+  - Executes `getCurrentZone` behavior.
+- `setViewRadiusOverride(@Nullable Integer viewRadiusOverride)`
+  - Executes `setViewRadiusOverride` behavior.
+- `getEffectiveViewRadius(@Nonnull World world)`
+  - Executes `getEffectiveViewRadius` behavior.
+- `shouldBeVisible(int chunkViewRadius, long chunkCoordinates)`
+  - Executes `shouldBeVisible` behavior.
+- `copyFrom(@Nonnull WorldMapTracker worldMapTracker)`
+  - Executes `copyFrom` behavior.
+- `shouldBeVisible(int chunkViewRadius, int chunkX, int chunkZ, int x, int z)`
+  - Executes `shouldBeVisible` behavior.
+- `ZoneDiscoveryInfo(@Nonnull String zoneName, @Nonnull String regionName, boolean display, @Nullable String discoverySoundEventId, @Nullable String icon, boolean major, float duration, float fadeInDuration, float fadeOutDuration)`
+  - Executes `ZoneDiscoveryInfo` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+
+## Notes
+- No additional notes.

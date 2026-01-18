@@ -1,0 +1,96 @@
+# Message
+
+## Overview
+- Documentation for `Message`.
+- Declared as a class in `com.hypixel.hytale.server.core`.
+
+## Constructors
+- `Message(@Nonnull String message, boolean i18n)`
+  - Creates a `Message` instance.
+- `Message()`
+  - Creates a `Message` instance.
+- `Message(@Nonnull FormattedMessage message)`
+  - Creates a `Message` instance.
+- `Message(value)`
+  - Creates a `Message` instance.
+- `Message(p.getValue()`
+  - Creates a `Message` instance.
+- `Message(messageId, true)`
+  - Creates a `Message` instance.
+- `Message(message, false)`
+  - Creates a `Message` instance.
+
+## Methods
+- `param(@Nonnull String key, @Nonnull String value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, boolean value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, double value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, int value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, long value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, float value)`
+  - Executes `param` behavior.
+- `param(@Nonnull String key, @Nonnull Message formattedMessage)`
+  - Executes `param` behavior.
+- `bold(boolean bold)`
+  - Executes `bold` behavior.
+- `italic(boolean italic)`
+  - Executes `italic` behavior.
+- `monospace(boolean monospace)`
+  - Executes `monospace` behavior.
+- `color(@Nonnull String color)`
+  - Executes `color` behavior.
+- `color(@Nonnull Color color)`
+  - Executes `color` behavior.
+- `link(@Nonnull String url)`
+  - Executes `link` behavior.
+- `insert(@Nonnull Message formattedMessage)`
+  - Executes `insert` behavior.
+- `insert(@Nonnull String message)`
+  - Executes `insert` behavior.
+- `insertAll(Message ... formattedMessages)`
+  - Executes `insertAll` behavior.
+- `insertAll(@Nonnull List<Message> formattedMessages)`
+  - Executes `insertAll` behavior.
+- `getRawText()`
+  - Executes `getRawText` behavior.
+- `getMessageId()`
+  - Executes `getMessageId` behavior.
+- `getColor()`
+  - Executes `getColor` behavior.
+- `getChildren()`
+  - Executes `getChildren` behavior.
+- `getAnsiMessage()`
+  - Executes `getAnsiMessage` behavior.
+- `getFormattedMessage()`
+  - Executes `getFormattedMessage` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `empty()`
+  - Executes `empty` behavior.
+- `translation(@Nonnull String messageId)`
+  - Executes `translation` behavior.
+- `raw(@Nonnull String message)`
+  - Executes `raw` behavior.
+- `parse(@Nonnull String message)`
+  - Executes `parse` behavior.
+- `join(Message ... messages)`
+  - Executes `join` behavior.
+- `decode(BsonValue bsonValue, ExtraInfo extraInfo)`
+  - Executes `decode` behavior.
+- `encode(ParamValue paramValue, ExtraInfo extraInfo)`
+  - Executes `encode` behavior.
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+  - Executes `decodeJson` behavior.
+- `toSchema(@Nonnull SchemaContext context)`
+  - Executes `toSchema` behavior.
+- `encode(MaybeBool maybeBool, ExtraInfo extraInfo)`
+  - Executes `encode` behavior.
+- `decodeJson(@NonNullDecl RawJsonReader reader, ExtraInfo extraInfo)`
+  - Executes `decodeJson` behavior.
+
+## Notes
+- No additional notes.

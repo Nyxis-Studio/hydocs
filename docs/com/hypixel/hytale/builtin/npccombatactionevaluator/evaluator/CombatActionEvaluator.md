@@ -1,0 +1,118 @@
+# CombatActionEvaluator
+
+## Overview
+- Documentation for `CombatActionEvaluator`.
+- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.evaluator`.
+
+## Constructors
+- `CombatActionEvaluator(@Nonnull Role role, @Nonnull CombatActionEvaluatorConfig config, @Nonnull CombatActionEvaluatorSystems.CombatConstructionData data)`
+  - Creates a `CombatActionEvaluator` instance.
+- `CombatActionEvaluator()`
+  - Creates a `CombatActionEvaluator` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `getRunOption()`
+  - Executes `getRunOption` behavior.
+- `getMinRunUtility()`
+  - Executes `getMinRunUtility` behavior.
+- `getEvaluationContext()`
+  - Executes `getEvaluationContext` behavior.
+- `getLastRunNanos()`
+  - Executes `getLastRunNanos` behavior.
+- `setLastRunNanos(long lastRunNanos)`
+  - Executes `setLastRunNanos` behavior.
+- `getRunInState()`
+  - Executes `getRunInState` behavior.
+- `setCurrentBasicAttackSet(int subState, CombatActionEvaluatorConfig.BasicAttacks attacks)`
+  - Executes `setCurrentBasicAttackSet` behavior.
+- `getCurrentBasicAttack()`
+  - Executes `getCurrentBasicAttack` behavior.
+- `setCurrentBasicAttack(String attack, boolean damageFriendlies, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+  - Executes `setCurrentBasicAttack` behavior.
+- `getNextBasicAttackIndex()`
+  - Executes `getNextBasicAttackIndex` behavior.
+- `setNextBasicAttackIndex(int next)`
+  - Executes `setNextBasicAttackIndex` behavior.
+- `canUseBasicAttack(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `canUseBasicAttack` behavior.
+- `tickBasicAttackCoolDown(float dt)`
+  - Executes `tickBasicAttackCoolDown` behavior.
+- `getBasicAttackTarget()`
+  - Executes `getBasicAttackTarget` behavior.
+- `setBasicAttackTarget(Ref<EntityStore> target)`
+  - Executes `setBasicAttackTarget` behavior.
+- `tickBasicAttackTimeout(float dt)`
+  - Executes `tickBasicAttackTimeout` behavior.
+- `setBasicAttackTimeout(double timeout)`
+  - Executes `setBasicAttackTimeout` behavior.
+- `getPrimaryTarget()`
+  - Executes `getPrimaryTarget` behavior.
+- `clearPrimaryTarget()`
+  - Executes `clearPrimaryTarget` behavior.
+- `setActiveOptions(List<Evaluator.OptionHolder> options)`
+  - Executes `setActiveOptions` behavior.
+- `getMarkedTargetSlot()`
+  - Executes `getMarkedTargetSlot` behavior.
+- `getMaxRangeSlot()`
+  - Executes `getMaxRangeSlot` behavior.
+- `getMinRangeSlot()`
+  - Executes `getMinRangeSlot` behavior.
+- `getPositioningAngleSlot()`
+  - Executes `getPositioningAngleSlot` behavior.
+- `getCurrentAttack()`
+  - Executes `getCurrentAttack` behavior.
+- `getChargeFor()`
+  - Executes `getChargeFor` behavior.
+- `getCurrentInteractionType()`
+  - Executes `getCurrentInteractionType` behavior.
+- `getCurrentInteractionVarsGetter()`
+  - Executes `getCurrentInteractionVarsGetter` behavior.
+- `shouldDamageFriendlies()`
+  - Executes `shouldDamageFriendlies` behavior.
+- `requiresAiming()`
+  - Executes `requiresAiming` behavior.
+- `shouldPositionFirst()`
+  - Executes `shouldPositionFirst` behavior.
+- `getChargeDistance()`
+  - Executes `getChargeDistance` behavior.
+- `setCurrentInteraction(String currentInteraction, InteractionType interactionType, float chargeFor, boolean damageFriendlies, boolean requireAiming, boolean positionFirst, double chargeDistance, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+  - Executes `setCurrentInteraction` behavior.
+- `getCurrentAction()`
+  - Executes `getCurrentAction` behavior.
+- `consumePostExecutionDistanceRange()`
+  - Executes `consumePostExecutionDistanceRange` behavior.
+- `setTimeout(float timeout)`
+  - Executes `setTimeout` behavior.
+- `clearTimeout()`
+  - Executes `clearTimeout` behavior.
+- `hasTimedOut(float dt)`
+  - Executes `hasTimedOut` behavior.
+- `selectNextCombatAction(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull Role role, ValueStore valueStore)`
+  - Executes `selectNextCombatAction` behavior.
+- `completeCurrentAction(boolean forceClearAbility, boolean clearBasicAttack)`
+  - Executes `completeCurrentAction` behavior.
+- `terminateCurrentAction()`
+  - Executes `terminateCurrentAction` behavior.
+- `clearCurrentBasicAttack()`
+  - Executes `clearCurrentBasicAttack` behavior.
+- `setupNPC(Role role)`
+  - Executes `setupNPC` behavior.
+- `setupNPC(Holder<EntityStore> holder)`
+  - Executes `setupNPC` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `calculateUtility(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`
+  - Executes `calculateUtility` behavior.
+- `getTotalUtility(double threshold)`
+  - Executes `getTotalUtility` behavior.
+- `tryPick(double currentWeight, double threshold)`
+  - Executes `tryPick` behavior.
+- `getOptionTarget()`
+  - Executes `getOptionTarget` behavior.
+- `setLastUsedNanos(long lastUsedNanos)`
+  - Executes `setLastUsedNanos` behavior.
+
+## Notes
+- No additional notes.

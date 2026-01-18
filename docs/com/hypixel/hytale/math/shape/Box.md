@@ -1,0 +1,124 @@
+# Box
+
+## Overview
+- Documentation for `Box`.
+- Declared as a class in `com.hypixel.hytale.math.shape`.
+
+## Constructors
+- `Box(Vector3d.ZERO, Vector3d.ALL_ONES)`
+  - Creates a `Box` instance.
+- `Box(-width / 2.0, 0.0, -depth / 2.0, width / 2.0, height, depth / 2.0)`
+  - Creates a `Box` instance.
+- `Box()`
+  - Creates a `Box` instance.
+- `Box(@Nonnull Box box)`
+  - Creates a `Box` instance.
+- `Box(@Nonnull Vector3d min, @Nonnull Vector3d max)`
+  - Creates a `Box` instance.
+- `Box(double xMin, double yMin, double zMin, double xMax, double yMax, double zMax)`
+  - Creates a `Box` instance.
+- `Box(min.x, min.y, min.z, min.x + side, min.y + side, min.z + side)`
+  - Creates a `Box` instance.
+- `Box(center.x - inradius, center.y - inradius, center.z - inradius, center.x + inradius, center.y + inradius, center.z + inradius)`
+  - Creates a `Box` instance.
+- `Box(this.min.getX()`
+  - Creates a `Box` instance.
+
+## Methods
+- `horizontallyCentered(double width, double height, double depth)`
+  - Executes `horizontallyCentered` behavior.
+- `cube(@Nonnull Vector3d min, double side)`
+  - Executes `cube` behavior.
+- `centeredCube(@Nonnull Vector3d center, double inradius)`
+  - Executes `centeredCube` behavior.
+- `setMinMax(@Nonnull Vector3d min, @Nonnull Vector3d max)`
+  - Executes `setMinMax` behavior.
+- `setMinMax(@Nonnull double[] min, @Nonnull double[] max)`
+  - Executes `setMinMax` behavior.
+- `setMinMax(@Nonnull float[] min, @Nonnull float[] max)`
+  - Executes `setMinMax` behavior.
+- `setEmpty()`
+  - Executes `setEmpty` behavior.
+- `setMinMax(double min, double max)`
+  - Executes `setMinMax` behavior.
+- `union(@Nonnull Box bb)`
+  - Executes `union` behavior.
+- `assign(@Nonnull Box other)`
+  - Executes `assign` behavior.
+- `assign(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)`
+  - Executes `assign` behavior.
+- `minkowskiSum(@Nonnull Box bb)`
+  - Executes `minkowskiSum` behavior.
+- `scale(float scale)`
+  - Executes `scale` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `rotateX(float angleInRadians)`
+  - Executes `rotateX` behavior.
+- `rotateY(float angleInRadians)`
+  - Executes `rotateY` behavior.
+- `rotateZ(float angleInRadians)`
+  - Executes `rotateZ` behavior.
+- `offset(double x, double y, double z)`
+  - Executes `offset` behavior.
+- `offset(@Nonnull Vector3d pos)`
+  - Executes `offset` behavior.
+- `sweep(@Nonnull Vector3d v)`
+  - Executes `sweep` behavior.
+- `extend(double extentX, double extentY, double extentZ)`
+  - Executes `extend` behavior.
+- `width()`
+  - Executes `width` behavior.
+- `height()`
+  - Executes `height` behavior.
+- `depth()`
+  - Executes `depth` behavior.
+- `dimension(@Nonnull Axis axis)`
+  - Executes `dimension` behavior.
+- `getThickness()`
+  - Executes `getThickness` behavior.
+- `getMaximumThickness()`
+  - Executes `getMaximumThickness` behavior.
+- `getVolume()`
+  - Executes `getVolume` behavior.
+- `hasVolume()`
+  - Executes `hasVolume` behavior.
+- `isIntersecting(@Nonnull Box other)`
+  - Executes `isIntersecting` behavior.
+- `isUnitBox()`
+  - Executes `isUnitBox` behavior.
+- `middleX()`
+  - Executes `middleX` behavior.
+- `middleY()`
+  - Executes `middleY` behavior.
+- `middleZ()`
+  - Executes `middleZ` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `getMin()`
+  - Executes `getMin` behavior.
+- `getMax()`
+  - Executes `getMax` behavior.
+- `getBox(double x, double y, double z)`
+  - Executes `getBox` behavior.
+- `containsPosition(double x, double y, double z)`
+  - Executes `containsPosition` behavior.
+- `expand(double radius)`
+  - Executes `expand` behavior.
+- `containsBlock(int x, int y, int z)`
+  - Executes `containsBlock` behavior.
+- `containsBlock(@Nonnull Vector3i origin, int x, int y, int z)`
+  - Executes `containsBlock` behavior.
+- `forEachBlock(double x, double y, double z, double epsilon, @Nonnull TriIntPredicate consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(double x, double y, double z, double epsilon, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `getMaximumExtent()`
+  - Executes `getMaximumExtent` behavior.
+- `intersectsLine(@Nonnull Vector3d start, @Nonnull Vector3d end)`
+  - Executes `intersectsLine` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+
+## Notes
+- No additional notes.

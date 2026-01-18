@@ -1,0 +1,118 @@
+# SpawningPlugin
+
+## Overview
+- Documentation for `SpawningPlugin`.
+- Declared as a class in `com.hypixel.hytale.server.spawning`.
+
+## Constructors
+- `SpawningPlugin(@Nonnull JavaPluginInit init)`
+  - Creates a `SpawningPlugin` instance.
+
+## Methods
+- `get()`
+  - Executes `get` behavior.
+- `setup()`
+  - Executes `setup` behavior.
+- `start()`
+  - Executes `start` behavior.
+- `shutdown()`
+  - Executes `shutdown` behavior.
+- `getSpawnMarkerSpatialResource()`
+  - Executes `getSpawnMarkerSpatialResource` behavior.
+- `getManualSpawnBeaconSpatialResource()`
+  - Executes `getManualSpawnBeaconSpatialResource` behavior.
+- `getSpawnMarkerComponentType()`
+  - Executes `getSpawnMarkerComponentType` behavior.
+- `getLocalSpawnControllerComponentType()`
+  - Executes `getLocalSpawnControllerComponentType` behavior.
+- `getWorldSpawnDataResourceType()`
+  - Executes `getWorldSpawnDataResourceType` behavior.
+- `getSpawnSuppressorComponentType()`
+  - Executes `getSpawnSuppressorComponentType` behavior.
+- `getSpawnSuppressionControllerResourceType()`
+  - Executes `getSpawnSuppressionControllerResourceType` behavior.
+- `getLocalSpawnBeaconComponentType()`
+  - Executes `getLocalSpawnBeaconComponentType` behavior.
+- `getLocalSpawnStateResourceType()`
+  - Executes `getLocalSpawnStateResourceType` behavior.
+- `getInitialBeaconDelayComponentType()`
+  - Executes `getInitialBeaconDelayComponentType` behavior.
+- `getSpawnJobDataComponentType()`
+  - Executes `getSpawnJobDataComponentType` behavior.
+- `getChunkSpawnDataComponentType()`
+  - Executes `getChunkSpawnDataComponentType` behavior.
+- `getChunkSpawnedNPCDataComponentType()`
+  - Executes `getChunkSpawnedNPCDataComponentType` behavior.
+- `getChunkSuppressionQueueResourceType()`
+  - Executes `getChunkSuppressionQueueResourceType` behavior.
+- `getFloodFillEntryPoolProviderSimpleResourceType()`
+  - Executes `getFloodFillEntryPoolProviderSimpleResourceType` behavior.
+- `getChunkSuppressionEntryComponentType()`
+  - Executes `getChunkSuppressionEntryComponentType` behavior.
+- `getBeaconSpawnWrapper(int configId)`
+  - Executes `getBeaconSpawnWrapper` behavior.
+- `getSpawnMarkerReferenceComponentType()`
+  - Executes `getSpawnMarkerReferenceComponentType` behavior.
+- `getSpawnBeaconReferenceComponentType()`
+  - Executes `getSpawnBeaconReferenceComponentType` behavior.
+- `getFloodFillPositionSelectorComponentType()`
+  - Executes `getFloodFillPositionSelectorComponentType` behavior.
+- `getSpawnMarkerBlockReferenceComponentType()`
+  - Executes `getSpawnMarkerBlockReferenceComponentType` behavior.
+- `shouldNPCDespawn(@Nonnull Store<EntityStore> store, @Nonnull NPCEntity npcComponent, @Nonnull WorldTimeResource timeManager, int configuration, boolean beaconSpawn)`
+  - Executes `shouldNPCDespawn` behavior.
+- `getSpawnMarkerModel()`
+  - Executes `getSpawnMarkerModel` behavior.
+- `getWorldEnvironmentSpawnParameters(int environmentIndex)`
+  - Executes `getWorldEnvironmentSpawnParameters` behavior.
+- `getBeaconSpawnsForEnvironment(int environmentIndex)`
+  - Executes `getBeaconSpawnsForEnvironment` behavior.
+- `getRolesForEnvironment(int environment)`
+  - Executes `getRolesForEnvironment` behavior.
+- `getTickColumnBudget()`
+  - Executes `getTickColumnBudget` behavior.
+- `getMaxActiveJobs()`
+  - Executes `getMaxActiveJobs` behavior.
+- `getLocalSpawnControllerJoinDelay()`
+  - Executes `getLocalSpawnControllerJoinDelay` behavior.
+- `validateSpawnsConfigurations(String type, @Nonnull Map<String, T> spawns, @Nonnull List<String> errors)`
+  - Executes `validateSpawnsConfigurations` behavior.
+- `validateSpawnMarkers(@Nonnull Map<String, SpawnMarker> markers, @Nonnull List<String> errors)`
+  - Executes `validateSpawnMarkers` behavior.
+- `getEnvironmentDensity(int environmentIndex)`
+  - Executes `getEnvironmentDensity` behavior.
+- `onSpawnMarkersChange(@Nonnull LoadedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`
+  - Executes `onSpawnMarkersChange` behavior.
+- `onSpawnMarkersRemove(@Nonnull RemovedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`
+  - Executes `onSpawnMarkersRemove` behavior.
+- `onEnvironmentChange(@Nonnull LoadedAssetsEvent<String, Environment, IndexedLookupTableAssetMap<String, Environment>> event)`
+  - Executes `onEnvironmentChange` behavior.
+- `onWorldNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`
+  - Executes `onWorldNPCSpawnsLoaded` behavior.
+- `onBeaconNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`
+  - Executes `onBeaconNPCSpawnsLoaded` behavior.
+- `onWorldNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`
+  - Executes `onWorldNPCSpawnsRemoved` behavior.
+- `onBeaconNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`
+  - Executes `onBeaconNPCSpawnsRemoved` behavior.
+- `onLoadedNPCEvent(@Nonnull AllNPCsLoadedEvent loadedNPCEvent)`
+  - Executes `onLoadedNPCEvent` behavior.
+- `setUpWithAllRoles()`
+  - Executes `setUpWithAllRoles` behavior.
+- `rebuildBeaconSpawnConfigurations(@Nullable IntSet changeSet)`
+  - Executes `rebuildBeaconSpawnConfigurations` behavior.
+- `onModelAssetChange(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`
+  - Executes `onModelAssetChange` behavior.
+- `onLoadAsset(@Nonnull LoadAssetEvent event)`
+  - Executes `onLoadAsset` behavior.
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+  - Executes `onEntityAdd` behavior.
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+  - Executes `onEntityRemoved` behavior.
+- `getQuery()`
+  - Executes `getQuery` behavior.
+- `getDependencies()`
+  - Executes `getDependencies` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,25 @@
+# BlockCubeUtil
+
+## Overview
+- Documentation for `BlockCubeUtil`.
+- Declared as a class in `com.hypixel.hytale.math.block`.
+
+## Constructors
+- None.
+
+## Methods
+- `forEachBlock(int originX, int originY, int originZ, int radiusX, int height, int radiusZ, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(int originX, int originY, int originZ, int radiusX, int height, int radiusZ, int thickness, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(int originX, int originY, int originZ, int radiusX, int height, int radiusZ, int thickness, boolean capped, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(int originX, int originY, int originZ, int radiusX, int height, int radiusZ, int thickness, boolean cappedTop, boolean cappedBottom, boolean hollow, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(@Nonnull Vector3i pointOne, @Nonnull Vector3i pointTwo, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+- `forEachBlock(@Nonnull Vector3i pointOne, @Nonnull Vector3i pointTwo, int thickness, boolean cappedTop, boolean cappedBottom, boolean hollow, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+  - Executes `forEachBlock` behavior.
+
+## Notes
+- No additional notes.

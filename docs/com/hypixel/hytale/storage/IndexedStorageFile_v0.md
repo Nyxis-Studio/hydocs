@@ -1,0 +1,124 @@
+# IndexedStorageFile_v0
+
+## Overview
+- Documentation for `IndexedStorageFile_v0`.
+- Declared as a class in `com.hypixel.hytale.storage`.
+
+## Constructors
+- `IndexedStorageFile_v0(path, options, attrs)`
+  - Creates a `IndexedStorageFile_v0` instance.
+- `IndexedStorageFile_v0(@Nonnull Path path, Set<? extends OpenOption> options, FileAttribute<?>[] attrs)`
+  - Creates a `IndexedStorageFile_v0` instance.
+- `IndexedStorageFile_v0(@Nonnull Path path, FileChannel fileChannel)`
+  - Creates a `IndexedStorageFile_v0` instance.
+
+## Methods
+- `getTempBuffer(int length)`
+  - Executes `getTempBuffer` behavior.
+- `allocateDirect(int length)`
+  - Executes `allocateDirect` behavior.
+- `open(@Nonnull Path path, OpenOption ... options)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, int blobCount, int segmentSize, OpenOption ... options)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, int blobCount, int segmentSize, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+  - Executes `open` behavior.
+- `getPath()`
+  - Executes `getPath` behavior.
+- `getBlobCount()`
+  - Executes `getBlobCount` behavior.
+- `getSegmentSize()`
+  - Executes `getSegmentSize` behavior.
+- `getCompressionLevel()`
+  - Executes `getCompressionLevel` behavior.
+- `setCompressionLevel(int compressionLevel)`
+  - Executes `setCompressionLevel` behavior.
+- `isContiguousBlobs()`
+  - Executes `isContiguousBlobs` behavior.
+- `setContiguousBlobs(boolean contiguousBlobs)`
+  - Executes `setContiguousBlobs` behavior.
+- `create(int blobCount, int segmentSize)`
+  - Executes `create` behavior.
+- `writeHeader(int blobCount, int segmentSize)`
+  - Executes `writeHeader` behavior.
+- `open()`
+  - Executes `open` behavior.
+- `readHeader()`
+  - Executes `readHeader` behavior.
+- `memoryMapBlobIndexes()`
+  - Executes `memoryMapBlobIndexes` behavior.
+- `readNextIndexes()`
+  - Executes `readNextIndexes` behavior.
+- `processTempIndexes()`
+  - Executes `processTempIndexes` behavior.
+- `clearSegments(int firstSegmentIndex, @Nonnull ByteBuffer tempIndexBuffer)`
+  - Executes `clearSegments` behavior.
+- `size()`
+  - Executes `size` behavior.
+- `segmentSize()`
+  - Executes `segmentSize` behavior.
+- `segmentCount()`
+  - Executes `segmentCount` behavior.
+- `keys()`
+  - Executes `keys` behavior.
+- `readBlobLength(int blobIndex)`
+  - Executes `readBlobLength` behavior.
+- `readBlobCompressedLength(int blobIndex)`
+  - Executes `readBlobCompressedLength` behavior.
+- `readBlob(int blobIndex)`
+  - Executes `readBlob` behavior.
+- `readBlob(int blobIndex, @Nonnull ByteBuffer dest)`
+  - Executes `readBlob` behavior.
+- `readBlobHeader(int firstSegmentIndex)`
+  - Executes `readBlobHeader` behavior.
+- `readSegments(int firstSegmentIndex, int compressedLength, @Nonnull ByteBuffer tempHeaderBuffer)`
+  - Executes `readSegments` behavior.
+- `writeBlob(int blobIndex, @Nonnull ByteBuffer src)`
+  - Executes `writeBlob` behavior.
+- `removeBlob(int blobIndex)`
+  - Executes `removeBlob` behavior.
+- `writeSegments(int blobIndex, @Nonnull ByteBuffer data)`
+  - Executes `writeSegments` behavior.
+- `findFreeSegment(int count)`
+  - Executes `findFreeSegment` behavior.
+- `getNextIndex(int segmentIndex)`
+  - Executes `getNextIndex` behavior.
+- `getSegmentLock(int segmentIndex)`
+  - Executes `getSegmentLock` behavior.
+- `tryWriteLockSegmentRange(int start, int count)`
+  - Executes `tryWriteLockSegmentRange` behavior.
+- `indexesLength()`
+  - Executes `indexesLength` behavior.
+- `segmentsBase()`
+  - Executes `segmentsBase` behavior.
+- `segmentOffset(int segmentIndex)`
+  - Executes `segmentOffset` behavior.
+- `segmentPosition(int segmentIndex)`
+  - Executes `segmentPosition` behavior.
+- `positionToSegment(long position)`
+  - Executes `positionToSegment` behavior.
+- `blobHeaderPosition(int segmentIndex)`
+  - Executes `blobHeaderPosition` behavior.
+- `requiredSegments(long dataLength)`
+  - Executes `requiredSegments` behavior.
+- `lock()`
+  - Executes `lock` behavior.
+- `force(boolean metaData)`
+  - Executes `force` behavior.
+- `close()`
+  - Executes `close` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `unlockRead()`
+  - Executes `unlockRead` behavior.
+- `unlockWrite()`
+  - Executes `unlockWrite` behavior.
+- `next(int len)`
+  - Executes `next` behavior.
+- `length()`
+  - Executes `length` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,108 @@
+# IndexedStorageFile
+
+## Overview
+- Documentation for `IndexedStorageFile`.
+- Declared as a class in `com.hypixel.hytale.storage`.
+
+## Constructors
+- `IndexedStorageFile(path, FileChannel.open(path, options, attrs)`
+  - Creates a `IndexedStorageFile` instance.
+- `IndexedStorageFile(path, FileChannel.open(path, newOptions, attrs)`
+  - Creates a `IndexedStorageFile` instance.
+- `IndexedStorageFile(@Nonnull Path path, @Nonnull FileChannel fileChannel)`
+  - Creates a `IndexedStorageFile` instance.
+
+## Methods
+- `getTempBuffer(int length)`
+  - Executes `getTempBuffer` behavior.
+- `allocateDirect(int length)`
+  - Executes `allocateDirect` behavior.
+- `open(@Nonnull Path path, OpenOption ... options)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, int blobCount, int segmentSize, OpenOption ... options)`
+  - Executes `open` behavior.
+- `open(@Nonnull Path path, int blobCount, int segmentSize, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+  - Executes `open` behavior.
+- `migrateV0(Path path, int blobCount, int segmentSize, Set<? extends OpenOption> options, FileAttribute<?>[] attrs, IndexedStorageFile storageFile)`
+  - Executes `migrateV0` behavior.
+- `getPath()`
+  - Executes `getPath` behavior.
+- `getBlobCount()`
+  - Executes `getBlobCount` behavior.
+- `getSegmentSize()`
+  - Executes `getSegmentSize` behavior.
+- `getCompressionLevel()`
+  - Executes `getCompressionLevel` behavior.
+- `setFlushOnWrite(boolean flushOnWrite)`
+  - Executes `setFlushOnWrite` behavior.
+- `setCompressionLevel(int compressionLevel)`
+  - Executes `setCompressionLevel` behavior.
+- `create(int blobCount, int segmentSize)`
+  - Executes `create` behavior.
+- `writeHeader(int blobCount, int segmentSize)`
+  - Executes `writeHeader` behavior.
+- `readHeader()`
+  - Executes `readHeader` behavior.
+- `memoryMapBlobIndexes()`
+  - Executes `memoryMapBlobIndexes` behavior.
+- `readUsedSegments()`
+  - Executes `readUsedSegments` behavior.
+- `size()`
+  - Executes `size` behavior.
+- `segmentSize()`
+  - Executes `segmentSize` behavior.
+- `segmentCount()`
+  - Executes `segmentCount` behavior.
+- `keys()`
+  - Executes `keys` behavior.
+- `readBlobLength(int blobIndex)`
+  - Executes `readBlobLength` behavior.
+- `readBlobCompressedLength(int blobIndex)`
+  - Executes `readBlobCompressedLength` behavior.
+- `readBlob(int blobIndex)`
+  - Executes `readBlob` behavior.
+- `readBlob(int blobIndex, @Nonnull ByteBuffer dest)`
+  - Executes `readBlob` behavior.
+- `readBlobHeader(int firstSegmentIndex)`
+  - Executes `readBlobHeader` behavior.
+- `readSegments(int firstSegmentIndex, int compressedLength)`
+  - Executes `readSegments` behavior.
+- `writeBlob(int blobIndex, @Nonnull ByteBuffer src)`
+  - Executes `writeBlob` behavior.
+- `removeBlob(int blobIndex)`
+  - Executes `removeBlob` behavior.
+- `writeSegments(@Nonnull ByteBuffer data)`
+  - Executes `writeSegments` behavior.
+- `findFreeSegment(int count)`
+  - Executes `findFreeSegment` behavior.
+- `getSegmentLock(int segmentIndex)`
+  - Executes `getSegmentLock` behavior.
+- `segmentsBase()`
+  - Executes `segmentsBase` behavior.
+- `segmentOffset(int segmentIndex)`
+  - Executes `segmentOffset` behavior.
+- `segmentPosition(int segmentIndex)`
+  - Executes `segmentPosition` behavior.
+- `positionToSegment(long position)`
+  - Executes `positionToSegment` behavior.
+- `requiredSegments(long dataLength)`
+  - Executes `requiredSegments` behavior.
+- `lock()`
+  - Executes `lock` behavior.
+- `force(boolean metaData)`
+  - Executes `force` behavior.
+- `close()`
+  - Executes `close` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `unlock()`
+  - Executes `unlock` behavior.
+- `next(int len)`
+  - Executes `next` behavior.
+- `length()`
+  - Executes `length` behavior.
+
+## Notes
+- No additional notes.

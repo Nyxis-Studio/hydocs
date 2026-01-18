@@ -1,0 +1,122 @@
+# InteractionContext
+
+## Overview
+- Documentation for `InteractionContext`.
+- Declared as a class in `com.hypixel.hytale.server.core.entity`.
+
+## Constructors
+- `InteractionContext(@Nullable InteractionManager interactionManager, @Nullable Ref<EntityStore> owningEntity, int heldItemSectionId, @Nullable ItemContainer heldItemContainer, byte heldItemSlot, @Nullable ItemStack heldItem)`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(@Nullable InteractionManager interactionManager, @Nullable Ref<EntityStore> owningEntity, @Nullable Ref<EntityStore> runningForEntity, int heldItemSectionId, @Nullable ItemContainer heldItemContainer, byte heldItemSlot, @Nullable ItemStack heldItem)`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(this.interactionManager, this.owningEntity, this.runningForEntity, this.heldItemSectionId, this.heldItemContainer, this.heldItemSlot, this.heldItem)`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(manager, entity.getReference()`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(manager, ref, -3, entityInventory.getArmor()`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(manager, ref, -5, entityInventory.getUtility()`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(manager, ref, -8, entityInventory.getTools()`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(manager, ref, -1, entityInventory.getHotbar()`
+  - Creates a `InteractionContext` instance.
+- `InteractionContext(null, null, -1, null, -1, null)`
+  - Creates a `InteractionContext` instance.
+
+## Methods
+- `fork(@Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+  - Executes `fork` behavior.
+- `fork(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+  - Executes `fork` behavior.
+- `fork(@Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+  - Executes `fork` behavior.
+- `duplicate()`
+  - Executes `duplicate` behavior.
+- `getEntity()`
+  - Executes `getEntity` behavior.
+- `getOwningEntity()`
+  - Executes `getOwningEntity` behavior.
+- `execute(@Nonnull RootInteraction nextInteraction)`
+  - Executes `execute` behavior.
+- `getChain()`
+  - Executes `getChain` behavior.
+- `getEntry()`
+  - Executes `getEntry` behavior.
+- `getOperationCounter()`
+  - Executes `getOperationCounter` behavior.
+- `setOperationCounter(int operationCounter)`
+  - Executes `setOperationCounter` behavior.
+- `jump(@Nonnull Label label)`
+  - Executes `jump` behavior.
+- `getOriginalItemType()`
+  - Executes `getOriginalItemType` behavior.
+- `getHeldItemSectionId()`
+  - Executes `getHeldItemSectionId` behavior.
+- `getHeldItemContainer()`
+  - Executes `getHeldItemContainer` behavior.
+- `getHeldItemSlot()`
+  - Executes `getHeldItemSlot` behavior.
+- `getHeldItem()`
+  - Executes `getHeldItem` behavior.
+- `setHeldItem(@Nullable ItemStack heldItem)`
+  - Executes `setHeldItem` behavior.
+- `createHeldItemContext()`
+  - Executes `createHeldItemContext` behavior.
+- `getInteractionVarsGetter()`
+  - Executes `getInteractionVarsGetter` behavior.
+- `getInteractionVars()`
+  - Executes `getInteractionVars` behavior.
+- `setInteractionVarsGetter(Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+  - Executes `setInteractionVarsGetter` behavior.
+- `getInteractionManager()`
+  - Executes `getInteractionManager` behavior.
+- `getTargetEntity()`
+  - Executes `getTargetEntity` behavior.
+- `getTargetBlock()`
+  - Executes `getTargetBlock` behavior.
+- `getMetaStore()`
+  - Executes `getMetaStore` behavior.
+- `getState()`
+  - Executes `getState` behavior.
+- `getClientState()`
+  - Executes `getClientState` behavior.
+- `getServerState()`
+  - Executes `getServerState` behavior.
+- `getInstanceStore()`
+  - Executes `getInstanceStore` behavior.
+- `allowSkipChainOnClick()`
+  - Executes `allowSkipChainOnClick` behavior.
+- `setLabels(Label[] labels)`
+  - Executes `setLabels` behavior.
+- `hasLabels()`
+  - Executes `hasLabels` behavior.
+- `getLabel(int index)`
+  - Executes `getLabel` behavior.
+- `getSnapshot(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `getSnapshot` behavior.
+- `setSnapshotProvider(@Nullable SnapshotProvider snapshotProvider)`
+  - Executes `setSnapshotProvider` behavior.
+- `setTimeShift(float shift)`
+  - Executes `setTimeShift` behavior.
+- `getCommandBuffer()`
+  - Executes `getCommandBuffer` behavior.
+- `getRootInteractionId(@Nonnull InteractionType type)`
+  - Executes `getRootInteractionId` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `forProxyEntity(InteractionManager manager, @Nonnull LivingEntity entity, Ref<EntityStore> runningForEntity)`
+  - Executes `forProxyEntity` behavior.
+- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `forInteraction` behavior.
+- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, int equipSlot, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `forInteraction` behavior.
+- `withoutEntity()`
+  - Executes `withoutEntity` behavior.
+- `defaultGetVars(@Nonnull InteractionContext c)`
+  - Executes `defaultGetVars` behavior.
+- `getSnapshot(CommandBuffer<EntityStore> var1, Ref<EntityStore> var2, int var3)`
+  - Executes `getSnapshot` behavior.
+
+## Notes
+- No additional notes.

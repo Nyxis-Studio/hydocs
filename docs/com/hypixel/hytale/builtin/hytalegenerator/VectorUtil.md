@@ -1,0 +1,95 @@
+# VectorUtil
+
+## Overview
+- Documentation for `VectorUtil`.
+- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator`.
+
+## Constructors
+- None.
+
+## Methods
+- `areasOverlap(@Nonnull Vector3d minA, @Nonnull Vector3d maxA, @Nonnull Vector3d minB, @Nonnull Vector3d maxB)`
+  - Executes `areasOverlap` behavior.
+- `distanceToSegment3d(@Nonnull Vector3d point, @Nonnull Vector3d p0, @Nonnull Vector3d p1)`
+  - Executes `distanceToSegment3d` behavior.
+- `distanceToLine3d(@Nonnull Vector3d point, @Nonnull Vector3d p0, @Nonnull Vector3d p1)`
+  - Executes `distanceToLine3d` behavior.
+- `nearestPointOnSegment3d(@Nonnull Vector3d point, @Nonnull Vector3d p0, @Nonnull Vector3d p1)`
+  - Executes `nearestPointOnSegment3d` behavior.
+- `nearestPointOnLine3d(@Nonnull Vector3d point, @Nonnull Vector3d p0, @Nonnull Vector3d p1)`
+  - Executes `nearestPointOnLine3d` behavior.
+- `shortestSegmentBetweenTwoSegments(@Nonnull Vector3d a0, @Nonnull Vector3d a1, @Nonnull Vector3d b0, @Nonnull Vector3d b1, boolean clamp, @Nonnull Vector3d p0Out, @Nonnull Vector3d p1Out)`
+  - Executes `shortestSegmentBetweenTwoSegments` behavior.
+- `shortestDistanceBetweenTwoSegments(@Nonnull Vector3d a0, @Nonnull Vector3d a1, @Nonnull Vector3d b0, @Nonnull Vector3d b1, boolean clamp)`
+  - Executes `shortestDistanceBetweenTwoSegments` behavior.
+- `determinant(@Nonnull Vector3d v1, @Nonnull Vector3d v2)`
+  - Executes `determinant` behavior.
+- `determinant(@Nonnull Vector3d a, @Nonnull Vector3d b, @Nonnull Vector3d c)`
+  - Executes `determinant` behavior.
+- `distanceAndNearestPointOnSegment3d(@Nonnull Vector3d point, @Nonnull Vector3d p0, @Nonnull Vector3d p1)`
+  - Executes `distanceAndNearestPointOnSegment3d` behavior.
+- `angle(@Nonnull Vector3d a, @Nonnull Vector3d b)`
+  - Executes `angle` behavior.
+- `rotateAroundAxis(@Nonnull Vector3d vec, @Nonnull Vector3d axis, double theta)`
+  - Executes `rotateAroundAxis` behavior.
+- `rotateVectorByAxisAngle(@Nonnull Vector3d vec, @Nonnull Vector3d axis, double angle)`
+  - Executes `rotateVectorByAxisAngle` behavior.
+- `isInside(@Nonnull Vector3i point, @Nonnull Vector3i min, @Nonnull Vector3i max)`
+  - Executes `isInside` behavior.
+- `isInside(@Nonnull Vector3d point, @Nonnull Vector3d min, @Nonnull Vector3d max)`
+  - Executes `isInside` behavior.
+- `isAnySmaller(@Nonnull Vector3d point, @Nonnull Vector3d limit)`
+  - Executes `isAnySmaller` behavior.
+- `isSmaller(@Nonnull Vector3d point, @Nonnull Vector3d limit)`
+  - Executes `isSmaller` behavior.
+- `isAnyGreater(@Nonnull Vector3d point, @Nonnull Vector3d limit)`
+  - Executes `isAnyGreater` behavior.
+- `isAnySmaller(@Nonnull Vector3i point, @Nonnull Vector3i limit)`
+  - Executes `isAnySmaller` behavior.
+- `isAnyGreater(@Nonnull Vector3i point, @Nonnull Vector3i limit)`
+  - Executes `isAnyGreater` behavior.
+- `isInside(@Nonnull Vector2d point, @Nonnull Vector2d min, @Nonnull Vector2d max)`
+  - Executes `isInside` behavior.
+- `isAnySmaller(@Nonnull Vector2d point, @Nonnull Vector2d limit)`
+  - Executes `isAnySmaller` behavior.
+- `isSmaller(@Nonnull Vector2d point, @Nonnull Vector2d limit)`
+  - Executes `isSmaller` behavior.
+- `isAnyGreater(@Nonnull Vector2d point, @Nonnull Vector2d limit)`
+  - Executes `isAnyGreater` behavior.
+- `isAnySmaller(@Nonnull Vector2i point, @Nonnull Vector2i limit)`
+  - Executes `isAnySmaller` behavior.
+- `isSmaller(@Nonnull Vector2i point, @Nonnull Vector2i limit)`
+  - Executes `isSmaller` behavior.
+- `isAnyGreater(@Nonnull Vector2i point, @Nonnull Vector2i limit)`
+  - Executes `isAnyGreater` behavior.
+- `fromOperation(@Nonnull Vector3i v1, @Nonnull Vector3i v2, @Nonnull BiOperation3i operation)`
+  - Executes `fromOperation` behavior.
+- `fromOperation(@Nonnull NakedOperation3i operation)`
+  - Executes `fromOperation` behavior.
+- `bitShiftRight(int shift, @Nonnull Vector3i vector)`
+  - Executes `bitShiftRight` behavior.
+- `bitShiftLeft(int shift, @Nonnull Vector3i vector)`
+  - Executes `bitShiftLeft` behavior.
+- `orderByDistanceFrom(@Nonnull Vector2i origin, @Nonnull List<Vector2i> vectors)`
+  - Executes `orderByDistanceFrom` behavior.
+- `getIndex()`
+  - Executes `getIndex` behavior.
+- `from(@Nonnull Vector3i vec)`
+  - Executes `from` behavior.
+- `from(@Nonnull Vector2i vec)`
+  - Executes `from` behavior.
+- `from(@Nonnull Vector3d vec)`
+  - Executes `from` behavior.
+- `from(@Nonnull Vector2d vec)`
+  - Executes `from` behavior.
+- `ofIndex(int index)`
+  - Executes `ofIndex` behavior.
+- `run(int var1, int var2, @Nonnull Retriever var3)`
+  - Executes `run` behavior.
+- `run(@Nonnull Retriever var1)`
+  - Executes `run` behavior.
+- `run(int var1, @Nonnull Retriever var2)`
+  - Executes `run` behavior.
+
+## Notes
+- No additional notes.

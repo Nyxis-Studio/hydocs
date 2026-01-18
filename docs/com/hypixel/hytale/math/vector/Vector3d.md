@@ -1,0 +1,182 @@
+# Vector3d
+
+## Overview
+- Documentation for `Vector3d`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector3d(0.0, 0.0, 0.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d()`
+  - Creates a `Vector3d` instance.
+- `Vector3d(@Nonnull Vector3d v)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(@Nonnull Vector3i v)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(double x, double y, double z)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(float yaw, float pitch)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(@Nonnull Random random, double length)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(x0, y0, z0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(this.x, this.y, this.z)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(Math.max(a.x, b.x)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(Math.min(a.x, b.x)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(a.x + t * (b.x - a.x)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(0.0, 1.0, 0.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(0.0, -1.0, 0.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(0.0, 0.0, -1.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(0.0, 0.0, 1.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(1.0, 0.0, 0.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(-1.0, 0.0, 0.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(1.0, 1.0, 1.0)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(-1.7976931348623157E308, -1.7976931348623157E308, -1.7976931348623157E308)`
+  - Creates a `Vector3d` instance.
+- `Vector3d(Double.MAX_VALUE, Double.MAX_VALUE, Double.MAX_VALUE)`
+  - Creates a `Vector3d` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(double x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(double y)`
+  - Executes `setY` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `setZ(double z)`
+  - Executes `setZ` behavior.
+- `assign(@Nonnull Vector3d v)`
+  - Executes `assign` behavior.
+- `assign(double v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull double[] v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull float[] v)`
+  - Executes `assign` behavior.
+- `assign(double yaw, double pitch)`
+  - Executes `assign` behavior.
+- `assign(double x, double y, double z)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector3d v)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3i v)`
+  - Executes `add` behavior.
+- `add(double x, double y, double z)`
+  - Executes `add` behavior.
+- `add(double value)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector3d v, double s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector3d v)`
+  - Executes `subtract` behavior.
+- `subtract(@Nonnull Vector3i v)`
+  - Executes `subtract` behavior.
+- `subtract(double x, double y, double z)`
+  - Executes `subtract` behavior.
+- `subtract(double value)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(double s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector3d p)`
+  - Executes `scale` behavior.
+- `cross(@Nonnull Vector3d v)`
+  - Executes `cross` behavior.
+- `cross(@Nonnull Vector3d v, @Nonnull Vector3d res)`
+  - Executes `cross` behavior.
+- `dot(@Nonnull Vector3d other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector3d v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(@Nonnull Vector3i v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(double x, double y, double z)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3d v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3i v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(double x, double y, double z)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(double newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(double maxLength)`
+  - Executes `clampLength` behavior.
+- `rotateX(float angle)`
+  - Executes `rotateX` behavior.
+- `rotateY(float angle)`
+  - Executes `rotateY` behavior.
+- `rotateZ(float angle)`
+  - Executes `rotateZ` behavior.
+- `floor()`
+  - Executes `floor` behavior.
+- `ceil()`
+  - Executes `ceil` behavior.
+- `clipToZero(double epsilon)`
+  - Executes `clipToZero` behavior.
+- `closeToZero(double epsilon)`
+  - Executes `closeToZero` behavior.
+- `isInside(int x, int y, int z)`
+  - Executes `isInside` behavior.
+- `isFinite()`
+  - Executes `isFinite` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `equals(@Nullable Vector3d o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `max(@Nonnull Vector3d a, @Nonnull Vector3d b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector3d a, @Nonnull Vector3d b)`
+  - Executes `min` behavior.
+- `lerp(@Nonnull Vector3d a, @Nonnull Vector3d b, double t)`
+  - Executes `lerp` behavior.
+- `lerpUnclamped(@Nonnull Vector3d a, @Nonnull Vector3d b, double t)`
+  - Executes `lerpUnclamped` behavior.
+- `directionTo(@Nonnull Vector3d from, @Nonnull Vector3d to)`
+  - Executes `directionTo` behavior.
+- `directionTo(@Nonnull Vector3i from, @Nonnull Vector3d to)`
+  - Executes `directionTo` behavior.
+- `add(@Nonnull Vector3d one, @Nonnull Vector3d two)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3d one, @Nonnull Vector3d two, @Nonnull Vector3d three)`
+  - Executes `add` behavior.
+- `formatShortString(@Nullable Vector3d v)`
+  - Executes `formatShortString` behavior.
+- `toVector3i()`
+  - Executes `toVector3i` behavior.
+- `toVector3f()`
+  - Executes `toVector3f` behavior.
+
+## Notes
+- No additional notes.

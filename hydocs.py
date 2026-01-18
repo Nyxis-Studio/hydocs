@@ -13,6 +13,8 @@ import argparse
 import subprocess
 import time
 import threading
+import hashlib
+from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List, Optional, Tuple
@@ -75,6 +77,8 @@ class JavaClass:
         self.imports = []
         self.source_file = ""
         self.output_file = ""
+        self.source_hash = ""
+        self.generated_at = ""
 
 class JavaMethod:
     def __init__(self):
@@ -84,12 +88,23 @@ class JavaMethod:
         self.modifiers = []
         self.throws = []
         self.generic_params = ""
+        self.is_constructor = False
 
 class JavaField:
     def __init__(self):
         self.name = ""
         self.type = ""
         self.modifiers = []
+
+class CustomDocs:
+    """Parsed custom documentation content."""
+    def __init__(self):
+        self.overview = ""
+        self.field_descriptions: Dict[str, str] = {}
+        self.constructor_descriptions: Dict[str, str] = {}
+        self.method_descriptions: Dict[str, str] = {}
+        self.usage_notes = ""
+        self.examples = ""
 
 class ClassIndex:
     """Global index of all classes for link resolution."""
@@ -148,6 +163,40 @@ class ClassIndex:
         return None
 
 
+# --- Hash Functions ---
+def calculate_file_hash(filepath: str) -> str:
+    """Calculates SHA256 hash of a file."""
+    sha256_hash = hashlib.sha256()
+    try:
+        with open(filepath, 'rb') as f:
+            # Read file in chunks to handle large files
+            for chunk in iter(lambda: f.read(4096), b""):
+                sha256_hash.update(chunk)
+        return sha256_hash.hexdigest()
+    except Exception:
+        return ""
+
+def load_hash_index(output_dir: str) -> Dict[str, str]:
+    """Loads the hash index from previous build."""
+    hash_file = os.path.join(output_dir, "hashes.json")
+    if not os.path.exists(hash_file):
+        return {}
+
+    try:
+        with open(hash_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_hash_index(output_dir: str, hash_index: Dict[str, str]):
+    """Saves the hash index for future builds."""
+    hash_file = os.path.join(output_dir, "hashes.json")
+    try:
+        with open(hash_file, 'w', encoding='utf-8') as f:
+            json.dump(hash_index, f, indent=2, sort_keys=True)
+    except Exception as e:
+        print(f"Warning: Failed to save hash index: {e}")
+
 # --- Parsing Functions ---
 def parse_java_file(filepath: str) -> Optional[JavaClass]:
     """Parse a Java file and extract class information."""
@@ -159,6 +208,8 @@ def parse_java_file(filepath: str) -> Optional[JavaClass]:
 
     java_class = JavaClass()
     java_class.source_file = filepath
+    java_class.source_hash = calculate_file_hash(filepath)
+    java_class.generated_at = datetime.now().astimezone().isoformat()
 
     # Extract package
     pkg_match = PACKAGE_PATTERN.search(content)
@@ -245,6 +296,10 @@ def parse_java_file(filepath: str) -> Optional[JavaClass]:
         if method.return_type in ('if', 'for', 'while', 'switch', 'try', 'catch', 'synchronized', 'new'):
             continue
 
+        # Detect constructors (same name as class, no return type keywords)
+        if method.name == java_class.name:
+            method.is_constructor = True
+
         if visibility: method.modifiers.append(visibility)
         if match.group(2): method.modifiers.append("static")
         if match.group(3): method.modifiers.append("final")
@@ -285,10 +340,120 @@ def parse_java_file(filepath: str) -> Optional[JavaClass]:
 
 
 # --- Generation Functions ---
-def make_type_link(type_str: str, index: ClassIndex, current_pkg: str, imports: List[str], current_file: str) -> str:
-    """Converts a type name into a Markdown link if resolved."""
-    if not type_str: return type_str
+def parse_custom_docs(custom_file: str) -> Optional[CustomDocs]:
+    """Parses custom documentation file and extracts descriptions."""
+    if not os.path.exists(custom_file):
+        return None
 
+    try:
+        with open(custom_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+    except Exception:
+        return None
+
+    docs = CustomDocs()
+
+    # Extract Overview
+    overview_match = re.search(r'##\s+Overview\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if overview_match:
+        docs.overview = overview_match.group(1).strip()
+
+    # Extract Field Descriptions
+    field_section = re.search(r'##\s+Field Descriptions\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if field_section:
+        for line in field_section.group(1).split('\n'):
+            match = re.match(r'-\s+`([^`]+)`:\s*(.+)', line.strip())
+            if match:
+                docs.field_descriptions[match.group(1)] = match.group(2).strip()
+
+    # Extract Constructor Descriptions
+    ctor_section = re.search(r'##\s+Constructor Descriptions\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if ctor_section:
+        for line in ctor_section.group(1).split('\n'):
+            match = re.match(r'-\s+`([^`]+)`:\s*(.+)', line.strip())
+            if match:
+                docs.constructor_descriptions[match.group(1)] = match.group(2).strip()
+
+    # Extract Method Descriptions
+    method_section = re.search(r'##\s+Method Descriptions\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if method_section:
+        for line in method_section.group(1).split('\n'):
+            match = re.match(r'-\s+`([^`]+)`:\s*(.+)', line.strip())
+            if match:
+                docs.method_descriptions[match.group(1)] = match.group(2).strip()
+
+    # Extract Usage Notes
+    usage_match = re.search(r'##\s+Usage Notes\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if usage_match:
+        docs.usage_notes = usage_match.group(1).strip()
+
+    # Extract Examples
+    examples_match = re.search(r'##\s+Examples\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL)
+    if examples_match:
+        docs.examples = examples_match.group(1).strip()
+
+    return docs
+
+def get_full_qualified_name(type_name: str, current_pkg: str, imports: List[str], index: ClassIndex) -> str:
+    """Gets the full qualified name for a type."""
+    # Remove generics/arrays
+    base_type = re.sub(r'<.*>', '', type_name).strip()
+    base_type = base_type.replace('[]', '').strip()
+
+    # Skip primitives
+    if base_type in ('void', 'int', 'long', 'short', 'byte', 'float', 'double', 'boolean', 'char'):
+        return ""
+
+    # Check if it's already a full name
+    if '.' in base_type:
+        return base_type
+
+    # Try to resolve from index
+    if base_type in index.full_names:
+        return base_type
+
+    # Try current package
+    full_current = f"{current_pkg}.{base_type}"
+    if full_current in index.full_names:
+        return full_current
+
+    # Try imports
+    for imp in imports:
+        if imp.endswith(f".{base_type}"):
+            return imp
+        elif imp.endswith(".*"):
+            pkg = imp[:-2]
+            full_imp = f"{pkg}.{base_type}"
+            if full_imp in index.full_names:
+                return full_imp
+
+    # Java standard library types
+    if base_type in ('String', 'Object', 'Class', 'Void', 'Integer', 'Long', 'Short',
+                     'Byte', 'Float', 'Double', 'Boolean', 'Character'):
+        return f"java.lang.{base_type}"
+    if base_type in ('List', 'Map', 'Set', 'Collection', 'ArrayList', 'HashMap', 'HashSet'):
+        return f"java.util.{base_type}"
+    if base_type in ('Optional', 'Stream'):
+        return f"java.util.{base_type}"
+    if base_type in ('Consumer', 'Supplier', 'Function', 'Predicate', 'BiFunction',
+                     'BiConsumer', 'Runnable', 'Callable'):
+        return f"java.util.function.{base_type}" if base_type not in ('Runnable', 'Callable') else f"java.lang.{base_type}"
+
+    return ""
+
+def make_type_link(type_str: str, index: ClassIndex, current_pkg: str, imports: List[str], current_file: str) -> Tuple[str, str]:
+    """Converts a type name into a Markdown link and returns (link, fqn).
+
+    Returns:
+        Tuple of (markdown_link, full_qualified_name)
+    """
+    if not type_str:
+        return ("", "")
+
+    # Get FQN
+    fqn = get_full_qualified_name(type_str, current_pkg, imports, index)
+
+    # Build link
     result = type_str
     for match in TYPE_REFERENCE_PATTERN.finditer(type_str):
         type_name = match.group(1)
@@ -297,34 +462,60 @@ def make_type_link(type_str: str, index: ClassIndex, current_pkg: str, imports: 
         if resolved and resolved != current_file:
             current_dir = os.path.dirname(current_file)
             rel_path = os.path.relpath(resolved, current_dir)
-            result = result.replace(type_name, f"[{type_name}]({rel_path})", 1)
+            result = result.replace(type_name, f"[`{type_name}`]({rel_path})", 1)
+        elif type_name not in ('void', 'int', 'long', 'short', 'byte', 'float', 'double', 'boolean', 'char'):
+            # Non-linked type, still wrap in backticks
+            result = result.replace(type_name, f"`{type_name}`", 1)
 
-    return result
+    return (result, fqn)
 
 def generate_class_markdown(java_class: JavaClass, index: ClassIndex, output_root: str, custom_root: str) -> str:
-    """Generates the Markdown content for a single class."""
+    """Generates the Markdown content for a single class following the new improved template."""
     lines = []
 
-    # Header
+    # Parse custom documentation
+    rel_path = os.path.relpath(java_class.output_file, output_root)
+    custom_file = os.path.join(custom_root, rel_path)
+    custom_docs = parse_custom_docs(custom_file)
+
+    # Track related types for "Related Types" section
+    related_types = set()
+
+    # ========== HEADER ==========
     lines.append(f"# {java_class.name}")
     lines.append("")
-    lines.append(f"**Path:** `{os.path.relpath(java_class.output_file, output_root)}`")
-    lines.append("")
-    lines.append(f"**Package:** `{java_class.package}`")
-    lines.append("")
-    lines.append(f"**Full Name:** `{java_class.full_name}`")
+    lines.append(f"**Full Qualified Name:** `{java_class.full_name}`")
     lines.append("")
     lines.append(f"**Type:** {java_class.type}")
     lines.append("")
+    lines.append(f"**Package:** `{java_class.package}`")
+    lines.append("")
+    lines.append(f"**File Location:** `{rel_path}`")
+    lines.append("")
 
-    # Source link (approximated)
-    rel_src = os.path.relpath(java_class.source_file, output_root)
-    lines.append(f"**Source:** [{java_class.name}.java]({rel_src})")
+    # Build metadata
+    if java_class.source_hash:
+        lines.append(f"**Source Hash:** `{java_class.source_hash}`")
+        lines.append("")
+    if java_class.generated_at:
+        lines.append(f"**Generated At:** `{java_class.generated_at}`")
+        lines.append("")
+
+    lines.append("---")
+    lines.append("")
+
+    # ========== OVERVIEW ==========
+    lines.append("## Overview")
+    lines.append("")
+    if custom_docs and custom_docs.overview:
+        lines.append(custom_docs.overview)
+    else:
+        lines.append(f"Documentation for {java_class.type} `{java_class.name}`.")
     lines.append("")
     lines.append("---")
     lines.append("")
 
-    # Declaration
+    # ========== DECLARATION ==========
     lines.append("## Declaration")
     lines.append("")
     lines.append("```java")
@@ -337,52 +528,63 @@ def generate_class_markdown(java_class: JavaClass, index: ClassIndex, output_roo
     lines.append(decl)
     lines.append("```")
     lines.append("")
-    
-    # --- Custom Documentation Injection ---
-    rel_path = os.path.relpath(java_class.output_file, output_root)
-    custom_file = os.path.join(custom_root, rel_path)
-    
-    if os.path.exists(custom_file):
-        try:
-            with open(custom_file, 'r', encoding='utf-8') as f:
-                custom_content = f.read()
-            lines.append("## 📝 Custom Documentation")
-            lines.append("")
-            lines.append(custom_content)
-            lines.append("")
-            lines.append("---")
-            lines.append("")
-        except Exception as e:
-            print(f"Warning: Failed to read custom docs for {java_class.name}: {e}")
 
-    # Hierarchy
+    # ========== HIERARCHY ==========
+    lines.append("## Hierarchy")
+    lines.append("")
+
     if java_class.extends:
-        ext_link = make_type_link(java_class.extends, index, java_class.package, java_class.imports, java_class.output_file)
-        lines.append(f"**Extends:** `{ext_link}`")
-        lines.append("")
+        ext_link, ext_fqn = make_type_link(java_class.extends, index, java_class.package, java_class.imports, java_class.output_file)
+        if ext_fqn:
+            lines.append(f"**Extends:** {ext_link} - `{ext_fqn}`")
+            related_types.add(ext_fqn)
+        else:
+            lines.append(f"**Extends:** `{java_class.extends}`")
+    else:
+        lines.append("**Extends:** `java.lang.Object`")
+    lines.append("")
 
     if java_class.implements:
-        impl_links = []
+        lines.append("**Implements:**")
         for impl in java_class.implements:
-            impl_link = make_type_link(impl, index, java_class.package, java_class.imports, java_class.output_file)
-            impl_links.append(f"`{impl_link}`")
-        lines.append(f"**Implements:** {', '.join(impl_links)}")
+            impl_link, impl_fqn = make_type_link(impl, index, java_class.package, java_class.imports, java_class.output_file)
+            if impl_fqn:
+                lines.append(f"- {impl_link} - `{impl_fqn}`")
+                related_types.add(impl_fqn)
+            else:
+                lines.append(f"- `{impl}`")
+        lines.append("")
+    else:
+        lines.append("**Implements:** None")
+        lines.append("")
+
+    lines.append("**Known Subclasses:** None")
+    lines.append("")
+
+    if java_class.type == "interface":
+        lines.append("**Known Implementations:** None")
         lines.append("")
 
     lines.append("---")
     lines.append("")
 
-    # Enum Constants
+    # ========== ENUM CONSTANTS ==========
     if java_class.enum_constants:
         lines.append("## Enum Constants")
         lines.append("")
+        lines.append("| Constant | Description |")
+        lines.append("|----------|-------------|")
         for const in java_class.enum_constants:
-            lines.append(f"- `{const}`")
+            # Check for custom description
+            desc = ""
+            if custom_docs and const in custom_docs.field_descriptions:
+                desc = custom_docs.field_descriptions[const]
+            lines.append(f"| `{const}` | {desc} |")
         lines.append("")
         lines.append("---")
         lines.append("")
 
-    # Fields
+    # ========== FIELDS ==========
     public_fields = [f for f in java_class.fields
                      if "public" in f.modifiers or "protected" in f.modifiers or java_class.type == "interface"]
     if public_fields:
@@ -390,60 +592,217 @@ def generate_class_markdown(java_class: JavaClass, index: ClassIndex, output_roo
         lines.append("")
         for field in public_fields:
             mods = " ".join(field.modifiers) if field.modifiers else ""
-            type_link = make_type_link(field.type, index, java_class.package, java_class.imports, java_class.output_file)
+            type_link, type_fqn = make_type_link(field.type, index, java_class.package, java_class.imports, java_class.output_file)
+
+            if type_fqn and type_fqn.startswith(BASE_PACKAGE):
+                related_types.add(type_fqn)
+
             lines.append(f"### `{field.name}`")
             lines.append("")
-            lines.append(f"- **Type:** `{type_link}`")
+            lines.append("```java")
+            lines.append(f"{mods} {field.type} {field.name}".strip())
+            lines.append("```")
+            lines.append("")
+
+            if type_fqn:
+                lines.append(f"- **Type:** {type_link} - `{type_fqn}`")
+            else:
+                lines.append(f"- **Type:** `{field.type}` (primitive)")
+
             if mods:
                 lines.append(f"- **Modifiers:** `{mods}`")
+
+            # Add custom description if available
+            if custom_docs and field.name in custom_docs.field_descriptions:
+                lines.append(f"- **Description:** {custom_docs.field_descriptions[field.name]}")
+
             lines.append("")
+
         lines.append("---")
         lines.append("")
 
-    # Methods
+    # ========== CONSTRUCTORS ==========
+    constructors = [m for m in java_class.methods
+                    if m.is_constructor and ("public" in m.modifiers or "protected" in m.modifiers)]
+    if constructors:
+        lines.append("## Constructors")
+        lines.append("")
+        for ctor in constructors:
+            mods = " ".join(ctor.modifiers) if ctor.modifiers else ""
+
+            # Build parameter signature
+            param_sig = ", ".join(f"{p[0]} {p[1]}" for p in ctor.parameters)
+            sig_key = f"{ctor.name}({param_sig})"
+
+            lines.append(f"### `{ctor.name}(...)`")
+            lines.append("")
+            lines.append("```java")
+            sig = f"{mods} {ctor.name}({param_sig})"
+            if ctor.throws:
+                sig += f" throws {', '.join(ctor.throws)}"
+            lines.append(sig.strip())
+            lines.append("```")
+            lines.append("")
+
+            if ctor.parameters:
+                lines.append("**Parameters:**")
+                for ptype, pname in ctor.parameters:
+                    ptype_link, ptype_fqn = make_type_link(ptype, index, java_class.package, java_class.imports, java_class.output_file)
+                    if ptype_fqn and ptype_fqn.startswith(BASE_PACKAGE):
+                        related_types.add(ptype_fqn)
+
+                    if ptype_fqn:
+                        lines.append(f"- `{pname}`: {ptype_link} - `{ptype_fqn}`")
+                    else:
+                        lines.append(f"- `{pname}`: `{ptype}`")
+                lines.append("")
+
+            if ctor.throws:
+                lines.append("**Throws:**")
+                for throw in ctor.throws:
+                    throw_link, throw_fqn = make_type_link(throw, index, java_class.package, java_class.imports, java_class.output_file)
+                    if throw_fqn and throw_fqn.startswith(BASE_PACKAGE):
+                        related_types.add(throw_fqn)
+
+                    if throw_fqn:
+                        lines.append(f"- {throw_link} - `{throw_fqn}`")
+                    else:
+                        lines.append(f"- `{throw}`")
+                lines.append("")
+
+            # Add custom description if available
+            if custom_docs and sig_key in custom_docs.constructor_descriptions:
+                lines.append(f"**Description:** {custom_docs.constructor_descriptions[sig_key]}")
+                lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+    # ========== METHODS ==========
     public_methods = [m for m in java_class.methods
-                      if "public" in m.modifiers or "protected" in m.modifiers or java_class.type == "interface"]
+                      if not m.is_constructor and ("public" in m.modifiers or "protected" in m.modifiers or java_class.type == "interface")]
     if public_methods:
         lines.append("## Methods")
         lines.append("")
         for method in public_methods:
             mods = " ".join(method.modifiers) if method.modifiers else ""
-            return_link = make_type_link(method.return_type, index, java_class.package, java_class.imports, java_class.output_file)
+            return_link, return_fqn = make_type_link(method.return_type, index, java_class.package, java_class.imports, java_class.output_file)
+
+            if return_fqn and return_fqn.startswith(BASE_PACKAGE):
+                related_types.add(return_fqn)
+
+            # Build parameter signature for lookup
+            param_sig = ", ".join(f"{p[0]} {p[1]}" for p in method.parameters)
+            sig_key = f"{method.name}({param_sig})"
 
             lines.append(f"### `{method.name}(...)`")
             lines.append("")
             lines.append("```java")
-            sig = f"{mods} {method.return_type} {method.name}({', '.join(f'{p[0]} {p[1]}' for p in method.parameters)})"
+            sig = f"{mods} {method.return_type} {method.name}({param_sig})"
             if method.throws:
                 sig += f" throws {', '.join(method.throws)}"
             lines.append(sig.strip())
             lines.append("```")
             lines.append("")
-            lines.append(f"- **Returns:** `{return_link}`")
-            if method.parameters:
-                lines.append("- **Parameters:**")
-                for ptype, pname in method.parameters:
-                    ptype_link = make_type_link(ptype, index, java_class.package, java_class.imports, java_class.output_file)
-                    lines.append(f"  - `{pname}`: `{ptype_link}`")
-            if method.throws:
-                throw_links = [make_type_link(t, index, java_class.package, java_class.imports, java_class.output_file)
-                               for t in method.throws]
-                lines.append(f"- **Throws:** {', '.join(f'`{t}`' for t in throw_links)})")
+
+            # Returns
+            if return_fqn:
+                lines.append(f"**Returns:** {return_link} - `{return_fqn}`")
+            else:
+                lines.append(f"**Returns:** `{method.return_type}`")
             lines.append("")
 
-    # Navigation
+            # Parameters
+            if method.parameters:
+                lines.append("**Parameters:**")
+                for ptype, pname in method.parameters:
+                    ptype_link, ptype_fqn = make_type_link(ptype, index, java_class.package, java_class.imports, java_class.output_file)
+                    if ptype_fqn and ptype_fqn.startswith(BASE_PACKAGE):
+                        related_types.add(ptype_fqn)
+
+                    if ptype_fqn:
+                        lines.append(f"- `{pname}`: {ptype_link} - `{ptype_fqn}`")
+                    else:
+                        lines.append(f"- `{pname}`: `{ptype}`")
+                lines.append("")
+
+            # Throws
+            if method.throws:
+                lines.append("**Throws:**")
+                for throw in method.throws:
+                    throw_link, throw_fqn = make_type_link(throw, index, java_class.package, java_class.imports, java_class.output_file)
+                    if throw_fqn and throw_fqn.startswith(BASE_PACKAGE):
+                        related_types.add(throw_fqn)
+
+                    if throw_fqn:
+                        lines.append(f"- {throw_link} - `{throw_fqn}`")
+                    else:
+                        lines.append(f"- `{throw}`")
+                lines.append("")
+
+            # Modifiers
+            if mods:
+                lines.append(f"**Modifiers:** `{mods}`")
+                lines.append("")
+
+            # Add custom description if available
+            if custom_docs and sig_key in custom_docs.method_descriptions:
+                lines.append(f"**Description:** {custom_docs.method_descriptions[sig_key]}")
+                lines.append("")
+
+    # ========== RELATED TYPES ==========
+    if related_types:
+        lines.append("---")
+        lines.append("")
+        lines.append("## Related Types")
+        lines.append("")
+        lines.append("**Uses:**")
+        for related in sorted(related_types):
+            simple_name = related.split('.')[-1]
+            resolved = index.resolve(simple_name, java_class.package, java_class.imports)
+            if resolved:
+                current_dir = os.path.dirname(java_class.output_file)
+                rel_path_link = os.path.relpath(resolved, current_dir)
+                lines.append(f"- [`{simple_name}`]({rel_path_link}) - `{related}`")
+            else:
+                lines.append(f"- `{related}`")
+        lines.append("")
+
+    # ========== USAGE NOTES & EXAMPLES ==========
+    if custom_docs:
+        if custom_docs.usage_notes:
+            lines.append("---")
+            lines.append("")
+            lines.append("## Usage Notes")
+            lines.append("")
+            lines.append(custom_docs.usage_notes)
+            lines.append("")
+
+        if custom_docs.examples:
+            lines.append("---")
+            lines.append("")
+            lines.append("## Examples")
+            lines.append("")
+            lines.append(custom_docs.examples)
+            lines.append("")
+
+    # ========== NAVIGATION ==========
     lines.append("---")
     lines.append("")
     lines.append("## Navigation")
     lines.append("")
-    
+
     pkg_index = os.path.join(output_root, java_class.package.replace('.', '/'), "_index.md")
     rel_pkg_index = os.path.relpath(pkg_index, os.path.dirname(java_class.output_file))
     lines.append(f"- [📦 Package Index (`{java_class.package}`)]({rel_pkg_index})")
-    
+
     main_index = os.path.join(output_root, "INDEX.md")
     rel_main_index = os.path.relpath(main_index, os.path.dirname(java_class.output_file))
     lines.append(f"- [📚 Main Index]({rel_main_index})")
+
+    class_lookup = os.path.join(output_root, "class_lookup.json")
+    rel_class_lookup = os.path.relpath(class_lookup, os.path.dirname(java_class.output_file))
+    lines.append(f"- [🔍 Class Lookup JSON]({rel_class_lookup})")
     lines.append("")
 
     return "\n".join(lines)
@@ -564,9 +923,16 @@ def decompile_jar(jar_path: str, src_dir: str, lib_dir: str):
             print(f"\r❌ Decompilation failed: {e}")
             sys.exit(1)
 
-def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str):
+def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str, skip_unchanged: bool = False):
     """Orchestrates the documentation generation."""
     print(f"🔍 Scanning Java files in {src_dir}...")
+
+    # Load previous hash index
+    previous_hashes = {}
+    if skip_unchanged:
+        previous_hashes = load_hash_index(output_dir)
+        if previous_hashes:
+            print(f"📋 Loaded {len(previous_hashes)} previous file hashes...")
     java_files = []
     base_pkg_path = BASE_PACKAGE.replace('.', os.sep)
     
@@ -604,24 +970,50 @@ def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str):
         print(f"\r✅ Indexed {len(all_classes)} classes.       ")
 
     print(f"📝 Generating Markdown in {output_dir} (custom docs from {custom_docs_dir})...")
-    if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
-    os.makedirs(output_dir)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    # Track statistics
+    new_hash_index = {}
+    stats = {
+        'total': len(all_classes),
+        'generated': 0,
+        'skipped': 0,
+        'changed': 0
+    }
 
     for i, java_class in enumerate(all_classes):
         if not IS_CI and i % 100 == 0:
-            sys.stdout.write(f"\r   Writing {i}/{len(all_classes)}")
+            sys.stdout.write(f"\r   Writing {i}/{len(all_classes)} (skipped: {stats['skipped']})")
             sys.stdout.flush()
+
+        # Check if file changed
+        current_hash = java_class.source_hash
+        new_hash_index[java_class.full_name] = current_hash
+
+        if skip_unchanged and java_class.full_name in previous_hashes:
+            if previous_hashes[java_class.full_name] == current_hash:
+                # File unchanged, skip regeneration if output exists
+                if os.path.exists(java_class.output_file):
+                    stats['skipped'] += 1
+                    continue
+                # Output missing, regenerate even though source unchanged
+            else:
+                stats['changed'] += 1
 
         os.makedirs(os.path.dirname(java_class.output_file), exist_ok=True)
         content = generate_class_markdown(java_class, index, output_dir, custom_docs_dir)
         with open(java_class.output_file, 'w', encoding='utf-8') as f:
             f.write(content)
+        stats['generated'] += 1
 
     if IS_CI:
-        print(f"✅ Written {len(all_classes)} markdown files")
+        print(f"✅ Generated {stats['generated']} files (skipped {stats['skipped']} unchanged, {stats['changed']} changed)")
     else:
-        print(f"\r✅ Written {len(all_classes)} markdown files.      ")
+        print(f"\r✅ Generated {stats['generated']} files (skipped {stats['skipped']} unchanged, {stats['changed']} changed).      ")
+
+    # Save hash index
+    save_hash_index(output_dir, new_hash_index)
 
     print("📚 Generating Package Indexes...")
     for pkg, classes in classes_by_package.items():
@@ -695,7 +1087,8 @@ def main():
     parser.add_argument("--skip-decomp", action="store_true", help="Skip decompilation step")
     parser.add_argument("--only-decomp", action="store_true", help="Only perform decompilation")
     parser.add_argument("--only-docs", action="store_true", help="Only generate docs")
-    
+    parser.add_argument("--skip-unchanged", action="store_true", help="Skip regenerating files that haven't changed (based on source hash)")
+
     args = parser.parse_args()
     
     cwd = os.getcwd()
@@ -726,7 +1119,7 @@ def main():
         print("⏩ Skipping decompilation step...")
 
     if not skip_docs:
-        run_generation(src_full_path, out_full_path, custom_full_path)
+        run_generation(src_full_path, out_full_path, custom_full_path, args.skip_unchanged)
     else:
         print("⏩ Skipping documentation generation...")
         

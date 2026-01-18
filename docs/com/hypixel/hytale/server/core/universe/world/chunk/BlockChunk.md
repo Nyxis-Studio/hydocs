@@ -1,0 +1,144 @@
+# BlockChunk
+
+## Overview
+- Documentation for `BlockChunk`.
+- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk`.
+
+## Constructors
+- `BlockChunk()`
+  - Creates a `BlockChunk` instance.
+- `BlockChunk(int x, int z)`
+  - Creates a `BlockChunk` instance.
+- `BlockChunk(int x, int z, ShortBytePalette height, IntBytePalette tint, EnvironmentChunk environments)`
+  - Creates a `BlockChunk` instance.
+- `BlockChunk(ShortBytePalette height, IntBytePalette tint, EnvironmentChunk environments, BlockSection[] chunkSections)`
+  - Creates a `BlockChunk` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `load(int x, int z)`
+  - Executes `load` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `cloneSerializable()`
+  - Executes `cloneSerializable` behavior.
+- `getIndex()`
+  - Executes `getIndex` behavior.
+- `getX()`
+  - Executes `getX` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `getEnvironmentChunk()`
+  - Executes `getEnvironmentChunk` behavior.
+- `setEnvironmentChunk(EnvironmentChunk environmentChunk)`
+  - Executes `setEnvironmentChunk` behavior.
+- `getHeight(int x, int z)`
+  - Executes `getHeight` behavior.
+- `getHeight(int index)`
+  - Executes `getHeight` behavior.
+- `setHeight(int x, int z, short height)`
+  - Executes `setHeight` behavior.
+- `updateHeightmap()`
+  - Executes `updateHeightmap` behavior.
+- `updateHeight(int x, int z)`
+  - Executes `updateHeight` behavior.
+- `updateHeight(int x, int z, short startY)`
+  - Executes `updateHeight` behavior.
+- `loadFromHolder(@Nonnull Holder<ChunkStore> holder)`
+  - Executes `loadFromHolder` behavior.
+- `getSectionAtIndex(int index)`
+  - Executes `getSectionAtIndex` behavior.
+- `getSectionAtBlockY(int y)`
+  - Executes `getSectionAtBlockY` behavior.
+- `getChunkSections()`
+  - Executes `getChunkSections` behavior.
+- `getSectionCount()`
+  - Executes `getSectionCount` behavior.
+- `getTint(int x, int z)`
+  - Executes `getTint` behavior.
+- `setTint(int x, int z, int tint)`
+  - Executes `setTint` behavior.
+- `getEnvironment(@Nonnull Vector3d position)`
+  - Executes `getEnvironment` behavior.
+- `getEnvironment(@Nonnull Vector3i position)`
+  - Executes `getEnvironment` behavior.
+- `getEnvironment(int x, int y, int z)`
+  - Executes `getEnvironment` behavior.
+- `getEnvironmentColumn(int x, int z)`
+  - Executes `getEnvironmentColumn` behavior.
+- `setEnvironment(int x, int y, int z, int environment)`
+  - Executes `setEnvironment` behavior.
+- `getRedBlockLight(int x, int y, int z)`
+  - Executes `getRedBlockLight` behavior.
+- `getGreenBlockLight(int x, int y, int z)`
+  - Executes `getGreenBlockLight` behavior.
+- `getBlueBlockLight(int x, int y, int z)`
+  - Executes `getBlueBlockLight` behavior.
+- `getBlockLight(int x, int y, int z)`
+  - Executes `getBlockLight` behavior.
+- `getSkyLight(int x, int y, int z)`
+  - Executes `getSkyLight` behavior.
+- `getBlockLightIntensity(int x, int y, int z)`
+  - Executes `getBlockLightIntensity` behavior.
+- `getBlock(int x, int y, int z)`
+  - Executes `getBlock` behavior.
+- `setBlock(int x, int y, int z, int blockId, int rotation, int filler)`
+  - Executes `setBlock` behavior.
+- `contains(int blockId)`
+  - Executes `contains` behavior.
+- `count(int blockId)`
+  - Executes `count` behavior.
+- `blockCounts()`
+  - Executes `blockCounts` behavior.
+- `blocks()`
+  - Executes `blocks` behavior.
+- `blockCount()`
+  - Executes `blockCount` behavior.
+- `preTick(Instant gameTime)`
+  - Executes `preTick` behavior.
+- `forEachTicking(T t, V v, ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`
+  - Executes `forEachTicking` behavior.
+- `mergeTickingBlocks()`
+  - Executes `mergeTickingBlocks` behavior.
+- `setTicking(int x, int y, int z, boolean ticking)`
+  - Executes `setTicking` behavior.
+- `isTicking(int x, int y, int z)`
+  - Executes `isTicking` behavior.
+- `getTickingBlocksCount()`
+  - Executes `getTickingBlocksCount` behavior.
+- `setNeighbourBlocksTicking(int x, int y, int z)`
+  - Executes `setNeighbourBlocksTicking` behavior.
+- `markNeedsSaving()`
+  - Executes `markNeedsSaving` behavior.
+- `getNeedsSaving()`
+  - Executes `getNeedsSaving` behavior.
+- `consumeNeedsSaving()`
+  - Executes `consumeNeedsSaving` behavior.
+- `markNeedsPhysics()`
+  - Executes `markNeedsPhysics` behavior.
+- `consumeNeedsPhysics()`
+  - Executes `consumeNeedsPhysics` behavior.
+- `invalidateChunkSection(int sectionIndex)`
+  - Executes `invalidateChunkSection` behavior.
+- `takeMigratedSections()`
+  - Executes `takeMigratedSections` behavior.
+- `getMigratedSections()`
+  - Executes `getMigratedSections` behavior.
+- `serialize(ExtraInfo extraInfo)`
+  - Executes `serialize` behavior.
+- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`
+  - Executes `deserialize` behavior.
+- `getCachedHeightmapPacket()`
+  - Executes `getCachedHeightmapPacket` behavior.
+- `getCachedTintsPacket()`
+  - Executes `getCachedTintsPacket` behavior.
+- `getCachedEnvironmentsPacket()`
+  - Executes `getCachedEnvironmentsPacket` behavior.
+- `getQuery()`
+  - Executes `getQuery` behavior.
+- `fetch(int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, Store<ChunkStore> store, CommandBuffer<ChunkStore> commandBuffer, PlayerRef player, @Nonnull List<CompletableFuture<Packet>> results)`
+  - Executes `fetch` behavior.
+
+## Notes
+- No additional notes.

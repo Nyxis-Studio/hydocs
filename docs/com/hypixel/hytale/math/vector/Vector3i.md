@@ -1,0 +1,134 @@
+# Vector3i
+
+## Overview
+- Documentation for `Vector3i`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector3i(0, 0, 0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i()`
+  - Creates a `Vector3i` instance.
+- `Vector3i(@Nonnull Vector3i v)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(int x, int y, int z)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(x0, y0, z0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(this.x, this.y, this.z)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(Math.max(a.x, b.x)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(Math.min(a.x, b.x)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(0, 1, 0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(0, -1, 0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(0, 0, -1)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(0, 0, 1)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(1, 0, 0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(-1, 0, 0)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(1, 1, 1)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE)`
+  - Creates a `Vector3i` instance.
+- `Vector3i(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE)`
+  - Creates a `Vector3i` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(int x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(int y)`
+  - Executes `setY` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `setZ(int z)`
+  - Executes `setZ` behavior.
+- `assign(@Nonnull Vector3i v)`
+  - Executes `assign` behavior.
+- `assign(int v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull int[] v)`
+  - Executes `assign` behavior.
+- `assign(int x, int y, int z)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector3i v)`
+  - Executes `add` behavior.
+- `add(int x, int y, int z)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector3i v, int s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector3i v)`
+  - Executes `subtract` behavior.
+- `subtract(int x, int y, int z)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(int s)`
+  - Executes `scale` behavior.
+- `scale(double s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector3i p)`
+  - Executes `scale` behavior.
+- `cross(@Nonnull Vector3i v)`
+  - Executes `cross` behavior.
+- `cross(@Nonnull Vector3i v, @Nonnull Vector3i res)`
+  - Executes `cross` behavior.
+- `dot(@Nonnull Vector3i other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector3i v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(int x, int y, int z)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3i v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(int x, int y, int z)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(int newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(int maxLength)`
+  - Executes `clampLength` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `toVector3d()`
+  - Executes `toVector3d` behavior.
+- `toVector3f()`
+  - Executes `toVector3f` behavior.
+- `toVector3l()`
+  - Executes `toVector3l` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `max(@Nonnull Vector3i a, @Nonnull Vector3i b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector3i a, @Nonnull Vector3i b)`
+  - Executes `min` behavior.
+- `directionTo(@Nonnull Vector3i from, @Nonnull Vector3i to)`
+  - Executes `directionTo` behavior.
+- `add(@Nonnull Vector3i one, @Nonnull Vector3i two)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3i one, @Nonnull Vector3i two, @Nonnull Vector3i three)`
+  - Executes `add` behavior.
+
+## Notes
+- No additional notes.

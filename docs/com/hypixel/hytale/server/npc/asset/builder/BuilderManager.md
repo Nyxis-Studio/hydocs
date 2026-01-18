@@ -1,0 +1,132 @@
+# BuilderManager
+
+## Overview
+- Documentation for `BuilderManager`.
+- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
+
+## Constructors
+- `BuilderManager()`
+  - Creates a `BuilderManager` instance.
+
+## Methods
+- `registerFactory(@Nonnull BuilderFactory<T> factory)`
+  - Executes `registerFactory` behavior.
+- `addCategory(String name, Class<?> clazz)`
+  - Executes `addCategory` behavior.
+- `getCategoryName(@Nonnull Class<?> factoryClass)`
+  - Executes `getCategoryName` behavior.
+- `getIndex(@Nullable String name)`
+  - Executes `getIndex` behavior.
+- `setAutoReload(boolean autoReload)`
+  - Executes `setAutoReload` behavior.
+- `lookupName(int index)`
+  - Executes `lookupName` behavior.
+- `getOrCreateIndex(String name)`
+  - Executes `getOrCreateIndex` behavior.
+- `tryGetBuilderInfo(int builderIndex)`
+  - Executes `tryGetBuilderInfo` behavior.
+- `unloadBuilders(AssetPack pack)`
+  - Executes `unloadBuilders` behavior.
+- `visitFile(@Nonnull Path file, @Nonnull BasicFileAttributes attrs)`
+  - Executes `visitFile` behavior.
+- `loadBuilders(@Nonnull AssetPack pack, final boolean includeTests)`
+  - Executes `loadBuilders` behavior.
+- `finishLoadingBuilders(@Nonnull Int2ObjectOpenHashMap<BuilderInfo> loadedBuilders, @Nonnull List<String> errors)`
+  - Executes `finishLoadingBuilders` behavior.
+- `assetEditorLoadFile(@Nonnull Path fileName)`
+  - Executes `assetEditorLoadFile` behavior.
+- `assetEditorRemoveFile(@Nonnull Path filePath)`
+  - Executes `assetEditorRemoveFile` behavior.
+- `loadFile(@Nonnull Path fileName, boolean reloading, @Nonnull List<String> errors)`
+  - Executes `loadFile` behavior.
+- `loadFile(@Nonnull Path fileName, @Nonnull List<String> errors, @Nullable Object2IntMap<String> typeCounter, boolean includeTests, boolean reloading)`
+  - Executes `loadFile` behavior.
+- `validateBuilder(@Nonnull BuilderInfo builderInfo)`
+  - Executes `validateBuilder` behavior.
+- `getFactory(@Nonnull Class<?> clazz)`
+  - Executes `getFactory` behavior.
+- `getCachedBuilderInfo(int index, @Nonnull Class<?> classType)`
+  - Executes `getCachedBuilderInfo` behavior.
+- `tryGetCachedValidBuilder(int index, @Nonnull Class<?> classType)`
+  - Executes `tryGetCachedValidBuilder` behavior.
+- `getCachedBuilder(int index, @Nonnull Class<?> classType)`
+  - Executes `getCachedBuilder` behavior.
+- `isEmpty()`
+  - Executes `isEmpty` behavior.
+- `getAllBuilders()`
+  - Executes `getAllBuilders` behavior.
+- `getNameToIndexMap()`
+  - Executes `getNameToIndexMap` behavior.
+- `findMatchingBuilder(@Nonnull BiPredicate<BuilderInfo, T> filter, T t)`
+  - Executes `findMatchingBuilder` behavior.
+- `getBuilderInfo(Builder<?> builder)`
+  - Executes `getBuilderInfo` behavior.
+- `getTemplateNames()`
+  - Executes `getTemplateNames` behavior.
+- `forceValidation(int builderIndex)`
+  - Executes `forceValidation` behavior.
+- `checkIfDeprecated(@Nonnull Builder<?> builder, @Nonnull BuilderFactory<?> builderFactory, @Nonnull JsonElement element, String fileName, String context)`
+  - Executes `checkIfDeprecated` behavior.
+- `generateSchema(@Nonnull SchemaContext context)`
+  - Executes `generateSchema` behavior.
+- `generateDescriptors()`
+  - Executes `generateDescriptors` behavior.
+- `saveDescriptors(List<BuilderDescriptor> builderDescriptors, @Nonnull Path fileName)`
+  - Executes `saveDescriptors` behavior.
+- `tryGetCachedValidRole(int builderIndex)`
+  - Executes `tryGetCachedValidRole` behavior.
+- `validateAllLoadedBuilders(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders, boolean validateDependents, @Nonnull List<String> errors)`
+  - Executes `validateAllLoadedBuilders` behavior.
+- `onAllBuildersLoaded(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders)`
+  - Executes `onAllBuildersLoaded` behavior.
+- `onBuilderReloaded(@Nonnull BuilderInfo builderInfo)`
+  - Executes `onBuilderReloaded` behavior.
+- `getPlayerGroupID()`
+  - Executes `getPlayerGroupID` behavior.
+- `getSelfGroupID()`
+  - Executes `getSelfGroupID` behavior.
+- `onBuilderAdded(@Nonnull BuilderInfo builderInfo)`
+  - Executes `onBuilderAdded` behavior.
+- `isDependant(@Nonnull Builder<?> builder, int builderIndex, int dependencyIndex)`
+  - Executes `isDependant` behavior.
+- `cacheBuilder(String name, Builder<?> builder, Path path)`
+  - Executes `cacheBuilder` behavior.
+- `removeBuilder(int index)`
+  - Executes `removeBuilder` behavior.
+- `removeBuilder(String name)`
+  - Executes `removeBuilder` behavior.
+- `tryGetCachedBuilderInfo(int index, @Nonnull Class<?> classType)`
+  - Executes `tryGetCachedBuilderInfo` behavior.
+- `validateAllSpawnableNPCs(@Nonnull Int2ObjectMap<BuilderInfo> builders, @Nonnull List<String> errors)`
+  - Executes `validateAllSpawnableNPCs` behavior.
+- `sendReloadNotification(Message message, @Nonnull Set<String> builders)`
+  - Executes `sendReloadNotification` behavior.
+- `isIgnoredFile(@Nonnull Path path)`
+  - Executes `isIgnoredFile` behavior.
+- `isJsonFile(@Nonnull Path path)`
+  - Executes `isJsonFile` behavior.
+- `isJsonFileName(@Nonnull Path path, EventKind eventKind)`
+  - Executes `isJsonFileName` behavior.
+- `builderNameFromPath(@Nonnull Path path)`
+  - Executes `builderNameFromPath` behavior.
+- `buildPathString(@Nonnull IntArrayList path, int index)`
+  - Executes `buildPathString` behavior.
+- `validateBuilder(@Nonnull BuilderInfo builderInfo, @Nonnull IntSet validatedDependencies, @Nonnull IntArrayList path)`
+  - Executes `validateBuilder` behavior.
+- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex)`
+  - Executes `computeAllDependencies` behavior.
+- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`
+  - Executes `computeAllDependencies` behavior.
+- `iterateDependencies(@Nonnull IntIterator iterator, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`
+  - Executes `iterateDependencies` behavior.
+- `reloadDependants(int dependency)`
+  - Executes `reloadDependants` behavior.
+- `getKey()`
+  - Executes `getKey` behavior.
+- `test(Path path, EventKind eventKind)`
+  - Executes `test` behavior.
+- `accept(Map<Path, EventKind> map)`
+  - Executes `accept` behavior.
+
+## Notes
+- No additional notes.

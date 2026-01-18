@@ -1,0 +1,34 @@
+# ItemWithAllMetadata
+
+## Overview
+- Documentation for `ItemWithAllMetadata`.
+- Declared as a class in `com.hypixel.hytale.protocol`.
+
+## Constructors
+- `ItemWithAllMetadata()`
+  - Creates a `ItemWithAllMetadata` instance.
+- `ItemWithAllMetadata(@Nonnull String itemId, int quantity, double durability, double maxDurability, boolean overrideDroppedItemAnimation, @Nullable String metadata)`
+  - Creates a `ItemWithAllMetadata` instance.
+- `ItemWithAllMetadata(@Nonnull ItemWithAllMetadata other)`
+  - Creates a `ItemWithAllMetadata` instance.
+
+## Methods
+- `deserialize(@Nonnull ByteBuf buf, int offset)`
+  - Executes `deserialize` behavior.
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+  - Executes `computeBytesConsumed` behavior.
+- `serialize(@Nonnull ByteBuf buf)`
+  - Executes `serialize` behavior.
+- `computeSize()`
+  - Executes `computeSize` behavior.
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+  - Executes `validateStructure` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(Object obj)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+
+## Notes
+- No additional notes.

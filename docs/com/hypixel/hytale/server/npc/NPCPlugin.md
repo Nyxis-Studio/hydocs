@@ -1,0 +1,172 @@
+# NPCPlugin
+
+## Overview
+- Documentation for `NPCPlugin`.
+- Declared as a class in `com.hypixel.hytale.server.npc`.
+
+## Constructors
+- `NPCPlugin(@Nonnull JavaPluginInit init)`
+  - Creates a `NPCPlugin` instance.
+
+## Methods
+- `get()`
+  - Executes `get` behavior.
+- `setup()`
+  - Executes `setup` behavior.
+- `onSchemaGenerate(@Nonnull GenerateSchemaEvent event)`
+  - Executes `onSchemaGenerate` behavior.
+- `start()`
+  - Executes `start` behavior.
+- `getBlackboardResourceType()`
+  - Executes `getBlackboardResourceType` behavior.
+- `getSortBufferProviderResourceResourceType()`
+  - Executes `getSortBufferProviderResourceResourceType` behavior.
+- `getAStarNodePoolProviderSimpleResourceType()`
+  - Executes `getAStarNodePoolProviderSimpleResourceType` behavior.
+- `getNpcSpatialResource()`
+  - Executes `getNpcSpatialResource` behavior.
+- `getBeaconSupportComponentType()`
+  - Executes `getBeaconSupportComponentType` behavior.
+- `getNpcBlockEventSupportComponentType()`
+  - Executes `getNpcBlockEventSupportComponentType` behavior.
+- `getPlayerBlockEventSupportComponentType()`
+  - Executes `getPlayerBlockEventSupportComponentType` behavior.
+- `getNpcEntityEventSupportComponentType()`
+  - Executes `getNpcEntityEventSupportComponentType` behavior.
+- `getPlayerEntityEventSupportComponentType()`
+  - Executes `getPlayerEntityEventSupportComponentType` behavior.
+- `getStepComponentType()`
+  - Executes `getStepComponentType` behavior.
+- `getFailedSpawnComponentType()`
+  - Executes `getFailedSpawnComponentType` behavior.
+- `getTimersComponentType()`
+  - Executes `getTimersComponentType` behavior.
+- `getStateEvaluatorComponentType()`
+  - Executes `getStateEvaluatorComponentType` behavior.
+- `getValueStoreComponentType()`
+  - Executes `getValueStoreComponentType` behavior.
+- `setupNPCLoading()`
+  - Executes `setupNPCLoading` behavior.
+- `getPresetCoverageTestNPCs()`
+  - Executes `getPresetCoverageTestNPCs` behavior.
+- `spawnNPC(@Nonnull Store<EntityStore> store, @Nonnull String npcType, @Nullable String groupType, @Nonnull Vector3d position, @Nonnull Vector3f rotation)`
+  - Executes `spawnNPC` behavior.
+- `reloadNPCsWithRole(int roleIndex)`
+  - Executes `reloadNPCsWithRole` behavior.
+- `onNPCGroupsLoaded(LoadedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`
+  - Executes `onNPCGroupsLoaded` behavior.
+- `onNPCGroupsRemoved(RemovedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`
+  - Executes `onNPCGroupsRemoved` behavior.
+- `onAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`
+  - Executes `onAttitudeGroupsLoaded` behavior.
+- `onAttitudeGroupsRemoved(RemovedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`
+  - Executes `onAttitudeGroupsRemoved` behavior.
+- `onItemAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`
+  - Executes `onItemAttitudeGroupsLoaded` behavior.
+- `onItemAttitudeGroupsRemoved(RemovedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`
+  - Executes `onItemAttitudeGroupsRemoved` behavior.
+- `putItemAttitudeGroups()`
+  - Executes `putItemAttitudeGroups` behavior.
+- `onPathChange(WorldPathChangedEvent event)`
+  - Executes `onPathChange` behavior.
+- `getPathChangeRevision()`
+  - Executes `getPathChangeRevision` behavior.
+- `onNPCsLoaded(AllNPCsLoadedEvent event)`
+  - Executes `onNPCsLoaded` behavior.
+- `putNPCGroups()`
+  - Executes `putNPCGroups` behavior.
+- `putAttitudeGroups()`
+  - Executes `putAttitudeGroups` behavior.
+- `getName(int builderIndex)`
+  - Executes `getName` behavior.
+- `getIndex(String builderName)`
+  - Executes `getIndex` behavior.
+- `tryGetCachedValidRole(int roleIndex)`
+  - Executes `tryGetCachedValidRole` behavior.
+- `getBuilderInfo(Builder<?> builder)`
+  - Executes `getBuilderInfo` behavior.
+- `getRoleTemplateNames(boolean spawnableOnly)`
+  - Executes `getRoleTemplateNames` behavior.
+- `hasRoleName(String roleName)`
+  - Executes `hasRoleName` behavior.
+- `validateSpawnableRole(String roleName)`
+  - Executes `validateSpawnableRole` behavior.
+- `getRoleBuilderInfo(int roleIndex)`
+  - Executes `getRoleBuilderInfo` behavior.
+- `setBuilderInvalid(int builderIndex)`
+  - Executes `setBuilderInvalid` behavior.
+- `getAttitudeMap()`
+  - Executes `getAttitudeMap` behavior.
+- `getItemAttitudeMap()`
+  - Executes `getItemAttitudeMap` behavior.
+- `testAndValidateRole(@Nullable BuilderInfo builderInfo)`
+  - Executes `testAndValidateRole` behavior.
+- `forceValidation(int builderIndex)`
+  - Executes `forceValidation` behavior.
+- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, Model spawnModel, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+  - Executes `spawnEntity` behavior.
+- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, @Nullable Vector3f rotation, @Nullable Model spawnModel, @Nullable TriConsumer<NPCEntity, Holder<EntityStore>, Store<EntityStore>> preAddToWorld, @Nullable TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+  - Executes `spawnEntity` behavior.
+- `prepareRoleBuilderInfo(int roleIndex)`
+  - Executes `prepareRoleBuilderInfo` behavior.
+- `buildRole(@Nonnull Builder<Role> roleBuilder, @Nonnull BuilderInfo builderInfo, @Nonnull BuilderSupport builderSupport, int roleIndex)`
+  - Executes `buildRole` behavior.
+- `onModelsChanged(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`
+  - Executes `onModelsChanged` behavior.
+- `generateDescriptors()`
+  - Executes `generateDescriptors` behavior.
+- `saveDescriptors()`
+  - Executes `saveDescriptors` behavior.
+- `getBuilderManager()`
+  - Executes `getBuilderManager` behavior.
+- `getMaxBlackboardBlockCountPerType()`
+  - Executes `getMaxBlackboardBlockCountPerType` behavior.
+- `isLogFailingTestErrors()`
+  - Executes `isLogFailingTestErrors` behavior.
+- `startRoleBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<TimeDistributionRecorder>> onFinished)`
+  - Executes `startRoleBenchmark` behavior.
+- `collectRoleTick(int roleIndex, long nanos)`
+  - Executes `collectRoleTick` behavior.
+- `isBenchmarkingRole()`
+  - Executes `isBenchmarkingRole` behavior.
+- `startSensorSupportBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<SensorSupportBenchmark>> onFinished)`
+  - Executes `startSensorSupportBenchmark` behavior.
+- `isBenchmarkingSensorSupport()`
+  - Executes `isBenchmarkingSensorSupport` behavior.
+- `isBenchmarking()`
+  - Executes `isBenchmarking` behavior.
+- `collectSensorSupportPlayerList(int roleIndex, long getNanos, double maxPlayerDistanceSorted, double maxPlayerDistance, double maxPlayerDistanceAvoidance, int numPlayers)`
+  - Executes `collectSensorSupportPlayerList` behavior.
+- `collectSensorSupportEntityList(int roleIndex, long getNanos, double maxEntityDistanceSorted, double maxEntityDistance, double maxEntityDistanceAvoidance, int numEntities)`
+  - Executes `collectSensorSupportEntityList` behavior.
+- `collectSensorSupportLosTest(int roleIndex, boolean cacheHit, long time)`
+  - Executes `collectSensorSupportLosTest` behavior.
+- `collectSensorSupportInverseLosTest(int roleIndex, boolean cacheHit)`
+  - Executes `collectSensorSupportInverseLosTest` behavior.
+- `collectSensorSupportFriendlyBlockingTest(int roleIndex, boolean cacheHit)`
+  - Executes `collectSensorSupportFriendlyBlockingTest` behavior.
+- `collectSensorSupportTickDone(int roleIndex)`
+  - Executes `collectSensorSupportTickDone` behavior.
+- `registerCoreComponentType(String name, @Nonnull Supplier<Builder<T>> builder)`
+  - Executes `registerCoreComponentType` behavior.
+- `setRoleBuilderNeedsReload(Builder<?> builder)`
+  - Executes `setRoleBuilderNeedsReload` behavior.
+- `registerCoreFactories()`
+  - Executes `registerCoreFactories` behavior.
+- `onBalanceAssetsChanged(@Nonnull LoadedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`
+  - Executes `onBalanceAssetsChanged` behavior.
+- `onBalanceAssetsRemoved(@Nonnull RemovedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`
+  - Executes `onBalanceAssetsRemoved` behavior.
+- `isGenerateDescriptors()`
+  - Executes `isGenerateDescriptors` behavior.
+- `isGenerateDescriptorsFile()`
+  - Executes `isGenerateDescriptorsFile` behavior.
+- `isAutoReload()`
+  - Executes `isAutoReload` behavior.
+- `isValidateBuilder()`
+  - Executes `isValidateBuilder` behavior.
+- `getMaxBlackboardBlockType()`
+  - Executes `getMaxBlackboardBlockType` behavior.
+
+## Notes
+- No additional notes.

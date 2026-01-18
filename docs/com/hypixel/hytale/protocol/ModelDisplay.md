@@ -1,0 +1,34 @@
+# ModelDisplay
+
+## Overview
+- Documentation for `ModelDisplay`.
+- Declared as a class in `com.hypixel.hytale.protocol`.
+
+## Constructors
+- `ModelDisplay()`
+  - Creates a `ModelDisplay` instance.
+- `ModelDisplay(@Nullable String node, @Nullable String attachTo, @Nullable Vector3f translation, @Nullable Vector3f rotation, @Nullable Vector3f scale)`
+  - Creates a `ModelDisplay` instance.
+- `ModelDisplay(@Nonnull ModelDisplay other)`
+  - Creates a `ModelDisplay` instance.
+
+## Methods
+- `deserialize(@Nonnull ByteBuf buf, int offset)`
+  - Executes `deserialize` behavior.
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+  - Executes `computeBytesConsumed` behavior.
+- `serialize(@Nonnull ByteBuf buf)`
+  - Executes `serialize` behavior.
+- `computeSize()`
+  - Executes `computeSize` behavior.
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+  - Executes `validateStructure` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(Object obj)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+
+## Notes
+- No additional notes.

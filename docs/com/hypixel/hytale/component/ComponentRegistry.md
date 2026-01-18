@@ -1,0 +1,208 @@
+# ComponentRegistry
+
+## Overview
+- Documentation for `ComponentRegistry`.
+- Declared as a class in `com.hypixel.hytale.component`.
+
+## Constructors
+- `ComponentRegistry()`
+  - Creates a `ComponentRegistry` instance.
+
+## Methods
+- `isShutdown()`
+  - Executes `isShutdown` behavior.
+- `shutdown()`
+  - Executes `shutdown` behavior.
+- `getDataUpdateLock()`
+  - Executes `getDataUpdateLock` behavior.
+- `getUnknownComponentType()`
+  - Executes `getUnknownComponentType` behavior.
+- `getNonTickingComponentType()`
+  - Executes `getNonTickingComponentType` behavior.
+- `getNonSerializedComponentType()`
+  - Executes `getNonSerializedComponentType` behavior.
+- `getHolderSystemType()`
+  - Executes `getHolderSystemType` behavior.
+- `getRefSystemType()`
+  - Executes `getRefSystemType` behavior.
+- `getQuerySystemType()`
+  - Executes `getQuerySystemType` behavior.
+- `getTickingSystemType()`
+  - Executes `getTickingSystemType` behavior.
+- `getTickableSystemType()`
+  - Executes `getTickableSystemType` behavior.
+- `getRunWhenPausedSystemType()`
+  - Executes `getRunWhenPausedSystemType` behavior.
+- `getArchetypeTickingSystemType()`
+  - Executes `getArchetypeTickingSystemType` behavior.
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`
+  - Executes `registerComponent` behavior.
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`
+  - Executes `registerComponent` behavior.
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec, boolean skipValidation)`
+  - Executes `registerComponent` behavior.
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nullable String id, @Nullable BuilderCodec<T> codec, @Nonnull Supplier<T> supplier, boolean skipValidation)`
+  - Executes `registerComponent` behavior.
+- `unregisterComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `unregisterComponent` behavior.
+- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`
+  - Executes `registerResource` behavior.
+- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`
+  - Executes `registerResource` behavior.
+- `registerResource(@Nonnull Class<? super T> tClass, @Nullable String id, @Nullable BuilderCodec<T> codec, @Nonnull Supplier<T> supplier)`
+  - Executes `registerResource` behavior.
+- `unregisterResource(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `unregisterResource` behavior.
+- `registerSystemType(@Nonnull Class<? super T> systemTypeClass)`
+  - Executes `registerSystemType` behavior.
+- `unregisterSystemType(@Nonnull SystemType<ECS_TYPE, T> systemType)`
+  - Executes `unregisterSystemType` behavior.
+- `registerEntityEventType(@Nonnull Class<? super T> eventTypeClass)`
+  - Executes `registerEntityEventType` behavior.
+- `registerWorldEventType(@Nonnull Class<? super T> eventTypeClass)`
+  - Executes `registerWorldEventType` behavior.
+- `unregisterEntityEventType(@Nonnull EntityEventType<ECS_TYPE, T> eventType)`
+  - Executes `unregisterEntityEventType` behavior.
+- `unregisterWorldEventType(@Nonnull WorldEventType<ECS_TYPE, T> eventType)`
+  - Executes `unregisterWorldEventType` behavior.
+- `registerSystemGroup()`
+  - Executes `registerSystemGroup` behavior.
+- `registerSystemGroup(Set<Dependency<ECS_TYPE>> dependencies)`
+  - Executes `registerSystemGroup` behavior.
+- `unregisterSystemGroup(@Nonnull SystemGroup<ECS_TYPE> systemGroup)`
+  - Executes `unregisterSystemGroup` behavior.
+- `registerSystem(@Nonnull ISystem<ECS_TYPE> system)`
+  - Executes `registerSystem` behavior.
+- `registerSystem(@Nonnull ISystem<ECS_TYPE> system, boolean bypassClassCheck)`
+  - Executes `registerSystem` behavior.
+- `unregisterSystem(@Nonnull Class<? extends ISystem<ECS_TYPE>> systemClass)`
+  - Executes `unregisterSystem` behavior.
+- `registerSpatialResource(@Nonnull Supplier<SpatialStructure<Ref<ECS_TYPE>>> supplier)`
+  - Executes `registerSpatialResource` behavior.
+- `addStore(@Nonnull ECS_TYPE externalData, @Nonnull IResourceStorage resourceStorage)`
+  - Executes `addStore` behavior.
+- `addStore(@Nonnull ECS_TYPE externalData, @Nonnull IResourceStorage resourceStorage, Consumer<Store<ECS_TYPE>> consumer)`
+  - Executes `addStore` behavior.
+- `removeStore(@Nonnull Store<ECS_TYPE> store)`
+  - Executes `removeStore` behavior.
+- `newHolder()`
+  - Executes `newHolder` behavior.
+- `newHolder(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components)`
+  - Executes `newHolder` behavior.
+- `_internal_newEntityHolder()`
+  - Executes `_internal_newEntityHolder` behavior.
+- `_internal_getData()`
+  - Executes `_internal_getData` behavior.
+- `getData()`
+  - Executes `getData` behavior.
+- `getEntityCodec()`
+  - Executes `getEntityCodec` behavior.
+- `assertInStoreThread()`
+  - Executes `assertInStoreThread` behavior.
+- `deserialize(@Nonnull BsonDocument entityDocument)`
+  - Executes `deserialize` behavior.
+- `deserialize(@Nonnull BsonDocument entityDocument, int version)`
+  - Executes `deserialize` behavior.
+- `serialize(@Nonnull Holder<ECS_TYPE> holder)`
+  - Executes `serialize` behavior.
+- `hasSystem(@Nonnull ISystem<ECS_TYPE> system)`
+  - Executes `hasSystem` behavior.
+- `hasSystemClass(@Nonnull Class<T> systemClass)`
+  - Executes `hasSystemClass` behavior.
+- `hasSystemType(@Nonnull SystemType<ECS_TYPE, T> systemType)`
+  - Executes `hasSystemType` behavior.
+- `hasSystemGroup(@Nonnull SystemGroup<ECS_TYPE> group)`
+  - Executes `hasSystemGroup` behavior.
+- `registerComponent0(@Nonnull ComponentRegistration<ECS_TYPE, T> registration)`
+  - Executes `registerComponent0` behavior.
+- `registerComponent0(@Nonnull Class<? super T> tClass, @Nullable String id, @Nullable BuilderCodec<T> codec, @Nonnull Supplier<T> supplier, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `registerComponent0` behavior.
+- `unregisterComponent0(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `unregisterComponent0` behavior.
+- `registerResource0(@Nonnull ResourceRegistration<ECS_TYPE, T> registration)`
+  - Executes `registerResource0` behavior.
+- `registerResource0(@Nonnull Class<? super T> tClass, @Nullable String id, @Nullable BuilderCodec<T> codec, @Nonnull Supplier<T> supplier, @Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `registerResource0` behavior.
+- `unregisterResource0(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `unregisterResource0` behavior.
+- `registerSystemType0(@Nonnull Class<? super T> systemTypeClass)`
+  - Executes `registerSystemType0` behavior.
+- `unregisterSystemType0(@Nonnull SystemType<ECS_TYPE, T> systemType)`
+  - Executes `unregisterSystemType0` behavior.
+- `registerEntityEventType0(@Nonnull Class<? super T> eventTypeClass)`
+  - Executes `registerEntityEventType0` behavior.
+- `unregisterEntityEventType0(@Nonnull EntityEventType<ECS_TYPE, T> eventType)`
+  - Executes `unregisterEntityEventType0` behavior.
+- `getEntityEventTypeForClass(Class<T> eClass)`
+  - Executes `getEntityEventTypeForClass` behavior.
+- `registerWorldEventType0(@Nonnull Class<? super T> eventTypeClass)`
+  - Executes `registerWorldEventType0` behavior.
+- `unregisterWorldEventType0(@Nonnull WorldEventType<ECS_TYPE, T> eventType)`
+  - Executes `unregisterWorldEventType0` behavior.
+- `getWorldEventTypeForClass(Class<T> eClass)`
+  - Executes `getWorldEventTypeForClass` behavior.
+- `registerSystemGroup0(@Nonnull Set<Dependency<ECS_TYPE>> dependencies)`
+  - Executes `registerSystemGroup0` behavior.
+- `unregisterSystemGroup0(@Nonnull SystemGroup<ECS_TYPE> systemType)`
+  - Executes `unregisterSystemGroup0` behavior.
+- `registerSystem0(@Nonnull ISystem<ECS_TYPE> system)`
+  - Executes `registerSystem0` behavior.
+- `unregisterSystem0(int systemIndex, @Nonnull ISystem<ECS_TYPE> system)`
+  - Executes `unregisterSystem0` behavior.
+- `addStore0(@Nonnull ECS_TYPE externalData, @Nonnull IResourceStorage resourceStorage, Consumer<Store<ECS_TYPE>> consumer)`
+  - Executes `addStore0` behavior.
+- `removeStore0(@Nonnull Store<ECS_TYPE> store)`
+  - Executes `removeStore0` behavior.
+- `updateData0(DataChange ... dataChanges)`
+  - Executes `updateData0` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `createComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `createComponent` behavior.
+- `createCodec()`
+  - Executes `createCodec` behavior.
+- `getVersion()`
+  - Executes `getVersion` behavior.
+- `getRegistry()`
+  - Executes `getRegistry` behavior.
+- `getComponentSize()`
+  - Executes `getComponentSize` behavior.
+- `getComponentId(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`
+  - Executes `getComponentId` behavior.
+- `getComponentCodec(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `getComponentCodec` behavior.
+- `getResourceSize()`
+  - Executes `getResourceSize` behavior.
+- `getResourceId(@Nonnull ResourceType<ECS_TYPE, ?> resourceType)`
+  - Executes `getResourceId` behavior.
+- `getResourceCodec(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `getResourceCodec` behavior.
+- `createResource(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `createResource` behavior.
+- `getSystemTypeSize()`
+  - Executes `getSystemTypeSize` behavior.
+- `getSystemType(Class<? super T> systemTypeClass)`
+  - Executes `getSystemType` behavior.
+- `getSystemIndexesForType(@Nonnull SystemType<ECS_TYPE, T> systemType)`
+  - Executes `getSystemIndexesForType` behavior.
+- `getSystemSize()`
+  - Executes `getSystemSize` behavior.
+- `getSystem(int systemIndex)`
+  - Executes `getSystem` behavior.
+- `getSystem(int systemIndex, SystemType<ECS_TYPE, T> systemType)`
+  - Executes `getSystem` behavior.
+- `indexOf(ISystem<ECS_TYPE> system)`
+  - Executes `indexOf` behavior.
+- `getDataChangeCount()`
+  - Executes `getDataChangeCount` behavior.
+- `getDataChange(int index)`
+  - Executes `getDataChange` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `appendDump(@Nonnull String prefix, @Nonnull StringBuilder sb)`
+  - Executes `appendDump` behavior.
+
+## Notes
+- No additional notes.

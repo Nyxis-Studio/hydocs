@@ -1,0 +1,120 @@
+# AbstractCommand
+
+## Overview
+- Documentation for `AbstractCommand`.
+- Declared as a class in `com.hypixel.hytale.server.core.command.system`.
+
+## Constructors
+- `AbstractCommand(@Nullable String name, @Nullable String description, boolean requiresConfirmation)`
+  - Creates a `AbstractCommand` instance.
+- `AbstractCommand(@Nullable String name, @Nullable String description)`
+  - Creates a `AbstractCommand` instance.
+- `AbstractCommand(@Nullable String description)`
+  - Creates a `AbstractCommand` instance.
+
+## Methods
+- `setOwner(@Nonnull CommandOwner owner)`
+  - Executes `setOwner` behavior.
+- `canGeneratePermission()`
+  - Executes `canGeneratePermission` behavior.
+- `generatePermissionNode()`
+  - Executes `generatePermissionNode` behavior.
+- `generatePermission()`
+  - Executes `generatePermission` behavior.
+- `getPermissionGroups()`
+  - Executes `getPermissionGroups` behavior.
+- `setPermissionGroups(String ... groups)`
+  - Executes `setPermissionGroups` behavior.
+- `setPermissionGroup(@Nullable GameMode gameMode)`
+  - Executes `setPermissionGroup` behavior.
+- `getPermissionGroupsRecursive()`
+  - Executes `getPermissionGroupsRecursive` behavior.
+- `putRecursivePermissionGroups(@Nonnull Map<String, Set<String>> permissionsByGroup)`
+  - Executes `putRecursivePermissionGroups` behavior.
+- `setUnavailableInSingleplayer(boolean unavailableInSingleplayer)`
+  - Executes `setUnavailableInSingleplayer` behavior.
+- `setAllowsExtraArguments(boolean allowsExtraArguments)`
+  - Executes `setAllowsExtraArguments` behavior.
+- `matches(@Nonnull String language, @Nonnull String search, int termDepth)`
+  - Executes `matches` behavior.
+- `matches(@Nonnull String language, @Nonnull String search, int termDepth, int depth)`
+  - Executes `matches` behavior.
+- `completeRegistration()`
+  - Executes `completeRegistration` behavior.
+- `createOptionalArgumentAbbreviationMap()`
+  - Executes `createOptionalArgumentAbbreviationMap` behavior.
+- `validateVariantNumberOfRequiredParameters(@Nonnull ParseResult result)`
+  - Executes `validateVariantNumberOfRequiredParameters` behavior.
+- `validateDefaultArguments(@Nonnull ParseResult parseResult)`
+  - Executes `validateDefaultArguments` behavior.
+- `requirePermission(@Nonnull String permission)`
+  - Executes `requirePermission` behavior.
+- `getFullyQualifiedName()`
+  - Executes `getFullyQualifiedName` behavior.
+- `countParents()`
+  - Executes `countParents` behavior.
+- `addAliases(String ... aliases)`
+  - Executes `addAliases` behavior.
+- `addSubCommand(@Nonnull AbstractCommand command)`
+  - Executes `addSubCommand` behavior.
+- `addUsageVariant(@Nonnull AbstractCommand command)`
+  - Executes `addUsageVariant` behavior.
+- `acceptCall(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`
+  - Executes `acceptCall` behavior.
+- `acceptCall0(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`
+  - Executes `acceptCall0` behavior.
+- `hasPermission(@Nonnull CommandSender sender)`
+  - Executes `hasPermission` behavior.
+- `checkForExecutingSubcommands(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, int numberOfPreOptionalTokens)`
+  - Executes `checkForExecutingSubcommands` behavior.
+- `processRequiredArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`
+  - Executes `processRequiredArguments` behavior.
+- `processOptionalArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`
+  - Executes `processOptionalArguments` behavior.
+- `execute(@Nonnull CommandContext var1)`
+  - Executes `execute` behavior.
+- `getUsageString(@Nonnull CommandSender sender)`
+  - Executes `getUsageString` behavior.
+- `getUsageShort(@Nonnull CommandSender sender, boolean fullyQualify)`
+  - Executes `getUsageShort` behavior.
+- `registerRequiredArg(@Nonnull R requiredArgument)`
+  - Executes `registerRequiredArg` behavior.
+- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+  - Executes `withRequiredArg` behavior.
+- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`
+  - Executes `withRequiredArg` behavior.
+- `withListRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+  - Executes `withListRequiredArg` behavior.
+- `withDefaultArg(String name, String description, ArgumentType<D> argType, @Nullable D defaultValue, String defaultValueDescription)`
+  - Executes `withDefaultArg` behavior.
+- `withDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper, D defaultValue, @Nonnull String defaultValueDescription)`
+  - Executes `withDefaultArg` behavior.
+- `withListDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType, List<D> defaultValue, @Nonnull String defaultValueDescription)`
+  - Executes `withListDefaultArg` behavior.
+- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+  - Executes `withOptionalArg` behavior.
+- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`
+  - Executes `withOptionalArg` behavior.
+- `withListOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+  - Executes `withListOptionalArg` behavior.
+- `withFlagArg(@Nonnull String name, @Nonnull String description)`
+  - Executes `withFlagArg` behavior.
+- `isVariant()`
+  - Executes `isVariant` behavior.
+- `getName()`
+  - Executes `getName` behavior.
+- `getAliases()`
+  - Executes `getAliases` behavior.
+- `getDescription()`
+  - Executes `getDescription` behavior.
+- `getOwner()`
+  - Executes `getOwner` behavior.
+- `getPermission()`
+  - Executes `getPermission` behavior.
+- `getSubCommands()`
+  - Executes `getSubCommands` behavior.
+- `hasBeenRegistered()`
+  - Executes `hasBeenRegistered` behavior.
+
+## Notes
+- No additional notes.

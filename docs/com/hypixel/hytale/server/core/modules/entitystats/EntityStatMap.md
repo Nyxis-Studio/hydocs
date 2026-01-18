@@ -1,0 +1,94 @@
+# EntityStatMap
+
+## Overview
+- Documentation for `EntityStatMap`.
+- Declared as a class in `com.hypixel.hytale.server.core.modules.entitystats`.
+
+## Constructors
+- `EntityStatMap()`
+  - Creates a `EntityStatMap` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `size()`
+  - Executes `size` behavior.
+- `get(int index)`
+  - Executes `get` behavior.
+- `get(String entityStat)`
+  - Executes `get` behavior.
+- `update()`
+  - Executes `update` behavior.
+- `getModifier(int index, String key)`
+  - Executes `getModifier` behavior.
+- `putModifier(int index, String key, Modifier modifier)`
+  - Executes `putModifier` behavior.
+- `putModifier(Predictable predictable, int index, String key, Modifier modifier)`
+  - Executes `putModifier` behavior.
+- `removeModifier(int index, String key)`
+  - Executes `removeModifier` behavior.
+- `removeModifier(Predictable predictable, int index, String key)`
+  - Executes `removeModifier` behavior.
+- `setStatValue(int index, float newValue)`
+  - Executes `setStatValue` behavior.
+- `setStatValue(Predictable predictable, int index, float newValue)`
+  - Executes `setStatValue` behavior.
+- `addStatValue(int index, float amount)`
+  - Executes `addStatValue` behavior.
+- `addStatValue(Predictable predictable, int index, float amount)`
+  - Executes `addStatValue` behavior.
+- `subtractStatValue(int index, float amount)`
+  - Executes `subtractStatValue` behavior.
+- `subtractStatValue(Predictable predictable, int index, float amount)`
+  - Executes `subtractStatValue` behavior.
+- `minimizeStatValue(int index)`
+  - Executes `minimizeStatValue` behavior.
+- `minimizeStatValue(Predictable predictable, int index)`
+  - Executes `minimizeStatValue` behavior.
+- `maximizeStatValue(int index)`
+  - Executes `maximizeStatValue` behavior.
+- `maximizeStatValue(Predictable predictable, int index)`
+  - Executes `maximizeStatValue` behavior.
+- `resetStatValue(int index)`
+  - Executes `resetStatValue` behavior.
+- `resetStatValue(Predictable predictable, int index)`
+  - Executes `resetStatValue` behavior.
+- `getSelfUpdates()`
+  - Executes `getSelfUpdates` behavior.
+- `getSelfStatValues()`
+  - Executes `getSelfStatValues` behavior.
+- `consumeSelfUpdates()`
+  - Executes `consumeSelfUpdates` behavior.
+- `clearUpdates()`
+  - Executes `clearUpdates` behavior.
+- `consumeOtherUpdates()`
+  - Executes `consumeOtherUpdates` behavior.
+- `updatesToProtocol(@Nonnull Int2ObjectMap<List<EntityStatUpdate>> localUpdates)`
+  - Executes `updatesToProtocol` behavior.
+- `createInitUpdate(boolean all)`
+  - Executes `createInitUpdate` behavior.
+- `consumeSelfNetworkOutdated()`
+  - Executes `consumeSelfNetworkOutdated` behavior.
+- `consumeNetworkOutdated()`
+  - Executes `consumeNetworkOutdated` behavior.
+- `addInitChange(int index, @Nonnull EntityStatValue value)`
+  - Executes `addInitChange` behavior.
+- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value)`
+  - Executes `addChange` behavior.
+- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value, Map<String, Modifier> modifierMap)`
+  - Executes `addChange` behavior.
+- `addChange(Predictable predictable, int index, EntityStatOp op, float previousValue, String key, @Nullable Modifier modifier)`
+  - Executes `addChange` behavior.
+- `tryMergeUpdate(@Nonnull List<EntityStatUpdate> updates, @Nonnull EntityStatOp op, float value, @Nullable Map<String, Modifier> modifierMap, boolean isPredictable)`
+  - Executes `tryMergeUpdate` behavior.
+- `processStatChanges(Predictable predictable, @Nonnull Int2FloatMap entityStats, ValueType valueType, @Nonnull ChangeStatBehaviour changeStatBehaviour)`
+  - Executes `processStatChanges` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `makeInitChange(@Nonnull EntityStatValue value)`
+  - Executes `makeInitChange` behavior.
+
+## Notes
+- No additional notes.

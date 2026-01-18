@@ -1,0 +1,132 @@
+# AssetEditorPlugin
+
+## Overview
+- Documentation for `AssetEditorPlugin`.
+- Declared as a class in `com.hypixel.hytale.builtin.asseteditor`.
+
+## Constructors
+- `AssetEditorPlugin(@Nonnull JavaPluginInit init)`
+  - Creates a `AssetEditorPlugin` instance.
+
+## Methods
+- `get()`
+  - Executes `get` behavior.
+- `setup()`
+  - Executes `setup` behavior.
+- `start()`
+  - Executes `start` behavior.
+- `shutdown()`
+  - Executes `shutdown` behavior.
+- `getDataSourceForPath(AssetPath path)`
+  - Executes `getDataSourceForPath` behavior.
+- `getDataSourceForPack(String assetPack)`
+  - Executes `getDataSourceForPack` behavior.
+- `getDataSources()`
+  - Executes `getDataSources` behavior.
+- `getAssetTypeRegistry()`
+  - Executes `getAssetTypeRegistry` behavior.
+- `getSchema(String id)`
+  - Executes `getSchema` behavior.
+- `getClientOpenAssetPathMapping()`
+  - Executes `getClientOpenAssetPathMapping` behavior.
+- `getEditorClients(UUID uuid)`
+  - Executes `getEditorClients` behavior.
+- `sendPingPackets()`
+  - Executes `sendPingPackets` behavior.
+- `getClientsWithOpenAssetPath(AssetPath path)`
+  - Executes `getClientsWithOpenAssetPath` behavior.
+- `getOpenAssetPath(EditorClient editorClient)`
+  - Executes `getOpenAssetPath` behavior.
+- `onRegisterAssetPack(AssetPackRegisterEvent event)`
+  - Executes `onRegisterAssetPack` behavior.
+- `onUnregisterAssetPack(AssetPackUnregisterEvent event)`
+  - Executes `onUnregisterAssetPack` behavior.
+- `onI18nMessagesUpdated(@Nonnull MessagesUpdated event)`
+  - Executes `onI18nMessagesUpdated` behavior.
+- `onRegisterAssetStore(@Nonnull RegisterAssetStoreEvent event)`
+  - Executes `onRegisterAssetStore` behavior.
+- `onUnregisterAssetStore(@Nonnull RemoveAssetStoreEvent event)`
+  - Executes `onUnregisterAssetStore` behavior.
+- `tryReinitializeAssetEditor()`
+  - Executes `tryReinitializeAssetEditor` behavior.
+- `onAssetMonitor(@Nonnull AssetMonitorEvent<Void> event)`
+  - Executes `onAssetMonitor` behavior.
+- `handleInitializeEditor(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `handleInitializeEditor` behavior.
+- `handleInitializeClient(@Nonnull EditorClient editorClient)`
+  - Executes `handleInitializeClient` behavior.
+- `initializeAssetEditor(boolean updateLoadedAssets)`
+  - Executes `initializeAssetEditor` behavior.
+- `initializeClient(@Nonnull EditorClient editorClient)`
+  - Executes `initializeClient` behavior.
+- `handleEditorClientDisconnected(@Nonnull EditorClient editorClient, PacketHandler.DisconnectReason disconnectReason)`
+  - Executes `handleEditorClientDisconnected` behavior.
+- `handleDeleteAssetPack(@Nonnull EditorClient editorClient, @Nonnull String packId)`
+  - Executes `handleDeleteAssetPack` behavior.
+- `handleUpdateAssetPack(@Nonnull EditorClient editorClient, @Nonnull String packId, @Nonnull AssetPackManifest packetManifest)`
+  - Executes `handleUpdateAssetPack` behavior.
+- `handleCreateAssetPack(@Nonnull EditorClient editorClient, @Nonnull AssetPackManifest packetManifest, int requestToken)`
+  - Executes `handleCreateAssetPack` behavior.
+- `toManifestPacket(@Nonnull PluginManifest manifest)`
+  - Executes `toManifestPacket` behavior.
+- `broadcastPackAddedOrUpdated(String packId, PluginManifest manifest)`
+  - Executes `broadcastPackAddedOrUpdated` behavior.
+- `handleExportAssets(@Nonnull EditorClient editorClient, @Nonnull List<AssetPath> paths)`
+  - Executes `handleExportAssets` behavior.
+- `handleSelectAsset(@Nonnull EditorClient editorClient, @Nullable AssetPath assetPath)`
+  - Executes `handleSelectAsset` behavior.
+- `handleFetchLastModifiedAssets(@Nonnull EditorClient editorClient)`
+  - Executes `handleFetchLastModifiedAssets` behavior.
+- `handleAssetUpdate(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, @Nonnull byte[] data, int requestToken)`
+  - Executes `handleAssetUpdate` behavior.
+- `handleJsonAssetUpdate(@Nonnull EditorClient editorClient, AssetPath assetPath, @Nonnull String assetType, int assetIndex, @Nonnull JsonUpdateCommand[] commands, int requestToken)`
+  - Executes `handleJsonAssetUpdate` behavior.
+- `handleUndo(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleUndo` behavior.
+- `handleRedo(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleRedo` behavior.
+- `handleFetchAsset(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleFetchAsset` behavior.
+- `handleFetchJsonAssetWithParents(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, boolean isFromOpenedTab, int requestToken)`
+  - Executes `handleFetchJsonAssetWithParents` behavior.
+- `handleRequestChildIds(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath)`
+  - Executes `handleRequestChildIds` behavior.
+- `handleDeleteAsset(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleDeleteAsset` behavior.
+- `handleSubscribeToModifiedAssetsChanges(EditorClient editorClient)`
+  - Executes `handleSubscribeToModifiedAssetsChanges` behavior.
+- `handleUnsubscribeFromModifiedAssetsChanges(EditorClient editorClient)`
+  - Executes `handleUnsubscribeFromModifiedAssetsChanges` behavior.
+- `handleRenameAsset(@Nonnull EditorClient editorClient, @Nonnull AssetPath oldAssetPath, @Nonnull AssetPath newAssetPath, int requestToken)`
+  - Executes `handleRenameAsset` behavior.
+- `handleDeleteDirectory(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleDeleteDirectory` behavior.
+- `handleRenameDirectory(@Nonnull EditorClient editorClient, AssetPath path, AssetPath newPath, int requestToken)`
+  - Executes `handleRenameDirectory` behavior.
+- `handleCreateDirectory(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, int requestToken)`
+  - Executes `handleCreateDirectory` behavior.
+- `handleCreateAsset(@Nonnull EditorClient editorClient, @Nonnull AssetPath assetPath, @Nonnull byte[] data, @Nonnull AssetEditorRebuildCaches rebuildCaches, String buttonId, int requestToken)`
+  - Executes `handleCreateAsset` behavior.
+- `applyCommandsToAsset(@Nonnull byte[] bytes, AssetPath path, @Nonnull JsonUpdateCommand[] commands, @Nonnull AssetUpdateQuery.RebuildCacheBuilder rebuildCache)`
+  - Executes `applyCommandsToAsset` behavior.
+- `sendModifiedAssetsUpdateToConnectedUsers()`
+  - Executes `sendModifiedAssetsUpdateToConnectedUsers` behavior.
+- `sendPacketToAllEditorUsers(@Nonnull Packet packet)`
+  - Executes `sendPacketToAllEditorUsers` behavior.
+- `sendPacketToAllEditorUsersExcept(@Nonnull Packet packet, EditorClient ignoreEditorClient)`
+  - Executes `sendPacketToAllEditorUsersExcept` behavior.
+- `updateAssetForConnectedClients(@Nonnull AssetPath assetPath)`
+  - Executes `updateAssetForConnectedClients` behavior.
+- `updateAssetForConnectedClients(@Nonnull AssetPath assetPath, EditorClient ignoreEditorClient)`
+  - Executes `updateAssetForConnectedClients` behavior.
+- `updateAssetForConnectedClients(@Nonnull AssetPath assetPath, byte[] bytes, EditorClient ignoreEditorClient)`
+  - Executes `updateAssetForConnectedClients` behavior.
+- `updateJsonAssetForConnectedClients(@Nonnull AssetPath assetPath, JsonUpdateCommand[] commands)`
+  - Executes `updateJsonAssetForConnectedClients` behavior.
+- `updateJsonAssetForConnectedClients(@Nonnull AssetPath assetPath, JsonUpdateCommand[] commands, EditorClient ignoreEditorClient)`
+  - Executes `updateJsonAssetForConnectedClients` behavior.
+- `buildAssetEditorLastModifiedAssetsPacket()`
+  - Executes `buildAssetEditorLastModifiedAssetsPacket` behavior.
+
+## Notes
+- No additional notes.

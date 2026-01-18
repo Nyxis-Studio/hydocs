@@ -1,0 +1,159 @@
+# MotionController
+
+## Overview
+- Documentation for `MotionController`.
+- Declared as a interface in `com.hypixel.hytale.server.npc.movement.controllers`.
+
+## Constructors
+- None.
+
+## Methods
+- `getType()`
+  - Executes `getType` behavior.
+- `getRole()`
+  - Executes `getRole` behavior.
+- `setRole(Role var1)`
+  - Executes `setRole` behavior.
+- `setInertia(double var1)`
+  - Executes `setInertia` behavior.
+- `setKnockbackScale(double var1)`
+  - Executes `setKnockbackScale` behavior.
+- `getGravity()`
+  - Executes `getGravity` behavior.
+- `spawned()`
+  - Executes `spawned` behavior.
+- `activate()`
+  - Executes `activate` behavior.
+- `deactivate()`
+  - Executes `deactivate` behavior.
+- `updateModelParameters(@Nullable Ref<EntityStore> var1, Model var2, Box var3, @Nullable ComponentAccessor<EntityStore> var4)`
+  - Executes `updateModelParameters` behavior.
+- `steer(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, @Nonnull Steering var3, @Nonnull Steering var4, double var5, @Nonnull ComponentAccessor<EntityStore> var7)`
+  - Executes `steer` behavior.
+- `probeMove(@Nonnull Ref<EntityStore> var1, Vector3d var2, Vector3d var3, ProbeMoveData var4, @Nonnull ComponentAccessor<EntityStore> var5)`
+  - Executes `probeMove` behavior.
+- `probeMove(@Nonnull Ref<EntityStore> var1, ProbeMoveData var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+  - Executes `probeMove` behavior.
+- `constrainRotations(Role var1, TransformComponent var2)`
+  - Executes `constrainRotations` behavior.
+- `getCurrentMaxBodyRotationSpeed()`
+  - Executes `getCurrentMaxBodyRotationSpeed` behavior.
+- `updateMovementState(@Nonnull Ref<EntityStore> var1, @Nonnull MovementStates var2, @Nonnull Steering var3, @Nonnull Vector3d var4, @Nonnull ComponentAccessor<EntityStore> var5)`
+  - Executes `updateMovementState` behavior.
+- `isValidPosition(Vector3d var1, ComponentAccessor<EntityStore> var2)`
+  - Executes `isValidPosition` behavior.
+- `canAct(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+  - Executes `canAct` behavior.
+- `isInProgress()`
+  - Executes `isInProgress` behavior.
+- `isObstructed()`
+  - Executes `isObstructed` behavior.
+- `inAir()`
+  - Executes `inAir` behavior.
+- `inWater()`
+  - Executes `inWater` behavior.
+- `onGround()`
+  - Executes `onGround` behavior.
+- `standingOnBlockOfType(int var1)`
+  - Executes `standingOnBlockOfType` behavior.
+- `getMaximumSpeed()`
+  - Executes `getMaximumSpeed` behavior.
+- `getCurrentSpeed()`
+  - Executes `getCurrentSpeed` behavior.
+- `estimateVelocity(Steering var1, Vector3d var2)`
+  - Executes `estimateVelocity` behavior.
+- `getCurrentTurnRadius()`
+  - Executes `getCurrentTurnRadius` behavior.
+- `waypointDistance(Vector3d var1, Vector3d var2)`
+  - Executes `waypointDistance` behavior.
+- `waypointDistanceSquared(Vector3d var1, Vector3d var2)`
+  - Executes `waypointDistanceSquared` behavior.
+- `waypointDistance(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+  - Executes `waypointDistance` behavior.
+- `waypointDistanceSquared(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+  - Executes `waypointDistanceSquared` behavior.
+- `getMaxClimbAngle()`
+  - Executes `getMaxClimbAngle` behavior.
+- `getMaxSinkAngle()`
+  - Executes `getMaxSinkAngle` behavior.
+- `translateToAccessiblePosition(Vector3d var1, Box var2, double var3, double var5, ComponentAccessor<EntityStore> var7)`
+  - Executes `translateToAccessiblePosition` behavior.
+- `getComponentSelector()`
+  - Executes `getComponentSelector` behavior.
+- `getPlanarComponentSelector()`
+  - Executes `getPlanarComponentSelector` behavior.
+- `setComponentSelector(Vector3d var1)`
+  - Executes `setComponentSelector` behavior.
+- `is2D()`
+  - Executes `is2D` behavior.
+- `getWorldNormal()`
+  - Executes `getWorldNormal` behavior.
+- `getWorldAntiNormal()`
+  - Executes `getWorldAntiNormal` behavior.
+- `addForce(@Nonnull Vector3d var1, @Nullable VelocityConfig var2)`
+  - Executes `addForce` behavior.
+- `getForce()`
+  - Executes `getForce` behavior.
+- `forceVelocity(@Nonnull Vector3d var1, @Nullable VelocityConfig var2, boolean var3)`
+  - Executes `forceVelocity` behavior.
+- `getDesiredVerticalRange(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+  - Executes `getDesiredVerticalRange` behavior.
+- `getWanderVerticalMovementRatio()`
+  - Executes `getWanderVerticalMovementRatio` behavior.
+- `setAvoidingBlockDamage(boolean var1)`
+  - Executes `setAvoidingBlockDamage` behavior.
+- `isAvoidingBlockDamage()`
+  - Executes `isAvoidingBlockDamage` behavior.
+- `willReceiveBlockDamage()`
+  - Executes `willReceiveBlockDamage` behavior.
+- `requirePreciseMovement(Vector3d var1)`
+  - Executes `requirePreciseMovement` behavior.
+- `requireDepthProbing()`
+  - Executes `requireDepthProbing` behavior.
+- `enableHeadingBlending(double var1, Vector3d var3, double var4)`
+  - Executes `enableHeadingBlending` behavior.
+- `enableHeadingBlending()`
+  - Executes `enableHeadingBlending` behavior.
+- `setRelaxedMoveConstraints(boolean var1)`
+  - Executes `setRelaxedMoveConstraints` behavior.
+- `isRelaxedMoveConstraints()`
+  - Executes `isRelaxedMoveConstraints` behavior.
+- `getNavState()`
+  - Executes `getNavState` behavior.
+- `getThrottleDuration()`
+  - Executes `getThrottleDuration` behavior.
+- `getTargetDeltaSquared()`
+  - Executes `getTargetDeltaSquared` behavior.
+- `setNavState(NavState var1, double var2, double var4)`
+  - Executes `setNavState` behavior.
+- `setForceRecomputePath(boolean var1)`
+  - Executes `setForceRecomputePath` behavior.
+- `isForceRecomputePath()`
+  - Executes `isForceRecomputePath` behavior.
+- `canRestAtPlace()`
+  - Executes `canRestAtPlace` behavior.
+- `beforeInstructionSensorsAndActions(double var1)`
+  - Executes `beforeInstructionSensorsAndActions` behavior.
+- `beforeInstructionMotion(double var1)`
+  - Executes `beforeInstructionMotion` behavior.
+- `matchesType(@Nonnull Class<? extends MotionController> clazz)`
+  - Executes `matchesType` behavior.
+- `getDesiredAltitudeWeight()`
+  - Executes `getDesiredAltitudeWeight` behavior.
+- `getHeightOverGround()`
+  - Executes `getHeightOverGround` behavior.
+- `clearOverrides()`
+  - Executes `clearOverrides` behavior.
+- `getSquaredDistance(@Nonnull Vector3d p1, @Nonnull Vector3d p2, boolean useProjectedDistance)`
+  - Executes `getSquaredDistance` behavior.
+- `updatePhysicsValues(PhysicsValues var1)`
+  - Executes `updatePhysicsValues` behavior.
+- `isInMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementState state, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isInMovementState` behavior.
+- `assign(double current, double min, double max)`
+  - Executes `assign` behavior.
+- `isWithinRange()`
+  - Executes `isWithinRange` behavior.
+
+## Notes
+- No additional notes.

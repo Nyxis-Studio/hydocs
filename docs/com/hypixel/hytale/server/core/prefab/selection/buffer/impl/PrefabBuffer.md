@@ -1,0 +1,114 @@
+# PrefabBuffer
+
+## Overview
+- Documentation for `PrefabBuffer`.
+- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.buffer.impl`.
+
+## Constructors
+- `PrefabBuffer(@Nonnull ByteBuf buf, @Nonnull Vector3i anchor, @Nonnull Vector3i min, @Nonnull Vector3i max, @Nonnull Int2ObjectMap<PrefabBufferColumn> columns, @Nonnull ChildPrefab[] childPrefabs)`
+  - Creates a `PrefabBuffer` instance.
+- `PrefabBuffer(buffer, this.anchor, this.min, this.max, this.columns, childPrefabArray)`
+  - Creates a `PrefabBuffer` instance.
+
+## Methods
+- `newBuilder()`
+  - Executes `newBuilder` behavior.
+- `getAnchorX()`
+  - Executes `getAnchorX` behavior.
+- `getAnchorY()`
+  - Executes `getAnchorY` behavior.
+- `getAnchorZ()`
+  - Executes `getAnchorZ` behavior.
+- `newAccess()`
+  - Executes `newAccess` behavior.
+- `release()`
+  - Executes `release` behavior.
+- `checkReleased()`
+  - Executes `checkReleased` behavior.
+- `getX()`
+  - Executes `getX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `getPath()`
+  - Executes `getPath` behavior.
+- `isFitHeightmap()`
+  - Executes `isFitHeightmap` behavior.
+- `isInheritSeed()`
+  - Executes `isInheritSeed` behavior.
+- `isInheritHeightCondition()`
+  - Executes `isInheritHeightCondition` behavior.
+- `getWeights()`
+  - Executes `getWeights` behavior.
+- `getRotation()`
+  - Executes `getRotation` behavior.
+- `setAnchor(@Nonnull Vector3i anchor)`
+  - Executes `setAnchor` behavior.
+- `addColumn(int x, int z, @Nonnull PrefabBufferBlockEntry[] entries, @Nullable Holder<EntityStore>[] entityHolders)`
+  - Executes `addColumn` behavior.
+- `handleBlockComponents(int blockRotation, int x, int y, int z, @Nonnull Holder<ChunkStore> holder)`
+  - Executes `handleBlockComponents` behavior.
+- `addChildPrefab(int x, int y, int z, @Nonnull String path, boolean fitHeightmap, boolean inheritSeed, boolean inheritHeightCondition, @Nullable PrefabWeights weights, @Nonnull PrefabRotation rotation)`
+  - Executes `addChildPrefab` behavior.
+- `newBlockEntry(int y)`
+  - Executes `newBlockEntry` behavior.
+- `build()`
+  - Executes `build` behavior.
+- `getMinX(@Nonnull PrefabRotation rotation)`
+  - Executes `getMinX` behavior.
+- `getMinY()`
+  - Executes `getMinY` behavior.
+- `getMinZ(@Nonnull PrefabRotation rotation)`
+  - Executes `getMinZ` behavior.
+- `getMaxX(@Nonnull PrefabRotation rotation)`
+  - Executes `getMaxX` behavior.
+- `getMaxY()`
+  - Executes `getMaxY` behavior.
+- `getMaxZ(@Nonnull PrefabRotation rotation)`
+  - Executes `getMaxZ` behavior.
+- `getColumnCount()`
+  - Executes `getColumnCount` behavior.
+- `getChildPrefabs()`
+  - Executes `getChildPrefabs` behavior.
+- `getMinYAt(@Nonnull PrefabRotation rotation, int x, int z)`
+  - Executes `getMinYAt` behavior.
+- `getMaxYAt(@Nonnull PrefabRotation rotation, int x, int z)`
+  - Executes `getMaxYAt` behavior.
+- `forEach(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.BlockConsumer<T> blockConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable IPrefabBuffer.ChildConsumer<T> childConsumer, @Nonnull T t)`
+  - Executes `forEach` behavior.
+- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockConsumer<T> blockConsumer, @Nonnull IPrefabBuffer.FluidConsumer<T> fluidConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable T t)`
+  - Executes `forEachRaw` behavior.
+- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockPredicate<T> blockPredicate, @Nonnull IPrefabBuffer.FluidPredicate<T> fluidPredicate, @Nullable IPrefabBuffer.EntityPredicate<T> entityPredicate, @Nullable T t)`
+  - Executes `forEachRaw` behavior.
+- `compare(@Nonnull IPrefabBuffer.BlockComparingPrefabPredicate<T> blockComparingIterator, @Nonnull T t, @Nonnull IPrefabBuffer otherPrefab)`
+  - Executes `compare` behavior.
+- `getBlockId(int x, int y, int z)`
+  - Executes `getBlockId` behavior.
+- `getFiller(int x, int y, int z)`
+  - Executes `getFiller` behavior.
+- `getRotationIndex(int x, int y, int z)`
+  - Executes `getRotationIndex` behavior.
+- `getBlockMask(int blockBytes, int fluidBytes, boolean chance, int offsetBytes, @Nullable Holder<ChunkStore> holder, byte supportValue, int rotation, int filler)`
+  - Executes `getBlockMask` behavior.
+- `getSkipBytes(int mask)`
+  - Executes `getSkipBytes` behavior.
+- `hasChance(int mask)`
+  - Executes `hasChance` behavior.
+- `hasFiller(int mask)`
+  - Executes `hasFiller` behavior.
+- `hasRotation(int mask)`
+  - Executes `hasRotation` behavior.
+- `getBlockBytes(int mask)`
+  - Executes `getBlockBytes` behavior.
+- `getOffsetBytes(int mask)`
+  - Executes `getOffsetBytes` behavior.
+- `getFluidBytes(int mask)`
+  - Executes `getFluidBytes` behavior.
+- `getSupportValue(int mask)`
+  - Executes `getSupportValue` behavior.
+- `hasComponents(int mask)`
+  - Executes `hasComponents` behavior.
+
+## Notes
+- No additional notes.

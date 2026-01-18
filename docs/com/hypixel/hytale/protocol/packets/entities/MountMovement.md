@@ -1,0 +1,36 @@
+# MountMovement
+
+## Overview
+- Documentation for `MountMovement`.
+- Declared as a class in `com.hypixel.hytale.protocol.packets.entities`.
+
+## Constructors
+- `MountMovement()`
+  - Creates a `MountMovement` instance.
+- `MountMovement(@Nullable Position absolutePosition, @Nullable Direction bodyOrientation, @Nullable MovementStates movementStates)`
+  - Creates a `MountMovement` instance.
+- `MountMovement(@Nonnull MountMovement other)`
+  - Creates a `MountMovement` instance.
+
+## Methods
+- `getId()`
+  - Executes `getId` behavior.
+- `deserialize(@Nonnull ByteBuf buf, int offset)`
+  - Executes `deserialize` behavior.
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+  - Executes `computeBytesConsumed` behavior.
+- `serialize(@Nonnull ByteBuf buf)`
+  - Executes `serialize` behavior.
+- `computeSize()`
+  - Executes `computeSize` behavior.
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+  - Executes `validateStructure` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(Object obj)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+
+## Notes
+- No additional notes.

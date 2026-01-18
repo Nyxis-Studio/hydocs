@@ -1,0 +1,156 @@
+# ExecutionContext
+
+## Overview
+- Documentation for `ExecutionContext`.
+- Declared as a class in `com.hypixel.hytale.server.npc.util.expression`.
+
+## Constructors
+- `ExecutionContext(Scope scope)`
+  - Creates a `ExecutionContext` instance.
+- `ExecutionContext()`
+  - Creates a `ExecutionContext` instance.
+
+## Methods
+- `execute(@Nonnull List<Instruction> instructions, Scope scope)`
+  - Executes `execute` behavior.
+- `execute(@Nonnull List<Instruction> instructions)`
+  - Executes `execute` behavior.
+- `execute(@Nonnull Instruction[] instructions, Scope scope)`
+  - Executes `execute` behavior.
+- `execute(@Nonnull Instruction[] instructions)`
+  - Executes `execute` behavior.
+- `getType()`
+  - Executes `getType` behavior.
+- `top()`
+  - Executes `top` behavior.
+- `setScope(Scope scope)`
+  - Executes `setScope` behavior.
+- `getScope()`
+  - Executes `getScope` behavior.
+- `getCombatConfig()`
+  - Executes `getCombatConfig` behavior.
+- `setCombatConfig(String combatConfig)`
+  - Executes `setCombatConfig` behavior.
+- `getInteractionVars()`
+  - Executes `getInteractionVars` behavior.
+- `setInteractionVars(Map<String, String> interactionVars)`
+  - Executes `setInteractionVars` behavior.
+- `push()`
+  - Executes `push` behavior.
+- `push(String value)`
+  - Executes `push` behavior.
+- `push(double value)`
+  - Executes `push` behavior.
+- `push(int value)`
+  - Executes `push` behavior.
+- `push(boolean value)`
+  - Executes `push` behavior.
+- `push(String[] value)`
+  - Executes `push` behavior.
+- `push(double[] value)`
+  - Executes `push` behavior.
+- `push(boolean[] value)`
+  - Executes `push` behavior.
+- `pushEmptyArray()`
+  - Executes `pushEmptyArray` behavior.
+- `popPush(int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(String value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(double value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(int value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(boolean value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(String[] value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(double[] value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPush(boolean[] value, int popCount)`
+  - Executes `popPush` behavior.
+- `popPushEmptyArray(int popCount)`
+  - Executes `popPushEmptyArray` behavior.
+- `pop()`
+  - Executes `pop` behavior.
+- `popNumber()`
+  - Executes `popNumber` behavior.
+- `popInt()`
+  - Executes `popInt` behavior.
+- `popString()`
+  - Executes `popString` behavior.
+- `popBoolean()`
+  - Executes `popBoolean` behavior.
+- `popNumberArray()`
+  - Executes `popNumberArray` behavior.
+- `popStringArray()`
+  - Executes `popStringArray` behavior.
+- `popBooleanArray()`
+  - Executes `popBooleanArray` behavior.
+- `popAsString()`
+  - Executes `popAsString` behavior.
+- `get(int index)`
+  - Executes `get` behavior.
+- `getNumber(int index)`
+  - Executes `getNumber` behavior.
+- `getInt(int index)`
+  - Executes `getInt` behavior.
+- `getString(int index)`
+  - Executes `getString` behavior.
+- `getBoolean(int index)`
+  - Executes `getBoolean` behavior.
+- `getNumberArray(int index)`
+  - Executes `getNumberArray` behavior.
+- `getStringArray(int index)`
+  - Executes `getStringArray` behavior.
+- `getBooleanArray(int index)`
+  - Executes `getBooleanArray` behavior.
+- `genPUSH(String value)`
+  - Executes `genPUSH` behavior.
+- `genPUSH(double value)`
+  - Executes `genPUSH` behavior.
+- `genPUSH(boolean value)`
+  - Executes `genPUSH` behavior.
+- `genPUSH(String[] value)`
+  - Executes `genPUSH` behavior.
+- `genPUSH(double[] value)`
+  - Executes `genPUSH` behavior.
+- `genPUSH(boolean[] value)`
+  - Executes `genPUSH` behavior.
+- `genPUSHEmptyArray()`
+  - Executes `genPUSHEmptyArray` behavior.
+- `genREAD(String ident, @Nonnull ValueType type, @Nullable Scope scope)`
+  - Executes `genREAD` behavior.
+- `genCALL(String ident, int numArgs, @Nullable Scope scope)`
+  - Executes `genCALL` behavior.
+- `genNumberPACK(int size)`
+  - Executes `genNumberPACK` behavior.
+- `genStringPACK(int size)`
+  - Executes `genStringPACK` behavior.
+- `genBooleanPACK(int size)`
+  - Executes `genBooleanPACK` behavior.
+- `genPACK(@Nonnull ValueType arrayType, int size)`
+  - Executes `genPACK` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `set(String value)`
+  - Executes `set` behavior.
+- `set(double value)`
+  - Executes `set` behavior.
+- `set(boolean value)`
+  - Executes `set` behavior.
+- `set(String[] value)`
+  - Executes `set` behavior.
+- `set(double[] value)`
+  - Executes `set` behavior.
+- `set(boolean[] value)`
+  - Executes `set` behavior.
+- `setEmptyArray()`
+  - Executes `setEmptyArray` behavior.
+- `reInit(ValueType type)`
+  - Executes `reInit` behavior.
+- `execute(ExecutionContext var1)`
+  - Executes `execute` behavior.
+
+## Notes
+- No additional notes.

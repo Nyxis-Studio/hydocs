@@ -5,9 +5,12 @@ Automated documentation generator for the Hytale Server. Decompiles the server J
 ## Features
 
 - **Automatic Decompilation**: Uses CFR decompiler to convert Java bytecode to readable source
-- **Markdown Output**: Generates clean, navigable Markdown documentation
+- **AI-Optimized Markdown**: Generates clean, navigable documentation optimized for LLMs
+- **Full Qualified Names**: All types show FQN alongside links for precise resolution
 - **Class Lookup Index**: Creates `class_lookup.json` for MCP server integration
-- **Custom Documentation**: Merges user-provided docs from `docs/` directory
+- **Smart Custom Documentation**: Merges user-provided descriptions inline (no duplication)
+- **Related Types Tracking**: Automatically discovers and links type dependencies
+- **Hash-Based Change Detection**: Tracks file changes via SHA256 hashes for incremental builds
 - **GitHub Actions Integration**: Automated builds and S3 publishing
 - **Version Management**: Maintains versioned documentation with stable "latest" URLs
 
@@ -56,10 +59,30 @@ python3 hydocs.py --help
 Usage: hydocs.py [OPTIONS]
 
 Options:
-  --file PATH       Path to the Hytale Server JAR file (required)
-  --output PATH     Output directory for generated documentation (default: build)
-  --help            Show this help message
+  --file PATH            Path to the Hytale Server JAR file
+  --output PATH          Output directory (default: build)
+  --skip-unchanged       Skip files that haven't changed (incremental build)
+  --only-docs            Skip decompilation, only generate docs
+  --help                 Show this help message
 ```
+
+### Incremental Builds (Hash System)
+
+Hydocs tracks file changes using SHA256 hashes for faster regeneration:
+
+```bash
+# First build: Generates all files
+python3 hydocs.py --only-docs
+# ✅ Generated 4851 files (skipped 0 unchanged, 0 changed)
+
+# Incremental build: Skips unchanged files
+python3 hydocs.py --only-docs --skip-unchanged
+# ✅ Generated 63 files (skipped 4788 unchanged, 63 changed)
+```
+
+**Performance:** Up to 99% faster when few files changed!
+
+See **[HASH_SYSTEM.md](HASH_SYSTEM.md)** for complete documentation.
 
 ## Automated Workflow
 
@@ -163,25 +186,99 @@ https://your-endpoint/your-bucket/latest/{path_from_lookup}
 
 ## Custom Documentation
 
-Add your own documentation files to the `docs/` directory. These will be merged into the build output alongside generated docs.
+Enhance auto-generated documentation with meaningful descriptions using the new custom docs format.
 
-```
-docs/
-├── guides/
-│   └── getting-started.md
-└── api/
-    └── endpoints.md
+### Quick Start
+
+1. **Create custom docs** in `/docs/` following the package structure:
+   ```
+   docs/com/hypixel/hytale/Main.md
+   ```
+
+2. **Use the new format** (descriptions only, no structure):
+   ```markdown
+   ## Overview
+   Entry point class for the Hytale server. Handles JVM initialization.
+
+   ## Method Descriptions
+   - `main(String[] args)`: Main entry point. Initializes transforming class loader.
+
+   ## Usage Notes
+   - Always launch through this main class for proper initialization
+   ```
+
+3. **Generate documentation**:
+   ```bash
+   python3 hydocs.py --only-docs
+   ```
+
+### Documentation Resources
+
+- **[📘 AI Reference Guide](AI_REFERENCE_GUIDE.md)** - Quick reference for LLMs (Portuguese)
+- **[📗 Custom Docs Guide](CUSTOM_DOCS_GUIDE.md)** - Complete guide for writing custom docs
+- **[📕 Example Template](EXAMPLE_CUSTOM_DOCS.md)** - Full example with all fields
+- **[📙 Changelog](CHANGELOG.md)** - Recent improvements and changes
+
+### Validation & Migration Tools
+
+**Validate custom docs format:**
+```bash
+python3 validate_custom_docs.py --docs docs
 ```
 
-After generation:
+**Migrate old format to new:**
+```bash
+# Preview changes
+python3 migrate_custom_docs.py --docs docs --dry-run
+
+# Apply migration
+python3 migrate_custom_docs.py --docs docs
 ```
-build/
-├── INDEX.md
-├── class_lookup.json
-├── com/hypixel/hytale/...    # Generated
-└── guides/                    # From docs/
-    └── getting-started.md
+
+### New Documentation Template
+
+Custom docs are now merged **inline** with auto-generated content:
+
+**Before (Old Format - Duplicated):**
+- Class title appeared twice
+- Overview duplicated
+- Methods listed twice
+
+**After (New Format - Merged):**
+- Overview from custom docs replaces generic placeholder
+- Method descriptions merged into auto-generated sections
+- Zero duplication, cleaner output
+
+**Example Output Structure:**
+```markdown
+# ClassName
+
+**Full Qualified Name:** `com.hypixel.hytale.package.ClassName`
+**Type:** class
+
+## Overview
+[Your custom description here]
+
+## Declaration
+```java
+public class ClassName extends Parent
 ```
+
+## Methods
+
+### `methodName(...)`
+```java
+public ReturnType methodName(ParamType param)
+```
+
+**Returns:** [`ReturnType`](link.md) - `com.hypixel.hytale.types.ReturnType`
+**Parameters:**
+- `param`: [`ParamType`](link.md) - `com.hypixel.hytale.types.ParamType`
+
+**Description:** [Your custom description merged here]
+```
+
+See **[EXAMPLE_CUSTOM_DOCS.md](EXAMPLE_CUSTOM_DOCS.md)** for a complete reference.
 
 ## How It Works
 
@@ -255,19 +352,31 @@ See [.github/workflows/README.md](.github/workflows/README.md) for detailed trou
 hydocs/
 ├── .github/
 │   └── workflows/
-│       ├── generate-docs.yml       # Main workflow
-│       └── README.md               # Workflow documentation
-├── docs/                           # Custom documentation (optional)
-│   └── ...
-├── lib/                            # Downloaded JARs
-│   └── HytaleServer.jar
-├── build/                          # Generated output
+│       ├── generate-docs.yml           # Main workflow
+│       └── README.md                   # Workflow documentation
+├── docs/                               # Custom documentation (optional)
+│   └── com/hypixel/hytale/
+│       ├── Main.md                     # Example custom docs
+│       └── ...
+├── lib/                                # Downloaded JARs
+│   ├── HytaleServer.jar
+│   └── src/                            # Decompiled source
+├── build/                              # Generated output
 │   ├── INDEX.md
 │   ├── class_lookup.json
+│   ├── hashes.json                     # SHA256 hash index
 │   └── com/hypixel/hytale/...
-├── hydocs.py                       # Main script
-├── LICENSE                         # MIT License
-└── README.md                       # This file
+├── hydocs.py                           # Main documentation generator
+├── validate_custom_docs.py             # Custom docs validator
+├── migrate_custom_docs.py              # Format migration tool
+├── AI_REFERENCE_GUIDE.md               # Quick reference for LLMs (PT)
+├── CUSTOM_DOCS_GUIDE.md                # Complete custom docs guide (EN)
+├── EXAMPLE_CUSTOM_DOCS.md              # Full example template
+├── HASH_SYSTEM.md                      # Hash-based change detection guide
+├── CHANGELOG.md                        # Recent improvements
+├── IMPLEMENTATION_SUMMARY.md           # Implementation details
+├── LICENSE                             # MIT License
+└── README.md                           # This file
 ```
 
 ## Contributing

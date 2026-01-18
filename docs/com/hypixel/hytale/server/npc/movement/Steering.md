@@ -1,0 +1,96 @@
+# Steering
+
+## Overview
+- Documentation for `Steering`.
+- Declared as a class in `com.hypixel.hytale.server.npc.movement`.
+
+## Constructors
+- `Steering()`
+  - Creates a `Steering` instance.
+
+## Methods
+- `clear()`
+  - Executes `clear` behavior.
+- `assign(@Nonnull Steering other)`
+  - Executes `assign` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `clearTranslation()`
+  - Executes `clearTranslation` behavior.
+- `clearRotation()`
+  - Executes `clearRotation` behavior.
+- `getTranslation()`
+  - Executes `getTranslation` behavior.
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(double value)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(double value)`
+  - Executes `setY` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `setZ(double value)`
+  - Executes `setZ` behavior.
+- `setTranslation(@Nonnull Vector3d translation)`
+  - Executes `setTranslation` behavior.
+- `setTranslation(double x, double y, double z)`
+  - Executes `setTranslation` behavior.
+- `setTranslationRelativeSpeed(double relativeSpeed)`
+  - Executes `setTranslationRelativeSpeed` behavior.
+- `scaleTranslation(double speedFactor)`
+  - Executes `scaleTranslation` behavior.
+- `ensureMinTranslation(double relativeSpeed)`
+  - Executes `ensureMinTranslation` behavior.
+- `getMaxDistance()`
+  - Executes `getMaxDistance` behavior.
+- `setMaxDistance(double maxDistance)`
+  - Executes `setMaxDistance` behavior.
+- `clearMaxDistance()`
+  - Executes `clearMaxDistance` behavior.
+- `getMaxDistanceComponentSelector()`
+  - Executes `getMaxDistanceComponentSelector` behavior.
+- `setMaxDistanceComponentSelector(Vector3d maxDistanceComponentSelector)`
+  - Executes `setMaxDistanceComponentSelector` behavior.
+- `clearMaxDistanceComponentSelector()`
+  - Executes `clearMaxDistanceComponentSelector` behavior.
+- `getYaw()`
+  - Executes `getYaw` behavior.
+- `setYaw(float angle)`
+  - Executes `setYaw` behavior.
+- `clearYaw()`
+  - Executes `clearYaw` behavior.
+- `getPitch()`
+  - Executes `getPitch` behavior.
+- `setPitch(float angle)`
+  - Executes `setPitch` behavior.
+- `clearPitch()`
+  - Executes `clearPitch` behavior.
+- `getRoll()`
+  - Executes `getRoll` behavior.
+- `setRoll(float angle)`
+  - Executes `setRoll` behavior.
+- `clearRoll()`
+  - Executes `clearRoll` behavior.
+- `setRelativeTurnSpeed(double relativeTurnSpeed)`
+  - Executes `setRelativeTurnSpeed` behavior.
+- `hasTranslation()`
+  - Executes `hasTranslation` behavior.
+- `hasYaw()`
+  - Executes `hasYaw` behavior.
+- `hasPitch()`
+  - Executes `hasPitch` behavior.
+- `hasRoll()`
+  - Executes `hasRoll` behavior.
+- `getSpeed()`
+  - Executes `getSpeed` behavior.
+- `getRelativeTurnSpeed()`
+  - Executes `getRelativeTurnSpeed` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,156 @@
+# HytaleServerConfig
+
+## Overview
+- Documentation for `HytaleServerConfig`.
+- Declared as a class in `com.hypixel.hytale.server.core`.
+
+## Constructors
+- `HytaleServerConfig()`
+  - Creates a `HytaleServerConfig` instance.
+
+## Methods
+- `getServerName()`
+  - Executes `getServerName` behavior.
+- `setServerName(@Nonnull String serverName)`
+  - Executes `setServerName` behavior.
+- `getMotd()`
+  - Executes `getMotd` behavior.
+- `setMotd(@Nonnull String motd)`
+  - Executes `setMotd` behavior.
+- `getPassword()`
+  - Executes `getPassword` behavior.
+- `setPassword(@Nonnull String password)`
+  - Executes `setPassword` behavior.
+- `isDisplayTmpTagsInStrings()`
+  - Executes `isDisplayTmpTagsInStrings` behavior.
+- `setDisplayTmpTagsInStrings(boolean displayTmpTagsInStrings)`
+  - Executes `setDisplayTmpTagsInStrings` behavior.
+- `getMaxPlayers()`
+  - Executes `getMaxPlayers` behavior.
+- `setMaxPlayers(int maxPlayers)`
+  - Executes `setMaxPlayers` behavior.
+- `getMaxViewRadius()`
+  - Executes `getMaxViewRadius` behavior.
+- `setMaxViewRadius(int maxViewRadius)`
+  - Executes `setMaxViewRadius` behavior.
+- `isLocalCompressionEnabled()`
+  - Executes `isLocalCompressionEnabled` behavior.
+- `setLocalCompressionEnabled(boolean localCompression)`
+  - Executes `setLocalCompressionEnabled` behavior.
+- `getDefaults()`
+  - Executes `getDefaults` behavior.
+- `setDefaults(@Nonnull Defaults defaults)`
+  - Executes `setDefaults` behavior.
+- `getConnectionTimeouts()`
+  - Executes `getConnectionTimeouts` behavior.
+- `setConnectionTimeouts(@Nonnull ConnectionTimeouts connectionTimeouts)`
+  - Executes `setConnectionTimeouts` behavior.
+- `getRateLimitConfig()`
+  - Executes `getRateLimitConfig` behavior.
+- `setRateLimitConfig(@Nonnull RateLimitConfig rateLimitConfig)`
+  - Executes `setRateLimitConfig` behavior.
+- `getModules()`
+  - Executes `getModules` behavior.
+- `getModule(String moduleName)`
+  - Executes `getModule` behavior.
+- `setModules(@Nonnull Map<String, Module> modules)`
+  - Executes `setModules` behavior.
+- `getLogLevels()`
+  - Executes `getLogLevels` behavior.
+- `setLogLevels(@Nonnull Map<String, Level> logLevels)`
+  - Executes `setLogLevels` behavior.
+- `getModConfig()`
+  - Executes `getModConfig` behavior.
+- `setModConfig(@Nonnull Map<PluginIdentifier, ModConfig> modConfig)`
+  - Executes `setModConfig` behavior.
+- `getPlayerStorageProvider()`
+  - Executes `getPlayerStorageProvider` behavior.
+- `setPlayerStorageProvider(@Nonnull PlayerStorageProvider playerStorageProvider)`
+  - Executes `setPlayerStorageProvider` behavior.
+- `getAuthCredentialStoreProvider()`
+  - Executes `getAuthCredentialStoreProvider` behavior.
+- `setAuthCredentialStoreProvider(@Nonnull AuthCredentialStoreProvider provider)`
+  - Executes `setAuthCredentialStoreProvider` behavior.
+- `removeModule(@Nonnull String module)`
+  - Executes `removeModule` behavior.
+- `markChanged()`
+  - Executes `markChanged` behavior.
+- `consumeHasChanged()`
+  - Executes `consumeHasChanged` behavior.
+- `load()`
+  - Executes `load` behavior.
+- `load(@Nonnull Path path)`
+  - Executes `load` behavior.
+- `save(@Nonnull HytaleServerConfig hytaleServerConfig)`
+  - Executes `save` behavior.
+- `save(@Nonnull Path path, @Nonnull HytaleServerConfig hytaleServerConfig)`
+  - Executes `save` behavior.
+- `getWorld()`
+  - Executes `getWorld` behavior.
+- `setWorld(String world)`
+  - Executes `setWorld` behavior.
+- `getGameMode()`
+  - Executes `getGameMode` behavior.
+- `setGameMode(GameMode gameMode)`
+  - Executes `setGameMode` behavior.
+- `getInitialTimeout()`
+  - Executes `getInitialTimeout` behavior.
+- `setInitialTimeout(Duration initialTimeout)`
+  - Executes `setInitialTimeout` behavior.
+- `getAuthTimeout()`
+  - Executes `getAuthTimeout` behavior.
+- `setAuthTimeout(Duration authTimeout)`
+  - Executes `setAuthTimeout` behavior.
+- `getPlayTimeout()`
+  - Executes `getPlayTimeout` behavior.
+- `setPlayTimeout(Duration playTimeout)`
+  - Executes `setPlayTimeout` behavior.
+- `getJoinTimeouts()`
+  - Executes `getJoinTimeouts` behavior.
+- `setJoinTimeouts(Map<String, Duration> joinTimeouts)`
+  - Executes `setJoinTimeouts` behavior.
+- `isEnabled()`
+  - Executes `isEnabled` behavior.
+- `setEnabled(boolean enabled)`
+  - Executes `setEnabled` behavior.
+- `getPacketsPerSecond()`
+  - Executes `getPacketsPerSecond` behavior.
+- `setPacketsPerSecond(int packetsPerSecond)`
+  - Executes `setPacketsPerSecond` behavior.
+- `getBurstCapacity()`
+  - Executes `getBurstCapacity` behavior.
+- `setBurstCapacity(int burstCapacity)`
+  - Executes `setBurstCapacity` behavior.
+- `isEnabled(boolean def)`
+  - Executes `isEnabled` behavior.
+- `getEnabled()`
+  - Executes `getEnabled` behavior.
+- `getModule(@Nonnull String moduleName)`
+  - Executes `getModule` behavior.
+- `getDocument()`
+  - Executes `getDocument` behavior.
+- `decode(@Nonnull Codec<T> codec)`
+  - Executes `decode` behavior.
+- `encode(@Nonnull Codec<T> codec, @Nonnull T t)`
+  - Executes `encode` behavior.
+- `getData(@Nonnull KeyedCodec<T> keyedCodec)`
+  - Executes `getData` behavior.
+- `getDataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`
+  - Executes `getDataOrNull` behavior.
+- `getDataNow(@Nonnull KeyedCodec<T> keyedCodec)`
+  - Executes `getDataNow` behavior.
+- `put(@Nonnull KeyedCodec<T> keyedCodec, T t)`
+  - Executes `put` behavior.
+- `setDocument(@Nonnull BsonDocument document)`
+  - Executes `setDocument` behavior.
+- `setEnabled(Boolean enabled)`
+  - Executes `setEnabled` behavior.
+- `getRequiredVersion()`
+  - Executes `getRequiredVersion` behavior.
+- `setRequiredVersion(SemverRange requiredVersion)`
+  - Executes `setRequiredVersion` behavior.
+- `setBoot(HytaleServerConfig serverConfig, PluginIdentifier identifier, boolean enabled)`
+  - Executes `setBoot` behavior.
+
+## Notes
+- No additional notes.

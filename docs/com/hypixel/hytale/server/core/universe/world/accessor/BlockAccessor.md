@@ -1,0 +1,93 @@
+# BlockAccessor
+
+## Overview
+- Documentation for `BlockAccessor`.
+- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.accessor`.
+
+## Constructors
+- None.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `getChunkAccessor()`
+  - Executes `getChunkAccessor` behavior.
+- `getBlock(int var1, int var2, int var3)`
+  - Executes `getBlock` behavior.
+- `getBlock(@Nonnull Vector3i pos)`
+  - Executes `getBlock` behavior.
+- `setBlock(int var1, int var2, int var3, int var4, BlockType var5, int var6, int var7, int var8)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, int id, BlockType blockType)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, String blockTypeKey)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, String blockTypeKey, int settings)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, int id)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, int id, int settings)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, @Nonnull BlockType blockType)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, @Nonnull BlockType blockType, int settings)`
+  - Executes `setBlock` behavior.
+- `breakBlock(int x, int y, int z, int filler, int settings)`
+  - Executes `breakBlock` behavior.
+- `breakBlock(int x, int y, int z)`
+  - Executes `breakBlock` behavior.
+- `breakBlock(int x, int y, int z, int settings)`
+  - Executes `breakBlock` behavior.
+- `testBlocks(int x, int y, int z, @Nonnull BlockType blockTypeToTest, int rotation, @Nonnull TriIntPredicate predicate)`
+  - Executes `testBlocks` behavior.
+- `testBlockTypes(int x, int y, int z, @Nonnull BlockType blockTypeToTest, int rotation, @Nonnull IChunkAccessorSync.TestBlockFunction predicate)`
+  - Executes `testBlockTypes` behavior.
+- `placeBlock(int x, int y, int z, String originalBlockTypeKey, @Nonnull Rotation yaw, @Nonnull Rotation pitch, @Nonnull Rotation roll, int settings)`
+  - Executes `placeBlock` behavior.
+- `placeBlock(int x, int y, int z, String originalBlockTypeKey, @Nonnull RotationTuple rotationTuple, int settings, boolean validatePlacement)`
+  - Executes `placeBlock` behavior.
+- `placeBlock(int x, int y, int z, String blockTypeKey, @Nonnull Rotation yaw, @Nonnull Rotation pitch, @Nonnull Rotation roll)`
+  - Executes `placeBlock` behavior.
+- `testPlaceBlock(int x, int y, int z, @Nonnull BlockType blockTypeToTest, int rotationIndex)`
+  - Executes `testPlaceBlock` behavior.
+- `testPlaceBlock(int x, int y, int z, @Nonnull BlockType blockTypeToTest, int rotationIndex, @Nonnull IChunkAccessorSync.TestBlockFunction filter)`
+  - Executes `testPlaceBlock` behavior.
+- `getBlockType(int x, int y, int z)`
+  - Executes `getBlockType` behavior.
+- `getBlockType(@Nonnull Vector3i block)`
+  - Executes `getBlockType` behavior.
+- `setTicking(int var1, int var2, int var3, boolean var4)`
+  - Executes `setTicking` behavior.
+- `isTicking(int var1, int var2, int var3)`
+  - Executes `isTicking` behavior.
+- `getState(int var1, int var2, int var3)`
+  - Executes `getState` behavior.
+- `getBlockComponentHolder(int var1, int var2, int var3)`
+  - Executes `getBlockComponentHolder` behavior.
+- `setState(int var1, int var2, int var3, BlockState var4, boolean var5)`
+  - Executes `setState` behavior.
+- `setState(int x, int y, int z, BlockState state)`
+  - Executes `setState` behavior.
+- `setBlockInteractionState(@Nonnull Vector3i blockPosition, @Nonnull BlockType blockType, @Nonnull String state)`
+  - Executes `setBlockInteractionState` behavior.
+- `setBlockInteractionState(int x, int y, int z, @Nonnull BlockType blockType, @Nonnull String state, boolean force)`
+  - Executes `setBlockInteractionState` behavior.
+- `getCurrentInteractionState(@Nonnull BlockType blockType)`
+  - Executes `getCurrentInteractionState` behavior.
+- `getFluidId(int var1, int var2, int var3)`
+  - Executes `getFluidId` behavior.
+- `getFluidLevel(int var1, int var2, int var3)`
+  - Executes `getFluidLevel` behavior.
+- `getSupportValue(int var1, int var2, int var3)`
+  - Executes `getSupportValue` behavior.
+- `getFiller(int var1, int var2, int var3)`
+  - Executes `getFiller` behavior.
+- `getRotationIndex(int var1, int var2, int var3)`
+  - Executes `getRotationIndex` behavior.
+- `getRotation(int x, int y, int z)`
+  - Executes `getRotation` behavior.
+
+## Notes
+- No additional notes.

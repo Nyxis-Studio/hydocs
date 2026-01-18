@@ -1,0 +1,210 @@
+# RawJsonReader
+
+## Overview
+- Documentation for `RawJsonReader`.
+- Declared as a class in `com.hypixel.hytale.codec.util`.
+
+## Constructors
+- `RawJsonReader(@Nonnull char[] preFilledBuffer)`
+  - Creates a `RawJsonReader` instance.
+- `RawJsonReader(Reader in, @Nonnull char[] buffer)`
+  - Creates a `RawJsonReader` instance.
+- `RawJsonReader(new InputStreamReader(Files.newInputStream(path, new OpenOption[0])`
+  - Creates a `RawJsonReader` instance.
+- `RawJsonReader(buffer)`
+  - Creates a `RawJsonReader` instance.
+
+## Methods
+- `getBuffer()`
+  - Executes `getBuffer` behavior.
+- `getBufferIndex()`
+  - Executes `getBufferIndex` behavior.
+- `getBufferSize()`
+  - Executes `getBufferSize` behavior.
+- `getLine()`
+  - Executes `getLine` behavior.
+- `getColumn()`
+  - Executes `getColumn` behavior.
+- `ensure()`
+  - Executes `ensure` behavior.
+- `ensure(int n)`
+  - Executes `ensure` behavior.
+- `fill()`
+  - Executes `fill` behavior.
+- `peek()`
+  - Executes `peek` behavior.
+- `peek(int n)`
+  - Executes `peek` behavior.
+- `read()`
+  - Executes `read` behavior.
+- `skip(long skip)`
+  - Executes `skip` behavior.
+- `findOffset(char value)`
+  - Executes `findOffset` behavior.
+- `findOffset(int start, char value)`
+  - Executes `findOffset` behavior.
+- `skipOrThrow(long n)`
+  - Executes `skipOrThrow` behavior.
+- `ready()`
+  - Executes `ready` behavior.
+- `markSupported()`
+  - Executes `markSupported` behavior.
+- `mark(int readAheadLimit)`
+  - Executes `mark` behavior.
+- `isMarked()`
+  - Executes `isMarked` behavior.
+- `mark()`
+  - Executes `mark` behavior.
+- `unmark()`
+  - Executes `unmark` behavior.
+- `getMarkDistance()`
+  - Executes `getMarkDistance` behavior.
+- `cloneMark()`
+  - Executes `cloneMark` behavior.
+- `reset()`
+  - Executes `reset` behavior.
+- `close()`
+  - Executes `close` behavior.
+- `closeAndTakeBuffer()`
+  - Executes `closeAndTakeBuffer` behavior.
+- `peekFor(char consume)`
+  - Executes `peekFor` behavior.
+- `tryConsume(char consume)`
+  - Executes `tryConsume` behavior.
+- `tryConsumeString(@Nonnull String str)`
+  - Executes `tryConsumeString` behavior.
+- `tryConsume(@Nonnull String str)`
+  - Executes `tryConsume` behavior.
+- `tryConsume(@Nonnull String str, int start)`
+  - Executes `tryConsume` behavior.
+- `tryConsumeSome(@Nonnull String str, int start)`
+  - Executes `tryConsumeSome` behavior.
+- `expect(char expect)`
+  - Executes `expect` behavior.
+- `expect(@Nonnull String str, int start)`
+  - Executes `expect` behavior.
+- `tryConsumeOrExpect(char consume, char expect)`
+  - Executes `tryConsumeOrExpect` behavior.
+- `consumeWhiteSpace()`
+  - Executes `consumeWhiteSpace` behavior.
+- `consumeIgnoreCase(@Nonnull String str, int start)`
+  - Executes `consumeIgnoreCase` behavior.
+- `readString()`
+  - Executes `readString` behavior.
+- `readRemainingString()`
+  - Executes `readRemainingString` behavior.
+- `skipString()`
+  - Executes `skipString` behavior.
+- `skipRemainingString()`
+  - Executes `skipRemainingString` behavior.
+- `readStringPartAsLong(int count)`
+  - Executes `readStringPartAsLong` behavior.
+- `readStringPartAsLongSlow(int count)`
+  - Executes `readStringPartAsLongSlow` behavior.
+- `readStringPartAsLongUnsafe(int count)`
+  - Executes `readStringPartAsLongUnsafe` behavior.
+- `readBooleanValue()`
+  - Executes `readBooleanValue` behavior.
+- `skipBooleanValue()`
+  - Executes `skipBooleanValue` behavior.
+- `readNullValue()`
+  - Executes `readNullValue` behavior.
+- `skipNullValue()`
+  - Executes `skipNullValue` behavior.
+- `readDoubleValue()`
+  - Executes `readDoubleValue` behavior.
+- `skipDoubleValue()`
+  - Executes `skipDoubleValue` behavior.
+- `readFloatValue()`
+  - Executes `readFloatValue` behavior.
+- `skipFloatValue()`
+  - Executes `skipFloatValue` behavior.
+- `readLongValue()`
+  - Executes `readLongValue` behavior.
+- `readLongValue(int radix)`
+  - Executes `readLongValue` behavior.
+- `skipLongValue()`
+  - Executes `skipLongValue` behavior.
+- `skipLongValue(int radix)`
+  - Executes `skipLongValue` behavior.
+- `readIntValue()`
+  - Executes `readIntValue` behavior.
+- `readIntValue(int radix)`
+  - Executes `readIntValue` behavior.
+- `readByteValue()`
+  - Executes `readByteValue` behavior.
+- `readByteValue(int radix)`
+  - Executes `readByteValue` behavior.
+- `skipIntValue()`
+  - Executes `skipIntValue` behavior.
+- `skipIntValue(int radix)`
+  - Executes `skipIntValue` behavior.
+- `skipObject()`
+  - Executes `skipObject` behavior.
+- `skipObjectContinued()`
+  - Executes `skipObjectContinued` behavior.
+- `skipArray()`
+  - Executes `skipArray` behavior.
+- `skipArrayContinued()`
+  - Executes `skipArrayContinued` behavior.
+- `skipValue()`
+  - Executes `skipValue` behavior.
+- `unexpectedEOF()`
+  - Executes `unexpectedEOF` behavior.
+- `unexpectedChar(char read)`
+  - Executes `unexpectedChar` behavior.
+- `expecting(char read, char expect)`
+  - Executes `expecting` behavior.
+- `expecting(char read, String expected)`
+  - Executes `expecting` behavior.
+- `expectingWhile(char read, String expected, String reason)`
+  - Executes `expectingWhile` behavior.
+- `expecting(char read, @Nonnull String expected, int index)`
+  - Executes `expecting` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `findLineStart(int index)`
+  - Executes `findLineStart` behavior.
+- `appendLine(@Nonnull StringBuilder sb, int index, int lineNumber)`
+  - Executes `appendLine` behavior.
+- `appendProblemLine(@Nonnull StringBuilder sb, int index, int lineNumber)`
+  - Executes `appendProblemLine` behavior.
+- `fromRawString(String str)`
+  - Executes `fromRawString` behavior.
+- `fromJsonString(@Nonnull String str)`
+  - Executes `fromJsonString` behavior.
+- `fromPath(@Nonnull Path path, @Nonnull char[] buffer)`
+  - Executes `fromPath` behavior.
+- `fromBuffer(@Nonnull char[] buffer)`
+  - Executes `fromBuffer` behavior.
+- `equalsIgnoreCase(char c1, char c2)`
+  - Executes `equalsIgnoreCase` behavior.
+- `readBsonDocument(@Nonnull RawJsonReader reader)`
+  - Executes `readBsonDocument` behavior.
+- `readBsonDocument0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`
+  - Executes `readBsonDocument0` behavior.
+- `readBsonArray(@Nonnull RawJsonReader reader)`
+  - Executes `readBsonArray` behavior.
+- `readBsonArray0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`
+  - Executes `readBsonArray0` behavior.
+- `readBsonValue(@Nonnull RawJsonReader reader)`
+  - Executes `readBsonValue` behavior.
+- `seekToKey(@Nonnull RawJsonReader reader, @Nonnull String search)`
+  - Executes `seekToKey` behavior.
+- `seekToKeyFromObjectStart(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`
+  - Executes `seekToKeyFromObjectStart` behavior.
+- `seekToKeyFromObjectContinued(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`
+  - Executes `seekToKeyFromObjectContinued` behavior.
+- `validateBsonDocument(@Nonnull RawJsonReader reader)`
+  - Executes `validateBsonDocument` behavior.
+- `validateBsonArray(@Nonnull RawJsonReader reader)`
+  - Executes `validateBsonArray` behavior.
+- `validateBsonValue(@Nonnull RawJsonReader reader)`
+  - Executes `validateBsonValue` behavior.
+- `readSync(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`
+  - Executes `readSync` behavior.
+- `readSyncWithBak(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`
+  - Executes `readSyncWithBak` behavior.
+
+## Notes
+- No additional notes.

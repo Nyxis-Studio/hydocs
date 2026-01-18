@@ -1,0 +1,98 @@
+# Objective
+
+## Overview
+- Documentation for `Objective`.
+- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives`.
+
+## Constructors
+- `Objective(@Nonnull ObjectiveAsset asset, @Nullable UUID objectiveUUID, @Nonnull Set<UUID> playerUUIDs, @Nonnull UUID worldUUID, @Nullable UUID markerUUID)`
+  - Creates a `Objective` instance.
+- `Objective()`
+  - Creates a `Objective` instance.
+
+## Methods
+- `getObjectiveUUID()`
+  - Executes `getObjectiveUUID` behavior.
+- `getObjectiveId()`
+  - Executes `getObjectiveId` behavior.
+- `getObjectiveAsset()`
+  - Executes `getObjectiveAsset` behavior.
+- `getObjectiveLineHistoryData()`
+  - Executes `getObjectiveLineHistoryData` behavior.
+- `setObjectiveLineHistoryData(@Nullable ObjectiveLineHistoryData objectiveLineHistoryData)`
+  - Executes `setObjectiveLineHistoryData` behavior.
+- `getObjectiveHistoryData()`
+  - Executes `getObjectiveHistoryData` behavior.
+- `getObjectiveLineAsset()`
+  - Executes `getObjectiveLineAsset` behavior.
+- `getPlayerUUIDs()`
+  - Executes `getPlayerUUIDs` behavior.
+- `getActivePlayerUUIDs()`
+  - Executes `getActivePlayerUUIDs` behavior.
+- `getCurrentTasks()`
+  - Executes `getCurrentTasks` behavior.
+- `getCurrentTaskSetIndex()`
+  - Executes `getCurrentTaskSetIndex` behavior.
+- `getCurrentDescription()`
+  - Executes `getCurrentDescription` behavior.
+- `isCompleted()`
+  - Executes `isCompleted` behavior.
+- `getWorldUUID()`
+  - Executes `getWorldUUID` behavior.
+- `getMarkerUUID()`
+  - Executes `getMarkerUUID` behavior.
+- `isDirty()`
+  - Executes `isDirty` behavior.
+- `getObjectiveItemStarter()`
+  - Executes `getObjectiveItemStarter` behavior.
+- `setObjectiveItemStarter(@Nonnull ItemStack objectiveItemStarter)`
+  - Executes `setObjectiveItemStarter` behavior.
+- `setup(@Nonnull Store<EntityStore> componentAccessor)`
+  - Executes `setup` behavior.
+- `setupCurrentTasks(@Nonnull Store<EntityStore> store)`
+  - Executes `setupCurrentTasks` behavior.
+- `checkTaskSetCompletion(@Nonnull Store<EntityStore> store)`
+  - Executes `checkTaskSetCompletion` behavior.
+- `taskSetComplete(@Nonnull Store<EntityStore> store)`
+  - Executes `taskSetComplete` behavior.
+- `complete(@Nonnull Store<EntityStore> store)`
+  - Executes `complete` behavior.
+- `cancel()`
+  - Executes `cancel` behavior.
+- `unload()`
+  - Executes `unload` behavior.
+- `getTaskInfoMessage()`
+  - Executes `getTaskInfoMessage` behavior.
+- `reloadObjectiveAsset(@Nonnull Map<String, ObjectiveAsset> reloadedAssets)`
+  - Executes `reloadObjectiveAsset` behavior.
+- `checkPossibleAssetReload(@Nonnull Map<String, ObjectiveAsset> reloadedAssets)`
+  - Executes `checkPossibleAssetReload` behavior.
+- `setupAndUpdateTasks(@Nonnull ObjectiveTaskAsset[] taskAssets, @Nonnull Store<EntityStore> store)`
+  - Executes `setupAndUpdateTasks` behavior.
+- `findMatchingObjectiveTask(@Nonnull ObjectiveTaskAsset taskAsset)`
+  - Executes `findMatchingObjectiveTask` behavior.
+- `cancelReload(@Nonnull ObjectiveTask[] newTasks)`
+  - Executes `cancelReload` behavior.
+- `revertRemovedTasks(@Nonnull ObjectiveTask[] newTasks)`
+  - Executes `revertRemovedTasks` behavior.
+- `forEachParticipant(@Nonnull Consumer<Ref<EntityStore>> consumer)`
+  - Executes `forEachParticipant` behavior.
+- `forEachParticipant(@Nonnull BiConsumer<Ref<EntityStore>, T> consumer, T meta)`
+  - Executes `forEachParticipant` behavior.
+- `forEachParticipant(@Nonnull TriConsumer<Ref<EntityStore>, T, U> consumer, @Nonnull T t, @Nonnull U u)`
+  - Executes `forEachParticipant` behavior.
+- `getPosition(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `getPosition` behavior.
+- `addActivePlayerUUID(UUID playerUUID)`
+  - Executes `addActivePlayerUUID` behavior.
+- `removeActivePlayerUUID(UUID playerUUID)`
+  - Executes `removeActivePlayerUUID` behavior.
+- `markDirty()`
+  - Executes `markDirty` behavior.
+- `consumeDirty()`
+  - Executes `consumeDirty` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,194 @@
+# Store
+
+## Overview
+- Documentation for `Store`.
+- Declared as a class in `com.hypixel.hytale.component`.
+
+## Constructors
+- `Store(@Nonnull ComponentRegistry<ECS_TYPE> registry, int storeIndex, @Nonnull ECS_TYPE externalData, @Nonnull IResourceStorage resourceStorage)`
+  - Creates a `Store` instance.
+
+## Methods
+- `getStoreIndex()`
+  - Executes `getStoreIndex` behavior.
+- `getRegistry()`
+  - Executes `getRegistry` behavior.
+- `getExternalData()`
+  - Executes `getExternalData` behavior.
+- `getResourceStorage()`
+  - Executes `getResourceStorage` behavior.
+- `getSystemMetrics()`
+  - Executes `getSystemMetrics` behavior.
+- `isShutdown()`
+  - Executes `isShutdown` behavior.
+- `shutdown()`
+  - Executes `shutdown` behavior.
+- `saveAllResources()`
+  - Executes `saveAllResources` behavior.
+- `saveAllResources0(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`
+  - Executes `saveAllResources0` behavior.
+- `getEntityCount()`
+  - Executes `getEntityCount` behavior.
+- `getEntityCountFor(@Nonnull Query<ECS_TYPE> query)`
+  - Executes `getEntityCountFor` behavior.
+- `getEntityCountFor(int systemIndex)`
+  - Executes `getEntityCountFor` behavior.
+- `getArchetypeChunkCount()`
+  - Executes `getArchetypeChunkCount` behavior.
+- `collectArchetypeChunkData()`
+  - Executes `collectArchetypeChunkData` behavior.
+- `getArchetypeChunkCountFor(int systemIndex)`
+  - Executes `getArchetypeChunkCountFor` behavior.
+- `setEntityChunkIndex(@Nonnull Ref<ECS_TYPE> ref, int newEntityChunkIndex)`
+  - Executes `setEntityChunkIndex` behavior.
+- `addEntity(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull AddReason reason)`
+  - Executes `addEntity` behavior.
+- `addEntity(@Nonnull Holder<ECS_TYPE> holder, @Nonnull AddReason reason)`
+  - Executes `addEntity` behavior.
+- `addEntity(@Nonnull Holder<ECS_TYPE> holder, @Nonnull Ref<ECS_TYPE> ref, @Nonnull AddReason reason)`
+  - Executes `addEntity` behavior.
+- `addEntities(@Nonnull Holder<ECS_TYPE>[] holders, @Nonnull AddReason reason)`
+  - Executes `addEntities` behavior.
+- `addEntities(@Nonnull Holder<ECS_TYPE>[] holders, int start, int length, @Nonnull AddReason reason)`
+  - Executes `addEntities` behavior.
+- `addEntities(@Nonnull Holder<ECS_TYPE>[] holders, @Nonnull Ref<ECS_TYPE>[] refs, @Nonnull AddReason reason)`
+  - Executes `addEntities` behavior.
+- `addEntities(@Nonnull Holder<ECS_TYPE>[] holders, int holderStart, @Nonnull Ref<ECS_TYPE>[] refs, int refStart, int length, @Nonnull AddReason reason)`
+  - Executes `addEntities` behavior.
+- `copyEntity(@Nonnull Ref<ECS_TYPE> ref)`
+  - Executes `copyEntity` behavior.
+- `copyEntity(@Nonnull Ref<ECS_TYPE> ref, @Nonnull Holder<ECS_TYPE> holder)`
+  - Executes `copyEntity` behavior.
+- `copySerializableEntity(@Nonnull Ref<ECS_TYPE> ref)`
+  - Executes `copySerializableEntity` behavior.
+- `copySerializableEntity(@Nonnull Ref<ECS_TYPE> ref, @Nonnull Holder<ECS_TYPE> holder)`
+  - Executes `copySerializableEntity` behavior.
+- `getArchetype(@Nonnull Ref<ECS_TYPE> ref)`
+  - Executes `getArchetype` behavior.
+- `__internal_getArchetype(@Nonnull Ref<ECS_TYPE> ref)`
+  - Executes `__internal_getArchetype` behavior.
+- `removeEntity(@Nonnull Ref<ECS_TYPE> ref, @Nonnull RemoveReason reason)`
+  - Executes `removeEntity` behavior.
+- `removeEntity(@Nonnull Ref<ECS_TYPE> ref, @Nonnull Holder<ECS_TYPE> holder, @Nonnull RemoveReason reason)`
+  - Executes `removeEntity` behavior.
+- `removeEntities(@Nonnull Ref<ECS_TYPE>[] refs, @Nonnull RemoveReason reason)`
+  - Executes `removeEntities` behavior.
+- `removeEntities(@Nonnull Ref<ECS_TYPE>[] refs, int start, int length, @Nonnull RemoveReason reason)`
+  - Executes `removeEntities` behavior.
+- `removeEntities(@Nonnull Ref<ECS_TYPE>[] refs, @Nonnull Holder<ECS_TYPE>[] holders, @Nonnull RemoveReason reason)`
+  - Executes `removeEntities` behavior.
+- `removeEntities(@Nonnull Ref<ECS_TYPE>[] refArr, int refStart, @Nonnull Holder<ECS_TYPE>[] holders, int holderStart, int length, @Nonnull RemoveReason reason)`
+  - Executes `removeEntities` behavior.
+- `ensureComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `ensureComponent` behavior.
+- `ensureAndGetComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `ensureAndGetComponent` behavior.
+- `addComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `addComponent` behavior.
+- `addComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+  - Executes `addComponent` behavior.
+- `replaceComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+  - Executes `replaceComponent` behavior.
+- `putComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+  - Executes `putComponent` behavior.
+- `getComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `getComponent` behavior.
+- `__internal_getComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `__internal_getComponent` behavior.
+- `removeComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `removeComponent` behavior.
+- `tryRemoveComponent(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `tryRemoveComponent` behavior.
+- `removeComponentIfExists(@Nonnull Ref<ECS_TYPE> ref, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+  - Executes `removeComponentIfExists` behavior.
+- `replaceResource(@Nonnull ResourceType<ECS_TYPE, T> resourceType, @Nonnull T resource)`
+  - Executes `replaceResource` behavior.
+- `getResource(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `getResource` behavior.
+- `__internal_getResource(@Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+  - Executes `__internal_getResource` behavior.
+- `forEachChunk(@Nonnull BiConsumer<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> consumer)`
+  - Executes `forEachChunk` behavior.
+- `forEachChunk(@Nonnull BiPredicate<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> predicate)`
+  - Executes `forEachChunk` behavior.
+- `forEachChunk(Query<ECS_TYPE> query, @Nonnull BiConsumer<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> consumer)`
+  - Executes `forEachChunk` behavior.
+- `forEachChunk(Query<ECS_TYPE> query, @Nonnull BiPredicate<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> predicate)`
+  - Executes `forEachChunk` behavior.
+- `forEachChunk(int systemIndex, @Nonnull BiConsumer<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> consumer)`
+  - Executes `forEachChunk` behavior.
+- `forEachChunk(int systemIndex, @Nonnull BiPredicate<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> predicate)`
+  - Executes `forEachChunk` behavior.
+- `forEachEntityParallel(IntBiObjectConsumer<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> consumer)`
+  - Executes `forEachEntityParallel` behavior.
+- `forEachEntityParallel(Query<ECS_TYPE> query, IntBiObjectConsumer<ArchetypeChunk<ECS_TYPE>, CommandBuffer<ECS_TYPE>> consumer)`
+  - Executes `forEachEntityParallel` behavior.
+- `fetch(@Nonnull SystemType<ECS_TYPE, T> systemType, Q query, @Nonnull List<R> results)`
+  - Executes `fetch` behavior.
+- `fetch(@Nonnull Collection<Ref<ECS_TYPE>> refs, @Nonnull SystemType<ECS_TYPE, T> systemType, Q query, @Nonnull List<R> results)`
+  - Executes `fetch` behavior.
+- `invoke(@Nonnull Ref<ECS_TYPE> ref, @Nonnull Event param)`
+  - Executes `invoke` behavior.
+- `invoke(@Nonnull EntityEventType<ECS_TYPE, Event> systemType, @Nonnull Ref<ECS_TYPE> ref, @Nonnull Event param)`
+  - Executes `invoke` behavior.
+- `invoke(@Nonnull Event param)`
+  - Executes `invoke` behavior.
+- `invoke(@Nonnull WorldEventType<ECS_TYPE, Event> systemType, @Nonnull Event param)`
+  - Executes `invoke` behavior.
+- `internal_invoke(CommandBuffer<ECS_TYPE> sourceCommandBuffer, Ref<ECS_TYPE> ref, Event param)`
+  - Executes `internal_invoke` behavior.
+- `internal_invoke(CommandBuffer<ECS_TYPE> sourceCommandBuffer, @Nonnull EntityEventType<ECS_TYPE, Event> systemType, Ref<ECS_TYPE> ref, Event param)`
+  - Executes `internal_invoke` behavior.
+- `internal_invoke(CommandBuffer<ECS_TYPE> sourceCommandBuffer, Event param)`
+  - Executes `internal_invoke` behavior.
+- `internal_invoke(CommandBuffer<ECS_TYPE> sourceCommandBuffer, @Nonnull WorldEventType<ECS_TYPE, Event> systemType, Event param)`
+  - Executes `internal_invoke` behavior.
+- `tick(float dt)`
+  - Executes `tick` behavior.
+- `pausedTick(float dt)`
+  - Executes `pausedTick` behavior.
+- `tickInternal(float dt, SystemType<ECS_TYPE, Tickable> tickingSystemType)`
+  - Executes `tickInternal` behavior.
+- `tick(ArchetypeTickingSystem<ECS_TYPE> system, float dt, int systemIndex)`
+  - Executes `tick` behavior.
+- `updateData(@Nonnull ComponentRegistry.Data<ECS_TYPE> oldData, @Nonnull ComponentRegistry.Data<ECS_TYPE> newData, DataChange dataChange)`
+  - Executes `updateData` behavior.
+- `updateData0(@Nonnull ComponentRegistry.Data<ECS_TYPE> oldData, @Nonnull ComponentRegistry.Data<ECS_TYPE> newData, DataChange dataChange)`
+  - Executes `updateData0` behavior.
+- `updateArchetypeIndexes(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`
+  - Executes `updateArchetypeIndexes` behavior.
+- `assertWriteProcessing()`
+  - Executes `assertWriteProcessing` behavior.
+- `isProcessing()`
+  - Executes `isProcessing` behavior.
+- `assertThread()`
+  - Executes `assertThread` behavior.
+- `isInThread()`
+  - Executes `isInThread` behavior.
+- `isAliveInDifferentThread()`
+  - Executes `isAliveInDifferentThread` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `datachunk_addComponent(@Nonnull Ref<ECS_TYPE> ref, int fromArchetypeIndex, @Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component, @Nonnull CommandBuffer<ECS_TYPE> commandBuffer)`
+  - Executes `datachunk_addComponent` behavior.
+- `findOrCreateArchetypeChunk(@Nonnull Archetype<ECS_TYPE> archetype)`
+  - Executes `findOrCreateArchetypeChunk` behavior.
+- `removeArchetypeChunk(int archetypeIndex)`
+  - Executes `removeArchetypeChunk` behavior.
+- `isHeld()`
+  - Executes `isHeld` behavior.
+- `lock()`
+  - Executes `lock` behavior.
+- `lockInterruptibly()`
+  - Executes `lockInterruptibly` behavior.
+- `tryLock()`
+  - Executes `tryLock` behavior.
+- `tryLock(long time, @Nonnull TimeUnit unit)`
+  - Executes `tryLock` behavior.
+- `unlock()`
+  - Executes `unlock` behavior.
+- `newCondition()`
+  - Executes `newCondition` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,105 @@
+# AStarBase
+
+## Overview
+- Documentation for `AStarBase`.
+- Declared as a class in `com.hypixel.hytale.server.npc.navigation`.
+
+## Constructors
+- None.
+
+## Methods
+- `setCanMoveDiagonal(boolean canMoveDiagonal)`
+  - Executes `setCanMoveDiagonal` behavior.
+- `setMaxPathLength(int maxPathLength)`
+  - Executes `setMaxPathLength` behavior.
+- `setOpenNodesLimit(int openNodesLimit)`
+  - Executes `setOpenNodesLimit` behavior.
+- `setTotalNodesLimit(int totalNodesLimit)`
+  - Executes `setTotalNodesLimit` behavior.
+- `setStartPosition(@Nonnull Vector3d position)`
+  - Executes `setStartPosition` behavior.
+- `getStartPosition()`
+  - Executes `getStartPosition` behavior.
+- `setOptimizedBuildPath(boolean optimizedBuildPath)`
+  - Executes `setOptimizedBuildPath` behavior.
+- `getEvaluator()`
+  - Executes `getEvaluator` behavior.
+- `getOpenNodes()`
+  - Executes `getOpenNodes` behavior.
+- `getOpenCount()`
+  - Executes `getOpenCount` behavior.
+- `getVisitedBlocks()`
+  - Executes `getVisitedBlocks` behavior.
+- `getStartPositionIndex()`
+  - Executes `getStartPositionIndex` behavior.
+- `getPath()`
+  - Executes `getPath` behavior.
+- `getPosition()`
+  - Executes `getPosition` behavior.
+- `getLength()`
+  - Executes `getLength` behavior.
+- `getIterations()`
+  - Executes `getIterations` behavior.
+- `getEndPosition()`
+  - Executes `getEndPosition` behavior.
+- `clearPath()`
+  - Executes `clearPath` behavior.
+- `initComputePath(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d start, AStarEvaluator evaluator, @Nonnull MotionController motionController, @Nonnull ProbeMoveData probeMoveData, @Nonnull AStarNodePoolProvider nodePoolProvider, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `initComputePath` behavior.
+- `computePath(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, @Nonnull ProbeMoveData probeMoveData, int nodesToProcess, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `computePath` behavior.
+- `getProgress()`
+  - Executes `getProgress` behavior.
+- `isComputing()`
+  - Executes `isComputing` behavior.
+- `buildLongestPath()`
+  - Executes `buildLongestPath` behavior.
+- `buildFurthestPath()`
+  - Executes `buildFurthestPath` behavior.
+- `buildBestPath(@Nonnull ToFloatFunction<AStarNode> weight, @Nonnull BiFloatPredicate predicate, float initialValue)`
+  - Executes `buildBestPath` behavior.
+- `findBestVisitedNode(@Nonnull ToFloatFunction<AStarNode> weight, @Nonnull BiFloatPredicate predicate, float initialValue)`
+  - Executes `findBestVisitedNode` behavior.
+- `buildBestPath(@Nonnull BiToFloatFunction<AStarNode, T> weight, @Nonnull BiFloatPredicate predicate, float initialValue, T obj)`
+  - Executes `buildBestPath` behavior.
+- `findBestVisitedNode(@Nonnull BiToFloatFunction<AStarNode, T> weight, @Nonnull BiFloatPredicate predicate, float initialValue, T obj)`
+  - Executes `findBestVisitedNode` behavior.
+- `createDebugHelper(@Nonnull HytaleLogger logger)`
+  - Executes `createDebugHelper` behavior.
+- `indexFromXYZ(long dx, long dy, long dz)`
+  - Executes `indexFromXYZ` behavior.
+- `zFromIndex(long index)`
+  - Executes `zFromIndex` behavior.
+- `yFromIndex(long index)`
+  - Executes `yFromIndex` behavior.
+- `xFromIndex(long index)`
+  - Executes `xFromIndex` behavior.
+- `positionIndexToString(long index)`
+  - Executes `positionIndexToString` behavior.
+- `setProgress(Progress progress)`
+  - Executes `setProgress` behavior.
+- `canAdvance(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d startPosition, @Nonnull Vector3d destination, @Nonnull MotionController motionController, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canAdvance` behavior.
+- `addStartNode(Vector3d startPosition, @Nonnull Vector3d position, @Nonnull MotionController motionController)`
+  - Executes `addStartNode` behavior.
+- `addOpenNode(@Nonnull AStarNode parentNode, int directionIndex, @Nonnull Vector3d position, long positionIndex, float cost, MotionController motionController)`
+  - Executes `addOpenNode` behavior.
+- `addOpenNode(@Nonnull AStarNode node, long index)`
+  - Executes `addOpenNode` behavior.
+- `updateNode(@Nonnull AStarNode node, int directionIndex, @Nonnull AStarNode targetNode, @Nonnull MotionController motionController)`
+  - Executes `updateNode` behavior.
+- `addOrUpdateNode(@Nonnull AStarNode node, int directionIndex, @Nonnull Vector3d position, @Nonnull MotionController motionController, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `addOrUpdateNode` behavior.
+- `updateNodeCost(@Nonnull AStarNode node, int directionIndex, @Nonnull AStarNode targetNode, float stepCost)`
+  - Executes `updateNodeCost` behavior.
+- `positionToIndex(@Nonnull Vector3d position)`
+  - Executes `positionToIndex` behavior.
+- `measureWalkCost(Vector3d fromPosition, Vector3d toPosition, @Nonnull MotionController motionController)`
+  - Executes `measureWalkCost` behavior.
+- `buildPath(@Nullable AStarNode endNode)`
+  - Executes `buildPath` behavior.
+- `addOffsetToIndex(long index, long xSteps, long ySteps, long zSteps)`
+  - Executes `addOffsetToIndex` behavior.
+
+## Notes
+- No additional notes.

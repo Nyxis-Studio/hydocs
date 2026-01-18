@@ -1,0 +1,132 @@
+# BlockSection
+
+## Overview
+- Documentation for `BlockSection`.
+- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section`.
+
+## Constructors
+- `BlockSection()`
+  - Creates a `BlockSection` instance.
+- `BlockSection(ISectionPalette chunkSection, ISectionPalette fillerSection, ISectionPalette rotationSection)`
+  - Creates a `BlockSection` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `getChunkSection()`
+  - Executes `getChunkSection` behavior.
+- `setChunkSection(ISectionPalette chunkSection)`
+  - Executes `setChunkSection` behavior.
+- `setLocalLight(@Nonnull ChunkLightDataBuilder localLight)`
+  - Executes `setLocalLight` behavior.
+- `setGlobalLight(@Nonnull ChunkLightDataBuilder globalLight)`
+  - Executes `setGlobalLight` behavior.
+- `getLocalLight()`
+  - Executes `getLocalLight` behavior.
+- `getGlobalLight()`
+  - Executes `getGlobalLight` behavior.
+- `hasLocalLight()`
+  - Executes `hasLocalLight` behavior.
+- `hasGlobalLight()`
+  - Executes `hasGlobalLight` behavior.
+- `invalidateLocalLight()`
+  - Executes `invalidateLocalLight` behavior.
+- `invalidateGlobalLight()`
+  - Executes `invalidateGlobalLight` behavior.
+- `getLocalChangeCounter()`
+  - Executes `getLocalChangeCounter` behavior.
+- `getGlobalChangeCounter()`
+  - Executes `getGlobalChangeCounter` behavior.
+- `invalidate()`
+  - Executes `invalidate` behavior.
+- `get(int index)`
+  - Executes `get` behavior.
+- `getFiller(int index)`
+  - Executes `getFiller` behavior.
+- `getFiller(int x, int y, int z)`
+  - Executes `getFiller` behavior.
+- `getRotationIndex(int index)`
+  - Executes `getRotationIndex` behavior.
+- `getRotationIndex(int x, int y, int z)`
+  - Executes `getRotationIndex` behavior.
+- `getRotation(int index)`
+  - Executes `getRotation` behavior.
+- `getRotation(int x, int y, int z)`
+  - Executes `getRotation` behavior.
+- `set(int blockIdx, int blockId, int rotation, int filler)`
+  - Executes `set` behavior.
+- `getAndClearChangedPositions()`
+  - Executes `getAndClearChangedPositions` behavior.
+- `contains(int id)`
+  - Executes `contains` behavior.
+- `containsAny(IntList ids)`
+  - Executes `containsAny` behavior.
+- `count()`
+  - Executes `count` behavior.
+- `count(int id)`
+  - Executes `count` behavior.
+- `values()`
+  - Executes `values` behavior.
+- `forEachValue(IntConsumer consumer)`
+  - Executes `forEachValue` behavior.
+- `valueCounts()`
+  - Executes `valueCounts` behavior.
+- `isSolidAir()`
+  - Executes `isSolidAir` behavior.
+- `find(IntList ids, IntSet internalIdHolder, IntConsumer indexConsumer)`
+  - Executes `find` behavior.
+- `setTicking(int blockIdx, boolean ticking)`
+  - Executes `setTicking` behavior.
+- `getTickingBlocksCount()`
+  - Executes `getTickingBlocksCount` behavior.
+- `getTickingBlocksCountCopy()`
+  - Executes `getTickingBlocksCountCopy` behavior.
+- `hasTicking()`
+  - Executes `hasTicking` behavior.
+- `isTicking(int blockIdx)`
+  - Executes `isTicking` behavior.
+- `scheduleTick(int index, @Nullable Instant gameTime)`
+  - Executes `scheduleTick` behavior.
+- `preTick(Instant gameTime)`
+  - Executes `preTick` behavior.
+- `forEachTicking(T t, V v, int sectionIndex, @Nonnull ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`
+  - Executes `forEachTicking` behavior.
+- `mergeTickingBlocks()`
+  - Executes `mergeTickingBlocks` behavior.
+- `getMaximumHitboxExtent()`
+  - Executes `getMaximumHitboxExtent` behavior.
+- `invalidateBlock(int x, int y, int z)`
+  - Executes `invalidateBlock` behavior.
+- `takeMigratedFluid()`
+  - Executes `takeMigratedFluid` behavior.
+- `takeMigratedDecoBlocks()`
+  - Executes `takeMigratedDecoBlocks` behavior.
+- `serializeForPacket(@Nonnull ByteBuf buf)`
+  - Executes `serializeForPacket` behavior.
+- `serialize(ISectionPalette.KeySerializer keySerializer, @Nonnull ByteBuf buf)`
+  - Executes `serialize` behavior.
+- `serialize(ExtraInfo extraInfo)`
+  - Executes `serialize` behavior.
+- `deserialize(ToIntFunction<ByteBuf> keyDeserializer, @Nonnull ByteBuf buf, int version)`
+  - Executes `deserialize` behavior.
+- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`
+  - Executes `deserialize` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `cloneSerializable()`
+  - Executes `cloneSerializable` behavior.
+- `getCachedChunkPacket(int x, int y, int z)`
+  - Executes `getCachedChunkPacket` behavior.
+- `get(int x, int y, int z)`
+  - Executes `get` behavior.
+- `set(int x, int y, int z, int blockId, int rotation, int filler)`
+  - Executes `set` behavior.
+- `setTicking(int x, int y, int z, boolean ticking)`
+  - Executes `setTicking` behavior.
+- `isTicking(int x, int y, int z)`
+  - Executes `isTicking` behavior.
+- `TickRequest(int index, @Nonnull Instant requestedGameTime)`
+  - Executes `TickRequest` behavior.
+
+## Notes
+- No additional notes.

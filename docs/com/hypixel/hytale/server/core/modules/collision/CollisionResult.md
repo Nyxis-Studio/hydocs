@@ -1,0 +1,134 @@
+# CollisionResult
+
+## Overview
+- Documentation for `CollisionResult`.
+- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
+
+## Constructors
+- `CollisionResult()`
+  - Creates a `CollisionResult` instance.
+- `CollisionResult(boolean enableSlides, boolean enableCharacters)`
+  - Creates a `CollisionResult` instance.
+
+## Methods
+- `getConfig()`
+  - Executes `getConfig` behavior.
+- `getCollisionEntities()`
+  - Executes `getCollisionEntities` behavior.
+- `setCollisionEntities(List<Entity> collisionEntities)`
+  - Executes `setCollisionEntities` behavior.
+- `getBoxBlockIntersection()`
+  - Executes `getBoxBlockIntersection` behavior.
+- `getMovingBoxBoxCollision()`
+  - Executes `getMovingBoxBoxCollision` behavior.
+- `allocCharacterCollision()`
+  - Executes `allocCharacterCollision` behavior.
+- `addCollision(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+  - Executes `addCollision` behavior.
+- `newCollision()`
+  - Executes `newCollision` behavior.
+- `addSlide(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+  - Executes `addSlide` behavior.
+- `newSlide()`
+  - Executes `newSlide` behavior.
+- `addTrigger(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+  - Executes `addTrigger` behavior.
+- `newTrigger()`
+  - Executes `newTrigger` behavior.
+- `reset()`
+  - Executes `reset` behavior.
+- `process()`
+  - Executes `process` behavior.
+- `getBlockCollisionCount()`
+  - Executes `getBlockCollisionCount` behavior.
+- `getBlockCollision(int i)`
+  - Executes `getBlockCollision` behavior.
+- `getFirstBlockCollision()`
+  - Executes `getFirstBlockCollision` behavior.
+- `forgetFirstBlockCollision()`
+  - Executes `forgetFirstBlockCollision` behavior.
+- `getCharacterCollisionCount()`
+  - Executes `getCharacterCollisionCount` behavior.
+- `getFirstCharacterCollision()`
+  - Executes `getFirstCharacterCollision` behavior.
+- `forgetFirstCharacterCollision()`
+  - Executes `forgetFirstCharacterCollision` behavior.
+- `pruneTriggerBlocks(double distance)`
+  - Executes `pruneTriggerBlocks` behavior.
+- `getTriggerBlocks()`
+  - Executes `getTriggerBlocks` behavior.
+- `defaultTriggerBlocksProcessing(@Nonnull InteractionManager manager, @Nonnull Entity entity, @Nonnull Ref<EntityStore> ref, boolean executeTriggers, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `defaultTriggerBlocksProcessing` behavior.
+- `doCollisionInteraction(@Nonnull InteractionManager manager, @Nonnull InteractionType type, @Nonnull Ref<EntityStore> ref, @Nonnull String interactions, @Nonnull BlockPosition pos, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `doCollisionInteraction` behavior.
+- `next()`
+  - Executes `next` behavior.
+- `accept(long x, long y, long z)`
+  - Executes `accept` behavior.
+- `processCollisionResult(boolean haveCollision, int hitboxIndex)`
+  - Executes `processCollisionResult` behavior.
+- `iterateBlocks(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d direction, double length, boolean stopOnCollisionFound)`
+  - Executes `iterateBlocks` behavior.
+- `acquireCollisionModule()`
+  - Executes `acquireCollisionModule` behavior.
+- `disableSlides()`
+  - Executes `disableSlides` behavior.
+- `enableSlides()`
+  - Executes `enableSlides` behavior.
+- `disableCharacterCollisions()`
+  - Executes `disableCharacterCollisions` behavior.
+- `enableCharacterCollsions()`
+  - Executes `enableCharacterCollsions` behavior.
+- `isCheckingForCharacterCollisions()`
+  - Executes `isCheckingForCharacterCollisions` behavior.
+- `enableTriggerBlocks()`
+  - Executes `enableTriggerBlocks` behavior.
+- `disableTriggerBlocks()`
+  - Executes `disableTriggerBlocks` behavior.
+- `isCheckingTriggerBlocks()`
+  - Executes `isCheckingTriggerBlocks` behavior.
+- `enableDamageBlocks()`
+  - Executes `enableDamageBlocks` behavior.
+- `disableDamageBlocks()`
+  - Executes `disableDamageBlocks` behavior.
+- `isCheckingDamageBlocks()`
+  - Executes `isCheckingDamageBlocks` behavior.
+- `setDamageBlocking(boolean blocking)`
+  - Executes `setDamageBlocking` behavior.
+- `isDamageBlocking()`
+  - Executes `isDamageBlocking` behavior.
+- `setCollisionByMaterial(int collidingMaterials)`
+  - Executes `setCollisionByMaterial` behavior.
+- `setCollisionByMaterial(int collidingMaterials, int walkableMaterials)`
+  - Executes `setCollisionByMaterial` behavior.
+- `getCollisionByMaterial()`
+  - Executes `getCollisionByMaterial` behavior.
+- `setDefaultCollisionBehaviour()`
+  - Executes `setDefaultCollisionBehaviour` behavior.
+- `setDefaultBlockCollisionPredicate()`
+  - Executes `setDefaultBlockCollisionPredicate` behavior.
+- `setDefaultNonWalkablePredicate()`
+  - Executes `setDefaultNonWalkablePredicate` behavior.
+- `setNonWalkablePredicate(Predicate<CollisionConfig> classifier)`
+  - Executes `setNonWalkablePredicate` behavior.
+- `setWalkableByMaterial(int walkableMaterial)`
+  - Executes `setWalkableByMaterial` behavior.
+- `updateDamageWalkableFlag()`
+  - Executes `updateDamageWalkableFlag` behavior.
+- `setDefaultWalkableBehaviour()`
+  - Executes `setDefaultWalkableBehaviour` behavior.
+- `setDefaultPlayerSettings()`
+  - Executes `setDefaultPlayerSettings` behavior.
+- `isComputeOverlaps()`
+  - Executes `isComputeOverlaps` behavior.
+- `setComputeOverlaps(boolean computeOverlaps)`
+  - Executes `setComputeOverlaps` behavior.
+- `getLogger()`
+  - Executes `getLogger` behavior.
+- `shouldLog()`
+  - Executes `shouldLog` behavior.
+- `setLogger(HytaleLogger logger)`
+  - Executes `setLogger` behavior.
+
+## Notes
+- No additional notes.

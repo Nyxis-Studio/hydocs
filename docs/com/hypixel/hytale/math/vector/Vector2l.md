@@ -1,0 +1,104 @@
+# Vector2l
+
+## Overview
+- Documentation for `Vector2l`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector2l(0L, 0L)`
+  - Creates a `Vector2l` instance.
+- `Vector2l()`
+  - Creates a `Vector2l` instance.
+- `Vector2l(@Nonnull Vector2l v)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(long x, long y)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(this.x, this.y)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(Math.max(a.x, b.x)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(Math.min(a.x, b.x)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(0L, 1L)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(0L, -1L)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(1L, 0L)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(-1L, 0L)`
+  - Creates a `Vector2l` instance.
+- `Vector2l(1L, 1L)`
+  - Creates a `Vector2l` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(long x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(long y)`
+  - Executes `setY` behavior.
+- `assign(@Nonnull Vector2l v)`
+  - Executes `assign` behavior.
+- `assign(long v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull long[] v)`
+  - Executes `assign` behavior.
+- `assign(long x, long y)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector2l v)`
+  - Executes `add` behavior.
+- `add(long x, long y)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector2l v, long s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector2l v)`
+  - Executes `subtract` behavior.
+- `subtract(long x, long y)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(long s)`
+  - Executes `scale` behavior.
+- `scale(double s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector2l p)`
+  - Executes `scale` behavior.
+- `dot(@Nonnull Vector2l other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector2l v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(long x, long y)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector2l v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(long x, long y)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(long newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(long maxLength)`
+  - Executes `clampLength` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `max(@Nonnull Vector2l a, @Nonnull Vector2l b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector2l a, @Nonnull Vector2l b)`
+  - Executes `min` behavior.
+
+## Notes
+- No additional notes.

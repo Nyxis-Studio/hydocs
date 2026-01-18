@@ -1,0 +1,236 @@
+# Schema
+
+## Overview
+- Documentation for `Schema`.
+- Declared as a class in `com.hypixel.hytale.codec.schema.config`.
+
+## Constructors
+- `Schema()`
+  - Creates a `Schema` instance.
+
+## Methods
+- `getId()`
+  - Executes `getId` behavior.
+- `setId(String id)`
+  - Executes `setId` behavior.
+- `getTypes()`
+  - Executes `getTypes` behavior.
+- `setTypes(String[] types)`
+  - Executes `setTypes` behavior.
+- `getTitle()`
+  - Executes `getTitle` behavior.
+- `setTitle(String title)`
+  - Executes `setTitle` behavior.
+- `getDescription()`
+  - Executes `getDescription` behavior.
+- `setDescription(String description)`
+  - Executes `setDescription` behavior.
+- `getMarkdownDescription()`
+  - Executes `getMarkdownDescription` behavior.
+- `setMarkdownDescription(String markdownDescription)`
+  - Executes `setMarkdownDescription` behavior.
+- `getEnumDescriptions()`
+  - Executes `getEnumDescriptions` behavior.
+- `setEnumDescriptions(String[] enumDescriptions)`
+  - Executes `setEnumDescriptions` behavior.
+- `getMarkdownEnumDescriptions()`
+  - Executes `getMarkdownEnumDescriptions` behavior.
+- `setMarkdownEnumDescriptions(String[] markdownEnumDescriptions)`
+  - Executes `setMarkdownEnumDescriptions` behavior.
+- `getAnyOf()`
+  - Executes `getAnyOf` behavior.
+- `setAnyOf(Schema ... anyOf)`
+  - Executes `setAnyOf` behavior.
+- `getOneOf()`
+  - Executes `getOneOf` behavior.
+- `setOneOf(Schema ... oneOf)`
+  - Executes `setOneOf` behavior.
+- `getAllOf()`
+  - Executes `getAllOf` behavior.
+- `setAllOf(Schema ... allOf)`
+  - Executes `setAllOf` behavior.
+- `getRequired()`
+  - Executes `getRequired` behavior.
+- `setRequired(String ... required)`
+  - Executes `setRequired` behavior.
+- `getDefaultRaw()`
+  - Executes `getDefaultRaw` behavior.
+- `setDefaultRaw(BsonDocument default_)`
+  - Executes `setDefaultRaw` behavior.
+- `getDefinitions()`
+  - Executes `getDefinitions` behavior.
+- `setDefinitions(Map<String, Schema> definitions)`
+  - Executes `setDefinitions` behavior.
+- `getRef()`
+  - Executes `getRef` behavior.
+- `setRef(String ref)`
+  - Executes `setRef` behavior.
+- `getData()`
+  - Executes `getData` behavior.
+- `setData(String data)`
+  - Executes `setData` behavior.
+- `getIf()`
+  - Executes `getIf` behavior.
+- `setIf(Schema if_)`
+  - Executes `setIf` behavior.
+- `getThen()`
+  - Executes `getThen` behavior.
+- `setThen(Schema then)`
+  - Executes `setThen` behavior.
+- `getElse()`
+  - Executes `getElse` behavior.
+- `setElse(Schema else_)`
+  - Executes `setElse` behavior.
+- `setElse(boolean else_)`
+  - Executes `setElse` behavior.
+- `isDoNotSuggest()`
+  - Executes `isDoNotSuggest` behavior.
+- `setDoNotSuggest(boolean doNotSuggest)`
+  - Executes `setDoNotSuggest` behavior.
+- `getHytale()`
+  - Executes `getHytale` behavior.
+- `getHytale(boolean createInstance)`
+  - Executes `getHytale` behavior.
+- `getHytaleAssetRef()`
+  - Executes `getHytaleAssetRef` behavior.
+- `setHytaleAssetRef(String hytaleAssetRef)`
+  - Executes `setHytaleAssetRef` behavior.
+- `getHytaleParent()`
+  - Executes `getHytaleParent` behavior.
+- `setHytaleParent(InheritSettings hytaleParent)`
+  - Executes `setHytaleParent` behavior.
+- `getHytaleSchemaTypeField()`
+  - Executes `getHytaleSchemaTypeField` behavior.
+- `setHytaleSchemaTypeField(SchemaTypeField hytaleSchemaTypeField)`
+  - Executes `setHytaleSchemaTypeField` behavior.
+- `getHytaleCustomAssetRef()`
+  - Executes `getHytaleCustomAssetRef` behavior.
+- `setHytaleCustomAssetRef(String hytaleCustomAssetRef)`
+  - Executes `setHytaleCustomAssetRef` behavior.
+- `ref(String file)`
+  - Executes `ref` behavior.
+- `data(String file)`
+  - Executes `data` behavior.
+- `anyOf(Schema ... anyOf)`
+  - Executes `anyOf` behavior.
+- `not(Schema not)`
+  - Executes `not` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `init()`
+  - Executes `init` behavior.
+- `getType()`
+  - Executes `getType` behavior.
+- `setType(String type)`
+  - Executes `setType` behavior.
+- `getPath()`
+  - Executes `getPath` behavior.
+- `setPath(String path)`
+  - Executes `setPath` behavior.
+- `getVirtualPath()`
+  - Executes `getVirtualPath` behavior.
+- `setVirtualPath(String virtualPath)`
+  - Executes `setVirtualPath` behavior.
+- `getExtension()`
+  - Executes `getExtension` behavior.
+- `setExtension(String extension)`
+  - Executes `setExtension` behavior.
+- `getIdProvider()`
+  - Executes `getIdProvider` behavior.
+- `setIdProvider(String idProvider)`
+  - Executes `setIdProvider` behavior.
+- `getInternalKeys()`
+  - Executes `getInternalKeys` behavior.
+- `setInternalKeys(String[] internalKeys)`
+  - Executes `setInternalKeys` behavior.
+- `setUiDisplayMode(UIDisplayMode.DisplayMode uiDisplayMode)`
+  - Executes `setUiDisplayMode` behavior.
+- `setUiEditorComponent(UIEditor.EditorComponent uiEditorComponent)`
+  - Executes `setUiEditorComponent` behavior.
+- `setUiEditorFeatures(UIEditorFeatures.EditorFeature[] uiEditorFeatures)`
+  - Executes `setUiEditorFeatures` behavior.
+- `setUiEditorPreview(UIEditorPreview.PreviewType uiEditorPreview)`
+  - Executes `setUiEditorPreview` behavior.
+- `getUiTypeIcon()`
+  - Executes `getUiTypeIcon` behavior.
+- `setUiTypeIcon(String uiTypeIcon)`
+  - Executes `setUiTypeIcon` behavior.
+- `getUiEditorIgnore()`
+  - Executes `getUiEditorIgnore` behavior.
+- `setUiEditorIgnore(Boolean uiEditorIgnore)`
+  - Executes `setUiEditorIgnore` behavior.
+- `getAllowEmptyObject()`
+  - Executes `getAllowEmptyObject` behavior.
+- `setAllowEmptyObject(Boolean allowEmptyObject)`
+  - Executes `setAllowEmptyObject` behavior.
+- `getUiPropertyTitle()`
+  - Executes `getUiPropertyTitle` behavior.
+- `setUiPropertyTitle(String uiPropertyTitle)`
+  - Executes `setUiPropertyTitle` behavior.
+- `getUiSectionStart()`
+  - Executes `getUiSectionStart` behavior.
+- `setUiSectionStart(String uiSectionStart)`
+  - Executes `setUiSectionStart` behavior.
+- `isInheritsProperty()`
+  - Executes `isInheritsProperty` behavior.
+- `setInheritsProperty(boolean inheritsProperty)`
+  - Executes `setInheritsProperty` behavior.
+- `getMergesProperties()`
+  - Executes `getMergesProperties` behavior.
+- `setMergesProperties(boolean mergesProperties)`
+  - Executes `setMergesProperties` behavior.
+- `setUiRebuildCaches(UIRebuildCaches.ClientCache[] uiRebuildCaches)`
+  - Executes `setUiRebuildCaches` behavior.
+- `getUiRebuildCachesForChildProperties()`
+  - Executes `getUiRebuildCachesForChildProperties` behavior.
+- `setUiRebuildCachesForChildProperties(Boolean uiRebuildCachesForChildProperties)`
+  - Executes `setUiRebuildCachesForChildProperties` behavior.
+- `getUiSidebarButtons()`
+  - Executes `getUiSidebarButtons` behavior.
+- `setUiSidebarButtons(UIButton[] uiSidebarButtons)`
+  - Executes `setUiSidebarButtons` behavior.
+- `getUiCollapsedByDefault()`
+  - Executes `getUiCollapsedByDefault` behavior.
+- `setUiCollapsedByDefault(Boolean uiCollapsedByDefault)`
+  - Executes `setUiCollapsedByDefault` behavior.
+- `getUiCreateButtons()`
+  - Executes `getUiCreateButtons` behavior.
+- `setUiCreateButtons(UIButton[] uiCreateButtons)`
+  - Executes `setUiCreateButtons` behavior.
+- `getMapKey()`
+  - Executes `getMapKey` behavior.
+- `setMapKey(String mapKey)`
+  - Executes `setMapKey` behavior.
+- `getMapKeyValue()`
+  - Executes `getMapKeyValue` behavior.
+- `setMapKeyValue(String mapKeyValue)`
+  - Executes `setMapKeyValue` behavior.
+- `getProperty()`
+  - Executes `getProperty` behavior.
+- `getDefaultValue()`
+  - Executes `getDefaultValue` behavior.
+- `getValues()`
+  - Executes `getValues` behavior.
+- `getParentPropertyKey()`
+  - Executes `getParentPropertyKey` behavior.
+- `setParentPropertyKey(String parentPropertyKey)`
+  - Executes `setParentPropertyKey` behavior.
+- `equals(Object o)`
+  - Executes `equals` behavior.
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+  - Executes `decode` behavior.
+- `encode(@Nonnull String o, ExtraInfo extraInfo)`
+  - Executes `encode` behavior.
+- `toSchema(@Nonnull SchemaContext context)`
+  - Executes `toSchema` behavior.
+- `decode(@Nonnull BsonValue bsonValue, @Nonnull ExtraInfo extraInfo)`
+  - Executes `decode` behavior.
+- `encode(@Nullable String[] o, ExtraInfo extraInfo)`
+  - Executes `encode` behavior.
+- `encode(Object o, ExtraInfo extraInfo)`
+  - Executes `encode` behavior.
+
+## Notes
+- No additional notes.

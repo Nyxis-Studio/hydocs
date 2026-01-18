@@ -1,0 +1,152 @@
+# MathUtil
+
+## Overview
+- Documentation for `MathUtil`.
+- Declared as a class in `com.hypixel.hytale.math.util`.
+
+## Constructors
+- `MathUtil()`
+  - Creates a `MathUtil` instance.
+
+## Methods
+- `abs(int i)`
+  - Executes `abs` behavior.
+- `floor(double d)`
+  - Executes `floor` behavior.
+- `ceil(double d)`
+  - Executes `ceil` behavior.
+- `randomInt(int min, int max)`
+  - Executes `randomInt` behavior.
+- `randomDouble(double min, double max)`
+  - Executes `randomDouble` behavior.
+- `randomFloat(float min, float max)`
+  - Executes `randomFloat` behavior.
+- `round(double d, int p)`
+  - Executes `round` behavior.
+- `within(double val, double min, double max)`
+  - Executes `within` behavior.
+- `minValue(double v, double a, double c)`
+  - Executes `minValue` behavior.
+- `minValue(int v, int a, int c)`
+  - Executes `minValue` behavior.
+- `maxValue(double v, double a, double b, double c)`
+  - Executes `maxValue` behavior.
+- `maxValue(double v, double a, double b)`
+  - Executes `maxValue` behavior.
+- `maxValue(byte v, byte a, byte b)`
+  - Executes `maxValue` behavior.
+- `maxValue(byte v, byte a, byte b, byte c)`
+  - Executes `maxValue` behavior.
+- `maxValue(int v, int a, int b)`
+  - Executes `maxValue` behavior.
+- `lengthSquared(double x, double y)`
+  - Executes `lengthSquared` behavior.
+- `length(double x, double y)`
+  - Executes `length` behavior.
+- `lengthSquared(double x, double y, double z)`
+  - Executes `lengthSquared` behavior.
+- `length(double x, double y, double z)`
+  - Executes `length` behavior.
+- `maxValue(double v, double a)`
+  - Executes `maxValue` behavior.
+- `clipToZero(double v)`
+  - Executes `clipToZero` behavior.
+- `clipToZero(double v, double epsilon)`
+  - Executes `clipToZero` behavior.
+- `clipToZero(float v)`
+  - Executes `clipToZero` behavior.
+- `clipToZero(float v, float epsilon)`
+  - Executes `clipToZero` behavior.
+- `closeToZero(double v)`
+  - Executes `closeToZero` behavior.
+- `closeToZero(double v, double epsilon)`
+  - Executes `closeToZero` behavior.
+- `closeToZero(float v)`
+  - Executes `closeToZero` behavior.
+- `closeToZero(float v, float epsilon)`
+  - Executes `closeToZero` behavior.
+- `clamp(double v, double min, double max)`
+  - Executes `clamp` behavior.
+- `clamp(float v, float min, float max)`
+  - Executes `clamp` behavior.
+- `clamp(int v, int min, int max)`
+  - Executes `clamp` behavior.
+- `clamp(long v, long min, long max)`
+  - Executes `clamp` behavior.
+- `getPercentageOf(int index, int max)`
+  - Executes `getPercentageOf` behavior.
+- `percent(int v, int total)`
+  - Executes `percent` behavior.
+- `fastRound(float f)`
+  - Executes `fastRound` behavior.
+- `fastRound(double d)`
+  - Executes `fastRound` behavior.
+- `fastFloor(float f)`
+  - Executes `fastFloor` behavior.
+- `fastFloor(double d)`
+  - Executes `fastFloor` behavior.
+- `fastCeil(float f)`
+  - Executes `fastCeil` behavior.
+- `fastCeil(double d)`
+  - Executes `fastCeil` behavior.
+- `halfFloatToFloat(int hbits)`
+  - Executes `halfFloatToFloat` behavior.
+- `halfFloatFromFloat(float fval)`
+  - Executes `halfFloatFromFloat` behavior.
+- `byteCount(int i)`
+  - Executes `byteCount` behavior.
+- `packInt(int x, int z)`
+  - Executes `packInt` behavior.
+- `unpackLeft(int packed)`
+  - Executes `unpackLeft` behavior.
+- `unpackRight(int packed)`
+  - Executes `unpackRight` behavior.
+- `packLong(int left, int right)`
+  - Executes `packLong` behavior.
+- `unpackLeft(long packed)`
+  - Executes `unpackLeft` behavior.
+- `unpackRight(long packed)`
+  - Executes `unpackRight` behavior.
+- `rotateVectorYAxis(@Nonnull Vector3i vector, int angle, boolean clockwise)`
+  - Executes `rotateVectorYAxis` behavior.
+- `rotateVectorYAxis(@Nonnull Vector3d vector, int angle, boolean clockwise)`
+  - Executes `rotateVectorYAxis` behavior.
+- `wrapAngle(float angle)`
+  - Executes `wrapAngle` behavior.
+- `lerp(float a, float b, float t)`
+  - Executes `lerp` behavior.
+- `lerpUnclamped(float a, float b, float t)`
+  - Executes `lerpUnclamped` behavior.
+- `lerp(double a, double b, double t)`
+  - Executes `lerp` behavior.
+- `lerpUnclamped(double a, double b, double t)`
+  - Executes `lerpUnclamped` behavior.
+- `shortAngleDistance(float a, float b)`
+  - Executes `shortAngleDistance` behavior.
+- `lerpAngle(float a, float b, float t)`
+  - Executes `lerpAngle` behavior.
+- `floorMod(double x, double y)`
+  - Executes `floorMod` behavior.
+- `compareAngle(double a, double b)`
+  - Executes `compareAngle` behavior.
+- `percentile(@Nonnull long[] sortedData, double percentile)`
+  - Executes `percentile` behavior.
+- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by)`
+  - Executes `distanceToLineSq` behavior.
+- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by, double dxAx, double dyAy, double dBxAx, double dByAy)`
+  - Executes `distanceToLineSq` behavior.
+- `distanceToInfLineSq(double x, double y, double ax, double ay, double bx, double by)`
+  - Executes `distanceToInfLineSq` behavior.
+- `distanceToInfLineSq(double x, double y, double ax, double ay, double dxAx, double dyAy, double dBxAx, double dByAy)`
+  - Executes `distanceToInfLineSq` behavior.
+- `sideOfLine(double x, double y, double ax, double ay, double bx, double by)`
+  - Executes `sideOfLine` behavior.
+- `getRotationForHitNormal(Vector3f normal)`
+  - Executes `getRotationForHitNormal` behavior.
+- `getNameForHitNormal(Vector3f normal)`
+  - Executes `getNameForHitNormal` behavior.
+- `mapToRange(float value, float valueMin, float valueMax, float rangeMin, float rangeMax)`
+  - Executes `mapToRange` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,180 @@
+# NPCPhysicsMath
+
+## Overview
+- Documentation for `NPCPhysicsMath`.
+- Declared as a class in `com.hypixel.hytale.server.npc.util`.
+
+## Constructors
+- `NPCPhysicsMath()`
+  - Creates a `NPCPhysicsMath` instance.
+
+## Methods
+- `near(@Nonnull Vector3d v, @Nonnull Vector3d w)`
+  - Executes `near` behavior.
+- `near(@Nonnull Vector3d v, @Nonnull Vector3d w, double epsilonLength)`
+  - Executes `near` behavior.
+- `near(double v, double w)`
+  - Executes `near` behavior.
+- `near(double v, double w, double epsilonLength)`
+  - Executes `near` behavior.
+- `headingFromDirection(double x, double z, float def)`
+  - Executes `headingFromDirection` behavior.
+- `pitchFromDirection(double x, double y, double z, float def)`
+  - Executes `pitchFromDirection` behavior.
+- `getViewDirection(@Nonnull Vector3f lookDirection, @Nonnull Vector3d outDirection)`
+  - Executes `getViewDirection` behavior.
+- `cosAngleBetweenVectors(@Nonnull Vector3d v, @Nonnull Vector3d w)`
+  - Executes `cosAngleBetweenVectors` behavior.
+- `cosAngleBetweenVectors(@Nonnull Vector3d v, double vLen, @Nonnull Vector3d w, double wLen)`
+  - Executes `cosAngleBetweenVectors` behavior.
+- `cosAngleBetweenUnitVectors(@Nonnull Vector3d v, @Nonnull Vector3d w)`
+  - Executes `cosAngleBetweenUnitVectors` behavior.
+- `realignVector(@Nonnull Vector3d v, @Nonnull Vector3d w, double cosine, @Nonnull Vector3d result)`
+  - Executes `realignVector` behavior.
+- `realignVector(@Nonnull Vector3d v, double vLen, @Nonnull Vector3d w, double wLen, double cosine, @Nonnull Vector3d result)`
+  - Executes `realignVector` behavior.
+- `realignUnitVector(@Nonnull Vector3d v, @Nonnull Vector3d w, double cosine, @Nonnull Vector3d result)`
+  - Executes `realignUnitVector` behavior.
+- `realignVectorReturnDirection(@Nonnull Vector3d v, double vLen, @Nonnull Vector3d w, double wLen, double cosine, @Nonnull Vector3d result)`
+  - Executes `realignVectorReturnDirection` behavior.
+- `createOrthogonalvector(@Nonnull Vector3d in, @Nonnull Vector3d out)`
+  - Executes `createOrthogonalvector` behavior.
+- `inViewSector(double xViewer, double zViewer, float heading, float coneAngle, double xObject, double zObject)`
+  - Executes `inViewSector` behavior.
+- `isInViewCone(double xViewer, double yViewer, double zViewer, double xViewDirection, double yViewDirection, double zViewDirection, float cosConeHalfAngle, double xObject, double yObject, double zObject)`
+  - Executes `isInViewCone` behavior.
+- `isInViewCone(double xViewDirection, double yViewDirection, double zViewDirection, float cosConeHalfAngle, double xObject, double yObject, double zObject)`
+  - Executes `isInViewCone` behavior.
+- `isInViewCone(@Nonnull Vector3d viewer, @Nonnull Vector3d viewDirection, float cosConeHalfAngle, @Nonnull Vector3d object)`
+  - Executes `isInViewCone` behavior.
+- `isInViewCone(@Nonnull Vector3d viewer, @Nonnull Vector3d viewDirection, float cosConeHalfAngle, @Nonnull Vector3d object, @Nonnull Vector3d componentSelector)`
+  - Executes `isInViewCone` behavior.
+- `turnAngle(float from, float to)`
+  - Executes `turnAngle` behavior.
+- `clampRotation(float rotation, float maxAngle)`
+  - Executes `clampRotation` behavior.
+- `intersectLineSphere(@Nonnull Vector3d center, double radius, @Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d x1, @Nonnull Vector3d x2, boolean segmentOnly)`
+  - Executes `intersectLineSphere` behavior.
+- `intersectLineSphereLerp(@Nonnull Vector3d center, double radius, @Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d t1, @Nonnull Vector3d t2, @Nonnull Vector3d componentSelector)`
+  - Executes `intersectLineSphereLerp` behavior.
+- `intersectLineSphereLerp(@Nonnull Vector3d center, double radius, @Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d componentSelector)`
+  - Executes `intersectLineSphereLerp` behavior.
+- `dotProduct(@Nonnull Vector3d base, @Nonnull Vector3d p, @Nonnull Vector3d q)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(@Nonnull Vector3d base, @Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d componentSelector)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(double dx, double dy, double dz)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(double px, double py, double pz, double qx, double qy, double qz)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(float dx, float dy, float dz)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(float px, float py, float pz, float qx, float qy, float qz)`
+  - Executes `dotProduct` behavior.
+- `length(double dx, double dy, double dz)`
+  - Executes `length` behavior.
+- `lerpDistance(@Nonnull Vector3d start, @Nonnull Vector3d end, double distance, @Nonnull Vector3d result)`
+  - Executes `lerpDistance` behavior.
+- `lerp(@Nonnull Vector3d start, @Nonnull Vector3d end, double lambda, @Nonnull Vector3d result)`
+  - Executes `lerp` behavior.
+- `lerp(double a, double b, double s)`
+  - Executes `lerp` behavior.
+- `offsetVector(@Nonnull Vector3d start, double dx, double dy, double dz, double lambda, @Nonnull Vector3d result)`
+  - Executes `offsetVector` behavior.
+- `offsetVector(double sx, double sy, double sz, double dx, double dy, double dz, double lambda, @Nonnull Vector3d result)`
+  - Executes `offsetVector` behavior.
+- `orthoComposition(@Nonnull Vector3d start, @Nonnull Vector3d end, @Nonnull Vector3d ortho, double distance, @Nonnull Vector3d result)`
+  - Executes `orthoComposition` behavior.
+- `orthoComposition(@Nonnull Vector3d start, @Nonnull Vector3d end, double distanceStart, @Nonnull Vector3d ortho, double distance, @Nonnull Vector3d result)`
+  - Executes `orthoComposition` behavior.
+- `lookatHeading(@Nonnull Vector3d self, @Nonnull Vector3d pointOfInterest, float headingHint)`
+  - Executes `lookatHeading` behavior.
+- `blockEmptySpace(@Nonnull BlockType blockType, int rotation, @Nonnull Direction direction)`
+  - Executes `blockEmptySpace` behavior.
+- `heightOverGround(@Nonnull World world, double x, double y, double z)`
+  - Executes `heightOverGround` behavior.
+- `heightOverGround(@Nonnull World world, double x, double z)`
+  - Executes `heightOverGround` behavior.
+- `blockHeight(@Nonnull BlockType blockType, int rotation)`
+  - Executes `blockHeight` behavior.
+- `dotProduct(double x, double y, double z, @Nonnull Vector3d componentSelector)`
+  - Executes `dotProduct` behavior.
+- `dotProduct(double px, double py, double pz, double qx, double qy, double qz, @Nonnull Vector3d componentSelector)`
+  - Executes `dotProduct` behavior.
+- `projectedLengthSquared(@Nonnull Vector3d v, @Nonnull Vector3d componentSelector)`
+  - Executes `projectedLengthSquared` behavior.
+- `projectedLength(@Nonnull Vector3d v, @Nonnull Vector3d componentSelector)`
+  - Executes `projectedLength` behavior.
+- `intersectSweptSpheres(@Nonnull Vector3d p1, @Nonnull Vector3d velocity1, @Nonnull Vector3d p2, @Nonnull Vector3d velocity2, double radius, @Nonnull Vector3d componentSelector, double[] results)`
+  - Executes `intersectSweptSpheres` behavior.
+- `intersectSweptSpheresFootpoint(@Nonnull Vector3d p1, @Nonnull Vector3d velocity1, double radius1, @Nonnull Vector3d p2, @Nonnull Vector3d velocity2, double radius2, @Nonnull Vector3d componentSelector, double[] results)`
+  - Executes `intersectSweptSpheresFootpoint` behavior.
+- `intersectSweptSpheres(double p1x, double p1y, double p1z, double velocity1x, double velocity1y, double velocity1z, double p2x, double p2y, double p2z, double velocity2x, double velocity2y, double velocity2z, double radius, @Nonnull Vector3d componentSelector, double[] results)`
+  - Executes `intersectSweptSpheres` behavior.
+- `collisionSphereRadius(@Nonnull Box boundingBox)`
+  - Executes `collisionSphereRadius` behavior.
+- `collisionSphereRadius(double boxWidth, double boxDepth, double boxHeight)`
+  - Executes `collisionSphereRadius` behavior.
+- `collisionSphereRadius(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `collisionSphereRadius` behavior.
+- `rayCircleIntersect(double sx, double sy, double dx, double dy, double radius)`
+  - Executes `rayCircleIntersect` behavior.
+- `rayCircleIntersect(@Nonnull Vector3d start, @Nonnull Vector3d end, @Nonnull Vector3d center, double radius, @Nonnull Vector3d normal)`
+  - Executes `rayCircleIntersect` behavior.
+- `projection(@Nonnull Vector3d v, @Nonnull Vector3d p, @Nonnull Vector3d result)`
+  - Executes `projection` behavior.
+- `rejection(@Nonnull Vector3d v, @Nonnull Vector3d p, @Nonnull Vector3d result)`
+  - Executes `rejection` behavior.
+- `subtractVector(@Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d result)`
+  - Executes `subtractVector` behavior.
+- `addDifference(@Nonnull Vector3d result, @Nonnull Vector3d p, @Nonnull Vector3d q)`
+  - Executes `addDifference` behavior.
+- `projection(@Nonnull Vector3d base, @Nonnull Vector3d v, @Nonnull Vector3d p, @Nonnull Vector3d result)`
+  - Executes `projection` behavior.
+- `rejection(@Nonnull Vector3d base, @Nonnull Vector3d v, @Nonnull Vector3d p, @Nonnull Vector3d result)`
+  - Executes `rejection` behavior.
+- `multiply(@Nonnull Vector3d v, @Nonnull Vector3d w)`
+  - Executes `multiply` behavior.
+- `squaredDistProjected(double px, double py, double pz, @Nonnull Vector3d q, @Nonnull Vector3d normal)`
+  - Executes `squaredDistProjected` behavior.
+- `squaredDistProjected(double px, double py, double pz, double qx, double qy, double qz, @Nonnull Vector3d normal)`
+  - Executes `squaredDistProjected` behavior.
+- `getProjectedDifference(@Nonnull Vector3d p, @Nonnull Vector3d q, @Nonnull Vector3d componentSelector)`
+  - Executes `getProjectedDifference` behavior.
+- `isInvalid(double v)`
+  - Executes `isInvalid` behavior.
+- `isInvalid(@Nonnull Vector3d v)`
+  - Executes `isInvalid` behavior.
+- `isValid(double v)`
+  - Executes `isValid` behavior.
+- `isValid(@Nonnull Vector3d v)`
+  - Executes `isValid` behavior.
+- `jumpParameters(@Nonnull Vector3d position, @Nonnull Vector3d targetPosition, double gravity, @Nonnull Vector3d velocity)`
+  - Executes `jumpParameters` behavior.
+- `accelerate(double v, double a, double t, double limitSpeed)`
+  - Executes `accelerate` behavior.
+- `deccelerateToStop(double v, double a, double t)`
+  - Executes `deccelerateToStop` behavior.
+- `deccelerateToStop(@Nonnull Vector3d v, double a, double t)`
+  - Executes `deccelerateToStop` behavior.
+- `accelerateDrag(double v, double a, double t, double terminalVelocity, double p)`
+  - Executes `accelerateDrag` behavior.
+- `accelerateDragCapped(double v, double a, double t, double terminalVelocity, double p)`
+  - Executes `accelerateDragCapped` behavior.
+- `accelerateDrag(double v, double a, double t, double terminalVelocity)`
+  - Executes `accelerateDrag` behavior.
+- `accelerateDragCapped(double v, double a, double t, double terminalVelocity)`
+  - Executes `accelerateDragCapped` behavior.
+- `accelerateToTargetSpeed(double vCurrent, double vTarget, double dt, double accel, double decel, double vMin, double vMax)`
+  - Executes `accelerateToTargetSpeed` behavior.
+- `accelerateToTargetSpeed(double vCurrent, double vTarget, double dt, double accel, double decel, double vMax)`
+  - Executes `accelerateToTargetSpeed` behavior.
+- `accelerateToTargetSpeed(double vCurrent, double vTarget, double dt, double accel, double vMax)`
+  - Executes `accelerateToTargetSpeed` behavior.
+- `gravityDrag(double v, double a, double t, double terminalVelocity, double p)`
+  - Executes `gravityDrag` behavior.
+- `gravityDrag(double v, double a, double t, double terminalVelocity)`
+  - Executes `gravityDrag` behavior.
+
+## Notes
+- No additional notes.

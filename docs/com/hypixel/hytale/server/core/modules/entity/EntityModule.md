@@ -1,0 +1,194 @@
+# EntityModule
+
+## Overview
+- Documentation for `EntityModule`.
+- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
+
+## Constructors
+- `EntityModule(@Nonnull JavaPluginInit init)`
+  - Creates a `EntityModule` instance.
+
+## Methods
+- `get()`
+  - Executes `get` behavior.
+- `setup()`
+  - Executes `setup` behavior.
+- `start()`
+  - Executes `start` behavior.
+- `getMigrationSystemType()`
+  - Executes `getMigrationSystemType` behavior.
+- `getPlayerComponentType()`
+  - Executes `getPlayerComponentType` behavior.
+- `getFrozenComponentType()`
+  - Executes `getFrozenComponentType` behavior.
+- `getChunkTrackerComponentType()`
+  - Executes `getChunkTrackerComponentType` behavior.
+- `getPlayerSkinComponentType()`
+  - Executes `getPlayerSkinComponentType` behavior.
+- `getDisplayNameComponentType()`
+  - Executes `getDisplayNameComponentType` behavior.
+- `getApplyRandomSkinPersistedComponent()`
+  - Executes `getApplyRandomSkinPersistedComponent` behavior.
+- `getEntityGroupComponentType()`
+  - Executes `getEntityGroupComponentType` behavior.
+- `getPlayerSpatialResourceType()`
+  - Executes `getPlayerSpatialResourceType` behavior.
+- `getItemSpatialResourceType()`
+  - Executes `getItemSpatialResourceType` behavior.
+- `getNetworkSendableSpatialResourceType()`
+  - Executes `getNetworkSendableSpatialResourceType` behavior.
+- `getCollisionResultComponentType()`
+  - Executes `getCollisionResultComponentType` behavior.
+- `getDamageDataComponentType()`
+  - Executes `getDamageDataComponentType` behavior.
+- `getKnockbackComponentType()`
+  - Executes `getKnockbackComponentType` behavior.
+- `getDespawnComponentType()`
+  - Executes `getDespawnComponentType` behavior.
+- `getSnapshotBufferComponentType()`
+  - Executes `getSnapshotBufferComponentType` behavior.
+- `getInteractableComponentType()`
+  - Executes `getInteractableComponentType` behavior.
+- `getIntangibleComponentType()`
+  - Executes `getIntangibleComponentType` behavior.
+- `getPreventPickupComponentType()`
+  - Executes `getPreventPickupComponentType` behavior.
+- `getInvulnerableComponentType()`
+  - Executes `getInvulnerableComponentType` behavior.
+- `getRespondToHitComponentType()`
+  - Executes `getRespondToHitComponentType` behavior.
+- `getHiddenFromAdventurePlayerComponentType()`
+  - Executes `getHiddenFromAdventurePlayerComponentType` behavior.
+- `getFromPrefabComponentType()`
+  - Executes `getFromPrefabComponentType` behavior.
+- `getFromWorldGenComponentType()`
+  - Executes `getFromWorldGenComponentType` behavior.
+- `getWorldGenIdComponentType()`
+  - Executes `getWorldGenIdComponentType` behavior.
+- `getMovementManagerComponentType()`
+  - Executes `getMovementManagerComponentType` behavior.
+- `getNameplateComponentType()`
+  - Executes `getNameplateComponentType` behavior.
+- `getPreClearMarkersGroup()`
+  - Executes `getPreClearMarkersGroup` behavior.
+- `getPersistentRefCountComponentType()`
+  - Executes `getPersistentRefCountComponentType` behavior.
+- `getTransformComponentType()`
+  - Executes `getTransformComponentType` behavior.
+- `getHeadRotationComponentType()`
+  - Executes `getHeadRotationComponentType` behavior.
+- `getNetworkIdComponentType()`
+  - Executes `getNetworkIdComponentType` behavior.
+- `getEffectControllerComponentType()`
+  - Executes `getEffectControllerComponentType` behavior.
+- `getMovementStatesComponentType()`
+  - Executes `getMovementStatesComponentType` behavior.
+- `getBlockEntityComponentType()`
+  - Executes `getBlockEntityComponentType` behavior.
+- `getEntityScaleComponentType()`
+  - Executes `getEntityScaleComponentType` behavior.
+- `getCameraManagerComponentType()`
+  - Executes `getCameraManagerComponentType` behavior.
+- `getUuidComponentType()`
+  - Executes `getUuidComponentType` behavior.
+- `getPlayerInputComponentType()`
+  - Executes `getPlayerInputComponentType` behavior.
+- `getKnockbackSimulationComponentType()`
+  - Executes `getKnockbackSimulationComponentType` behavior.
+- `getTeleportComponentType()`
+  - Executes `getTeleportComponentType` behavior.
+- `getProjectileComponentType()`
+  - Executes `getProjectileComponentType` behavior.
+- `getPendingTeleportComponentType()`
+  - Executes `getPendingTeleportComponentType` behavior.
+- `getModelComponentType()`
+  - Executes `getModelComponentType` behavior.
+- `getPersistentModelComponentType()`
+  - Executes `getPersistentModelComponentType` behavior.
+- `getPropComponentType()`
+  - Executes `getPropComponentType` behavior.
+- `getBoundingBoxComponentType()`
+  - Executes `getBoundingBoxComponentType` behavior.
+- `getHitboxCollisionComponentType()`
+  - Executes `getHitboxCollisionComponentType` behavior.
+- `getVelocityComponentType()`
+  - Executes `getVelocityComponentType` behavior.
+- `getPhysicsValuesComponentType()`
+  - Executes `getPhysicsValuesComponentType` behavior.
+- `getRepulsionComponentType()`
+  - Executes `getRepulsionComponentType` behavior.
+- `getEntitySpatialResourceType()`
+  - Executes `getEntitySpatialResourceType` behavior.
+- `getItemComponentType()`
+  - Executes `getItemComponentType` behavior.
+- `getPickupItemComponentType()`
+  - Executes `getPickupItemComponentType` behavior.
+- `getPreventItemMergingType()`
+  - Executes `getPreventItemMergingType` behavior.
+- `getItemPhysicsComponentType()`
+  - Executes `getItemPhysicsComponentType` behavior.
+- `getDynamicLightComponentType()`
+  - Executes `getDynamicLightComponentType` behavior.
+- `getPersistentDynamicLightComponentType()`
+  - Executes `getPersistentDynamicLightComponentType` behavior.
+- `getPrefabCopyableComponentType()`
+  - Executes `getPrefabCopyableComponentType` behavior.
+- `getRotateObjectComponentType()`
+  - Executes `getRotateObjectComponentType` behavior.
+- `getNewSpawnComponentType()`
+  - Executes `getNewSpawnComponentType` behavior.
+- `onMovementConfigLoadedAssetsEvent(@Nonnull LoadedAssetsEvent<String, MovementConfig, DefaultAssetMap<String, MovementConfig>> event)`
+  - Executes `onMovementConfigLoadedAssetsEvent` behavior.
+- `onGameplayConfigLoadedAssetsEvent(LoadedAssetsEvent<String, GameplayConfig, DefaultAssetMap<String, GameplayConfig>> event)`
+  - Executes `onGameplayConfigLoadedAssetsEvent` behavior.
+- `getAudioComponentType()`
+  - Executes `getAudioComponentType` behavior.
+- `getMovementAudioComponentType()`
+  - Executes `getMovementAudioComponentType` behavior.
+- `getPositionDataComponentType()`
+  - Executes `getPositionDataComponentType` behavior.
+- `getPlayerSettingsComponentType()`
+  - Executes `getPlayerSettingsComponentType` behavior.
+- `getUniqueItemUsagesComponentType()`
+  - Executes `getUniqueItemUsagesComponentType` behavior.
+- `getActiveAnimationComponentType()`
+  - Executes `getActiveAnimationComponentType` behavior.
+- `registerEntity(@Nonnull String id, @Nonnull Class<T> clazz, Function<World, T> entityConstructor, @Nullable DirectDecodeCodec<T> codec)`
+  - Executes `registerEntity` behavior.
+- `unregisterEntity(Class<T> clazz)`
+  - Executes `unregisterEntity` behavior.
+- `getConstructor(@Nullable Class<T> entityClass)`
+  - Executes `getConstructor` behavior.
+- `getCodec(@Nullable Class<T> entityClass)`
+  - Executes `getCodec` behavior.
+- `getIdentifier(@Nullable Class<? extends Entity> entityClass)`
+  - Executes `getIdentifier` behavior.
+- `getComponentType(@Nullable Class<T> entityClass)`
+  - Executes `getComponentType` behavior.
+- `isKnown(@Nullable Entity entity)`
+  - Executes `isKnown` behavior.
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+  - Executes `onEntityAdd` behavior.
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+  - Executes `onEntityRemoved` behavior.
+- `getDependencies()`
+  - Executes `getDependencies` behavior.
+- `getQuery()`
+  - Executes `getQuery` behavior.
+- `componentType()`
+  - Executes `componentType` behavior.
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `onComponentAdded` behavior.
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, UUIDComponent oldComponent, @Nonnull UUIDComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `onComponentSet` behavior.
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `onComponentRemoved` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `onEntityAdded` behavior.
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `onEntityRemove` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,94 @@
+# BooleanVoxelSpace
+
+## Overview
+- Documentation for `BooleanVoxelSpace`.
+- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.voxelspace`.
+
+## Constructors
+- `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ, int originX, int originY, int originZ, boolean alignedOriginZ)`
+  - Creates a `BooleanVoxelSpace` instance.
+- `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ, int originX, int originY, int originZ)`
+  - Creates a `BooleanVoxelSpace` instance.
+- `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ)`
+  - Creates a `BooleanVoxelSpace` instance.
+- `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ, boolean forceAlignOriginZ)`
+  - Creates a `BooleanVoxelSpace` instance.
+- `BooleanVoxelSpace(this.sizeX, this.sizeY, this.sizeZ, this.origin.x, this.origin.y, this.origin.z)`
+  - Creates a `BooleanVoxelSpace` instance.
+
+## Methods
+- `sizeX()`
+  - Executes `sizeX` behavior.
+- `sizeY()`
+  - Executes `sizeY` behavior.
+- `sizeZ()`
+  - Executes `sizeZ` behavior.
+- `pasteFrom(@Nonnull VoxelSpace<Boolean> source)`
+  - Executes `pasteFrom` behavior.
+- `primaryAddressIndex(int x, int y)`
+  - Executes `primaryAddressIndex` behavior.
+- `secondaryAddressIndex(int z)`
+  - Executes `secondaryAddressIndex` behavior.
+- `setBit(int bits, int index, boolean value)`
+  - Executes `setBit` behavior.
+- `getBit(int bits, int index)`
+  - Executes `getBit` behavior.
+- `set(@Nullable Boolean value, int x, int y, int z)`
+  - Executes `set` behavior.
+- `set(Boolean content, @Nonnull Vector3i position)`
+  - Executes `set` behavior.
+- `getContent(int x, int y, int z)`
+  - Executes `getContent` behavior.
+- `getContent(@Nonnull Vector3i position)`
+  - Executes `getContent` behavior.
+- `globalJ(int globalZ)`
+  - Executes `globalJ` behavior.
+- `localJ(int globalJ)`
+  - Executes `localJ` behavior.
+- `deepCopyFrom(@Nonnull BooleanVoxelSpace other)`
+  - Executes `deepCopyFrom` behavior.
+- `set(Boolean content)`
+  - Executes `set` behavior.
+- `setOrigin(int x, int y, int z)`
+  - Executes `setOrigin` behavior.
+- `replace(Boolean replacement, int x, int y, int z, @Nonnull Predicate<Boolean> mask)`
+  - Executes `replace` behavior.
+- `getOriginX()`
+  - Executes `getOriginX` behavior.
+- `getOriginY()`
+  - Executes `getOriginY` behavior.
+- `getOriginZ()`
+  - Executes `getOriginZ` behavior.
+- `getName()`
+  - Executes `getName` behavior.
+- `isInsideSpace(int x, int y, int z)`
+  - Executes `isInsideSpace` behavior.
+- `isInsideSpace(@Nonnull Vector3i position)`
+  - Executes `isInsideSpace` behavior.
+- `forEach(@Nonnull VoxelConsumer<? super Boolean> action)`
+  - Executes `forEach` behavior.
+- `minX()`
+  - Executes `minX` behavior.
+- `maxX()`
+  - Executes `maxX` behavior.
+- `minY()`
+  - Executes `minY` behavior.
+- `maxY()`
+  - Executes `maxY` behavior.
+- `minZ()`
+  - Executes `minZ` behavior.
+- `maxZ()`
+  - Executes `maxZ` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `arrayIndex(int x, int y, int z)`
+  - Executes `arrayIndex` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `isAlignedOriginZ(int z)`
+  - Executes `isAlignedOriginZ` behavior.
+- `getAlignedZ(int z)`
+  - Executes `getAlignedZ` behavior.
+
+## Notes
+- No additional notes.

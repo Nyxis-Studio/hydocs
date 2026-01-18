@@ -1,0 +1,104 @@
+# StdScope
+
+## Overview
+- Documentation for `StdScope`.
+- Declared as a class in `com.hypixel.hytale.server.npc.util.expression`.
+
+## Constructors
+- `StdScope(Scope parent)`
+  - Creates a `StdScope` instance.
+- `StdScope(other.parent)`
+  - Creates a `StdScope` instance.
+
+## Methods
+- `copyOf(@Nonnull StdScope other)`
+  - Executes `copyOf` behavior.
+- `merge(@Nonnull StdScope other)`
+  - Executes `merge` behavior.
+- `mergeScopes(@Nonnull StdScope first, @Nonnull StdScope second)`
+  - Executes `mergeScopes` behavior.
+- `mergeSymbols(@Nonnull StdScope other)`
+  - Executes `mergeSymbols` behavior.
+- `add(String name, Symbol symbol)`
+  - Executes `add` behavior.
+- `addConst(String name, @Nullable String value)`
+  - Executes `addConst` behavior.
+- `addConst(String name, double value)`
+  - Executes `addConst` behavior.
+- `addConst(String name, boolean value)`
+  - Executes `addConst` behavior.
+- `addConst(String name, @Nullable String[] value)`
+  - Executes `addConst` behavior.
+- `addConst(String name, @Nullable double[] value)`
+  - Executes `addConst` behavior.
+- `addConst(String name, @Nullable boolean[] value)`
+  - Executes `addConst` behavior.
+- `addConstEmptyArray(String name)`
+  - Executes `addConstEmptyArray` behavior.
+- `addVar(String name, @Nullable String value)`
+  - Executes `addVar` behavior.
+- `addVar(String name, double value)`
+  - Executes `addVar` behavior.
+- `addVar(String name, boolean value)`
+  - Executes `addVar` behavior.
+- `addVar(String name, @Nullable String[] value)`
+  - Executes `addVar` behavior.
+- `addVar(String name, @Nullable double[] value)`
+  - Executes `addVar` behavior.
+- `addVar(String name, @Nullable boolean[] value)`
+  - Executes `addVar` behavior.
+- `addInvariant(@Nonnull String name, Scope.Function function, ValueType returnType, ValueType ... argumentTypes)`
+  - Executes `addInvariant` behavior.
+- `addVariant(@Nonnull String name, Scope.Function function, ValueType returnType, ValueType ... argumentTypes)`
+  - Executes `addVariant` behavior.
+- `addSupplier(String name, Supplier<String> value)`
+  - Executes `addSupplier` behavior.
+- `addSupplier(String name, DoubleSupplier value)`
+  - Executes `addSupplier` behavior.
+- `addSupplier(String name, BooleanSupplier value)`
+  - Executes `addSupplier` behavior.
+- `addStringArraySupplier(String name, Supplier<String[]> value)`
+  - Executes `addStringArraySupplier` behavior.
+- `addDoubleArraySupplier(String name, Supplier<double[]> value)`
+  - Executes `addDoubleArraySupplier` behavior.
+- `addBooleanArraySupplier(String name, Supplier<boolean[]> value)`
+  - Executes `addBooleanArraySupplier` behavior.
+- `get(String name)`
+  - Executes `get` behavior.
+- `get(String name, ValueType valueType)`
+  - Executes `get` behavior.
+- `replace(String name, @Nonnull Symbol symbol)`
+  - Executes `replace` behavior.
+- `changeValue(String name, @Nullable String value)`
+  - Executes `changeValue` behavior.
+- `changeValue(String name, double value)`
+  - Executes `changeValue` behavior.
+- `changeValue(String name, boolean value)`
+  - Executes `changeValue` behavior.
+- `changeValue(String name, @Nullable String[] value)`
+  - Executes `changeValue` behavior.
+- `changeValue(String name, @Nullable double[] value)`
+  - Executes `changeValue` behavior.
+- `changeValue(String name, @Nullable boolean[] value)`
+  - Executes `changeValue` behavior.
+- `changeValueToEmptyArray(String name)`
+  - Executes `changeValueToEmptyArray` behavior.
+- `getStringSupplier(String name)`
+  - Executes `getStringSupplier` behavior.
+- `getNumberSupplier(String name)`
+  - Executes `getNumberSupplier` behavior.
+- `getBooleanSupplier(String name)`
+  - Executes `getBooleanSupplier` behavior.
+- `getStringArraySupplier(String name)`
+  - Executes `getStringArraySupplier` behavior.
+- `getNumberArraySupplier(String name)`
+  - Executes `getNumberArraySupplier` behavior.
+- `getBooleanArraySupplier(String name)`
+  - Executes `getBooleanArraySupplier` behavior.
+- `isConstant(String name)`
+  - Executes `isConstant` behavior.
+- `getType(String name)`
+  - Executes `getType` behavior.
+
+## Notes
+- No additional notes.

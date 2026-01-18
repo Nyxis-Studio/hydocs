@@ -1,0 +1,160 @@
+# BuilderSupport
+
+## Overview
+- Documentation for `BuilderSupport`.
+- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
+
+## Constructors
+- `BuilderSupport(BuilderManager builderManager, @Nonnull NPCEntity npcEntity, Holder<EntityStore> holder, ExecutionContext executionContext, @Nonnull Builder<?> roleBuilder, RoleStats roleStats)`
+  - Creates a `BuilderSupport` instance.
+
+## Methods
+- `getBuilderManager()`
+  - Executes `getBuilderManager` behavior.
+- `getEntity()`
+  - Executes `getEntity` behavior.
+- `getHolder()`
+  - Executes `getHolder` behavior.
+- `getExecutionContext()`
+  - Executes `getExecutionContext` behavior.
+- `setScope(Scope scope)`
+  - Executes `setScope` behavior.
+- `setGlobalScope(Scope scope)`
+  - Executes `setGlobalScope` behavior.
+- `getGlobalScope()`
+  - Executes `getGlobalScope` behavior.
+- `setRequireLeashPosition()`
+  - Executes `setRequireLeashPosition` behavior.
+- `getFlagSlot(String name)`
+  - Executes `getFlagSlot` behavior.
+- `getTimerByName(String name)`
+  - Executes `getTimerByName` behavior.
+- `getBeaconMessageSlot(String name)`
+  - Executes `getBeaconMessageSlot` behavior.
+- `getTargetSlot(String name)`
+  - Executes `getTargetSlot` behavior.
+- `getAlarm(String name)`
+  - Executes `getAlarm` behavior.
+- `getTargetSlotMappings()`
+  - Executes `getTargetSlotMappings` behavior.
+- `getTargetSlotToNameMap()`
+  - Executes `getTargetSlotToNameMap` behavior.
+- `getPositionSlot(String name)`
+  - Executes `getPositionSlot` behavior.
+- `getParameterSlot(String name)`
+  - Executes `getParameterSlot` behavior.
+- `getSearchRaySlot(String name)`
+  - Executes `getSearchRaySlot` behavior.
+- `allocatePositionSlots()`
+  - Executes `allocatePositionSlots` behavior.
+- `requiresLeashPosition()`
+  - Executes `requiresLeashPosition` behavior.
+- `getStateEvaluator()`
+  - Executes `getStateEvaluator` behavior.
+- `setStateEvaluator(StateEvaluator stateEvaluator)`
+  - Executes `setStateEvaluator` behavior.
+- `allocateFlags()`
+  - Executes `allocateFlags` behavior.
+- `allocateTimers()`
+  - Executes `allocateTimers` behavior.
+- `allocateSearchRayPositionSlots()`
+  - Executes `allocateSearchRayPositionSlots` behavior.
+- `getSensorScope()`
+  - Executes `getSensorScope` behavior.
+- `setToNewComponent()`
+  - Executes `setToNewComponent` behavior.
+- `addComponentLocalStateMachine(int defaultState)`
+  - Executes `addComponentLocalStateMachine` behavior.
+- `getComponentIndex()`
+  - Executes `getComponentIndex` behavior.
+- `popComponent()`
+  - Executes `popComponent` behavior.
+- `hasComponentLocalStateMachines()`
+  - Executes `hasComponentLocalStateMachines` behavior.
+- `getComponentLocalStateMachines()`
+  - Executes `getComponentLocalStateMachines` behavior.
+- `setLocalStateMachineAutoReset()`
+  - Executes `setLocalStateMachineAutoReset` behavior.
+- `getLocalStateMachineAutoResetStates()`
+  - Executes `getLocalStateMachineAutoResetStates` behavior.
+- `getStateHelper()`
+  - Executes `getStateHelper` behavior.
+- `getBeaconSlotMappings()`
+  - Executes `getBeaconSlotMappings` behavior.
+- `hasBlockEventSupport()`
+  - Executes `hasBlockEventSupport` behavior.
+- `getPlayerBlockEventSlotMapper()`
+  - Executes `getPlayerBlockEventSlotMapper` behavior.
+- `getNPCBlockEventSlotMapper()`
+  - Executes `getNPCBlockEventSlotMapper` behavior.
+- `hasEntityEventSupport()`
+  - Executes `hasEntityEventSupport` behavior.
+- `getPlayerEntityEventSlotMapper()`
+  - Executes `getPlayerEntityEventSlotMapper` behavior.
+- `getNPCEntityEventSlotMapper()`
+  - Executes `getNPCEntityEventSlotMapper` behavior.
+- `getInstructionSlot(@Nullable String name)`
+  - Executes `getInstructionSlot` behavior.
+- `putInstruction(int slot, Instruction instruction)`
+  - Executes `putInstruction` behavior.
+- `getInstructionSlotMappings()`
+  - Executes `getInstructionSlotMappings` behavior.
+- `setModifiedStateMap(@Nonnull StateMappingHelper helper, @Nonnull StatePair[] map)`
+  - Executes `setModifiedStateMap` behavior.
+- `getMappedStatePair(int index)`
+  - Executes `getMappedStatePair` behavior.
+- `popModifiedStateMap()`
+  - Executes `popModifiedStateMap` behavior.
+- `requireBlockTypeBlackboard(int blockSet)`
+  - Executes `requireBlockTypeBlackboard` behavior.
+- `registerBlockSensorResetAction(int blockSet)`
+  - Executes `registerBlockSensorResetAction` behavior.
+- `requiresBlockTypeBlackboard()`
+  - Executes `requiresBlockTypeBlackboard` behavior.
+- `getBlockTypeBlackboardBlockSets()`
+  - Executes `getBlockTypeBlackboardBlockSets` behavior.
+- `getBlockEventSlot(BlockEventType type, int blockSet, double maxRange, boolean player)`
+  - Executes `getBlockEventSlot` behavior.
+- `getBlockChangeSets(BlockEventType type)`
+  - Executes `getBlockChangeSets` behavior.
+- `getEntityEventSlot(EntityEventType type, int npcGroup, double maxRange, boolean player)`
+  - Executes `getEntityEventSlot` behavior.
+- `getEventNPCGroups(EntityEventType type)`
+  - Executes `getEventNPCGroups` behavior.
+- `requireAttitudeOverrideMemory()`
+  - Executes `requireAttitudeOverrideMemory` behavior.
+- `trackInteractions()`
+  - Executes `trackInteractions` behavior.
+- `isTrackInteractions()`
+  - Executes `isTrackInteractions` behavior.
+- `requiresAttitudeOverrideMemory()`
+  - Executes `requiresAttitudeOverrideMemory` behavior.
+- `setCurrentInstructionContext(InstructionType context)`
+  - Executes `setCurrentInstructionContext` behavior.
+- `getCurrentInstructionContext()`
+  - Executes `getCurrentInstructionContext` behavior.
+- `getCurrentComponentContext()`
+  - Executes `getCurrentComponentContext` behavior.
+- `setCurrentComponentContext(ComponentContext currentComponentContext)`
+  - Executes `setCurrentComponentContext` behavior.
+- `getRoleStats()`
+  - Executes `getRoleStats` behavior.
+- `getNextAttackIndex()`
+  - Executes `getNextAttackIndex` behavior.
+- `getValueStoreStringSlot(String name)`
+  - Executes `getValueStoreStringSlot` behavior.
+- `getValueStoreIntSlot(String name)`
+  - Executes `getValueStoreIntSlot` behavior.
+- `getValueStoreDoubleSlot(String name)`
+  - Executes `getValueStoreDoubleSlot` behavior.
+- `getCurrentStateName()`
+  - Executes `getCurrentStateName` behavior.
+- `pushCurrentStateName(@Nonnull String currentStateName)`
+  - Executes `pushCurrentStateName` behavior.
+- `popCurrentStateName()`
+  - Executes `popCurrentStateName` behavior.
+- `allocatePositionSlots(@Nonnull SlotMapper mapper)`
+  - Executes `allocatePositionSlots` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,96 @@
+# Model
+
+## Overview
+- Documentation for `Model`.
+- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config`.
+
+## Constructors
+- `Model(String modelAssetId, float scale, Map<String, String> randomAttachmentIds, ModelAttachment[] attachments, @Nullable Box boundingBox, String model, String texture, String gradientSet, String gradientId, float eyeHeight, float crouchOffset, Map<String, ModelAsset.AnimationSet> animationSetMap, CameraSettings camera, ColorLight light, ModelParticle[] particles, ModelTrail[] trails, PhysicsValues physicsValues, Map<String, DetailBox[]> detailBoxes, Phobia phobia, String phobiaModelAssetId)`
+  - Creates a `Model` instance.
+- `Model(@Nonnull Model other)`
+  - Creates a `Model` instance.
+- `Model()`
+  - Creates a `Model` instance.
+- `Model(modelAsset.getId()`
+  - Creates a `Model` instance.
+
+## Methods
+- `getModelAssetId()`
+  - Executes `getModelAssetId` behavior.
+- `getScale()`
+  - Executes `getScale` behavior.
+- `getRandomAttachmentIds()`
+  - Executes `getRandomAttachmentIds` behavior.
+- `getAttachments()`
+  - Executes `getAttachments` behavior.
+- `getBoundingBox(@Nullable MovementStates movementStates)`
+  - Executes `getBoundingBox` behavior.
+- `getBoundingBox()`
+  - Executes `getBoundingBox` behavior.
+- `getCrouchBoundingBox()`
+  - Executes `getCrouchBoundingBox` behavior.
+- `getModel()`
+  - Executes `getModel` behavior.
+- `getTexture()`
+  - Executes `getTexture` behavior.
+- `getGradientSet()`
+  - Executes `getGradientSet` behavior.
+- `getGradientId()`
+  - Executes `getGradientId` behavior.
+- `getEyeHeight()`
+  - Executes `getEyeHeight` behavior.
+- `getCrouchOffset()`
+  - Executes `getCrouchOffset` behavior.
+- `getFirstBoundAnimationId(@Nullable String id, @Nullable String fallbackId)`
+  - Executes `getFirstBoundAnimationId` behavior.
+- `getFirstBoundAnimationId(String ... preferenceOrder)`
+  - Executes `getFirstBoundAnimationId` behavior.
+- `getCamera()`
+  - Executes `getCamera` behavior.
+- `getLight()`
+  - Executes `getLight` behavior.
+- `getParticles()`
+  - Executes `getParticles` behavior.
+- `getTrails()`
+  - Executes `getTrails` behavior.
+- `getPhysicsValues()`
+  - Executes `getPhysicsValues` behavior.
+- `getDetailBoxes()`
+  - Executes `getDetailBoxes` behavior.
+- `getPhobia()`
+  - Executes `getPhobia` behavior.
+- `getPhobiaModelAssetId()`
+  - Executes `getPhobiaModelAssetId` behavior.
+- `toReference()`
+  - Executes `toReference` behavior.
+- `getEyeHeight(@Nullable Ref<EntityStore> ref, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `getEyeHeight` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `createRandomScaleModel(@Nonnull ModelAsset modelAsset)`
+  - Executes `createRandomScaleModel` behavior.
+- `createStaticScaledModel(@Nonnull ModelAsset modelAsset, float scale)`
+  - Executes `createStaticScaledModel` behavior.
+- `createUnitScaleModel(@Nonnull ModelAsset modelAsset)`
+  - Executes `createUnitScaleModel` behavior.
+- `createUnitScaleModel(@Nonnull ModelAsset modelAsset, @Nullable Box boundingBox)`
+  - Executes `createUnitScaleModel` behavior.
+- `createScaledModel(@Nonnull ModelAsset modelAsset, float scale)`
+  - Executes `createScaledModel` behavior.
+- `createScaledModel(@Nonnull ModelAsset modelAsset, float scale, @Nullable Map<String, String> randomAttachmentIds)`
+  - Executes `createScaledModel` behavior.
+- `createScaledModel(@Nonnull ModelAsset modelAsset, float scale, @Nullable Map<String, String> randomAttachmentIds, @Nullable Box overrideBoundingBox)`
+  - Executes `createScaledModel` behavior.
+- `createScaledModel(@Nonnull ModelAsset modelAsset, float scale, @Nullable Map<String, String> randomAttachmentIds, @Nullable Box overrideBoundingBox, boolean staticModel)`
+  - Executes `createScaledModel` behavior.
+- `isStaticModel()`
+  - Executes `isStaticModel` behavior.
+- `toModel()`
+  - Executes `toModel` behavior.
+
+## Notes
+- No additional notes.

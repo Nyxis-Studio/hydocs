@@ -1,0 +1,184 @@
+# NPCEntity
+
+## Overview
+- Documentation for `NPCEntity`.
+- Declared as a class in `com.hypixel.hytale.server.npc.entities`.
+
+## Constructors
+- `NPCEntity()`
+  - Creates a `NPCEntity` instance.
+- `NPCEntity(@Nonnull World world)`
+  - Creates a `NPCEntity` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `getAlarmStore()`
+  - Executes `getAlarmStore` behavior.
+- `createDefaultInventory()`
+  - Executes `createDefaultInventory` behavior.
+- `getRole()`
+  - Executes `getRole` behavior.
+- `invalidateCachedHorizontalSpeedMultiplier()`
+  - Executes `invalidateCachedHorizontalSpeedMultiplier` behavior.
+- `storeTickStartPosition(@Nonnull Vector3d position)`
+  - Executes `storeTickStartPosition` behavior.
+- `tickDespawnAnimationRemainingSeconds(float dt)`
+  - Executes `tickDespawnAnimationRemainingSeconds` behavior.
+- `setDespawnAnimationRemainingSeconds(float seconds)`
+  - Executes `setDespawnAnimationRemainingSeconds` behavior.
+- `tickDespawnRemainingSeconds(float dt)`
+  - Executes `tickDespawnRemainingSeconds` behavior.
+- `setDespawnRemainingSeconds(float seconds)`
+  - Executes `setDespawnRemainingSeconds` behavior.
+- `setDespawning(boolean despawning)`
+  - Executes `setDespawning` behavior.
+- `setPlayingDespawnAnim(boolean playingDespawnAnim)`
+  - Executes `setPlayingDespawnAnim` behavior.
+- `tickDespawnCheckRemainingSeconds(float dt)`
+  - Executes `tickDespawnCheckRemainingSeconds` behavior.
+- `setDespawnCheckRemainingSeconds(float seconds)`
+  - Executes `setDespawnCheckRemainingSeconds` behavior.
+- `setInitialModelScale(float scale)`
+  - Executes `setInitialModelScale` behavior.
+- `getOldPosition()`
+  - Executes `getOldPosition` behavior.
+- `playAnimation(@Nonnull Ref<EntityStore> ref, @Nonnull AnimationSlot animationSlot, @Nullable String animationId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `playAnimation` behavior.
+- `clearDamageData()`
+  - Executes `clearDamageData` behavior.
+- `setToDespawn()`
+  - Executes `setToDespawn` behavior.
+- `setDespawnTime(float time)`
+  - Executes `setDespawnTime` behavior.
+- `getDespawnTime()`
+  - Executes `getDespawnTime` behavior.
+- `canBreathe(@Nonnull Ref<EntityStore> ref, @Nonnull BlockMaterial breathingMaterial, int fluidId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canBreathe` behavior.
+- `getDamageData()`
+  - Executes `getDamageData` behavior.
+- `getCanCauseDamage(@Nonnull Ref<EntityStore> attackerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `getCanCauseDamage` behavior.
+- `onFlockSetState(@Nonnull Ref<EntityStore> ref, @Nonnull String state, @Nullable String subState, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `onFlockSetState` behavior.
+- `onFlockSetTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`
+  - Executes `onFlockSetTarget` behavior.
+- `saveLeashInformation(@Nonnull Vector3d position, @Nonnull Vector3f rotation)`
+  - Executes `saveLeashInformation` behavior.
+- `saveLeashBlockType()`
+  - Executes `saveLeashBlockType` behavior.
+- `requiresLeashPosition()`
+  - Executes `requiresLeashPosition` behavior.
+- `getLeashPoint()`
+  - Executes `getLeashPoint` behavior.
+- `setLeashPoint(@Nonnull Vector3d leashPoint)`
+  - Executes `setLeashPoint` behavior.
+- `getLeashHeading()`
+  - Executes `getLeashHeading` behavior.
+- `setLeashHeading(float leashHeading)`
+  - Executes `setLeashHeading` behavior.
+- `getLeashPitch()`
+  - Executes `getLeashPitch` behavior.
+- `setLeashPitch(float leashPitch)`
+  - Executes `setLeashPitch` behavior.
+- `getHoverPhase()`
+  - Executes `getHoverPhase` behavior.
+- `setHoverPhase(float hoverPhase)`
+  - Executes `setHoverPhase` behavior.
+- `getHoverHeight()`
+  - Executes `getHoverHeight` behavior.
+- `setHoverHeight(double hoverHeight)`
+  - Executes `setHoverHeight` behavior.
+- `getRoleName()`
+  - Executes `getRoleName` behavior.
+- `setRoleName(String roleName)`
+  - Executes `setRoleName` behavior.
+- `getRoleIndex()`
+  - Executes `getRoleIndex` behavior.
+- `setRoleIndex(int roleIndex)`
+  - Executes `setRoleIndex` behavior.
+- `setRole(Role role)`
+  - Executes `setRole` behavior.
+- `getSpawnRoleIndex()`
+  - Executes `getSpawnRoleIndex` behavior.
+- `setSpawnRoleIndex(int spawnRoleIndex)`
+  - Executes `setSpawnRoleIndex` behavior.
+- `getBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+  - Executes `getBlockTypeBlackboardView` behavior.
+- `removeBlockTypeBlackboardView()`
+  - Executes `removeBlockTypeBlackboardView` behavior.
+- `initBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `initBlockTypeBlackboardView` behavior.
+- `initBlockChangeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `initBlockChangeBlackboardView` behavior.
+- `addBlackboardBlockTypeSets(IntList blackboardBlockSets)`
+  - Executes `addBlackboardBlockTypeSets` behavior.
+- `getBlackboardBlockTypeSets()`
+  - Executes `getBlackboardBlockTypeSets` behavior.
+- `addBlackboardBlockChangeSets(@Nonnull BlockEventType type, @Nonnull IntSet sets)`
+  - Executes `addBlackboardBlockChangeSets` behavior.
+- `getBlackboardBlockChangeSet(BlockEventType type)`
+  - Executes `getBlackboardBlockChangeSet` behavior.
+- `getBlackboardBlockChangeSets()`
+  - Executes `getBlackboardBlockChangeSets` behavior.
+- `notifyBlockChange(@Nonnull BlockEventType type, @Nonnull EventNotification notification)`
+  - Executes `notifyBlockChange` behavior.
+- `addBlackboardEntityEventSets(@Nonnull EntityEventType type, @Nonnull IntSet sets)`
+  - Executes `addBlackboardEntityEventSets` behavior.
+- `getBlackboardEntityEventSet(@Nonnull EntityEventType type)`
+  - Executes `getBlackboardEntityEventSet` behavior.
+- `getBlackboardEntityEventSets()`
+  - Executes `getBlackboardEntityEventSets` behavior.
+- `notifyEntityEvent(@Nonnull EntityEventType type, @Nonnull EntityEventNotification notification)`
+  - Executes `notifyEntityEvent` behavior.
+- `setEnvironment(int env)`
+  - Executes `setEnvironment` behavior.
+- `getEnvironment()`
+  - Executes `getEnvironment` behavior.
+- `getSpawnConfiguration()`
+  - Executes `getSpawnConfiguration` behavior.
+- `setSpawnConfiguration(int spawnConfigurationIndex)`
+  - Executes `setSpawnConfiguration` behavior.
+- `updateSpawnTrackingState(boolean newState)`
+  - Executes `updateSpawnTrackingState` behavior.
+- `isDespawning()`
+  - Executes `isDespawning` behavior.
+- `isPlayingDespawnAnim()`
+  - Executes `isPlayingDespawnAnim` behavior.
+- `getRoleDebugFlags()`
+  - Executes `getRoleDebugFlags` behavior.
+- `setRoleDebugFlags(@Nonnull EnumSet<RoleDebugFlags> flags)`
+  - Executes `setRoleDebugFlags` behavior.
+- `setSpawnInstant(@Nonnull Instant spawned)`
+  - Executes `setSpawnInstant` behavior.
+- `getSpawnInstant()`
+  - Executes `getSpawnInstant` behavior.
+- `setInventorySize(int hotbarCapacity, int inventoryCapacity, int offHandCapacity)`
+  - Executes `setInventorySize` behavior.
+- `getLegacyWorldgenId()`
+  - Executes `getLegacyWorldgenId` behavior.
+- `getPathManager()`
+  - Executes `getPathManager` behavior.
+- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull String name, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `setAppearance` behavior.
+- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull ModelAsset modelAsset, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `setAppearance` behavior.
+- `getCurrentHorizontalSpeedMultiplier(@Nullable Ref<EntityStore> ref, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `getCurrentHorizontalSpeedMultiplier` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `getNPCTypeId()`
+  - Executes `getNPCTypeId` behavior.
+- `getNPCTypeIndex()`
+  - Executes `getNPCTypeIndex` behavior.
+- `addReservation(@Nonnull UUID playerUUID)`
+  - Executes `addReservation` behavior.
+- `removeReservation(@Nonnull UUID playerUUID)`
+  - Executes `removeReservation` behavior.
+- `isReserved()`
+  - Executes `isReserved` behavior.
+- `isReservedBy(@Nonnull UUID playerUUID)`
+  - Executes `isReservedBy` behavior.
+
+## Notes
+- No additional notes.

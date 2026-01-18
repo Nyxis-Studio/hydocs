@@ -1,0 +1,228 @@
+# Role
+
+## Overview
+- Documentation for `Role`.
+- Declared as a class in `com.hypixel.hytale.server.npc.role`.
+
+## Constructors
+- `Role(@Nonnull BuilderRole builder, @Nonnull BuilderSupport builderSupport)`
+  - Creates a `Role` instance.
+
+## Methods
+- `getInitialMaxHealth()`
+  - Executes `getInitialMaxHealth` behavior.
+- `isAvoidingEntities()`
+  - Executes `isAvoidingEntities` behavior.
+- `getCollisionProbeDistance()`
+  - Executes `getCollisionProbeDistance` behavior.
+- `isApplySeparation()`
+  - Executes `isApplySeparation` behavior.
+- `getSeparationDistance()`
+  - Executes `getSeparationDistance` behavior.
+- `getRootInstruction()`
+  - Executes `getRootInstruction` behavior.
+- `getInteractionInstruction()`
+  - Executes `getInteractionInstruction` behavior.
+- `getDeathInstruction()`
+  - Executes `getDeathInstruction` behavior.
+- `getBodySteering()`
+  - Executes `getBodySteering` behavior.
+- `getHeadSteering()`
+  - Executes `getHeadSteering` behavior.
+- `getIgnoredEntitiesForAvoidance()`
+  - Executes `getIgnoredEntitiesForAvoidance` behavior.
+- `getDropListId()`
+  - Executes `getDropListId` behavior.
+- `getBalanceAsset()`
+  - Executes `getBalanceAsset` behavior.
+- `getInteractionVars()`
+  - Executes `getInteractionVars` behavior.
+- `isMemory()`
+  - Executes `isMemory` behavior.
+- `getMemoriesNameOverride()`
+  - Executes `getMemoriesNameOverride` behavior.
+- `getNameTranslationKey()`
+  - Executes `getNameTranslationKey` behavior.
+- `isMemoriesNameOverriden()`
+  - Executes `isMemoriesNameOverriden` behavior.
+- `getSpawnLockTime()`
+  - Executes `getSpawnLockTime` behavior.
+- `postRoleBuilt(@Nonnull BuilderSupport builderSupport)`
+  - Executes `postRoleBuilt` behavior.
+- `loaded()`
+  - Executes `loaded` behavior.
+- `spawned(@Nonnull Holder<EntityStore> holder, @Nonnull NPCEntity npcComponent)`
+  - Executes `spawned` behavior.
+- `unloaded()`
+  - Executes `unloaded` behavior.
+- `removed()`
+  - Executes `removed` behavior.
+- `teleported(@Nonnull World from, @Nonnull World to)`
+  - Executes `teleported` behavior.
+- `getAppearanceName()`
+  - Executes `getAppearanceName` behavior.
+- `getActiveMotionController()`
+  - Executes `getActiveMotionController` behavior.
+- `getCombatSupport()`
+  - Executes `getCombatSupport` behavior.
+- `getStateSupport()`
+  - Executes `getStateSupport` behavior.
+- `getWorldSupport()`
+  - Executes `getWorldSupport` behavior.
+- `getMarkedEntitySupport()`
+  - Executes `getMarkedEntitySupport` behavior.
+- `getPositionCache()`
+  - Executes `getPositionCache` behavior.
+- `getEntitySupport()`
+  - Executes `getEntitySupport` behavior.
+- `getDebugSupport()`
+  - Executes `getDebugSupport` behavior.
+- `isRoleChangeRequested()`
+  - Executes `isRoleChangeRequested` behavior.
+- `setRoleChangeRequested()`
+  - Executes `setRoleChangeRequested` behavior.
+- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull String name, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `setActiveMotionController` behavior.
+- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `setActiveMotionController` behavior.
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nullable MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `motionControllerChanged` behavior.
+- `setMotionControllers(@Nonnull NPCEntity npcComponent, @Nonnull Map<String, MotionController> motionControllers, @Nullable String initialMotionController)`
+  - Executes `setMotionControllers` behavior.
+- `updateMotionControllers(@Nullable Ref<EntityStore> ref, @Nullable Model model, @Nullable Box boundingBox, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateMotionControllers` behavior.
+- `updateMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateMovementState` behavior.
+- `tick(@Nonnull Ref<EntityStore> ref, float tickTime, @Nonnull Store<EntityStore> store)`
+  - Executes `tick` behavior.
+- `addDeferredAction(@Nonnull DeferredAction handler)`
+  - Executes `addDeferredAction` behavior.
+- `computeActionsAndSteering(@Nonnull Ref<EntityStore> ref, double tickTime, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, @Nonnull Store<EntityStore> store)`
+  - Executes `computeActionsAndSteering` behavior.
+- `blendSeparation(@Nonnull Ref<EntityStore> selfRef, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull ComponentType<EntityStore, TransformComponent> transformComponentType, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `blendSeparation` behavior.
+- `getLastSeparationSteering()`
+  - Executes `getLastSeparationSteering` behavior.
+- `blendAvoidance(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+  - Executes `blendAvoidance` behavior.
+- `getLastAvoidanceSteering()`
+  - Executes `getLastAvoidanceSteering` behavior.
+- `resetInstruction(int instruction)`
+  - Executes `resetInstruction` behavior.
+- `getRoleName()`
+  - Executes `getRoleName` behavior.
+- `getRoleIndex()`
+  - Executes `getRoleIndex` behavior.
+- `setRoleIndex(int roleIndex, @Nonnull String roleName)`
+  - Executes `setRoleIndex` behavior.
+- `isInvulnerable()`
+  - Executes `isInvulnerable` behavior.
+- `isBreathesInAir()`
+  - Executes `isBreathesInAir` behavior.
+- `isBreathesInWater()`
+  - Executes `isBreathesInWater` behavior.
+- `getInertia()`
+  - Executes `getInertia` behavior.
+- `getKnockbackScale()`
+  - Executes `getKnockbackScale` behavior.
+- `canBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`
+  - Executes `canBreathe` behavior.
+- `couldBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`
+  - Executes `couldBreathe` behavior.
+- `couldBreatheCached()`
+  - Executes `couldBreatheCached` behavior.
+- `addForce(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+  - Executes `addForce` behavior.
+- `forceVelocity(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig, boolean ignoreDamping)`
+  - Executes `forceVelocity` behavior.
+- `processAddVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+  - Executes `processAddVelocityInstruction` behavior.
+- `processSetVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+  - Executes `processSetVelocityInstruction` behavior.
+- `isOnGround()`
+  - Executes `isOnGround` behavior.
+- `setArmor(@Nonnull NPCEntity npcComponent, @Nullable String[] armor)`
+  - Executes `setArmor` behavior.
+- `isPickupDropOnDeath()`
+  - Executes `isPickupDropOnDeath` behavior.
+- `requiresLeashPosition()`
+  - Executes `requiresLeashPosition` behavior.
+- `clearOnce()`
+  - Executes `clearOnce` behavior.
+- `clearOnceIfNeeded()`
+  - Executes `clearOnceIfNeeded` behavior.
+- `setMarkedTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`
+  - Executes `setMarkedTarget` behavior.
+- `isFriendly(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isFriendly` behavior.
+- `isIgnoredForAvoidance(@Nonnull Ref<EntityStore> entityReference)`
+  - Executes `isIgnoredForAvoidance` behavior.
+- `getAvoidanceMode()`
+  - Executes `getAvoidanceMode` behavior.
+- `getCollisionRadius()`
+  - Executes `getCollisionRadius` behavior.
+- `getFlockSpawnTypes()`
+  - Executes `getFlockSpawnTypes` behavior.
+- `getFlockAllowedRoles()`
+  - Executes `getFlockAllowedRoles` behavior.
+- `isFlockSpawnTypesRandom()`
+  - Executes `isFlockSpawnTypesRandom` behavior.
+- `isCanLeadFlock()`
+  - Executes `isCanLeadFlock` behavior.
+- `getFlockInfluenceRange()`
+  - Executes `getFlockInfluenceRange` behavior.
+- `getDeathAnimationTime()`
+  - Executes `getDeathAnimationTime` behavior.
+- `getDeathInteraction()`
+  - Executes `getDeathInteraction` behavior.
+- `getDespawnAnimationTime()`
+  - Executes `getDespawnAnimationTime` behavior.
+- `setReachedTerminalAction(boolean hasReached)`
+  - Executes `setReachedTerminalAction` behavior.
+- `hasReachedTerminalAction()`
+  - Executes `hasReachedTerminalAction` behavior.
+- `setFlag(int index, boolean value)`
+  - Executes `setFlag` behavior.
+- `isFlagSet(int index)`
+  - Executes `isFlagSet` behavior.
+- `isBackingAway()`
+  - Executes `isBackingAway` behavior.
+- `setBackingAway(boolean backingAway)`
+  - Executes `setBackingAway` behavior.
+- `swapTreeModeSteps(Instruction newStep)`
+  - Executes `swapTreeModeSteps` behavior.
+- `notifySensorMatch()`
+  - Executes `notifySensorMatch` behavior.
+- `resetAllInstructions()`
+  - Executes `resetAllInstructions` behavior.
+- `getSteeringMotionName()`
+  - Executes `getSteeringMotionName` behavior.
+- `componentCount()`
+  - Executes `componentCount` behavior.
+- `getComponent(int index)`
+  - Executes `getComponent` behavior.
+- `getInfo(Role role, ComponentInfo holder)`
+  - Executes `getInfo` behavior.
+- `getIndex()`
+  - Executes `getIndex` behavior.
+- `setContext(IAnnotatedComponent parent, int index)`
+  - Executes `setContext` behavior.
+- `getParent()`
+  - Executes `getParent` behavior.
+- `getLabel()`
+  - Executes `getLabel` behavior.
+- `initialiseInventories(@Nonnull NPCEntity npcComponent)`
+  - Executes `initialiseInventories` behavior.
+- `isCorpseStaysInFlock()`
+  - Executes `isCorpseStaysInFlock` behavior.
+- `onLoadFromWorldGenOrPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `onLoadFromWorldGenOrPrefab` behavior.
+- `getRoleStats()`
+  - Executes `getRoleStats` behavior.
+- `get()`
+  - Executes `get` behavior.
+- `tick(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, double var3, @Nonnull Store<EntityStore> var5)`
+  - Executes `tick` behavior.
+
+## Notes
+- No additional notes.

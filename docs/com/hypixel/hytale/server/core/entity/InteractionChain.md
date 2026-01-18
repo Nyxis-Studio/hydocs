@@ -1,0 +1,166 @@
+# InteractionChain
+
+## Overview
+- Documentation for `InteractionChain`.
+- Declared as a class in `com.hypixel.hytale.server.core.entity`.
+
+## Constructors
+- `InteractionChain(InteractionType type, InteractionContext context, InteractionChainData chainData, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean requiresClient)`
+  - Creates a `InteractionChain` instance.
+- `InteractionChain(ForkedChainId forkedChainId, ForkedChainId baseForkedChainId, InteractionType type, InteractionContext context, InteractionChainData chainData, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean requiresClient)`
+  - Creates a `InteractionChain` instance.
+
+## Methods
+- `getType()`
+  - Executes `getType` behavior.
+- `getChainId()`
+  - Executes `getChainId` behavior.
+- `getForkedChainId()`
+  - Executes `getForkedChainId` behavior.
+- `getBaseForkedChainId()`
+  - Executes `getBaseForkedChainId` behavior.
+- `getInitialRootInteraction()`
+  - Executes `getInitialRootInteraction` behavior.
+- `isPredicted()`
+  - Executes `isPredicted` behavior.
+- `getContext()`
+  - Executes `getContext` behavior.
+- `getChainData()`
+  - Executes `getChainData` behavior.
+- `getServerState()`
+  - Executes `getServerState` behavior.
+- `requiresClient()`
+  - Executes `requiresClient` behavior.
+- `getRootInteraction()`
+  - Executes `getRootInteraction` behavior.
+- `getSimulatedRootInteraction()`
+  - Executes `getSimulatedRootInteraction` behavior.
+- `getOperationCounter()`
+  - Executes `getOperationCounter` behavior.
+- `setOperationCounter(int operationCounter)`
+  - Executes `setOperationCounter` behavior.
+- `getSimulatedOperationCounter()`
+  - Executes `getSimulatedOperationCounter` behavior.
+- `setSimulatedOperationCounter(int simulatedOperationCounter)`
+  - Executes `setSimulatedOperationCounter` behavior.
+- `wasPreTicked()`
+  - Executes `wasPreTicked` behavior.
+- `setPreTicked(boolean preTicked)`
+  - Executes `setPreTicked` behavior.
+- `getOperationIndex()`
+  - Executes `getOperationIndex` behavior.
+- `nextOperationIndex()`
+  - Executes `nextOperationIndex` behavior.
+- `getClientOperationIndex()`
+  - Executes `getClientOperationIndex` behavior.
+- `findForkedChain(@Nonnull ForkedChainId chainId, @Nullable InteractionChainData data)`
+  - Executes `findForkedChain` behavior.
+- `getForkedChain(@Nonnull ForkedChainId chainId)`
+  - Executes `getForkedChain` behavior.
+- `putForkedChain(@Nonnull ForkedChainId chainId, @Nonnull InteractionChain chain)`
+  - Executes `putForkedChain` behavior.
+- `getTempForkedChain(@Nonnull ForkedChainId chainId)`
+  - Executes `getTempForkedChain` behavior.
+- `hasSentInitial()`
+  - Executes `hasSentInitial` behavior.
+- `setSentInitial(boolean sentInitial)`
+  - Executes `setSentInitial` behavior.
+- `getTimeShift()`
+  - Executes `getTimeShift` behavior.
+- `setTimeShift(float timeShift)`
+  - Executes `setTimeShift` behavior.
+- `consumeFirstRun()`
+  - Executes `consumeFirstRun` behavior.
+- `isFirstRun()`
+  - Executes `isFirstRun` behavior.
+- `setFirstRun(boolean firstRun)`
+  - Executes `setFirstRun` behavior.
+- `getCallDepth()`
+  - Executes `getCallDepth` behavior.
+- `getSimulatedCallDepth()`
+  - Executes `getSimulatedCallDepth` behavior.
+- `pushRoot(RootInteraction nextInteraction, boolean simulate)`
+  - Executes `pushRoot` behavior.
+- `popRoot()`
+  - Executes `popRoot` behavior.
+- `getTimeInSeconds()`
+  - Executes `getTimeInSeconds` behavior.
+- `setOnCompletion(Runnable onCompletion)`
+  - Executes `setOnCompletion` behavior.
+- `getClientState()`
+  - Executes `getClientState` behavior.
+- `setClientState(InteractionState state)`
+  - Executes `setClientState` behavior.
+- `getOrCreateInteractionEntry(int index)`
+  - Executes `getOrCreateInteractionEntry` behavior.
+- `getInteraction(int index)`
+  - Executes `getInteraction` behavior.
+- `removeInteractionEntry(@Nonnull InteractionManager interactionManager, int index)`
+  - Executes `removeInteractionEntry` behavior.
+- `putInteractionSyncData(int index, InteractionSyncData data)`
+  - Executes `putInteractionSyncData` behavior.
+- `clearInteractionSyncData(int operationIndex)`
+  - Executes `clearInteractionSyncData` behavior.
+- `removeInteractionSyncData(int index)`
+  - Executes `removeInteractionSyncData` behavior.
+- `updateSyncPosition(int index)`
+  - Executes `updateSyncPosition` behavior.
+- `isSyncDataOutOfOrder(int index)`
+  - Executes `isSyncDataOutOfOrder` behavior.
+- `syncFork(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionManager manager, @Nonnull SyncInteractionChain packet)`
+  - Executes `syncFork` behavior.
+- `copyTempFrom(@Nonnull TempChain temp)`
+  - Executes `copyTempFrom` behavior.
+- `forkedIdToIndex(@Nonnull ForkedChainId chainId)`
+  - Executes `forkedIdToIndex` behavior.
+- `setChainId(int chainId)`
+  - Executes `setChainId` behavior.
+- `getBaseType()`
+  - Executes `getBaseType` behavior.
+- `setBaseType(InteractionType baseType)`
+  - Executes `setBaseType` behavior.
+- `getForkedChains()`
+  - Executes `getForkedChains` behavior.
+- `getTempForkedChainData()`
+  - Executes `getTempForkedChainData` behavior.
+- `getTimestamp()`
+  - Executes `getTimestamp` behavior.
+- `setTimestamp(long timestamp)`
+  - Executes `setTimestamp` behavior.
+- `getWaitingForServerFinished()`
+  - Executes `getWaitingForServerFinished` behavior.
+- `setWaitingForServerFinished(long waitingForServerFinished)`
+  - Executes `setWaitingForServerFinished` behavior.
+- `getWaitingForClientFinished()`
+  - Executes `getWaitingForClientFinished` behavior.
+- `setWaitingForClientFinished(long waitingForClientFinished)`
+  - Executes `setWaitingForClientFinished` behavior.
+- `setServerState(InteractionState serverState)`
+  - Executes `setServerState` behavior.
+- `getFinalState()`
+  - Executes `getFinalState` behavior.
+- `setFinalState(InteractionState finalState)`
+  - Executes `setFinalState` behavior.
+- `flagDesync()`
+  - Executes `flagDesync` behavior.
+- `isDesynced()`
+  - Executes `isDesynced` behavior.
+- `getNewForks()`
+  - Executes `getNewForks` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `getOrCreateTempForkedChain(@Nonnull ForkedChainId chainId)`
+  - Executes `getOrCreateTempForkedChain` behavior.
+- `clearInteractionSyncData(int index)`
+  - Executes `clearInteractionSyncData` behavior.
+- `setChainData(InteractionChainData chainData)`
+  - Executes `setChainData` behavior.
+- `setBaseForkedChainId(ForkedChainId baseForkedChainId)`
+  - Executes `setBaseForkedChainId` behavior.
+- `setForkedChainId(ForkedChainId forkedChainId)`
+  - Executes `setForkedChainId` behavior.
+- `CallState(RootInteraction rootInteraction, int operationCounter)`
+  - Executes `CallState` behavior.
+
+## Notes
+- No additional notes.

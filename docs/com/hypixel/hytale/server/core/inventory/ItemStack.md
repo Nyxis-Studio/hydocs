@@ -1,0 +1,112 @@
+# ItemStack
+
+## Overview
+- Documentation for `ItemStack`.
+- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
+
+## Constructors
+- `ItemStack()`
+  - Creates a `ItemStack` instance.
+- `ItemStack(@Nonnull String itemId, int quantity, @Nullable BsonDocument metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(@Nonnull String itemId, int quantity, double durability, double maxDurability, @Nullable BsonDocument metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(@Nonnull String itemId)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(@Nonnull String itemId, int quantity)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, this.quantity, MathUtil.clamp(durability, 0.0, this.maxDurability)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, this.quantity, Math.min(this.durability, maxDurability)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, this.quantity, maxDurability, maxDurability, this.metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(newItemId, this.quantity, this.durability, this.maxDurability, this.metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, quantity, this.durability, this.maxDurability, this.metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, this.quantity, this.durability, this.maxDurability, metadata)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(this.itemId, this.quantity, this.durability, this.maxDurability, clonedMeta)`
+  - Creates a `ItemStack` instance.
+- `ItemStack(packet.itemId, quantity, null)`
+  - Creates a `ItemStack` instance.
+
+## Methods
+- `getItemId()`
+  - Executes `getItemId` behavior.
+- `getQuantity()`
+  - Executes `getQuantity` behavior.
+- `getMetadata()`
+  - Executes `getMetadata` behavior.
+- `isUnbreakable()`
+  - Executes `isUnbreakable` behavior.
+- `isBroken()`
+  - Executes `isBroken` behavior.
+- `getMaxDurability()`
+  - Executes `getMaxDurability` behavior.
+- `getDurability()`
+  - Executes `getDurability` behavior.
+- `isEmpty()`
+  - Executes `isEmpty` behavior.
+- `getOverrideDroppedItemAnimation()`
+  - Executes `getOverrideDroppedItemAnimation` behavior.
+- `setOverrideDroppedItemAnimation(boolean b)`
+  - Executes `setOverrideDroppedItemAnimation` behavior.
+- `getBlockKey()`
+  - Executes `getBlockKey` behavior.
+- `getItem()`
+  - Executes `getItem` behavior.
+- `isValid()`
+  - Executes `isValid` behavior.
+- `withDurability(double durability)`
+  - Executes `withDurability` behavior.
+- `withMaxDurability(double maxDurability)`
+  - Executes `withMaxDurability` behavior.
+- `withIncreasedDurability(double inc)`
+  - Executes `withIncreasedDurability` behavior.
+- `withRestoredDurability(double maxDurability)`
+  - Executes `withRestoredDurability` behavior.
+- `withState(@Nonnull String state)`
+  - Executes `withState` behavior.
+- `withQuantity(int quantity)`
+  - Executes `withQuantity` behavior.
+- `withMetadata(@Nullable BsonDocument metadata)`
+  - Executes `withMetadata` behavior.
+- `withMetadata(@Nonnull KeyedCodec<T> keyedCodec, @Nullable T data)`
+  - Executes `withMetadata` behavior.
+- `withMetadata(@Nonnull String key, @Nonnull Codec<T> codec, @Nullable T data)`
+  - Executes `withMetadata` behavior.
+- `withMetadata(@Nonnull String key, @Nullable BsonValue bsonValue)`
+  - Executes `withMetadata` behavior.
+- `toPacket()`
+  - Executes `toPacket` behavior.
+- `isStackableWith(@Nullable ItemStack itemStack)`
+  - Executes `isStackableWith` behavior.
+- `isEquivalentType(@Nullable ItemStack itemStack)`
+  - Executes `isEquivalentType` behavior.
+- `getFromMetadataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`
+  - Executes `getFromMetadataOrNull` behavior.
+- `getFromMetadataOrNull(@Nonnull String key, @Nonnull Codec<T> codec)`
+  - Executes `getFromMetadataOrNull` behavior.
+- `getFromMetadataOrDefault(@Nonnull String key, @Nonnull BuilderCodec<T> codec)`
+  - Executes `getFromMetadataOrDefault` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `isEmpty(@Nullable ItemStack itemFrom)`
+  - Executes `isEmpty` behavior.
+- `isStackableWith(@Nullable ItemStack a, ItemStack b)`
+  - Executes `isStackableWith` behavior.
+- `isEquivalentType(@Nullable ItemStack a, ItemStack b)`
+  - Executes `isEquivalentType` behavior.
+- `isSameItemType(@Nullable ItemStack a, @Nullable ItemStack b)`
+  - Executes `isSameItemType` behavior.
+- `fromPacket(@Nullable ItemQuantity packet)`
+  - Executes `fromPacket` behavior.
+
+## Notes
+- No additional notes.

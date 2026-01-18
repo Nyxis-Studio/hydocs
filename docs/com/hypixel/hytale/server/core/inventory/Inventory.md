@@ -1,0 +1,138 @@
+# Inventory
+
+## Overview
+- Documentation for `Inventory`.
+- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
+
+## Constructors
+- `Inventory(null)`
+  - Creates a `Inventory` instance.
+- `Inventory(Void dummy)`
+  - Creates a `Inventory` instance.
+- `Inventory()`
+  - Creates a `Inventory` instance.
+- `Inventory(short storageCapacity, short armorCapacity, short hotbarCapacity, short utilityCapacity, short toolCapacity)`
+  - Creates a `Inventory` instance.
+- `Inventory(ItemContainer storage, ItemContainer armor, ItemContainer hotbar, ItemContainer utility, ItemContainer tools, ItemContainer backpack)`
+  - Creates a `Inventory` instance.
+- `Inventory(newStorage, newArmor, newHotbar, newUtility, newTool, EmptyItemContainer.INSTANCE)`
+  - Creates a `Inventory` instance.
+
+## Methods
+- `registerChangeEvents()`
+  - Executes `registerChangeEvents` behavior.
+- `registerBackpackListener()`
+  - Executes `registerBackpackListener` behavior.
+- `unregister()`
+  - Executes `unregister` behavior.
+- `unregisterBackpackChange()`
+  - Executes `unregisterBackpackChange` behavior.
+- `markChanged()`
+  - Executes `markChanged` behavior.
+- `moveItem(int fromSectionId, int fromSlotId, int quantity, int toSectionId, int toSlotId)`
+  - Executes `moveItem` behavior.
+- `smartMoveItem(int fromSectionId, int fromSlotId, int quantity, @Nonnull SmartMoveType moveType)`
+  - Executes `smartMoveItem` behavior.
+- `takeAll(int inventorySectionId)`
+  - Executes `takeAll` behavior.
+- `putAll(int inventorySectionId)`
+  - Executes `putAll` behavior.
+- `quickStack(int inventorySectionId)`
+  - Executes `quickStack` behavior.
+- `dropAllItemStacks()`
+  - Executes `dropAllItemStacks` behavior.
+- `clear()`
+  - Executes `clear` behavior.
+- `getStorage()`
+  - Executes `getStorage` behavior.
+- `getArmor()`
+  - Executes `getArmor` behavior.
+- `getHotbar()`
+  - Executes `getHotbar` behavior.
+- `getUtility()`
+  - Executes `getUtility` behavior.
+- `getTools()`
+  - Executes `getTools` behavior.
+- `getBackpack()`
+  - Executes `getBackpack` behavior.
+- `resizeBackpack(short capacity, List<ItemStack> remainder)`
+  - Executes `resizeBackpack` behavior.
+- `getCombinedHotbarFirst()`
+  - Executes `getCombinedHotbarFirst` behavior.
+- `getCombinedStorageFirst()`
+  - Executes `getCombinedStorageFirst` behavior.
+- `getCombinedBackpackStorageHotbar()`
+  - Executes `getCombinedBackpackStorageHotbar` behavior.
+- `getCombinedArmorHotbarStorage()`
+  - Executes `getCombinedArmorHotbarStorage` behavior.
+- `getCombinedArmorHotbarUtilityStorage()`
+  - Executes `getCombinedArmorHotbarUtilityStorage` behavior.
+- `getCombinedHotbarUtilityConsumableStorage()`
+  - Executes `getCombinedHotbarUtilityConsumableStorage` behavior.
+- `getCombinedEverything()`
+  - Executes `getCombinedEverything` behavior.
+- `getContainerForItemPickup(@Nonnull Item item, PlayerSettings playerSettings)`
+  - Executes `getContainerForItemPickup` behavior.
+- `setActiveSlot(int inventorySectionId, byte slot)`
+  - Executes `setActiveSlot` behavior.
+- `getActiveSlot(int inventorySectionId)`
+  - Executes `getActiveSlot` behavior.
+- `getActiveHotbarSlot()`
+  - Executes `getActiveHotbarSlot` behavior.
+- `setActiveHotbarSlot(byte slot)`
+  - Executes `setActiveHotbarSlot` behavior.
+- `getActiveHotbarItem()`
+  - Executes `getActiveHotbarItem` behavior.
+- `getActiveToolItem()`
+  - Executes `getActiveToolItem` behavior.
+- `getItemInHand()`
+  - Executes `getItemInHand` behavior.
+- `getActiveUtilitySlot()`
+  - Executes `getActiveUtilitySlot` behavior.
+- `setActiveUtilitySlot(byte slot)`
+  - Executes `setActiveUtilitySlot` behavior.
+- `getUtilityItem()`
+  - Executes `getUtilityItem` behavior.
+- `getActiveToolsSlot()`
+  - Executes `getActiveToolsSlot` behavior.
+- `setActiveToolsSlot(byte slot)`
+  - Executes `setActiveToolsSlot` behavior.
+- `getToolsItem()`
+  - Executes `getToolsItem` behavior.
+- `getSectionById(int id)`
+  - Executes `getSectionById` behavior.
+- `consumeIsDirty()`
+  - Executes `consumeIsDirty` behavior.
+- `consumeNeedsSaving()`
+  - Executes `consumeNeedsSaving` behavior.
+- `setEntity(LivingEntity entity)`
+  - Executes `setEntity` behavior.
+- `sortStorage(@Nonnull SortType type)`
+  - Executes `sortStorage` behavior.
+- `setSortType(SortType type)`
+  - Executes `setSortType` behavior.
+- `containsBrokenItem()`
+  - Executes `containsBrokenItem` behavior.
+- `toPacket()`
+  - Executes `toPacket` behavior.
+- `doMigration(Function<String, String> blockMigration)`
+  - Executes `doMigration` behavior.
+- `postDecode()`
+  - Executes `postDecode` behavior.
+- `buildCombinedContains()`
+  - Executes `buildCombinedContains` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `ensureCapacity(@Nonnull Inventory inventory, List<ItemStack> remainder)`
+  - Executes `ensureCapacity` behavior.
+- `setUsingToolsItem(boolean value)`
+  - Executes `setUsingToolsItem` behavior.
+- `usingToolsItem()`
+  - Executes `usingToolsItem` behavior.
+
+## Notes
+- No additional notes.

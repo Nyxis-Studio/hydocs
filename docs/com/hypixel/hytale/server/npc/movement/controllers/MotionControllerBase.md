@@ -1,0 +1,222 @@
+# MotionControllerBase
+
+## Overview
+- Documentation for `MotionControllerBase`.
+- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers`.
+
+## Constructors
+- `MotionControllerBase(@Nonnull BuilderSupport builderSupport, @Nonnull BuilderMotionControllerBase builder)`
+  - Creates a `MotionControllerBase` instance.
+
+## Methods
+- `getRole()`
+  - Executes `getRole` behavior.
+- `setRole(Role role)`
+  - Executes `setRole` behavior.
+- `setInertia(double inertia)`
+  - Executes `setInertia` behavior.
+- `setKnockbackScale(double knockbackScale)`
+  - Executes `setKnockbackScale` behavior.
+- `updateModelParameters(Ref<EntityStore> ref, Model model, @Nonnull Box boundingBox, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateModelParameters` behavior.
+- `readEntityPosition(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `readEntityPosition` behavior.
+- `postReadPosition(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `postReadPosition` behavior.
+- `moveEntity(@Nonnull Ref<EntityStore> ref, double dt, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `moveEntity` behavior.
+- `getYaw()`
+  - Executes `getYaw` behavior.
+- `getPitch()`
+  - Executes `getPitch` behavior.
+- `getRoll()`
+  - Executes `getRoll` behavior.
+- `touchesWater(boolean defaultValue, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `touchesWater` behavior.
+- `updateMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, @Nonnull Steering steering, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateMovementState` behavior.
+- `isFastMotionKind(double var1)`
+  - Executes `isFastMotionKind` behavior.
+- `updateFlyingStates(@Nonnull MovementStates movementStates, boolean idle, boolean fastMotionKind)`
+  - Executes `updateFlyingStates` behavior.
+- `updateSwimmingStates(@Nonnull MovementStates movementStates, boolean idle, boolean fastMotionKind, boolean horizontalIdleKind)`
+  - Executes `updateSwimmingStates` behavior.
+- `updateMovingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateMovingStates` behavior.
+- `updateAscendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean horizontalIdleKind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateAscendingStates` behavior.
+- `updateDescendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean hovering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `updateDescendingStates` behavior.
+- `updateDroppingStates(@Nonnull MovementStates movementStates)`
+  - Executes `updateDroppingStates` behavior.
+- `updateStandingStates(@Nonnull MovementStates movementStates, @Nonnull MotionKind motionKind, boolean hovering)`
+  - Executes `updateStandingStates` behavior.
+- `steer(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, double interval, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `steer` behavior.
+- `steer0(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, double interval, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `steer0` behavior.
+- `shouldDampenAppliedVelocitiesY()`
+  - Executes `shouldDampenAppliedVelocitiesY` behavior.
+- `shouldAlwaysUseGroundResistance()`
+  - Executes `shouldAlwaysUseGroundResistance` behavior.
+- `calculateYaw(@Nonnull Ref<EntityStore> ref, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, float maxHeadRotation, float maxBodyRotation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `calculateYaw` behavior.
+- `blendBodyYaw(@Nonnull Ref<EntityStore> ref, float yawOffset, float maxBodyRotation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `blendBodyYaw` behavior.
+- `calculatePitch(@Nonnull Ref<EntityStore> ref, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, float maxHeadRotation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `calculatePitch` behavior.
+- `calculateRoll(@Nonnull Steering bodySteering, @Nonnull Steering headSteering)`
+  - Executes `calculateRoll` behavior.
+- `dampForceVelocity(@Nonnull Vector3d forceVelocity, double forceVelocityDamping, double interval, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `dampForceVelocity` behavior.
+- `convertToNewRange(double value, double oldMinRange, double oldMaxRange, double newMinRange, double newMaxRange)`
+  - Executes `convertToNewRange` behavior.
+- `probeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Vector3d direction, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `probeMove` behavior.
+- `postExecuteMove()`
+  - Executes `postExecuteMove` behavior.
+- `adjustReadPosition(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `adjustReadPosition` behavior.
+- `adjustWritePosition(Ref<EntityStore> ref, double dt, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `adjustWritePosition` behavior.
+- `isInProgress()`
+  - Executes `isInProgress` behavior.
+- `isObstructed()`
+  - Executes `isObstructed` behavior.
+- `getNavState()`
+  - Executes `getNavState` behavior.
+- `getThrottleDuration()`
+  - Executes `getThrottleDuration` behavior.
+- `getTargetDeltaSquared()`
+  - Executes `getTargetDeltaSquared` behavior.
+- `setNavState(NavState navState, double throttleDuration, double targetDeltaSquared)`
+  - Executes `setNavState` behavior.
+- `isForceRecomputePath()`
+  - Executes `isForceRecomputePath` behavior.
+- `setForceRecomputePath(boolean recomputePath)`
+  - Executes `setForceRecomputePath` behavior.
+- `beforeInstructionSensorsAndActions(double physicsTickDuration)`
+  - Executes `beforeInstructionSensorsAndActions` behavior.
+- `beforeInstructionMotion(double physicsTickDuration)`
+  - Executes `beforeInstructionMotion` behavior.
+- `isHorizontalIdle(double speed)`
+  - Executes `isHorizontalIdle` behavior.
+- `canAct(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canAct` behavior.
+- `isMovementBlocked(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isMovementBlocked` behavior.
+- `computeMove(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, Steering var3, double var4, Vector3d var6, @Nonnull ComponentAccessor<EntityStore> var7)`
+  - Executes `computeMove` behavior.
+- `executeMove(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, double var3, Vector3d var5, @Nonnull ComponentAccessor<EntityStore> var6)`
+  - Executes `executeMove` behavior.
+- `bisect(@Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull T t, @Nonnull BiPredicate<T, Vector3d> validate, @Nonnull Vector3d result)`
+  - Executes `bisect` behavior.
+- `bisect(@Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull T t, @Nonnull BiPredicate<T, Vector3d> validate, double maxDistance, @Nonnull Vector3d result)`
+  - Executes `bisect` behavior.
+- `getForce()`
+  - Executes `getForce` behavior.
+- `addForce(@Nonnull Vector3d force, VelocityConfig velocityConfig)`
+  - Executes `addForce` behavior.
+- `forceVelocity(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig, boolean ignoreDamping)`
+  - Executes `forceVelocity` behavior.
+- `clearForce()`
+  - Executes `clearForce` behavior.
+- `dumpCollisionResults()`
+  - Executes `dumpCollisionResults` behavior.
+- `setEnableTriggers(boolean enableTriggers)`
+  - Executes `setEnableTriggers` behavior.
+- `setEnableBlockDamage(boolean enableBlockDamage)`
+  - Executes `setEnableBlockDamage` behavior.
+- `willReceiveBlockDamage()`
+  - Executes `willReceiveBlockDamage` behavior.
+- `setAvoidingBlockDamage(boolean avoid)`
+  - Executes `setAvoidingBlockDamage` behavior.
+- `isAvoidingBlockDamage()`
+  - Executes `isAvoidingBlockDamage` behavior.
+- `processTriggers(@Nonnull Ref<EntityStore> ref, @Nonnull CollisionResult collisionResult, double t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `processTriggers` behavior.
+- `isDebugMode(RoleDebugFlags mode)`
+  - Executes `isDebugMode` behavior.
+- `isProcessTriggersHasMoved()`
+  - Executes `isProcessTriggersHasMoved` behavior.
+- `isAlive(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isAlive` behavior.
+- `activate()`
+  - Executes `activate` behavior.
+- `resetNavState()`
+  - Executes `resetNavState` behavior.
+- `resetObstructedFlags()`
+  - Executes `resetObstructedFlags` behavior.
+- `deactivate()`
+  - Executes `deactivate` behavior.
+- `getEpsilonSpeed()`
+  - Executes `getEpsilonSpeed` behavior.
+- `getEpsilonAngle()`
+  - Executes `getEpsilonAngle` behavior.
+- `getComponentSelector()`
+  - Executes `getComponentSelector` behavior.
+- `getPlanarComponentSelector()`
+  - Executes `getPlanarComponentSelector` behavior.
+- `setComponentSelector(@Nonnull Vector3d componentSelector)`
+  - Executes `setComponentSelector` behavior.
+- `getWorldNormal()`
+  - Executes `getWorldNormal` behavior.
+- `getWorldAntiNormal()`
+  - Executes `getWorldAntiNormal` behavior.
+- `waypointDistance(@Nonnull Vector3d p, @Nonnull Vector3d q)`
+  - Executes `waypointDistance` behavior.
+- `waypointDistanceSquared(@Nonnull Vector3d p, @Nonnull Vector3d q)`
+  - Executes `waypointDistanceSquared` behavior.
+- `waypointDistance(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d p, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `waypointDistance` behavior.
+- `waypointDistanceSquared(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d p, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `waypointDistanceSquared` behavior.
+- `isValidPosition(@Nonnull Vector3d position, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isValidPosition` behavior.
+- `isValidPosition(@Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `isValidPosition` behavior.
+- `getInvalidOverlapMaterials()`
+  - Executes `getInvalidOverlapMaterials` behavior.
+- `saveMotionKind()`
+  - Executes `saveMotionKind` behavior.
+- `switchedToMotionKind(MotionKind motionKind)`
+  - Executes `switchedToMotionKind` behavior.
+- `getMotionKind()`
+  - Executes `getMotionKind` behavior.
+- `setMotionKind(MotionKind motionKind)`
+  - Executes `setMotionKind` behavior.
+- `getGravity()`
+  - Executes `getGravity` behavior.
+- `setGravity(double gravity)`
+  - Executes `setGravity` behavior.
+- `translateToAccessiblePosition(Vector3d position, Box boundingBox, double minYValue, double maxYValue, ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `translateToAccessiblePosition` behavior.
+- `standingOnBlockOfType(int blockSet)`
+  - Executes `standingOnBlockOfType` behavior.
+- `requirePreciseMovement(@Nullable Vector3d positionHint)`
+  - Executes `requirePreciseMovement` behavior.
+- `clearRequirePreciseMovement()`
+  - Executes `clearRequirePreciseMovement` behavior.
+- `isRequiresPreciseMovement()`
+  - Executes `isRequiresPreciseMovement` behavior.
+- `requireDepthProbing()`
+  - Executes `requireDepthProbing` behavior.
+- `clearRequireDepthProbing()`
+  - Executes `clearRequireDepthProbing` behavior.
+- `isRequiresDepthProbing()`
+  - Executes `isRequiresDepthProbing` behavior.
+- `enableHeadingBlending(double heading, @Nullable Vector3d targetPosition, double blendLevel)`
+  - Executes `enableHeadingBlending` behavior.
+- `enableHeadingBlending()`
+  - Executes `enableHeadingBlending` behavior.
+- `clearBlendHeading()`
+  - Executes `clearBlendHeading` behavior.
+- `setRelaxedMoveConstraints(boolean relax)`
+  - Executes `setRelaxedMoveConstraints` behavior.
+- `isRelaxedMoveConstraints()`
+  - Executes `isRelaxedMoveConstraints` behavior.
+- `updatePhysicsValues(PhysicsValues values)`
+  - Executes `updatePhysicsValues` behavior.
+
+## Notes
+- No additional notes.

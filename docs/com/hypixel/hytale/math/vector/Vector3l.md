@@ -1,0 +1,132 @@
+# Vector3l
+
+## Overview
+- Documentation for `Vector3l`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector3l(0L, 0L, 0L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l()`
+  - Creates a `Vector3l` instance.
+- `Vector3l(@Nonnull Vector3l v)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(long x, long y, long z)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(x0, y0, z0)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(this.x, this.y, this.z)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(Math.max(a.x, b.x)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(Math.min(a.x, b.x)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(0L, 1L, 0L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(0L, -1L, 0L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(0L, 0L, -1L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(0L, 0L, 1L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(1L, 0L, 0L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(-1L, 0L, 0L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(1L, 1L, 1L)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(Long.MIN_VALUE, Long.MIN_VALUE, Long.MIN_VALUE)`
+  - Creates a `Vector3l` instance.
+- `Vector3l(Long.MAX_VALUE, Long.MAX_VALUE, Long.MAX_VALUE)`
+  - Creates a `Vector3l` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(long x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(long y)`
+  - Executes `setY` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `setZ(long z)`
+  - Executes `setZ` behavior.
+- `assign(@Nonnull Vector3l v)`
+  - Executes `assign` behavior.
+- `assign(long v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull long[] v)`
+  - Executes `assign` behavior.
+- `assign(long x, long y, long z)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector3l v)`
+  - Executes `add` behavior.
+- `add(long x, long y, long z)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector3l v, long s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector3l v)`
+  - Executes `subtract` behavior.
+- `subtract(long x, long y, long z)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(long s)`
+  - Executes `scale` behavior.
+- `scale(double s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector3l p)`
+  - Executes `scale` behavior.
+- `cross(@Nonnull Vector3l v)`
+  - Executes `cross` behavior.
+- `cross(@Nonnull Vector3l v, @Nonnull Vector3l res)`
+  - Executes `cross` behavior.
+- `dot(@Nonnull Vector3l other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector3l v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(long x, long y, long z)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3l v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(long x, long y, long z)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(long newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(long maxLength)`
+  - Executes `clampLength` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `toVector3i()`
+  - Executes `toVector3i` behavior.
+- `toVector3d()`
+  - Executes `toVector3d` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `max(@Nonnull Vector3l a, @Nonnull Vector3l b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector3l a, @Nonnull Vector3l b)`
+  - Executes `min` behavior.
+- `directionTo(@Nonnull Vector3l from, @Nonnull Vector3l to)`
+  - Executes `directionTo` behavior.
+- `add(@Nonnull Vector3l one, @Nonnull Vector3l two)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3l one, @Nonnull Vector3l two, @Nonnull Vector3l three)`
+  - Executes `add` behavior.
+
+## Notes
+- No additional notes.

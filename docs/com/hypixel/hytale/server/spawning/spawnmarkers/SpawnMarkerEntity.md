@@ -1,0 +1,92 @@
+# SpawnMarkerEntity
+
+## Overview
+- Documentation for `SpawnMarkerEntity`.
+- Declared as a class in `com.hypixel.hytale.server.spawning.spawnmarkers`.
+
+## Constructors
+- `SpawnMarkerEntity()`
+  - Creates a `SpawnMarkerEntity` instance.
+
+## Methods
+- `getComponentType()`
+  - Executes `getComponentType` behavior.
+- `getCachedMarker()`
+  - Executes `getCachedMarker` behavior.
+- `setCachedMarker(SpawnMarker marker)`
+  - Executes `setCachedMarker` behavior.
+- `getSpawnCount()`
+  - Executes `getSpawnCount` behavior.
+- `setSpawnCount(int spawnCount)`
+  - Executes `setSpawnCount` behavior.
+- `setRespawnCounter(double respawnCounter)`
+  - Executes `setRespawnCounter` behavior.
+- `setSpawnAfter(Instant spawnAfter)`
+  - Executes `setSpawnAfter` behavior.
+- `getSpawnAfter()`
+  - Executes `getSpawnAfter` behavior.
+- `setGameTimeRespawn(Duration gameTimeRespawn)`
+  - Executes `setGameTimeRespawn` behavior.
+- `pollGameTimeRespawn()`
+  - Executes `pollGameTimeRespawn` behavior.
+- `tickRespawnTimer(float dt)`
+  - Executes `tickRespawnTimer` behavior.
+- `getSuppressedBy()`
+  - Executes `getSuppressedBy` behavior.
+- `setStoredFlock(StoredFlock storedFlock)`
+  - Executes `setStoredFlock` behavior.
+- `getStoredFlock()`
+  - Executes `getStoredFlock` behavior.
+- `getTimeToDeactivation()`
+  - Executes `getTimeToDeactivation` behavior.
+- `setTimeToDeactivation(double timeToDeactivation)`
+  - Executes `setTimeToDeactivation` behavior.
+- `tickTimeToDeactivation(float dt)`
+  - Executes `tickTimeToDeactivation` behavior.
+- `tickSpawnLostTimeout(float dt)`
+  - Executes `tickSpawnLostTimeout` behavior.
+- `getSpawnPosition()`
+  - Executes `getSpawnPosition` behavior.
+- `getNpcReferences()`
+  - Executes `getNpcReferences` behavior.
+- `setNpcReferences(InvalidatablePersistentRef[] npcReferences)`
+  - Executes `setNpcReferences` behavior.
+- `getTempStorageList()`
+  - Executes `getTempStorageList` behavior.
+- `setTempStorageList(List<Pair<Ref<EntityStore>, NPCEntity>> tempStorageList)`
+  - Executes `setTempStorageList` behavior.
+- `isDespawnStarted()`
+  - Executes `isDespawnStarted` behavior.
+- `setDespawnStarted(boolean despawnStarted)`
+  - Executes `setDespawnStarted` behavior.
+- `refreshTimeout()`
+  - Executes `refreshTimeout` behavior.
+- `spawnNPC(@Nonnull Ref<EntityStore> ref, @Nonnull SpawnMarker marker, @Nonnull Store<EntityStore> store)`
+  - Executes `spawnNPC` behavior.
+- `fail(@Nonnull Ref<EntityStore> self, UUID uuid, String npc, Vector3d position, @Nonnull Store<EntityStore> store, FailReason reason)`
+  - Executes `fail` behavior.
+- `setSpawnMarker(@Nonnull SpawnMarker marker)`
+  - Executes `setSpawnMarker` behavior.
+- `decrementAndGetSpawnCount()`
+  - Executes `decrementAndGetSpawnCount` behavior.
+- `getSpawnMarkerId()`
+  - Executes `getSpawnMarkerId` behavior.
+- `isManualTrigger()`
+  - Executes `isManualTrigger` behavior.
+- `trigger(@Nonnull Ref<EntityStore> markerRef, @Nonnull Store<EntityStore> store)`
+  - Executes `trigger` behavior.
+- `suppress(UUID suppressor)`
+  - Executes `suppress` behavior.
+- `releaseSuppression(UUID suppressor)`
+  - Executes `releaseSuppression` behavior.
+- `clearAllSuppressions()`
+  - Executes `clearAllSuppressions` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `getModel(@Nonnull SpawnMarker marker)`
+  - Executes `getModel` behavior.
+
+## Notes
+- No additional notes.

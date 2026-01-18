@@ -1,0 +1,105 @@
+# StateMappingHelper
+
+## Overview
+- Documentation for `StateMappingHelper`.
+- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
+
+## Constructors
+- None.
+
+## Methods
+- `getAllMainStates()`
+  - Executes `getAllMainStates` behavior.
+- `getHighestSubStateIndex(int mainStateIndex)`
+  - Executes `getHighestSubStateIndex` behavior.
+- `getAndPutSensorIndex(String state, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+  - Executes `getAndPutSensorIndex` behavior.
+- `getAndPutSetterIndex(String state, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+  - Executes `getAndPutSetterIndex` behavior.
+- `getAndPutStateRequirerIndex(String state, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+  - Executes `getAndPutStateRequirerIndex` behavior.
+- `getAndPutIndex(String state, @Nullable String subState, @Nonnull BiConsumer<Integer, Integer> setter, @Nonnull Function<String, Integer> mainStateFunction, @Nonnull BiFunction<Integer, String, Integer> subStateFunction)`
+  - Executes `getAndPutIndex` behavior.
+- `initialiseDefaultSubStates(int index)`
+  - Executes `initialiseDefaultSubStates` behavior.
+- `validate(String configName, @Nonnull List<String> errors)`
+  - Executes `validate` behavior.
+- `getStateIndex(String state)`
+  - Executes `getStateIndex` behavior.
+- `getSubStateIndex(int index, String subState)`
+  - Executes `getSubStateIndex` behavior.
+- `getStateName(int index)`
+  - Executes `getStateName` behavior.
+- `getSubStateName(int index, int subState)`
+  - Executes `getSubStateName` behavior.
+- `getCurrentParentState()`
+  - Executes `getCurrentParentState` behavior.
+- `increaseDepth()`
+  - Executes `increaseDepth` behavior.
+- `decreaseDepth()`
+  - Executes `decreaseDepth` behavior.
+- `setDefaultSubState(String subState)`
+  - Executes `setDefaultSubState` behavior.
+- `getDefaultSubState()`
+  - Executes `getDefaultSubState` behavior.
+- `setNotComponent()`
+  - Executes `setNotComponent` behavior.
+- `isComponent()`
+  - Executes `isComponent` behavior.
+- `hasComponentStates()`
+  - Executes `hasComponentStates` behavior.
+- `initialiseComponentState(@Nonnull BuilderSupport support)`
+  - Executes `initialiseComponentState` behavior.
+- `popComponentState(@Nonnull BuilderSupport support)`
+  - Executes `popComponentState` behavior.
+- `readComponentDefaultLocalState(@Nonnull JsonObject data)`
+  - Executes `readComponentDefaultLocalState` behavior.
+- `hasDefaultLocalState()`
+  - Executes `hasDefaultLocalState` behavior.
+- `getDefaultLocalState()`
+  - Executes `getDefaultLocalState` behavior.
+- `setComponentImportStateMappings(@Nonnull JsonArray states)`
+  - Executes `setComponentImportStateMappings` behavior.
+- `getComponentImportStateIndex(String state)`
+  - Executes `getComponentImportStateIndex` behavior.
+- `importedStateCount()`
+  - Executes `importedStateCount` behavior.
+- `setRequiresStateEvaluator()`
+  - Executes `setRequiresStateEvaluator` behavior.
+- `setHasStateEvaluator()`
+  - Executes `setHasStateEvaluator` behavior.
+- `optimise()`
+  - Executes `optimise` behavior.
+- `getOrCreateIndex(String name)`
+  - Executes `getOrCreateIndex` behavior.
+- `getAndPutSensorIndex(String state)`
+  - Executes `getAndPutSensorIndex` behavior.
+- `getAndPutSetterIndex(String targetState)`
+  - Executes `getAndPutSetterIndex` behavior.
+- `getAndPutRequirerIndex(String targetState)`
+  - Executes `getAndPutRequirerIndex` behavior.
+- `validate(String configName, @Nullable String parent, @Nonnull List<String> errors)`
+  - Executes `validate` behavior.
+- `isEmpty()`
+  - Executes `isEmpty` behavior.
+- `size()`
+  - Executes `size` behavior.
+- `getAndPutSensorIndex(String var1)`
+  - Executes `getAndPutSensorIndex` behavior.
+- `getAndPutSetterIndex(String var1)`
+  - Executes `getAndPutSetterIndex` behavior.
+- `getAndPutRequirerIndex(String var1)`
+  - Executes `getAndPutRequirerIndex` behavior.
+- `getStateIndex(String var1)`
+  - Executes `getStateIndex` behavior.
+- `getStateName(int var1)`
+  - Executes `getStateName` behavior.
+- `validate(String var1, String var2, List<String> var3)`
+  - Executes `validate` behavior.
+- `getStateIndex(@Nonnull String state)`
+  - Executes `getStateIndex` behavior.
+- `validate(String configName, String parent, List<String> errors)`
+  - Executes `validate` behavior.
+
+## Notes
+- No additional notes.

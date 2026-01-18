@@ -1,0 +1,202 @@
+# Vector3f
+
+## Overview
+- Documentation for `Vector3f`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector3f(Float.NaN, Float.NaN, Float.NaN)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(0.0f, 0.0f, 0.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f()`
+  - Creates a `Vector3f` instance.
+- `Vector3f(@Nonnull Vector3f v)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(@Nonnull Vector3i v)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(float x, float y, float z)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(float yaw, float pitch)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(@Nonnull Random random, float length)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(x0, y0, z0)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(this.x, this.y, this.z)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(Math.max(a.x, b.x)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(Math.min(a.x, b.x)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(a.x + t * (b.x - a.x)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(0.0f, 1.0f, 0.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(0.0f, -1.0f, 0.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(0.0f, 0.0f, -1.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(0.0f, 0.0f, 1.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(1.0f, 0.0f, 0.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(-1.0f, 0.0f, 0.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(1.0f, 1.0f, 1.0f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(-3.4028235E38f, -3.4028235E38f, -3.4028235E38f)`
+  - Creates a `Vector3f` instance.
+- `Vector3f(Float.MAX_VALUE, Float.MAX_VALUE, Float.MAX_VALUE)`
+  - Creates a `Vector3f` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `getPitch()`
+  - Executes `getPitch` behavior.
+- `setX(float x)`
+  - Executes `setX` behavior.
+- `setPitch(float pitch)`
+  - Executes `setPitch` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `getYaw()`
+  - Executes `getYaw` behavior.
+- `setY(float y)`
+  - Executes `setY` behavior.
+- `setYaw(float yaw)`
+  - Executes `setYaw` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `getRoll()`
+  - Executes `getRoll` behavior.
+- `setZ(float z)`
+  - Executes `setZ` behavior.
+- `setRoll(float roll)`
+  - Executes `setRoll` behavior.
+- `assign(@Nonnull Vector3f v)`
+  - Executes `assign` behavior.
+- `assign(float v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull float[] v)`
+  - Executes `assign` behavior.
+- `assign(float yaw, float pitch)`
+  - Executes `assign` behavior.
+- `assign(float x, float y, float z)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector3f v)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3i v)`
+  - Executes `add` behavior.
+- `add(float x, float y, float z)`
+  - Executes `add` behavior.
+- `addPitch(float pitch)`
+  - Executes `addPitch` behavior.
+- `addYaw(float yaw)`
+  - Executes `addYaw` behavior.
+- `addRoll(float roll)`
+  - Executes `addRoll` behavior.
+- `addScaled(@Nonnull Vector3f v, float s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector3f v)`
+  - Executes `subtract` behavior.
+- `subtract(@Nonnull Vector3i v)`
+  - Executes `subtract` behavior.
+- `subtract(float x, float y, float z)`
+  - Executes `subtract` behavior.
+- `addRotationOnAxis(@Nonnull Axis axis, int angle)`
+  - Executes `addRotationOnAxis` behavior.
+- `flipRotationOnAxis(@Nonnull Axis axis)`
+  - Executes `flipRotationOnAxis` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(float s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector3f p)`
+  - Executes `scale` behavior.
+- `cross(@Nonnull Vector3f v)`
+  - Executes `cross` behavior.
+- `cross(@Nonnull Vector3f v, @Nonnull Vector3f res)`
+  - Executes `cross` behavior.
+- `dot(@Nonnull Vector3f other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector3f v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(@Nonnull Vector3i v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(float x, float y, float z)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3f v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector3i v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(float x, float y, float z)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(float newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(float maxLength)`
+  - Executes `clampLength` behavior.
+- `rotateX(float angle)`
+  - Executes `rotateX` behavior.
+- `rotateY(float angle)`
+  - Executes `rotateY` behavior.
+- `rotateZ(float angle)`
+  - Executes `rotateZ` behavior.
+- `floor()`
+  - Executes `floor` behavior.
+- `ceil()`
+  - Executes `ceil` behavior.
+- `clipToZero(float epsilon)`
+  - Executes `clipToZero` behavior.
+- `closeToZero(float epsilon)`
+  - Executes `closeToZero` behavior.
+- `isInside(int x, int y, int z)`
+  - Executes `isInside` behavior.
+- `isFinite()`
+  - Executes `isFinite` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `equals(@Nullable Vector3f o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `toVector3d()`
+  - Executes `toVector3d` behavior.
+- `max(@Nonnull Vector3f a, @Nonnull Vector3f b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector3f a, @Nonnull Vector3f b)`
+  - Executes `min` behavior.
+- `lerp(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+  - Executes `lerp` behavior.
+- `lerpUnclamped(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+  - Executes `lerpUnclamped` behavior.
+- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+  - Executes `lerpAngle` behavior.
+- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t, @Nonnull Vector3f target)`
+  - Executes `lerpAngle` behavior.
+- `directionTo(@Nonnull Vector3f from, @Nonnull Vector3f to)`
+  - Executes `directionTo` behavior.
+- `add(@Nonnull Vector3f one, @Nonnull Vector3f two)`
+  - Executes `add` behavior.
+- `add(@Nonnull Vector3f one, @Nonnull Vector3f two, @Nonnull Vector3f three)`
+  - Executes `add` behavior.
+- `lookAt(@Nonnull Vector3d relative)`
+  - Executes `lookAt` behavior.
+- `lookAt(@Nonnull Vector3d relative, @Nonnull Vector3f result)`
+  - Executes `lookAt` behavior.
+
+## Notes
+- No additional notes.

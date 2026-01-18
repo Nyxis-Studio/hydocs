@@ -1,0 +1,92 @@
+# ChunkGeneratorExecution
+
+## Overview
+- Documentation for `ChunkGeneratorExecution`.
+- Declared as a class in `com.hypixel.hytale.server.worldgen.chunk`.
+
+## Constructors
+- `ChunkGeneratorExecution(int seed, @Nonnull ChunkGenerator chunkGenerator, GeneratedBlockChunk blockChunk, GeneratedBlockStateChunk blockStateChunk, GeneratedEntityChunk entityChunk, Holder<ChunkStore>[] sections)`
+  - Creates a `ChunkGeneratorExecution` instance.
+
+## Methods
+- `execute(int seed)`
+  - Executes `execute` behavior.
+- `getChunkGenerator()`
+  - Executes `getChunkGenerator` behavior.
+- `getChunk()`
+  - Executes `getChunk` behavior.
+- `getBlockStateChunk()`
+  - Executes `getBlockStateChunk` behavior.
+- `getEntityChunk()`
+  - Executes `getEntityChunk` behavior.
+- `getPriorityChunk()`
+  - Executes `getPriorityChunk` behavior.
+- `getInterpolator()`
+  - Executes `getInterpolator` behavior.
+- `getSection(int y)`
+  - Executes `getSection` behavior.
+- `zoneBiomeResult(int cx, int cz)`
+  - Executes `zoneBiomeResult` behavior.
+- `getCoreDataEntries()`
+  - Executes `getCoreDataEntries` behavior.
+- `getIndex()`
+  - Executes `getIndex` behavior.
+- `getX()`
+  - Executes `getX` behavior.
+- `getZ()`
+  - Executes `getZ` behavior.
+- `setPriorityModifier(BlockPriorityModifier blockPriorityModifier)`
+  - Executes `setPriorityModifier` behavior.
+- `generateTintMapping(int seed)`
+  - Executes `generateTintMapping` behavior.
+- `tintIndexLocal(int x, int z)`
+  - Executes `tintIndexLocal` behavior.
+- `generateEnvironmentMapping(int seed)`
+  - Executes `generateEnvironmentMapping` behavior.
+- `getBlock(int x, int y, int z)`
+  - Executes `getBlock` behavior.
+- `getRotationIndex(int x, int y, int z)`
+  - Executes `getRotationIndex` behavior.
+- `setEnvironment(int x, int y, int z, int environment)`
+  - Executes `setEnvironment` behavior.
+- `setBlock(int x, int y, int z, byte type, int block)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, byte type, BlockFluidEntry entry)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, byte type, int block, int environment)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, byte type, BlockFluidEntry entry, int environment)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, byte type, int block, Holder<ChunkStore> holder)`
+  - Executes `setBlock` behavior.
+- `setBlock(int x, int y, int z, byte type, int block, Holder<ChunkStore> holder, int supportValue, int rotation, int filler)`
+  - Executes `setBlock` behavior.
+- `setFluid(int x, int y, int z, byte type, int fluid, int environment)`
+  - Executes `setFluid` behavior.
+- `setFluid(int x, int y, int z, byte type, int fluid)`
+  - Executes `setFluid` behavior.
+- `setFluid(int x, int y, int z, byte type, int fluid, byte fluidLevel)`
+  - Executes `setFluid` behavior.
+- `getFluid(int x, int y, int z)`
+  - Executes `getFluid` behavior.
+- `overrideBlock(int x, int y, int z, byte type, int block)`
+  - Executes `overrideBlock` behavior.
+- `overrideBlock(int x, int y, int z, byte type, int block, Holder<ChunkStore> holder)`
+  - Executes `overrideBlock` behavior.
+- `overrideBlock(int x, int y, int z, byte type, BlockFluidEntry entry)`
+  - Executes `overrideBlock` behavior.
+- `overrideBlock(int x, int y, int z, byte type, int block, Holder<ChunkStore> holder, int rotation, int filler)`
+  - Executes `overrideBlock` behavior.
+- `overrideFluid(int x, int y, int z, byte type, int fluid)`
+  - Executes `overrideFluid` behavior.
+- `localX(int x)`
+  - Executes `localX` behavior.
+- `localZ(int z)`
+  - Executes `localZ` behavior.
+- `globalX(int localX)`
+  - Executes `globalX` behavior.
+- `globalZ(int localZ)`
+  - Executes `globalZ` behavior.
+
+## Notes
+- No additional notes.

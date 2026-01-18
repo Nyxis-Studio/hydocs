@@ -1,0 +1,94 @@
+# ProbeMoveData
+
+## Overview
+- Documentation for `ProbeMoveData`.
+- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers`.
+
+## Constructors
+- `ProbeMoveData()`
+  - Creates a `ProbeMoveData` instance.
+
+## Methods
+- `setSaveSegments(boolean saveSegments)`
+  - Executes `setSaveSegments` behavior.
+- `isAvoidingBlockDamage()`
+  - Executes `isAvoidingBlockDamage` behavior.
+- `setAvoidingBlockDamage(boolean avoid)`
+  - Executes `setAvoidingBlockDamage` behavior.
+- `isRelaxedMoveConstraints()`
+  - Executes `isRelaxedMoveConstraints` behavior.
+- `setRelaxedMoveConstraints(boolean relaxedMoveConstraints)`
+  - Executes `setRelaxedMoveConstraints` behavior.
+- `setPosition(@Nonnull Vector3d position)`
+  - Executes `setPosition` behavior.
+- `setDirection(@Nonnull Vector3d direction)`
+  - Executes `setDirection` behavior.
+- `setTargetPosition(@Nonnull Vector3d targetPosition)`
+  - Executes `setTargetPosition` behavior.
+- `canAdvance(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, double threshold, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canAdvance` behavior.
+- `canAdvanceAbs(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, double requiredDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canAdvanceAbs` behavior.
+- `canMoveTo(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, double maxDistance, double maxDistanceY, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canMoveTo` behavior.
+- `canMoveTo(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, double maxDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+  - Executes `canMoveTo` behavior.
+- `computePosition(double distance, @Nonnull Vector3d result)`
+  - Executes `computePosition` behavior.
+- `startProbing()`
+  - Executes `startProbing` behavior.
+- `addStartSegment(@Nonnull Vector3d position, boolean onGround)`
+  - Executes `addStartSegment` behavior.
+- `addEndSegment(@Nonnull Vector3d position, boolean onGround, double distance)`
+  - Executes `addEndSegment` behavior.
+- `addBlockedGroundSegment(@Nonnull Vector3d position, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `addBlockedGroundSegment` behavior.
+- `addHitGroundSegment(@Nonnull Vector3d position, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `addHitGroundSegment` behavior.
+- `addHitWallSegment(@Nonnull Vector3d position, boolean onGround, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `addHitWallSegment` behavior.
+- `addMoveSegment(@Nonnull Vector3d position, boolean onGround, double distance)`
+  - Executes `addMoveSegment` behavior.
+- `addClimbSegment(@Nonnull Vector3d position, double distance, int blockId)`
+  - Executes `addClimbSegment` behavior.
+- `addHitEdgeSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `addHitEdgeSegment` behavior.
+- `addDropSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `addDropSegment` behavior.
+- `addBlockedDropSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `addBlockedDropSegment` behavior.
+- `changeSegmentToBlockedWall()`
+  - Executes `changeSegmentToBlockedWall` behavior.
+- `changeSegmentToBlockedEdge()`
+  - Executes `changeSegmentToBlockedEdge` behavior.
+- `getLastDistance()`
+  - Executes `getLastDistance` behavior.
+- `newSegment()`
+  - Executes `newSegment` behavior.
+- `initAsStartSegment(@Nonnull Vector3d position, boolean onGround)`
+  - Executes `initAsStartSegment` behavior.
+- `initAsEndSegment(@Nonnull Vector3d position, boolean onGround, double distance)`
+  - Executes `initAsEndSegment` behavior.
+- `initAsBlockedGroundSegment(@Nonnull Vector3d position, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `initAsBlockedGroundSegment` behavior.
+- `initAsHitGroundSegment(@Nonnull Vector3d position, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `initAsHitGroundSegment` behavior.
+- `initAsHitWallSegment(@Nonnull Vector3d position, boolean onGround, double distance, @Nonnull Vector3d normal, int blockId)`
+  - Executes `initAsHitWallSegment` behavior.
+- `initAsClimbSegment(@Nonnull Vector3d position, double distance, int blockId)`
+  - Executes `initAsClimbSegment` behavior.
+- `initAsMoveSegment(@Nonnull Vector3d position, boolean onGround, double distance)`
+  - Executes `initAsMoveSegment` behavior.
+- `initAsDropSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `initAsDropSegment` behavior.
+- `initAsBlockedDropSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `initAsBlockedDropSegment` behavior.
+- `initAsHitEdgeSegment(@Nonnull Vector3d position, double distance)`
+  - Executes `initAsHitEdgeSegment` behavior.
+- `isBlocked()`
+  - Executes `isBlocked` behavior.
+- `canInterpolate()`
+  - Executes `canInterpolate` behavior.
+
+## Notes
+- No additional notes.

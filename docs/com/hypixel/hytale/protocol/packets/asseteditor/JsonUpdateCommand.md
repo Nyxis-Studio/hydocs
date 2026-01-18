@@ -1,0 +1,34 @@
+# JsonUpdateCommand
+
+## Overview
+- Documentation for `JsonUpdateCommand`.
+- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
+
+## Constructors
+- `JsonUpdateCommand()`
+  - Creates a `JsonUpdateCommand` instance.
+- `JsonUpdateCommand(@Nonnull JsonUpdateType type, @Nullable String[] path, @Nullable String value, @Nullable String previousValue, @Nullable String[] firstCreatedProperty, @Nullable AssetEditorRebuildCaches rebuildCaches)`
+  - Creates a `JsonUpdateCommand` instance.
+- `JsonUpdateCommand(@Nonnull JsonUpdateCommand other)`
+  - Creates a `JsonUpdateCommand` instance.
+
+## Methods
+- `deserialize(@Nonnull ByteBuf buf, int offset)`
+  - Executes `deserialize` behavior.
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+  - Executes `computeBytesConsumed` behavior.
+- `serialize(@Nonnull ByteBuf buf)`
+  - Executes `serialize` behavior.
+- `computeSize()`
+  - Executes `computeSize` behavior.
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+  - Executes `validateStructure` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(Object obj)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+
+## Notes
+- No additional notes.

@@ -1,0 +1,102 @@
+# Vector2i
+
+## Overview
+- Documentation for `Vector2i`.
+- Declared as a class in `com.hypixel.hytale.math.vector`.
+
+## Constructors
+- `Vector2i(0, 0)`
+  - Creates a `Vector2i` instance.
+- `Vector2i()`
+  - Creates a `Vector2i` instance.
+- `Vector2i(@Nonnull Vector2i v)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(int x, int y)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(this.x, this.y)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(Math.max(a.x, b.x)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(Math.min(a.x, b.x)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(0, 1)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(0, -1)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(1, 0)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(-1, 0)`
+  - Creates a `Vector2i` instance.
+- `Vector2i(1, 1)`
+  - Creates a `Vector2i` instance.
+
+## Methods
+- `getX()`
+  - Executes `getX` behavior.
+- `setX(int x)`
+  - Executes `setX` behavior.
+- `getY()`
+  - Executes `getY` behavior.
+- `setY(int y)`
+  - Executes `setY` behavior.
+- `assign(@Nonnull Vector2i v)`
+  - Executes `assign` behavior.
+- `assign(int v)`
+  - Executes `assign` behavior.
+- `assign(@Nonnull int[] v)`
+  - Executes `assign` behavior.
+- `assign(int x, int y)`
+  - Executes `assign` behavior.
+- `add(@Nonnull Vector2i v)`
+  - Executes `add` behavior.
+- `add(int x, int y)`
+  - Executes `add` behavior.
+- `addScaled(@Nonnull Vector2i v, int s)`
+  - Executes `addScaled` behavior.
+- `subtract(@Nonnull Vector2i v)`
+  - Executes `subtract` behavior.
+- `subtract(int x, int y)`
+  - Executes `subtract` behavior.
+- `negate()`
+  - Executes `negate` behavior.
+- `scale(int s)`
+  - Executes `scale` behavior.
+- `scale(@Nonnull Vector2i p)`
+  - Executes `scale` behavior.
+- `dot(@Nonnull Vector2i other)`
+  - Executes `dot` behavior.
+- `distanceTo(@Nonnull Vector2i v)`
+  - Executes `distanceTo` behavior.
+- `distanceTo(int x, int y)`
+  - Executes `distanceTo` behavior.
+- `distanceSquaredTo(@Nonnull Vector2i v)`
+  - Executes `distanceSquaredTo` behavior.
+- `distanceSquaredTo(int x, int y)`
+  - Executes `distanceSquaredTo` behavior.
+- `normalize()`
+  - Executes `normalize` behavior.
+- `length()`
+  - Executes `length` behavior.
+- `squaredLength()`
+  - Executes `squaredLength` behavior.
+- `setLength(int newLen)`
+  - Executes `setLength` behavior.
+- `clampLength(int maxLength)`
+  - Executes `clampLength` behavior.
+- `dropHash()`
+  - Executes `dropHash` behavior.
+- `clone()`
+  - Executes `clone` behavior.
+- `equals(@Nullable Object o)`
+  - Executes `equals` behavior.
+- `hashCode()`
+  - Executes `hashCode` behavior.
+- `toString()`
+  - Executes `toString` behavior.
+- `max(@Nonnull Vector2i a, @Nonnull Vector2i b)`
+  - Executes `max` behavior.
+- `min(@Nonnull Vector2i a, @Nonnull Vector2i b)`
+  - Executes `min` behavior.
+
+## Notes
+- No additional notes.

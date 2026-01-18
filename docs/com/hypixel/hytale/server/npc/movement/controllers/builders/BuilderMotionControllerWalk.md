@@ -1,0 +1,97 @@
+# BuilderMotionControllerWalk
+
+## Overview
+- Documentation for `BuilderMotionControllerWalk`.
+- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers.builders`.
+
+## Constructors
+- None.
+
+## Methods
+- `build(@Nonnull BuilderSupport builderSupport)`
+  - Executes `build` behavior.
+- `getShortDescription()`
+  - Executes `getShortDescription` behavior.
+- `getLongDescription()`
+  - Executes `getLongDescription` behavior.
+- `getBuilderDescriptorState()`
+  - Executes `getBuilderDescriptorState` behavior.
+- `readConfig(@Nonnull JsonElement data)`
+  - Executes `readConfig` behavior.
+- `category()`
+  - Executes `category` behavior.
+- `getMinHorizontalSpeed()`
+  - Executes `getMinHorizontalSpeed` behavior.
+- `getAcceleration(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getAcceleration` behavior.
+- `getMaxVerticalSpeed()`
+  - Executes `getMaxVerticalSpeed` behavior.
+- `getMaxVerticalSpeedFluid()`
+  - Executes `getMaxVerticalSpeedFluid` behavior.
+- `getGravity()`
+  - Executes `getGravity` behavior.
+- `getMaxMoveTurnAngle(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getMaxMoveTurnAngle` behavior.
+- `getMaxRotationSpeed(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getMaxRotationSpeed` behavior.
+- `getBlendRestTurnAngle(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getBlendRestTurnAngle` behavior.
+- `getBlendRestRelativeSpeed(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getBlendRestRelativeSpeed` behavior.
+- `getMaxClimbHeight(@Nonnull BuilderSupport support)`
+  - Executes `getMaxClimbHeight` behavior.
+- `getClimbSpeedMult()`
+  - Executes `getClimbSpeedMult` behavior.
+- `getClimbSpeedPow()`
+  - Executes `getClimbSpeedPow` behavior.
+- `getClimbSpeedConst()`
+  - Executes `getClimbSpeedConst` behavior.
+- `getDescendForwardAmount(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getDescendForwardAmount` behavior.
+- `getDescendSpeedCompensation(@Nonnull BuilderSupport builderSupport)`
+  - Executes `getDescendSpeedCompensation` behavior.
+- `getMaxDropHeight(@Nonnull BuilderSupport support)`
+  - Executes `getMaxDropHeight` behavior.
+- `getFenceBlockSet()`
+  - Executes `getFenceBlockSet` behavior.
+- `getMinHover()`
+  - Executes `getMinHover` behavior.
+- `getMaxHover()`
+  - Executes `getMaxHover` behavior.
+- `getHoverFreq()`
+  - Executes `getHoverFreq` behavior.
+- `getMinHoverClimb()`
+  - Executes `getMinHoverClimb` behavior.
+- `getMinHoverDrop()`
+  - Executes `getMinHoverDrop` behavior.
+- `isFloatsDown()`
+  - Executes `isFloatsDown` behavior.
+- `getMaxWalkSpeedAfterHitMultiplier()`
+  - Executes `getMaxWalkSpeedAfterHitMultiplier` behavior.
+- `getJumpHeight(@Nonnull BuilderSupport support)`
+  - Executes `getJumpHeight` behavior.
+- `getMinJumpHeight(@Nonnull BuilderSupport support)`
+  - Executes `getMinJumpHeight` behavior.
+- `getMinJumpDistance(@Nonnull BuilderSupport support)`
+  - Executes `getMinJumpDistance` behavior.
+- `getJumpForce(@Nonnull BuilderSupport support)`
+  - Executes `getJumpForce` behavior.
+- `getJumpDescentSteepness(@Nonnull BuilderSupport support)`
+  - Executes `getJumpDescentSteepness` behavior.
+- `getJumpBlending(@Nonnull BuilderSupport support)`
+  - Executes `getJumpBlending` behavior.
+- `getJumpDescentBlending(@Nonnull BuilderSupport support)`
+  - Executes `getJumpDescentBlending` behavior.
+- `getDescentSteepness(@Nonnull BuilderSupport support)`
+  - Executes `getDescentSteepness` behavior.
+- `getDescentBlending(@Nonnull BuilderSupport support)`
+  - Executes `getDescentBlending` behavior.
+- `getMinDescentAnimationHeight(@Nonnull BuilderSupport support)`
+  - Executes `getMinDescentAnimationHeight` behavior.
+- `getJumpRange(@Nonnull BuilderSupport support)`
+  - Executes `getJumpRange` behavior.
+- `canSpawn(@Nonnull SpawningContext context)`
+  - Executes `canSpawn` behavior.
+
+## Notes
+- No additional notes.
