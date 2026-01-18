@@ -208,20 +208,6 @@ jobs:
 
           echo "Latest version updated successfully"
 
-      - name: Set public access
-        env:
-          VERSION: ${{ needs.build-documentation.outputs.version }}
-        run: |
-          echo "Setting public download access..."
-
-          # Set public access for versioned ZIP
-          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-${VERSION}.zip
-
-          # Set public access for latest ZIP
-          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-latest.zip
-
-          echo "Public access configured successfully"
-
       - name: Generate versions list
         env:
           VERSION: ${{ needs.build-documentation.outputs.version }}
@@ -246,7 +232,6 @@ jobs:
 
           # Upload versions.json
           mc cp versions.json s3storage/${{ secrets.S3_BUCKET }}/versions.json
-          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions.json
 
       - name: Generate job summary
         env:
