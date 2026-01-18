@@ -23,6 +23,9 @@ CFR_JAR_NAME = f"cfr-{CFR_VERSION}.jar"
 CFR_URL = f"https://www.benf.org/other/cfr/cfr-{CFR_VERSION}.jar"
 BASE_PACKAGE = "com.hypixel.hytale"
 
+# Detect CI environment (GitHub Actions, etc.)
+IS_CI = os.environ.get('CI', '').lower() in ('true', '1', 'yes')
+
 # --- Regex Patterns ---
 PACKAGE_PATTERN = re.compile(r'package\s+([\w.]+)\s*;')
 IMPORT_PATTERN = re.compile(r'import\s+(?:static\s+)?([\w.]+)(?:\.\*)?;')
@@ -508,8 +511,7 @@ def decompile_jar(jar_path: str, src_dir: str, lib_dir: str):
     """Runs CFR to decompile the jar with visual feedback."""
     cfr_path = os.path.join(lib_dir, CFR_JAR_NAME)
     print(f"🔨 Decompiling {os.path.basename(jar_path)}...")
-    print("   Please wait, this may take a few minutes depending on jar size...")
-    
+
     if not os.path.exists(src_dir):
         os.makedirs(src_dir)
 
@@ -521,32 +523,46 @@ def decompile_jar(jar_path: str, src_dir: str, lib_dir: str):
         "--silent", "true",
         "--clobber", "true"
     ]
-    
-    done = False
-    def spin():
-        spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
-        i = 0
+
+    if IS_CI:
+        # In CI: simple message, no spinner
+        print("   Decompiling... (this may take a few minutes)")
         start_time = time.time()
-        while not done:
+        try:
+            subprocess.run(cmd, check=True)
             elapsed = int(time.time() - start_time)
-            sys.stdout.write(f"\r   {spinner[i]} Processing... ({elapsed}s)")
-            sys.stdout.flush()
-            time.sleep(0.1)
-            i = (i + 1) % len(spinner)
-    
-    t = threading.Thread(target=spin)
-    t.start()
-    
-    try:
-        subprocess.run(cmd, check=True)
-        done = True
-        t.join()
-        print(f"\r✅ Decompilation complete.        ")
-    except subprocess.CalledProcessError as e:
-        done = True
-        t.join()
-        print(f"\r❌ Decompilation failed: {e}")
-        sys.exit(1)
+            print(f"✅ Decompilation complete ({elapsed}s)")
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Decompilation failed: {e}")
+            sys.exit(1)
+    else:
+        # Interactive terminal: show spinner
+        print("   Please wait, this may take a few minutes depending on jar size...")
+        done = False
+        def spin():
+            spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
+            i = 0
+            start_time = time.time()
+            while not done:
+                elapsed = int(time.time() - start_time)
+                sys.stdout.write(f"\r   {spinner[i]} Processing... ({elapsed}s)")
+                sys.stdout.flush()
+                time.sleep(0.1)
+                i = (i + 1) % len(spinner)
+
+        t = threading.Thread(target=spin)
+        t.start()
+
+        try:
+            subprocess.run(cmd, check=True)
+            done = True
+            t.join()
+            print(f"\r✅ Decompilation complete.        ")
+        except subprocess.CalledProcessError as e:
+            done = True
+            t.join()
+            print(f"\r❌ Decompilation failed: {e}")
+            sys.exit(1)
 
 def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str):
     """Orchestrates the documentation generation."""
@@ -569,20 +585,23 @@ def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str):
     all_classes = []
 
     for i, filepath in enumerate(java_files):
-        if i % 100 == 0: 
+        if not IS_CI and i % 100 == 0:
             sys.stdout.write(f"\r   Parsing {i}/{len(java_files)}")
             sys.stdout.flush()
-        
+
         java_class = parse_java_file(filepath)
         if java_class and java_class.name:
             pkg_path = java_class.package.replace('.', '/')
             java_class.output_file = os.path.join(output_dir, pkg_path, f"{java_class.name}.md")
-            
+
             index.add(java_class.name, java_class.full_name, java_class.output_file)
             classes_by_package[java_class.package].append(java_class)
             all_classes.append(java_class)
-            
-    print(f"\r✅ Indexed {len(all_classes)} classes.       ")
+
+    if IS_CI:
+        print(f"✅ Indexed {len(all_classes)} classes")
+    else:
+        print(f"\r✅ Indexed {len(all_classes)} classes.       ")
 
     print(f"📝 Generating Markdown in {output_dir} (custom docs from {custom_docs_dir})...")
     if os.path.exists(output_dir):
@@ -590,16 +609,19 @@ def run_generation(src_dir: str, output_dir: str, custom_docs_dir: str):
     os.makedirs(output_dir)
 
     for i, java_class in enumerate(all_classes):
-        if i % 100 == 0:
+        if not IS_CI and i % 100 == 0:
             sys.stdout.write(f"\r   Writing {i}/{len(all_classes)}")
             sys.stdout.flush()
-            
+
         os.makedirs(os.path.dirname(java_class.output_file), exist_ok=True)
         content = generate_class_markdown(java_class, index, output_dir, custom_docs_dir)
         with open(java_class.output_file, 'w', encoding='utf-8') as f:
             f.write(content)
-            
-    print(f"\r✅ Written {len(all_classes)} markdown files.      ")
+
+    if IS_CI:
+        print(f"✅ Written {len(all_classes)} markdown files")
+    else:
+        print(f"\r✅ Written {len(all_classes)} markdown files.      ")
 
     print("📚 Generating Package Indexes...")
     for pkg, classes in classes_by_package.items():
