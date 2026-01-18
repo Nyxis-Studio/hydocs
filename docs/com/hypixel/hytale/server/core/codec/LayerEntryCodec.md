@@ -1,21 +1,21 @@
+**Source Hash:** `2ecb80eeca14e04900f39459420d3109d9b5a8fda7072af7bb112fc7dfda7794`
+
 # LayerEntryCodec
 
 ## Overview
-- Documentation for `LayerEntryCodec`.
-- Declared as a class in `com.hypixel.hytale.server.core.codec`.
 
-## Constructors
+## Constructor Descriptions
 - `LayerEntryCodec()`
   - Creates a `LayerEntryCodec` instance.
 - `LayerEntryCodec(Integer depth, String material, boolean useToolArg)`
   - Creates a `LayerEntryCodec` instance.
 
-## Methods
-- `getDepth()`
+## Method Descriptions
+- `getDepth()`: Add description.
   - Executes `getDepth` behavior.
-- `getMaterial()`
+- `getMaterial()`: Add description.
   - Executes `getMaterial` behavior.
-- `isUseToolArg()`
+- `isUseToolArg()`: Add description.
   - Executes `isUseToolArg` behavior.
 
 ## Notes

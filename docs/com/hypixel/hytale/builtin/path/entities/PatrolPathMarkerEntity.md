@@ -1,59 +1,59 @@
+**Source Hash:** `f7fa027391b0c83e07487058788e2025cd933a3fae6b77a1cd808d7a9931789c`
+
 # PatrolPathMarkerEntity
 
 ## Overview
-- Documentation for `PatrolPathMarkerEntity`.
-- Declared as a class in `com.hypixel.hytale.builtin.path.entities`.
 
-## Constructors
+## Constructor Descriptions
 - `PatrolPathMarkerEntity()`
   - Creates a `PatrolPathMarkerEntity` instance.
 - `PatrolPathMarkerEntity(World world)`
   - Creates a `PatrolPathMarkerEntity` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `setParentPath(IPrefabPath parentPath)`
+- `setParentPath(IPrefabPath parentPath)`: Add description.
   - Executes `setParentPath` behavior.
-- `getPathId()`
+- `getPathId()`: Add description.
   - Executes `getPathId` behavior.
-- `setPathId(UUID pathId)`
+- `setPathId(UUID pathId)`: Add description.
   - Executes `setPathId` behavior.
-- `getPathName()`
+- `getPathName()`: Add description.
   - Executes `getPathName` behavior.
-- `setPathName(String pathName)`
+- `setPathName(String pathName)`: Add description.
   - Executes `setPathName` behavior.
-- `generateDisplayName(int worldgenId, PatrolPathMarkerEntity patrolPathMarkerEntity)`
+- `generateDisplayName(int worldgenId, PatrolPathMarkerEntity patrolPathMarkerEntity)`: Add description.
   - Executes `generateDisplayName` behavior.
-- `getTempPathLength()`
+- `getTempPathLength()`: Add description.
   - Executes `getTempPathLength` behavior.
-- `initialise(@Nonnull UUID id, @Nonnull String pathName, int index, double pauseTime, float observationAngle, int worldGenId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `initialise(@Nonnull UUID id, @Nonnull String pathName, int index, double pauseTime, float observationAngle, int worldGenId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `initialise` behavior.
-- `getParentPath()`
+- `getParentPath()`: Add description.
   - Executes `getParentPath` behavior.
-- `isCollidable()`
+- `isCollidable()`: Add description.
   - Executes `isCollidable` behavior.
-- `isHiddenFromLivingEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `isHiddenFromLivingEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isHiddenFromLivingEntity` behavior.
-- `getOrder()`
+- `getOrder()`: Add description.
   - Executes `getOrder` behavior.
-- `setOrder(int order)`
+- `setOrder(int order)`: Add description.
   - Executes `setOrder` behavior.
-- `getPauseTime()`
+- `getPauseTime()`: Add description.
   - Executes `getPauseTime` behavior.
-- `setPauseTime(double pauseTime)`
+- `setPauseTime(double pauseTime)`: Add description.
   - Executes `setPauseTime` behavior.
-- `getObservationAngle()`
+- `getObservationAngle()`: Add description.
   - Executes `getObservationAngle` behavior.
-- `onReplaced()`
+- `onReplaced()`: Add description.
   - Executes `onReplaced` behavior.
-- `setObservationAngle(float observationAngle)`
+- `setObservationAngle(float observationAngle)`: Add description.
   - Executes `setObservationAngle` behavior.
-- `getWaypointPosition(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getWaypointPosition(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getWaypointPosition` behavior.
-- `getWaypointRotation(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getWaypointRotation(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getWaypointRotation` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

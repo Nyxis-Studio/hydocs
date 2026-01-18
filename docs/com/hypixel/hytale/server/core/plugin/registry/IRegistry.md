@@ -1,14 +1,14 @@
+**Source Hash:** `0d31b47be9f78bb0e9c90f4cccc8c1e7ac809368b6d6ba0a9caaf46a0035c799`
+
 # IRegistry
 
 ## Overview
-- Documentation for `IRegistry`.
-- Declared as a interface in `com.hypixel.hytale.server.core.plugin.registry`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `shutdown()`
+## Method Descriptions
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
 
 ## Notes

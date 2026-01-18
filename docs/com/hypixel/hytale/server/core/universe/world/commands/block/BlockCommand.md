@@ -1,15 +1,15 @@
+**Source Hash:** `2a192389de1c33c5725117130aa02693d239748719bb99eda67001e00b5907c3`
+
 # BlockCommand
 
 ## Overview
-- Documentation for `BlockCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockCommand()`
   - Creates a `BlockCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

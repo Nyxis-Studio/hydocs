@@ -1,75 +1,75 @@
+**Source Hash:** `2c762b3998d2e32fc50a2e5bdf646e7dfdbd191a58fe826d15f7e7ff1543ebc0`
+
 # PrototypePlayerBuilderToolSettings
 
 ## Overview
-- Documentation for `PrototypePlayerBuilderToolSettings`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `PrototypePlayerBuilderToolSettings(UUID player)`
   - Creates a `PrototypePlayerBuilderToolSettings` instance.
 
-## Methods
-- `getPlayer()`
+## Method Descriptions
+- `getPlayer()`: Add description.
   - Executes `getPlayer` behavior.
-- `isInSelectionTransformationMode()`
+- `isInSelectionTransformationMode()`: Add description.
   - Executes `isInSelectionTransformationMode` behavior.
-- `setInSelectionTransformationMode(boolean inSelectionTransformationMode)`
+- `setInSelectionTransformationMode(boolean inSelectionTransformationMode)`: Add description.
   - Executes `setInSelectionTransformationMode` behavior.
-- `setBlockChangesForPlaySelectionToolPasteMode(@Nullable BlockChange[] blockChangesForPlaySelectionToolPasteMode)`
+- `setBlockChangesForPlaySelectionToolPasteMode(@Nullable BlockChange[] blockChangesForPlaySelectionToolPasteMode)`: Add description.
   - Executes `setBlockChangesForPlaySelectionToolPasteMode` behavior.
-- `getCurrentlyLoadedBrushConfigName()`
+- `getCurrentlyLoadedBrushConfigName()`: Add description.
   - Executes `getCurrentlyLoadedBrushConfigName` behavior.
-- `setCurrentlyLoadedBrushConfigName(String currentlyLoadedBrushConfigName)`
+- `setCurrentlyLoadedBrushConfigName(String currentlyLoadedBrushConfigName)`: Add description.
   - Executes `setCurrentlyLoadedBrushConfigName` behavior.
-- `isLoadingBrush()`
+- `isLoadingBrush()`: Add description.
   - Executes `isLoadingBrush` behavior.
-- `setLoadingBrush(boolean loadingBrush)`
+- `setLoadingBrush(boolean loadingBrush)`: Add description.
   - Executes `setLoadingBrush` behavior.
-- `getBlockChangesForPlaySelectionToolPasteMode()`
+- `getBlockChangesForPlaySelectionToolPasteMode()`: Add description.
   - Executes `getBlockChangesForPlaySelectionToolPasteMode` behavior.
-- `setFluidChangesForPlaySelectionToolPasteMode(@Nullable FluidChange[] fluidChanges)`
+- `setFluidChangesForPlaySelectionToolPasteMode(@Nullable FluidChange[] fluidChanges)`: Add description.
   - Executes `setFluidChangesForPlaySelectionToolPasteMode` behavior.
-- `getFluidChangesForPlaySelectionToolPasteMode()`
+- `getFluidChangesForPlaySelectionToolPasteMode()`: Add description.
   - Executes `getFluidChangesForPlaySelectionToolPasteMode` behavior.
-- `setBlockChangeOffsetOrigin(@Nullable Vector3i blockChangeOffsetOrigin)`
+- `setBlockChangeOffsetOrigin(@Nullable Vector3i blockChangeOffsetOrigin)`: Add description.
   - Executes `setBlockChangeOffsetOrigin` behavior.
-- `getBlockChangeOffsetOrigin()`
+- `getBlockChangeOffsetOrigin()`: Add description.
   - Executes `getBlockChangeOffsetOrigin` behavior.
-- `addIgnoredPaintOperation()`
+- `addIgnoredPaintOperation()`: Add description.
   - Executes `addIgnoredPaintOperation` behavior.
-- `clearHistoryUntilFitMaxLength()`
+- `clearHistoryUntilFitMaxLength()`: Add description.
   - Executes `clearHistoryUntilFitMaxLength` behavior.
-- `containsLocation(int x, int y, int z)`
+- `containsLocation(int x, int y, int z)`: Add description.
   - Executes `containsLocation` behavior.
-- `getIgnoredPaintOperations()`
+- `getIgnoredPaintOperations()`: Add description.
   - Executes `getIgnoredPaintOperations` behavior.
-- `getMaxLengthOfIgnoredPaintOperations()`
+- `getMaxLengthOfIgnoredPaintOperations()`: Add description.
   - Executes `getMaxLengthOfIgnoredPaintOperations` behavior.
-- `setMaxLengthOfIgnoredPaintOperations(int maxLengthOfIgnoredPaintOperations)`
+- `setMaxLengthOfIgnoredPaintOperations(int maxLengthOfIgnoredPaintOperations)`: Add description.
   - Executes `setMaxLengthOfIgnoredPaintOperations` behavior.
-- `usePrototypeBrushConfigurations()`
+- `usePrototypeBrushConfigurations()`: Add description.
   - Executes `usePrototypeBrushConfigurations` behavior.
-- `setUsePrototypeBrushConfigurations(boolean usePrototypeBrushConfigurations)`
+- `setUsePrototypeBrushConfigurations(boolean usePrototypeBrushConfigurations)`: Add description.
   - Executes `setUsePrototypeBrushConfigurations` behavior.
-- `getBrushConfig()`
+- `getBrushConfig()`: Add description.
   - Executes `getBrushConfig` behavior.
-- `getBrushConfigCommandExecutor()`
+- `getBrushConfigCommandExecutor()`: Add description.
   - Executes `getBrushConfigCommandExecutor` behavior.
-- `setBrushConfig(BrushConfig brushConfig)`
+- `setBrushConfig(BrushConfig brushConfig)`: Add description.
   - Executes `setBrushConfig` behavior.
-- `isShouldShowEditorSettings()`
+- `isShouldShowEditorSettings()`: Add description.
   - Executes `isShouldShowEditorSettings` behavior.
-- `setShouldShowEditorSettings(boolean shouldShowEditorSettings)`
+- `setShouldShowEditorSettings(boolean shouldShowEditorSettings)`: Add description.
   - Executes `setShouldShowEditorSettings` behavior.
-- `getLastBrushPosition()`
+- `getLastBrushPosition()`: Add description.
   - Executes `getLastBrushPosition` behavior.
-- `setLastBrushPosition(@Nullable Vector3i lastBrushPosition)`
+- `setLastBrushPosition(@Nullable Vector3i lastBrushPosition)`: Add description.
   - Executes `setLastBrushPosition` behavior.
-- `clearLastBrushPosition()`
+- `clearLastBrushPosition()`: Add description.
   - Executes `clearLastBrushPosition` behavior.
-- `isOkayToDoCommandsOnSelection(Ref<EntityStore> ref, @Nonnull Player player, ComponentAccessor<EntityStore> componentAccessor)`
+- `isOkayToDoCommandsOnSelection(Ref<EntityStore> ref, @Nonnull Player player, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isOkayToDoCommandsOnSelection` behavior.
-- `FluidChange(int x, int y, int z, int fluidId, byte fluidLevel)`
+- `FluidChange(int x, int y, int z, int fluidId, byte fluidLevel)`: Add description.
   - Executes `FluidChange` behavior.
 
 ## Notes

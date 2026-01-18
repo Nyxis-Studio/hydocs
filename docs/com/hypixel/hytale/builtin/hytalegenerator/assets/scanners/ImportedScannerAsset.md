@@ -1,14 +1,14 @@
+**Source Hash:** `ea426dbee43116679803cc1ae5440e4153c93461cc3716d3845eb26f95b71161`
+
 # ImportedScannerAsset
 
 ## Overview
-- Documentation for `ImportedScannerAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.scanners`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull ScannerAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull ScannerAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `dc387ce99d94701c778b0e972e427449cf6da92c838141b530c9d1edb6fc224f`
+
 # BlockParticleEvent
 
 ## Overview
-- Documentation for `BlockParticleEvent`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockParticleEvent(int value)`
   - Creates a `BlockParticleEvent` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

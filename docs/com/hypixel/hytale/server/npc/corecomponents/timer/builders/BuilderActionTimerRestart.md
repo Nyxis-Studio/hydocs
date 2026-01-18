@@ -1,18 +1,18 @@
+**Source Hash:** `e01ff6bc0c4b53d18991c53137b89ac6f11af5c8ba2be02834a15d602b9e5eb2`
+
 # BuilderActionTimerRestart
 
 ## Overview
-- Documentation for `BuilderActionTimerRestart`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
 
 ## Notes

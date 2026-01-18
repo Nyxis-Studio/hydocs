@@ -1,17 +1,17 @@
+**Source Hash:** `fa219ad126c5c0ccc5df7f6995b5da7701093dd6740263601646a4f9b3176d7e`
+
 # DebugPlugin
 
 ## Overview
-- Documentation for `DebugPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `DebugPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `DebugPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
 
 ## Notes

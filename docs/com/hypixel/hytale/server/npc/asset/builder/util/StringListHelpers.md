@@ -1,33 +1,33 @@
+**Source Hash:** `22b2f88a32778dea8f22ddb32906f9cd58b06f2174aae86e8528cd1a237d36a0`
+
 # StringListHelpers
 
 ## Overview
-- Documentation for `StringListHelpers`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.util`.
 
-## Constructors
+## Constructor Descriptions
 - `StringListHelpers()`
   - Creates a `StringListHelpers` instance.
 
-## Methods
-- `stringListToString(@Nullable Collection<String> list)`
+## Method Descriptions
+- `stringListToString(@Nullable Collection<String> list)`: Add description.
   - Executes `stringListToString` behavior.
-- `splitToStringList(String string, @Nullable Function<String, String> mapper)`
+- `splitToStringList(String string, @Nullable Function<String, String> mapper)`: Add description.
   - Executes `splitToStringList` behavior.
-- `splitToStringList(String string, @Nullable Function<String, String> mapper, @Nonnull Collection<String> result)`
+- `splitToStringList(String string, @Nullable Function<String, String> mapper, @Nonnull Collection<String> result)`: Add description.
   - Executes `splitToStringList` behavior.
-- `stringListListToString(@Nonnull Collection<Collection<String>> list)`
+- `stringListListToString(@Nonnull Collection<Collection<String>> list)`: Add description.
   - Executes `stringListListToString` behavior.
-- `splitToStringListList(@Nullable String string, Function<String, String> mapper)`
+- `splitToStringListList(@Nullable String string, Function<String, String> mapper)`: Add description.
   - Executes `splitToStringListList` behavior.
-- `splitToStringListList(String string, Function<String, String> mapper, @Nonnull Collection<Collection<String>> result, @Nonnull Supplier<Collection<String>> supplier)`
+- `splitToStringListList(String string, Function<String, String> mapper, @Nonnull Collection<Collection<String>> result, @Nonnull Supplier<Collection<String>> supplier)`: Add description.
   - Executes `splitToStringListList` behavior.
-- `stringListToStringSet(@Nonnull List<String> list)`
+- `stringListToStringSet(@Nonnull List<String> list)`: Add description.
   - Executes `stringListToStringSet` behavior.
-- `splitToStringSet(@Nullable String input)`
+- `splitToStringSet(@Nullable String input)`: Add description.
   - Executes `splitToStringSet` behavior.
-- `splitToStringSet(@Nullable String input, Function<String, T> transform)`
+- `splitToStringSet(@Nullable String input, Function<String, T> transform)`: Add description.
   - Executes `splitToStringSet` behavior.
-- `stringListListToStringSetList(@Nonnull List<List<String>> group)`
+- `stringListListToStringSetList(@Nonnull List<List<String>> group)`: Add description.
   - Executes `stringListListToStringSetList` behavior.
 
 ## Notes

@@ -1,39 +1,39 @@
+**Source Hash:** `afed142076331ed35e5e6d5494d9ccb901c3253890b2d1ef637f2e8d8d34ee98`
+
 # ItemTool
 
 ## Overview
-- Documentation for `ItemTool`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemTool(ItemToolSpec[] specs, float speed, DurabilityLossBlockTypes[] durabilityLossBlockTypes)`
   - Creates a `ItemTool` instance.
 - `ItemTool()`
   - Creates a `ItemTool` instance.
 
-## Methods
-- `processConfig()`
+## Method Descriptions
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `getSpecs()`
+- `getSpecs()`: Add description.
   - Executes `getSpecs` behavior.
-- `getSpeed()`
+- `getSpeed()`: Add description.
   - Executes `getSpeed` behavior.
-- `getDurabilityLossBlockTypes()`
+- `getDurabilityLossBlockTypes()`: Add description.
   - Executes `getDurabilityLossBlockTypes` behavior.
-- `getHitSoundLayerIndex()`
+- `getHitSoundLayerIndex()`: Add description.
   - Executes `getHitSoundLayerIndex` behavior.
-- `getIncorrectMaterialSoundLayerIndex()`
+- `getIncorrectMaterialSoundLayerIndex()`: Add description.
   - Executes `getIncorrectMaterialSoundLayerIndex` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getBlockTypes()`
+- `getBlockTypes()`: Add description.
   - Executes `getBlockTypes` behavior.
-- `getBlockSets()`
+- `getBlockSets()`: Add description.
   - Executes `getBlockSets` behavior.
-- `getDurabilityLossOnHit()`
+- `getDurabilityLossOnHit()`: Add description.
   - Executes `getDurabilityLossOnHit` behavior.
-- `getBlockTypeIndexes()`
+- `getBlockTypeIndexes()`: Add description.
   - Executes `getBlockTypeIndexes` behavior.
-- `getBlockSetIndexes()`
+- `getBlockSetIndexes()`: Add description.
   - Executes `getBlockSetIndexes` behavior.
 
 ## Notes

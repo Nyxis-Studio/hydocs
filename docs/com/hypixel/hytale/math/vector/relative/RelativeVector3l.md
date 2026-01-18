@@ -1,27 +1,27 @@
+**Source Hash:** `649b45afbe0cea4358421209e7b85567e4e0a3c4a5a736f0f97de3dc7a6d852d`
+
 # RelativeVector3l
 
 ## Overview
-- Documentation for `RelativeVector3l`.
-- Declared as a class in `com.hypixel.hytale.math.vector.relative`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeVector3l(@Nonnull Vector3l vector, boolean relative)`
   - Creates a `RelativeVector3l` instance.
 - `RelativeVector3l()`
   - Creates a `RelativeVector3l` instance.
 
-## Methods
-- `getVector()`
+## Method Descriptions
+- `getVector()`: Add description.
   - Executes `getVector` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
-- `resolve(@Nonnull Vector3l vector)`
+- `resolve(@Nonnull Vector3l vector)`: Add description.
   - Executes `resolve` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `3559e3ec6f5221441cff9d49eec415e4db8d7521e65655ffb7562fcd584ad55f`
+
 # PlaceFluidInteraction
 
 ## Overview
-- Documentation for `PlaceFluidInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getFluidKey()`
+## Method Descriptions
+- `getFluidKey()`: Add description.
   - Executes `getFluidKey` behavior.
-- `getWaitForDataFrom()`
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`
+- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `interactWithBlock` behavior.
-- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`
+- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`: Add description.
   - Executes `simulateInteractWithBlock` behavior.
-- `needsRemoteSync()`
+- `needsRemoteSync()`: Add description.
   - Executes `needsRemoteSync` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

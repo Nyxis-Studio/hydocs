@@ -1,10 +1,10 @@
+**Source Hash:** `bdb713454d4db5ad3bb2dde21e8946a1d6ed94e3ed38287b475e8a264ccd9b0b`
+
 # ShortBytePalette
 
 ## Overview
-- Documentation for `ShortBytePalette`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `ShortBytePalette()`
   - Creates a `ShortBytePalette` instance.
 - `ShortBytePalette(short aDefault)`
@@ -12,26 +12,26 @@
 - `ShortBytePalette(this.keys[this.array.get(0)`
   - Creates a `ShortBytePalette` instance.
 
-## Methods
-- `set(int x, int z, short key)`
+## Method Descriptions
+- `set(int x, int z, short key)`: Add description.
   - Executes `set` behavior.
-- `get(int x, int z)`
+- `get(int x, int z)`: Add description.
   - Executes `get` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `contains(short key)`
+- `contains(short key)`: Add description.
   - Executes `contains` behavior.
-- `optimize()`
+- `optimize()`: Add description.
   - Executes `optimize` behavior.
-- `optimize(int index)`
+- `optimize(int index)`: Add description.
   - Executes `optimize` behavior.
-- `serialize(@Nonnull ByteBuf dos)`
+- `serialize(@Nonnull ByteBuf dos)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(@Nonnull ByteBuf buf)`
+- `deserialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize()`
+- `serialize()`: Add description.
   - Executes `serialize` behavior.
-- `copyFrom(@Nonnull ShortBytePalette other)`
+- `copyFrom(@Nonnull ShortBytePalette other)`: Add description.
   - Executes `copyFrom` behavior.
 
 ## Notes

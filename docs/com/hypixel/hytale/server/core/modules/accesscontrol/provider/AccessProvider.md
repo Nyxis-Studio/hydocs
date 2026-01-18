@@ -1,14 +1,14 @@
+**Source Hash:** `b11f30eb771de45975f60070563966a661386a673b7c27637e4137a6476b9ee7`
+
 # AccessProvider
 
 ## Overview
-- Documentation for `AccessProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.accesscontrol.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDisconnectReason(UUID var1)`
+## Method Descriptions
+- `getDisconnectReason(UUID var1)`: Add description.
   - Executes `getDisconnectReason` behavior.
 
 ## Notes

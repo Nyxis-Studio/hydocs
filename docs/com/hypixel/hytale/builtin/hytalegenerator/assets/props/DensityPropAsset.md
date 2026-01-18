@@ -1,16 +1,16 @@
+**Source Hash:** `85f96bb4378fba63f489694f1958c349c8dfea1376cb4953b5745fdef0c9c76a`
+
 # DensityPropAsset
 
 ## Overview
-- Documentation for `DensityPropAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PropAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PropAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

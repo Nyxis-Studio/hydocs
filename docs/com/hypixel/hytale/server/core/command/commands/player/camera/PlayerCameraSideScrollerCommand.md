@@ -1,15 +1,15 @@
+**Source Hash:** `8e72ad5f5339f9feef45482c6199fa90a70dc49c9a32c4d79f12e0c60f2814be`
+
 # PlayerCameraSideScrollerCommand
 
 ## Overview
-- Documentation for `PlayerCameraSideScrollerCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.camera`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerCameraSideScrollerCommand()`
   - Creates a `PlayerCameraSideScrollerCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

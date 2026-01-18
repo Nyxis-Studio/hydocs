@@ -1,15 +1,15 @@
+**Source Hash:** `44a298d79458742d769d7825b1bff62e84927042ddabd6d002a80959d826514a`
+
 # NotifyCommand
 
 ## Overview
-- Documentation for `NotifyCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `NotifyCommand()`
   - Creates a `NotifyCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

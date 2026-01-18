@@ -1,10 +1,10 @@
+**Source Hash:** `a7df75bed7187260ec765a7c41b16248095380a344670c8872e83faf50513cc3`
+
 # AtMostOneBooleanValidator
 
 ## Overview
-- Documentation for `AtMostOneBooleanValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `AtMostOneBooleanValidator(@Nonnull String[] attributes)`
   - Creates a `AtMostOneBooleanValidator` instance.
 - `AtMostOneBooleanValidator(new String[]{attribute1, attribute2})`
@@ -12,16 +12,16 @@
 - `AtMostOneBooleanValidator(attributes)`
   - Creates a `AtMostOneBooleanValidator` instance.
 
-## Methods
-- `test(@Nonnull boolean[] values)`
+## Method Descriptions
+- `test(@Nonnull boolean[] values)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String[] attributes)`
+- `errorMessage(String[] attributes)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage()`
+- `errorMessage()`: Add description.
   - Executes `errorMessage` behavior.
-- `withAttributes(String attribute1, String attribute2)`
+- `withAttributes(String attribute1, String attribute2)`: Add description.
   - Executes `withAttributes` behavior.
-- `withAttributes(@Nonnull String[] attributes)`
+- `withAttributes(@Nonnull String[] attributes)`: Add description.
   - Executes `withAttributes` behavior.
 
 ## Notes

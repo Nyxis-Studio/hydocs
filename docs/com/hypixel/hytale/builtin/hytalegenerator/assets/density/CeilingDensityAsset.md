@@ -1,16 +1,16 @@
+**Source Hash:** `f4b0c69c721cc3698b28d3b4ef1a54fa299b791e11f6442f02f237cc00843bf5`
+
 # CeilingDensityAsset
 
 ## Overview
-- Documentation for `CeilingDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

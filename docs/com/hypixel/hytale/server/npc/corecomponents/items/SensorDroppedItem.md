@@ -1,21 +1,21 @@
+**Source Hash:** `df5d02a58ab4c4885ca2c889888301f1e174b1757787082ee6a63c8e488260a4`
+
 # SensorDroppedItem
 
 ## Overview
-- Documentation for `SensorDroppedItem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.items`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorDroppedItem(@Nonnull BuilderSensorDroppedItem builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorDroppedItem` instance.
 
-## Methods
-- `registerWithSupport(@Nonnull Role role)`
+## Method Descriptions
+- `registerWithSupport(@Nonnull Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `filterItem(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> itemRef, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `filterItem(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> itemRef, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `filterItem` behavior.
 
 ## Notes

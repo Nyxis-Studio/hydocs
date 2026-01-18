@@ -1,10 +1,10 @@
+**Source Hash:** `37744c6b6d0057ecb1b5739750f52bfa1ac25e3be4b4b2f3d9497d5da3f1b1ba`
+
 # BuilderToolMaskArg
 
 ## Overview
-- Documentation for `BuilderToolMaskArg`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolMaskArg()`
   - Creates a `BuilderToolMaskArg` instance.
 - `BuilderToolMaskArg(@Nullable String defaultValue)`
@@ -12,22 +12,22 @@
 - `BuilderToolMaskArg(@Nonnull BuilderToolMaskArg other)`
   - Creates a `BuilderToolMaskArg` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

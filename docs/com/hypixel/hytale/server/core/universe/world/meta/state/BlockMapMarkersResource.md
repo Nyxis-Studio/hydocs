@@ -1,10 +1,10 @@
+**Source Hash:** `d081306d6837aa8f39aec78b9179a35b8fa544ca5569a3a8b3ceabfe23984dcd`
+
 # BlockMapMarkersResource
 
 ## Overview
-- Documentation for `BlockMapMarkersResource`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMapMarkersResource()`
   - Creates a `BlockMapMarkersResource` instance.
 - `BlockMapMarkersResource(Long2ObjectMap<BlockMapMarkerData> markers)`
@@ -12,24 +12,24 @@
 - `BlockMapMarkersResource(new Long2ObjectOpenHashMap<BlockMapMarkerData>(this.markers)`
   - Creates a `BlockMapMarkersResource` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getMarkers()`
+- `getMarkers()`: Add description.
   - Executes `getMarkers` behavior.
-- `addMarker(@Nonnull Vector3i position, @Nonnull String name, @Nonnull String icon)`
+- `addMarker(@Nonnull Vector3i position, @Nonnull String name, @Nonnull String icon)`: Add description.
   - Executes `addMarker` behavior.
-- `removeMarker(@Nonnull Vector3i position)`
+- `removeMarker(@Nonnull Vector3i position)`: Add description.
   - Executes `removeMarker` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getIcon()`
+- `getIcon()`: Add description.
   - Executes `getIcon` behavior.
-- `getMarkerId()`
+- `getMarkerId()`: Add description.
   - Executes `getMarkerId` behavior.
 
 ## Notes

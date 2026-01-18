@@ -1,42 +1,42 @@
+**Source Hash:** `d6b940194892c847e7f0306f359fcffbbf0656230ede66f2e1fac711da67d7c8`
+
 # DeployableComponent
 
 ## Overview
-- Documentation for `DeployableComponent`.
-- Declared as a class in `com.hypixel.hytale.builtin.deployables.component`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `init(@Nonnull Ref<EntityStore> deployerRef, @Nonnull Store<EntityStore> store, @Nonnull DeployableConfig config, @Nonnull Instant spawnInstant, @Nonnull String spawnFace)`
+- `init(@Nonnull Ref<EntityStore> deployerRef, @Nonnull Store<EntityStore> store, @Nonnull DeployableConfig config, @Nonnull Instant spawnInstant, @Nonnull String spawnFace)`: Add description.
   - Executes `init` behavior.
-- `getOwner()`
+- `getOwner()`: Add description.
   - Executes `getOwner` behavior.
-- `getOwnerUUID()`
+- `getOwnerUUID()`: Add description.
   - Executes `getOwnerUUID` behavior.
-- `getConfig()`
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `getSpawnInstant()`
+- `getSpawnInstant()`: Add description.
   - Executes `getSpawnInstant` behavior.
-- `getTimeSinceLastAttack()`
+- `getTimeSinceLastAttack()`: Add description.
   - Executes `getTimeSinceLastAttack` behavior.
-- `setTimeSinceLastAttack(float time)`
+- `setTimeSinceLastAttack(float time)`: Add description.
   - Executes `setTimeSinceLastAttack` behavior.
-- `incrementTimeSinceLastAttack(float time)`
+- `incrementTimeSinceLastAttack(float time)`: Add description.
   - Executes `incrementTimeSinceLastAttack` behavior.
-- `getSpawnFace()`
+- `getSpawnFace()`: Add description.
   - Executes `getSpawnFace` behavior.
-- `getFlag(@Nonnull DeployableFlag key)`
+- `getFlag(@Nonnull DeployableFlag key)`: Add description.
   - Executes `getFlag` behavior.
-- `setFlag(@Nonnull DeployableFlag key, int value)`
+- `setFlag(@Nonnull DeployableFlag key, int value)`: Add description.
   - Executes `setFlag` behavior.
-- `getDebugColor()`
+- `getDebugColor()`: Add description.
   - Executes `getDebugColor` behavior.
 
 ## Notes

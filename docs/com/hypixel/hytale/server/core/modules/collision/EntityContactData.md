@@ -1,26 +1,26 @@
+**Source Hash:** `f5e7996a4ca2b8d216db4b6dac2430148c5e4e9eff38bdd5bb6fab6d156f8191`
+
 # EntityContactData
 
 ## Overview
-- Documentation for `EntityContactData`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getCollisionPoint()`
+## Method Descriptions
+- `getCollisionPoint()`: Add description.
   - Executes `getCollisionPoint` behavior.
-- `getCollisionStart()`
+- `getCollisionStart()`: Add description.
   - Executes `getCollisionStart` behavior.
-- `getCollisionEnd()`
+- `getCollisionEnd()`: Add description.
   - Executes `getCollisionEnd` behavior.
-- `getEntityReference()`
+- `getEntityReference()`: Add description.
   - Executes `getEntityReference` behavior.
-- `getCollisionDetailName()`
+- `getCollisionDetailName()`: Add description.
   - Executes `getCollisionDetailName` behavior.
-- `assign(@Nonnull Vector3d position, double start, double end, Ref<EntityStore> entity, String collisionDetailName)`
+- `assign(@Nonnull Vector3d position, double start, double end, Ref<EntityStore> entity, String collisionDetailName)`: Add description.
   - Executes `assign` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `4a3572794390a2c50f3be484bcadef08c8e4966ea031953f42fedfb74204fd23`
+
 # TeleportPlayerToCoordinatesCommand
 
 ## Overview
-- Documentation for `TeleportPlayerToCoordinatesCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport.variant`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportPlayerToCoordinatesCommand()`
   - Creates a `TeleportPlayerToCoordinatesCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

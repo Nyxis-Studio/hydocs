@@ -1,17 +1,17 @@
+**Source Hash:** `8533cf67f0469e4fe6fb6f34466289bd750141838fe018b839acab564c880e0c`
+
 # ApplyLookType
 
 ## Overview
-- Documentation for `ApplyLookType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplyLookType(int value)`
   - Creates a `ApplyLookType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

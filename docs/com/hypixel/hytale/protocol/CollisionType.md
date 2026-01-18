@@ -1,17 +1,17 @@
+**Source Hash:** `9019164e07d2488b4125607f432645db0e181a90028e2938be535f33637cd383`
+
 # CollisionType
 
 ## Overview
-- Documentation for `CollisionType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CollisionType(int value)`
   - Creates a `CollisionType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

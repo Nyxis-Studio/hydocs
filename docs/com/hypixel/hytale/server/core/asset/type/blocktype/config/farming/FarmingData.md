@@ -1,28 +1,28 @@
+**Source Hash:** `967f3f3a669fb03572c8c06572e1f992a6f5893e6a02f6810aeecf8f74f3570f`
+
 # FarmingData
 
 ## Overview
-- Documentation for `FarmingData`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.farming`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getStages()`
+## Method Descriptions
+- `getStages()`: Add description.
   - Executes `getStages` behavior.
-- `getStartingStageSet()`
+- `getStartingStageSet()`: Add description.
   - Executes `getStartingStageSet` behavior.
-- `getStageSetAfterHarvest()`
+- `getStageSetAfterHarvest()`: Add description.
   - Executes `getStageSetAfterHarvest` behavior.
-- `getGrowthModifiers()`
+- `getGrowthModifiers()`: Add description.
   - Executes `getGrowthModifiers` behavior.
-- `getSoilConfig()`
+- `getSoilConfig()`: Add description.
   - Executes `getSoilConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `getLifetime()`
+- `getLifetime()`: Add description.
   - Executes `getLifetime` behavior.
 
 ## Notes

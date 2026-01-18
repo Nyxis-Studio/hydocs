@@ -1,15 +1,15 @@
+**Source Hash:** `d608b252a16d7043c932d16a594a4880a216e8aa7d106ca83c086166b28177a8`
+
 # BrushConfigCommand
 
 ## Overview
-- Documentation for `BrushConfigCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigCommand()`
   - Creates a `BrushConfigCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

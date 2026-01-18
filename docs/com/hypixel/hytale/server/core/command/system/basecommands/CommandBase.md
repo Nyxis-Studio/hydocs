@@ -1,10 +1,10 @@
+**Source Hash:** `27266f9f0e4404ad0db22dd59e9f12975ace73e0c8c9494a56cf5bee4be9c8ad`
+
 # CommandBase
 
 ## Overview
-- Documentation for `CommandBase`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.basecommands`.
 
-## Constructors
+## Constructor Descriptions
 - `CommandBase(@Nonnull String name, @Nonnull String description)`
   - Creates a `CommandBase` instance.
 - `CommandBase(@Nonnull String name, @Nonnull String description, boolean requiresConfirmation)`
@@ -12,10 +12,10 @@
 - `CommandBase(@Nonnull String description)`
   - Creates a `CommandBase` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context)`: Add description.
   - Executes `execute` behavior.
-- `executeSync(@Nonnull CommandContext var1)`
+- `executeSync(@Nonnull CommandContext var1)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

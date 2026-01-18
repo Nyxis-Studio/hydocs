@@ -1,17 +1,17 @@
+**Source Hash:** `bf2d26108a268c56b1106e561bcb7efce8e0a38d9c1e4e02514bb31d8f4ef2f8`
+
 # SortBufferProviderResource
 
 ## Overview
-- Documentation for `SortBufferProviderResource`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `SortBufferProviderResource()`
   - Creates a `SortBufferProviderResource` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

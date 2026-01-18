@@ -1,16 +1,16 @@
+**Source Hash:** `9d2782c8f4ed5124d0be85fb9f26b4408fd51ec6b1678cbdd653504ab9293752`
+
 # GatheringConfig
 
 ## Overview
-- Documentation for `GatheringConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getUnbreakableBlockConfig()`
+## Method Descriptions
+- `getUnbreakableBlockConfig()`: Add description.
   - Executes `getUnbreakableBlockConfig` behavior.
-- `getIncorrectToolConfig()`
+- `getIncorrectToolConfig()`: Add description.
   - Executes `getIncorrectToolConfig` behavior.
 
 ## Notes

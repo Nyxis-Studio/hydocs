@@ -1,16 +1,16 @@
+**Source Hash:** `4b2d812972782cf210d811942614e28696390910785a30feb5676c31a2a36497`
+
 # SolidityMaterialProviderAsset
 
 ## Overview
-- Documentation for `SolidityMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

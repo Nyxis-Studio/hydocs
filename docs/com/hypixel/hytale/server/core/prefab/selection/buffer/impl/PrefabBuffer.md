@@ -1,113 +1,113 @@
+**Source Hash:** `b252f5d4bd69d6a5e867b342700522574c39d390fc86cf87e7bd25bf4cec3652`
+
 # PrefabBuffer
 
 ## Overview
-- Documentation for `PrefabBuffer`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.buffer.impl`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabBuffer(@Nonnull ByteBuf buf, @Nonnull Vector3i anchor, @Nonnull Vector3i min, @Nonnull Vector3i max, @Nonnull Int2ObjectMap<PrefabBufferColumn> columns, @Nonnull ChildPrefab[] childPrefabs)`
   - Creates a `PrefabBuffer` instance.
 - `PrefabBuffer(buffer, this.anchor, this.min, this.max, this.columns, childPrefabArray)`
   - Creates a `PrefabBuffer` instance.
 
-## Methods
-- `newBuilder()`
+## Method Descriptions
+- `newBuilder()`: Add description.
   - Executes `newBuilder` behavior.
-- `getAnchorX()`
+- `getAnchorX()`: Add description.
   - Executes `getAnchorX` behavior.
-- `getAnchorY()`
+- `getAnchorY()`: Add description.
   - Executes `getAnchorY` behavior.
-- `getAnchorZ()`
+- `getAnchorZ()`: Add description.
   - Executes `getAnchorZ` behavior.
-- `newAccess()`
+- `newAccess()`: Add description.
   - Executes `newAccess` behavior.
-- `release()`
+- `release()`: Add description.
   - Executes `release` behavior.
-- `checkReleased()`
+- `checkReleased()`: Add description.
   - Executes `checkReleased` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `isFitHeightmap()`
+- `isFitHeightmap()`: Add description.
   - Executes `isFitHeightmap` behavior.
-- `isInheritSeed()`
+- `isInheritSeed()`: Add description.
   - Executes `isInheritSeed` behavior.
-- `isInheritHeightCondition()`
+- `isInheritHeightCondition()`: Add description.
   - Executes `isInheritHeightCondition` behavior.
-- `getWeights()`
+- `getWeights()`: Add description.
   - Executes `getWeights` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `setAnchor(@Nonnull Vector3i anchor)`
+- `setAnchor(@Nonnull Vector3i anchor)`: Add description.
   - Executes `setAnchor` behavior.
-- `addColumn(int x, int z, @Nonnull PrefabBufferBlockEntry[] entries, @Nullable Holder<EntityStore>[] entityHolders)`
+- `addColumn(int x, int z, @Nonnull PrefabBufferBlockEntry[] entries, @Nullable Holder<EntityStore>[] entityHolders)`: Add description.
   - Executes `addColumn` behavior.
-- `handleBlockComponents(int blockRotation, int x, int y, int z, @Nonnull Holder<ChunkStore> holder)`
+- `handleBlockComponents(int blockRotation, int x, int y, int z, @Nonnull Holder<ChunkStore> holder)`: Add description.
   - Executes `handleBlockComponents` behavior.
-- `addChildPrefab(int x, int y, int z, @Nonnull String path, boolean fitHeightmap, boolean inheritSeed, boolean inheritHeightCondition, @Nullable PrefabWeights weights, @Nonnull PrefabRotation rotation)`
+- `addChildPrefab(int x, int y, int z, @Nonnull String path, boolean fitHeightmap, boolean inheritSeed, boolean inheritHeightCondition, @Nullable PrefabWeights weights, @Nonnull PrefabRotation rotation)`: Add description.
   - Executes `addChildPrefab` behavior.
-- `newBlockEntry(int y)`
+- `newBlockEntry(int y)`: Add description.
   - Executes `newBlockEntry` behavior.
-- `build()`
+- `build()`: Add description.
   - Executes `build` behavior.
-- `getMinX(@Nonnull PrefabRotation rotation)`
+- `getMinX(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getMinX` behavior.
-- `getMinY()`
+- `getMinY()`: Add description.
   - Executes `getMinY` behavior.
-- `getMinZ(@Nonnull PrefabRotation rotation)`
+- `getMinZ(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getMinZ` behavior.
-- `getMaxX(@Nonnull PrefabRotation rotation)`
+- `getMaxX(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getMaxX` behavior.
-- `getMaxY()`
+- `getMaxY()`: Add description.
   - Executes `getMaxY` behavior.
-- `getMaxZ(@Nonnull PrefabRotation rotation)`
+- `getMaxZ(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getMaxZ` behavior.
-- `getColumnCount()`
+- `getColumnCount()`: Add description.
   - Executes `getColumnCount` behavior.
-- `getChildPrefabs()`
+- `getChildPrefabs()`: Add description.
   - Executes `getChildPrefabs` behavior.
-- `getMinYAt(@Nonnull PrefabRotation rotation, int x, int z)`
+- `getMinYAt(@Nonnull PrefabRotation rotation, int x, int z)`: Add description.
   - Executes `getMinYAt` behavior.
-- `getMaxYAt(@Nonnull PrefabRotation rotation, int x, int z)`
+- `getMaxYAt(@Nonnull PrefabRotation rotation, int x, int z)`: Add description.
   - Executes `getMaxYAt` behavior.
-- `forEach(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.BlockConsumer<T> blockConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable IPrefabBuffer.ChildConsumer<T> childConsumer, @Nonnull T t)`
+- `forEach(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.BlockConsumer<T> blockConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable IPrefabBuffer.ChildConsumer<T> childConsumer, @Nonnull T t)`: Add description.
   - Executes `forEach` behavior.
-- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockConsumer<T> blockConsumer, @Nonnull IPrefabBuffer.FluidConsumer<T> fluidConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable T t)`
+- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockConsumer<T> blockConsumer, @Nonnull IPrefabBuffer.FluidConsumer<T> fluidConsumer, @Nullable IPrefabBuffer.EntityConsumer<T> entityConsumer, @Nullable T t)`: Add description.
   - Executes `forEachRaw` behavior.
-- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockPredicate<T> blockPredicate, @Nonnull IPrefabBuffer.FluidPredicate<T> fluidPredicate, @Nullable IPrefabBuffer.EntityPredicate<T> entityPredicate, @Nullable T t)`
+- `forEachRaw(@Nonnull IPrefabBuffer.ColumnPredicate<T> columnPredicate, @Nonnull IPrefabBuffer.RawBlockPredicate<T> blockPredicate, @Nonnull IPrefabBuffer.FluidPredicate<T> fluidPredicate, @Nullable IPrefabBuffer.EntityPredicate<T> entityPredicate, @Nullable T t)`: Add description.
   - Executes `forEachRaw` behavior.
-- `compare(@Nonnull IPrefabBuffer.BlockComparingPrefabPredicate<T> blockComparingIterator, @Nonnull T t, @Nonnull IPrefabBuffer otherPrefab)`
+- `compare(@Nonnull IPrefabBuffer.BlockComparingPrefabPredicate<T> blockComparingIterator, @Nonnull T t, @Nonnull IPrefabBuffer otherPrefab)`: Add description.
   - Executes `compare` behavior.
-- `getBlockId(int x, int y, int z)`
+- `getBlockId(int x, int y, int z)`: Add description.
   - Executes `getBlockId` behavior.
-- `getFiller(int x, int y, int z)`
+- `getFiller(int x, int y, int z)`: Add description.
   - Executes `getFiller` behavior.
-- `getRotationIndex(int x, int y, int z)`
+- `getRotationIndex(int x, int y, int z)`: Add description.
   - Executes `getRotationIndex` behavior.
-- `getBlockMask(int blockBytes, int fluidBytes, boolean chance, int offsetBytes, @Nullable Holder<ChunkStore> holder, byte supportValue, int rotation, int filler)`
+- `getBlockMask(int blockBytes, int fluidBytes, boolean chance, int offsetBytes, @Nullable Holder<ChunkStore> holder, byte supportValue, int rotation, int filler)`: Add description.
   - Executes `getBlockMask` behavior.
-- `getSkipBytes(int mask)`
+- `getSkipBytes(int mask)`: Add description.
   - Executes `getSkipBytes` behavior.
-- `hasChance(int mask)`
+- `hasChance(int mask)`: Add description.
   - Executes `hasChance` behavior.
-- `hasFiller(int mask)`
+- `hasFiller(int mask)`: Add description.
   - Executes `hasFiller` behavior.
-- `hasRotation(int mask)`
+- `hasRotation(int mask)`: Add description.
   - Executes `hasRotation` behavior.
-- `getBlockBytes(int mask)`
+- `getBlockBytes(int mask)`: Add description.
   - Executes `getBlockBytes` behavior.
-- `getOffsetBytes(int mask)`
+- `getOffsetBytes(int mask)`: Add description.
   - Executes `getOffsetBytes` behavior.
-- `getFluidBytes(int mask)`
+- `getFluidBytes(int mask)`: Add description.
   - Executes `getFluidBytes` behavior.
-- `getSupportValue(int mask)`
+- `getSupportValue(int mask)`: Add description.
   - Executes `getSupportValue` behavior.
-- `hasComponents(int mask)`
+- `hasComponents(int mask)`: Add description.
   - Executes `hasComponents` behavior.
 
 ## Notes

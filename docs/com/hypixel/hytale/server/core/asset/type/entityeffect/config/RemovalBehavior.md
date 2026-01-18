@@ -1,14 +1,14 @@
+**Source Hash:** `1c444fc14358a42d7d9235a2d71ae4f0bb356fcdaac48b6930fdf42b9282b180`
+
 # RemovalBehavior
 
 ## Overview
-- Documentation for `RemovalBehavior`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.entityeffect.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

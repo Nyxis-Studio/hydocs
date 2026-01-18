@@ -1,14 +1,14 @@
+**Source Hash:** `ba19c899b563bbbecd1017fabfbd0e4354592fd406daae90a899eefb22cb749e`
+
 # PrefabBufferDeserializer
 
 ## Overview
-- Documentation for `PrefabBufferDeserializer`.
-- Declared as a interface in `com.hypixel.hytale.server.core.prefab.selection.buffer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `deserialize(Path var1, T var2)`
+## Method Descriptions
+- `deserialize(Path var1, T var2)`: Add description.
   - Executes `deserialize` behavior.
 
 ## Notes

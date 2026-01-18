@@ -1,19 +1,19 @@
+**Source Hash:** `fb0c3c1d289b9f7c3dfb4d2aa4ba1dbf4f08875f568c37469709a6e817b7343a`
+
 # ItemWeapon
 
 ## Overview
-- Documentation for `ItemWeapon`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemWeapon(this.entityStatsToClear, EntityStatMap.toPacket(this.statModifiers)`
   - Creates a `ItemWeapon` instance.
 
-## Methods
-- `getStatModifiers()`
+## Method Descriptions
+- `getStatModifiers()`: Add description.
   - Executes `getStatModifiers` behavior.
-- `getEntityStatsToClear()`
+- `getEntityStatsToClear()`: Add description.
   - Executes `getEntityStatsToClear` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

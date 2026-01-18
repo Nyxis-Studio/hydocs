@@ -1,22 +1,22 @@
+**Source Hash:** `7fea61b9a493fcd7a01f7e9fc80735bb680cd9567d04db2a24f8bedebbb9b085`
+
 # BuilderBodyMotionWander
 
 ## Overview
-- Documentation for `BuilderBodyMotionWander`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `b5a69067abc5c64964533cbf73039a3e4d1133542061d8c02939e6f50ed5974a`
+
 # NPCRoleCommand
 
 ## Overview
-- Documentation for `NPCRoleCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCRoleCommand()`
   - Creates a `NPCRoleCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull NPCEntity npc, @Nonnull World world, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull NPCEntity npc, @Nonnull World world, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

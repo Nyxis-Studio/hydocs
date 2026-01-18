@@ -1,16 +1,16 @@
+**Source Hash:** `b8a051ce77a31b9a7d361b442e4f2aff37be30b7b16b6619e14de0e7703af9c5`
+
 # AnchorPositionProviderAsset
 
 ## Overview
-- Documentation for `AnchorPositionProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.positionproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PositionProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PositionProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

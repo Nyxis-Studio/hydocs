@@ -1,19 +1,19 @@
+**Source Hash:** `6593e70ed90afa9d0896d186b82bdc53e5d9a667cb8a8ef040bbf56f0771d8fd`
+
 # PositionProvider
 
 ## Overview
-- Documentation for `PositionProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.positionproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionProvider()`
   - Creates a `PositionProvider` instance.
 
-## Methods
-- `positionsIn(@Nonnull Context var1)`
+## Method Descriptions
+- `positionsIn(@Nonnull Context var1)`: Add description.
   - Executes `positionsIn` behavior.
-- `noPositionProvider()`
+- `noPositionProvider()`: Add description.
   - Executes `noPositionProvider` behavior.
-- `positionsIn(@Nonnull Context context)`
+- `positionsIn(@Nonnull Context context)`: Add description.
   - Executes `positionsIn` behavior.
 
 ## Notes

@@ -1,25 +1,25 @@
+**Source Hash:** `16dd3e5b2a617c74e45d532fd79eafe5da29c3da987a15ab5224e324424a4fb1`
+
 # WorldMapSettings
 
 ## Overview
-- Documentation for `WorldMapSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldMapSettings()`
   - Creates a `WorldMapSettings` instance.
 - `WorldMapSettings(Box2D worldMapArea, float imageScale, float viewRadiusMultiplier, int viewRadiusMin, int viewRadiusMax, @Nonnull UpdateWorldMapSettings settingsPacket)`
   - Creates a `WorldMapSettings` instance.
 
-## Methods
-- `getWorldMapArea()`
+## Method Descriptions
+- `getWorldMapArea()`: Add description.
   - Executes `getWorldMapArea` behavior.
-- `getImageScale()`
+- `getImageScale()`: Add description.
   - Executes `getImageScale` behavior.
-- `getSettingsPacket()`
+- `getSettingsPacket()`: Add description.
   - Executes `getSettingsPacket` behavior.
-- `getViewRadius(int viewRadius)`
+- `getViewRadius(int viewRadius)`: Add description.
   - Executes `getViewRadius` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

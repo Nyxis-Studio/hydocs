@@ -1,16 +1,16 @@
+**Source Hash:** `522ce58eedb13f956b09c769ae09d85ac9d2c81dfa9bef17447484353df43438`
+
 # ChangeStatWithModifierInteraction
 
 ## Overview
-- Documentation for `ChangeStatWithModifierInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

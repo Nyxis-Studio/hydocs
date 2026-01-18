@@ -1,17 +1,17 @@
+**Source Hash:** `869c03afe1bdde5d25989a57031597fa1bab1b852357b4f127d79489f88c93f7`
+
 # TargetStatAbsoluteCondition
 
 ## Overview
-- Documentation for `TargetStatAbsoluteCondition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.core.conditions`.
 
-## Constructors
+## Constructor Descriptions
 - `TargetStatAbsoluteCondition()`
   - Creates a `TargetStatAbsoluteCondition` instance.
 
-## Methods
-- `getInput(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, @Nullable Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+## Method Descriptions
+- `getInput(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, @Nullable Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `getInput` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

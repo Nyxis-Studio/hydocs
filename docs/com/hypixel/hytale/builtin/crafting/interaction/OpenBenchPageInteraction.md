@@ -1,10 +1,10 @@
+**Source Hash:** `86bd22c3c07ce4bfa99989dfce4cbd9bcb19a9b7b41cdde031953d926f1167ca`
+
 # OpenBenchPageInteraction
 
 ## Overview
-- Documentation for `OpenBenchPageInteraction`.
-- Declared as a class in `com.hypixel.hytale.builtin.crafting.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `OpenBenchPageInteraction("*Simple_Crafting_Default", PageType.SIMPLE_CRAFTING)`
   - Creates a `OpenBenchPageInteraction` instance.
 - `OpenBenchPageInteraction("*Diagram_Crafting_Default", PageType.DIAGRAM_CRAFTING)`
@@ -16,10 +16,10 @@
 - `OpenBenchPageInteraction()`
   - Creates a `OpenBenchPageInteraction` instance.
 
-## Methods
-- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `interactWithBlock` behavior.
-- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`
+- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`: Add description.
   - Executes `simulateInteractWithBlock` behavior.
 
 ## Notes

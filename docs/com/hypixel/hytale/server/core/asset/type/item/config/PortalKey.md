@@ -1,18 +1,18 @@
+**Source Hash:** `0f2212d413a5e74e196290fbbf5df22fc5e1108c9bc54638a7f0dbb223a9a2e2`
+
 # PortalKey
 
 ## Overview
-- Documentation for `PortalKey`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPortalTypeId()`
+## Method Descriptions
+- `getPortalTypeId()`: Add description.
   - Executes `getPortalTypeId` behavior.
-- `getTimeLimitSeconds()`
+- `getTimeLimitSeconds()`: Add description.
   - Executes `getTimeLimitSeconds` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

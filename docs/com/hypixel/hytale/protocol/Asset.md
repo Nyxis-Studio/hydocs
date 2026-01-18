@@ -1,10 +1,10 @@
+**Source Hash:** `f856aaf1b73e9665141608fbbf69d847191f44f8865d2cb6524a4ebda28ee1e7`
+
 # Asset
 
 ## Overview
-- Documentation for `Asset`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Asset()`
   - Creates a `Asset` instance.
 - `Asset(@Nonnull String hash, @Nonnull String name)`
@@ -12,22 +12,22 @@
 - `Asset(@Nonnull Asset other)`
   - Creates a `Asset` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

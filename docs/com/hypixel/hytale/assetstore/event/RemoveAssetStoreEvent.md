@@ -1,14 +1,25 @@
-# RemoveAssetStoreEvent
+**Source Hash:** `91abfd513e682a6516abc2162c08fbdbd063d4f723f3f77b01e1ef7eb6869330`
+**Last Updated:** `2026-01-18T17:16:53-03:00`
 
-**Overview**
-Event fired when an `AssetStore` is unregistered from `AssetRegistry`.
-Provides a typed hook for listeners to react to store removal.
+## Overview
+Event fired when an `AssetStore` is unregistered from `AssetRegistry`. Provides a typed hook for listeners to react to store removal.
 
-**Constructors**
-- `RemoveAssetStoreEvent(AssetStore<?, ?, ?> assetStore)`: wraps the removed store.
+## Field Descriptions
+- `none`: Event carries only the asset store reference from the base class.
 
-**Methods**
-- Inherited from `AssetStoreEvent`.
+## Constructor Descriptions
+- `RemoveAssetStoreEvent(AssetStore<?, ?, ?> assetStore)`: Wraps the removed store.
 
-**Notes**
+## Method Descriptions
+- `getAssetStore()`: Inherited from `AssetStoreEvent` to access the store.
+
+## Usage Notes
 - Extends `AssetStoreEvent<Void>` with no additional fields.
+
+## Examples
+```java
+@Subscribe
+public void onRemove(RemoveAssetStoreEvent event) {
+    AssetStore<?, ?, ?> store = event.getAssetStore();
+}
+```

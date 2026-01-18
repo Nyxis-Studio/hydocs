@@ -1,14 +1,14 @@
+**Source Hash:** `2a71b45e57f856f383d1ce6d9b6d3196585395b78034e5ddac3229269488d6df`
+
 # CellNoiseAsset
 
 ## Overview
-- Documentation for `CellNoiseAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.noisegenerators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

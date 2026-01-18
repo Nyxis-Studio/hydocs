@@ -1,23 +1,23 @@
+**Source Hash:** `b51fdfdf32d601886c3b7d1b363316d75554f55f4382592560c99ae1268b6fd8`
+
 # ScaledPointGenerator
 
 ## Overview
-- Documentation for `ScaledPointGenerator`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.logic.point`.
 
-## Constructors
+## Constructor Descriptions
 - `ScaledPointGenerator(PointGenerator pointGenerator, double scale)`
   - Creates a `ScaledPointGenerator` instance.
 
-## Methods
-- `getInterval()`
+## Method Descriptions
+- `getInterval()`: Add description.
   - Executes `getInterval` behavior.
-- `collect(int seed, double minX, double minY, double maxX, double maxY, IPointGenerator.PointConsumer2d consumer)`
+- `collect(int seed, double minX, double minY, double maxX, double maxY, IPointGenerator.PointConsumer2d consumer)`: Add description.
   - Executes `collect` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,21 +1,21 @@
+**Source Hash:** `7ce2f9f3586e7ae16bcb4c700c9d246faa985af65b7880c04c3db2bb903aafce`
+
 # ChunkSpawnedNPCData
 
 ## Overview
-- Documentation for `ChunkSpawnedNPCData`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.component`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkSpawnedNPCData()`
   - Creates a `ChunkSpawnedNPCData` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getEnvironmentSpawnCount(int environment)`
+- `getEnvironmentSpawnCount(int environment)`: Add description.
   - Executes `getEnvironmentSpawnCount` behavior.
-- `setEnvironmentSpawnCount(int environment, double count)`
+- `setEnvironmentSpawnCount(int environment, double count)`: Add description.
   - Executes `setEnvironmentSpawnCount` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

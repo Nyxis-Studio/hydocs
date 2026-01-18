@@ -1,19 +1,19 @@
+**Source Hash:** `9b22215f5f9890cf9926994f12e403ed85528a9c98e7ada7952f90cc4b71a3f5`
+
 # CircleIterator
 
 ## Overview
-- Documentation for `CircleIterator`.
-- Declared as a class in `com.hypixel.hytale.math.iterator`.
 
-## Constructors
+## Constructor Descriptions
 - `CircleIterator(Vector3d origin, double radius, int pointTotal)`
   - Creates a `CircleIterator` instance.
 - `CircleIterator(Vector3d origin, double radius, int pointTotal, float angleOffset)`
   - Creates a `CircleIterator` instance.
 
-## Methods
-- `hasNext()`
+## Method Descriptions
+- `hasNext()`: Add description.
   - Executes `hasNext` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
 
 ## Notes

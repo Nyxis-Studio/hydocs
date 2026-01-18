@@ -1,15 +1,15 @@
+**Source Hash:** `6d2fc6e69a2ddaaffc81085f591e9c10f00469bd055b970b123327a641a5aad8`
+
 # PrefabSpawnerCommand
 
 ## Overview
-- Documentation for `PrefabSpawnerCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.prefabspawner.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabSpawnerCommand()`
   - Creates a `PrefabSpawnerCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

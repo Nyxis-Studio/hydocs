@@ -1,10 +1,10 @@
+**Source Hash:** `b65fcdcb3213dc947a215cf1498a1d06bd24e39368f2cbec6fcfc9c121462ad6`
+
 # WeatherExistsValidator
 
 ## Overview
-- Documentation for `WeatherExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `WeatherExistsValidator()`
   - Creates a `WeatherExistsValidator` instance.
 - `WeatherExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `WeatherExistsValidator(config)`
   - Creates a `WeatherExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String value)`
+- `test(String value)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String value, String attribute)`
+- `errorMessage(String value, String attribute)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

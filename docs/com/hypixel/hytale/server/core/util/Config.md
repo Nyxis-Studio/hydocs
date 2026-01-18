@@ -1,21 +1,21 @@
+**Source Hash:** `2edc79032e67171743ea9502dffcf1d6f06076a44fc760bff89e921b31efe0c4`
+
 # Config
 
 ## Overview
-- Documentation for `Config`.
-- Declared as a class in `com.hypixel.hytale.server.core.util`.
 
-## Constructors
+## Constructor Descriptions
 - `Config(@Nonnull Path path, String name, BuilderCodec<T> codec)`
   - Creates a `Config` instance.
 
-## Methods
-- `preloadedConfig(@Nonnull Path path, String name, BuilderCodec<T> codec, T config)`
+## Method Descriptions
+- `preloadedConfig(@Nonnull Path path, String name, BuilderCodec<T> codec, T config)`: Add description.
   - Executes `preloadedConfig` behavior.
-- `load()`
+- `load()`: Add description.
   - Executes `load` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `save()`
+- `save()`: Add description.
   - Executes `save` behavior.
 
 ## Notes

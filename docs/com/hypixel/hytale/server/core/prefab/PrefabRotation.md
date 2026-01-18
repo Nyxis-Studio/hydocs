@@ -1,59 +1,59 @@
+**Source Hash:** `bbc5359cf74a4290024edd694457d7559a9a4eec6ed759988793791257ec13ef`
+
 # PrefabRotation
 
 ## Overview
-- Documentation for `PrefabRotation`.
-- Declared as a enum in `com.hypixel.hytale.server.core.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabRotation(Rotation rotation, RotationExecutor executor)`
   - Creates a `PrefabRotation` instance.
 
-## Methods
-- `fromRotation(@Nonnull Rotation rotation)`
+## Method Descriptions
+- `fromRotation(@Nonnull Rotation rotation)`: Add description.
   - Executes `fromRotation` behavior.
-- `valueOfExtended(@Nonnull String s)`
+- `valueOfExtended(@Nonnull String s)`: Add description.
   - Executes `valueOfExtended` behavior.
-- `add(@Nonnull PrefabRotation other)`
+- `add(@Nonnull PrefabRotation other)`: Add description.
   - Executes `add` behavior.
-- `rotate(@Nonnull Vector3d v)`
+- `rotate(@Nonnull Vector3d v)`: Add description.
   - Executes `rotate` behavior.
-- `rotate(@Nonnull Vector3i v)`
+- `rotate(@Nonnull Vector3i v)`: Add description.
   - Executes `rotate` behavior.
-- `rotate(@Nonnull Vector3l v)`
+- `rotate(@Nonnull Vector3l v)`: Add description.
   - Executes `rotate` behavior.
-- `getX(int x, int z)`
+- `getX(int x, int z)`: Add description.
   - Executes `getX` behavior.
-- `getZ(int x, int z)`
+- `getZ(int x, int z)`: Add description.
   - Executes `getZ` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `getRotation(int rotation)`
+- `getRotation(int rotation)`: Add description.
   - Executes `getRotation` behavior.
-- `getFiller(int filler)`
+- `getFiller(int filler)`: Add description.
   - Executes `getFiller` behavior.
-- `rotateIntX(int var1, int var2)`
+- `rotateIntX(int var1, int var2)`: Add description.
   - Executes `rotateIntX` behavior.
-- `rotateLongX(long var1, long var3)`
+- `rotateLongX(long var1, long var3)`: Add description.
   - Executes `rotateLongX` behavior.
-- `rotateDoubleX(double var1, double var3)`
+- `rotateDoubleX(double var1, double var3)`: Add description.
   - Executes `rotateDoubleX` behavior.
-- `rotateIntZ(int var1, int var2)`
+- `rotateIntZ(int var1, int var2)`: Add description.
   - Executes `rotateIntZ` behavior.
-- `rotateLongZ(long var1, long var3)`
+- `rotateLongZ(long var1, long var3)`: Add description.
   - Executes `rotateLongZ` behavior.
-- `rotateDoubleZ(double var1, double var3)`
+- `rotateDoubleZ(double var1, double var3)`: Add description.
   - Executes `rotateDoubleZ` behavior.
-- `rotateIntX(int x, int z)`
+- `rotateIntX(int x, int z)`: Add description.
   - Executes `rotateIntX` behavior.
-- `rotateLongX(long x, long z)`
+- `rotateLongX(long x, long z)`: Add description.
   - Executes `rotateLongX` behavior.
-- `rotateDoubleX(double x, double z)`
+- `rotateDoubleX(double x, double z)`: Add description.
   - Executes `rotateDoubleX` behavior.
-- `rotateIntZ(int x, int z)`
+- `rotateIntZ(int x, int z)`: Add description.
   - Executes `rotateIntZ` behavior.
-- `rotateLongZ(long x, long z)`
+- `rotateLongZ(long x, long z)`: Add description.
   - Executes `rotateLongZ` behavior.
-- `rotateDoubleZ(double x, double z)`
+- `rotateDoubleZ(double x, double z)`: Add description.
   - Executes `rotateDoubleZ` behavior.
 
 ## Notes

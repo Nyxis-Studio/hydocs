@@ -1,17 +1,17 @@
+**Source Hash:** `cec835a9f2063b0c41ce4d76dfa80fd56890b15261b8dbbb1039e0d0140ae4b5`
+
 # HiddenFromAdventurePlayers
 
 ## Overview
-- Documentation for `HiddenFromAdventurePlayers`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `HiddenFromAdventurePlayers()`
   - Creates a `HiddenFromAdventurePlayers` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

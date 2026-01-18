@@ -1,28 +1,28 @@
+**Source Hash:** `c4e3255a52966471056fc5082ebd6e78bfde7aa47ef2ea9eef6bd4d130e365d9`
+
 # WorldConfig
 
 ## Overview
-- Documentation for `WorldConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isBlockBreakingAllowed()`
+## Method Descriptions
+- `isBlockBreakingAllowed()`: Add description.
   - Executes `isBlockBreakingAllowed` behavior.
-- `isBlockGatheringAllowed()`
+- `isBlockGatheringAllowed()`: Add description.
   - Executes `isBlockGatheringAllowed` behavior.
-- `isBlockPlacementAllowed()`
+- `isBlockPlacementAllowed()`: Add description.
   - Executes `isBlockPlacementAllowed` behavior.
-- `getDaytimeDurationSeconds()`
+- `getDaytimeDurationSeconds()`: Add description.
   - Executes `getDaytimeDurationSeconds` behavior.
-- `getNighttimeDurationSeconds()`
+- `getNighttimeDurationSeconds()`: Add description.
   - Executes `getNighttimeDurationSeconds` behavior.
-- `getTotalMoonPhases()`
+- `getTotalMoonPhases()`: Add description.
   - Executes `getTotalMoonPhases` behavior.
-- `getBlockPlacementFragilityTimer()`
+- `getBlockPlacementFragilityTimer()`: Add description.
   - Executes `getBlockPlacementFragilityTimer` behavior.
-- `getSleepConfig()`
+- `getSleepConfig()`: Add description.
   - Executes `getSleepConfig` behavior.
 
 ## Notes

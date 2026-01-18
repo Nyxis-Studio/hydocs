@@ -1,15 +1,15 @@
+**Source Hash:** `00d652ff2bdff1e1561b39461d6b4671e91fa493944d8fde968f059481941ef4`
+
 # PrefabEditCommand
 
 ## Overview
-- Documentation for `PrefabEditCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditCommand()`
   - Creates a `PrefabEditCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

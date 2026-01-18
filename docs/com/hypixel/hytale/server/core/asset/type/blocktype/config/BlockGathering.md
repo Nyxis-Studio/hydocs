@@ -1,39 +1,39 @@
+**Source Hash:** `602f3d398f10062f6ae7cf9339b0dd4fe3f854108e0fbc74b60efde38837ebb5`
+
 # BlockGathering
 
 ## Overview
-- Documentation for `BlockGathering`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockGathering()`
   - Creates a `BlockGathering` instance.
 
-## Methods
-- `getBreaking()`
+## Method Descriptions
+- `getBreaking()`: Add description.
   - Executes `getBreaking` behavior.
-- `getHarvest()`
+- `getHarvest()`: Add description.
   - Executes `getHarvest` behavior.
-- `getSoft()`
+- `getSoft()`: Add description.
   - Executes `getSoft` behavior.
-- `isHarvestable()`
+- `isHarvestable()`: Add description.
   - Executes `isHarvestable` behavior.
-- `isSoft()`
+- `isSoft()`: Add description.
   - Executes `isSoft` behavior.
-- `getPhysics()`
+- `getPhysics()`: Add description.
   - Executes `getPhysics` behavior.
-- `shouldUseDefaultDropWhenPlaced()`
+- `shouldUseDefaultDropWhenPlaced()`: Add description.
   - Executes `shouldUseDefaultDropWhenPlaced` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getToolData()`
+- `getToolData()`: Add description.
   - Executes `getToolData` behavior.
-- `getTypeId()`
+- `getTypeId()`: Add description.
   - Executes `getTypeId` behavior.
-- `getStateId()`
+- `getStateId()`: Add description.
   - Executes `getStateId` behavior.
-- `getItemId()`
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
 
 ## Notes

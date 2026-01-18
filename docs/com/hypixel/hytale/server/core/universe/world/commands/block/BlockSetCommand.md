@@ -1,15 +1,15 @@
+**Source Hash:** `5c31d52c2b30b71b75c93ef1926ff2e9786894da1e66aef3212ba8938c3ee8ad`
+
 # BlockSetCommand
 
 ## Overview
-- Documentation for `BlockSetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSetCommand()`
   - Creates a `BlockSetCommand` instance.
 
-## Methods
-- `executeWithBlock(@Nonnull CommandContext context, @Nonnull WorldChunk chunk, int x, int y, int z)`
+## Method Descriptions
+- `executeWithBlock(@Nonnull CommandContext context, @Nonnull WorldChunk chunk, int x, int y, int z)`: Add description.
   - Executes `executeWithBlock` behavior.
 
 ## Notes

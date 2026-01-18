@@ -1,48 +1,48 @@
+**Source Hash:** `d960ae5cc9ec4be2c5ca867cdb0a12ab33891867703a44bcc7e087b2c533bbf0`
+
 # BlockCollisionProvider
 
 ## Overview
-- Documentation for `BlockCollisionProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setRequestedCollisionMaterials(int requestedCollisionMaterials)`
+## Method Descriptions
+- `setRequestedCollisionMaterials(int requestedCollisionMaterials)`: Add description.
   - Executes `setRequestedCollisionMaterials` behavior.
-- `setReportOverlaps(boolean reportOverlaps)`
+- `setReportOverlaps(boolean reportOverlaps)`: Add description.
   - Executes `setReportOverlaps` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
-- `accept(long x, long y, long z)`
+- `accept(long x, long y, long z)`: Add description.
   - Executes `accept` behavior.
-- `cast(@Nonnull World world, @Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v, @Nonnull IBlockCollisionConsumer collisionConsumer, @Nonnull IBlockTracker activeTriggers, double collisionStop)`
+- `cast(@Nonnull World world, @Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v, @Nonnull IBlockCollisionConsumer collisionConsumer, @Nonnull IBlockTracker activeTriggers, double collisionStop)`: Add description.
   - Executes `cast` behavior.
-- `castShortDistance(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v)`
+- `castShortDistance(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v)`: Add description.
   - Executes `castShortDistance` behavior.
-- `processBlockStatic(int x, int y, int z)`
+- `processBlockStatic(int x, int y, int z)`: Add description.
   - Executes `processBlockStatic` behavior.
-- `processBlockStaticFluid(int x, int y, int z, @Nonnull Fluid fluid, boolean submergeFluid)`
+- `processBlockStaticFluid(int x, int y, int z, @Nonnull Fluid fluid, boolean submergeFluid)`: Add description.
   - Executes `processBlockStaticFluid` behavior.
-- `canCollide()`
+- `canCollide()`: Add description.
   - Executes `canCollide` behavior.
-- `canCollide(int collisionMaterials)`
+- `canCollide(int collisionMaterials)`: Add description.
   - Executes `canCollide` behavior.
-- `castIterative(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v, double collisionStop)`
+- `castIterative(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d v, double collisionStop)`: Add description.
   - Executes `castIterative` behavior.
-- `onSliceFinished()`
+- `onSliceFinished()`: Add description.
   - Executes `onSliceFinished` behavior.
-- `processBlockDynamic(int x, int y, int z)`
+- `processBlockDynamic(int x, int y, int z)`: Add description.
   - Executes `processBlockDynamic` behavior.
-- `processBlockDynamicFluid(int x, int y, int z, @Nonnull Fluid fluid, BlockContactData damageCollisionData, boolean isSubmergeFluid)`
+- `processBlockDynamicFluid(int x, int y, int z, @Nonnull Fluid fluid, BlockContactData damageCollisionData, boolean isSubmergeFluid)`: Add description.
   - Executes `processBlockDynamicFluid` behavior.
-- `processTriggerDynamic(int blockX, int blockY, int blockZ, @Nullable BlockContactData collisionData)`
+- `processTriggerDynamic(int blockX, int blockY, int blockZ, @Nullable BlockContactData collisionData)`: Add description.
   - Executes `processTriggerDynamic` behavior.
-- `processDamageDynamic(int blockX, int blockY, int blockZ, @Nullable BlockContactData collisionData)`
+- `processDamageDynamic(int blockX, int blockY, int blockZ, @Nullable BlockContactData collisionData)`: Add description.
   - Executes `processDamageDynamic` behavior.
-- `updateStopDistance(@Nullable IBlockCollisionConsumer.Result result)`
+- `updateStopDistance(@Nullable IBlockCollisionConsumer.Result result)`: Add description.
   - Executes `updateStopDistance` behavior.
-- `generateTriggerExit()`
+- `generateTriggerExit()`: Add description.
   - Executes `generateTriggerExit` behavior.
 
 ## Notes

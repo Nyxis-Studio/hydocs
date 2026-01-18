@@ -1,14 +1,14 @@
+**Source Hash:** `944eab16d8bd22a466b73cf4f45f1a82ae27b0fe804ca08dd0e1d82b1ca8756b`
+
 # ConstantMaterialProviderAsset
 
 ## Overview
-- Documentation for `ConstantMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

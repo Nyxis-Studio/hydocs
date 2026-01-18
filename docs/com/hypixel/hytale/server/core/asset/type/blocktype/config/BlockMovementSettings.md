@@ -1,39 +1,39 @@
+**Source Hash:** `8d9cc651a514c9fcb6de66ae048ba96ecf0c8a06a5eb1db3a957cb5a0bccdd22`
+
 # BlockMovementSettings
 
 ## Overview
-- Documentation for `BlockMovementSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMovementSettings(boolean isClimbable, boolean isBouncy, float bounceVelocity, float drag, float friction, float climbUpSpeed, float climbDownSpeed, float climbLateralSpeedMultiplier, float terminalVelocityModifier, float horizontalSpeedMultiplier, float jumpForceMultiplier)`
   - Creates a `BlockMovementSettings` instance.
 - `BlockMovementSettings()`
   - Creates a `BlockMovementSettings` instance.
 
-## Methods
-- `isClimbable()`
+## Method Descriptions
+- `isClimbable()`: Add description.
   - Executes `isClimbable` behavior.
-- `isBouncy()`
+- `isBouncy()`: Add description.
   - Executes `isBouncy` behavior.
-- `getBounceVelocity()`
+- `getBounceVelocity()`: Add description.
   - Executes `getBounceVelocity` behavior.
-- `getDrag()`
+- `getDrag()`: Add description.
   - Executes `getDrag` behavior.
-- `getFriction()`
+- `getFriction()`: Add description.
   - Executes `getFriction` behavior.
-- `getClimbUpSpeedMultiplier()`
+- `getClimbUpSpeedMultiplier()`: Add description.
   - Executes `getClimbUpSpeedMultiplier` behavior.
-- `getClimbDownSpeedMultiplier()`
+- `getClimbDownSpeedMultiplier()`: Add description.
   - Executes `getClimbDownSpeedMultiplier` behavior.
-- `getClimbLateralSpeedMultiplier()`
+- `getClimbLateralSpeedMultiplier()`: Add description.
   - Executes `getClimbLateralSpeedMultiplier` behavior.
-- `getTerminalVelocityModifier()`
+- `getTerminalVelocityModifier()`: Add description.
   - Executes `getTerminalVelocityModifier` behavior.
-- `getHorizontalSpeedMultiplier()`
+- `getHorizontalSpeedMultiplier()`: Add description.
   - Executes `getHorizontalSpeedMultiplier` behavior.
-- `jumpForceMultiplier()`
+- `jumpForceMultiplier()`: Add description.
   - Executes `jumpForceMultiplier` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

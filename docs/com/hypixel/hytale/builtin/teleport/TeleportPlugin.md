@@ -1,47 +1,47 @@
+**Source Hash:** `4149ce3a43858947a5050bbc8d864d20b63cd11fe8aa5a37c9f386c7108ee3b4`
+
 # TeleportPlugin
 
 ## Overview
-- Documentation for `TeleportPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `TeleportPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getTeleportHistoryComponentType()`
+- `getTeleportHistoryComponentType()`: Add description.
   - Executes `getTeleportHistoryComponentType` behavior.
-- `isWarpsLoaded()`
+- `isWarpsLoaded()`: Add description.
   - Executes `isWarpsLoaded` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `loadWarps()`
+- `loadWarps()`: Add description.
   - Executes `loadWarps` behavior.
-- `saveWarps0()`
+- `saveWarps0()`: Add description.
   - Executes `saveWarps0` behavior.
-- `saveWarps()`
+- `saveWarps()`: Add description.
   - Executes `saveWarps` behavior.
-- `getWarps()`
+- `getWarps()`: Add description.
   - Executes `getWarps` behavior.
-- `onModelAssetChange(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`
+- `onModelAssetChange(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`: Add description.
   - Executes `onModelAssetChange` behavior.
-- `onChunkPreLoadProcess(@Nonnull ChunkPreLoadProcessEvent event)`
+- `onChunkPreLoadProcess(@Nonnull ChunkPreLoadProcessEvent event)`: Add description.
   - Executes `onChunkPreLoadProcess` behavior.
-- `createWarp(@Nonnull Warp warp, @Nonnull Store<EntityStore> store)`
+- `createWarp(@Nonnull Warp warp, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `createWarp` behavior.
-- `WarpComponent(Warp warp)`
+- `WarpComponent(Warp warp)`: Add description.
   - Executes `WarpComponent` behavior.
-- `getComponentType()`
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`: Add description.
   - Executes `update` behavior.
 
 ## Notes

@@ -1,37 +1,37 @@
+**Source Hash:** `54907a5fd59c501f9bd0bd480375cc63154797b607ea069a9069dc458973a759`
+
 # ParkourPlugin
 
 ## Overview
-- Documentation for `ParkourPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.parkour`.
 
-## Constructors
+## Constructor Descriptions
 - `ParkourPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `ParkourPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getParkourCheckpointComponentType()`
+- `getParkourCheckpointComponentType()`: Add description.
   - Executes `getParkourCheckpointComponentType` behavior.
-- `getParkourCheckpointModel()`
+- `getParkourCheckpointModel()`: Add description.
   - Executes `getParkourCheckpointModel` behavior.
-- `getCurrentCheckpointByPlayerMap()`
+- `getCurrentCheckpointByPlayerMap()`: Add description.
   - Executes `getCurrentCheckpointByPlayerMap` behavior.
-- `getStartTimeByPlayerMap()`
+- `getStartTimeByPlayerMap()`: Add description.
   - Executes `getStartTimeByPlayerMap` behavior.
-- `getCheckpointUUIDMap()`
+- `getCheckpointUUIDMap()`: Add description.
   - Executes `getCheckpointUUIDMap` behavior.
-- `getLastIndex()`
+- `getLastIndex()`: Add description.
   - Executes `getLastIndex` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `updateLastIndex(int index)`
+- `updateLastIndex(int index)`: Add description.
   - Executes `updateLastIndex` behavior.
-- `updateLastIndex()`
+- `updateLastIndex()`: Add description.
   - Executes `updateLastIndex` behavior.
-- `resetPlayer(UUID playerUuid)`
+- `resetPlayer(UUID playerUuid)`: Add description.
   - Executes `resetPlayer` behavior.
 
 ## Notes

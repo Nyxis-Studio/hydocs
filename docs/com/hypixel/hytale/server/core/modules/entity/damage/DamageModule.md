@@ -1,29 +1,29 @@
+**Source Hash:** `57791d42323cb6cd0d97871ee782373404afafe45d54f97388dd65b84a5c303c`
+
 # DamageModule
 
 ## Overview
-- Documentation for `DamageModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.damage`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageModule(@Nonnull JavaPluginInit init)`
   - Creates a `DamageModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getDeathComponentType()`
+- `getDeathComponentType()`: Add description.
   - Executes `getDeathComponentType` behavior.
-- `getDeferredCorpseRemovalComponentType()`
+- `getDeferredCorpseRemovalComponentType()`: Add description.
   - Executes `getDeferredCorpseRemovalComponentType` behavior.
-- `getGatherDamageGroup()`
+- `getGatherDamageGroup()`: Add description.
   - Executes `getGatherDamageGroup` behavior.
-- `getFilterDamageGroup()`
+- `getFilterDamageGroup()`: Add description.
   - Executes `getFilterDamageGroup` behavior.
-- `getInspectDamageGroup()`
+- `getInspectDamageGroup()`: Add description.
   - Executes `getInspectDamageGroup` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
 
 ## Notes

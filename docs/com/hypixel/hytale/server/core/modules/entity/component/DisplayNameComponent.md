@@ -1,10 +1,10 @@
+**Source Hash:** `450716a96fde201cda1f3b61e1e8e397bd5f76809a9e18e844f9269af03b2560`
+
 # DisplayNameComponent
 
 ## Overview
-- Documentation for `DisplayNameComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `DisplayNameComponent()`
   - Creates a `DisplayNameComponent` instance.
 - `DisplayNameComponent(@Nullable Message displayName)`
@@ -12,12 +12,12 @@
 - `DisplayNameComponent(this.displayName)`
   - Creates a `DisplayNameComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getDisplayName()`
+- `getDisplayName()`: Add description.
   - Executes `getDisplayName` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

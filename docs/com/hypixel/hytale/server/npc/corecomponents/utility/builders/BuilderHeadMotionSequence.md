@@ -1,19 +1,19 @@
+**Source Hash:** `a922688d75e341873d1f76f55af2a90a9a9c3af216fd82a2fddadca7dfcf009b`
+
 # BuilderHeadMotionSequence
 
 ## Overview
-- Documentation for `BuilderHeadMotionSequence`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderHeadMotionSequence()`
   - Creates a `BuilderHeadMotionSequence` instance.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getSteps(@Nonnull BuilderSupport builderSupport)`
+- `getSteps(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSteps` behavior.
 
 ## Notes

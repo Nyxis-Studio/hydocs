@@ -1,25 +1,25 @@
+**Source Hash:** `f44bb13dad551572d063c1561d3a18f1bec0e0090236f1005ac4a01e35aa5aaa`
+
 # StartSlumberSystem
 
 ## Overview
-- Documentation for `StartSlumberSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.systems.world`.
 
-## Constructors
+## Constructor Descriptions
 - `StartSlumberSystem()`
   - Creates a `StartSlumberSystem` instance.
 
-## Methods
-- `delayedTick(float dt, int systemIndex, @NonNullDecl Store<EntityStore> store)`
+## Method Descriptions
+- `delayedTick(float dt, int systemIndex, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `delayedTick` behavior.
-- `checkIfEveryoneIsReadyToSleep(Store<EntityStore> store)`
+- `checkIfEveryoneIsReadyToSleep(Store<EntityStore> store)`: Add description.
   - Executes `checkIfEveryoneIsReadyToSleep` behavior.
-- `computeWakeupInstant(Instant now, float wakeUpHour)`
+- `computeWakeupInstant(Instant now, float wakeUpHour)`: Add description.
   - Executes `computeWakeupInstant` behavior.
-- `computeIrlSeconds(Instant startInstant, Instant targetInstant)`
+- `computeIrlSeconds(Instant startInstant, Instant targetInstant)`: Add description.
   - Executes `computeIrlSeconds` behavior.
-- `isEveryoneReadyToSleep(ComponentAccessor<EntityStore> store)`
+- `isEveryoneReadyToSleep(ComponentAccessor<EntityStore> store)`: Add description.
   - Executes `isEveryoneReadyToSleep` behavior.
-- `isReadyToSleep(ComponentAccessor<EntityStore> store, Ref<EntityStore> ref)`
+- `isReadyToSleep(ComponentAccessor<EntityStore> store, Ref<EntityStore> ref)`: Add description.
   - Executes `isReadyToSleep` behavior.
 
 ## Notes

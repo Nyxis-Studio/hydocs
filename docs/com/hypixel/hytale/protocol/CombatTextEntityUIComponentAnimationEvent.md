@@ -1,10 +1,10 @@
+**Source Hash:** `328fd100cc8b13f5d654aebc384ddd977d89ddd49428e49ccb041c515770ece3`
+
 # CombatTextEntityUIComponentAnimationEvent
 
 ## Overview
-- Documentation for `CombatTextEntityUIComponentAnimationEvent`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CombatTextEntityUIComponentAnimationEvent()`
   - Creates a `CombatTextEntityUIComponentAnimationEvent` instance.
 - `CombatTextEntityUIComponentAnimationEvent(@Nonnull CombatTextEntityUIAnimationEventType type, float startAt, float endAt, float startScale, float endScale, @Nullable Vector2f positionOffset, float startOpacity, float endOpacity)`
@@ -12,22 +12,22 @@
 - `CombatTextEntityUIComponentAnimationEvent(@Nonnull CombatTextEntityUIComponentAnimationEvent other)`
   - Creates a `CombatTextEntityUIComponentAnimationEvent` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

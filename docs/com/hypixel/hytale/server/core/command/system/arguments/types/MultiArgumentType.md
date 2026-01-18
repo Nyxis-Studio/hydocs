@@ -1,19 +1,19 @@
+**Source Hash:** `3179461e81b37f956efaaf242c25b5e3c4677a088c4f52463455406562702669`
+
 # MultiArgumentType
 
 ## Overview
-- Documentation for `MultiArgumentType`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `MultiArgumentType(@Nonnull String name, @Nonnull String argumentUsage, String ... examples)`
   - Creates a `MultiArgumentType` instance.
 
-## Methods
-- `withParameter(@Nonnull String name, @Nonnull String usage, @Nonnull SingleArgumentType<D> argumentType)`
+## Method Descriptions
+- `withParameter(@Nonnull String name, @Nonnull String usage, @Nonnull SingleArgumentType<D> argumentType)`: Add description.
   - Executes `withParameter` behavior.
-- `parse(@Nonnull String[] input, @Nonnull ParseResult parseResult)`
+- `parse(@Nonnull String[] input, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `parse(@Nonnull MultiArgumentContext var1, @Nonnull ParseResult var2)`
+- `parse(@Nonnull MultiArgumentContext var1, @Nonnull ParseResult var2)`: Add description.
   - Executes `parse` behavior.
 
 ## Notes

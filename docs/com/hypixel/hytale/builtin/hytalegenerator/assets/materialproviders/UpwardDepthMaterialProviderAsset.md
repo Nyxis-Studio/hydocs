@@ -1,16 +1,16 @@
+**Source Hash:** `e74d745ca8910b88a4060c395c484d54636c6786c70c6db2ff8d1edc4bbdb557`
+
 # UpwardDepthMaterialProviderAsset
 
 ## Overview
-- Documentation for `UpwardDepthMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

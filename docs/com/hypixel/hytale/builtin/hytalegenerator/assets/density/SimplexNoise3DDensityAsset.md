@@ -1,16 +1,16 @@
+**Source Hash:** `0991679af0b76c356965a37dfe440010b5058c48df2db352b0c733a238a8924d`
+
 # SimplexNoise3DDensityAsset
 
 ## Overview
-- Documentation for `SimplexNoise3DDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

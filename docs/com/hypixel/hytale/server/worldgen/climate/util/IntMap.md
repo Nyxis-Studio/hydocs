@@ -1,27 +1,27 @@
+**Source Hash:** `b4f3f61d311e627462dad5369448c9a244b768c2f5797d136345342ccc678fe7`
+
 # IntMap
 
 ## Overview
-- Documentation for `IntMap`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.climate.util`.
 
-## Constructors
+## Constructor Descriptions
 - `IntMap(int width, int height)`
   - Creates a `IntMap` instance.
 
-## Methods
-- `index(int x, int y)`
+## Method Descriptions
+- `index(int x, int y)`: Add description.
   - Executes `index` behavior.
-- `validate(int index)`
+- `validate(int index)`: Add description.
   - Executes `validate` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `at(int x, int y)`
+- `at(int x, int y)`: Add description.
   - Executes `at` behavior.
-- `at(int index)`
+- `at(int index)`: Add description.
   - Executes `at` behavior.
-- `set(int x, int y, int value)`
+- `set(int x, int y, int value)`: Add description.
   - Executes `set` behavior.
-- `set(int index, int value)`
+- `set(int index, int value)`: Add description.
   - Executes `set` behavior.
 
 ## Notes

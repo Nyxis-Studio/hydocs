@@ -1,19 +1,19 @@
+**Source Hash:** `c84c41d7782f361a74d0ec8c34a542f2e6fcfd4ca73698fe0add8abc2395618b`
+
 # ExistsIfParameterSetValidator
 
 ## Overview
-- Documentation for `ExistsIfParameterSetValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `ExistsIfParameterSetValidator(String parameter, String attribute)`
   - Creates a `ExistsIfParameterSetValidator` instance.
 - `ExistsIfParameterSetValidator(parameter, attribute)`
   - Creates a `ExistsIfParameterSetValidator` instance.
 
-## Methods
-- `errorMessage(String parameter, String attribute)`
+## Method Descriptions
+- `errorMessage(String parameter, String attribute)`: Add description.
   - Executes `errorMessage` behavior.
-- `withAttributes(String parameter, String attribute)`
+- `withAttributes(String parameter, String attribute)`: Add description.
   - Executes `withAttributes` behavior.
 
 ## Notes

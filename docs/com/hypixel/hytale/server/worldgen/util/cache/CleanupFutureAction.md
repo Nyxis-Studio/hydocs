@@ -1,15 +1,15 @@
+**Source Hash:** `9c5625bc720d8e68b224e3c02b94d3bfed7998b4cfbaf58bdca1667aa67a774a`
+
 # CleanupFutureAction
 
 ## Overview
-- Documentation for `CleanupFutureAction`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.cache`.
 
-## Constructors
+## Constructor Descriptions
 - `CleanupFutureAction(ScheduledFuture<?> future)`
   - Creates a `CleanupFutureAction` instance.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
 
 ## Notes

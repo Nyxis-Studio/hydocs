@@ -1,14 +1,14 @@
+**Source Hash:** `0cf4059aad1f0f9899b513b8cab118ca86cc86598b35dd9008d4bf5d49c37a98`
+
 # MeshPointGeneratorAsset
 
 ## Overview
-- Documentation for `MeshPointGeneratorAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.pointgenerators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

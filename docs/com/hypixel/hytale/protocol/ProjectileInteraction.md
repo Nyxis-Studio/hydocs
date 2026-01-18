@@ -1,10 +1,10 @@
+**Source Hash:** `022764c48e286ce3d8867c48ceb684dceb4180db47ad52dcc111170c74ee6d5f`
+
 # ProjectileInteraction
 
 ## Overview
-- Documentation for `ProjectileInteraction`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ProjectileInteraction()`
   - Creates a `ProjectileInteraction` instance.
 - `ProjectileInteraction(@Nonnull WaitForDataFrom waitForDataFrom, @Nullable InteractionEffects effects, float horizontalSpeedMultiplier, float runTime, boolean cancelOnItemChange, @Nullable Map<GameMode, InteractionSettings> settings, @Nullable InteractionRules rules, @Nullable int[] tags, @Nullable InteractionCameraSettings camera, int next, int failed, @Nullable String configId)`
@@ -12,22 +12,22 @@
 - `ProjectileInteraction(@Nonnull ProjectileInteraction other)`
   - Creates a `ProjectileInteraction` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

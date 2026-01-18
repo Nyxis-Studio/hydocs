@@ -1,17 +1,17 @@
+**Source Hash:** `4a28f03a346886b63bc2498cb694bd4394a21bf4540f4d78de55b757d69b24d6`
+
 # ActionSetBlockToPlace
 
 ## Overview
-- Documentation for `ActionSetBlockToPlace`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionSetBlockToPlace(@Nonnull BuilderActionSetBlockToPlace builder, @Nonnull BuilderSupport support)`
   - Creates a `ActionSetBlockToPlace` instance.
 
-## Methods
-- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `canExecute` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `48254d8a4068cafe76f28bff645a6b1705f1858fb159b4240d70947c2908d0e5`
+
 # PondFillerPropAsset
 
 ## Overview
-- Documentation for `PondFillerPropAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PropAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PropAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

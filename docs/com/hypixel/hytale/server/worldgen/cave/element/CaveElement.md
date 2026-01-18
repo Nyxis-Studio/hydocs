@@ -1,14 +1,14 @@
+**Source Hash:** `85b807016d5a756e8372b21e5212f888ee07d29a9df7baaa9346e535c57d7176`
+
 # CaveElement
 
 ## Overview
-- Documentation for `CaveElement`.
-- Declared as a interface in `com.hypixel.hytale.server.worldgen.cave.element`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBounds()`
+## Method Descriptions
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
 
 ## Notes

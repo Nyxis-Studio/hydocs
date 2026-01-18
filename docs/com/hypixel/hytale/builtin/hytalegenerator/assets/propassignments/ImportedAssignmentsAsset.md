@@ -1,14 +1,14 @@
+**Source Hash:** `5203ee163821d15f8ca73967bb55a49cae25e73423a59ec996ec8df81ed47f69`
+
 # ImportedAssignmentsAsset
 
 ## Overview
-- Documentation for `ImportedAssignmentsAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.propassignments`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull AssignmentsAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull AssignmentsAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

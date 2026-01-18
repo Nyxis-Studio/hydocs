@@ -1,32 +1,32 @@
+**Source Hash:** `580bb766518e26873207bb4d7e73963da1cf6ffe23ca1ed9594575bea9f541ea`
+
 # BuilderActionTimerModify
 
 ## Overview
-- Documentation for `BuilderActionTimerModify`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getIncreaseValue(@Nonnull BuilderSupport builderSupport)`
+- `getIncreaseValue(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getIncreaseValue` behavior.
-- `getRestartValueRange(@Nonnull BuilderSupport builderSupport)`
+- `getRestartValueRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRestartValueRange` behavior.
-- `getRate(@Nonnull BuilderSupport builderSupport)`
+- `getRate(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRate` behavior.
-- `getSetValue(@Nonnull BuilderSupport builderSupport)`
+- `getSetValue(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSetValue` behavior.
-- `isModifyRepeating()`
+- `isModifyRepeating()`: Add description.
   - Executes `isModifyRepeating` behavior.
-- `isRepeating(@Nonnull BuilderSupport support)`
+- `isRepeating(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isRepeating` behavior.
 
 ## Notes

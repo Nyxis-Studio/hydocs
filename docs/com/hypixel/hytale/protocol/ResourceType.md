@@ -1,10 +1,10 @@
+**Source Hash:** `bd39a483d01d25fd01946166ac0a9d28c8399a7d9f71e098329fae0c3f1a9d3d`
+
 # ResourceType
 
 ## Overview
-- Documentation for `ResourceType`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ResourceType()`
   - Creates a `ResourceType` instance.
 - `ResourceType(@Nullable String id, @Nullable String icon)`
@@ -12,22 +12,22 @@
 - `ResourceType(@Nonnull ResourceType other)`
   - Creates a `ResourceType` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

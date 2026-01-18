@@ -1,14 +1,14 @@
+**Source Hash:** `9a417abb0d3702bf902a6d374905e1308b7d5dd1ac6ab05060df063e0b988429`
+
 # OrthogonalDirection
 
 ## Overview
-- Documentation for `OrthogonalDirection`.
-- Declared as a enum in `com.hypixel.hytale.builtin.hytalegenerator.props.directionality`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

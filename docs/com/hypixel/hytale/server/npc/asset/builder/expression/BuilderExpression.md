@@ -1,54 +1,54 @@
+**Source Hash:** `6b4d6e95034ece834d12aaf6b0afa0ccb163a21277d3cb91fa5ae83b8f1adf5f`
+
 # BuilderExpression
 
 ## Overview
-- Documentation for `BuilderExpression`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.expression`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `isStatic()`
+- `isStatic()`: Add description.
   - Executes `isStatic` behavior.
-- `getNumber(ExecutionContext executionContext)`
+- `getNumber(ExecutionContext executionContext)`: Add description.
   - Executes `getNumber` behavior.
-- `getString(ExecutionContext executionContext)`
+- `getString(ExecutionContext executionContext)`: Add description.
   - Executes `getString` behavior.
-- `getBoolean(ExecutionContext executionContext)`
+- `getBoolean(ExecutionContext executionContext)`: Add description.
   - Executes `getBoolean` behavior.
-- `getNumberArray(ExecutionContext executionContext)`
+- `getNumberArray(ExecutionContext executionContext)`: Add description.
   - Executes `getNumberArray` behavior.
-- `getIntegerArray(ExecutionContext executionContext)`
+- `getIntegerArray(ExecutionContext executionContext)`: Add description.
   - Executes `getIntegerArray` behavior.
-- `getStringArray(ExecutionContext executionContext)`
+- `getStringArray(ExecutionContext executionContext)`: Add description.
   - Executes `getStringArray` behavior.
-- `getBooleanArray(ExecutionContext executionContext)`
+- `getBooleanArray(ExecutionContext executionContext)`: Add description.
   - Executes `getBooleanArray` behavior.
-- `addToScope(String name, StdScope scope)`
+- `addToScope(String name, StdScope scope)`: Add description.
   - Executes `addToScope` behavior.
-- `updateScope(StdScope scope, String name, ExecutionContext executionContext)`
+- `updateScope(StdScope scope, String name, ExecutionContext executionContext)`: Add description.
   - Executes `updateScope` behavior.
-- `getExpression()`
+- `getExpression()`: Add description.
   - Executes `getExpression` behavior.
-- `fromOperand(@Nonnull ExecutionContext.Operand operand)`
+- `fromOperand(@Nonnull ExecutionContext.Operand operand)`: Add description.
   - Executes `fromOperand` behavior.
-- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters, boolean constantsOnly)`
+- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters, boolean constantsOnly)`: Add description.
   - Executes `fromJSON` behavior.
-- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters, ValueType expectedType)`
+- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters, ValueType expectedType)`: Add description.
   - Executes `fromJSON` behavior.
-- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters)`
+- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `fromJSON` behavior.
-- `readJSONPrimitive(@Nonnull JsonElement jsonElement)`
+- `readJSONPrimitive(@Nonnull JsonElement jsonElement)`: Add description.
   - Executes `readJSONPrimitive` behavior.
-- `readStaticArray(@Nonnull JsonElement jsonElement)`
+- `readStaticArray(@Nonnull JsonElement jsonElement)`: Add description.
   - Executes `readStaticArray` behavior.
-- `compile(BuilderParameters builderParameters)`
+- `compile(BuilderParameters builderParameters)`: Add description.
   - Executes `compile` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
-- `getSchemaName()`
+- `getSchemaName()`: Add description.
   - Executes `getSchemaName` behavior.
 
 ## Notes

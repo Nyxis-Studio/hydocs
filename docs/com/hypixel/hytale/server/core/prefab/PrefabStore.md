@@ -1,77 +1,77 @@
+**Source Hash:** `48efada9cc77ac93451181820d301575babf21c789ec37798ad774bf4c2008f2`
+
 # PrefabStore
 
 ## Overview
-- Documentation for `PrefabStore`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabStore()`
   - Creates a `PrefabStore` instance.
 
-## Methods
-- `getServerPrefab(@Nonnull String key)`
+## Method Descriptions
+- `getServerPrefab(@Nonnull String key)`: Add description.
   - Executes `getServerPrefab` behavior.
-- `getPrefab(@Nonnull Path path)`
+- `getPrefab(@Nonnull Path path)`: Add description.
   - Executes `getPrefab` behavior.
-- `getServerPrefabsPath()`
+- `getServerPrefabsPath()`: Add description.
   - Executes `getServerPrefabsPath` behavior.
-- `getServerPrefabDir(@Nonnull String key)`
+- `getServerPrefabDir(@Nonnull String key)`: Add description.
   - Executes `getServerPrefabDir` behavior.
-- `getPrefabDir(@Nonnull Path dir)`
+- `getPrefabDir(@Nonnull Path dir)`: Add description.
   - Executes `getPrefabDir` behavior.
-- `saveServerPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`
+- `saveServerPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`: Add description.
   - Executes `saveServerPrefab` behavior.
-- `saveWorldGenPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`
+- `saveWorldGenPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`: Add description.
   - Executes `saveWorldGenPrefab` behavior.
-- `savePrefab(@Nonnull Path path, @Nonnull BlockSelection prefab, boolean overwrite)`
+- `savePrefab(@Nonnull Path path, @Nonnull BlockSelection prefab, boolean overwrite)`: Add description.
   - Executes `savePrefab` behavior.
-- `getWorldGenPrefabsPath()`
+- `getWorldGenPrefabsPath()`: Add description.
   - Executes `getWorldGenPrefabsPath` behavior.
-- `getAssetRootPath()`
+- `getAssetRootPath()`: Add description.
   - Executes `getAssetRootPath` behavior.
-- `getWorldGenPrefabsPath(@Nullable String name)`
+- `getWorldGenPrefabsPath(@Nullable String name)`: Add description.
   - Executes `getWorldGenPrefabsPath` behavior.
-- `saveServerPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`
+- `saveServerPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`: Add description.
   - Executes `saveServerPrefab` behavior.
-- `getAssetPrefabsPath()`
+- `getAssetPrefabsPath()`: Add description.
   - Executes `getAssetPrefabsPath` behavior.
-- `getAssetPrefabsPathForPack(@Nonnull AssetPack pack)`
+- `getAssetPrefabsPathForPack(@Nonnull AssetPack pack)`: Add description.
   - Executes `getAssetPrefabsPathForPack` behavior.
-- `getAllAssetPrefabPaths()`
+- `getAllAssetPrefabPaths()`: Add description.
   - Executes `getAllAssetPrefabPaths` behavior.
-- `getAssetPrefabFromAnyPack(@Nonnull String key)`
+- `getAssetPrefabFromAnyPack(@Nonnull String key)`: Add description.
   - Executes `getAssetPrefabFromAnyPack` behavior.
-- `findAssetPrefabPath(@Nonnull String key)`
+- `findAssetPrefabPath(@Nonnull String key)`: Add description.
   - Executes `findAssetPrefabPath` behavior.
-- `findAssetPackForPrefabPath(@Nonnull Path prefabPath)`
+- `findAssetPackForPrefabPath(@Nonnull Path prefabPath)`: Add description.
   - Executes `findAssetPackForPrefabPath` behavior.
-- `getAssetPrefab(@Nonnull String key)`
+- `getAssetPrefab(@Nonnull String key)`: Add description.
   - Executes `getAssetPrefab` behavior.
-- `getAssetPrefabDir(@Nonnull String key)`
+- `getAssetPrefabDir(@Nonnull String key)`: Add description.
   - Executes `getAssetPrefabDir` behavior.
-- `saveAssetPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`
+- `saveAssetPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`: Add description.
   - Executes `saveAssetPrefab` behavior.
-- `saveAssetPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`
+- `saveAssetPrefab(@Nonnull String key, @Nonnull BlockSelection prefab, boolean overwrite)`: Add description.
   - Executes `saveAssetPrefab` behavior.
-- `getWorldGenPrefab(@Nonnull String key)`
+- `getWorldGenPrefab(@Nonnull String key)`: Add description.
   - Executes `getWorldGenPrefab` behavior.
-- `getWorldGenPrefab(@Nonnull Path prefabsPath, @Nonnull String key)`
+- `getWorldGenPrefab(@Nonnull Path prefabsPath, @Nonnull String key)`: Add description.
   - Executes `getWorldGenPrefab` behavior.
-- `getWorldGenPrefabDir(@Nonnull String key)`
+- `getWorldGenPrefabDir(@Nonnull String key)`: Add description.
   - Executes `getWorldGenPrefabDir` behavior.
-- `saveWorldGenPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`
+- `saveWorldGenPrefab(@Nonnull String key, @Nonnull BlockSelection prefab)`: Add description.
   - Executes `saveWorldGenPrefab` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `AssetPackPrefabPath(@Nullable AssetPack pack, @Nonnull Path prefabsPath)`
+- `AssetPackPrefabPath(@Nullable AssetPack pack, @Nonnull Path prefabsPath)`: Add description.
   - Executes `AssetPackPrefabPath` behavior.
-- `isBasePack()`
+- `isBasePack()`: Add description.
   - Executes `isBasePack` behavior.
-- `isFromAssetPack()`
+- `isFromAssetPack()`: Add description.
   - Executes `isFromAssetPack` behavior.
-- `getPackName()`
+- `getPackName()`: Add description.
   - Executes `getPackName` behavior.
-- `getDisplayName()`
+- `getDisplayName()`: Add description.
   - Executes `getDisplayName` behavior.
 
 ## Notes

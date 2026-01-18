@@ -1,10 +1,10 @@
+**Source Hash:** `c8673dc5c340915831f9e6d524fea6128328584292036ad3d8b948d594c9a639`
+
 # CollisionResultComponent
 
 ## Overview
-- Documentation for `CollisionResultComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `CollisionResultComponent()`
   - Creates a `CollisionResultComponent` instance.
 - `CollisionResultComponent(@Nonnull CollisionResultComponent other)`
@@ -12,28 +12,28 @@
 - `CollisionResultComponent(this)`
   - Creates a `CollisionResultComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getCollisionResult()`
+- `getCollisionResult()`: Add description.
   - Executes `getCollisionResult` behavior.
-- `getCollisionStartPosition()`
+- `getCollisionStartPosition()`: Add description.
   - Executes `getCollisionStartPosition` behavior.
-- `getCollisionPositionOffset()`
+- `getCollisionPositionOffset()`: Add description.
   - Executes `getCollisionPositionOffset` behavior.
-- `getCollisionStartPositionCopy()`
+- `getCollisionStartPositionCopy()`: Add description.
   - Executes `getCollisionStartPositionCopy` behavior.
-- `getCollisionPositionOffsetCopy()`
+- `getCollisionPositionOffsetCopy()`: Add description.
   - Executes `getCollisionPositionOffsetCopy` behavior.
-- `isPendingCollisionCheck()`
+- `isPendingCollisionCheck()`: Add description.
   - Executes `isPendingCollisionCheck` behavior.
-- `markPendingCollisionCheck()`
+- `markPendingCollisionCheck()`: Add description.
   - Executes `markPendingCollisionCheck` behavior.
-- `consumePendingCollisionCheck()`
+- `consumePendingCollisionCheck()`: Add description.
   - Executes `consumePendingCollisionCheck` behavior.
-- `resetLocationChange()`
+- `resetLocationChange()`: Add description.
   - Executes `resetLocationChange` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

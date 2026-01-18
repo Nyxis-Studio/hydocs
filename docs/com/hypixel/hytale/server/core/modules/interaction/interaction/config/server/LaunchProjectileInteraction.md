@@ -1,20 +1,20 @@
+**Source Hash:** `99a9cc8f6db184851e02814b3e4df06c8c772837ff3afa3b3a4181eaa9bddf38`
+
 # LaunchProjectileInteraction
 
 ## Overview
-- Documentation for `LaunchProjectileInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getProjectileId()`
+## Method Descriptions
+- `getProjectileId()`: Add description.
   - Executes `getProjectileId` behavior.
-- `getBallisticData()`
+- `getBallisticData()`: Add description.
   - Executes `getBallisticData` behavior.
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `simulateFirstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `simulateFirstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateFirstRun` behavior.
 
 ## Notes

@@ -1,28 +1,28 @@
+**Source Hash:** `15235f08bda47b0dd3500772f4cb8b6b27ddb4790a01935b4cf0f14e791ed34b`
+
 # BuilderActionSetInteractable
 
 ## Overview
-- Documentation for `BuilderActionSetInteractable`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.interaction.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getSetTo(@Nonnull BuilderSupport support)`
+- `getSetTo(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getSetTo` behavior.
-- `getHint()`
+- `getHint()`: Add description.
   - Executes `getHint` behavior.
-- `getShowPrompt()`
+- `getShowPrompt()`: Add description.
   - Executes `getShowPrompt` behavior.
 
 ## Notes

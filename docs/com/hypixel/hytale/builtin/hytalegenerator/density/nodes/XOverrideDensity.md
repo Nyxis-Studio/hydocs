@@ -1,17 +1,17 @@
+**Source Hash:** `cb9ea49bcac97e4e5f479fd46d99d833d694ab67a9b888a1b788e0556530ecf1`
+
 # XOverrideDensity
 
 ## Overview
-- Documentation for `XOverrideDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `XOverrideDensity(@Nonnull Density input, double value)`
   - Creates a `XOverrideDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

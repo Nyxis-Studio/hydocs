@@ -1,10 +1,10 @@
+**Source Hash:** `bcdd2e36451b5fb5cdd2c803ba1347feee256f4604f06962c9f1af56b4dafee2`
+
 # ExponentialResponseCurve
 
 ## Overview
-- Documentation for `ExponentialResponseCurve`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.responsecurve.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ExponentialResponseCurve(double slope, double exponent, double horizontalShift, double verticalShift)`
   - Creates a `ExponentialResponseCurve` instance.
 - `ExponentialResponseCurve(String id)`
@@ -12,18 +12,18 @@
 - `ExponentialResponseCurve()`
   - Creates a `ExponentialResponseCurve` instance.
 
-## Methods
-- `computeY(double x)`
+## Method Descriptions
+- `computeY(double x)`: Add description.
   - Executes `computeY` behavior.
-- `getSlope()`
+- `getSlope()`: Add description.
   - Executes `getSlope` behavior.
-- `getExponent()`
+- `getExponent()`: Add description.
   - Executes `getExponent` behavior.
-- `getHorizontalShift()`
+- `getHorizontalShift()`: Add description.
   - Executes `getHorizontalShift` behavior.
-- `getVerticalShift()`
+- `getVerticalShift()`: Add description.
   - Executes `getVerticalShift` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

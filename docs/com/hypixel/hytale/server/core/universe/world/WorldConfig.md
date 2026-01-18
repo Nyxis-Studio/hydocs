@@ -1,10 +1,10 @@
+**Source Hash:** `20adbe86dbd887d6851ef2a8ee3de64dd9661d60a0b65153bb2c8bc3f837d9f4`
+
 # WorldConfig
 
 ## Overview
-- Documentation for `WorldConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldConfig(null)`
   - Creates a `WorldConfig` instance.
 - `WorldConfig()`
@@ -12,158 +12,158 @@
 - `WorldConfig(Void dummy)`
   - Creates a `WorldConfig` instance.
 
-## Methods
-- `getUuid()`
+## Method Descriptions
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `setUuid(UUID uuid)`
+- `setUuid(UUID uuid)`: Add description.
   - Executes `setUuid` behavior.
-- `isDeleteOnUniverseStart()`
+- `isDeleteOnUniverseStart()`: Add description.
   - Executes `isDeleteOnUniverseStart` behavior.
-- `setDeleteOnUniverseStart(boolean deleteOnUniverseStart)`
+- `setDeleteOnUniverseStart(boolean deleteOnUniverseStart)`: Add description.
   - Executes `setDeleteOnUniverseStart` behavior.
-- `isDeleteOnRemove()`
+- `isDeleteOnRemove()`: Add description.
   - Executes `isDeleteOnRemove` behavior.
-- `setDeleteOnRemove(boolean deleteOnRemove)`
+- `setDeleteOnRemove(boolean deleteOnRemove)`: Add description.
   - Executes `setDeleteOnRemove` behavior.
-- `isSavingConfig()`
+- `isSavingConfig()`: Add description.
   - Executes `isSavingConfig` behavior.
-- `setSavingConfig(boolean savingConfig)`
+- `setSavingConfig(boolean savingConfig)`: Add description.
   - Executes `setSavingConfig` behavior.
-- `getDisplayName()`
+- `getDisplayName()`: Add description.
   - Executes `getDisplayName` behavior.
-- `setDisplayName(String name)`
+- `setDisplayName(String name)`: Add description.
   - Executes `setDisplayName` behavior.
-- `formatDisplayName(@Nonnull String name)`
+- `formatDisplayName(@Nonnull String name)`: Add description.
   - Executes `formatDisplayName` behavior.
-- `getSeed()`
+- `getSeed()`: Add description.
   - Executes `getSeed` behavior.
-- `setSeed(long seed)`
+- `setSeed(long seed)`: Add description.
   - Executes `setSeed` behavior.
-- `getSpawnProvider()`
+- `getSpawnProvider()`: Add description.
   - Executes `getSpawnProvider` behavior.
-- `setSpawnProvider(ISpawnProvider spawnProvider)`
+- `setSpawnProvider(ISpawnProvider spawnProvider)`: Add description.
   - Executes `setSpawnProvider` behavior.
-- `setDefaultSpawnProvider(@Nonnull IWorldGen generator)`
+- `setDefaultSpawnProvider(@Nonnull IWorldGen generator)`: Add description.
   - Executes `setDefaultSpawnProvider` behavior.
-- `getWorldGenProvider()`
+- `getWorldGenProvider()`: Add description.
   - Executes `getWorldGenProvider` behavior.
-- `setWorldGenProvider(IWorldGenProvider worldGenProvider)`
+- `setWorldGenProvider(IWorldGenProvider worldGenProvider)`: Add description.
   - Executes `setWorldGenProvider` behavior.
-- `getWorldMapProvider()`
+- `getWorldMapProvider()`: Add description.
   - Executes `getWorldMapProvider` behavior.
-- `setWorldMapProvider(IWorldMapProvider worldMapProvider)`
+- `setWorldMapProvider(IWorldMapProvider worldMapProvider)`: Add description.
   - Executes `setWorldMapProvider` behavior.
-- `getChunkStorageProvider()`
+- `getChunkStorageProvider()`: Add description.
   - Executes `getChunkStorageProvider` behavior.
-- `setChunkStorageProvider(IChunkStorageProvider chunkStorageProvider)`
+- `setChunkStorageProvider(IChunkStorageProvider chunkStorageProvider)`: Add description.
   - Executes `setChunkStorageProvider` behavior.
-- `getChunkConfig()`
+- `getChunkConfig()`: Add description.
   - Executes `getChunkConfig` behavior.
-- `setChunkConfig(@Nonnull ChunkConfig chunkConfig)`
+- `setChunkConfig(@Nonnull ChunkConfig chunkConfig)`: Add description.
   - Executes `setChunkConfig` behavior.
-- `isTicking()`
+- `isTicking()`: Add description.
   - Executes `isTicking` behavior.
-- `setTicking(boolean ticking)`
+- `setTicking(boolean ticking)`: Add description.
   - Executes `setTicking` behavior.
-- `isBlockTicking()`
+- `isBlockTicking()`: Add description.
   - Executes `isBlockTicking` behavior.
-- `setBlockTicking(boolean ticking)`
+- `setBlockTicking(boolean ticking)`: Add description.
   - Executes `setBlockTicking` behavior.
-- `isPvpEnabled()`
+- `isPvpEnabled()`: Add description.
   - Executes `isPvpEnabled` behavior.
-- `isFallDamageEnabled()`
+- `isFallDamageEnabled()`: Add description.
   - Executes `isFallDamageEnabled` behavior.
-- `setPvpEnabled(boolean pvpEnabled)`
+- `setPvpEnabled(boolean pvpEnabled)`: Add description.
   - Executes `setPvpEnabled` behavior.
-- `isGameTimePaused()`
+- `isGameTimePaused()`: Add description.
   - Executes `isGameTimePaused` behavior.
-- `setGameTimePaused(boolean gameTimePaused)`
+- `setGameTimePaused(boolean gameTimePaused)`: Add description.
   - Executes `setGameTimePaused` behavior.
-- `getGameTime()`
+- `getGameTime()`: Add description.
   - Executes `getGameTime` behavior.
-- `setGameTime(Instant gameTime)`
+- `setGameTime(Instant gameTime)`: Add description.
   - Executes `setGameTime` behavior.
-- `getForcedWeather()`
+- `getForcedWeather()`: Add description.
   - Executes `getForcedWeather` behavior.
-- `setForcedWeather(String forcedWeather)`
+- `setForcedWeather(String forcedWeather)`: Add description.
   - Executes `setForcedWeather` behavior.
-- `setClientEffects(ClientEffectWorldSettings clientEffects)`
+- `setClientEffects(ClientEffectWorldSettings clientEffects)`: Add description.
   - Executes `setClientEffects` behavior.
-- `getClientEffects()`
+- `getClientEffects()`: Add description.
   - Executes `getClientEffects` behavior.
-- `getRequiredPlugins()`
+- `getRequiredPlugins()`: Add description.
   - Executes `getRequiredPlugins` behavior.
-- `setRequiredPlugins(Map<PluginIdentifier, SemverRange> requiredPlugins)`
+- `setRequiredPlugins(Map<PluginIdentifier, SemverRange> requiredPlugins)`: Add description.
   - Executes `setRequiredPlugins` behavior.
-- `getGameMode()`
+- `getGameMode()`: Add description.
   - Executes `getGameMode` behavior.
-- `setGameMode(GameMode gameMode)`
+- `setGameMode(GameMode gameMode)`: Add description.
   - Executes `setGameMode` behavior.
-- `isSpawningNPC()`
+- `isSpawningNPC()`: Add description.
   - Executes `isSpawningNPC` behavior.
-- `setSpawningNPC(boolean spawningNPC)`
+- `setSpawningNPC(boolean spawningNPC)`: Add description.
   - Executes `setSpawningNPC` behavior.
-- `isSpawnMarkersEnabled()`
+- `isSpawnMarkersEnabled()`: Add description.
   - Executes `isSpawnMarkersEnabled` behavior.
-- `setIsSpawnMarkersEnabled(boolean spawnMarkersEnabled)`
+- `setIsSpawnMarkersEnabled(boolean spawnMarkersEnabled)`: Add description.
   - Executes `setIsSpawnMarkersEnabled` behavior.
-- `isAllNPCFrozen()`
+- `isAllNPCFrozen()`: Add description.
   - Executes `isAllNPCFrozen` behavior.
-- `setIsAllNPCFrozen(boolean allNPCFrozen)`
+- `setIsAllNPCFrozen(boolean allNPCFrozen)`: Add description.
   - Executes `setIsAllNPCFrozen` behavior.
-- `getGameplayConfig()`
+- `getGameplayConfig()`: Add description.
   - Executes `getGameplayConfig` behavior.
-- `setGameplayConfig(String gameplayConfig)`
+- `setGameplayConfig(String gameplayConfig)`: Add description.
   - Executes `setGameplayConfig` behavior.
-- `getDeathConfigOverride()`
+- `getDeathConfigOverride()`: Add description.
   - Executes `getDeathConfigOverride` behavior.
-- `getDaytimeDurationSecondsOverride()`
+- `getDaytimeDurationSecondsOverride()`: Add description.
   - Executes `getDaytimeDurationSecondsOverride` behavior.
-- `getNighttimeDurationSecondsOverride()`
+- `getNighttimeDurationSecondsOverride()`: Add description.
   - Executes `getNighttimeDurationSecondsOverride` behavior.
-- `isCompassUpdating()`
+- `isCompassUpdating()`: Add description.
   - Executes `isCompassUpdating` behavior.
-- `setCompassUpdating(boolean compassUpdating)`
+- `setCompassUpdating(boolean compassUpdating)`: Add description.
   - Executes `setCompassUpdating` behavior.
-- `isSavingPlayers()`
+- `isSavingPlayers()`: Add description.
   - Executes `isSavingPlayers` behavior.
-- `setSavingPlayers(boolean savingPlayers)`
+- `setSavingPlayers(boolean savingPlayers)`: Add description.
   - Executes `setSavingPlayers` behavior.
-- `canUnloadChunks()`
+- `canUnloadChunks()`: Add description.
   - Executes `canUnloadChunks` behavior.
-- `setCanUnloadChunks(boolean unloadingChunks)`
+- `setCanUnloadChunks(boolean unloadingChunks)`: Add description.
   - Executes `setCanUnloadChunks` behavior.
-- `canSaveChunks()`
+- `canSaveChunks()`: Add description.
   - Executes `canSaveChunks` behavior.
-- `setCanSaveChunks(boolean savingChunks)`
+- `setCanSaveChunks(boolean savingChunks)`: Add description.
   - Executes `setCanSaveChunks` behavior.
-- `shouldSaveNewChunks()`
+- `shouldSaveNewChunks()`: Add description.
   - Executes `shouldSaveNewChunks` behavior.
-- `setSaveNewChunks(boolean saveNewChunks)`
+- `setSaveNewChunks(boolean saveNewChunks)`: Add description.
   - Executes `setSaveNewChunks` behavior.
-- `isObjectiveMarkersEnabled()`
+- `isObjectiveMarkersEnabled()`: Add description.
   - Executes `isObjectiveMarkersEnabled` behavior.
-- `setObjectiveMarkersEnabled(boolean objectiveMarkersEnabled)`
+- `setObjectiveMarkersEnabled(boolean objectiveMarkersEnabled)`: Add description.
   - Executes `setObjectiveMarkersEnabled` behavior.
-- `getResourceStorageProvider()`
+- `getResourceStorageProvider()`: Add description.
   - Executes `getResourceStorageProvider` behavior.
-- `setResourceStorageProvider(@Nonnull IResourceStorageProvider resourceStorageProvider)`
+- `setResourceStorageProvider(@Nonnull IResourceStorageProvider resourceStorageProvider)`: Add description.
   - Executes `setResourceStorageProvider` behavior.
-- `markChanged()`
+- `markChanged()`: Add description.
   - Executes `markChanged` behavior.
-- `consumeHasChanged()`
+- `consumeHasChanged()`: Add description.
   - Executes `consumeHasChanged` behavior.
-- `load(@Nonnull Path path)`
+- `load(@Nonnull Path path)`: Add description.
   - Executes `load` behavior.
-- `save(@Nonnull Path path, WorldConfig worldConfig)`
+- `save(@Nonnull Path path, WorldConfig worldConfig)`: Add description.
   - Executes `save` behavior.
-- `getPregenerateRegion()`
+- `getPregenerateRegion()`: Add description.
   - Executes `getPregenerateRegion` behavior.
-- `setPregenerateRegion(@Nullable Box2D pregenerateRegion)`
+- `setPregenerateRegion(@Nullable Box2D pregenerateRegion)`: Add description.
   - Executes `setPregenerateRegion` behavior.
-- `getKeepLoadedRegion()`
+- `getKeepLoadedRegion()`: Add description.
   - Executes `getKeepLoadedRegion` behavior.
-- `setKeepLoadedRegion(@Nullable Box2D keepLoadedRegion)`
+- `setKeepLoadedRegion(@Nullable Box2D keepLoadedRegion)`: Add description.
   - Executes `setKeepLoadedRegion` behavior.
 
 ## Notes

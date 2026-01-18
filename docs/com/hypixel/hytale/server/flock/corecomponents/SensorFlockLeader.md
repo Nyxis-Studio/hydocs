@@ -1,17 +1,17 @@
+**Source Hash:** `df2ac3275e014f263c5ed91526050495d7a0477d6b80a1cf9a0980d855846209`
+
 # SensorFlockLeader
 
 ## Overview
-- Documentation for `SensorFlockLeader`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorFlockLeader(@Nonnull BuilderSensorFlockLeader builder)`
   - Creates a `SensorFlockLeader` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `085ff336970279c6f7f883d87f25b07905eb4b262a802331923a9f73b3a4eaba`
+
 # BrushConfigClearCommand
 
 ## Overview
-- Documentation for `BrushConfigClearCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigClearCommand()`
   - Creates a `BrushConfigClearCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

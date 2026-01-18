@@ -1,15 +1,15 @@
+**Source Hash:** `699f363dc1c46d71267bfc0f9fdaf36bd88b4fe2a99e0a0b864e754bf240a37b`
+
 # ParameterType
 
 ## Overview
-- Documentation for `ParameterType`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
+## Constructor Descriptions
 - `ParameterType(String description)`
   - Creates a `ParameterType` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

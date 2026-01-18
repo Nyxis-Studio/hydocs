@@ -1,10 +1,10 @@
+**Source Hash:** `9b05e83a836768a3fe4000f882401eb9ad829f69ad2e20041b870a7283a2b8ca`
+
 # Message
 
 ## Overview
-- Documentation for `Message`.
-- Declared as a class in `com.hypixel.hytale.server.core`.
 
-## Constructors
+## Constructor Descriptions
 - `Message(@Nonnull String message, boolean i18n)`
   - Creates a `Message` instance.
 - `Message()`
@@ -20,76 +20,76 @@
 - `Message(message, false)`
   - Creates a `Message` instance.
 
-## Methods
-- `param(@Nonnull String key, @Nonnull String value)`
+## Method Descriptions
+- `param(@Nonnull String key, @Nonnull String value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, boolean value)`
+- `param(@Nonnull String key, boolean value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, double value)`
+- `param(@Nonnull String key, double value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, int value)`
+- `param(@Nonnull String key, int value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, long value)`
+- `param(@Nonnull String key, long value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, float value)`
+- `param(@Nonnull String key, float value)`: Add description.
   - Executes `param` behavior.
-- `param(@Nonnull String key, @Nonnull Message formattedMessage)`
+- `param(@Nonnull String key, @Nonnull Message formattedMessage)`: Add description.
   - Executes `param` behavior.
-- `bold(boolean bold)`
+- `bold(boolean bold)`: Add description.
   - Executes `bold` behavior.
-- `italic(boolean italic)`
+- `italic(boolean italic)`: Add description.
   - Executes `italic` behavior.
-- `monospace(boolean monospace)`
+- `monospace(boolean monospace)`: Add description.
   - Executes `monospace` behavior.
-- `color(@Nonnull String color)`
+- `color(@Nonnull String color)`: Add description.
   - Executes `color` behavior.
-- `color(@Nonnull Color color)`
+- `color(@Nonnull Color color)`: Add description.
   - Executes `color` behavior.
-- `link(@Nonnull String url)`
+- `link(@Nonnull String url)`: Add description.
   - Executes `link` behavior.
-- `insert(@Nonnull Message formattedMessage)`
+- `insert(@Nonnull Message formattedMessage)`: Add description.
   - Executes `insert` behavior.
-- `insert(@Nonnull String message)`
+- `insert(@Nonnull String message)`: Add description.
   - Executes `insert` behavior.
-- `insertAll(Message ... formattedMessages)`
+- `insertAll(Message ... formattedMessages)`: Add description.
   - Executes `insertAll` behavior.
-- `insertAll(@Nonnull List<Message> formattedMessages)`
+- `insertAll(@Nonnull List<Message> formattedMessages)`: Add description.
   - Executes `insertAll` behavior.
-- `getRawText()`
+- `getRawText()`: Add description.
   - Executes `getRawText` behavior.
-- `getMessageId()`
+- `getMessageId()`: Add description.
   - Executes `getMessageId` behavior.
-- `getColor()`
+- `getColor()`: Add description.
   - Executes `getColor` behavior.
-- `getChildren()`
+- `getChildren()`: Add description.
   - Executes `getChildren` behavior.
-- `getAnsiMessage()`
+- `getAnsiMessage()`: Add description.
   - Executes `getAnsiMessage` behavior.
-- `getFormattedMessage()`
+- `getFormattedMessage()`: Add description.
   - Executes `getFormattedMessage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `empty()`
+- `empty()`: Add description.
   - Executes `empty` behavior.
-- `translation(@Nonnull String messageId)`
+- `translation(@Nonnull String messageId)`: Add description.
   - Executes `translation` behavior.
-- `raw(@Nonnull String message)`
+- `raw(@Nonnull String message)`: Add description.
   - Executes `raw` behavior.
-- `parse(@Nonnull String message)`
+- `parse(@Nonnull String message)`: Add description.
   - Executes `parse` behavior.
-- `join(Message ... messages)`
+- `join(Message ... messages)`: Add description.
   - Executes `join` behavior.
-- `decode(BsonValue bsonValue, ExtraInfo extraInfo)`
+- `decode(BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(ParamValue paramValue, ExtraInfo extraInfo)`
+- `encode(ParamValue paramValue, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
-- `encode(MaybeBool maybeBool, ExtraInfo extraInfo)`
+- `encode(MaybeBool maybeBool, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decodeJson(@NonNullDecl RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@NonNullDecl RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
 
 ## Notes

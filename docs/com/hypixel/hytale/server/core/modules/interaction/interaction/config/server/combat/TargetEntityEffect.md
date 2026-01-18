@@ -1,25 +1,25 @@
+**Source Hash:** `08f5506977fb392932808802e5ab1dfc2850988d78b33ca74553d7d868375101`
+
 # TargetEntityEffect
 
 ## Overview
-- Documentation for `TargetEntityEffect`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.combat`.
 
-## Constructors
+## Constructor Descriptions
 - `TargetEntityEffect(float duration, double chance, Object2DoubleMap<String> entityTypeDurationModifiers, OverlapBehavior overlapBehavior)`
   - Creates a `TargetEntityEffect` instance.
 - `TargetEntityEffect()`
   - Creates a `TargetEntityEffect` instance.
 
-## Methods
-- `getDuration()`
+## Method Descriptions
+- `getDuration()`: Add description.
   - Executes `getDuration` behavior.
-- `getChance()`
+- `getChance()`: Add description.
   - Executes `getChance` behavior.
-- `getEntityTypeDurationModifiers()`
+- `getEntityTypeDurationModifiers()`: Add description.
   - Executes `getEntityTypeDurationModifiers` behavior.
-- `getOverlapBehavior()`
+- `getOverlapBehavior()`: Add description.
   - Executes `getOverlapBehavior` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `ff674727e196188aba8c99be42e496cd5b05ee3b5903f60d1c71db4bd7eb3824`
+
 # PrefabBufferColumn
 
 ## Overview
-- Documentation for `PrefabBufferColumn`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.buffer.impl`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabBufferColumn(int readerIndex, Holder<EntityStore>[] entityHolders, Int2ObjectMap<Holder<ChunkStore>> blockComponents)`
   - Creates a `PrefabBufferColumn` instance.
 
-## Methods
-- `getReaderIndex()`
+## Method Descriptions
+- `getReaderIndex()`: Add description.
   - Executes `getReaderIndex` behavior.
-- `getEntityHolders()`
+- `getEntityHolders()`: Add description.
   - Executes `getEntityHolders` behavior.
-- `getBlockComponents()`
+- `getBlockComponents()`: Add description.
   - Executes `getBlockComponents` behavior.
 
 ## Notes

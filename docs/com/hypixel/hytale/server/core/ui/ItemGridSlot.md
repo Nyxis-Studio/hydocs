@@ -1,41 +1,41 @@
+**Source Hash:** `a9e7ac450eef3d3062e40b3a570d85985ebf077d34e509cc5b666e4172ba06cd`
+
 # ItemGridSlot
 
 ## Overview
-- Documentation for `ItemGridSlot`.
-- Declared as a class in `com.hypixel.hytale.server.core.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemGridSlot()`
   - Creates a `ItemGridSlot` instance.
 - `ItemGridSlot(ItemStack itemStack)`
   - Creates a `ItemGridSlot` instance.
 
-## Methods
-- `setItemStack(ItemStack itemStack)`
+## Method Descriptions
+- `setItemStack(ItemStack itemStack)`: Add description.
   - Executes `setItemStack` behavior.
-- `setBackground(Value<PatchStyle> background)`
+- `setBackground(Value<PatchStyle> background)`: Add description.
   - Executes `setBackground` behavior.
-- `setOverlay(Value<PatchStyle> overlay)`
+- `setOverlay(Value<PatchStyle> overlay)`: Add description.
   - Executes `setOverlay` behavior.
-- `setIcon(Value<PatchStyle> icon)`
+- `setIcon(Value<PatchStyle> icon)`: Add description.
   - Executes `setIcon` behavior.
-- `setItemIncompatible(boolean itemIncompatible)`
+- `setItemIncompatible(boolean itemIncompatible)`: Add description.
   - Executes `setItemIncompatible` behavior.
-- `setName(String name)`
+- `setName(String name)`: Add description.
   - Executes `setName` behavior.
-- `setDescription(String description)`
+- `setDescription(String description)`: Add description.
   - Executes `setDescription` behavior.
-- `isItemUncraftable()`
+- `isItemUncraftable()`: Add description.
   - Executes `isItemUncraftable` behavior.
-- `setItemUncraftable(boolean itemUncraftable)`
+- `setItemUncraftable(boolean itemUncraftable)`: Add description.
   - Executes `setItemUncraftable` behavior.
-- `isActivatable()`
+- `isActivatable()`: Add description.
   - Executes `isActivatable` behavior.
-- `setActivatable(boolean activatable)`
+- `setActivatable(boolean activatable)`: Add description.
   - Executes `setActivatable` behavior.
-- `isSkipItemQualityBackground()`
+- `isSkipItemQualityBackground()`: Add description.
   - Executes `isSkipItemQualityBackground` behavior.
-- `setSkipItemQualityBackground(boolean skipItemQualityBackground)`
+- `setSkipItemQualityBackground(boolean skipItemQualityBackground)`: Add description.
   - Executes `setSkipItemQualityBackground` behavior.
 
 ## Notes

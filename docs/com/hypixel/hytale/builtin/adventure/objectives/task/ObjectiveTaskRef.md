@@ -1,17 +1,17 @@
+**Source Hash:** `4b705b3141c7be56ac1dea4f1ccd6ced36b29982afb95a63f8fc39ed313cebc1`
+
 # ObjectiveTaskRef
 
 ## Overview
-- Documentation for `ObjectiveTaskRef`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.task`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjectiveTaskRef(UUID objectiveUUID, T objectiveTask)`
   - Creates a `ObjectiveTaskRef` instance.
 
-## Methods
-- `getObjectiveUUID()`
+## Method Descriptions
+- `getObjectiveUUID()`: Add description.
   - Executes `getObjectiveUUID` behavior.
-- `getObjectiveTask()`
+- `getObjectiveTask()`: Add description.
   - Executes `getObjectiveTask` behavior.
 
 ## Notes

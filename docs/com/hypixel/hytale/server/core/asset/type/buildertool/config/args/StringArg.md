@@ -1,25 +1,25 @@
+**Source Hash:** `e2808c71e82eeba15755a86a8982ddbfb910bb5e707a5be059411f1560997925`
+
 # StringArg
 
 ## Overview
-- Documentation for `StringArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `StringArg()`
   - Creates a `StringArg` instance.
 - `StringArg(String value)`
   - Creates a `StringArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toStringArgPacket()`
+- `toStringArgPacket()`: Add description.
   - Executes `toStringArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

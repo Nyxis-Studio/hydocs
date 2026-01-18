@@ -1,23 +1,23 @@
+**Source Hash:** `c43c721ac41cccabaaa921c88814e51fc6f22911e08508d7e92cab3356fd03af`
+
 # DistanceCalculationMode
 
 ## Overview
-- Documentation for `DistanceCalculationMode`.
-- Declared as a enum in `com.hypixel.hytale.procedurallib.logic.cell`.
 
-## Constructors
+## Constructor Descriptions
 - `DistanceCalculationMode(PointDistanceFunction function)`
   - Creates a `DistanceCalculationMode` instance.
 
-## Methods
-- `distance2D(double deltaX, double deltaY)`
+## Method Descriptions
+- `distance2D(double deltaX, double deltaY)`: Add description.
   - Executes `distance2D` behavior.
-- `distance3D(double deltaX, double deltaY, double deltaZ)`
+- `distance3D(double deltaX, double deltaY, double deltaZ)`: Add description.
   - Executes `distance3D` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getFunction()`
+- `getFunction()`: Add description.
   - Executes `getFunction` behavior.
-- `from(PointDistanceFunction function)`
+- `from(PointDistanceFunction function)`: Add description.
   - Executes `from` behavior.
 
 ## Notes

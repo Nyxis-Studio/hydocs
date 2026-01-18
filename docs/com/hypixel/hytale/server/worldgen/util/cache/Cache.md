@@ -1,18 +1,18 @@
+**Source Hash:** `9c44e6e08a89d299c828f985e2daff7391a347f5e014128bd7879b48ba497a38`
+
 # Cache
 
 ## Overview
-- Documentation for `Cache`.
-- Declared as a interface in `com.hypixel.hytale.server.worldgen.util.cache`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `shutdown()`
+## Method Descriptions
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `cleanup()`
+- `cleanup()`: Add description.
   - Executes `cleanup` behavior.
-- `get(K var1)`
+- `get(K var1)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

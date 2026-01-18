@@ -1,27 +1,27 @@
+**Source Hash:** `99c693c16ec35b1059610899498f67d7c3c06916f62c2caa158d2daafd8d5c49`
+
 # ModelAttachment
 
 ## Overview
-- Documentation for `ModelAttachment`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ModelAttachment(String model, String texture, String gradientSet, String gradientId, double weight)`
   - Creates a `ModelAttachment` instance.
 - `ModelAttachment()`
   - Creates a `ModelAttachment` instance.
 
-## Methods
-- `getModel()`
+## Method Descriptions
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `getTexture()`
+- `getTexture()`: Add description.
   - Executes `getTexture` behavior.
-- `getGradientId()`
+- `getGradientId()`: Add description.
   - Executes `getGradientId` behavior.
-- `getGradientSet()`
+- `getGradientSet()`: Add description.
   - Executes `getGradientSet` behavior.
-- `getWeight()`
+- `getWeight()`: Add description.
   - Executes `getWeight` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

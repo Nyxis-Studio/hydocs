@@ -1,16 +1,16 @@
+**Source Hash:** `d0fea36f7f3165862532dc62fbd622f8cc49b110bbc9f62d1d2e1e9e3b2ae740`
+
 # UpwardSpaceMaterialProviderAsset
 
 ## Overview
-- Documentation for `UpwardSpaceMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

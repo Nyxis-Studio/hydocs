@@ -1,19 +1,19 @@
+**Source Hash:** `9f7aeb580e0790f3230d32c9d9c439914e9c9a021b702b0a904e616370092e99`
+
 # ChunkUnloadEvent
 
 ## Overview
-- Documentation for `ChunkUnloadEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkUnloadEvent(@Nonnull WorldChunk chunk)`
   - Creates a `ChunkUnloadEvent` instance.
 
-## Methods
-- `getChunk()`
+## Method Descriptions
+- `getChunk()`: Add description.
   - Executes `getChunk` behavior.
-- `setResetKeepAlive(boolean willResetKeepAlive)`
+- `setResetKeepAlive(boolean willResetKeepAlive)`: Add description.
   - Executes `setResetKeepAlive` behavior.
-- `willResetKeepAlive()`
+- `willResetKeepAlive()`: Add description.
   - Executes `willResetKeepAlive` behavior.
 
 ## Notes

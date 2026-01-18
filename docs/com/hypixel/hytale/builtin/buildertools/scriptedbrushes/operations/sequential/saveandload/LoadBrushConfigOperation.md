@@ -1,15 +1,15 @@
+**Source Hash:** `4bb70284dbaf33937595f9adecad94bc1448768da3243422d4b9db9b465885e3`
+
 # LoadBrushConfigOperation
 
 ## Overview
-- Documentation for `LoadBrushConfigOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.saveandload`.
 
-## Constructors
+## Constructor Descriptions
 - `LoadBrushConfigOperation()`
   - Creates a `LoadBrushConfigOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

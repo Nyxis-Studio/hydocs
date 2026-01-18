@@ -1,15 +1,15 @@
+**Source Hash:** `844a56054e9ce1325bd6e380709677bad64b97174365db4774c00e2e6da02af2`
+
 # StopCommand
 
 ## Overview
-- Documentation for `StopCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server`.
 
-## Constructors
+## Constructor Descriptions
 - `StopCommand()`
   - Creates a `StopCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `3ac03a72ebc37868a765d19fb1e4893792e5895deab02f6dcbe14f54fe681e16`
+
 # CeilingPatternAsset
 
 ## Overview
-- Documentation for `CeilingPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

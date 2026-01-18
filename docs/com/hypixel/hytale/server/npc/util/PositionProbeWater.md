@@ -1,20 +1,20 @@
+**Source Hash:** `9a12adb1501bf283d441bb3805a4fb5319100007ece5c0b6bca2d1c6e537e65e`
+
 # PositionProbeWater
 
 ## Overview
-- Documentation for `PositionProbeWater`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, double swimDepth, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, double swimDepth, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `probePosition` behavior.
-- `blockTest(int code, @Nonnull BoxBlockIntersectionEvaluator boxBlockIntersection, @Nonnull CollisionConfig config)`
+- `blockTest(int code, @Nonnull BoxBlockIntersectionEvaluator boxBlockIntersection, @Nonnull CollisionConfig config)`: Add description.
   - Executes `blockTest` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

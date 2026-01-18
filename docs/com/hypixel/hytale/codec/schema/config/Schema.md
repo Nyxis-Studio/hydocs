@@ -1,235 +1,235 @@
+**Source Hash:** `63203e22468f4be7e9beff28eb1f86fff943a313c541e665be9799628443f040`
+
 # Schema
 
 ## Overview
-- Documentation for `Schema`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.config`.
 
-## Constructors
+## Constructor Descriptions
 - `Schema()`
   - Creates a `Schema` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `setId(String id)`
+- `setId(String id)`: Add description.
   - Executes `setId` behavior.
-- `getTypes()`
+- `getTypes()`: Add description.
   - Executes `getTypes` behavior.
-- `setTypes(String[] types)`
+- `setTypes(String[] types)`: Add description.
   - Executes `setTypes` behavior.
-- `getTitle()`
+- `getTitle()`: Add description.
   - Executes `getTitle` behavior.
-- `setTitle(String title)`
+- `setTitle(String title)`: Add description.
   - Executes `setTitle` behavior.
-- `getDescription()`
+- `getDescription()`: Add description.
   - Executes `getDescription` behavior.
-- `setDescription(String description)`
+- `setDescription(String description)`: Add description.
   - Executes `setDescription` behavior.
-- `getMarkdownDescription()`
+- `getMarkdownDescription()`: Add description.
   - Executes `getMarkdownDescription` behavior.
-- `setMarkdownDescription(String markdownDescription)`
+- `setMarkdownDescription(String markdownDescription)`: Add description.
   - Executes `setMarkdownDescription` behavior.
-- `getEnumDescriptions()`
+- `getEnumDescriptions()`: Add description.
   - Executes `getEnumDescriptions` behavior.
-- `setEnumDescriptions(String[] enumDescriptions)`
+- `setEnumDescriptions(String[] enumDescriptions)`: Add description.
   - Executes `setEnumDescriptions` behavior.
-- `getMarkdownEnumDescriptions()`
+- `getMarkdownEnumDescriptions()`: Add description.
   - Executes `getMarkdownEnumDescriptions` behavior.
-- `setMarkdownEnumDescriptions(String[] markdownEnumDescriptions)`
+- `setMarkdownEnumDescriptions(String[] markdownEnumDescriptions)`: Add description.
   - Executes `setMarkdownEnumDescriptions` behavior.
-- `getAnyOf()`
+- `getAnyOf()`: Add description.
   - Executes `getAnyOf` behavior.
-- `setAnyOf(Schema ... anyOf)`
+- `setAnyOf(Schema ... anyOf)`: Add description.
   - Executes `setAnyOf` behavior.
-- `getOneOf()`
+- `getOneOf()`: Add description.
   - Executes `getOneOf` behavior.
-- `setOneOf(Schema ... oneOf)`
+- `setOneOf(Schema ... oneOf)`: Add description.
   - Executes `setOneOf` behavior.
-- `getAllOf()`
+- `getAllOf()`: Add description.
   - Executes `getAllOf` behavior.
-- `setAllOf(Schema ... allOf)`
+- `setAllOf(Schema ... allOf)`: Add description.
   - Executes `setAllOf` behavior.
-- `getRequired()`
+- `getRequired()`: Add description.
   - Executes `getRequired` behavior.
-- `setRequired(String ... required)`
+- `setRequired(String ... required)`: Add description.
   - Executes `setRequired` behavior.
-- `getDefaultRaw()`
+- `getDefaultRaw()`: Add description.
   - Executes `getDefaultRaw` behavior.
-- `setDefaultRaw(BsonDocument default_)`
+- `setDefaultRaw(BsonDocument default_)`: Add description.
   - Executes `setDefaultRaw` behavior.
-- `getDefinitions()`
+- `getDefinitions()`: Add description.
   - Executes `getDefinitions` behavior.
-- `setDefinitions(Map<String, Schema> definitions)`
+- `setDefinitions(Map<String, Schema> definitions)`: Add description.
   - Executes `setDefinitions` behavior.
-- `getRef()`
+- `getRef()`: Add description.
   - Executes `getRef` behavior.
-- `setRef(String ref)`
+- `setRef(String ref)`: Add description.
   - Executes `setRef` behavior.
-- `getData()`
+- `getData()`: Add description.
   - Executes `getData` behavior.
-- `setData(String data)`
+- `setData(String data)`: Add description.
   - Executes `setData` behavior.
-- `getIf()`
+- `getIf()`: Add description.
   - Executes `getIf` behavior.
-- `setIf(Schema if_)`
+- `setIf(Schema if_)`: Add description.
   - Executes `setIf` behavior.
-- `getThen()`
+- `getThen()`: Add description.
   - Executes `getThen` behavior.
-- `setThen(Schema then)`
+- `setThen(Schema then)`: Add description.
   - Executes `setThen` behavior.
-- `getElse()`
+- `getElse()`: Add description.
   - Executes `getElse` behavior.
-- `setElse(Schema else_)`
+- `setElse(Schema else_)`: Add description.
   - Executes `setElse` behavior.
-- `setElse(boolean else_)`
+- `setElse(boolean else_)`: Add description.
   - Executes `setElse` behavior.
-- `isDoNotSuggest()`
+- `isDoNotSuggest()`: Add description.
   - Executes `isDoNotSuggest` behavior.
-- `setDoNotSuggest(boolean doNotSuggest)`
+- `setDoNotSuggest(boolean doNotSuggest)`: Add description.
   - Executes `setDoNotSuggest` behavior.
-- `getHytale()`
+- `getHytale()`: Add description.
   - Executes `getHytale` behavior.
-- `getHytale(boolean createInstance)`
+- `getHytale(boolean createInstance)`: Add description.
   - Executes `getHytale` behavior.
-- `getHytaleAssetRef()`
+- `getHytaleAssetRef()`: Add description.
   - Executes `getHytaleAssetRef` behavior.
-- `setHytaleAssetRef(String hytaleAssetRef)`
+- `setHytaleAssetRef(String hytaleAssetRef)`: Add description.
   - Executes `setHytaleAssetRef` behavior.
-- `getHytaleParent()`
+- `getHytaleParent()`: Add description.
   - Executes `getHytaleParent` behavior.
-- `setHytaleParent(InheritSettings hytaleParent)`
+- `setHytaleParent(InheritSettings hytaleParent)`: Add description.
   - Executes `setHytaleParent` behavior.
-- `getHytaleSchemaTypeField()`
+- `getHytaleSchemaTypeField()`: Add description.
   - Executes `getHytaleSchemaTypeField` behavior.
-- `setHytaleSchemaTypeField(SchemaTypeField hytaleSchemaTypeField)`
+- `setHytaleSchemaTypeField(SchemaTypeField hytaleSchemaTypeField)`: Add description.
   - Executes `setHytaleSchemaTypeField` behavior.
-- `getHytaleCustomAssetRef()`
+- `getHytaleCustomAssetRef()`: Add description.
   - Executes `getHytaleCustomAssetRef` behavior.
-- `setHytaleCustomAssetRef(String hytaleCustomAssetRef)`
+- `setHytaleCustomAssetRef(String hytaleCustomAssetRef)`: Add description.
   - Executes `setHytaleCustomAssetRef` behavior.
-- `ref(String file)`
+- `ref(String file)`: Add description.
   - Executes `ref` behavior.
-- `data(String file)`
+- `data(String file)`: Add description.
   - Executes `data` behavior.
-- `anyOf(Schema ... anyOf)`
+- `anyOf(Schema ... anyOf)`: Add description.
   - Executes `anyOf` behavior.
-- `not(Schema not)`
+- `not(Schema not)`: Add description.
   - Executes `not` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `init()`
+- `init()`: Add description.
   - Executes `init` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `setType(String type)`
+- `setType(String type)`: Add description.
   - Executes `setType` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `setPath(String path)`
+- `setPath(String path)`: Add description.
   - Executes `setPath` behavior.
-- `getVirtualPath()`
+- `getVirtualPath()`: Add description.
   - Executes `getVirtualPath` behavior.
-- `setVirtualPath(String virtualPath)`
+- `setVirtualPath(String virtualPath)`: Add description.
   - Executes `setVirtualPath` behavior.
-- `getExtension()`
+- `getExtension()`: Add description.
   - Executes `getExtension` behavior.
-- `setExtension(String extension)`
+- `setExtension(String extension)`: Add description.
   - Executes `setExtension` behavior.
-- `getIdProvider()`
+- `getIdProvider()`: Add description.
   - Executes `getIdProvider` behavior.
-- `setIdProvider(String idProvider)`
+- `setIdProvider(String idProvider)`: Add description.
   - Executes `setIdProvider` behavior.
-- `getInternalKeys()`
+- `getInternalKeys()`: Add description.
   - Executes `getInternalKeys` behavior.
-- `setInternalKeys(String[] internalKeys)`
+- `setInternalKeys(String[] internalKeys)`: Add description.
   - Executes `setInternalKeys` behavior.
-- `setUiDisplayMode(UIDisplayMode.DisplayMode uiDisplayMode)`
+- `setUiDisplayMode(UIDisplayMode.DisplayMode uiDisplayMode)`: Add description.
   - Executes `setUiDisplayMode` behavior.
-- `setUiEditorComponent(UIEditor.EditorComponent uiEditorComponent)`
+- `setUiEditorComponent(UIEditor.EditorComponent uiEditorComponent)`: Add description.
   - Executes `setUiEditorComponent` behavior.
-- `setUiEditorFeatures(UIEditorFeatures.EditorFeature[] uiEditorFeatures)`
+- `setUiEditorFeatures(UIEditorFeatures.EditorFeature[] uiEditorFeatures)`: Add description.
   - Executes `setUiEditorFeatures` behavior.
-- `setUiEditorPreview(UIEditorPreview.PreviewType uiEditorPreview)`
+- `setUiEditorPreview(UIEditorPreview.PreviewType uiEditorPreview)`: Add description.
   - Executes `setUiEditorPreview` behavior.
-- `getUiTypeIcon()`
+- `getUiTypeIcon()`: Add description.
   - Executes `getUiTypeIcon` behavior.
-- `setUiTypeIcon(String uiTypeIcon)`
+- `setUiTypeIcon(String uiTypeIcon)`: Add description.
   - Executes `setUiTypeIcon` behavior.
-- `getUiEditorIgnore()`
+- `getUiEditorIgnore()`: Add description.
   - Executes `getUiEditorIgnore` behavior.
-- `setUiEditorIgnore(Boolean uiEditorIgnore)`
+- `setUiEditorIgnore(Boolean uiEditorIgnore)`: Add description.
   - Executes `setUiEditorIgnore` behavior.
-- `getAllowEmptyObject()`
+- `getAllowEmptyObject()`: Add description.
   - Executes `getAllowEmptyObject` behavior.
-- `setAllowEmptyObject(Boolean allowEmptyObject)`
+- `setAllowEmptyObject(Boolean allowEmptyObject)`: Add description.
   - Executes `setAllowEmptyObject` behavior.
-- `getUiPropertyTitle()`
+- `getUiPropertyTitle()`: Add description.
   - Executes `getUiPropertyTitle` behavior.
-- `setUiPropertyTitle(String uiPropertyTitle)`
+- `setUiPropertyTitle(String uiPropertyTitle)`: Add description.
   - Executes `setUiPropertyTitle` behavior.
-- `getUiSectionStart()`
+- `getUiSectionStart()`: Add description.
   - Executes `getUiSectionStart` behavior.
-- `setUiSectionStart(String uiSectionStart)`
+- `setUiSectionStart(String uiSectionStart)`: Add description.
   - Executes `setUiSectionStart` behavior.
-- `isInheritsProperty()`
+- `isInheritsProperty()`: Add description.
   - Executes `isInheritsProperty` behavior.
-- `setInheritsProperty(boolean inheritsProperty)`
+- `setInheritsProperty(boolean inheritsProperty)`: Add description.
   - Executes `setInheritsProperty` behavior.
-- `getMergesProperties()`
+- `getMergesProperties()`: Add description.
   - Executes `getMergesProperties` behavior.
-- `setMergesProperties(boolean mergesProperties)`
+- `setMergesProperties(boolean mergesProperties)`: Add description.
   - Executes `setMergesProperties` behavior.
-- `setUiRebuildCaches(UIRebuildCaches.ClientCache[] uiRebuildCaches)`
+- `setUiRebuildCaches(UIRebuildCaches.ClientCache[] uiRebuildCaches)`: Add description.
   - Executes `setUiRebuildCaches` behavior.
-- `getUiRebuildCachesForChildProperties()`
+- `getUiRebuildCachesForChildProperties()`: Add description.
   - Executes `getUiRebuildCachesForChildProperties` behavior.
-- `setUiRebuildCachesForChildProperties(Boolean uiRebuildCachesForChildProperties)`
+- `setUiRebuildCachesForChildProperties(Boolean uiRebuildCachesForChildProperties)`: Add description.
   - Executes `setUiRebuildCachesForChildProperties` behavior.
-- `getUiSidebarButtons()`
+- `getUiSidebarButtons()`: Add description.
   - Executes `getUiSidebarButtons` behavior.
-- `setUiSidebarButtons(UIButton[] uiSidebarButtons)`
+- `setUiSidebarButtons(UIButton[] uiSidebarButtons)`: Add description.
   - Executes `setUiSidebarButtons` behavior.
-- `getUiCollapsedByDefault()`
+- `getUiCollapsedByDefault()`: Add description.
   - Executes `getUiCollapsedByDefault` behavior.
-- `setUiCollapsedByDefault(Boolean uiCollapsedByDefault)`
+- `setUiCollapsedByDefault(Boolean uiCollapsedByDefault)`: Add description.
   - Executes `setUiCollapsedByDefault` behavior.
-- `getUiCreateButtons()`
+- `getUiCreateButtons()`: Add description.
   - Executes `getUiCreateButtons` behavior.
-- `setUiCreateButtons(UIButton[] uiCreateButtons)`
+- `setUiCreateButtons(UIButton[] uiCreateButtons)`: Add description.
   - Executes `setUiCreateButtons` behavior.
-- `getMapKey()`
+- `getMapKey()`: Add description.
   - Executes `getMapKey` behavior.
-- `setMapKey(String mapKey)`
+- `setMapKey(String mapKey)`: Add description.
   - Executes `setMapKey` behavior.
-- `getMapKeyValue()`
+- `getMapKeyValue()`: Add description.
   - Executes `getMapKeyValue` behavior.
-- `setMapKeyValue(String mapKeyValue)`
+- `setMapKeyValue(String mapKeyValue)`: Add description.
   - Executes `setMapKeyValue` behavior.
-- `getProperty()`
+- `getProperty()`: Add description.
   - Executes `getProperty` behavior.
-- `getDefaultValue()`
+- `getDefaultValue()`: Add description.
   - Executes `getDefaultValue` behavior.
-- `getValues()`
+- `getValues()`: Add description.
   - Executes `getValues` behavior.
-- `getParentPropertyKey()`
+- `getParentPropertyKey()`: Add description.
   - Executes `getParentPropertyKey` behavior.
-- `setParentPropertyKey(String parentPropertyKey)`
+- `setParentPropertyKey(String parentPropertyKey)`: Add description.
   - Executes `setParentPropertyKey` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nonnull String o, ExtraInfo extraInfo)`
+- `encode(@Nonnull String o, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
-- `decode(@Nonnull BsonValue bsonValue, @Nonnull ExtraInfo extraInfo)`
+- `decode(@Nonnull BsonValue bsonValue, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nullable String[] o, ExtraInfo extraInfo)`
+- `encode(@Nullable String[] o, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `encode(Object o, ExtraInfo extraInfo)`
+- `encode(Object o, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
 
 ## Notes

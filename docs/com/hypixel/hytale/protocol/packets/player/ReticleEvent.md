@@ -1,10 +1,10 @@
+**Source Hash:** `24f79c1001675e02019efc2cbddee07f663d7c80a8fe95f502d19e4ea7e42e2d`
+
 # ReticleEvent
 
 ## Overview
-- Documentation for `ReticleEvent`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.player`.
 
-## Constructors
+## Constructor Descriptions
 - `ReticleEvent()`
   - Creates a `ReticleEvent` instance.
 - `ReticleEvent(int eventIndex)`
@@ -12,24 +12,24 @@
 - `ReticleEvent(@Nonnull ReticleEvent other)`
   - Creates a `ReticleEvent` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `f47c17823c65dddd303bd31a1f43b0bf1984224c48f4f14f74f8fcdf010a6631`
+
 # BuilderBaseWithType
 
 ## Overview
-- Documentation for `BuilderBaseWithType`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `readCommonConfig(JsonElement data)`
+## Method Descriptions
+- `readCommonConfig(JsonElement data)`: Add description.
   - Executes `readCommonConfig` behavior.
-- `readTypeKey(@Nonnull JsonElement data, String typeKey)`
+- `readTypeKey(@Nonnull JsonElement data, String typeKey)`: Add description.
   - Executes `readTypeKey` behavior.
-- `readTypeKey(@Nonnull JsonElement data)`
+- `readTypeKey(@Nonnull JsonElement data)`: Add description.
   - Executes `readTypeKey` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
 
 ## Notes

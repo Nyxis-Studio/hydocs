@@ -1,17 +1,17 @@
+**Source Hash:** `c0b6edead5d21aa7ed9e91bcf8aafd1477e02f4a17bc5321868ed6258c904ef6`
+
 # CacheDensity
 
 ## Overview
-- Documentation for `CacheDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `CacheDensity(@Nonnull Density input, int threadCount)`
   - Creates a `CacheDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

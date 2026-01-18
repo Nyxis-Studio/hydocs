@@ -1,20 +1,20 @@
+**Source Hash:** `ed58f7cd03547ab9c46603fff7419c2ba8d3b45bbaf99cf55e6bad4b61daa1dd`
+
 # BuilderSensorIsBusy
 
 ## Overview
-- Documentation for `BuilderSensorIsBusy`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.statemachine.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

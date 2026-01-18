@@ -1,15 +1,15 @@
+**Source Hash:** `84880ab5f25423539eb47b68f94b1a81b9b0cb19c1849207da04cc8e2661f88a`
+
 # DimensionsOperation
 
 ## Overview
-- Documentation for `DimensionsOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.dimensions`.
 
-## Constructors
+## Constructor Descriptions
 - `DimensionsOperation()`
   - Creates a `DimensionsOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

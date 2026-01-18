@@ -1,32 +1,32 @@
+**Source Hash:** `542faa70da97c87b2905c88b673f4fe47e6150770e8e8ca0fdad26dc9fc12a15`
+
 # DamageCalculatorSystems
 
 ## Overview
-- Documentation for `DamageCalculatorSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.damage`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `queueDamageCalculator(@Nonnull World world, @Nonnull Object2FloatMap<DamageCause> relativeDamage, @Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Damage.Source source, @Nullable ItemStack itemInHand)`
+## Method Descriptions
+- `queueDamageCalculator(@Nonnull World world, @Nonnull Object2FloatMap<DamageCause> relativeDamage, @Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Damage.Source source, @Nullable ItemStack itemInHand)`: Add description.
   - Executes `queueDamageCalculator` behavior.
-- `getHits()`
+- `getHits()`: Add description.
   - Executes `getHits` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getSequentialHits()`
+- `getSequentialHits()`: Add description.
   - Executes `getSequentialHits` behavior.
-- `addSequentialHit()`
+- `addSequentialHit()`: Add description.
   - Executes `addSequentialHit` behavior.
-- `getDamageCalculator()`
+- `getDamageCalculator()`: Add description.
   - Executes `getDamageCalculator` behavior.
-- `setEntityStatOnHit(@Nullable DamageEntityInteraction.EntityStatOnHit[] entityStatOnHit)`
+- `setEntityStatOnHit(@Nullable DamageEntityInteraction.EntityStatOnHit[] entityStatOnHit)`: Add description.
   - Executes `setEntityStatOnHit` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `handle(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Damage damage)`
+- `handle(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Damage damage)`: Add description.
   - Executes `handle` behavior.
 
 ## Notes

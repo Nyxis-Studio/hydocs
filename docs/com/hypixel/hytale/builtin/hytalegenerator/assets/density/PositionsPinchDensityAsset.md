@@ -1,16 +1,16 @@
+**Source Hash:** `ab8ba46e516d303c69d24c5609ce12a8e30c12aa9b29904fded5ed5939b37e61`
+
 # PositionsPinchDensityAsset
 
 ## Overview
-- Documentation for `PositionsPinchDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

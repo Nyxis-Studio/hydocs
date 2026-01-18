@@ -1,10 +1,10 @@
+**Source Hash:** `bad874a88d3cf2a4b652a0f0fd17615bb9630bbea8aeecf93d39449c2a7509d3`
+
 # AssetEditorRenameDirectory
 
 ## Overview
-- Documentation for `AssetEditorRenameDirectory`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorRenameDirectory()`
   - Creates a `AssetEditorRenameDirectory` instance.
 - `AssetEditorRenameDirectory(int token, @Nullable AssetPath path, @Nullable AssetPath newPath)`
@@ -12,24 +12,24 @@
 - `AssetEditorRenameDirectory(@Nonnull AssetEditorRenameDirectory other)`
   - Creates a `AssetEditorRenameDirectory` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

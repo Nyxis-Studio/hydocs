@@ -1,24 +1,24 @@
+**Source Hash:** `4cbec8a16ee659bdcb6a47cffd014dd853af8bffbecb3463921a6d67eae22f60`
+
 # BuilderSensorInteractionContext
 
 ## Overview
-- Documentation for `BuilderSensorInteractionContext`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.interaction.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getInteractionContext(@Nonnull BuilderSupport support)`
+- `getInteractionContext(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInteractionContext` behavior.
 
 ## Notes

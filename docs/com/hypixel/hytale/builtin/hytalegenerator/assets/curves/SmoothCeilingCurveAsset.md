@@ -1,16 +1,16 @@
+**Source Hash:** `5e3fd20997fdc90a275728768f080801e0a07a1627f3788e1d509648d3dfb8e0`
+
 # SmoothCeilingCurveAsset
 
 ## Overview
-- Documentation for `SmoothCeilingCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

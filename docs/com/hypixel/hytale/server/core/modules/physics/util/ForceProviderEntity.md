@@ -1,29 +1,29 @@
+**Source Hash:** `97b4235f6d1e15aeaeb7c107f7f5773325957b267c449036bea456c5862424f2`
+
 # ForceProviderEntity
 
 ## Overview
-- Documentation for `ForceProviderEntity`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
+## Constructor Descriptions
 - `ForceProviderEntity(BoundingBox boundingBox)`
   - Creates a `ForceProviderEntity` instance.
 
-## Methods
-- `setDensity(double density)`
+## Method Descriptions
+- `setDensity(double density)`: Add description.
   - Executes `setDensity` behavior.
-- `setForceProviderStandardState(ForceProviderStandardState forceProviderStandardState)`
+- `setForceProviderStandardState(ForceProviderStandardState forceProviderStandardState)`: Add description.
   - Executes `setForceProviderStandardState` behavior.
-- `getForceProviderStandardState()`
+- `getForceProviderStandardState()`: Add description.
   - Executes `getForceProviderStandardState` behavior.
-- `getMass(double volume)`
+- `getMass(double volume)`: Add description.
   - Executes `getMass` behavior.
-- `getVolume()`
+- `getVolume()`: Add description.
   - Executes `getVolume` behavior.
-- `getProjectedArea(@Nonnull PhysicsBodyState bodyState, double speed)`
+- `getProjectedArea(@Nonnull PhysicsBodyState bodyState, double speed)`: Add description.
   - Executes `getProjectedArea` behavior.
-- `getDensity()`
+- `getDensity()`: Add description.
   - Executes `getDensity` behavior.
-- `getFrictionCoefficient()`
+- `getFrictionCoefficient()`: Add description.
   - Executes `getFrictionCoefficient` behavior.
 
 ## Notes

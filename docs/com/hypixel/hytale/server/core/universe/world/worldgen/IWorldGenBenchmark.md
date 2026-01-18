@@ -1,18 +1,18 @@
+**Source Hash:** `d44fe0e9d5622b5b0317c69afd18888fd275359363dfc20d419cc7695e3124e3`
+
 # IWorldGenBenchmark
 
 ## Overview
-- Documentation for `IWorldGenBenchmark`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.worldgen`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `start()`
+## Method Descriptions
+- `start()`: Add description.
   - Executes `start` behavior.
-- `stop()`
+- `stop()`: Add description.
   - Executes `stop` behavior.
-- `buildReport()`
+- `buildReport()`: Add description.
   - Executes `buildReport` behavior.
 
 ## Notes

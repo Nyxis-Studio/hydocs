@@ -1,14 +1,14 @@
+**Source Hash:** `b0ae93b45c8abbd51bf6be5c061440ed7a8f1aa2f6d10fd8d8b597100664de4e`
+
 # QuadObjectDoublePredicate
 
 ## Overview
-- Documentation for `QuadObjectDoublePredicate`.
-- Declared as a interface in `com.hypixel.hytale.function.predicate`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(T var1, U var2, V var3, R var4, double var5)`
+## Method Descriptions
+- `test(T var1, U var2, V var3, R var4, double var5)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

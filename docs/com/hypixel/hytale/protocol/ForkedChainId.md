@@ -1,10 +1,10 @@
+**Source Hash:** `df5db099438292028684436e54ea6c1150b5bda6fcd763529de4238255d3933f`
+
 # ForkedChainId
 
 ## Overview
-- Documentation for `ForkedChainId`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ForkedChainId()`
   - Creates a `ForkedChainId` instance.
 - `ForkedChainId(int entryIndex, int subIndex, @Nullable ForkedChainId forkedId)`
@@ -12,22 +12,22 @@
 - `ForkedChainId(@Nonnull ForkedChainId other)`
   - Creates a `ForkedChainId` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

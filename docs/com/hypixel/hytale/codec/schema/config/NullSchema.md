@@ -1,15 +1,15 @@
+**Source Hash:** `c0a6381d5a9f6f8b370585bb9e3d2f142130ade99b7b98825022c3002c7f6975`
+
 # NullSchema
 
 ## Overview
-- Documentation for `NullSchema`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.config`.
 
-## Constructors
+## Constructor Descriptions
 - `NullSchema()`
   - Creates a `NullSchema` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

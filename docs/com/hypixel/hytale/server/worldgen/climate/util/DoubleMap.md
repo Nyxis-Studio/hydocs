@@ -1,27 +1,27 @@
+**Source Hash:** `a928402bdc9f9f15c8f45044d612146eff39a99988c60170be99f0a8b4ae9f7e`
+
 # DoubleMap
 
 ## Overview
-- Documentation for `DoubleMap`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.climate.util`.
 
-## Constructors
+## Constructor Descriptions
 - `DoubleMap(int width, int height)`
   - Creates a `DoubleMap` instance.
 
-## Methods
-- `index(int x, int y)`
+## Method Descriptions
+- `index(int x, int y)`: Add description.
   - Executes `index` behavior.
-- `validate(int index)`
+- `validate(int index)`: Add description.
   - Executes `validate` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `at(int x, int y)`
+- `at(int x, int y)`: Add description.
   - Executes `at` behavior.
-- `at(int index)`
+- `at(int index)`: Add description.
   - Executes `at` behavior.
-- `set(int x, int y, double value)`
+- `set(int x, int y, double value)`: Add description.
   - Executes `set` behavior.
-- `set(int index, double value)`
+- `set(int index, double value)`: Add description.
   - Executes `set` behavior.
 
 ## Notes

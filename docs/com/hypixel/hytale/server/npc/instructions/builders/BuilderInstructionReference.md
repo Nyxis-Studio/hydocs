@@ -1,30 +1,30 @@
+**Source Hash:** `ce34ff6131c5bc1747d7f2eb8dfcd7ab7aabb845dfdbaf4ba9731c9d4c269e3c`
+
 # BuilderInstructionReference
 
 ## Overview
-- Documentation for `BuilderInstructionReference`.
-- Declared as a class in `com.hypixel.hytale.server.npc.instructions.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `excludeFromRegularBuilding()`
+- `excludeFromRegularBuilding()`: Add description.
   - Executes `excludeFromRegularBuilding` behavior.
-- `requiresName()`
+- `requiresName()`: Add description.
   - Executes `requiresName` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getInternalDependencies()`
+- `getInternalDependencies()`: Add description.
   - Executes `getInternalDependencies` behavior.
 
 ## Notes

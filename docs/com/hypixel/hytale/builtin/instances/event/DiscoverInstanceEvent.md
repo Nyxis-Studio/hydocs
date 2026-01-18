@@ -1,25 +1,25 @@
+**Source Hash:** `db542386755090aa5b5c7befc7f04291b8350ede361aeff9def003f878c0e637`
+
 # DiscoverInstanceEvent
 
 ## Overview
-- Documentation for `DiscoverInstanceEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.event`.
 
-## Constructors
+## Constructor Descriptions
 - `DiscoverInstanceEvent(@Nonnull UUID instanceWorldUuid, @Nonnull InstanceDiscoveryConfig discoveryConfig)`
   - Creates a `DiscoverInstanceEvent` instance.
 
-## Methods
-- `getInstanceWorldUuid()`
+## Method Descriptions
+- `getInstanceWorldUuid()`: Add description.
   - Executes `getInstanceWorldUuid` behavior.
-- `getDiscoveryConfig()`
+- `getDiscoveryConfig()`: Add description.
   - Executes `getDiscoveryConfig` behavior.
-- `isCancelled()`
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
-- `shouldDisplay()`
+- `shouldDisplay()`: Add description.
   - Executes `shouldDisplay` behavior.
-- `setDisplay(boolean display)`
+- `setDisplay(boolean display)`: Add description.
   - Executes `setDisplay` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `092dc9d594e0c8abdecf8eeb6add62cad2df61c48d388093131f4fb020b78e84`
+
 # BucketItem
 
 ## Overview
-- Documentation for `BucketItem`.
-- Declared as a class in `com.hypixel.hytale.common.collection`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `set(E reference, double squaredDistance)`
+## Method Descriptions
+- `set(E reference, double squaredDistance)`: Add description.
   - Executes `set` behavior.
 
 ## Notes

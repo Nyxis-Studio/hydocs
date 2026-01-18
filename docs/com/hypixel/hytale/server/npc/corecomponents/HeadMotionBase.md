@@ -1,15 +1,15 @@
+**Source Hash:** `40d9ae23dc041e7a5235928f58de90625f5b2e8f4d4310353ba6ee44febbe5f0`
+
 # HeadMotionBase
 
 ## Overview
-- Documentation for `HeadMotionBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `HeadMotionBase(BuilderHeadMotionBase builderMotionBase)`
   - Creates a `HeadMotionBase` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

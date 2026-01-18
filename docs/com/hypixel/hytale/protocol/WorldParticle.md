@@ -1,10 +1,10 @@
+**Source Hash:** `a15d381403bd9776c1ba0212774eaf8fbca63a1fa383a6e5180e3462aee103bc`
+
 # WorldParticle
 
 ## Overview
-- Documentation for `WorldParticle`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldParticle()`
   - Creates a `WorldParticle` instance.
 - `WorldParticle(@Nullable String systemId, float scale, @Nullable Color color, @Nullable Vector3f positionOffset, @Nullable Direction rotationOffset)`
@@ -12,22 +12,22 @@
 - `WorldParticle(@Nonnull WorldParticle other)`
   - Creates a `WorldParticle` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,36 +1,36 @@
+**Source Hash:** `0a8f022c429272369b4944c4fe67529336f5fc7dd751d70669cfe7d7b217e044`
+
 # BuilderValueToParameterMapping
 
 ## Overview
-- Documentation for `BuilderValueToParameterMapping`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getFromSlot(BuilderSupport support)`
+- `getFromSlot(BuilderSupport support)`: Add description.
   - Executes `getFromSlot` behavior.
-- `getToParameter()`
+- `getToParameter()`: Add description.
   - Executes `getToParameter` behavior.
-- `getFromValueSlot()`
+- `getFromValueSlot()`: Add description.
   - Executes `getFromValueSlot` behavior.
-- `getToParameterSlot()`
+- `getToParameterSlot()`: Add description.
   - Executes `getToParameterSlot` behavior.
-- `getToParameterSlotName()`
+- `getToParameterSlotName()`: Add description.
   - Executes `getToParameterSlotName` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `87d96819277dd19a25ac191ec56e4410c39319088f01a1e1b82e99988e8bb263`
+
 # NPCEditorPlugin
 
 ## Overview
-- Documentation for `NPCEditorPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.npceditor`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCEditorPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `NPCEditorPlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `onSelectAsset(@Nonnull AssetEditorSelectAssetEvent event)`
+- `onSelectAsset(@Nonnull AssetEditorSelectAssetEvent event)`: Add description.
   - Executes `onSelectAsset` behavior.
 
 ## Notes

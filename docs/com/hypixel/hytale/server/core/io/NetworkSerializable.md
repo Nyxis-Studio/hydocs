@@ -1,14 +1,14 @@
+**Source Hash:** `8db36c35376000ec45b98f79754202aff70ba455648f31ea3122795b06f0786b`
+
 # NetworkSerializable
 
 ## Overview
-- Documentation for `NetworkSerializable`.
-- Declared as a interface in `com.hypixel.hytale.server.core.io`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toPacket()`
+## Method Descriptions
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
 
 ## Notes

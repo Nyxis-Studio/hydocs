@@ -1,14 +1,14 @@
+**Source Hash:** `4ea4844e9caea76bd8b137051273c7b2c5e83c719a75fcd942ccf03159889333`
+
 # BuilderHeadMotionBase
 
 ## Overview
-- Documentation for `BuilderHeadMotionBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `category()`
+## Method Descriptions
+- `category()`: Add description.
   - Executes `category` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `79b5bc742df1f0b543abba8e2abdddfd5c3a7507a9149b4b219905357226a1ae`
+
 # RepulsionAddCommand
 
 ## Overview
-- Documentation for `RepulsionAddCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.component.repulsion`.
 
-## Constructors
+## Constructor Descriptions
 - `RepulsionAddCommand()`
   - Creates a `RepulsionAddCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

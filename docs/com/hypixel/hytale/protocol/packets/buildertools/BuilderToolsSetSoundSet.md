@@ -1,10 +1,10 @@
+**Source Hash:** `e89a29509fd3682b1a984870ae3ca88f5e211b7c61fc6197a04e5f8742ae2866`
+
 # BuilderToolsSetSoundSet
 
 ## Overview
-- Documentation for `BuilderToolsSetSoundSet`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolsSetSoundSet()`
   - Creates a `BuilderToolsSetSoundSet` instance.
 - `BuilderToolsSetSoundSet(int soundSetIndex)`
@@ -12,24 +12,24 @@
 - `BuilderToolsSetSoundSet(@Nonnull BuilderToolsSetSoundSet other)`
   - Creates a `BuilderToolsSetSoundSet` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

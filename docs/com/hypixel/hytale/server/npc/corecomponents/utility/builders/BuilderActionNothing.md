@@ -1,22 +1,22 @@
+**Source Hash:** `767eb4fd7ef6118fd71fb3a253be9f5f6242430535e435d74c5e66851f391840`
+
 # BuilderActionNothing
 
 ## Overview
-- Documentation for `BuilderActionNothing`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

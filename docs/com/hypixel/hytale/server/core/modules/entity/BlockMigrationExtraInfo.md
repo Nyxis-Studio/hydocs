@@ -1,15 +1,15 @@
+**Source Hash:** `326b2074734d33d9ee5c51edc71ad74ed42d3ceffa66c478336b93f5938c15eb`
+
 # BlockMigrationExtraInfo
 
 ## Overview
-- Documentation for `BlockMigrationExtraInfo`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMigrationExtraInfo(int version, Function<String, String> blockMigration)`
   - Creates a `BlockMigrationExtraInfo` instance.
 
-## Methods
-- `getBlockMigration()`
+## Method Descriptions
+- `getBlockMigration()`: Add description.
   - Executes `getBlockMigration` behavior.
 
 ## Notes

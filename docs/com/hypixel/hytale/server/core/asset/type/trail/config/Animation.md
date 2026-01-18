@@ -1,20 +1,20 @@
+**Source Hash:** `3b08351016b80b39ebc4f8f59d1f235deaa41e20e0f3fb5651e62b58fe662396`
+
 # Animation
 
 ## Overview
-- Documentation for `Animation`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.trail.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getFrameSize()`
+## Method Descriptions
+- `getFrameSize()`: Add description.
   - Executes `getFrameSize` behavior.
-- `getFrameRange()`
+- `getFrameRange()`: Add description.
   - Executes `getFrameRange` behavior.
-- `getFrameLifeSpan()`
+- `getFrameLifeSpan()`: Add description.
   - Executes `getFrameLifeSpan` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

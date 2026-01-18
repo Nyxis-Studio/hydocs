@@ -1,14 +1,14 @@
+**Source Hash:** `058811d92702ec9815ac591d3f6ad019f9d91ff03a95ff611ae85c1713f6271a`
+
 # ProviderEvaluatorTypeRegistry
 
 ## Overview
-- Documentation for `ProviderEvaluatorTypeRegistry`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `registerTypes(@Nonnull GsonBuilder gsonBuilder)`
+## Method Descriptions
+- `registerTypes(@Nonnull GsonBuilder gsonBuilder)`: Add description.
   - Executes `registerTypes` behavior.
 
 ## Notes

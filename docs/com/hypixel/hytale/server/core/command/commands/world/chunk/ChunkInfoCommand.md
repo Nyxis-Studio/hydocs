@@ -1,15 +1,15 @@
+**Source Hash:** `335e1ca299b77b543900d7cc8e78b0eaa6ad6d715cfa463d042d51c7368f50ea`
+
 # ChunkInfoCommand
 
 ## Overview
-- Documentation for `ChunkInfoCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkInfoCommand()`
   - Creates a `ChunkInfoCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `cc01a0e63fbbed776455877f4bf5567d17db830f5c8c251a82aeac5913f2a88b`
+
 # BooleanVoxelSpace
 
 ## Overview
-- Documentation for `BooleanVoxelSpace`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.voxelspace`.
 
-## Constructors
+## Constructor Descriptions
 - `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ, int originX, int originY, int originZ, boolean alignedOriginZ)`
   - Creates a `BooleanVoxelSpace` instance.
 - `BooleanVoxelSpace(int sizeX, int sizeY, int sizeZ, int originX, int originY, int originZ)`
@@ -16,78 +16,78 @@
 - `BooleanVoxelSpace(this.sizeX, this.sizeY, this.sizeZ, this.origin.x, this.origin.y, this.origin.z)`
   - Creates a `BooleanVoxelSpace` instance.
 
-## Methods
-- `sizeX()`
+## Method Descriptions
+- `sizeX()`: Add description.
   - Executes `sizeX` behavior.
-- `sizeY()`
+- `sizeY()`: Add description.
   - Executes `sizeY` behavior.
-- `sizeZ()`
+- `sizeZ()`: Add description.
   - Executes `sizeZ` behavior.
-- `pasteFrom(@Nonnull VoxelSpace<Boolean> source)`
+- `pasteFrom(@Nonnull VoxelSpace<Boolean> source)`: Add description.
   - Executes `pasteFrom` behavior.
-- `primaryAddressIndex(int x, int y)`
+- `primaryAddressIndex(int x, int y)`: Add description.
   - Executes `primaryAddressIndex` behavior.
-- `secondaryAddressIndex(int z)`
+- `secondaryAddressIndex(int z)`: Add description.
   - Executes `secondaryAddressIndex` behavior.
-- `setBit(int bits, int index, boolean value)`
+- `setBit(int bits, int index, boolean value)`: Add description.
   - Executes `setBit` behavior.
-- `getBit(int bits, int index)`
+- `getBit(int bits, int index)`: Add description.
   - Executes `getBit` behavior.
-- `set(@Nullable Boolean value, int x, int y, int z)`
+- `set(@Nullable Boolean value, int x, int y, int z)`: Add description.
   - Executes `set` behavior.
-- `set(Boolean content, @Nonnull Vector3i position)`
+- `set(Boolean content, @Nonnull Vector3i position)`: Add description.
   - Executes `set` behavior.
-- `getContent(int x, int y, int z)`
+- `getContent(int x, int y, int z)`: Add description.
   - Executes `getContent` behavior.
-- `getContent(@Nonnull Vector3i position)`
+- `getContent(@Nonnull Vector3i position)`: Add description.
   - Executes `getContent` behavior.
-- `globalJ(int globalZ)`
+- `globalJ(int globalZ)`: Add description.
   - Executes `globalJ` behavior.
-- `localJ(int globalJ)`
+- `localJ(int globalJ)`: Add description.
   - Executes `localJ` behavior.
-- `deepCopyFrom(@Nonnull BooleanVoxelSpace other)`
+- `deepCopyFrom(@Nonnull BooleanVoxelSpace other)`: Add description.
   - Executes `deepCopyFrom` behavior.
-- `set(Boolean content)`
+- `set(Boolean content)`: Add description.
   - Executes `set` behavior.
-- `setOrigin(int x, int y, int z)`
+- `setOrigin(int x, int y, int z)`: Add description.
   - Executes `setOrigin` behavior.
-- `replace(Boolean replacement, int x, int y, int z, @Nonnull Predicate<Boolean> mask)`
+- `replace(Boolean replacement, int x, int y, int z, @Nonnull Predicate<Boolean> mask)`: Add description.
   - Executes `replace` behavior.
-- `getOriginX()`
+- `getOriginX()`: Add description.
   - Executes `getOriginX` behavior.
-- `getOriginY()`
+- `getOriginY()`: Add description.
   - Executes `getOriginY` behavior.
-- `getOriginZ()`
+- `getOriginZ()`: Add description.
   - Executes `getOriginZ` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `isInsideSpace(int x, int y, int z)`
+- `isInsideSpace(int x, int y, int z)`: Add description.
   - Executes `isInsideSpace` behavior.
-- `isInsideSpace(@Nonnull Vector3i position)`
+- `isInsideSpace(@Nonnull Vector3i position)`: Add description.
   - Executes `isInsideSpace` behavior.
-- `forEach(@Nonnull VoxelConsumer<? super Boolean> action)`
+- `forEach(@Nonnull VoxelConsumer<? super Boolean> action)`: Add description.
   - Executes `forEach` behavior.
-- `minX()`
+- `minX()`: Add description.
   - Executes `minX` behavior.
-- `maxX()`
+- `maxX()`: Add description.
   - Executes `maxX` behavior.
-- `minY()`
+- `minY()`: Add description.
   - Executes `minY` behavior.
-- `maxY()`
+- `maxY()`: Add description.
   - Executes `maxY` behavior.
-- `minZ()`
+- `minZ()`: Add description.
   - Executes `minZ` behavior.
-- `maxZ()`
+- `maxZ()`: Add description.
   - Executes `maxZ` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `arrayIndex(int x, int y, int z)`
+- `arrayIndex(int x, int y, int z)`: Add description.
   - Executes `arrayIndex` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `isAlignedOriginZ(int z)`
+- `isAlignedOriginZ(int z)`: Add description.
   - Executes `isAlignedOriginZ` behavior.
-- `getAlignedZ(int z)`
+- `getAlignedZ(int z)`: Add description.
   - Executes `getAlignedZ` behavior.
 
 ## Notes

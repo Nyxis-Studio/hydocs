@@ -1,21 +1,21 @@
+**Source Hash:** `23e90fc3d6cb1c0284fcb82f73b2d6a4b3ca06c42604b049ecd94457b71b4e79`
+
 # Timers
 
 ## Overview
-- Documentation for `Timers`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `Timers(Tickable[] timers)`
   - Creates a `Timers` instance.
 - `Timers(this.timers)`
   - Creates a `Timers` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getTimers()`
+- `getTimers()`: Add description.
   - Executes `getTimers` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

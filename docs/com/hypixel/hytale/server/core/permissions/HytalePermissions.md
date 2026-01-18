@@ -1,16 +1,16 @@
+**Source Hash:** `d6ef173902dac77abd6a274d93e6f817708d759ac2aa8287e8f64a6d262a2d2c`
+
 # HytalePermissions
 
 ## Overview
-- Documentation for `HytalePermissions`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `fromCommand(@Nonnull String name)`
+## Method Descriptions
+- `fromCommand(@Nonnull String name)`: Add description.
   - Executes `fromCommand` behavior.
-- `fromCommand(@Nonnull String name, @Nonnull String subCommand)`
+- `fromCommand(@Nonnull String name, @Nonnull String subCommand)`: Add description.
   - Executes `fromCommand` behavior.
 
 ## Notes

@@ -1,22 +1,22 @@
+**Source Hash:** `76f64304c6d3285d6d6a225d3f2592961773c953b1bb547074952bf3d0fd1e23`
+
 # WorldTransactionRecord
 
 ## Overview
-- Documentation for `WorldTransactionRecord`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `revert()`
+## Method Descriptions
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

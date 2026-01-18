@@ -1,10 +1,10 @@
+**Source Hash:** `20860935ef1bb26b780566e220460a77d86d6dfa4e7e03fa5edee3f33a87d7b5`
+
 # Material
 
 ## Overview
-- Documentation for `Material`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.utils`.
 
-## Constructors
+## Constructor Descriptions
 - `Material(0, 0, 0, 0)`
   - Creates a `Material` instance.
 - `Material(int blockId, int fluidId, byte fluidLevel, int rotation)`
@@ -14,38 +14,38 @@
 - `Material(0, fluidId, fluidLevel, 0)`
   - Creates a `Material` instance.
 
-## Methods
-- `block(int blockId)`
+## Method Descriptions
+- `block(int blockId)`: Add description.
   - Executes `block` behavior.
-- `block(int blockId, int rotation)`
+- `block(int blockId, int rotation)`: Add description.
   - Executes `block` behavior.
-- `fluid(int fluidId, byte fluidLevel)`
+- `fluid(int fluidId, byte fluidLevel)`: Add description.
   - Executes `fluid` behavior.
-- `fromKey(@Nonnull String key)`
+- `fromKey(@Nonnull String key)`: Add description.
   - Executes `fromKey` behavior.
-- `isFluid()`
+- `isFluid()`: Add description.
   - Executes `isFluid` behavior.
-- `isBlock()`
+- `isBlock()`: Add description.
   - Executes `isBlock` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `getBlockId()`
+- `getBlockId()`: Add description.
   - Executes `getBlockId` behavior.
-- `getFluidId()`
+- `getFluidId()`: Add description.
   - Executes `getFluidId` behavior.
-- `getFluidLevel()`
+- `getFluidLevel()`: Add description.
   - Executes `getFluidLevel` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `hasRotation()`
+- `hasRotation()`: Add description.
   - Executes `hasRotation` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `fromPattern(@Nonnull BlockPattern pattern, @Nonnull Random random)`
+- `fromPattern(@Nonnull BlockPattern pattern, @Nonnull Random random)`: Add description.
   - Executes `fromPattern` behavior.
 
 ## Notes

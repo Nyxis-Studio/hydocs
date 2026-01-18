@@ -1,15 +1,15 @@
+**Source Hash:** `04180950b5500fa36912f6b5a2e3a19206864717503f1a6d6c7d305d0b26e9ce`
+
 # JumpIfBlockTypeOperation
 
 ## Overview
-- Documentation for `JumpIfBlockTypeOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol`.
 
-## Constructors
+## Constructor Descriptions
 - `JumpIfBlockTypeOperation()`
   - Creates a `JumpIfBlockTypeOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `125f169fcdfde5a40e35730b18078db55d52fbaef85c6b1ae7d1edea2e039fce`
+
 # WeightedSizeFlockAsset
 
 ## Overview
-- Documentation for `WeightedSizeFlockAsset`.
-- Declared as a class in `com.hypixel.hytale.server.flock.config`.
 
-## Constructors
+## Constructor Descriptions
 - `WeightedSizeFlockAsset()`
   - Creates a `WeightedSizeFlockAsset` instance.
 
-## Methods
-- `getMinSize()`
+## Method Descriptions
+- `getMinSize()`: Add description.
   - Executes `getMinSize` behavior.
-- `getSizeWeights()`
+- `getSizeWeights()`: Add description.
   - Executes `getSizeWeights` behavior.
-- `getMinFlockSize()`
+- `getMinFlockSize()`: Add description.
   - Executes `getMinFlockSize` behavior.
-- `pickFlockSize()`
+- `pickFlockSize()`: Add description.
   - Executes `pickFlockSize` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

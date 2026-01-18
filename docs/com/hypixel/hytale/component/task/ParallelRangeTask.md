@@ -1,27 +1,27 @@
+**Source Hash:** `2467301bc49a27f10b773a3cf4df1ba0f2aecbc8bbd7fc0e6f500f7fd3ad9d2f`
+
 # ParallelRangeTask
 
 ## Overview
-- Documentation for `ParallelRangeTask`.
-- Declared as a class in `com.hypixel.hytale.component.task`.
 
-## Constructors
+## Constructor Descriptions
 - `ParallelRangeTask(@Nonnull Supplier<D> supplier)`
   - Creates a `ParallelRangeTask` instance.
 - `ParallelRangeTask(CountedCompleter<?> completer, @Nonnull Supplier<D> supplier)`
   - Creates a `ParallelRangeTask` instance.
 
-## Methods
-- `reinitialize()`
+## Method Descriptions
+- `reinitialize()`: Add description.
   - Executes `reinitialize` behavior.
-- `init(int from, int to)`
+- `init(int from, int to)`: Add description.
   - Executes `init` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(int i)`
+- `get(int i)`: Add description.
   - Executes `get` behavior.
-- `set(int i, D data)`
+- `set(int i, D data)`: Add description.
   - Executes `set` behavior.
-- `compute()`
+- `compute()`: Add description.
   - Executes `compute` behavior.
 
 ## Notes

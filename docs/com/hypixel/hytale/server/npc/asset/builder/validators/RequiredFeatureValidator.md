@@ -1,16 +1,16 @@
+**Source Hash:** `a1ac73f58bf4c79f50821de518a4c14b8694721deefda2a6164b2c43b97cb975`
+
 # RequiredFeatureValidator
 
 ## Overview
-- Documentation for `RequiredFeatureValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `validate(FeatureEvaluatorHelper var1)`
+## Method Descriptions
+- `validate(FeatureEvaluatorHelper var1)`: Add description.
   - Executes `validate` behavior.
-- `getErrorMessage(String var1)`
+- `getErrorMessage(String var1)`: Add description.
   - Executes `getErrorMessage` behavior.
 
 ## Notes

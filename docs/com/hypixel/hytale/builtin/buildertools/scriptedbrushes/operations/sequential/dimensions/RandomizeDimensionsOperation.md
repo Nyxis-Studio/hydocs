@@ -1,15 +1,15 @@
+**Source Hash:** `56bb45ba1cc9883800843a4ed2e2cc99093411857a5e50aaa18395e15c69ce6b`
+
 # RandomizeDimensionsOperation
 
 ## Overview
-- Documentation for `RandomizeDimensionsOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.dimensions`.
 
-## Constructors
+## Constructor Descriptions
 - `RandomizeDimensionsOperation()`
   - Creates a `RandomizeDimensionsOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

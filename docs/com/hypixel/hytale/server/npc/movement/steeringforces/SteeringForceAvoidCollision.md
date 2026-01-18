@@ -1,48 +1,48 @@
+**Source Hash:** `de2e3ff2a3560a5d10a15401d0bdac96d95edacaaecfe08ee5b0ee1ba0bf5d74`
+
 # SteeringForceAvoidCollision
 
 ## Overview
-- Documentation for `SteeringForceAvoidCollision`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.steeringforces`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setDebug(boolean debug)`
+## Method Descriptions
+- `setDebug(boolean debug)`: Add description.
   - Executes `setDebug` behavior.
-- `setAvoidanceMode(Role.AvoidanceMode avoidanceMode)`
+- `setAvoidanceMode(Role.AvoidanceMode avoidanceMode)`: Add description.
   - Executes `setAvoidanceMode` behavior.
-- `setSelf(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setSelf(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setSelf` behavior.
-- `setSelf(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nullable Vector3d velocity, double radius, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setSelf(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nullable Vector3d velocity, double radius, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setSelf` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `compute(@Nonnull Steering output)`
+- `compute(@Nonnull Steering output)`: Add description.
   - Executes `compute` behavior.
-- `add(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `add(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `add` behavior.
-- `setVelocityFromEntity(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setVelocityFromEntity(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setVelocityFromEntity` behavior.
-- `setRadiusFromEntity(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setRadiusFromEntity(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setRadiusFromEntity` behavior.
-- `setMaxDistance(double distance)`
+- `setMaxDistance(double distance)`: Add description.
   - Executes `setMaxDistance` behavior.
-- `setFalloff(double falloff)`
+- `setFalloff(double falloff)`: Add description.
   - Executes `setFalloff` behavior.
-- `setSelfVelocity(@Nonnull Vector3d selfVelocity)`
+- `setSelfVelocity(@Nonnull Vector3d selfVelocity)`: Add description.
   - Executes `setSelfVelocity` behavior.
-- `getSelfVelocity()`
+- `getSelfVelocity()`: Add description.
   - Executes `getSelfVelocity` behavior.
-- `getSelfRadius()`
+- `getSelfRadius()`: Add description.
   - Executes `getSelfRadius` behavior.
-- `setSelfRadius(double selfRadius)`
+- `setSelfRadius(double selfRadius)`: Add description.
   - Executes `setSelfRadius` behavior.
-- `getStrength()`
+- `getStrength()`: Add description.
   - Executes `getStrength` behavior.
-- `setStrength(double strength)`
+- `setStrength(double strength)`: Add description.
   - Executes `setStrength` behavior.
-- `getLastSteeringDirection()`
+- `getLastSteeringDirection()`: Add description.
   - Executes `getLastSteeringDirection` behavior.
 
 ## Notes

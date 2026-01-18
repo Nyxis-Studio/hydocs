@@ -1,24 +1,24 @@
+**Source Hash:** `6d5b627bff4ad9d6dcebd8dc7ee36da6112a43817b64d09564c9dc4d5535fc0f`
+
 # CombatConfig
 
 ## Overview
-- Documentation for `CombatConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getOutOfCombatDelay()`
+## Method Descriptions
+- `getOutOfCombatDelay()`: Add description.
   - Executes `getOutOfCombatDelay` behavior.
-- `getStaminaBrokenEffectIndex()`
+- `getStaminaBrokenEffectIndex()`: Add description.
   - Executes `getStaminaBrokenEffectIndex` behavior.
-- `isDisplayHealthBars()`
+- `isDisplayHealthBars()`: Add description.
   - Executes `isDisplayHealthBars` behavior.
-- `isDisplayCombatText()`
+- `isDisplayCombatText()`: Add description.
   - Executes `isDisplayCombatText` behavior.
-- `isNpcIncomingDamageDisabled()`
+- `isNpcIncomingDamageDisabled()`: Add description.
   - Executes `isNpcIncomingDamageDisabled` behavior.
-- `isPlayerIncomingDamageDisabled()`
+- `isPlayerIncomingDamageDisabled()`: Add description.
   - Executes `isPlayerIncomingDamageDisabled` behavior.
 
 ## Notes

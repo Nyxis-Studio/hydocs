@@ -1,10 +1,10 @@
+**Source Hash:** `06d7c6ab3f8130f41e3a51175f93bb2bc0db385a49811f132672235955e14913`
+
 # Coord
 
 ## Overview
-- Documentation for `Coord`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `Coord(double value, boolean height, boolean relative, boolean chunk)`
   - Creates a `Coord` instance.
 - `Coord(0.0, true, relative, chunk)`
@@ -16,24 +16,24 @@
 - `Coord(Double.parseDouble(rest)`
   - Creates a `Coord` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `isNotBase()`
+- `isNotBase()`: Add description.
   - Executes `isNotBase` behavior.
-- `isHeight()`
+- `isHeight()`: Add description.
   - Executes `isHeight` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
-- `isChunk()`
+- `isChunk()`: Add description.
   - Executes `isChunk` behavior.
-- `resolveXZ(double base)`
+- `resolveXZ(double base)`: Add description.
   - Executes `resolveXZ` behavior.
-- `resolveYAtWorldCoords(double base, @Nonnull World world, double x, double z)`
+- `resolveYAtWorldCoords(double base, @Nonnull World world, double x, double z)`: Add description.
   - Executes `resolveYAtWorldCoords` behavior.
-- `resolve(double base)`
+- `resolve(double base)`: Add description.
   - Executes `resolve` behavior.
-- `parse(@Nonnull String str)`
+- `parse(@Nonnull String str)`: Add description.
   - Executes `parse` behavior.
 
 ## Notes

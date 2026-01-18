@@ -1,23 +1,23 @@
+**Source Hash:** `565c7e4e1c758adc0d6d8178df06c82ad86c451894fa99fda14dadf1bbca70e8`
+
 # PhysicsDropType
 
 ## Overview
-- Documentation for `PhysicsDropType`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `PhysicsDropType(String itemId, String dropListId)`
   - Creates a `PhysicsDropType` instance.
 - `PhysicsDropType()`
   - Creates a `PhysicsDropType` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `withoutDrops()`
+- `withoutDrops()`: Add description.
   - Executes `withoutDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

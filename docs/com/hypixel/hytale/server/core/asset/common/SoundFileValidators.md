@@ -1,18 +1,18 @@
+**Source Hash:** `d0cbe36a65dc102215abbd6050e02ef898d9c04ef7955400a71439c336e94113`
+
 # SoundFileValidators
 
 ## Overview
-- Documentation for `SoundFileValidators`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getEncoding(int channelCount)`
+## Method Descriptions
+- `getEncoding(int channelCount)`: Add description.
   - Executes `getEncoding` behavior.
-- `accept(@Nullable String s, @Nonnull ValidationResults results)`
+- `accept(@Nullable String s, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `updateSchema(SchemaContext context, Schema target)`
+- `updateSchema(SchemaContext context, Schema target)`: Add description.
   - Executes `updateSchema` behavior.
 
 ## Notes

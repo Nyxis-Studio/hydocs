@@ -1,17 +1,17 @@
+**Source Hash:** `1ae3ef4c3e6386d73d773230a96c0fbd0aa6cac40e4c3700119fce6504bd583b`
+
 # Opacity
 
 ## Overview
-- Documentation for `Opacity`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Opacity(int value)`
   - Creates a `Opacity` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,21 +1,21 @@
+**Source Hash:** `a60af894be43c6592094e153b689292f9fa2a952e51f8bded3ce1beba666b4bb`
+
 # EntityUIModule
 
 ## Overview
-- Documentation for `EntityUIModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityUIModule(@Nonnull JavaPluginInit init)`
   - Creates a `EntityUIModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getUIComponentListType()`
+- `getUIComponentListType()`: Add description.
   - Executes `getUIComponentListType` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `onLoadedAssetsEvent(LoadedAssetsEvent<String, EntityUIComponent, IndexedLookupTableAssetMap<String, EntityUIComponent>> event)`
+- `onLoadedAssetsEvent(LoadedAssetsEvent<String, EntityUIComponent, IndexedLookupTableAssetMap<String, EntityUIComponent>> event)`: Add description.
   - Executes `onLoadedAssetsEvent` behavior.
 
 ## Notes

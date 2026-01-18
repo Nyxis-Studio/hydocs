@@ -1,37 +1,37 @@
+**Source Hash:** `8e59adaf55e702b8050af449d06a4107dabfef9a2ed530d87cc122ce72aeb610`
+
 # WaterContainer
 
 ## Overview
-- Documentation for `WaterContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `WaterContainer(Entry[] entries)`
   - Creates a `WaterContainer` instance.
 
-## Methods
-- `isValidWaterHeight(int height)`
+## Method Descriptions
+- `isValidWaterHeight(int height)`: Add description.
   - Executes `isValidWaterHeight` behavior.
-- `hasEntries()`
+- `hasEntries()`: Add description.
   - Executes `hasEntries` behavior.
-- `getEntries()`
+- `getEntries()`: Add description.
   - Executes `getEntries` behavior.
-- `getMaxHeight(int seed, int x, int z)`
+- `getMaxHeight(int seed, int x, int z)`: Add description.
   - Executes `getMaxHeight` behavior.
-- `getBlock()`
+- `getBlock()`: Add description.
   - Executes `getBlock` behavior.
-- `getFluid()`
+- `getFluid()`: Add description.
   - Executes `getFluid` behavior.
-- `getMax(int seed, int x, int z)`
+- `getMax(int seed, int x, int z)`: Add description.
   - Executes `getMax` behavior.
-- `getMin(int seed, int x, int z)`
+- `getMin(int seed, int x, int z)`: Add description.
   - Executes `getMin` behavior.
-- `shouldPopulate(int seed, int x, int z)`
+- `shouldPopulate(int seed, int x, int z)`: Add description.
   - Executes `shouldPopulate` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `getMin()`
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

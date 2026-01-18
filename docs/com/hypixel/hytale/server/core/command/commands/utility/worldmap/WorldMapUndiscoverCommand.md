@@ -1,15 +1,15 @@
+**Source Hash:** `dc91a24e9248a2159b885752ef946ce65500d83c388f76d265dd09d1b6070ecf`
+
 # WorldMapUndiscoverCommand
 
 ## Overview
-- Documentation for `WorldMapUndiscoverCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.worldmap`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldMapUndiscoverCommand()`
   - Creates a `WorldMapUndiscoverCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

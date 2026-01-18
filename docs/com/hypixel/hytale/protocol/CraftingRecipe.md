@@ -1,10 +1,10 @@
+**Source Hash:** `5e69d1594efeadfaaad21776eb45a59e342c109220c3bba45a1db7ddb79775dd`
+
 # CraftingRecipe
 
 ## Overview
-- Documentation for `CraftingRecipe`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CraftingRecipe()`
   - Creates a `CraftingRecipe` instance.
 - `CraftingRecipe(@Nullable String id, @Nullable MaterialQuantity[] inputs, @Nullable MaterialQuantity[] outputs, @Nullable MaterialQuantity primaryOutput, @Nullable BenchRequirement[] benchRequirement, boolean knowledgeRequired, float timeSeconds, int requiredMemoriesLevel)`
@@ -12,22 +12,22 @@
 - `CraftingRecipe(@Nonnull CraftingRecipe other)`
   - Creates a `CraftingRecipe` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,26 +1,26 @@
+**Source Hash:** `ae23157d8642670c4b48e7decde7465ce0a0d7ec6987c9f95ff5f32842eb1daa`
+
 # Ban
 
 ## Overview
-- Documentation for `Ban`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.accesscontrol.ban`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getTarget()`
+## Method Descriptions
+- `getTarget()`: Add description.
   - Executes `getTarget` behavior.
-- `getBy()`
+- `getBy()`: Add description.
   - Executes `getBy` behavior.
-- `getTimestamp()`
+- `getTimestamp()`: Add description.
   - Executes `getTimestamp` behavior.
-- `isInEffect()`
+- `isInEffect()`: Add description.
   - Executes `isInEffect` behavior.
-- `getReason()`
+- `getReason()`: Add description.
   - Executes `getReason` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `toJsonObject()`
+- `toJsonObject()`: Add description.
   - Executes `toJsonObject` behavior.
 
 ## Notes

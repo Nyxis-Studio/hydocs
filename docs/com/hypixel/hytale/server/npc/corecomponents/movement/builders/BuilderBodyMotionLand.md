@@ -1,28 +1,28 @@
+**Source Hash:** `283f939de1493dd95d9184bb7a1a623ac04887ba31338d4af9622d45f1817715`
+
 # BuilderBodyMotionLand
 
 ## Overview
-- Documentation for `BuilderBodyMotionLand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `getGoalLenience(@Nonnull BuilderSupport support)`
+- `getGoalLenience(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getGoalLenience` behavior.
-- `getDesiredAltitudeWeight(BuilderSupport support)`
+- `getDesiredAltitudeWeight(BuilderSupport support)`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
 
 ## Notes

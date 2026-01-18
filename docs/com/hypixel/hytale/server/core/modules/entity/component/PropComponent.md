@@ -1,19 +1,19 @@
+**Source Hash:** `124f3488c9b4a403ce03ed06bb1af067c68534535e80bdb199c2483605ebbdd1`
+
 # PropComponent
 
 ## Overview
-- Documentation for `PropComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `PropComponent()`
   - Creates a `PropComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

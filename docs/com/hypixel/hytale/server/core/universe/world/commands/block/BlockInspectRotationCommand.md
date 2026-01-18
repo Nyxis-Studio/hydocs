@@ -1,15 +1,15 @@
+**Source Hash:** `727b0474734f5e824f9b590648f006b755277cf77a55bf458bcc59e8b99bf382`
+
 # BlockInspectRotationCommand
 
 ## Overview
-- Documentation for `BlockInspectRotationCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockInspectRotationCommand()`
   - Creates a `BlockInspectRotationCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

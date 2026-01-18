@@ -1,15 +1,15 @@
+**Source Hash:** `8afb89dd83038810009b2a343fb17da61d3d4899bf0a98b6228dff8f3dcd9d70`
+
 # LightingCalculationCommand
 
 ## Overview
-- Documentation for `LightingCalculationCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.lighting`.
 
-## Constructors
+## Constructor Descriptions
 - `LightingCalculationCommand()`
   - Creates a `LightingCalculationCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

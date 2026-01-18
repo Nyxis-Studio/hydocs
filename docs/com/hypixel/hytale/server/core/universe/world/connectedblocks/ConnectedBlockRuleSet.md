@@ -1,16 +1,16 @@
+**Source Hash:** `552e3f0086e94d6b982bf62d3cbddd6cf836c9569f7f9cccbd8675a216a05f9d`
+
 # ConnectedBlockRuleSet
 
 ## Overview
-- Documentation for `ConnectedBlockRuleSet`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onlyUpdateOnPlacement()`
+## Method Descriptions
+- `onlyUpdateOnPlacement()`: Add description.
   - Executes `onlyUpdateOnPlacement` behavior.
-- `updateCachedBlockTypes(BlockType blockType, BlockTypeAssetMap<String, BlockType> assetMap)`
+- `updateCachedBlockTypes(BlockType blockType, BlockTypeAssetMap<String, BlockType> assetMap)`: Add description.
   - Executes `updateCachedBlockTypes` behavior.
 
 ## Notes

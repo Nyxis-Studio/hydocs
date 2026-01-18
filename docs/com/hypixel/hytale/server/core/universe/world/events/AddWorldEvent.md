@@ -1,19 +1,19 @@
+**Source Hash:** `be4e7eaffe41ae430061df563f2cda3a856b7aad2ceae4a3e5b49838f029e020`
+
 # AddWorldEvent
 
 ## Overview
-- Documentation for `AddWorldEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.events`.
 
-## Constructors
+## Constructor Descriptions
 - `AddWorldEvent(@Nonnull World world)`
   - Creates a `AddWorldEvent` instance.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `isCancelled()`
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
 
 ## Notes

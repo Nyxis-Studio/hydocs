@@ -1,96 +1,96 @@
+**Source Hash:** `3ee3a6d55517881d4d6fd9403dd675aa2ce977229dcd5e972901b39b1bd8a74e`
+
 # BuilderMotionControllerWalk
 
 ## Overview
-- Documentation for `BuilderMotionControllerWalk`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getMinHorizontalSpeed()`
+- `getMinHorizontalSpeed()`: Add description.
   - Executes `getMinHorizontalSpeed` behavior.
-- `getAcceleration(@Nonnull BuilderSupport builderSupport)`
+- `getAcceleration(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getAcceleration` behavior.
-- `getMaxVerticalSpeed()`
+- `getMaxVerticalSpeed()`: Add description.
   - Executes `getMaxVerticalSpeed` behavior.
-- `getMaxVerticalSpeedFluid()`
+- `getMaxVerticalSpeedFluid()`: Add description.
   - Executes `getMaxVerticalSpeedFluid` behavior.
-- `getGravity()`
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `getMaxMoveTurnAngle(@Nonnull BuilderSupport builderSupport)`
+- `getMaxMoveTurnAngle(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getMaxMoveTurnAngle` behavior.
-- `getMaxRotationSpeed(@Nonnull BuilderSupport builderSupport)`
+- `getMaxRotationSpeed(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getMaxRotationSpeed` behavior.
-- `getBlendRestTurnAngle(@Nonnull BuilderSupport builderSupport)`
+- `getBlendRestTurnAngle(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getBlendRestTurnAngle` behavior.
-- `getBlendRestRelativeSpeed(@Nonnull BuilderSupport builderSupport)`
+- `getBlendRestRelativeSpeed(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getBlendRestRelativeSpeed` behavior.
-- `getMaxClimbHeight(@Nonnull BuilderSupport support)`
+- `getMaxClimbHeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMaxClimbHeight` behavior.
-- `getClimbSpeedMult()`
+- `getClimbSpeedMult()`: Add description.
   - Executes `getClimbSpeedMult` behavior.
-- `getClimbSpeedPow()`
+- `getClimbSpeedPow()`: Add description.
   - Executes `getClimbSpeedPow` behavior.
-- `getClimbSpeedConst()`
+- `getClimbSpeedConst()`: Add description.
   - Executes `getClimbSpeedConst` behavior.
-- `getDescendForwardAmount(@Nonnull BuilderSupport builderSupport)`
+- `getDescendForwardAmount(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getDescendForwardAmount` behavior.
-- `getDescendSpeedCompensation(@Nonnull BuilderSupport builderSupport)`
+- `getDescendSpeedCompensation(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getDescendSpeedCompensation` behavior.
-- `getMaxDropHeight(@Nonnull BuilderSupport support)`
+- `getMaxDropHeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMaxDropHeight` behavior.
-- `getFenceBlockSet()`
+- `getFenceBlockSet()`: Add description.
   - Executes `getFenceBlockSet` behavior.
-- `getMinHover()`
+- `getMinHover()`: Add description.
   - Executes `getMinHover` behavior.
-- `getMaxHover()`
+- `getMaxHover()`: Add description.
   - Executes `getMaxHover` behavior.
-- `getHoverFreq()`
+- `getHoverFreq()`: Add description.
   - Executes `getHoverFreq` behavior.
-- `getMinHoverClimb()`
+- `getMinHoverClimb()`: Add description.
   - Executes `getMinHoverClimb` behavior.
-- `getMinHoverDrop()`
+- `getMinHoverDrop()`: Add description.
   - Executes `getMinHoverDrop` behavior.
-- `isFloatsDown()`
+- `isFloatsDown()`: Add description.
   - Executes `isFloatsDown` behavior.
-- `getMaxWalkSpeedAfterHitMultiplier()`
+- `getMaxWalkSpeedAfterHitMultiplier()`: Add description.
   - Executes `getMaxWalkSpeedAfterHitMultiplier` behavior.
-- `getJumpHeight(@Nonnull BuilderSupport support)`
+- `getJumpHeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpHeight` behavior.
-- `getMinJumpHeight(@Nonnull BuilderSupport support)`
+- `getMinJumpHeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinJumpHeight` behavior.
-- `getMinJumpDistance(@Nonnull BuilderSupport support)`
+- `getMinJumpDistance(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinJumpDistance` behavior.
-- `getJumpForce(@Nonnull BuilderSupport support)`
+- `getJumpForce(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpForce` behavior.
-- `getJumpDescentSteepness(@Nonnull BuilderSupport support)`
+- `getJumpDescentSteepness(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpDescentSteepness` behavior.
-- `getJumpBlending(@Nonnull BuilderSupport support)`
+- `getJumpBlending(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpBlending` behavior.
-- `getJumpDescentBlending(@Nonnull BuilderSupport support)`
+- `getJumpDescentBlending(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpDescentBlending` behavior.
-- `getDescentSteepness(@Nonnull BuilderSupport support)`
+- `getDescentSteepness(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDescentSteepness` behavior.
-- `getDescentBlending(@Nonnull BuilderSupport support)`
+- `getDescentBlending(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDescentBlending` behavior.
-- `getMinDescentAnimationHeight(@Nonnull BuilderSupport support)`
+- `getMinDescentAnimationHeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinDescentAnimationHeight` behavior.
-- `getJumpRange(@Nonnull BuilderSupport support)`
+- `getJumpRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getJumpRange` behavior.
-- `canSpawn(@Nonnull SpawningContext context)`
+- `canSpawn(@Nonnull SpawningContext context)`: Add description.
   - Executes `canSpawn` behavior.
 
 ## Notes

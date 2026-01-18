@@ -1,15 +1,15 @@
+**Source Hash:** `494c653acc0a441aa5ae68289126e51fcdaaaa08c3a663ada9143a0ed601ed02`
+
 # InstructionType
 
 ## Overview
-- Documentation for `InstructionType`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `InstructionType(String description)`
   - Creates a `InstructionType` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

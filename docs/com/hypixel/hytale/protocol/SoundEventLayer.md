@@ -1,10 +1,10 @@
+**Source Hash:** `9af3952d70946cbfde2096d45d0c87a0b2b0fd00bbc775cf7885e239cf441823`
+
 # SoundEventLayer
 
 ## Overview
-- Documentation for `SoundEventLayer`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `SoundEventLayer()`
   - Creates a `SoundEventLayer` instance.
 - `SoundEventLayer(float volume, float startDelay, boolean looping, int probability, float probabilityRerollDelay, int roundRobinHistorySize, @Nullable SoundEventLayerRandomSettings randomSettings, @Nullable String[] files)`
@@ -12,22 +12,22 @@
 - `SoundEventLayer(@Nonnull SoundEventLayer other)`
   - Creates a `SoundEventLayer` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

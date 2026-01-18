@@ -1,17 +1,17 @@
+**Source Hash:** `eeddd1407a1b54b708c39398612dabec12e6952cebdd57b91f8de71ff05cd746`
+
 # WorldEmptyCondition
 
 ## Overview
-- Documentation for `WorldEmptyCondition`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.removal`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldEmptyCondition()`
   - Creates a `WorldEmptyCondition` instance.
 - `WorldEmptyCondition(double timeoutSeconds)`
   - Creates a `WorldEmptyCondition` instance.
 
-## Methods
-- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`
+## Method Descriptions
+- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `shouldRemoveWorld` behavior.
 
 ## Notes

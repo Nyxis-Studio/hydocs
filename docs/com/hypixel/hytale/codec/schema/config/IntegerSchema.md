@@ -1,61 +1,61 @@
+**Source Hash:** `e45c0632e412a41555f6cdc11a5dff514dfe6582f043f0b7f1d4deaaa5159c9a`
+
 # IntegerSchema
 
 ## Overview
-- Documentation for `IntegerSchema`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.config`.
 
-## Constructors
+## Constructor Descriptions
 - `IntegerSchema()`
   - Creates a `IntegerSchema` instance.
 
-## Methods
-- `getMinimum()`
+## Method Descriptions
+- `getMinimum()`: Add description.
   - Executes `getMinimum` behavior.
-- `setMinimum(int minimum)`
+- `setMinimum(int minimum)`: Add description.
   - Executes `setMinimum` behavior.
-- `getExclusiveMinimum()`
+- `getExclusiveMinimum()`: Add description.
   - Executes `getExclusiveMinimum` behavior.
-- `setExclusiveMinimum(int exclusiveMinimum)`
+- `setExclusiveMinimum(int exclusiveMinimum)`: Add description.
   - Executes `setExclusiveMinimum` behavior.
-- `getMaximum()`
+- `getMaximum()`: Add description.
   - Executes `getMaximum` behavior.
-- `setMaximum(int maximum)`
+- `setMaximum(int maximum)`: Add description.
   - Executes `setMaximum` behavior.
-- `getExclusiveMaximum()`
+- `getExclusiveMaximum()`: Add description.
   - Executes `getExclusiveMaximum` behavior.
-- `setExclusiveMaximum(int exclusiveMaximum)`
+- `setExclusiveMaximum(int exclusiveMaximum)`: Add description.
   - Executes `setExclusiveMaximum` behavior.
-- `setMinimum(Schema minimum)`
+- `setMinimum(Schema minimum)`: Add description.
   - Executes `setMinimum` behavior.
-- `setExclusiveMinimum(Schema exclusiveMinimum)`
+- `setExclusiveMinimum(Schema exclusiveMinimum)`: Add description.
   - Executes `setExclusiveMinimum` behavior.
-- `setMaximum(Schema maximum)`
+- `setMaximum(Schema maximum)`: Add description.
   - Executes `setMaximum` behavior.
-- `setExclusiveMaximum(Schema exclusiveMaximum)`
+- `setExclusiveMaximum(Schema exclusiveMaximum)`: Add description.
   - Executes `setExclusiveMaximum` behavior.
-- `getEnum()`
+- `getEnum()`: Add description.
   - Executes `getEnum` behavior.
-- `setEnum(int[] enum_)`
+- `setEnum(int[] enum_)`: Add description.
   - Executes `setEnum` behavior.
-- `getConst()`
+- `getConst()`: Add description.
   - Executes `getConst` behavior.
-- `setConst(Integer const_)`
+- `setConst(Integer const_)`: Add description.
   - Executes `setConst` behavior.
-- `getDefault()`
+- `getDefault()`: Add description.
   - Executes `getDefault` behavior.
-- `setDefault(Integer default_)`
+- `setDefault(Integer default_)`: Add description.
   - Executes `setDefault` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `constant(int c)`
+- `constant(int c)`: Add description.
   - Executes `constant` behavior.
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(Object o, ExtraInfo extraInfo)`
+- `encode(Object o, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `c9afc4632318059ae8bb88ef150ec72c002c7ffa4cd51c607d41d65875917072`
+
 # MinCurveAsset
 
 ## Overview
-- Documentation for `MinCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

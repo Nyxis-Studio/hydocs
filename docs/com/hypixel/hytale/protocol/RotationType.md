@@ -1,17 +1,17 @@
+**Source Hash:** `ab636758c50672ffdc67519a006a111eb86ef20ba19b604961fa41b47f7da0ef`
+
 # RotationType
 
 ## Overview
-- Documentation for `RotationType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `RotationType(int value)`
   - Creates a `RotationType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `064538467d045edf93c165e029dad1a22d7fa46432afaf23a55b909ae981030e`
+
 # FlockMembershipType
 
 ## Overview
-- Documentation for `FlockMembershipType`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `FlockMembershipType(String description)`
   - Creates a `FlockMembershipType` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

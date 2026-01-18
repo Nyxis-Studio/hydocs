@@ -1,16 +1,16 @@
+**Source Hash:** `b257f816234a93419baba90e24fa36e262e07c41d310bb0aa755d1bedf57f524`
+
 # ThrowableRunnable
 
 ## Overview
-- Documentation for `ThrowableRunnable`.
-- Declared as a interface in `com.hypixel.hytale.sneakythrow`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
-- `runNow()`
+- `runNow()`: Add description.
   - Executes `runNow` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `c57742d26cb37243b52a85f64623b1b3f047fa29e0ba635edded25fa1f1fab8c`
+
 # WallsCommand
 
 ## Overview
-- Documentation for `WallsCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WallsCommand()`
   - Creates a `WallsCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

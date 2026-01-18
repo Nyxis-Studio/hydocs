@@ -1,18 +1,18 @@
+**Source Hash:** `ec4bd32e1bab316429ad556250a84f8cd0bd51b655941bde00efaa5e7f2e3972`
+
 # NEntityBuffer
 
 ## Overview
-- Documentation for `NEntityBuffer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `forEach(@Nonnull Consumer<EntityPlacementData> consumer)`
+## Method Descriptions
+- `forEach(@Nonnull Consumer<EntityPlacementData> consumer)`: Add description.
   - Executes `forEach` behavior.
-- `addEntity(@Nonnull EntityPlacementData entityPlacementData)`
+- `addEntity(@Nonnull EntityPlacementData entityPlacementData)`: Add description.
   - Executes `addEntity` behavior.
-- `copyFrom(@Nonnull NEntityBuffer sourceBuffer)`
+- `copyFrom(@Nonnull NEntityBuffer sourceBuffer)`: Add description.
   - Executes `copyFrom` behavior.
 
 ## Notes

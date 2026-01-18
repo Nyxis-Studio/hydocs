@@ -1,15 +1,15 @@
+**Source Hash:** `7d36b07439708b7f26765fcd8c7b7dc4ec9ef7bb83733dd4367061d2e756aa27`
+
 # UseOperationMaskOperation
 
 ## Overview
-- Documentation for `UseOperationMaskOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.masks`.
 
-## Constructors
+## Constructor Descriptions
 - `UseOperationMaskOperation()`
   - Creates a `UseOperationMaskOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

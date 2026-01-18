@@ -1,15 +1,15 @@
+**Source Hash:** `4469ea8ad0a35218e3b3ab2764edc8f8bb8bbcd920d6f662d960be5de47a3f81`
+
 # AmbienceCommands
 
 ## Overview
-- Documentation for `AmbienceCommands`.
-- Declared as a class in `com.hypixel.hytale.builtin.ambience.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceCommands()`
   - Creates a `AmbienceCommands` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

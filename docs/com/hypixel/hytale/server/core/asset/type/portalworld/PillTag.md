@@ -1,20 +1,20 @@
+**Source Hash:** `ea467427d854466ad83bdafafe0f10c5137e879485e2179b30f5bdafc4db94e6`
+
 # PillTag
 
 ## Overview
-- Documentation for `PillTag`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.portalworld`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getTranslationKey()`
+## Method Descriptions
+- `getTranslationKey()`: Add description.
   - Executes `getTranslationKey` behavior.
-- `getMessage()`
+- `getMessage()`: Add description.
   - Executes `getMessage` behavior.
-- `getColor()`
+- `getColor()`: Add description.
   - Executes `getColor` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

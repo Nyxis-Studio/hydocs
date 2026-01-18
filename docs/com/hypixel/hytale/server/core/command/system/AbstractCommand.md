@@ -1,10 +1,10 @@
+**Source Hash:** `5afbf620089f15539802cf85fc1b713164cf27a6b1c43d9b810ad05b9808c738`
+
 # AbstractCommand
 
 ## Overview
-- Documentation for `AbstractCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system`.
 
-## Constructors
+## Constructor Descriptions
 - `AbstractCommand(@Nullable String name, @Nullable String description, boolean requiresConfirmation)`
   - Creates a `AbstractCommand` instance.
 - `AbstractCommand(@Nullable String name, @Nullable String description)`
@@ -12,108 +12,108 @@
 - `AbstractCommand(@Nullable String description)`
   - Creates a `AbstractCommand` instance.
 
-## Methods
-- `setOwner(@Nonnull CommandOwner owner)`
+## Method Descriptions
+- `setOwner(@Nonnull CommandOwner owner)`: Add description.
   - Executes `setOwner` behavior.
-- `canGeneratePermission()`
+- `canGeneratePermission()`: Add description.
   - Executes `canGeneratePermission` behavior.
-- `generatePermissionNode()`
+- `generatePermissionNode()`: Add description.
   - Executes `generatePermissionNode` behavior.
-- `generatePermission()`
+- `generatePermission()`: Add description.
   - Executes `generatePermission` behavior.
-- `getPermissionGroups()`
+- `getPermissionGroups()`: Add description.
   - Executes `getPermissionGroups` behavior.
-- `setPermissionGroups(String ... groups)`
+- `setPermissionGroups(String ... groups)`: Add description.
   - Executes `setPermissionGroups` behavior.
-- `setPermissionGroup(@Nullable GameMode gameMode)`
+- `setPermissionGroup(@Nullable GameMode gameMode)`: Add description.
   - Executes `setPermissionGroup` behavior.
-- `getPermissionGroupsRecursive()`
+- `getPermissionGroupsRecursive()`: Add description.
   - Executes `getPermissionGroupsRecursive` behavior.
-- `putRecursivePermissionGroups(@Nonnull Map<String, Set<String>> permissionsByGroup)`
+- `putRecursivePermissionGroups(@Nonnull Map<String, Set<String>> permissionsByGroup)`: Add description.
   - Executes `putRecursivePermissionGroups` behavior.
-- `setUnavailableInSingleplayer(boolean unavailableInSingleplayer)`
+- `setUnavailableInSingleplayer(boolean unavailableInSingleplayer)`: Add description.
   - Executes `setUnavailableInSingleplayer` behavior.
-- `setAllowsExtraArguments(boolean allowsExtraArguments)`
+- `setAllowsExtraArguments(boolean allowsExtraArguments)`: Add description.
   - Executes `setAllowsExtraArguments` behavior.
-- `matches(@Nonnull String language, @Nonnull String search, int termDepth)`
+- `matches(@Nonnull String language, @Nonnull String search, int termDepth)`: Add description.
   - Executes `matches` behavior.
-- `matches(@Nonnull String language, @Nonnull String search, int termDepth, int depth)`
+- `matches(@Nonnull String language, @Nonnull String search, int termDepth, int depth)`: Add description.
   - Executes `matches` behavior.
-- `completeRegistration()`
+- `completeRegistration()`: Add description.
   - Executes `completeRegistration` behavior.
-- `createOptionalArgumentAbbreviationMap()`
+- `createOptionalArgumentAbbreviationMap()`: Add description.
   - Executes `createOptionalArgumentAbbreviationMap` behavior.
-- `validateVariantNumberOfRequiredParameters(@Nonnull ParseResult result)`
+- `validateVariantNumberOfRequiredParameters(@Nonnull ParseResult result)`: Add description.
   - Executes `validateVariantNumberOfRequiredParameters` behavior.
-- `validateDefaultArguments(@Nonnull ParseResult parseResult)`
+- `validateDefaultArguments(@Nonnull ParseResult parseResult)`: Add description.
   - Executes `validateDefaultArguments` behavior.
-- `requirePermission(@Nonnull String permission)`
+- `requirePermission(@Nonnull String permission)`: Add description.
   - Executes `requirePermission` behavior.
-- `getFullyQualifiedName()`
+- `getFullyQualifiedName()`: Add description.
   - Executes `getFullyQualifiedName` behavior.
-- `countParents()`
+- `countParents()`: Add description.
   - Executes `countParents` behavior.
-- `addAliases(String ... aliases)`
+- `addAliases(String ... aliases)`: Add description.
   - Executes `addAliases` behavior.
-- `addSubCommand(@Nonnull AbstractCommand command)`
+- `addSubCommand(@Nonnull AbstractCommand command)`: Add description.
   - Executes `addSubCommand` behavior.
-- `addUsageVariant(@Nonnull AbstractCommand command)`
+- `addUsageVariant(@Nonnull AbstractCommand command)`: Add description.
   - Executes `addUsageVariant` behavior.
-- `acceptCall(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`
+- `acceptCall(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `acceptCall` behavior.
-- `acceptCall0(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`
+- `acceptCall0(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `acceptCall0` behavior.
-- `hasPermission(@Nonnull CommandSender sender)`
+- `hasPermission(@Nonnull CommandSender sender)`: Add description.
   - Executes `hasPermission` behavior.
-- `checkForExecutingSubcommands(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, int numberOfPreOptionalTokens)`
+- `checkForExecutingSubcommands(@Nonnull CommandSender sender, @Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, int numberOfPreOptionalTokens)`: Add description.
   - Executes `checkForExecutingSubcommands` behavior.
-- `processRequiredArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`
+- `processRequiredArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`: Add description.
   - Executes `processRequiredArguments` behavior.
-- `processOptionalArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`
+- `processOptionalArguments(@Nonnull ParserContext parserContext, @Nonnull ParseResult parseResult, @Nonnull CommandContext commandContext)`: Add description.
   - Executes `processOptionalArguments` behavior.
-- `execute(@Nonnull CommandContext var1)`
+- `execute(@Nonnull CommandContext var1)`: Add description.
   - Executes `execute` behavior.
-- `getUsageString(@Nonnull CommandSender sender)`
+- `getUsageString(@Nonnull CommandSender sender)`: Add description.
   - Executes `getUsageString` behavior.
-- `getUsageShort(@Nonnull CommandSender sender, boolean fullyQualify)`
+- `getUsageShort(@Nonnull CommandSender sender, boolean fullyQualify)`: Add description.
   - Executes `getUsageShort` behavior.
-- `registerRequiredArg(@Nonnull R requiredArgument)`
+- `registerRequiredArg(@Nonnull R requiredArgument)`: Add description.
   - Executes `registerRequiredArg` behavior.
-- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`: Add description.
   - Executes `withRequiredArg` behavior.
-- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`
+- `withRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`: Add description.
   - Executes `withRequiredArg` behavior.
-- `withListRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+- `withListRequiredArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`: Add description.
   - Executes `withListRequiredArg` behavior.
-- `withDefaultArg(String name, String description, ArgumentType<D> argType, @Nullable D defaultValue, String defaultValueDescription)`
+- `withDefaultArg(String name, String description, ArgumentType<D> argType, @Nullable D defaultValue, String defaultValueDescription)`: Add description.
   - Executes `withDefaultArg` behavior.
-- `withDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper, D defaultValue, @Nonnull String defaultValueDescription)`
+- `withDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper, D defaultValue, @Nonnull String defaultValueDescription)`: Add description.
   - Executes `withDefaultArg` behavior.
-- `withListDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType, List<D> defaultValue, @Nonnull String defaultValueDescription)`
+- `withListDefaultArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType, List<D> defaultValue, @Nonnull String defaultValueDescription)`: Add description.
   - Executes `withListDefaultArg` behavior.
-- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`: Add description.
   - Executes `withOptionalArg` behavior.
-- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`
+- `withOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgWrapper<W, D> wrapper)`: Add description.
   - Executes `withOptionalArg` behavior.
-- `withListOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`
+- `withListOptionalArg(@Nonnull String name, @Nonnull String description, @Nonnull ArgumentType<D> argType)`: Add description.
   - Executes `withListOptionalArg` behavior.
-- `withFlagArg(@Nonnull String name, @Nonnull String description)`
+- `withFlagArg(@Nonnull String name, @Nonnull String description)`: Add description.
   - Executes `withFlagArg` behavior.
-- `isVariant()`
+- `isVariant()`: Add description.
   - Executes `isVariant` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getAliases()`
+- `getAliases()`: Add description.
   - Executes `getAliases` behavior.
-- `getDescription()`
+- `getDescription()`: Add description.
   - Executes `getDescription` behavior.
-- `getOwner()`
+- `getOwner()`: Add description.
   - Executes `getOwner` behavior.
-- `getPermission()`
+- `getPermission()`: Add description.
   - Executes `getPermission` behavior.
-- `getSubCommands()`
+- `getSubCommands()`: Add description.
   - Executes `getSubCommands` behavior.
-- `hasBeenRegistered()`
+- `hasBeenRegistered()`: Add description.
   - Executes `hasBeenRegistered` behavior.
 
 ## Notes

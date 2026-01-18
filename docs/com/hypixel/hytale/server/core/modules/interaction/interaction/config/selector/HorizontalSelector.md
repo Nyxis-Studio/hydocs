@@ -1,21 +1,21 @@
+**Source Hash:** `23da9f1370623de63f3c4f9b401efc9b3700fe6413db5379df3b5281cfd83657`
+
 # HorizontalSelector
 
 ## Overview
-- Documentation for `HorizontalSelector`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.selector`.
 
-## Constructors
+## Constructor Descriptions
 - `HorizontalSelector()`
   - Creates a `HorizontalSelector` instance.
 
-## Methods
-- `newSelector()`
+## Method Descriptions
+- `newSelector()`: Add description.
   - Executes `newSelector` behavior.
-- `tick(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, float time, float runTime)`
+- `tick(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, float time, float runTime)`: Add description.
   - Executes `tick` behavior.
-- `selectTargetEntities(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, @Nonnull BiConsumer<Ref<EntityStore>, Vector4d> consumer, Predicate<Ref<EntityStore>> filter)`
+- `selectTargetEntities(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, @Nonnull BiConsumer<Ref<EntityStore>, Vector4d> consumer, Predicate<Ref<EntityStore>> filter)`: Add description.
   - Executes `selectTargetEntities` behavior.
-- `selectTargetBlocks(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, @Nonnull TriIntConsumer consumer)`
+- `selectTargetBlocks(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> attacker, @Nonnull TriIntConsumer consumer)`: Add description.
   - Executes `selectTargetBlocks` behavior.
 
 ## Notes

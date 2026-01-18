@@ -1,15 +1,15 @@
+**Source Hash:** `670b08dc9620a01d4b997567049a4fce5261e4d53ea08b64bce0f2e8c7778666`
+
 # WorldConfigSetPvpCommand
 
 ## Overview
-- Documentation for `WorldConfigSetPvpCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.worldconfig`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldConfigSetPvpCommand()`
   - Creates a `WorldConfigSetPvpCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

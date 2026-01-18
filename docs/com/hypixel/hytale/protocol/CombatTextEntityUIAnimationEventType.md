@@ -1,17 +1,17 @@
+**Source Hash:** `dd44eff9d25e2b49956e1dcf2a2fd616045483bfb80d86149300218147170036`
+
 # CombatTextEntityUIAnimationEventType
 
 ## Overview
-- Documentation for `CombatTextEntityUIAnimationEventType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CombatTextEntityUIAnimationEventType(int value)`
   - Creates a `CombatTextEntityUIAnimationEventType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `d75e61b8134e03158ca0223b18ce977a8159de3b4ded34e176a1aeb929c87396`
+
 # SearchCircular
 
 ## Overview
-- Documentation for `SearchCircular`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils.posqueries.generators`.
 
-## Constructors
+## Constructor Descriptions
 - `SearchCircular(double radius, int attempts)`
   - Creates a `SearchCircular` instance.
 - `SearchCircular(double minRadius, double maxRadius, int attempts)`
   - Creates a `SearchCircular` instance.
 
-## Methods
-- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`
+## Method Descriptions
+- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`: Add description.
   - Executes `createCandidates` behavior.
 
 ## Notes

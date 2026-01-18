@@ -1,31 +1,31 @@
+**Source Hash:** `40c674bcd0c75f2a7ced5b38817b7637ae20ab9d9286b2a12442a766038fbcb8`
+
 # DirectoryHandlerChangeTask
 
 ## Overview
-- Documentation for `DirectoryHandlerChangeTask`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.monitor`.
 
-## Constructors
+## Constructor Descriptions
 - `DirectoryHandlerChangeTask(AssetMonitor assetMonitor, Path parent, AssetMonitorHandler handler)`
   - Creates a `DirectoryHandlerChangeTask` instance.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
-- `getAssetMonitor()`
+- `getAssetMonitor()`: Add description.
   - Executes `getAssetMonitor` behavior.
-- `getParent()`
+- `getParent()`: Add description.
   - Executes `getParent` behavior.
-- `getHandler()`
+- `getHandler()`: Add description.
   - Executes `getHandler` behavior.
-- `addPath(Path path, PathEvent pathEvent)`
+- `addPath(Path path, PathEvent pathEvent)`: Add description.
   - Executes `addPath` behavior.
-- `removePath(Path path)`
+- `removePath(Path path)`: Add description.
   - Executes `removePath` behavior.
-- `markChanged()`
+- `markChanged()`: Add description.
   - Executes `markChanged` behavior.
-- `cancelSchedule()`
+- `cancelSchedule()`: Add description.
   - Executes `cancelSchedule` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

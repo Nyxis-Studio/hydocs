@@ -1,17 +1,17 @@
+**Source Hash:** `bdf2e2b50f62dc63ad2708491bfbf9a065c55b4ea2c9f780406405ec72235edc`
+
 # DefaultResourceStorageProvider
 
 ## Overview
-- Documentation for `DefaultResourceStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `DefaultResourceStorageProvider()`
   - Creates a `DefaultResourceStorageProvider` instance.
 
-## Methods
-- `getResourceStorage(@Nonnull World world)`
+## Method Descriptions
+- `getResourceStorage(@Nonnull World world)`: Add description.
   - Executes `getResourceStorage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

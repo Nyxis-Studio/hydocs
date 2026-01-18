@@ -1,20 +1,20 @@
+**Source Hash:** `6be988020beffab9dd31d498eabb2483d1803508aa2c030f52264146adeb05b0`
+
 # GatheringEffectsConfig
 
 ## Overview
-- Documentation for `GatheringEffectsConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getParticleSystemId()`
+## Method Descriptions
+- `getParticleSystemId()`: Add description.
   - Executes `getParticleSystemId` behavior.
-- `getSoundEventId()`
+- `getSoundEventId()`: Add description.
   - Executes `getSoundEventId` behavior.
-- `getSoundEventIndex()`
+- `getSoundEventIndex()`: Add description.
   - Executes `getSoundEventIndex` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `7cece8f7f70c6e6ee4c63fd3fa204dab7d60a6c5e9245f29ee96b7404c52957a`
+
 # BuilderHeadMotionTimer
 
 ## Overview
-- Documentation for `BuilderHeadMotionTimer`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer.builders`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderHeadMotionTimer()`
   - Creates a `BuilderHeadMotionTimer` instance.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `3c5a35155fdcd4bc395762ed82af7c498772c7dbd74824074eeced7b13300ed2`
+
 # ActionSetAlarm
 
 ## Overview
-- Documentation for `ActionSetAlarm`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionSetAlarm(@Nonnull BuilderActionSetAlarm builder, @Nonnull BuilderSupport support)`
   - Creates a `ActionSetAlarm` instance.
 
-## Methods
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

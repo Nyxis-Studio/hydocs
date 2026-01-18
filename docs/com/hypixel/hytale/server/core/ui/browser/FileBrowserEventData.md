@@ -1,25 +1,25 @@
+**Source Hash:** `89fb2b3d2f44079d6396a45fa9e76cb4aae10ba5086e3869603ff2b304687694`
+
 # FileBrowserEventData
 
 ## Overview
-- Documentation for `FileBrowserEventData`.
-- Declared as a class in `com.hypixel.hytale.server.core.ui.browser`.
 
-## Constructors
+## Constructor Descriptions
 - `FileBrowserEventData()`
   - Creates a `FileBrowserEventData` instance.
 
-## Methods
-- `getFile()`
+## Method Descriptions
+- `getFile()`: Add description.
   - Executes `getFile` behavior.
-- `getRoot()`
+- `getRoot()`: Add description.
   - Executes `getRoot` behavior.
-- `getSearchQuery()`
+- `getSearchQuery()`: Add description.
   - Executes `getSearchQuery` behavior.
-- `getSearchResult()`
+- `getSearchResult()`: Add description.
   - Executes `getSearchResult` behavior.
-- `isBrowseRequested()`
+- `isBrowseRequested()`: Add description.
   - Executes `isBrowseRequested` behavior.
-- `file(String file)`
+- `file(String file)`: Add description.
   - Executes `file` behavior.
 
 ## Notes

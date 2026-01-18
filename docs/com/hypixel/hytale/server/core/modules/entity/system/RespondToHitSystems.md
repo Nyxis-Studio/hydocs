@@ -1,42 +1,42 @@
+**Source Hash:** `d28de95fc4a19961f2d8a4560a223d1460a161a52aee8207eb961eaf7eb1c8b9`
+
 # RespondToHitSystems
 
 ## Overview
-- Documentation for `RespondToHitSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `componentType()`
+## Method Descriptions
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl PlayerSettings component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl PlayerSettings component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@NonNullDecl Ref<EntityStore> ref, @NullableDecl PlayerSettings oldComponent, @NonNullDecl PlayerSettings newComponent, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@NonNullDecl Ref<EntityStore> ref, @NullableDecl PlayerSettings oldComponent, @NonNullDecl PlayerSettings newComponent, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl PlayerSettings component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl PlayerSettings component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull RespondToHit component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull RespondToHit component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<EntityStore> ref, RespondToHit oldComponent, @Nonnull RespondToHit newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, RespondToHit oldComponent, @Nonnull RespondToHit newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull RespondToHit component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull RespondToHit component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `queueUpdatesFor(Ref<EntityStore> ref, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`
+- `queueUpdatesFor(Ref<EntityStore> ref, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`: Add description.
   - Executes `queueUpdatesFor` behavior.
-- `getResourceType()`
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

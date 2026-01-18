@@ -1,10 +1,10 @@
+**Source Hash:** `46055abe67762f5fa11ca7327a89594724e61d68c6dbc813a34f32936204bb1e`
+
 # IndividualSpawnProvider
 
 ## Overview
-- Documentation for `IndividualSpawnProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.spawn`.
 
-## Constructors
+## Constructor Descriptions
 - `IndividualSpawnProvider()`
   - Creates a `IndividualSpawnProvider` instance.
 - `IndividualSpawnProvider(Transform spawnPoint)`
@@ -12,14 +12,14 @@
 - `IndividualSpawnProvider(Transform[] spawnPoints)`
   - Creates a `IndividualSpawnProvider` instance.
 
-## Methods
-- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`
+## Method Descriptions
+- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoints()`
+- `getSpawnPoints()`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `getFirstSpawnPoint()`
+- `getFirstSpawnPoint()`: Add description.
   - Executes `getFirstSpawnPoint` behavior.
-- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`
+- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`: Add description.
   - Executes `isWithinSpawnDistance` behavior.
 
 ## Notes

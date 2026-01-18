@@ -1,16 +1,16 @@
+**Source Hash:** `f9270f249f843e5609d4d54a5e3b1bbcfc48a917487d686955e5f535866e1644`
+
 # PatternDirectionalityAsset
 
 ## Overview
-- Documentation for `PatternDirectionalityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props.prefabprop.directionality`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DirectionalityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DirectionalityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `1c58fbd3196e858ee2134939d3f2bda5592cda14390bbf6fdbdb3722fc4e49d5`
+
 # UpdateBlockDamage
 
 ## Overview
-- Documentation for `UpdateBlockDamage`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateBlockDamage()`
   - Creates a `UpdateBlockDamage` instance.
 - `UpdateBlockDamage(@Nullable BlockPosition blockPosition, float damage, float delta)`
@@ -12,24 +12,24 @@
 - `UpdateBlockDamage(@Nonnull UpdateBlockDamage other)`
   - Creates a `UpdateBlockDamage` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `49833cb15574282e8455860f6ad7e7bd6803c33c3895ea2464682c98c7a7020e`
+
 # IEvent
 
 ## Overview
-- Documentation for `IEvent`.
-- Declared as a interface in `com.hypixel.hytale.event`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

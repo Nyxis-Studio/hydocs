@@ -1,17 +1,17 @@
+**Source Hash:** `7a02e52079ad16e47950066a5f6086ef9d53047cc6758732ac93854459893dfe`
+
 # PlayerRefEvent
 
 ## Overview
-- Documentation for `PlayerRefEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerRefEvent(@Nonnull PlayerRef playerRef)`
   - Creates a `PlayerRefEvent` instance.
 
-## Methods
-- `getPlayerRef()`
+## Method Descriptions
+- `getPlayerRef()`: Add description.
   - Executes `getPlayerRef` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

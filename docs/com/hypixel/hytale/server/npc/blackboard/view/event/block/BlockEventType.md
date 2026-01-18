@@ -1,15 +1,15 @@
+**Source Hash:** `3f42d3eaae76ca629130065e0859ad3ec8d44f954e14bbc575b454c32f88c5cd`
+
 # BlockEventType
 
 ## Overview
-- Documentation for `BlockEventType`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.blackboard.view.event.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockEventType(String description)`
   - Creates a `BlockEventType` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

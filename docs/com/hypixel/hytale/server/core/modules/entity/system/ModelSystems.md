@@ -1,42 +1,42 @@
+**Source Hash:** `cccdc0ee60533aeabdae0b4e47168a70b0f225a156246cc6498f48ad52faf5bf`
+
 # ModelSystems
 
 ## Overview
-- Documentation for `ModelSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getGroup()`
+## Method Descriptions
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `queueUpdatesFor(@Nonnull Ref<EntityStore> ref, @Nonnull ActiveAnimationComponent animationComponent, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`
+- `queueUpdatesFor(@Nonnull Ref<EntityStore> ref, @Nonnull ActiveAnimationComponent animationComponent, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`: Add description.
   - Executes `queueUpdatesFor` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull ModelComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull ModelComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<EntityStore> ref, ModelComponent oldComponent, @Nonnull ModelComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, ModelComponent oldComponent, @Nonnull ModelComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull ModelComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull ModelComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `updateMovementController(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateMovementController(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateMovementController` behavior.
-- `updateBoundingBox(@Nonnull Model model, @Nonnull BoundingBox boundingBox, @Nullable MovementStatesComponent movementStatesComponent)`
+- `updateBoundingBox(@Nonnull Model model, @Nonnull BoundingBox boundingBox, @Nullable MovementStatesComponent movementStatesComponent)`: Add description.
   - Executes `updateBoundingBox` behavior.
-- `updateBoundingBox(@Nonnull Model model, @Nonnull BoundingBox boundingBox, @Nullable MovementStates movementStates)`
+- `updateBoundingBox(@Nonnull Model model, @Nonnull BoundingBox boundingBox, @Nullable MovementStates movementStates)`: Add description.
   - Executes `updateBoundingBox` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

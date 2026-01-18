@@ -1,17 +1,17 @@
+**Source Hash:** `96e09391c1f37301efbf5f6f5ab8ec7fc3fd1061e147da76d47411390c4174b0`
+
 # WorldConfigSaveSystem
 
 ## Overview
-- Documentation for `WorldConfigSaveSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.system`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldConfigSaveSystem()`
   - Creates a `WorldConfigSaveSystem` instance.
 
-## Methods
-- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `delayedTick` behavior.
-- `saveWorldConfigAndResources(@Nonnull World world)`
+- `saveWorldConfigAndResources(@Nonnull World world)`: Add description.
   - Executes `saveWorldConfigAndResources` behavior.
 
 ## Notes

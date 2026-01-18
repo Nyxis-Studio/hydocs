@@ -1,30 +1,30 @@
+**Source Hash:** `f495f859864b60432a41a5dc8e6e6931f6c5fe3660e6affc98ee7ded36e9131b`
+
 # SteeringForceWithTarget
 
 ## Overview
-- Documentation for `SteeringForceWithTarget`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.steeringforces`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSelfPosition()`
+## Method Descriptions
+- `getSelfPosition()`: Add description.
   - Executes `getSelfPosition` behavior.
-- `setSelfPosition(@Nonnull Vector3d selfPosition)`
+- `setSelfPosition(@Nonnull Vector3d selfPosition)`: Add description.
   - Executes `setSelfPosition` behavior.
-- `getTargetPosition()`
+- `getTargetPosition()`: Add description.
   - Executes `getTargetPosition` behavior.
-- `setTargetPosition(@Nonnull Vector3d targetPosition)`
+- `setTargetPosition(@Nonnull Vector3d targetPosition)`: Add description.
   - Executes `setTargetPosition` behavior.
-- `setTargetPosition(double x, double y, double z)`
+- `setTargetPosition(double x, double y, double z)`: Add description.
   - Executes `setTargetPosition` behavior.
-- `setPositions(@Nonnull Vector3d self, @Nonnull Vector3d target)`
+- `setPositions(@Nonnull Vector3d self, @Nonnull Vector3d target)`: Add description.
   - Executes `setPositions` behavior.
-- `setSelfPosition(double x, double y, double z)`
+- `setSelfPosition(double x, double y, double z)`: Add description.
   - Executes `setSelfPosition` behavior.
-- `setComponentSelector(Vector3d componentSelector)`
+- `setComponentSelector(Vector3d componentSelector)`: Add description.
   - Executes `setComponentSelector` behavior.
-- `compute(Steering output)`
+- `compute(Steering output)`: Add description.
   - Executes `compute` behavior.
 
 ## Notes

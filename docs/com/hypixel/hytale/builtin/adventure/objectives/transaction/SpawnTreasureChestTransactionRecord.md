@@ -1,25 +1,25 @@
+**Source Hash:** `0698ae5b6268436dfad9ec30d5fb3fd02218876758554f6a77b1df8a0169f00f`
+
 # SpawnTreasureChestTransactionRecord
 
 ## Overview
-- Documentation for `SpawnTreasureChestTransactionRecord`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnTreasureChestTransactionRecord(UUID worldUUID, Vector3i blockPosition)`
   - Creates a `SpawnTreasureChestTransactionRecord` instance.
 - `SpawnTreasureChestTransactionRecord()`
   - Creates a `SpawnTreasureChestTransactionRecord` instance.
 
-## Methods
-- `revert()`
+## Method Descriptions
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

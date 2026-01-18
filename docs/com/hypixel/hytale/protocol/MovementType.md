@@ -1,17 +1,17 @@
+**Source Hash:** `bc6cf9ee5e3f8ec714157c134bb0cb8145d74b33eb34ac560365d0cd7f98e5b9`
+
 # MovementType
 
 ## Overview
-- Documentation for `MovementType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `MovementType(int value)`
   - Creates a `MovementType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

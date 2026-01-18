@@ -1,27 +1,27 @@
+**Source Hash:** `7e36a528b83ae2f3bda1f32135613134e1568216a52723106f52eba5db01eb2d`
+
 # RelativeVector2d
 
 ## Overview
-- Documentation for `RelativeVector2d`.
-- Declared as a class in `com.hypixel.hytale.math.vector.relative`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeVector2d(@Nonnull Vector2d vector, boolean relative)`
   - Creates a `RelativeVector2d` instance.
 - `RelativeVector2d()`
   - Creates a `RelativeVector2d` instance.
 
-## Methods
-- `getVector()`
+## Method Descriptions
+- `getVector()`: Add description.
   - Executes `getVector` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
-- `resolve(@Nonnull Vector2d vector)`
+- `resolve(@Nonnull Vector2d vector)`: Add description.
   - Executes `resolve` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,29 +1,29 @@
+**Source Hash:** `c7710c04b2d1437fdc3cd5a0c6e3687c868a7b082f4b5e09d12770f3aa67a429`
+
 # BuilderObjectArrayHelper
 
 ## Overview
-- Documentation for `BuilderObjectArrayHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderObjectArrayHelper(Class<?> classType, BuilderContext owner)`
   - Creates a `BuilderObjectArrayHelper` instance.
 
-## Methods
-- `readConfig(@Nonnull JsonElement data, @Nonnull BuilderManager builderManager, @Nonnull BuilderParameters builderParameters, @Nonnull BuilderValidationHelper builderValidationHelper)`
+## Method Descriptions
+- `readConfig(@Nonnull JsonElement data, @Nonnull BuilderManager builderManager, @Nonnull BuilderParameters builderParameters, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, @Nonnull BuilderManager manager, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, @Nonnull BuilderManager manager, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `isPresent()`
+- `isPresent()`: Add description.
   - Executes `isPresent` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `hasNoElements()`
+- `hasNoElements()`: Add description.
   - Executes `hasNoElements` behavior.
-- `getLabel()`
+- `getLabel()`: Add description.
   - Executes `getLabel` behavior.
-- `setLabel(String label)`
+- `setLabel(String label)`: Add description.
   - Executes `setLabel` behavior.
-- `createReferenceHelper()`
+- `createReferenceHelper()`: Add description.
   - Executes `createReferenceHelper` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `5dc6825f51753908ad1795effbc622dc7b05df1fc7080834e8612466c2d41a8f`
+
 # DoubleFunctionXZ
 
 ## Overview
-- Documentation for `DoubleFunctionXZ`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.functions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(double var1, double var3)`
+## Method Descriptions
+- `apply(double var1, double var3)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

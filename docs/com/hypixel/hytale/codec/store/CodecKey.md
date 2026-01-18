@@ -1,21 +1,21 @@
+**Source Hash:** `a6270aa21e24d64f5b81b6afbc3cd0182d014d628f59f69f7803fc7744a8b7ba`
+
 # CodecKey
 
 ## Overview
-- Documentation for `CodecKey`.
-- Declared as a class in `com.hypixel.hytale.codec.store`.
 
-## Constructors
+## Constructor Descriptions
 - `CodecKey(String id)`
   - Creates a `CodecKey` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

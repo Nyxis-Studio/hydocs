@@ -1,31 +1,31 @@
+**Source Hash:** `c01cda06f2f8dd7f31b43dd830a055fe2fd77d4afc12c67bb1a7fe60ba6f532c`
+
 # WrappedBiCoordinateDoubleCache
 
 ## Overview
-- Documentation for `WrappedBiCoordinateDoubleCache`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.bicoordinatecache`.
 
-## Constructors
+## Constructor Descriptions
 - `WrappedBiCoordinateDoubleCache(int sizeX, int sizeZ)`
   - Creates a `WrappedBiCoordinateDoubleCache` instance.
 
-## Methods
-- `localXFrom(int x)`
+## Method Descriptions
+- `localXFrom(int x)`: Add description.
   - Executes `localXFrom` behavior.
-- `localZFrom(int z)`
+- `localZFrom(int z)`: Add description.
   - Executes `localZFrom` behavior.
-- `get(int x, int z)`
+- `get(int x, int z)`: Add description.
   - Executes `get` behavior.
-- `isCached(int x, int z)`
+- `isCached(int x, int z)`: Add description.
   - Executes `isCached` behavior.
-- `save(int x, int z, @Nonnull Double value)`
+- `save(int x, int z, @Nonnull Double value)`: Add description.
   - Executes `save` behavior.
-- `flush(int x, int z)`
+- `flush(int x, int z)`: Add description.
   - Executes `flush` behavior.
-- `flush()`
+- `flush()`: Add description.
   - Executes `flush` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

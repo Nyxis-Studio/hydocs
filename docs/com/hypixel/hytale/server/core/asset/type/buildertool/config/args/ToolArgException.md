@@ -1,17 +1,17 @@
+**Source Hash:** `2db18f636f71764fef8a19b24635b47217152adc720fa787448b407ebc3e62eb`
+
 # ToolArgException
 
 ## Overview
-- Documentation for `ToolArgException`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `ToolArgException(@Nonnull Message translationMessage)`
   - Creates a `ToolArgException` instance.
 - `ToolArgException(@Nonnull Message translationMessage, Throwable cause)`
   - Creates a `ToolArgException` instance.
 
-## Methods
-- `getTranslationMessage()`
+## Method Descriptions
+- `getTranslationMessage()`: Add description.
   - Executes `getTranslationMessage` behavior.
 
 ## Notes

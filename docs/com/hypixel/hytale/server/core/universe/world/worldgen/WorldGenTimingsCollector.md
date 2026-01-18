@@ -1,53 +1,53 @@
+**Source Hash:** `a811d6c3866640456ef3996b5879e7918755fdc7e80fc8269cdcbb9765bb3a7e`
+
 # WorldGenTimingsCollector
 
 ## Overview
-- Documentation for `WorldGenTimingsCollector`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenTimingsCollector(ThreadPoolExecutor threadPoolExecutor)`
   - Creates a `WorldGenTimingsCollector` instance.
 
-## Methods
-- `reportChunk(long nanos)`
+## Method Descriptions
+- `reportChunk(long nanos)`: Add description.
   - Executes `reportChunk` behavior.
-- `reportZoneBiomeResult(long nanos)`
+- `reportZoneBiomeResult(long nanos)`: Add description.
   - Executes `reportZoneBiomeResult` behavior.
-- `reportPrepare(long nanos)`
+- `reportPrepare(long nanos)`: Add description.
   - Executes `reportPrepare` behavior.
-- `reportBlocksGeneration(long nanos)`
+- `reportBlocksGeneration(long nanos)`: Add description.
   - Executes `reportBlocksGeneration` behavior.
-- `reportCaveGeneration(long nanos)`
+- `reportCaveGeneration(long nanos)`: Add description.
   - Executes `reportCaveGeneration` behavior.
-- `reportPrefabGeneration(long nanos)`
+- `reportPrefabGeneration(long nanos)`: Add description.
   - Executes `reportPrefabGeneration` behavior.
-- `getWarmupValue()`
+- `getWarmupValue()`: Add description.
   - Executes `getWarmupValue` behavior.
-- `zoneBiomeResult()`
+- `zoneBiomeResult()`: Add description.
   - Executes `zoneBiomeResult` behavior.
-- `prepare()`
+- `prepare()`: Add description.
   - Executes `prepare` behavior.
-- `blocksGeneration()`
+- `blocksGeneration()`: Add description.
   - Executes `blocksGeneration` behavior.
-- `caveGeneration()`
+- `caveGeneration()`: Add description.
   - Executes `caveGeneration` behavior.
-- `prefabGeneration()`
+- `prefabGeneration()`: Add description.
   - Executes `prefabGeneration` behavior.
-- `getChunkCounter()`
+- `getChunkCounter()`: Add description.
   - Executes `getChunkCounter` behavior.
-- `getChunkTime()`
+- `getChunkTime()`: Add description.
   - Executes `getChunkTime` behavior.
-- `getQueueLength()`
+- `getQueueLength()`: Add description.
   - Executes `getQueueLength` behavior.
-- `getGeneratingCount()`
+- `getGeneratingCount()`: Add description.
   - Executes `getGeneratingCount` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `addAndGet(int index, long nanos)`
+- `addAndGet(int index, long nanos)`: Add description.
   - Executes `addAndGet` behavior.
-- `getAvgSeconds(long nanos, long count)`
+- `getAvgSeconds(long nanos, long count)`: Add description.
   - Executes `getAvgSeconds` behavior.
 
 ## Notes

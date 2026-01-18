@@ -1,15 +1,15 @@
+**Source Hash:** `edbd2da850cd79c2713491e82536b665845397815bb8cb661ec39c93d75dc4ef`
+
 # WorldCommand
 
 ## Overview
-- Documentation for `WorldCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldCommand()`
   - Creates a `WorldCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,17 +1,17 @@
+**Source Hash:** `bf08398b20fa6e6de0c6b29aea5544ab73cd255cac162106bb008477beb0a0f3`
+
 # InteractionType
 
 ## Overview
-- Documentation for `InteractionType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionType(int value)`
   - Creates a `InteractionType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

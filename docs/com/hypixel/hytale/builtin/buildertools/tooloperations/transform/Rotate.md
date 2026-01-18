@@ -1,10 +1,10 @@
+**Source Hash:** `5ace0c3236aef1a2980f81a950047093d4ad2a32fd90304726d850b7484c7821`
+
 # Rotate
 
 ## Overview
-- Documentation for `Rotate`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.tooloperations.transform`.
 
-## Constructors
+## Constructor Descriptions
 - `Rotate(Axis.X, 90)`
   - Creates a `Rotate` instance.
 - `Rotate(Axis.X, 180)`
@@ -28,16 +28,16 @@
 - `Rotate(Axis axis, int angle)`
   - Creates a `Rotate` instance.
 
-## Methods
-- `apply(@Nonnull Vector3i vector3i)`
+## Method Descriptions
+- `apply(@Nonnull Vector3i vector3i)`: Add description.
   - Executes `apply` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `forDirection(@Nonnull Vector3i direction, Rotation angle)`
+- `forDirection(@Nonnull Vector3i direction, Rotation angle)`: Add description.
   - Executes `forDirection` behavior.
-- `forAxisAndAngle(BrushAxis axis, Rotation angle)`
+- `forAxisAndAngle(BrushAxis axis, Rotation angle)`: Add description.
   - Executes `forAxisAndAngle` behavior.
-- `selectRotation(Rotation angle, Transform rotate0, Transform rotate90, Transform rotate180, Transform rotate270)`
+- `selectRotation(Rotation angle, Transform rotate0, Transform rotate90, Transform rotate180, Transform rotate270)`: Add description.
   - Executes `selectRotation` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `94d48709b29b604e67bb9461c86823306e965445a4e2f203f4a966f70215b61c`
+
 # HashSetBlockFluidCondition
 
 ## Overview
-- Documentation for `HashSetBlockFluidCondition`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `HashSetBlockFluidCondition(LongSet set)`
   - Creates a `HashSetBlockFluidCondition` instance.
 
-## Methods
-- `getSet()`
+## Method Descriptions
+- `getSet()`: Add description.
   - Executes `getSet` behavior.
-- `eval(int block, int fluid)`
+- `eval(int block, int fluid)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

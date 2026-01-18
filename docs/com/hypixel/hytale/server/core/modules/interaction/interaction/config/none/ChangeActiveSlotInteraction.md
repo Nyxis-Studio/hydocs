@@ -1,10 +1,10 @@
+**Source Hash:** `2801ed61c819edb38fcf4a24e6b495f858a1cdffcde7a5b1462be61268ff9308`
+
 # ChangeActiveSlotInteraction
 
 ## Overview
-- Documentation for `ChangeActiveSlotInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.none`.
 
-## Constructors
+## Constructor Descriptions
 - `ChangeActiveSlotInteraction("*Change_Active_Slot")`
   - Creates a `ChangeActiveSlotInteraction` instance.
 - `ChangeActiveSlotInteraction()`
@@ -12,20 +12,20 @@
 - `ChangeActiveSlotInteraction(@Nonnull String id)`
   - Creates a `ChangeActiveSlotInteraction` instance.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateTick0` behavior.
-- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`
+- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`: Add description.
   - Executes `walk` behavior.
-- `needsRemoteSync()`
+- `needsRemoteSync()`: Add description.
   - Executes `needsRemoteSync` behavior.
-- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`
+- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

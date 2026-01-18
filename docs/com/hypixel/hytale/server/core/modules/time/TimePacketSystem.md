@@ -1,15 +1,15 @@
+**Source Hash:** `5cc927d6598326df8ff914f58eb08aeab457ae1285702f4e6f9a9385d09a0c6d`
+
 # TimePacketSystem
 
 ## Overview
-- Documentation for `TimePacketSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.time`.
 
-## Constructors
+## Constructor Descriptions
 - `TimePacketSystem(@Nonnull ResourceType<EntityStore, WorldTimeResource> worldTimeResourceType)`
   - Creates a `TimePacketSystem` instance.
 
-## Methods
-- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `delayedTick` behavior.
 
 ## Notes

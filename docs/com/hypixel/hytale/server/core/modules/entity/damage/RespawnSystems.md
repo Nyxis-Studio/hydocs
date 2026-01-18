@@ -1,22 +1,22 @@
+**Source Hash:** `733b265e26f5b20ee0bab748e259a706d53b3acdd514b60ceea342c437a00668`
+
 # RespawnSystems
 
 ## Overview
-- Documentation for `RespawnSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.damage`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull DeathComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull DeathComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull DeathComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull DeathComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<EntityStore> ref, DeathComponent oldComponent, @Nonnull DeathComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, DeathComponent oldComponent, @Nonnull DeathComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
 
 ## Notes

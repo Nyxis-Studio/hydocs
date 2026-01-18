@@ -1,33 +1,33 @@
+**Source Hash:** `875b6a20063cd57a38f11d62608c6fd94e5351255fb52dd3c531ee4f2f092573`
+
 # CoordinateCache
 
 ## Overview
-- Documentation for `CoordinateCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cache`.
 
-## Constructors
+## Constructor Descriptions
 - `CoordinateCache(int maxSize, long expireAfterSeconds)`
   - Creates a `CoordinateCache` instance.
 
-## Methods
-- `get(int seed, int x, int y)`
+## Method Descriptions
+- `get(int seed, int x, int y)`: Add description.
   - Executes `get` behavior.
-- `localKey()`
+- `localKey()`: Add description.
   - Executes `localKey` behavior.
-- `compute(int var1, int var2, int var3)`
+- `compute(int var1, int var2, int var3)`: Add description.
   - Executes `compute` behavior.
-- `onRemoval(T var1)`
+- `onRemoval(T var1)`: Add description.
   - Executes `onRemoval` behavior.
-- `seed()`
+- `seed()`: Add description.
   - Executes `seed` behavior.
-- `coord()`
+- `coord()`: Add description.
   - Executes `coord` behavior.
-- `setLocation(int seed, int x, int y)`
+- `setLocation(int seed, int x, int y)`: Add description.
   - Executes `setLocation` behavior.
-- `apply(@Nonnull CoordinateKey cachedKey)`
+- `apply(@Nonnull CoordinateKey cachedKey)`: Add description.
   - Executes `apply` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
 
 ## Notes

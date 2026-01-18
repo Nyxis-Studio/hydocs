@@ -1,22 +1,22 @@
+**Source Hash:** `5c6a28321fa8a7a1dbef4ad339f700c571f398edec5e37a558f6da5d604ab850`
+
 # DoubleRangeMap
 
 ## Overview
-- Documentation for `DoubleRangeMap`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.rangemaps`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(double k)`
+## Method Descriptions
+- `get(double k)`: Add description.
   - Executes `get` behavior.
-- `ranges()`
+- `ranges()`: Add description.
   - Executes `ranges` behavior.
-- `values()`
+- `values()`: Add description.
   - Executes `values` behavior.
-- `put(@Nonnull DoubleRange range, T value)`
+- `put(@Nonnull DoubleRange range, T value)`: Add description.
   - Executes `put` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `6244b9dff1d9c3799e77aaa6e855eb65accfc2eca275c12e95a10b03c265ddf1`
+
 # PortalDevicePageSupplier
 
 ## Overview
-- Documentation for `PortalDevicePageSupplier`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.ui`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tryCreate(Ref<EntityStore> ref, ComponentAccessor<EntityStore> store, PlayerRef playerRef, InteractionContext context)`
+## Method Descriptions
+- `tryCreate(Ref<EntityStore> ref, ComponentAccessor<EntityStore> store, PlayerRef playerRef, InteractionContext context)`: Add description.
   - Executes `tryCreate` behavior.
-- `isPortalWorldValid(@Nullable World world)`
+- `isPortalWorldValid(@Nullable World world)`: Add description.
   - Executes `isPortalWorldValid` behavior.
 
 ## Notes

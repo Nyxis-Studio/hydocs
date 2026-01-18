@@ -1,14 +1,14 @@
+**Source Hash:** `0c00539ade4448af3b1a332fe751b157af40f1de9badea13e1e92bb066724577`
+
 # Messages
 
 ## Overview
-- Documentation for `Messages`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

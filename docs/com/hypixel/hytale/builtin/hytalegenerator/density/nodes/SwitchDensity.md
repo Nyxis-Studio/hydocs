@@ -1,17 +1,17 @@
+**Source Hash:** `6d5bcee7e840b7e5f61b664f205dac5ed635b921f88433fa0c8192ef700b3ea6`
+
 # SwitchDensity
 
 ## Overview
-- Documentation for `SwitchDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `SwitchDensity(@Nonnull List<Density> inputs, @Nonnull List<Integer> switchStates)`
   - Creates a `SwitchDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

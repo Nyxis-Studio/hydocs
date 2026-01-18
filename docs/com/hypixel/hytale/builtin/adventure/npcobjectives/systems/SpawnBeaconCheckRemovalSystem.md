@@ -1,18 +1,18 @@
+**Source Hash:** `9ed5baabc6319d949974f012f2eba501224374c8672f453688f2a240eec43e14`
+
 # SpawnBeaconCheckRemovalSystem
 
 ## Overview
-- Documentation for `SpawnBeaconCheckRemovalSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcobjectives.systems`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `13af77bb8f61d6ba3b5f36be7b1bea48f43ea2192c0806b6e462db2eeb73c2b9`
+
 # DesyncDamageCommand
 
 ## Overview
-- Documentation for `DesyncDamageCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.damage.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `DesyncDamageCommand()`
   - Creates a `DesyncDamageCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

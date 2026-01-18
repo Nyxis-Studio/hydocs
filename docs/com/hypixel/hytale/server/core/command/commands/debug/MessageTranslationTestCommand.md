@@ -1,15 +1,15 @@
+**Source Hash:** `a861ad617b314f9a48cd3811b1384d101bc1756d5f3b92626c063712bd936429`
+
 # MessageTranslationTestCommand
 
 ## Overview
-- Documentation for `MessageTranslationTestCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `MessageTranslationTestCommand()`
   - Creates a `MessageTranslationTestCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `46d08559bf024af3f0edbd91df885bb8f9f4e439285a6c0c672e1a2da26f3436`
+
 # UpdateRepulsionConfig
 
 ## Overview
-- Documentation for `UpdateRepulsionConfig`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateRepulsionConfig()`
   - Creates a `UpdateRepulsionConfig` instance.
 - `UpdateRepulsionConfig(@Nonnull UpdateType type, int maxId, @Nullable Map<Integer, RepulsionConfig> repulsionConfigs)`
@@ -12,24 +12,24 @@
 - `UpdateRepulsionConfig(@Nonnull UpdateRepulsionConfig other)`
   - Creates a `UpdateRepulsionConfig` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

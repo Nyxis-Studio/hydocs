@@ -1,15 +1,15 @@
+**Source Hash:** `db3ed605e22ad2317342ca162953c7e3406cca5bc334415e2a737228efe848b3`
+
 # SleepOffsetCommand
 
 ## Overview
-- Documentation for `SleepOffsetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.sleep`.
 
-## Constructors
+## Constructor Descriptions
 - `SleepOffsetCommand()`
   - Creates a `SleepOffsetCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `2de87e7ce37b2e45636d6d9213a3599fbce077ad10c2dd82fc3d1a5947779c4e`
+
 # ItemArmorSlot
 
 ## Overview
-- Documentation for `ItemArmorSlot`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemArmorSlot(int value)`
   - Creates a `ItemArmorSlot` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

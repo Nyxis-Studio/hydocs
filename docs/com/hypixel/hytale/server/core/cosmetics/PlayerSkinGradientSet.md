@@ -1,17 +1,17 @@
+**Source Hash:** `871274855a784ae4e0d71d3e9c74851cd79697ace6c4476243844380f271923e`
+
 # PlayerSkinGradientSet
 
 ## Overview
-- Documentation for `PlayerSkinGradientSet`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerSkinGradientSet(@Nonnull BsonDocument doc)`
   - Creates a `PlayerSkinGradientSet` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getGradients()`
+- `getGradients()`: Add description.
   - Executes `getGradients` behavior.
 
 ## Notes

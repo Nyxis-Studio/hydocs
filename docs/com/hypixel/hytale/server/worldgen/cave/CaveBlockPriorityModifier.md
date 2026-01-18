@@ -1,17 +1,17 @@
+**Source Hash:** `b1757bdcff2c214ff40643676b46b3a910669c1b7eb7a18b7e0f4f19494b6cea`
+
 # CaveBlockPriorityModifier
 
 ## Overview
-- Documentation for `CaveBlockPriorityModifier`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
+## Constructor Descriptions
 - `CaveBlockPriorityModifier()`
   - Creates a `CaveBlockPriorityModifier` instance.
 
-## Methods
-- `modifyCurrent(byte current, byte target)`
+## Method Descriptions
+- `modifyCurrent(byte current, byte target)`: Add description.
   - Executes `modifyCurrent` behavior.
-- `modifyTarget(byte current, byte target)`
+- `modifyTarget(byte current, byte target)`: Add description.
   - Executes `modifyTarget` behavior.
 
 ## Notes

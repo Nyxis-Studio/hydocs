@@ -1,35 +1,35 @@
+**Source Hash:** `82e6479c827b954a0dba6046a2811415fe7ee87228cd4b18d35bfa29b4d1f766`
+
 # StateEvaluator
 
 ## Overview
-- Documentation for `StateEvaluator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.stateevaluator`.
 
-## Constructors
+## Constructor Descriptions
 - `StateEvaluator()`
   - Creates a `StateEvaluator` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `isActive()`
+- `isActive()`: Add description.
   - Executes `isActive` behavior.
-- `setActive(boolean active)`
+- `setActive(boolean active)`: Add description.
   - Executes `setActive` behavior.
-- `getEvaluationContext()`
+- `getEvaluationContext()`: Add description.
   - Executes `getEvaluationContext` behavior.
-- `prepareOptions(@Nonnull StateMappingHelper stateHelper)`
+- `prepareOptions(@Nonnull StateMappingHelper stateHelper)`: Add description.
   - Executes `prepareOptions` behavior.
-- `shouldExecute(double interval)`
+- `shouldExecute(double interval)`: Add description.
   - Executes `shouldExecute` behavior.
-- `prepareEvaluationContext(@Nonnull EvaluationContext context)`
+- `prepareEvaluationContext(@Nonnull EvaluationContext context)`: Add description.
   - Executes `prepareEvaluationContext` behavior.
-- `onStateSwitched()`
+- `onStateSwitched()`: Add description.
   - Executes `onStateSwitched` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `calculateUtility(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`
+- `calculateUtility(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`: Add description.
   - Executes `calculateUtility` behavior.
 
 ## Notes

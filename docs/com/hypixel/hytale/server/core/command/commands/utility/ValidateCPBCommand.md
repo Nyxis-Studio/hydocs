@@ -1,17 +1,17 @@
+**Source Hash:** `79cb6dc58e232c0679fc049635b7b25459a214fb7cc9443a4c3f4c775bdd042d`
+
 # ValidateCPBCommand
 
 ## Overview
-- Documentation for `ValidateCPBCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `ValidateCPBCommand()`
   - Creates a `ValidateCPBCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
-- `convertPrefabs(@Nonnull CommandContext context, @Nonnull Path assetPath)`
+- `convertPrefabs(@Nonnull CommandContext context, @Nonnull Path assetPath)`: Add description.
   - Executes `convertPrefabs` behavior.
 
 ## Notes

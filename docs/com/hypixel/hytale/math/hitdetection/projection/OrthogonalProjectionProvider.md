@@ -1,35 +1,35 @@
+**Source Hash:** `2aae0e8b3bbba9718866cb28409e21b682f2031ead76059a367a992224dc4948`
+
 # OrthogonalProjectionProvider
 
 ## Overview
-- Documentation for `OrthogonalProjectionProvider`.
-- Declared as a class in `com.hypixel.hytale.math.hitdetection.projection`.
 
-## Constructors
+## Constructor Descriptions
 - `OrthogonalProjectionProvider()`
   - Creates a `OrthogonalProjectionProvider` instance.
 - `OrthogonalProjectionProvider(Matrix4d matrix, double left, double right, double bottom, double top, double near, double far, double yaw, double pitch, double roll)`
   - Creates a `OrthogonalProjectionProvider` instance.
 
-## Methods
-- `setLeft(double left)`
+## Method Descriptions
+- `setLeft(double left)`: Add description.
   - Executes `setLeft` behavior.
-- `setRight(double right)`
+- `setRight(double right)`: Add description.
   - Executes `setRight` behavior.
-- `setBottom(double bottom)`
+- `setBottom(double bottom)`: Add description.
   - Executes `setBottom` behavior.
-- `setTop(double top)`
+- `setTop(double top)`: Add description.
   - Executes `setTop` behavior.
-- `setNear(double near)`
+- `setNear(double near)`: Add description.
   - Executes `setNear` behavior.
-- `setFar(double far)`
+- `setFar(double far)`: Add description.
   - Executes `setFar` behavior.
-- `getRange()`
+- `getRange()`: Add description.
   - Executes `getRange` behavior.
-- `setRotation(double yaw, double pitch, double roll)`
+- `setRotation(double yaw, double pitch, double roll)`: Add description.
   - Executes `setRotation` behavior.
-- `getMatrix()`
+- `getMatrix()`: Add description.
   - Executes `getMatrix` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `c61b09722df9a55bf4e4512cb0636d9df4d415bf08cf935852d43c389ea787db`
+
 # BuilderSensorFlockCombatDamage
 
 ## Overview
-- Documentation for `BuilderSensorFlockCombatDamage`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isLeaderOnly()`
+- `isLeaderOnly()`: Add description.
   - Executes `isLeaderOnly` behavior.
 
 ## Notes

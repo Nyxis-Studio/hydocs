@@ -1,14 +1,14 @@
+**Source Hash:** `826ee4d97deda8ed14085eef403a1766f88012b8064216faaff34462caa390c4`
+
 # CollisionMaterial
 
 ## Overview
-- Documentation for `CollisionMaterial`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

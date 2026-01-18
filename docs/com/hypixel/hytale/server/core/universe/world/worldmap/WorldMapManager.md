@@ -1,75 +1,75 @@
+**Source Hash:** `fed1039ade1e812edbcdb77766277f29b3cf4755eb9b7db6893f28604a673191`
+
 # WorldMapManager
 
 ## Overview
-- Documentation for `WorldMapManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldMapManager(@Nonnull World world)`
   - Creates a `WorldMapManager` instance.
 
-## Methods
-- `getGenerator()`
+## Method Descriptions
+- `getGenerator()`: Add description.
   - Executes `getGenerator` behavior.
-- `setGenerator(@Nullable IWorldMap generator)`
+- `setGenerator(@Nullable IWorldMap generator)`: Add description.
   - Executes `setGenerator` behavior.
-- `isIdle()`
+- `isIdle()`: Add description.
   - Executes `isIdle` behavior.
-- `tick(float dt)`
+- `tick(float dt)`: Add description.
   - Executes `tick` behavior.
-- `onShutdown()`
+- `onShutdown()`: Add description.
   - Executes `onShutdown` behavior.
-- `unloadImages()`
+- `unloadImages()`: Add description.
   - Executes `unloadImages` behavior.
-- `isWorldMapEnabled()`
+- `isWorldMapEnabled()`: Add description.
   - Executes `isWorldMapEnabled` behavior.
-- `isWorldMapImageVisibleToAnyPlayer(@Nonnull List<Player> players, long imageIndex, @Nonnull WorldMapSettings settings)`
+- `isWorldMapImageVisibleToAnyPlayer(@Nonnull List<Player> players, long imageIndex, @Nonnull WorldMapSettings settings)`: Add description.
   - Executes `isWorldMapImageVisibleToAnyPlayer` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `getWorldMapSettings()`
+- `getWorldMapSettings()`: Add description.
   - Executes `getWorldMapSettings` behavior.
-- `getMarkerProviders()`
+- `getMarkerProviders()`: Add description.
   - Executes `getMarkerProviders` behavior.
-- `addMarkerProvider(@Nonnull String key, @Nonnull MarkerProvider provider)`
+- `addMarkerProvider(@Nonnull String key, @Nonnull MarkerProvider provider)`: Add description.
   - Executes `addMarkerProvider` behavior.
-- `getPointsOfInterest()`
+- `getPointsOfInterest()`: Add description.
   - Executes `getPointsOfInterest` behavior.
-- `getImageIfInMemory(int x, int z)`
+- `getImageIfInMemory(int x, int z)`: Add description.
   - Executes `getImageIfInMemory` behavior.
-- `getImageIfInMemory(long index)`
+- `getImageIfInMemory(long index)`: Add description.
   - Executes `getImageIfInMemory` behavior.
-- `getImageAsync(int x, int z)`
+- `getImageAsync(int x, int z)`: Add description.
   - Executes `getImageAsync` behavior.
-- `getImageAsync(long index)`
+- `getImageAsync(long index)`: Add description.
   - Executes `getImageAsync` behavior.
-- `generate()`
+- `generate()`: Add description.
   - Executes `generate` behavior.
-- `sendSettings()`
+- `sendSettings()`: Add description.
   - Executes `sendSettings` behavior.
-- `shouldTick()`
+- `shouldTick()`: Add description.
   - Executes `shouldTick` behavior.
-- `updateTickingState(boolean before)`
+- `updateTickingState(boolean before)`: Add description.
   - Executes `updateTickingState` behavior.
-- `clearImages()`
+- `clearImages()`: Add description.
   - Executes `clearImages` behavior.
-- `clearImagesInChunks(@Nonnull LongSet chunkIndices)`
+- `clearImagesInChunks(@Nonnull LongSet chunkIndices)`: Add description.
   - Executes `clearImagesInChunks` behavior.
-- `createPlayerMarker(@Nonnull Ref<EntityStore> playerRef, @Nonnull MapMarker marker, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `createPlayerMarker(@Nonnull Ref<EntityStore> playerRef, @Nonnull MapMarker marker, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `createPlayerMarker` behavior.
-- `update(World var1, GameplayConfig var2, WorldMapTracker var3, int var4, int var5, int var6)`
+- `update(World var1, GameplayConfig var2, WorldMapTracker var3, int var4, int var5, int var6)`: Add description.
   - Executes `update` behavior.
-- `getPlayer()`
+- `getPlayer()`: Add description.
   - Executes `getPlayer` behavior.
-- `getMarkerId()`
+- `getMarkerId()`: Add description.
   - Executes `getMarkerId` behavior.
-- `remove()`
+- `remove()`: Add description.
   - Executes `remove` behavior.
-- `removeMarkerFromOnlinePlayer(@Nonnull Player player)`
+- `removeMarkerFromOnlinePlayer(@Nonnull Player player)`: Add description.
   - Executes `removeMarkerFromOnlinePlayer` behavior.
-- `removeMarkerFromOfflinePlayer()`
+- `removeMarkerFromOfflinePlayer()`: Add description.
   - Executes `removeMarkerFromOfflinePlayer` behavior.
-- `removeMarkerFromData(@Nonnull PlayerConfigData data, @Nonnull String worldName, @Nonnull String markerId)`
+- `removeMarkerFromData(@Nonnull PlayerConfigData data, @Nonnull String worldName, @Nonnull String markerId)`: Add description.
   - Executes `removeMarkerFromData` behavior.
 
 ## Notes

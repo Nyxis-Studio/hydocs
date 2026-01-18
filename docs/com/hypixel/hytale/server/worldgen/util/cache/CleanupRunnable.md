@@ -1,15 +1,15 @@
+**Source Hash:** `99638659ba90eac1fee784f7c00e58de84501df54f815df043bd56f531aa3094`
+
 # CleanupRunnable
 
 ## Overview
-- Documentation for `CleanupRunnable`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.cache`.
 
-## Constructors
+## Constructor Descriptions
 - `CleanupRunnable(WeakReference<Cache<K, V>> reference)`
   - Creates a `CleanupRunnable` instance.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
 
 ## Notes

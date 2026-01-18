@@ -1,14 +1,14 @@
+**Source Hash:** `f9225ee836814ee451f7e3f0a00abc25df3302d132d3c241ddc8b5b323f714f5`
+
 # BlockSupportsRequiredForType
 
 ## Overview
-- Documentation for `BlockSupportsRequiredForType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,18 +1,18 @@
+**Source Hash:** `820a97d819afb681bf00de1813e643264004d5a0250e54c2ed2b03b1602e96fe`
+
 # VoidEventRefSystem
 
 ## Overview
-- Documentation for `VoidEventRefSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.systems.voidevent`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

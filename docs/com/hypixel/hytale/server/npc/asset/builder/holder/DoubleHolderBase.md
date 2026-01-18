@@ -1,25 +1,25 @@
+**Source Hash:** `0837e3665213a721e3fecb8882175dd81b2c5373bbc7112aa8cff33dc8f6edb8`
+
 # DoubleHolderBase
 
 ## Overview
-- Documentation for `DoubleHolderBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
+## Constructor Descriptions
 - `DoubleHolderBase()`
   - Creates a `DoubleHolderBase` instance.
 
-## Methods
-- `readJSON(@Nonnull JsonElement requiredJsonElement, DoubleValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+## Method Descriptions
+- `readJSON(@Nonnull JsonElement requiredJsonElement, DoubleValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, double defaultValue, DoubleValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, double defaultValue, DoubleValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `addRelationValidator(ObjDoubleConsumer<ExecutionContext> validator)`
+- `addRelationValidator(ObjDoubleConsumer<ExecutionContext> validator)`: Add description.
   - Executes `addRelationValidator` behavior.
-- `validateRelations(ExecutionContext executionContext, double value)`
+- `validateRelations(ExecutionContext executionContext, double value)`: Add description.
   - Executes `validateRelations` behavior.
-- `rawGet(ExecutionContext executionContext)`
+- `rawGet(ExecutionContext executionContext)`: Add description.
   - Executes `rawGet` behavior.
-- `validate(double value)`
+- `validate(double value)`: Add description.
   - Executes `validate` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `b9224c1961b351eafe84c7600b85f4bad48843edc6e53f5605c7f24bafe05225`
+
 # WorldGenWorldMapProvider
 
 ## Overview
-- Documentation for `WorldGenWorldMapProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap.provider.chunk`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getGenerator(@Nonnull World world)`
+## Method Descriptions
+- `getGenerator(@Nonnull World world)`: Add description.
   - Executes `getGenerator` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

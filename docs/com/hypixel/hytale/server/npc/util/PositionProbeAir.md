@@ -1,24 +1,24 @@
+**Source Hash:** `95e86834a29740563ba66371c6f666fdf44ca5e3aa38b34202342ec8fd00b11a`
+
 # PositionProbeAir
 
 ## Overview
-- Documentation for `PositionProbeAir`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `probePosition` behavior.
-- `blockTest(int code, @Nonnull BoxBlockIntersectionEvaluator boxBlockIntersection, @Nonnull CollisionConfig config)`
+- `blockTest(int code, @Nonnull BoxBlockIntersectionEvaluator boxBlockIntersection, @Nonnull CollisionConfig config)`: Add description.
   - Executes `blockTest` behavior.
-- `isInAir()`
+- `isInAir()`: Add description.
   - Executes `isInAir` behavior.
-- `isOnSolid()`
+- `isOnSolid()`: Add description.
   - Executes `isOnSolid` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

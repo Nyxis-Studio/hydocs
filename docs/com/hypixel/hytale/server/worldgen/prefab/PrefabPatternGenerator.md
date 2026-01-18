@@ -1,45 +1,45 @@
+**Source Hash:** `e8dd16ac3e7c7b57cba56696b3e43e6a96bbb54fc504e15dc86860ceb8b56da9`
+
 # PrefabPatternGenerator
 
 ## Overview
-- Documentation for `PrefabPatternGenerator`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabPatternGenerator(int seedOffset, PrefabCategory category, IPointGenerator gridGenerator, ICoordinateRndCondition heightCondition, IHeightThresholdInterpreter heightThresholdInterpreter, BlockMaskCondition prefabPlacementConfiguration, ICoordinateCondition mapCondition, IBlockFluidCondition parentCondition, PrefabRotation[] rotations, ICoordinateDoubleSupplier displacement, boolean fitHeightmap, boolean onWater, boolean deepSearch, boolean submerge, int maxSize, int exclusionRadius)`
   - Creates a `PrefabPatternGenerator` instance.
 
-## Methods
-- `getCategory()`
+## Method Descriptions
+- `getCategory()`: Add description.
   - Executes `getCategory` behavior.
-- `getGridGenerator()`
+- `getGridGenerator()`: Add description.
   - Executes `getGridGenerator` behavior.
-- `getMapCondition()`
+- `getMapCondition()`: Add description.
   - Executes `getMapCondition` behavior.
-- `getPrefabPlacementConfiguration()`
+- `getPrefabPlacementConfiguration()`: Add description.
   - Executes `getPrefabPlacementConfiguration` behavior.
-- `isFitHeightmap()`
+- `isFitHeightmap()`: Add description.
   - Executes `isFitHeightmap` behavior.
-- `getParentCondition()`
+- `getParentCondition()`: Add description.
   - Executes `getParentCondition` behavior.
-- `getHeightCondition()`
+- `getHeightCondition()`: Add description.
   - Executes `getHeightCondition` behavior.
-- `getHeightThresholdInterpreter()`
+- `getHeightThresholdInterpreter()`: Add description.
   - Executes `getHeightThresholdInterpreter` behavior.
-- `getRotations()`
+- `getRotations()`: Add description.
   - Executes `getRotations` behavior.
-- `getDisplacement(int seed, int x, int z)`
+- `getDisplacement(int seed, int x, int z)`: Add description.
   - Executes `getDisplacement` behavior.
-- `isOnWater()`
+- `isOnWater()`: Add description.
   - Executes `isOnWater` behavior.
-- `isDeepSearch()`
+- `isDeepSearch()`: Add description.
   - Executes `isDeepSearch` behavior.
-- `isSubmerge()`
+- `isSubmerge()`: Add description.
   - Executes `isSubmerge` behavior.
-- `getMaxSize()`
+- `getMaxSize()`: Add description.
   - Executes `getMaxSize` behavior.
-- `getExclusionRadius()`
+- `getExclusionRadius()`: Add description.
   - Executes `getExclusionRadius` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

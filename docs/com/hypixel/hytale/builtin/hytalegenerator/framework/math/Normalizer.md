@@ -1,16 +1,16 @@
+**Source Hash:** `7612a6951e78482546d71e35539caf926171dd8581cf4f4ff836e765fbd3b2e7`
+
 # Normalizer
 
 ## Overview
-- Documentation for `Normalizer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.framework.math`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `normalizeNoise(double input)`
+## Method Descriptions
+- `normalizeNoise(double input)`: Add description.
   - Executes `normalizeNoise` behavior.
-- `normalize(double fromMin, double fromMax, double toMin, double toMax, double input)`
+- `normalize(double fromMin, double fromMax, double toMin, double toMax, double input)`: Add description.
   - Executes `normalize` behavior.
 
 ## Notes

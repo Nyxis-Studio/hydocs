@@ -1,31 +1,31 @@
+**Source Hash:** `352d6af0fdeebc4921513b30434c1c09df2fa451101e247bcab23fa9c1f2c11b`
+
 # PortalDevice
 
 ## Overview
-- Documentation for `PortalDevice`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.components`.
 
-## Constructors
+## Constructor Descriptions
 - `PortalDevice()`
   - Creates a `PortalDevice` instance.
 - `PortalDevice(PortalDeviceConfig config, String baseBlockTypeKey)`
   - Creates a `PortalDevice` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getConfig()`
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `getBaseBlockTypeKey()`
+- `getBaseBlockTypeKey()`: Add description.
   - Executes `getBaseBlockTypeKey` behavior.
-- `getBaseBlockType()`
+- `getBaseBlockType()`: Add description.
   - Executes `getBaseBlockType` behavior.
-- `getDestinationWorldUuid()`
+- `getDestinationWorldUuid()`: Add description.
   - Executes `getDestinationWorldUuid` behavior.
-- `getDestinationWorld()`
+- `getDestinationWorld()`: Add description.
   - Executes `getDestinationWorld` behavior.
-- `setDestinationWorld(World world)`
+- `setDestinationWorld(World world)`: Add description.
   - Executes `setDestinationWorld` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

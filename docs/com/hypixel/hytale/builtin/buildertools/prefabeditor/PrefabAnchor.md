@@ -1,17 +1,17 @@
+**Source Hash:** `6d3bdb5be9675a5ebc748d7b9e942dbcf9961b9983f07525006fb898cd999f1c`
+
 # PrefabAnchor
 
 ## Overview
-- Documentation for `PrefabAnchor`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabAnchor()`
   - Creates a `PrefabAnchor` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

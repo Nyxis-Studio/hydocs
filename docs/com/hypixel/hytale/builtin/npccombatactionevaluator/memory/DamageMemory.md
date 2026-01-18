@@ -1,29 +1,29 @@
+**Source Hash:** `92d417a380ec4583cd037356289e8793fa9367e509a1f566304a0d07a952a565`
+
 # DamageMemory
 
 ## Overview
-- Documentation for `DamageMemory`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.memory`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageMemory()`
   - Creates a `DamageMemory` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getRecentDamage()`
+- `getRecentDamage()`: Add description.
   - Executes `getRecentDamage` behavior.
-- `getTotalCombatDamage()`
+- `getTotalCombatDamage()`: Add description.
   - Executes `getTotalCombatDamage` behavior.
-- `addDamage(float damage)`
+- `addDamage(float damage)`: Add description.
   - Executes `addDamage` behavior.
-- `clearRecentDamage()`
+- `clearRecentDamage()`: Add description.
   - Executes `clearRecentDamage` behavior.
-- `clearTotalDamage()`
+- `clearTotalDamage()`: Add description.
   - Executes `clearTotalDamage` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

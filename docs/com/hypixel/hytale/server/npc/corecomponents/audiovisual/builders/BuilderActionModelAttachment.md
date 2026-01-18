@@ -1,26 +1,26 @@
+**Source Hash:** `13cc2791d4c06b7634701626b91f7a5445eef1630fc42ecf8e124f7d42833602`
+
 # BuilderActionModelAttachment
 
 ## Overview
-- Documentation for `BuilderActionModelAttachment`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.audiovisual.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `getSlot(@Nonnull BuilderSupport support)`
+- `getSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getSlot` behavior.
-- `getAttachment(@Nonnull BuilderSupport support)`
+- `getAttachment(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAttachment` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `2395b897f5a1f108c24222334139b899c985c4f62a322c0c12e93890ee3a4c2c`
+
 # LightingCommand
 
 ## Overview
-- Documentation for `LightingCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.lighting`.
 
-## Constructors
+## Constructor Descriptions
 - `LightingCommand()`
   - Creates a `LightingCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

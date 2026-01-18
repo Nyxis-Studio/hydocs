@@ -1,16 +1,16 @@
+**Source Hash:** `2ea265dad744290ad9def2118ca2dbc266a764eeeb0e7b81ecdcb31fdb0cd9de`
+
 # InteractionTarget
 
 ## Overview
-- Documentation for `InteractionTarget`.
-- Declared as a enum in `com.hypixel.hytale.server.core.modules.interaction.interaction.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getEntity(@Nonnull InteractionContext ctx, @Nonnull Ref<EntityStore> ref)`
+## Method Descriptions
+- `getEntity(@Nonnull InteractionContext ctx, @Nonnull Ref<EntityStore> ref)`: Add description.
   - Executes `getEntity` behavior.
-- `getEntity(@Nonnull InteractionContext ctx, @Nonnull Ref<EntityStore> ref, @Nonnull Class<T> clazz)`
+- `getEntity(@Nonnull InteractionContext ctx, @Nonnull Ref<EntityStore> ref, @Nonnull Class<T> clazz)`: Add description.
   - Executes `getEntity` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `9b3e5a694c18125d4dfd062f2ed38643d228e5c6209780fae816d5766654a964`
+
 # UpdateWeathers
 
 ## Overview
-- Documentation for `UpdateWeathers`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateWeathers()`
   - Creates a `UpdateWeathers` instance.
 - `UpdateWeathers(@Nonnull UpdateType type, int maxId, @Nullable Map<Integer, Weather> weathers)`
@@ -12,24 +12,24 @@
 - `UpdateWeathers(@Nonnull UpdateWeathers other)`
   - Creates a `UpdateWeathers` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

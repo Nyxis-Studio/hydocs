@@ -1,17 +1,17 @@
+**Source Hash:** `f5ed1189cca7faf4e062c4d4354120a3ff2b4cafb3780bb99a5344632599bea3`
+
 # CustomPageLifetime
 
 ## Overview
-- Documentation for `CustomPageLifetime`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `CustomPageLifetime(int value)`
   - Creates a `CustomPageLifetime` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

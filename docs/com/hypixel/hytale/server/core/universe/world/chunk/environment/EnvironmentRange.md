@@ -1,10 +1,10 @@
+**Source Hash:** `fbe693418e77ada0890cdb22571b5b862028e6c50d71a2f9207290834bcb39f9`
+
 # EnvironmentRange
 
 ## Overview
-- Documentation for `EnvironmentRange`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.environment`.
 
-## Constructors
+## Constructor Descriptions
 - `EnvironmentRange(int id)`
   - Creates a `EnvironmentRange` instance.
 - `EnvironmentRange(int min, int max, int id)`
@@ -12,18 +12,18 @@
 - `EnvironmentRange(this.min, this.max, this.id)`
   - Creates a `EnvironmentRange` instance.
 
-## Methods
-- `getMin()`
+## Method Descriptions
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `height()`
+- `height()`: Add description.
   - Executes `height` behavior.
-- `copy()`
+- `copy()`: Add description.
   - Executes `copy` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

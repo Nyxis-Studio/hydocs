@@ -1,14 +1,14 @@
+**Source Hash:** `887ca615a9f9c0aae9602c1e25c65e571563cafc9803af778b50189f289a8909`
+
 # AStarNodePoolProvider
 
 ## Overview
-- Documentation for `AStarNodePoolProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPool(int var1)`
+## Method Descriptions
+- `getPool(int var1)`: Add description.
   - Executes `getPool` behavior.
 
 ## Notes

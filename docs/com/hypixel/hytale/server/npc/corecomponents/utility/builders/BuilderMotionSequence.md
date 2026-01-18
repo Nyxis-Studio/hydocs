@@ -1,26 +1,26 @@
+**Source Hash:** `fb18ad76ab1c3c6f2bba7f15c9d701e4525e40e3108dbd01975b502e53c6183a`
+
 # BuilderMotionSequence
 
 ## Overview
-- Documentation for `BuilderMotionSequence`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `isLooped()`
+- `isLooped()`: Add description.
   - Executes `isLooped` behavior.
-- `isRestartOnActivate()`
+- `isRestartOnActivate()`: Add description.
   - Executes `isRestartOnActivate` behavior.
 
 ## Notes

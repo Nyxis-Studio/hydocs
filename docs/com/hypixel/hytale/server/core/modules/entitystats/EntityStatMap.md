@@ -1,93 +1,93 @@
+**Source Hash:** `0b962afb52c815e36d2f4ff2e8ec279c9dfb363eda2744afaef905ae106ddd9b`
+
 # EntityStatMap
 
 ## Overview
-- Documentation for `EntityStatMap`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entitystats`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStatMap()`
   - Creates a `EntityStatMap` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `get(String entityStat)`
+- `get(String entityStat)`: Add description.
   - Executes `get` behavior.
-- `update()`
+- `update()`: Add description.
   - Executes `update` behavior.
-- `getModifier(int index, String key)`
+- `getModifier(int index, String key)`: Add description.
   - Executes `getModifier` behavior.
-- `putModifier(int index, String key, Modifier modifier)`
+- `putModifier(int index, String key, Modifier modifier)`: Add description.
   - Executes `putModifier` behavior.
-- `putModifier(Predictable predictable, int index, String key, Modifier modifier)`
+- `putModifier(Predictable predictable, int index, String key, Modifier modifier)`: Add description.
   - Executes `putModifier` behavior.
-- `removeModifier(int index, String key)`
+- `removeModifier(int index, String key)`: Add description.
   - Executes `removeModifier` behavior.
-- `removeModifier(Predictable predictable, int index, String key)`
+- `removeModifier(Predictable predictable, int index, String key)`: Add description.
   - Executes `removeModifier` behavior.
-- `setStatValue(int index, float newValue)`
+- `setStatValue(int index, float newValue)`: Add description.
   - Executes `setStatValue` behavior.
-- `setStatValue(Predictable predictable, int index, float newValue)`
+- `setStatValue(Predictable predictable, int index, float newValue)`: Add description.
   - Executes `setStatValue` behavior.
-- `addStatValue(int index, float amount)`
+- `addStatValue(int index, float amount)`: Add description.
   - Executes `addStatValue` behavior.
-- `addStatValue(Predictable predictable, int index, float amount)`
+- `addStatValue(Predictable predictable, int index, float amount)`: Add description.
   - Executes `addStatValue` behavior.
-- `subtractStatValue(int index, float amount)`
+- `subtractStatValue(int index, float amount)`: Add description.
   - Executes `subtractStatValue` behavior.
-- `subtractStatValue(Predictable predictable, int index, float amount)`
+- `subtractStatValue(Predictable predictable, int index, float amount)`: Add description.
   - Executes `subtractStatValue` behavior.
-- `minimizeStatValue(int index)`
+- `minimizeStatValue(int index)`: Add description.
   - Executes `minimizeStatValue` behavior.
-- `minimizeStatValue(Predictable predictable, int index)`
+- `minimizeStatValue(Predictable predictable, int index)`: Add description.
   - Executes `minimizeStatValue` behavior.
-- `maximizeStatValue(int index)`
+- `maximizeStatValue(int index)`: Add description.
   - Executes `maximizeStatValue` behavior.
-- `maximizeStatValue(Predictable predictable, int index)`
+- `maximizeStatValue(Predictable predictable, int index)`: Add description.
   - Executes `maximizeStatValue` behavior.
-- `resetStatValue(int index)`
+- `resetStatValue(int index)`: Add description.
   - Executes `resetStatValue` behavior.
-- `resetStatValue(Predictable predictable, int index)`
+- `resetStatValue(Predictable predictable, int index)`: Add description.
   - Executes `resetStatValue` behavior.
-- `getSelfUpdates()`
+- `getSelfUpdates()`: Add description.
   - Executes `getSelfUpdates` behavior.
-- `getSelfStatValues()`
+- `getSelfStatValues()`: Add description.
   - Executes `getSelfStatValues` behavior.
-- `consumeSelfUpdates()`
+- `consumeSelfUpdates()`: Add description.
   - Executes `consumeSelfUpdates` behavior.
-- `clearUpdates()`
+- `clearUpdates()`: Add description.
   - Executes `clearUpdates` behavior.
-- `consumeOtherUpdates()`
+- `consumeOtherUpdates()`: Add description.
   - Executes `consumeOtherUpdates` behavior.
-- `updatesToProtocol(@Nonnull Int2ObjectMap<List<EntityStatUpdate>> localUpdates)`
+- `updatesToProtocol(@Nonnull Int2ObjectMap<List<EntityStatUpdate>> localUpdates)`: Add description.
   - Executes `updatesToProtocol` behavior.
-- `createInitUpdate(boolean all)`
+- `createInitUpdate(boolean all)`: Add description.
   - Executes `createInitUpdate` behavior.
-- `consumeSelfNetworkOutdated()`
+- `consumeSelfNetworkOutdated()`: Add description.
   - Executes `consumeSelfNetworkOutdated` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `addInitChange(int index, @Nonnull EntityStatValue value)`
+- `addInitChange(int index, @Nonnull EntityStatValue value)`: Add description.
   - Executes `addInitChange` behavior.
-- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value)`
+- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value)`: Add description.
   - Executes `addChange` behavior.
-- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value, Map<String, Modifier> modifierMap)`
+- `addChange(Predictable predictable, int index, @Nonnull EntityStatOp op, float previousValue, float value, Map<String, Modifier> modifierMap)`: Add description.
   - Executes `addChange` behavior.
-- `addChange(Predictable predictable, int index, EntityStatOp op, float previousValue, String key, @Nullable Modifier modifier)`
+- `addChange(Predictable predictable, int index, EntityStatOp op, float previousValue, String key, @Nullable Modifier modifier)`: Add description.
   - Executes `addChange` behavior.
-- `tryMergeUpdate(@Nonnull List<EntityStatUpdate> updates, @Nonnull EntityStatOp op, float value, @Nullable Map<String, Modifier> modifierMap, boolean isPredictable)`
+- `tryMergeUpdate(@Nonnull List<EntityStatUpdate> updates, @Nonnull EntityStatOp op, float value, @Nullable Map<String, Modifier> modifierMap, boolean isPredictable)`: Add description.
   - Executes `tryMergeUpdate` behavior.
-- `processStatChanges(Predictable predictable, @Nonnull Int2FloatMap entityStats, ValueType valueType, @Nonnull ChangeStatBehaviour changeStatBehaviour)`
+- `processStatChanges(Predictable predictable, @Nonnull Int2FloatMap entityStats, ValueType valueType, @Nonnull ChangeStatBehaviour changeStatBehaviour)`: Add description.
   - Executes `processStatChanges` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `makeInitChange(@Nonnull EntityStatValue value)`
+- `makeInitChange(@Nonnull EntityStatValue value)`: Add description.
   - Executes `makeInitChange` behavior.
 
 ## Notes

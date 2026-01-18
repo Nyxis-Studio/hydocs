@@ -1,14 +1,14 @@
+**Source Hash:** `41245b456685bf789ac1a18ccab625e676c1eab50f131b95d6b1b6c32d2ca3b3`
+
 # ImportedDirectionalityAsset
 
 ## Overview
-- Documentation for `ImportedDirectionalityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props.prefabprop.directionality`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DirectionalityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DirectionalityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

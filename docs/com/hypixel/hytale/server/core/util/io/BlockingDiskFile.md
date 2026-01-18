@@ -1,25 +1,25 @@
+**Source Hash:** `19ad8b0d2d2ccc92dfbd1d3cda5e63c7ccecf4ff34dab286208486a4aa4c3be7`
+
 # BlockingDiskFile
 
 ## Overview
-- Documentation for `BlockingDiskFile`.
-- Declared as a class in `com.hypixel.hytale.server.core.util.io`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockingDiskFile(Path path)`
   - Creates a `BlockingDiskFile` instance.
 
-## Methods
-- `read(BufferedReader var1)`
+## Method Descriptions
+- `read(BufferedReader var1)`: Add description.
   - Executes `read` behavior.
-- `write(BufferedWriter var1)`
+- `write(BufferedWriter var1)`: Add description.
   - Executes `write` behavior.
-- `create(BufferedWriter var1)`
+- `create(BufferedWriter var1)`: Add description.
   - Executes `create` behavior.
-- `syncLoad()`
+- `syncLoad()`: Add description.
   - Executes `syncLoad` behavior.
-- `syncSave()`
+- `syncSave()`: Add description.
   - Executes `syncSave` behavior.
-- `toLocalFile()`
+- `toLocalFile()`: Add description.
   - Executes `toLocalFile` behavior.
 
 ## Notes

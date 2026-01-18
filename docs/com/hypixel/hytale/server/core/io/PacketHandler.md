@@ -1,117 +1,117 @@
+**Source Hash:** `9746454d79a3a3c2d3f491ffd3a25e27aa7ac04f9133b0ad8bd9d4dbe4595db2`
+
 # PacketHandler
 
 ## Overview
-- Documentation for `PacketHandler`.
-- Declared as a class in `com.hypixel.hytale.server.core.io`.
 
-## Constructors
+## Constructor Descriptions
 - `PacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion)`
   - Creates a `PacketHandler` instance.
 
-## Methods
-- `getChannel()`
+## Method Descriptions
+- `getChannel()`: Add description.
   - Executes `getChannel` behavior.
-- `setCompressionEnabled(boolean compressionEnabled)`
+- `setCompressionEnabled(boolean compressionEnabled)`: Add description.
   - Executes `setCompressionEnabled` behavior.
-- `isCompressionEnabled()`
+- `isCompressionEnabled()`: Add description.
   - Executes `isCompressionEnabled` behavior.
-- `getIdentifier()`
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `getProtocolVersion()`
+- `getProtocolVersion()`: Add description.
   - Executes `getProtocolVersion` behavior.
-- `registered(@Nullable PacketHandler oldHandler)`
+- `registered(@Nullable PacketHandler oldHandler)`: Add description.
   - Executes `registered` behavior.
-- `registered0(@Nullable PacketHandler oldHandler)`
+- `registered0(@Nullable PacketHandler oldHandler)`: Add description.
   - Executes `registered0` behavior.
-- `unregistered(@Nullable PacketHandler newHandler)`
+- `unregistered(@Nullable PacketHandler newHandler)`: Add description.
   - Executes `unregistered` behavior.
-- `unregistered0(@Nullable PacketHandler newHandler)`
+- `unregistered0(@Nullable PacketHandler newHandler)`: Add description.
   - Executes `unregistered0` behavior.
-- `handle(@Nonnull Packet packet)`
+- `handle(@Nonnull Packet packet)`: Add description.
   - Executes `handle` behavior.
-- `accept(@Nonnull Packet var1)`
+- `accept(@Nonnull Packet var1)`: Add description.
   - Executes `accept` behavior.
-- `logCloseMessage()`
+- `logCloseMessage()`: Add description.
   - Executes `logCloseMessage` behavior.
-- `closed(ChannelHandlerContext ctx)`
+- `closed(ChannelHandlerContext ctx)`: Add description.
   - Executes `closed` behavior.
-- `setQueuePackets(boolean queuePackets)`
+- `setQueuePackets(boolean queuePackets)`: Add description.
   - Executes `setQueuePackets` behavior.
-- `tryFlush()`
+- `tryFlush()`: Add description.
   - Executes `tryFlush` behavior.
-- `write(Packet ... packets)`
+- `write(Packet ... packets)`: Add description.
   - Executes `write` behavior.
-- `write(@Nonnull Packet[] packets, @Nonnull Packet finalPacket)`
+- `write(@Nonnull Packet[] packets, @Nonnull Packet finalPacket)`: Add description.
   - Executes `write` behavior.
-- `write(@Nonnull Packet packet)`
+- `write(@Nonnull Packet packet)`: Add description.
   - Executes `write` behavior.
-- `writeNoCache(@Nonnull Packet packet)`
+- `writeNoCache(@Nonnull Packet packet)`: Add description.
   - Executes `writeNoCache` behavior.
-- `writePacket(@Nonnull Packet packet, boolean cache)`
+- `writePacket(@Nonnull Packet packet, boolean cache)`: Add description.
   - Executes `writePacket` behavior.
-- `handleOutboundAndCachePackets(@Nonnull Packet[] packets, @Nonnull Packet[] cachedPackets)`
+- `handleOutboundAndCachePackets(@Nonnull Packet[] packets, @Nonnull Packet[] cachedPackets)`: Add description.
   - Executes `handleOutboundAndCachePackets` behavior.
-- `handleOutboundAndCachePacket(@Nonnull Packet packet)`
+- `handleOutboundAndCachePacket(@Nonnull Packet packet)`: Add description.
   - Executes `handleOutboundAndCachePacket` behavior.
-- `disconnect(@Nonnull String message)`
+- `disconnect(@Nonnull String message)`: Add description.
   - Executes `disconnect` behavior.
-- `disconnect0(@Nonnull String message)`
+- `disconnect0(@Nonnull String message)`: Add description.
   - Executes `disconnect0` behavior.
-- `getPacketStatsRecorder()`
+- `getPacketStatsRecorder()`: Add description.
   - Executes `getPacketStatsRecorder` behavior.
-- `getPingInfo(@Nonnull PongType pongType)`
+- `getPingInfo(@Nonnull PongType pongType)`: Add description.
   - Executes `getPingInfo` behavior.
-- `getOperationTimeoutThreshold()`
+- `getOperationTimeoutThreshold()`: Add description.
   - Executes `getOperationTimeoutThreshold` behavior.
-- `tickPing(float dt)`
+- `tickPing(float dt)`: Add description.
   - Executes `tickPing` behavior.
-- `sendPing()`
+- `sendPing()`: Add description.
   - Executes `sendPing` behavior.
-- `handlePong(@Nonnull Pong packet)`
+- `handlePong(@Nonnull Pong packet)`: Add description.
   - Executes `handlePong` behavior.
-- `setTimeout(@Nonnull String stageId, @Nonnull BooleanSupplier meets, long def, @Nonnull TimeUnit timeUnit)`
+- `setTimeout(@Nonnull String stageId, @Nonnull BooleanSupplier meets, long def, @Nonnull TimeUnit timeUnit)`: Add description.
   - Executes `setTimeout` behavior.
-- `clearTimeout()`
+- `clearTimeout()`: Add description.
   - Executes `clearTimeout` behavior.
-- `getAuth()`
+- `getAuth()`: Add description.
   - Executes `getAuth` behavior.
-- `stillActive()`
+- `stillActive()`: Add description.
   - Executes `stillActive` behavior.
-- `getQueuedPacketsCount()`
+- `getQueuedPacketsCount()`: Add description.
   - Executes `getQueuedPacketsCount` behavior.
-- `isLocalConnection()`
+- `isLocalConnection()`: Add description.
   - Executes `isLocalConnection` behavior.
-- `isLANConnection()`
+- `isLANConnection()`: Add description.
   - Executes `isLANConnection` behavior.
-- `getDisconnectReason()`
+- `getDisconnectReason()`: Add description.
   - Executes `getDisconnectReason` behavior.
-- `setClientReadyForChunksFuture(@Nonnull CompletableFuture<Void> clientReadyFuture)`
+- `setClientReadyForChunksFuture(@Nonnull CompletableFuture<Void> clientReadyFuture)`: Add description.
   - Executes `setClientReadyForChunksFuture` behavior.
-- `getClientReadyForChunksFuture()`
+- `getClientReadyForChunksFuture()`: Add description.
   - Executes `getClientReadyForChunksFuture` behavior.
-- `logConnectionTimings(@Nonnull Channel channel, @Nonnull String message, @Nonnull Level level)`
+- `logConnectionTimings(@Nonnull Channel channel, @Nonnull String message, @Nonnull Level level)`: Add description.
   - Executes `logConnectionTimings` behavior.
-- `getServerDisconnectReason()`
+- `getServerDisconnectReason()`: Add description.
   - Executes `getServerDisconnectReason` behavior.
-- `setServerDisconnectReason(String serverDisconnectReason)`
+- `setServerDisconnectReason(String serverDisconnectReason)`: Add description.
   - Executes `setServerDisconnectReason` behavior.
-- `getClientDisconnectType()`
+- `getClientDisconnectType()`: Add description.
   - Executes `getClientDisconnectType` behavior.
-- `setClientDisconnectType(DisconnectType clientDisconnectType)`
+- `setClientDisconnectType(DisconnectType clientDisconnectType)`: Add description.
   - Executes `setClientDisconnectType` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `recordSent(int id, long timestamp)`
+- `recordSent(int id, long timestamp)`: Add description.
   - Executes `recordSent` behavior.
-- `handlePacket(@Nonnull Pong packet)`
+- `handlePacket(@Nonnull Pong packet)`: Add description.
   - Executes `handlePacket` behavior.
-- `getPingType()`
+- `getPingType()`: Add description.
   - Executes `getPingType` behavior.
-- `getPacketQueueMetric()`
+- `getPacketQueueMetric()`: Add description.
   - Executes `getPacketQueueMetric` behavior.
-- `getPingMetricSet()`
+- `getPingMetricSet()`: Add description.
   - Executes `getPingMetricSet` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `f8fddda9842c0fe3b7d27160db65425ed71cbaa016bd1c74e489877a493553ca`
+
 # CameraAxis
 
 ## Overview
-- Documentation for `CameraAxis`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config.camera`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraAxis(new Rangef(0.0f, 0.0f)`
   - Creates a `CameraAxis` instance.
 - `CameraAxis()`
@@ -12,12 +12,12 @@
 - `CameraAxis(Rangef angleRange, CameraNode[] targetNodes)`
   - Creates a `CameraAxis` instance.
 
-## Methods
-- `getAngleRange()`
+## Method Descriptions
+- `getAngleRange()`: Add description.
   - Executes `getAngleRange` behavior.
-- `getTargetNodes()`
+- `getTargetNodes()`: Add description.
   - Executes `getTargetNodes` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

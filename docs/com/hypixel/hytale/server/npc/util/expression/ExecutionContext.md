@@ -1,155 +1,155 @@
+**Source Hash:** `2ef7db3a0d5d932fdc11d35762f85d0162ed11ad68a5e5c5379a7a2b278aba2c`
+
 # ExecutionContext
 
 ## Overview
-- Documentation for `ExecutionContext`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression`.
 
-## Constructors
+## Constructor Descriptions
 - `ExecutionContext(Scope scope)`
   - Creates a `ExecutionContext` instance.
 - `ExecutionContext()`
   - Creates a `ExecutionContext` instance.
 
-## Methods
-- `execute(@Nonnull List<Instruction> instructions, Scope scope)`
+## Method Descriptions
+- `execute(@Nonnull List<Instruction> instructions, Scope scope)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull List<Instruction> instructions)`
+- `execute(@Nonnull List<Instruction> instructions)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull Instruction[] instructions, Scope scope)`
+- `execute(@Nonnull Instruction[] instructions, Scope scope)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull Instruction[] instructions)`
+- `execute(@Nonnull Instruction[] instructions)`: Add description.
   - Executes `execute` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `top()`
+- `top()`: Add description.
   - Executes `top` behavior.
-- `setScope(Scope scope)`
+- `setScope(Scope scope)`: Add description.
   - Executes `setScope` behavior.
-- `getScope()`
+- `getScope()`: Add description.
   - Executes `getScope` behavior.
-- `getCombatConfig()`
+- `getCombatConfig()`: Add description.
   - Executes `getCombatConfig` behavior.
-- `setCombatConfig(String combatConfig)`
+- `setCombatConfig(String combatConfig)`: Add description.
   - Executes `setCombatConfig` behavior.
-- `getInteractionVars()`
+- `getInteractionVars()`: Add description.
   - Executes `getInteractionVars` behavior.
-- `setInteractionVars(Map<String, String> interactionVars)`
+- `setInteractionVars(Map<String, String> interactionVars)`: Add description.
   - Executes `setInteractionVars` behavior.
-- `push()`
+- `push()`: Add description.
   - Executes `push` behavior.
-- `push(String value)`
+- `push(String value)`: Add description.
   - Executes `push` behavior.
-- `push(double value)`
+- `push(double value)`: Add description.
   - Executes `push` behavior.
-- `push(int value)`
+- `push(int value)`: Add description.
   - Executes `push` behavior.
-- `push(boolean value)`
+- `push(boolean value)`: Add description.
   - Executes `push` behavior.
-- `push(String[] value)`
+- `push(String[] value)`: Add description.
   - Executes `push` behavior.
-- `push(double[] value)`
+- `push(double[] value)`: Add description.
   - Executes `push` behavior.
-- `push(boolean[] value)`
+- `push(boolean[] value)`: Add description.
   - Executes `push` behavior.
-- `pushEmptyArray()`
+- `pushEmptyArray()`: Add description.
   - Executes `pushEmptyArray` behavior.
-- `popPush(int popCount)`
+- `popPush(int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(String value, int popCount)`
+- `popPush(String value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(double value, int popCount)`
+- `popPush(double value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(int value, int popCount)`
+- `popPush(int value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(boolean value, int popCount)`
+- `popPush(boolean value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(String[] value, int popCount)`
+- `popPush(String[] value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(double[] value, int popCount)`
+- `popPush(double[] value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPush(boolean[] value, int popCount)`
+- `popPush(boolean[] value, int popCount)`: Add description.
   - Executes `popPush` behavior.
-- `popPushEmptyArray(int popCount)`
+- `popPushEmptyArray(int popCount)`: Add description.
   - Executes `popPushEmptyArray` behavior.
-- `pop()`
+- `pop()`: Add description.
   - Executes `pop` behavior.
-- `popNumber()`
+- `popNumber()`: Add description.
   - Executes `popNumber` behavior.
-- `popInt()`
+- `popInt()`: Add description.
   - Executes `popInt` behavior.
-- `popString()`
+- `popString()`: Add description.
   - Executes `popString` behavior.
-- `popBoolean()`
+- `popBoolean()`: Add description.
   - Executes `popBoolean` behavior.
-- `popNumberArray()`
+- `popNumberArray()`: Add description.
   - Executes `popNumberArray` behavior.
-- `popStringArray()`
+- `popStringArray()`: Add description.
   - Executes `popStringArray` behavior.
-- `popBooleanArray()`
+- `popBooleanArray()`: Add description.
   - Executes `popBooleanArray` behavior.
-- `popAsString()`
+- `popAsString()`: Add description.
   - Executes `popAsString` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `getNumber(int index)`
+- `getNumber(int index)`: Add description.
   - Executes `getNumber` behavior.
-- `getInt(int index)`
+- `getInt(int index)`: Add description.
   - Executes `getInt` behavior.
-- `getString(int index)`
+- `getString(int index)`: Add description.
   - Executes `getString` behavior.
-- `getBoolean(int index)`
+- `getBoolean(int index)`: Add description.
   - Executes `getBoolean` behavior.
-- `getNumberArray(int index)`
+- `getNumberArray(int index)`: Add description.
   - Executes `getNumberArray` behavior.
-- `getStringArray(int index)`
+- `getStringArray(int index)`: Add description.
   - Executes `getStringArray` behavior.
-- `getBooleanArray(int index)`
+- `getBooleanArray(int index)`: Add description.
   - Executes `getBooleanArray` behavior.
-- `genPUSH(String value)`
+- `genPUSH(String value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSH(double value)`
+- `genPUSH(double value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSH(boolean value)`
+- `genPUSH(boolean value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSH(String[] value)`
+- `genPUSH(String[] value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSH(double[] value)`
+- `genPUSH(double[] value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSH(boolean[] value)`
+- `genPUSH(boolean[] value)`: Add description.
   - Executes `genPUSH` behavior.
-- `genPUSHEmptyArray()`
+- `genPUSHEmptyArray()`: Add description.
   - Executes `genPUSHEmptyArray` behavior.
-- `genREAD(String ident, @Nonnull ValueType type, @Nullable Scope scope)`
+- `genREAD(String ident, @Nonnull ValueType type, @Nullable Scope scope)`: Add description.
   - Executes `genREAD` behavior.
-- `genCALL(String ident, int numArgs, @Nullable Scope scope)`
+- `genCALL(String ident, int numArgs, @Nullable Scope scope)`: Add description.
   - Executes `genCALL` behavior.
-- `genNumberPACK(int size)`
+- `genNumberPACK(int size)`: Add description.
   - Executes `genNumberPACK` behavior.
-- `genStringPACK(int size)`
+- `genStringPACK(int size)`: Add description.
   - Executes `genStringPACK` behavior.
-- `genBooleanPACK(int size)`
+- `genBooleanPACK(int size)`: Add description.
   - Executes `genBooleanPACK` behavior.
-- `genPACK(@Nonnull ValueType arrayType, int size)`
+- `genPACK(@Nonnull ValueType arrayType, int size)`: Add description.
   - Executes `genPACK` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `set(String value)`
+- `set(String value)`: Add description.
   - Executes `set` behavior.
-- `set(double value)`
+- `set(double value)`: Add description.
   - Executes `set` behavior.
-- `set(boolean value)`
+- `set(boolean value)`: Add description.
   - Executes `set` behavior.
-- `set(String[] value)`
+- `set(String[] value)`: Add description.
   - Executes `set` behavior.
-- `set(double[] value)`
+- `set(double[] value)`: Add description.
   - Executes `set` behavior.
-- `set(boolean[] value)`
+- `set(boolean[] value)`: Add description.
   - Executes `set` behavior.
-- `setEmptyArray()`
+- `setEmptyArray()`: Add description.
   - Executes `setEmptyArray` behavior.
-- `reInit(ValueType type)`
+- `reInit(ValueType type)`: Add description.
   - Executes `reInit` behavior.
-- `execute(ExecutionContext var1)`
+- `execute(ExecutionContext var1)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

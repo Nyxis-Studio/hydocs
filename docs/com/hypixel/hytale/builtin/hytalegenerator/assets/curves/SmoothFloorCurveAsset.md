@@ -1,16 +1,16 @@
+**Source Hash:** `decbf4bf61ae94d2c51b04593e9f4501ba43aec210bc430c7a766616db45c38d`
+
 # SmoothFloorCurveAsset
 
 ## Overview
-- Documentation for `SmoothFloorCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

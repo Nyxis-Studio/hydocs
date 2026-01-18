@@ -1,17 +1,17 @@
+**Source Hash:** `7bae78993d7142e4943d42684f6cd03151f45d93f446782201cb1dca480cbd0d`
+
 # PreventItemMerging
 
 ## Overview
-- Documentation for `PreventItemMerging`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.item`.
 
-## Constructors
+## Constructor Descriptions
 - `PreventItemMerging()`
   - Creates a `PreventItemMerging` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `9c4c04949b841d2a8c5d460f39b17531f836b8fd1d76e6ee2c9c611a7aea11d1`
+
 # BuilderActionReleaseTarget
 
 ## Overview
-- Documentation for `BuilderActionReleaseTarget`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getTargetSlot(@Nonnull BuilderSupport support)`
+- `getTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetSlot` behavior.
 
 ## Notes

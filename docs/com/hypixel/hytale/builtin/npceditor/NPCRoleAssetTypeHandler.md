@@ -1,15 +1,15 @@
+**Source Hash:** `383cf0cdb6b14b368b4fda119daa3f1d97f67b067058154184fc75fd36e54d6e`
+
 # NPCRoleAssetTypeHandler
 
 ## Overview
-- Documentation for `NPCRoleAssetTypeHandler`.
-- Declared as a class in `com.hypixel.hytale.builtin.npceditor`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCRoleAssetTypeHandler()`
   - Creates a `NPCRoleAssetTypeHandler` instance.
 
-## Methods
-- `getDefaultUpdateQuery()`
+## Method Descriptions
+- `getDefaultUpdateQuery()`: Add description.
   - Executes `getDefaultUpdateQuery` behavior.
 
 ## Notes

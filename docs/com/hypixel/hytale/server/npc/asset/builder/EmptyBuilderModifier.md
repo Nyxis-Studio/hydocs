@@ -1,21 +1,21 @@
+**Source Hash:** `a2f2f029e752292cd70e29f022494fc927ab0a42bdb68a5eb6c2dd678e38f7a7`
+
 # EmptyBuilderModifier
 
 ## Overview
-- Documentation for `EmptyBuilderModifier`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyBuilderModifier()`
   - Creates a `EmptyBuilderModifier` instance.
 
-## Methods
-- `isEmpty()`
+## Method Descriptions
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `exportedStateCount()`
+- `exportedStateCount()`: Add description.
   - Executes `exportedStateCount` behavior.
-- `applyComponentStateMap(BuilderSupport support)`
+- `applyComponentStateMap(BuilderSupport support)`: Add description.
   - Executes `applyComponentStateMap` behavior.
-- `popComponentStateMap(BuilderSupport support)`
+- `popComponentStateMap(BuilderSupport support)`: Add description.
   - Executes `popComponentStateMap` behavior.
 
 ## Notes

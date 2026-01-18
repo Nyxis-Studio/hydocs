@@ -1,22 +1,27 @@
+**Source Hash:** `0f37e7e1215b460b6179a12a752f8df0d76176449b5270b89e03b1c50250327a`
+**Last Updated:** `2026-01-18T18:19:14-03:00`
+
 # MemoriesWindow
 
 ## Overview
-- Documentation for `MemoriesWindow`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.memories.window`.
+Server-side window that packages player memory data into JSON for the memories UI. Populates memory entries with title, tooltip, icon, and category icon where available.
 
-## Constructors
-- `MemoriesWindow()`
-  - Creates a `MemoriesWindow` instance.
+## Field Descriptions
+- `windowData`: JSON payload sent to the client when the window opens.
 
-## Methods
-- `getData()`
-  - Executes `getData` behavior.
-- `onOpen0()`
-  - Executes `onOpen0` behavior.
-- `GetCategoryIconPathForMemory(@Nonnull Memory memory)`
-  - Executes `GetCategoryIconPathForMemory` behavior.
-- `onClose0()`
-  - Executes `onClose0` behavior.
+## Constructor Descriptions
+- `MemoriesWindow()`: Creates the memories window for the `Memories` window type.
 
-## Notes
-- No additional notes.
+## Method Descriptions
+- `getData()`: Returns the window JSON payload.
+- `onOpen0()`: Populates the window data with capacity and memory entries, then invalidates the window.
+- `GetCategoryIconPathForMemory(Memory memory)`: Finds the category icon path for a given memory.
+- `onClose0()`: No-op close handler.
+
+## Usage Notes
+- The window sets capacity to zero when the player lacks the `PlayerMemories` component.
+
+## Examples
+```java
+MemoriesWindow window = new MemoriesWindow();
+```

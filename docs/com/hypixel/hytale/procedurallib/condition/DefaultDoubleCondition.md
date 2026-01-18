@@ -1,10 +1,10 @@
+**Source Hash:** `22bdd78b54e6fab787726e2025fb0603fe74ccaedb685885f853cd1dd67a0187`
+
 # DefaultDoubleCondition
 
 ## Overview
-- Documentation for `DefaultDoubleCondition`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `DefaultDoubleCondition(true)`
   - Creates a `DefaultDoubleCondition` instance.
 - `DefaultDoubleCondition(false)`
@@ -12,12 +12,12 @@
 - `DefaultDoubleCondition(boolean result)`
   - Creates a `DefaultDoubleCondition` instance.
 
-## Methods
-- `getResult()`
+## Method Descriptions
+- `getResult()`: Add description.
   - Executes `getResult` behavior.
-- `eval(double value)`
+- `eval(double value)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

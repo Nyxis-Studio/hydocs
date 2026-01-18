@@ -1,14 +1,14 @@
+**Source Hash:** `9792be4b6ca16f8e394f05771e8fc7663860fa650c7185cb142505a4f97f5c55`
+
 # IBaseEvent
 
 ## Overview
-- Documentation for `IBaseEvent`.
-- Declared as a interface in `com.hypixel.hytale.event`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

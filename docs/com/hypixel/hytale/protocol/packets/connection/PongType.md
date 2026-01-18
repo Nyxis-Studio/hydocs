@@ -1,17 +1,17 @@
+**Source Hash:** `c36b7317b670c92cfc99c32914ff0b2646427ceaea1b769e7c13372706507b05`
+
 # PongType
 
 ## Overview
-- Documentation for `PongType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.connection`.
 
-## Constructors
+## Constructor Descriptions
 - `PongType(int value)`
   - Creates a `PongType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

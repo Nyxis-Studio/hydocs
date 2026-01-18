@@ -1,46 +1,46 @@
+**Source Hash:** `b0e69ad4b7477aec9ac3fb66a6379a89c6456596515c719787f0e50656b41f15`
+
 # ArrayUtil
 
 ## Overview
-- Documentation for `ArrayUtil`.
-- Declared as a class in `com.hypixel.hytale.common.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `emptyArray()`
+## Method Descriptions
+- `emptyArray()`: Add description.
   - Executes `emptyArray` behavior.
-- `emptySupplierArray()`
+- `emptySupplierArray()`: Add description.
   - Executes `emptySupplierArray` behavior.
-- `grow(int oldSize)`
+- `grow(int oldSize)`: Add description.
   - Executes `grow` behavior.
-- `copyAndMutate(@Nullable StartType[] array, @Nonnull Function<StartType, EndType> adapter, @Nonnull IntFunction<EndType[]> arrayProvider)`
+- `copyAndMutate(@Nullable StartType[] array, @Nonnull Function<StartType, EndType> adapter, @Nonnull IntFunction<EndType[]> arrayProvider)`: Add description.
   - Executes `copyAndMutate` behavior.
-- `combine(@Nullable T[] a1, @Nullable T[] a2)`
+- `combine(@Nullable T[] a1, @Nullable T[] a2)`: Add description.
   - Executes `combine` behavior.
-- `append(@Nullable T[] arr, @Nonnull T t)`
+- `append(@Nullable T[] arr, @Nonnull T t)`: Add description.
   - Executes `append` behavior.
-- `remove(@Nonnull T[] arr, int index)`
+- `remove(@Nonnull T[] arr, int index)`: Add description.
   - Executes `remove` behavior.
-- `startsWith(@Nonnull byte[] array, @Nonnull byte[] start)`
+- `startsWith(@Nonnull byte[] array, @Nonnull byte[] start)`: Add description.
   - Executes `startsWith` behavior.
-- `equals(@Nullable T[] a, @Nullable T[] a2, @Nonnull UnaryBiPredicate<T> predicate)`
+- `equals(@Nullable T[] a, @Nullable T[] a2, @Nonnull UnaryBiPredicate<T> predicate)`: Add description.
   - Executes `equals` behavior.
-- `split(@Nonnull T[] data, int size)`
+- `split(@Nonnull T[] data, int size)`: Add description.
   - Executes `split` behavior.
-- `split(@Nonnull byte[] data, int size)`
+- `split(@Nonnull byte[] data, int size)`: Add description.
   - Executes `split` behavior.
-- `shuffleArray(@Nonnull int[] ar, int from, int to, @Nonnull Random rnd)`
+- `shuffleArray(@Nonnull int[] ar, int from, int to, @Nonnull Random rnd)`: Add description.
   - Executes `shuffleArray` behavior.
-- `shuffleArray(@Nonnull byte[] ar, int from, int to, @Nonnull Random rnd)`
+- `shuffleArray(@Nonnull byte[] ar, int from, int to, @Nonnull Random rnd)`: Add description.
   - Executes `shuffleArray` behavior.
-- `contains(@Nonnull T[] array, @Nullable T obj)`
+- `contains(@Nonnull T[] array, @Nullable T obj)`: Add description.
   - Executes `contains` behavior.
-- `contains(@Nonnull T[] array, @Nullable T obj, int start, int end)`
+- `contains(@Nonnull T[] array, @Nullable T obj, int start, int end)`: Add description.
   - Executes `contains` behavior.
-- `indexOf(@Nonnull T[] array, @Nullable T obj)`
+- `indexOf(@Nonnull T[] array, @Nullable T obj)`: Add description.
   - Executes `indexOf` behavior.
-- `indexOf(@Nonnull T[] array, @Nullable T obj, int start, int end)`
+- `indexOf(@Nonnull T[] array, @Nullable T obj, int start, int end)`: Add description.
   - Executes `indexOf` behavior.
 
 ## Notes

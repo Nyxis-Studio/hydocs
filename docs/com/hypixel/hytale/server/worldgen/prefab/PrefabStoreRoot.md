@@ -1,14 +1,14 @@
+**Source Hash:** `ee313a16c4e7fa927089fbc34f934df778c34f587bc13bfd0f341da0c2bb6f59`
+
 # PrefabStoreRoot
 
 ## Overview
-- Documentation for `PrefabStoreRoot`.
-- Declared as a enum in `com.hypixel.hytale.server.worldgen.prefab`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `resolvePrefabStore(@Nonnull PrefabStoreRoot store, @Nonnull Path dataFolder)`
+## Method Descriptions
+- `resolvePrefabStore(@Nonnull PrefabStoreRoot store, @Nonnull Path dataFolder)`: Add description.
   - Executes `resolvePrefabStore` behavior.
 
 ## Notes

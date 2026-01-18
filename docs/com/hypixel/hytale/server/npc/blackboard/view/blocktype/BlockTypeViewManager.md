@@ -1,16 +1,16 @@
+**Source Hash:** `432aef29332c947d8832e4339b1a740d81f9ef7146f95412845d1d30426d0695`
+
 # BlockTypeViewManager
 
 ## Overview
-- Documentation for `BlockTypeViewManager`.
-- Declared as a class in `com.hypixel.hytale.server.npc.blackboard.view.blocktype`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `createView(long index, Blackboard blackboard)`
+## Method Descriptions
+- `createView(long index, Blackboard blackboard)`: Add description.
   - Executes `createView` behavior.
-- `shouldCleanup(@Nonnull BlockTypeView view)`
+- `shouldCleanup(@Nonnull BlockTypeView view)`: Add description.
   - Executes `shouldCleanup` behavior.
 
 ## Notes

@@ -1,51 +1,51 @@
+**Source Hash:** `4c94d5e4a28c7d588212220422d5273d7194da24a4fcf61392b5e9c1b83d107d`
+
 # LivingEntity
 
 ## Overview
-- Documentation for `LivingEntity`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `LivingEntity()`
   - Creates a `LivingEntity` instance.
 - `LivingEntity(@Nonnull World world)`
   - Creates a `LivingEntity` instance.
 
-## Methods
-- `createDefaultInventory()`
+## Method Descriptions
+- `createDefaultInventory()`: Add description.
   - Executes `createDefaultInventory` behavior.
-- `canBreathe(@Nonnull Ref<EntityStore> ref, @Nonnull BlockMaterial breathingMaterial, int fluidId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canBreathe(@Nonnull Ref<EntityStore> ref, @Nonnull BlockMaterial breathingMaterial, int fluidId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canBreathe` behavior.
-- `getPackedMaterialAndFluidAtBreathingHeight(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getPackedMaterialAndFluidAtBreathingHeight(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getPackedMaterialAndFluidAtBreathingHeight` behavior.
-- `getInventory()`
+- `getInventory()`: Add description.
   - Executes `getInventory` behavior.
-- `setInventory(Inventory inventory)`
+- `setInventory(Inventory inventory)`: Add description.
   - Executes `setInventory` behavior.
-- `setInventory(Inventory inventory, boolean ensureCapacity)`
+- `setInventory(Inventory inventory, boolean ensureCapacity)`: Add description.
   - Executes `setInventory` behavior.
-- `setInventory(Inventory inventory, boolean ensureCapacity, List<ItemStack> remainder)`
+- `setInventory(Inventory inventory, boolean ensureCapacity, List<ItemStack> remainder)`: Add description.
   - Executes `setInventory` behavior.
-- `moveTo(@Nonnull Ref<EntityStore> ref, double locX, double locY, double locZ, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `moveTo(@Nonnull Ref<EntityStore> ref, double locX, double locY, double locZ, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `moveTo` behavior.
-- `canDecreaseItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canDecreaseItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canDecreaseItemStackDurability` behavior.
-- `canApplyItemStackPenalties(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+- `canApplyItemStackPenalties(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canApplyItemStackPenalties` behavior.
-- `decreaseItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nullable ItemStack itemStack, int inventoryId, int slotId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `decreaseItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nullable ItemStack itemStack, int inventoryId, int slotId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `decreaseItemStackDurability` behavior.
-- `updateItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nonnull ItemStack itemStack, ItemContainer container, int slotId, double durabilityChange, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateItemStackDurability(@Nonnull Ref<EntityStore> ref, @Nonnull ItemStack itemStack, ItemContainer container, int slotId, double durabilityChange, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateItemStackDurability` behavior.
-- `invalidateEquipmentNetwork()`
+- `invalidateEquipmentNetwork()`: Add description.
   - Executes `invalidateEquipmentNetwork` behavior.
-- `consumeEquipmentNetworkOutdated()`
+- `consumeEquipmentNetworkOutdated()`: Add description.
   - Executes `consumeEquipmentNetworkOutdated` behavior.
-- `getStatModifiersManager()`
+- `getStatModifiersManager()`: Add description.
   - Executes `getStatModifiersManager` behavior.
-- `getCurrentFallDistance()`
+- `getCurrentFallDistance()`: Add description.
   - Executes `getCurrentFallDistance` behavior.
-- `setCurrentFallDistance(double currentFallDistance)`
+- `setCurrentFallDistance(double currentFallDistance)`: Add description.
   - Executes `setCurrentFallDistance` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

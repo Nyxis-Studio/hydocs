@@ -1,25 +1,25 @@
+**Source Hash:** `193efc51a39f066be34ac0a96b0e3e17875201f1d5cb7a6a8266bed115781d93`
+
 # Vector4dBufferList
 
 ## Overview
-- Documentation for `Vector4dBufferList`.
-- Declared as a class in `com.hypixel.hytale.math.hitdetection`.
 
-## Constructors
+## Constructor Descriptions
 - `Vector4dBufferList(int size)`
   - Creates a `Vector4dBufferList` instance.
 
-## Methods
-- `next()`
+## Method Descriptions
+- `next()`: Add description.
   - Executes `next` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(int i)`
+- `get(int i)`: Add description.
   - Executes `get` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

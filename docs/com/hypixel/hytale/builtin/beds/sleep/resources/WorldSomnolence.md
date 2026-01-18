@@ -1,21 +1,21 @@
+**Source Hash:** `35d244c811e1358458f55b6b17aab31a938d5f782e6277c1cee0e8450b28579f`
+
 # WorldSomnolence
 
 ## Overview
-- Documentation for `WorldSomnolence`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSomnolence()`
   - Creates a `WorldSomnolence` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `setState(WorldSleep state)`
+- `setState(WorldSleep state)`: Add description.
   - Executes `setState` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

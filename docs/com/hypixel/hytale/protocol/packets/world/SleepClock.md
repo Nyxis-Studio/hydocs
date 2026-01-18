@@ -1,10 +1,10 @@
+**Source Hash:** `7f3aaa995729a40f1ab5f7f21fca71fec64b2e3718a02c611033d71d039af0d0`
+
 # SleepClock
 
 ## Overview
-- Documentation for `SleepClock`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SleepClock()`
   - Creates a `SleepClock` instance.
 - `SleepClock(@Nullable InstantData startGametime, @Nullable InstantData targetGametime, float progress, float durationSeconds)`
@@ -12,22 +12,22 @@
 - `SleepClock(@Nonnull SleepClock other)`
   - Creates a `SleepClock` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `67a095c0fded1894979389b5f400e9e1da142d4822f83af0bf730790626cae2f`
+
 # CellWallDistanceDensityAsset
 
 ## Overview
-- Documentation for `CellWallDistanceDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

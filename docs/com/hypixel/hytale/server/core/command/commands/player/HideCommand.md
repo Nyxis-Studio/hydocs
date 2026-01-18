@@ -1,17 +1,17 @@
+**Source Hash:** `774b1038d060de5d96451a9ee14c23a584e68b0d0f909ea594e0262a4dc8ac86`
+
 # HideCommand
 
 ## Overview
-- Documentation for `HideCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player`.
 
-## Constructors
+## Constructor Descriptions
 - `HideCommand()`
   - Creates a `HideCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
-- `executeSync(@Nonnull CommandContext context)`
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

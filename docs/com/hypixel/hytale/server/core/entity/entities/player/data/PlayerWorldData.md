@@ -1,45 +1,45 @@
+**Source Hash:** `f22d551ab49fed105432ec8cbacc33fabd287d46c3ecaf645313d88184b2cee3`
+
 # PlayerWorldData
 
 ## Overview
-- Documentation for `PlayerWorldData`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.data`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerWorldData()`
   - Creates a `PlayerWorldData` instance.
 - `PlayerWorldData(@Nonnull PlayerConfigData playerConfigData)`
   - Creates a `PlayerWorldData` instance.
 
-## Methods
-- `setPlayerConfigData(@Nonnull PlayerConfigData playerConfigData)`
+## Method Descriptions
+- `setPlayerConfigData(@Nonnull PlayerConfigData playerConfigData)`: Add description.
   - Executes `setPlayerConfigData` behavior.
-- `getLastPosition()`
+- `getLastPosition()`: Add description.
   - Executes `getLastPosition` behavior.
-- `setLastPosition(@Nonnull Transform lastPosition)`
+- `setLastPosition(@Nonnull Transform lastPosition)`: Add description.
   - Executes `setLastPosition` behavior.
-- `getLastMovementStates()`
+- `getLastMovementStates()`: Add description.
   - Executes `getLastMovementStates` behavior.
-- `setLastMovementStates(@Nonnull MovementStates lastMovementStates, boolean save)`
+- `setLastMovementStates(@Nonnull MovementStates lastMovementStates, boolean save)`: Add description.
   - Executes `setLastMovementStates` behavior.
-- `setLastMovementStates_internal(@Nonnull MovementStates lastMovementStates)`
+- `setLastMovementStates_internal(@Nonnull MovementStates lastMovementStates)`: Add description.
   - Executes `setLastMovementStates_internal` behavior.
-- `getWorldMapMarkers()`
+- `getWorldMapMarkers()`: Add description.
   - Executes `getWorldMapMarkers` behavior.
-- `setWorldMapMarkers(MapMarker[] worldMapMarkers)`
+- `setWorldMapMarkers(MapMarker[] worldMapMarkers)`: Add description.
   - Executes `setWorldMapMarkers` behavior.
-- `isFirstSpawn()`
+- `isFirstSpawn()`: Add description.
   - Executes `isFirstSpawn` behavior.
-- `setFirstSpawn(boolean firstSpawn)`
+- `setFirstSpawn(boolean firstSpawn)`: Add description.
   - Executes `setFirstSpawn` behavior.
-- `getRespawnPoints()`
+- `getRespawnPoints()`: Add description.
   - Executes `getRespawnPoints` behavior.
-- `setRespawnPoints(@Nonnull PlayerRespawnPointData[] respawnPoints)`
+- `setRespawnPoints(@Nonnull PlayerRespawnPointData[] respawnPoints)`: Add description.
   - Executes `setRespawnPoints` behavior.
-- `getDeathPositions()`
+- `getDeathPositions()`: Add description.
   - Executes `getDeathPositions` behavior.
-- `addLastDeath(@Nonnull String markerId, @Nonnull Transform transform, int deathDay)`
+- `addLastDeath(@Nonnull String markerId, @Nonnull Transform transform, int deathDay)`: Add description.
   - Executes `addLastDeath` behavior.
-- `removeLastDeath(@Nonnull String markerId)`
+- `removeLastDeath(@Nonnull String markerId)`: Add description.
   - Executes `removeLastDeath` behavior.
 
 ## Notes

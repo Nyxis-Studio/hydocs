@@ -1,14 +1,14 @@
+**Source Hash:** `574ea69f2595bbba350efc8cf3b9e162e486b5548eef65e5e543f704d61e8f79`
+
 # DataChange
 
 ## Overview
-- Documentation for `DataChange`.
-- Declared as a interface in `com.hypixel.hytale.component.data.change`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

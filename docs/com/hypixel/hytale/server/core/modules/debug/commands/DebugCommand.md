@@ -1,15 +1,15 @@
+**Source Hash:** `df068609f10eab798eaf0023950ba0594188011fd7615630ceaae29a2078fa27`
+
 # DebugCommand
 
 ## Overview
-- Documentation for `DebugCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.debug.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `DebugCommand()`
   - Creates a `DebugCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

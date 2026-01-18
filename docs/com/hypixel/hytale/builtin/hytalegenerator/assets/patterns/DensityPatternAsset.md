@@ -1,18 +1,18 @@
+**Source Hash:** `37cd3a138c86d538553bcf535691465adce888087f93bdc46ade6eb91afff4f5`
+
 # DensityPatternAsset
 
 ## Overview
-- Documentation for `DensityPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

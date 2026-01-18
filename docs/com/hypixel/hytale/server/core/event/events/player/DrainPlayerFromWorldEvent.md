@@ -1,25 +1,25 @@
+**Source Hash:** `4a3aa5fd3471ab09942cdec0d0e9d23d8ae9444c9e19318ecd48a7413a829920`
+
 # DrainPlayerFromWorldEvent
 
 ## Overview
-- Documentation for `DrainPlayerFromWorldEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `DrainPlayerFromWorldEvent(Holder<EntityStore> holder, World world, Transform transform)`
   - Creates a `DrainPlayerFromWorldEvent` instance.
 
-## Methods
-- `getHolder()`
+## Method Descriptions
+- `getHolder()`: Add description.
   - Executes `getHolder` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `setWorld(World world)`
+- `setWorld(World world)`: Add description.
   - Executes `setWorld` behavior.
-- `getTransform()`
+- `getTransform()`: Add description.
   - Executes `getTransform` behavior.
-- `setTransform(Transform transform)`
+- `setTransform(Transform transform)`: Add description.
   - Executes `setTransform` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `ae616ff0881ac0cdf5bfdcbb44312ea5e7fccf034a6a9649fb43ffc745e6ca9b`
+
 # Match
 
 ## Overview
-- Documentation for `Match`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Match(int value)`
   - Creates a `Match` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

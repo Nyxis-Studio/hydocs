@@ -1,25 +1,25 @@
+**Source Hash:** `293cc500d6eadfabd9e4b63d7bb954b341a2dbd4ff49f05d3e9fac71468fd459`
+
 # DeployablesPlugin
 
 ## Overview
-- Documentation for `DeployablesPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.deployables`.
 
-## Constructors
+## Constructor Descriptions
 - `DeployablesPlugin(JavaPluginInit init)`
   - Creates a `DeployablesPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getDeployableComponentType()`
+- `getDeployableComponentType()`: Add description.
   - Executes `getDeployableComponentType` behavior.
-- `getDeployableOwnerComponentType()`
+- `getDeployableOwnerComponentType()`: Add description.
   - Executes `getDeployableOwnerComponentType` behavior.
-- `getDeployableProjectileShooterComponentType()`
+- `getDeployableProjectileShooterComponentType()`: Add description.
   - Executes `getDeployableProjectileShooterComponentType` behavior.
-- `getDeployableProjectileComponentType()`
+- `getDeployableProjectileComponentType()`: Add description.
   - Executes `getDeployableProjectileComponentType` behavior.
 
 ## Notes

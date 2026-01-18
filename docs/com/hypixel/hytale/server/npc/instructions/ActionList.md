@@ -1,51 +1,51 @@
+**Source Hash:** `f1245189557deb49596631cb9ab4991ae22f3cafd64ca016f149034fc1f70e9b`
+
 # ActionList
 
 ## Overview
-- Documentation for `ActionList`.
-- Declared as a class in `com.hypixel.hytale.server.npc.instructions`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionList(Action.EMPTY_ARRAY)`
   - Creates a `ActionList` instance.
 - `ActionList(@Nonnull Action[] actions)`
   - Creates a `ActionList` instance.
 
-## Methods
-- `setBlocking(boolean blocking)`
+## Method Descriptions
+- `setBlocking(boolean blocking)`: Add description.
   - Executes `setBlocking` behavior.
-- `setAtomic(boolean atomic)`
+- `setAtomic(boolean atomic)`: Add description.
   - Executes `setAtomic` behavior.
-- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `canExecute` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `hasCompletedRun()`
+- `hasCompletedRun()`: Add description.
   - Executes `hasCompletedRun` behavior.
-- `setContext(IAnnotatedComponent parent)`
+- `setContext(IAnnotatedComponent parent)`: Add description.
   - Executes `setContext` behavior.
-- `registerWithSupport(Role role)`
+- `registerWithSupport(Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `onEndMotion()`
+- `onEndMotion()`: Add description.
   - Executes `onEndMotion` behavior.
-- `setOnce()`
+- `setOnce()`: Add description.
   - Executes `setOnce` behavior.
-- `actionCount()`
+- `actionCount()`: Add description.
   - Executes `actionCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
 
 ## Notes

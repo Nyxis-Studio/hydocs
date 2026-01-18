@@ -1,21 +1,21 @@
+**Source Hash:** `43cb6172906f048a37072345e87aeb8c0e119849cc4abf0f6d73b99180c639f0`
+
 # ItemGlider
 
 ## Overview
-- Documentation for `ItemGlider`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemGlider()`
   - Creates a `ItemGlider` instance.
 
-## Methods
-- `getTerminalVelocity()`
+## Method Descriptions
+- `getTerminalVelocity()`: Add description.
   - Executes `getTerminalVelocity` behavior.
-- `getFallSpeedMultiplier()`
+- `getFallSpeedMultiplier()`: Add description.
   - Executes `getFallSpeedMultiplier` behavior.
-- `getHorizontalSpeedMultiplier()`
+- `getHorizontalSpeedMultiplier()`: Add description.
   - Executes `getHorizontalSpeedMultiplier` behavior.
-- `getSpeed()`
+- `getSpeed()`: Add description.
   - Executes `getSpeed` behavior.
 
 ## Notes

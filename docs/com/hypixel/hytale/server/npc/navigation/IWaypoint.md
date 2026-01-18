@@ -1,20 +1,20 @@
+**Source Hash:** `2dccea838e3576aa30931fe805a634ea4ce8a145afcf6d36415a226fa7efbc9b`
+
 # IWaypoint
 
 ## Overview
-- Documentation for `IWaypoint`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getLength()`
+## Method Descriptions
+- `getLength()`: Add description.
   - Executes `getLength` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `advance(int var1)`
+- `advance(int var1)`: Add description.
   - Executes `advance` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
 
 ## Notes

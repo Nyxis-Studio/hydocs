@@ -1,16 +1,16 @@
+**Source Hash:** `8e1de0a06b62d2cbbd2c5ebe9c5b74955c4d436e1616450be639dcaa375d23cb`
+
 # FloorCurveAsset
 
 ## Overview
-- Documentation for `FloorCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

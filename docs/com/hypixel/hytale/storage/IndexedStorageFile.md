@@ -1,10 +1,10 @@
+**Source Hash:** `bb5ff74b7821a8bfaf8aecbaf9c30888b4e281a4fcdc0b72ffe5b83b04ebcc8b`
+
 # IndexedStorageFile
 
 ## Overview
-- Documentation for `IndexedStorageFile`.
-- Declared as a class in `com.hypixel.hytale.storage`.
 
-## Constructors
+## Constructor Descriptions
 - `IndexedStorageFile(path, FileChannel.open(path, options, attrs)`
   - Creates a `IndexedStorageFile` instance.
 - `IndexedStorageFile(path, FileChannel.open(path, newOptions, attrs)`
@@ -12,96 +12,96 @@
 - `IndexedStorageFile(@Nonnull Path path, @Nonnull FileChannel fileChannel)`
   - Creates a `IndexedStorageFile` instance.
 
-## Methods
-- `getTempBuffer(int length)`
+## Method Descriptions
+- `getTempBuffer(int length)`: Add description.
   - Executes `getTempBuffer` behavior.
-- `allocateDirect(int length)`
+- `allocateDirect(int length)`: Add description.
   - Executes `allocateDirect` behavior.
-- `open(@Nonnull Path path, OpenOption ... options)`
+- `open(@Nonnull Path path, OpenOption ... options)`: Add description.
   - Executes `open` behavior.
-- `open(@Nonnull Path path, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+- `open(@Nonnull Path path, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`: Add description.
   - Executes `open` behavior.
-- `open(@Nonnull Path path, int blobCount, int segmentSize, OpenOption ... options)`
+- `open(@Nonnull Path path, int blobCount, int segmentSize, OpenOption ... options)`: Add description.
   - Executes `open` behavior.
-- `open(@Nonnull Path path, int blobCount, int segmentSize, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`
+- `open(@Nonnull Path path, int blobCount, int segmentSize, @Nonnull Set<? extends OpenOption> options, FileAttribute<?> ... attrs)`: Add description.
   - Executes `open` behavior.
-- `migrateV0(Path path, int blobCount, int segmentSize, Set<? extends OpenOption> options, FileAttribute<?>[] attrs, IndexedStorageFile storageFile)`
+- `migrateV0(Path path, int blobCount, int segmentSize, Set<? extends OpenOption> options, FileAttribute<?>[] attrs, IndexedStorageFile storageFile)`: Add description.
   - Executes `migrateV0` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getBlobCount()`
+- `getBlobCount()`: Add description.
   - Executes `getBlobCount` behavior.
-- `getSegmentSize()`
+- `getSegmentSize()`: Add description.
   - Executes `getSegmentSize` behavior.
-- `getCompressionLevel()`
+- `getCompressionLevel()`: Add description.
   - Executes `getCompressionLevel` behavior.
-- `setFlushOnWrite(boolean flushOnWrite)`
+- `setFlushOnWrite(boolean flushOnWrite)`: Add description.
   - Executes `setFlushOnWrite` behavior.
-- `setCompressionLevel(int compressionLevel)`
+- `setCompressionLevel(int compressionLevel)`: Add description.
   - Executes `setCompressionLevel` behavior.
-- `create(int blobCount, int segmentSize)`
+- `create(int blobCount, int segmentSize)`: Add description.
   - Executes `create` behavior.
-- `writeHeader(int blobCount, int segmentSize)`
+- `writeHeader(int blobCount, int segmentSize)`: Add description.
   - Executes `writeHeader` behavior.
-- `readHeader()`
+- `readHeader()`: Add description.
   - Executes `readHeader` behavior.
-- `memoryMapBlobIndexes()`
+- `memoryMapBlobIndexes()`: Add description.
   - Executes `memoryMapBlobIndexes` behavior.
-- `readUsedSegments()`
+- `readUsedSegments()`: Add description.
   - Executes `readUsedSegments` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `segmentSize()`
+- `segmentSize()`: Add description.
   - Executes `segmentSize` behavior.
-- `segmentCount()`
+- `segmentCount()`: Add description.
   - Executes `segmentCount` behavior.
-- `keys()`
+- `keys()`: Add description.
   - Executes `keys` behavior.
-- `readBlobLength(int blobIndex)`
+- `readBlobLength(int blobIndex)`: Add description.
   - Executes `readBlobLength` behavior.
-- `readBlobCompressedLength(int blobIndex)`
+- `readBlobCompressedLength(int blobIndex)`: Add description.
   - Executes `readBlobCompressedLength` behavior.
-- `readBlob(int blobIndex)`
+- `readBlob(int blobIndex)`: Add description.
   - Executes `readBlob` behavior.
-- `readBlob(int blobIndex, @Nonnull ByteBuffer dest)`
+- `readBlob(int blobIndex, @Nonnull ByteBuffer dest)`: Add description.
   - Executes `readBlob` behavior.
-- `readBlobHeader(int firstSegmentIndex)`
+- `readBlobHeader(int firstSegmentIndex)`: Add description.
   - Executes `readBlobHeader` behavior.
-- `readSegments(int firstSegmentIndex, int compressedLength)`
+- `readSegments(int firstSegmentIndex, int compressedLength)`: Add description.
   - Executes `readSegments` behavior.
-- `writeBlob(int blobIndex, @Nonnull ByteBuffer src)`
+- `writeBlob(int blobIndex, @Nonnull ByteBuffer src)`: Add description.
   - Executes `writeBlob` behavior.
-- `removeBlob(int blobIndex)`
+- `removeBlob(int blobIndex)`: Add description.
   - Executes `removeBlob` behavior.
-- `writeSegments(@Nonnull ByteBuffer data)`
+- `writeSegments(@Nonnull ByteBuffer data)`: Add description.
   - Executes `writeSegments` behavior.
-- `findFreeSegment(int count)`
+- `findFreeSegment(int count)`: Add description.
   - Executes `findFreeSegment` behavior.
-- `getSegmentLock(int segmentIndex)`
+- `getSegmentLock(int segmentIndex)`: Add description.
   - Executes `getSegmentLock` behavior.
-- `segmentsBase()`
+- `segmentsBase()`: Add description.
   - Executes `segmentsBase` behavior.
-- `segmentOffset(int segmentIndex)`
+- `segmentOffset(int segmentIndex)`: Add description.
   - Executes `segmentOffset` behavior.
-- `segmentPosition(int segmentIndex)`
+- `segmentPosition(int segmentIndex)`: Add description.
   - Executes `segmentPosition` behavior.
-- `positionToSegment(long position)`
+- `positionToSegment(long position)`: Add description.
   - Executes `positionToSegment` behavior.
-- `requiredSegments(long dataLength)`
+- `requiredSegments(long dataLength)`: Add description.
   - Executes `requiredSegments` behavior.
-- `lock()`
+- `lock()`: Add description.
   - Executes `lock` behavior.
-- `force(boolean metaData)`
+- `force(boolean metaData)`: Add description.
   - Executes `force` behavior.
-- `close()`
+- `close()`: Add description.
   - Executes `close` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `unlock()`
+- `unlock()`: Add description.
   - Executes `unlock` behavior.
-- `next(int len)`
+- `next(int len)`: Add description.
   - Executes `next` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
 
 ## Notes

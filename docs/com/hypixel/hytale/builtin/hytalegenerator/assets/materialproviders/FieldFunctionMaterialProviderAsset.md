@@ -1,18 +1,18 @@
+**Source Hash:** `973b2c9dd9349c4a8fb3f0fb385e610303d2e85e3d39f9e6c692075dc6a913b6`
+
 # FieldFunctionMaterialProviderAsset
 
 ## Overview
-- Documentation for `FieldFunctionMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

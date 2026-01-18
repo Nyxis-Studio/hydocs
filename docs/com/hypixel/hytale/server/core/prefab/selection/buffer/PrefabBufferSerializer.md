@@ -1,14 +1,14 @@
+**Source Hash:** `364e6fab83b499d117f0da045d0c959915c27bc387bbf9c1dd510ae655182ed7`
+
 # PrefabBufferSerializer
 
 ## Overview
-- Documentation for `PrefabBufferSerializer`.
-- Declared as a interface in `com.hypixel.hytale.server.core.prefab.selection.buffer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `serialize(PrefabBuffer var1)`
+## Method Descriptions
+- `serialize(PrefabBuffer var1)`: Add description.
   - Executes `serialize` behavior.
 
 ## Notes

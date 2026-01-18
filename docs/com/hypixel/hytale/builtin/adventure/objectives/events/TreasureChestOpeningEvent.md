@@ -1,23 +1,23 @@
+**Source Hash:** `9a6ca6ca970b5750c38061aac34bc08080cfc5cda59dd2cb377f4b2d933c31b1`
+
 # TreasureChestOpeningEvent
 
 ## Overview
-- Documentation for `TreasureChestOpeningEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.events`.
 
-## Constructors
+## Constructor Descriptions
 - `TreasureChestOpeningEvent(@Nonnull UUID objectiveUUID, @Nonnull UUID chestUUID, @Nonnull Ref<EntityStore> playerRef, @Nonnull Store<EntityStore> store)`
   - Creates a `TreasureChestOpeningEvent` instance.
 
-## Methods
-- `getObjectiveUUID()`
+## Method Descriptions
+- `getObjectiveUUID()`: Add description.
   - Executes `getObjectiveUUID` behavior.
-- `getChestUUID()`
+- `getChestUUID()`: Add description.
   - Executes `getChestUUID` behavior.
-- `getPlayerRef()`
+- `getPlayerRef()`: Add description.
   - Executes `getPlayerRef` behavior.
-- `getStore()`
+- `getStore()`: Add description.
   - Executes `getStore` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

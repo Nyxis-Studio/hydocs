@@ -1,19 +1,19 @@
+**Source Hash:** `bfe66666ccaeaab27a9ae28fbe4f38ce9a239a85f8af79a58a4ed35534045609`
+
 # OriginScanner
 
 ## Overview
-- Documentation for `OriginScanner`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.scanners`.
 
-## Constructors
+## Constructor Descriptions
 - `OriginScanner()`
   - Creates a `OriginScanner` instance.
 
-## Methods
-- `scan(@Nonnull Scanner.Context context)`
+## Method Descriptions
+- `scan(@Nonnull Scanner.Context context)`: Add description.
   - Executes `scan` behavior.
-- `scanSpace()`
+- `scanSpace()`: Add description.
   - Executes `scanSpace` behavior.
-- `getInstance()`
+- `getInstance()`: Add description.
   - Executes `getInstance` behavior.
 
 ## Notes

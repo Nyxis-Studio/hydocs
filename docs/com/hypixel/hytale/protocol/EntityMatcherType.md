@@ -1,17 +1,17 @@
+**Source Hash:** `dd11ba8b69b166d5fe4c2807cefbaae5882fc2d4c4ffeedf861950fadac86362`
+
 # EntityMatcherType
 
 ## Overview
-- Documentation for `EntityMatcherType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityMatcherType(int value)`
   - Creates a `EntityMatcherType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `e7b7a0bc4a544427255000e66a7239d6d4a1f6dc24a5466426ca63f981a3942e`
+
 # ReferCommand
 
 ## Overview
-- Documentation for `ReferCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player`.
 
-## Constructors
+## Constructor Descriptions
 - `ReferCommand()`
   - Creates a `ReferCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

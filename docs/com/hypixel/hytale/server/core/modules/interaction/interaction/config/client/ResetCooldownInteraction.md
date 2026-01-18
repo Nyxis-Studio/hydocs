@@ -1,23 +1,23 @@
+**Source Hash:** `04ae8b295d1f74a9d8d239c198487f5414cc75402df71a5a8cc39cdab86b82cb`
+
 # ResetCooldownInteraction
 
 ## Overview
-- Documentation for `ResetCooldownInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `ResetCooldownInteraction()`
   - Creates a `ResetCooldownInteraction` instance.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `resetCooldown(@Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler, @Nullable String cooldownId, float cooldownTime, @Nullable float[] chargeTimes, boolean interruptRecharge0)`
+- `resetCooldown(@Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler, @Nullable String cooldownId, float cooldownTime, @Nullable float[] chargeTimes, boolean interruptRecharge0)`: Add description.
   - Executes `resetCooldown` behavior.
-- `generatePacket()`
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

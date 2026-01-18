@@ -1,21 +1,21 @@
+**Source Hash:** `3338a30de8fa3d9c98600e8eefe15513984a30da9290554023ceac3d6941f0b2`
+
 # FitToHeightMapSpawnProvider
 
 ## Overview
-- Documentation for `FitToHeightMapSpawnProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.spawn`.
 
-## Constructors
+## Constructor Descriptions
 - `FitToHeightMapSpawnProvider()`
   - Creates a `FitToHeightMapSpawnProvider` instance.
 - `FitToHeightMapSpawnProvider(ISpawnProvider spawnProvider)`
   - Creates a `FitToHeightMapSpawnProvider` instance.
 
-## Methods
-- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`
+## Method Descriptions
+- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoints()`
+- `getSpawnPoints()`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`
+- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`: Add description.
   - Executes `isWithinSpawnDistance` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `a43b796b8f800aab03a42856f67ffb1c8a7663fae0de9557ff62b500e54cfa70`
+
 # ReputationCommand
 
 ## Overview
-- Documentation for `ReputationCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.reputation.command`.
 
-## Constructors
+## Constructor Descriptions
 - `ReputationCommand()`
   - Creates a `ReputationCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,24 +1,24 @@
+**Source Hash:** `65fe9edc1b36c70d819f99951c768a798ae61dfcdb7478354765625c0e480793`
+
 # AssetHolder
 
 ## Overview
-- Documentation for `AssetHolder`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `validate(ExecutionContext context)`
+## Method Descriptions
+- `validate(ExecutionContext context)`: Add description.
   - Executes `validate` behavior.
-- `readJSON(@Nonnull JsonElement requiredJsonElement, AssetValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(@Nonnull JsonElement requiredJsonElement, AssetValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, String defaultValue, AssetValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, String defaultValue, AssetValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `get(ExecutionContext executionContext)`
+- `get(ExecutionContext executionContext)`: Add description.
   - Executes `get` behavior.
-- `rawGet(ExecutionContext executionContext)`
+- `rawGet(ExecutionContext executionContext)`: Add description.
   - Executes `rawGet` behavior.
-- `staticValidate()`
+- `staticValidate()`: Add description.
   - Executes `staticValidate` behavior.
 
 ## Notes

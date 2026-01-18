@@ -1,16 +1,16 @@
+**Source Hash:** `3046fa54b2bd5318b0b358ab264d258cb14338bef6025cbde0e1966145a691c1`
+
 # ArchetypeChunkSystem
 
 ## Overview
-- Documentation for `ArchetypeChunkSystem`.
-- Declared as a class in `com.hypixel.hytale.component.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onSystemAddedToArchetypeChunk(ArchetypeChunk<ECS_TYPE> var1)`
+## Method Descriptions
+- `onSystemAddedToArchetypeChunk(ArchetypeChunk<ECS_TYPE> var1)`: Add description.
   - Executes `onSystemAddedToArchetypeChunk` behavior.
-- `onSystemRemovedFromArchetypeChunk(ArchetypeChunk<ECS_TYPE> var1)`
+- `onSystemRemovedFromArchetypeChunk(ArchetypeChunk<ECS_TYPE> var1)`: Add description.
   - Executes `onSystemRemovedFromArchetypeChunk` behavior.
 
 ## Notes

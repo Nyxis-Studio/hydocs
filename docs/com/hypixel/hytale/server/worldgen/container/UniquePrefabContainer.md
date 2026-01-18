@@ -1,57 +1,57 @@
+**Source Hash:** `738a4384759887098df69a214358ce3838f3ed929ac64346bcec561ef1f7a78a`
+
 # UniquePrefabContainer
 
 ## Overview
-- Documentation for `UniquePrefabContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `UniquePrefabContainer(int seedOffset, UniquePrefabGenerator[] generators)`
   - Creates a `UniquePrefabContainer` instance.
 
-## Methods
-- `getGenerators()`
+## Method Descriptions
+- `getGenerators()`: Add description.
   - Executes `getGenerators` behavior.
-- `generate(int seed, @Nullable Vector2i position, @Nonnull ChunkGenerator chunkGenerator)`
+- `generate(int seed, @Nullable Vector2i position, @Nonnull ChunkGenerator chunkGenerator)`: Add description.
   - Executes `generate` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getCategory()`
+- `getCategory()`: Add description.
   - Executes `getCategory` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getPrefabSupplier()`
+- `getPrefabSupplier()`: Add description.
   - Executes `getPrefabSupplier` behavior.
-- `getConfiguration()`
+- `getConfiguration()`: Add description.
   - Executes `getConfiguration` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `getSpawnOffset()`
+- `getSpawnOffset()`: Add description.
   - Executes `getSpawnOffset` behavior.
-- `getLowBoundX()`
+- `getLowBoundX()`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundY()`
+- `getLowBoundY()`: Add description.
   - Executes `getLowBoundY` behavior.
-- `getLowBoundZ()`
+- `getLowBoundZ()`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX()`
+- `getHighBoundX()`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundY()`
+- `getHighBoundY()`: Add description.
   - Executes `getHighBoundY` behavior.
-- `getHighBoundZ()`
+- `getHighBoundZ()`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `getEnvironmentId()`
+- `getEnvironmentId()`: Add description.
   - Executes `getEnvironmentId` behavior.
-- `isFitHeightmap()`
+- `isFitHeightmap()`: Add description.
   - Executes `isFitHeightmap` behavior.
-- `isSubmerge()`
+- `isSubmerge()`: Add description.
   - Executes `isSubmerge` behavior.
-- `getExclusionRadiusSquared()`
+- `getExclusionRadiusSquared()`: Add description.
   - Executes `getExclusionRadiusSquared` behavior.
-- `isSpawnLocation()`
+- `isSpawnLocation()`: Add description.
   - Executes `isSpawnLocation` behavior.
-- `isShowOnMap()`
+- `isShowOnMap()`: Add description.
   - Executes `isShowOnMap` behavior.
 
 ## Notes

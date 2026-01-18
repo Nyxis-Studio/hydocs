@@ -1,19 +1,19 @@
+**Source Hash:** `73dc57954a8a725bb70776705b2a6177e5e1f8c281bd953bcf625b96f0ab8f77`
+
 # ClientSourcedSelector
 
 ## Overview
-- Documentation for `ClientSourcedSelector`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.selector`.
 
-## Constructors
+## Constructor Descriptions
 - `ClientSourcedSelector(Selector parent, InteractionContext context)`
   - Creates a `ClientSourcedSelector` instance.
 
-## Methods
-- `tick(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, float time, float runTime)`
+## Method Descriptions
+- `tick(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, float time, float runTime)`: Add description.
   - Executes `tick` behavior.
-- `selectTargetEntities(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, @Nonnull BiConsumer<Ref<EntityStore>, Vector4d> consumer, Predicate<Ref<EntityStore>> filter)`
+- `selectTargetEntities(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, @Nonnull BiConsumer<Ref<EntityStore>, Vector4d> consumer, Predicate<Ref<EntityStore>> filter)`: Add description.
   - Executes `selectTargetEntities` behavior.
-- `selectTargetBlocks(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, @Nonnull TriIntConsumer consumer)`
+- `selectTargetBlocks(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Ref<EntityStore> ref, @Nonnull TriIntConsumer consumer)`: Add description.
   - Executes `selectTargetBlocks` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `d52119fbdac653354de41c6e920f39ad28e35c1182aa33ce34641306831f1e86`
+
 # HytaleType
 
 ## Overview
-- Documentation for `HytaleType`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata`.
 
-## Constructors
+## Constructor Descriptions
 - `HytaleType(String type)`
   - Creates a `HytaleType` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

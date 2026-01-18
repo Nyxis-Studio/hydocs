@@ -1,10 +1,10 @@
+**Source Hash:** `45469f40c0dd656a83e669ed5432d5d195276f853904f36278b3f9f03ecab19b`
+
 # ExtraInfo
 
 ## Overview
-- Documentation for `ExtraInfo`.
-- Declared as a class in `com.hypixel.hytale.codec`.
 
-## Constructors
+## Constructor Descriptions
 - `ExtraInfo()`
   - Creates a `ExtraInfo` instance.
 - `ExtraInfo(int version)`
@@ -12,60 +12,60 @@
 - `ExtraInfo(int version, @Nonnull Function<ExtraInfo, ValidationResults> validationResultsSupplier)`
   - Creates a `ExtraInfo` instance.
 
-## Methods
-- `getVersion()`
+## Method Descriptions
+- `getVersion()`: Add description.
   - Executes `getVersion` behavior.
-- `getLegacyVersion()`
+- `getLegacyVersion()`: Add description.
   - Executes `getLegacyVersion` behavior.
-- `getKeysSize()`
+- `getKeysSize()`: Add description.
   - Executes `getKeysSize` behavior.
-- `getCodecStore()`
+- `getCodecStore()`: Add description.
   - Executes `getCodecStore` behavior.
-- `nextKeyIndex()`
+- `nextKeyIndex()`: Add description.
   - Executes `nextKeyIndex` behavior.
-- `pushKey(String key)`
+- `pushKey(String key)`: Add description.
   - Executes `pushKey` behavior.
-- `pushIntKey(int key)`
+- `pushIntKey(int key)`: Add description.
   - Executes `pushIntKey` behavior.
-- `pushKey(String key, RawJsonReader reader)`
+- `pushKey(String key, RawJsonReader reader)`: Add description.
   - Executes `pushKey` behavior.
-- `pushIntKey(int key, RawJsonReader reader)`
+- `pushIntKey(int key, RawJsonReader reader)`: Add description.
   - Executes `pushIntKey` behavior.
-- `popKey()`
+- `popKey()`: Add description.
   - Executes `popKey` behavior.
-- `nextIgnoredUnknownIndex()`
+- `nextIgnoredUnknownIndex()`: Add description.
   - Executes `nextIgnoredUnknownIndex` behavior.
-- `ignoreUnusedKey(String key)`
+- `ignoreUnusedKey(String key)`: Add description.
   - Executes `ignoreUnusedKey` behavior.
-- `popIgnoredUnusedKey()`
+- `popIgnoredUnusedKey()`: Add description.
   - Executes `popIgnoredUnusedKey` behavior.
-- `consumeIgnoredUnknownKey(@Nonnull RawJsonReader reader)`
+- `consumeIgnoredUnknownKey(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `consumeIgnoredUnknownKey` behavior.
-- `consumeIgnoredUnknownKey(@Nonnull String key)`
+- `consumeIgnoredUnknownKey(@Nonnull String key)`: Add description.
   - Executes `consumeIgnoredUnknownKey` behavior.
-- `readUnknownKey(@Nonnull RawJsonReader reader)`
+- `readUnknownKey(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `readUnknownKey` behavior.
-- `addUnknownKey(@Nonnull String key)`
+- `addUnknownKey(@Nonnull String key)`: Add description.
   - Executes `addUnknownKey` behavior.
-- `peekKey()`
+- `peekKey()`: Add description.
   - Executes `peekKey` behavior.
-- `peekKey(char separator)`
+- `peekKey(char separator)`: Add description.
   - Executes `peekKey` behavior.
-- `peekLine()`
+- `peekLine()`: Add description.
   - Executes `peekLine` behavior.
-- `peekColumn()`
+- `peekColumn()`: Add description.
   - Executes `peekColumn` behavior.
-- `getUnknownKeys()`
+- `getUnknownKeys()`: Add description.
   - Executes `getUnknownKeys` behavior.
-- `getValidationResults()`
+- `getValidationResults()`: Add description.
   - Executes `getValidationResults` behavior.
-- `getMetadata()`
+- `getMetadata()`: Add description.
   - Executes `getMetadata` behavior.
-- `appendDetailsTo(@Nonnull StringBuilder sb)`
+- `appendDetailsTo(@Nonnull StringBuilder sb)`: Add description.
   - Executes `appendDetailsTo` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `grow(int oldSize)`
+- `grow(int oldSize)`: Add description.
   - Executes `grow` behavior.
 
 ## Notes

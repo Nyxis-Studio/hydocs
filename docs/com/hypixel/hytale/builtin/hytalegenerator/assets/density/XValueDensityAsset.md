@@ -1,16 +1,16 @@
+**Source Hash:** `e50b85b7d6633461326c8365ee0663834fbb5587870dd17c46dc210ba763eb30`
+
 # XValueDensityAsset
 
 ## Overview
-- Documentation for `XValueDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

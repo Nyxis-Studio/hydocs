@@ -1,41 +1,41 @@
+**Source Hash:** `c6429209f8ad5a14bedf6c4e817fd01553c4898eeaca16a38c85feb8bacebf80`
+
 # SpawnJob
 
 ## Overview
-- Documentation for `SpawnJob`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.jobs`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnJob()`
   - Creates a `SpawnJob` instance.
 
-## Methods
-- `getJobId()`
+## Method Descriptions
+- `getJobId()`: Add description.
   - Executes `getJobId` behavior.
-- `getBudgetUsed()`
+- `getBudgetUsed()`: Add description.
   - Executes `getBudgetUsed` behavior.
-- `setBudgetUsed(int budgetUsed)`
+- `setBudgetUsed(int budgetUsed)`: Add description.
   - Executes `setBudgetUsed` behavior.
-- `getColumnBudget()`
+- `getColumnBudget()`: Add description.
   - Executes `getColumnBudget` behavior.
-- `setColumnBudget(int columnBudget)`
+- `setColumnBudget(int columnBudget)`: Add description.
   - Executes `setColumnBudget` behavior.
-- `getSpawningContext()`
+- `getSpawningContext()`: Add description.
   - Executes `getSpawningContext` behavior.
-- `beginProbing()`
+- `beginProbing()`: Add description.
   - Executes `beginProbing` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `budgetAvailable()`
+- `budgetAvailable()`: Add description.
   - Executes `budgetAvailable` behavior.
-- `isTerminated()`
+- `isTerminated()`: Add description.
   - Executes `isTerminated` behavior.
-- `setTerminated(boolean terminated)`
+- `setTerminated(boolean terminated)`: Add description.
   - Executes `setTerminated` behavior.
-- `getSpawnable()`
+- `getSpawnable()`: Add description.
   - Executes `getSpawnable` behavior.
-- `shouldTerminate()`
+- `shouldTerminate()`: Add description.
   - Executes `shouldTerminate` behavior.
-- `getSpawnableName()`
+- `getSpawnableName()`: Add description.
   - Executes `getSpawnableName` behavior.
 
 ## Notes

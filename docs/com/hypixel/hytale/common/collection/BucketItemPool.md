@@ -1,16 +1,16 @@
+**Source Hash:** `284eefa049b9d73e8191bcec0b0296108106d9d78ea6a70491b8a626fb3fa679`
+
 # BucketItemPool
 
 ## Overview
-- Documentation for `BucketItemPool`.
-- Declared as a class in `com.hypixel.hytale.common.collection`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `deallocate(BucketItem<E>[] entityHolders, int count)`
+## Method Descriptions
+- `deallocate(BucketItem<E>[] entityHolders, int count)`: Add description.
   - Executes `deallocate` behavior.
-- `allocate(E reference, double squaredDistance)`
+- `allocate(E reference, double squaredDistance)`: Add description.
   - Executes `allocate` behavior.
 
 ## Notes

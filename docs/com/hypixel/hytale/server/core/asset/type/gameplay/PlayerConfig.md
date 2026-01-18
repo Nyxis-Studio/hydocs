@@ -1,22 +1,22 @@
+**Source Hash:** `07f305ed649c2de66f4e6b3bd40ffc62f088e3d0376216fde0f0ca251366dbc8`
+
 # PlayerConfig
 
 ## Overview
-- Documentation for `PlayerConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getHitboxCollisionConfigIndex()`
+## Method Descriptions
+- `getHitboxCollisionConfigIndex()`: Add description.
   - Executes `getHitboxCollisionConfigIndex` behavior.
-- `getRepulsionConfigIndex()`
+- `getRepulsionConfigIndex()`: Add description.
   - Executes `getRepulsionConfigIndex` behavior.
-- `getMovementConfigIndex()`
+- `getMovementConfigIndex()`: Add description.
   - Executes `getMovementConfigIndex` behavior.
-- `getMovementConfigId()`
+- `getMovementConfigId()`: Add description.
   - Executes `getMovementConfigId` behavior.
-- `getMaxDeployableEntities()`
+- `getMaxDeployableEntities()`: Add description.
   - Executes `getMaxDeployableEntities` behavior.
 
 ## Notes

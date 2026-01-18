@@ -1,16 +1,16 @@
+**Source Hash:** `cd9bcf3856ab8707e88e98dd79b252afb955a43ee68243d6a61f87328af4182b`
+
 # SmoothCeilingDensityAsset
 
 ## Overview
-- Documentation for `SmoothCeilingDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

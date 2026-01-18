@@ -1,21 +1,21 @@
+**Source Hash:** `591ca57f14d6f0144e3663c49e6bbdede0717a09f6a012f82e5e59efeabe192f`
+
 # Emote
 
 ## Overview
-- Documentation for `Emote`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `Emote(@Nonnull BsonDocument bson)`
   - Creates a `Emote` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getAnimation()`
+- `getAnimation()`: Add description.
   - Executes `getAnimation` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

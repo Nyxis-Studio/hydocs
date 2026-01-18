@@ -1,14 +1,14 @@
+**Source Hash:** `bf0d26ccc4fcd70c4232f695ce950df8c1aac312dad1c37c2e6df9be38af4b37`
+
 # BoxCollisionData
 
 ## Overview
-- Documentation for `BoxCollisionData`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setEnd(double collisionEnd, @Nonnull Vector3d collisionNormal)`
+## Method Descriptions
+- `setEnd(double collisionEnd, @Nonnull Vector3d collisionNormal)`: Add description.
   - Executes `setEnd` behavior.
 
 ## Notes

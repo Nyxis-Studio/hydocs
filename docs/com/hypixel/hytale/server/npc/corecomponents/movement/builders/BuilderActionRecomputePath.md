@@ -1,22 +1,22 @@
+**Source Hash:** `d384387a7a6250f0087a278e894970e86719fb56f5af163a40c6763e3fab3e9d`
+
 # BuilderActionRecomputePath
 
 ## Overview
-- Documentation for `BuilderActionRecomputePath`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

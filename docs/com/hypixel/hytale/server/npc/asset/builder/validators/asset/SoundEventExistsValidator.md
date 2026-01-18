@@ -1,10 +1,10 @@
+**Source Hash:** `782cb9f0d5f6539317a721c5990ec21663aadf5dc5accf9c403c958e3356b373`
+
 # SoundEventExistsValidator
 
 ## Overview
-- Documentation for `SoundEventExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `SoundEventExistsValidator()`
   - Creates a `SoundEventExistsValidator` instance.
 - `SoundEventExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `SoundEventExistsValidator(config)`
   - Creates a `SoundEventExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String soundEvent)`
+- `test(String soundEvent)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String soundEvent, String attributeName)`
+- `errorMessage(String soundEvent, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

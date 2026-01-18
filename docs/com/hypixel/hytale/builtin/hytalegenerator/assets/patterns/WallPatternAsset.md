@@ -1,16 +1,16 @@
+**Source Hash:** `eb2bccf425c6ba5dc03c3d269469c1f9eb9a1729f0be0377b74a581c03417571`
+
 # WallPatternAsset
 
 ## Overview
-- Documentation for `WallPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

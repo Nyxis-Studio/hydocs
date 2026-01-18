@@ -1,17 +1,17 @@
+**Source Hash:** `b4f017f1b5a62e8a04734f3b81c9b7950feda9d9455424a66bddd229dd79d0b1`
+
 # InstanceValidator
 
 ## Overview
-- Documentation for `InstanceValidator`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceValidator()`
   - Creates a `InstanceValidator` instance.
 
-## Methods
-- `accept(@Nonnull String s, @Nonnull ValidationResults results)`
+## Method Descriptions
+- `accept(@Nonnull String s, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `updateSchema(SchemaContext context, @Nonnull Schema target)`
+- `updateSchema(SchemaContext context, @Nonnull Schema target)`: Add description.
   - Executes `updateSchema` behavior.
 
 ## Notes

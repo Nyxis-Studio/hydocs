@@ -1,19 +1,19 @@
+**Source Hash:** `ad9f9a93cba8a1baa7462129fab3f200e09e22232d44c793078f60645ce91a49`
+
 # PaletteTypeEnum
 
 ## Overview
-- Documentation for `PaletteTypeEnum`.
-- Declared as a enum in `com.hypixel.hytale.server.core.universe.world.chunk.section.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `PaletteTypeEnum(PaletteType paletteType, Supplier<T> constructor)`
   - Creates a `PaletteTypeEnum` instance.
 
-## Methods
-- `get(byte paletteId)`
+## Method Descriptions
+- `get(byte paletteId)`: Add description.
   - Executes `get` behavior.
-- `getPaletteType()`
+- `getPaletteType()`: Add description.
   - Executes `getPaletteType` behavior.
-- `getPaletteId()`
+- `getPaletteId()`: Add description.
   - Executes `getPaletteId` behavior.
 
 ## Notes

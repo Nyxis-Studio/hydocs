@@ -1,31 +1,31 @@
+**Source Hash:** `76c0279ac6ade8262365ebb5730090b3e79f316eea2bc493224a0fc1b55ca51c`
+
 # CombatSupport
 
 ## Overview
-- Documentation for `CombatSupport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role.support`.
 
-## Constructors
+## Constructor Descriptions
 - `CombatSupport(NPCEntity parent, @Nonnull BuilderRole builder, @Nonnull BuilderSupport support)`
   - Creates a `CombatSupport` instance.
 
-## Methods
-- `isDealingFriendlyDamage()`
+## Method Descriptions
+- `isDealingFriendlyDamage()`: Add description.
   - Executes `isDealingFriendlyDamage` behavior.
-- `getDisableDamageGroups()`
+- `getDisableDamageGroups()`: Add description.
   - Executes `getDisableDamageGroups` behavior.
-- `isExecutingAttack()`
+- `isExecutingAttack()`: Add description.
   - Executes `isExecutingAttack` behavior.
-- `tick(double dt)`
+- `tick(double dt)`: Add description.
   - Executes `tick` behavior.
-- `getCanCauseDamage(@Nonnull Ref<EntityStore> attackerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getCanCauseDamage(@Nonnull Ref<EntityStore> attackerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getCanCauseDamage` behavior.
-- `setExecutingAttack(InteractionChain chain, boolean damageFriendlies, double attackPause)`
+- `setExecutingAttack(InteractionChain chain, boolean damageFriendlies, double attackPause)`: Add description.
   - Executes `setExecutingAttack` behavior.
-- `addAttackOverride(String attackSequence)`
+- `addAttackOverride(String attackSequence)`: Add description.
   - Executes `addAttackOverride` behavior.
-- `clearAttackOverrides()`
+- `clearAttackOverrides()`: Add description.
   - Executes `clearAttackOverrides` behavior.
-- `getNextAttackOverride()`
+- `getNextAttackOverride()`: Add description.
   - Executes `getNextAttackOverride` behavior.
 
 ## Notes

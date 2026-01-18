@@ -1,10 +1,10 @@
+**Source Hash:** `8bb924c4c3c19a5a8394797091e5339591f99f8f40047a647109708b8bc620f2`
+
 # SyncInteractionChain
 
 ## Overview
-- Documentation for `SyncInteractionChain`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SyncInteractionChain()`
   - Creates a `SyncInteractionChain` instance.
 - `SyncInteractionChain(int activeHotbarSlot, int activeUtilitySlot, int activeToolsSlot, @Nullable String itemInHandId, @Nullable String utilityItemId, @Nullable String toolsItemId, boolean initial, boolean desync, int overrideRootInteraction, @Nonnull InteractionType interactionType, int equipSlot, int chainId, @Nullable ForkedChainId forkedId, @Nullable InteractionChainData data, @Nonnull InteractionState state, @Nullable SyncInteractionChain[] newForks, int operationBaseIndex, @Nullable InteractionSyncData[] interactionData)`
@@ -12,22 +12,22 @@
 - `SyncInteractionChain(@Nonnull SyncInteractionChain other)`
   - Creates a `SyncInteractionChain` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

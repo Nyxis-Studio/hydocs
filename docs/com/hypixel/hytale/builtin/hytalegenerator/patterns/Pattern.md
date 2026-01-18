@@ -1,23 +1,23 @@
+**Source Hash:** `1d8ecbaa3b000e69c91e2894e411eab8ce923ea64a07b2832e070f9766537d78`
+
 # Pattern
 
 ## Overview
-- Documentation for `Pattern`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.patterns`.
 
-## Constructors
+## Constructor Descriptions
 - `Pattern()`
   - Creates a `Pattern` instance.
 
-## Methods
-- `matches(@Nonnull Context var1)`
+## Method Descriptions
+- `matches(@Nonnull Context var1)`: Add description.
   - Executes `matches` behavior.
-- `readSpace()`
+- `readSpace()`: Add description.
   - Executes `readSpace` behavior.
-- `noPattern()`
+- `noPattern()`: Add description.
   - Executes `noPattern` behavior.
-- `matches(@Nonnull Context context)`
+- `matches(@Nonnull Context context)`: Add description.
   - Executes `matches` behavior.
-- `yesPattern()`
+- `yesPattern()`: Add description.
   - Executes `yesPattern` behavior.
 
 ## Notes

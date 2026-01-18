@@ -1,27 +1,27 @@
+**Source Hash:** `b7dfa6d45541fcfc8909b5c1078f87d772daa7e97765f8bf0059c643893262bc`
+
 # AmbiencePlugin
 
 ## Overview
-- Documentation for `AmbiencePlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.ambience`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbiencePlugin(@Nonnull JavaPluginInit init)`
   - Creates a `AmbiencePlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `getAmbienceTrackerComponentType()`
+- `getAmbienceTrackerComponentType()`: Add description.
   - Executes `getAmbienceTrackerComponentType` behavior.
-- `getAmbientEmitterComponentType()`
+- `getAmbientEmitterComponentType()`: Add description.
   - Executes `getAmbientEmitterComponentType` behavior.
-- `getAmbienceResourceType()`
+- `getAmbienceResourceType()`: Add description.
   - Executes `getAmbienceResourceType` behavior.
-- `getAmbientEmitterModel()`
+- `getAmbientEmitterModel()`: Add description.
   - Executes `getAmbientEmitterModel` behavior.
 
 ## Notes

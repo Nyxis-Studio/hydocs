@@ -1,48 +1,48 @@
+**Source Hash:** `6fc8b495c398c4cf6f4fe42b77ed7cde8ec2413f453df1d69e334198fb0f9c39`
+
 # Scope
 
 ## Overview
-- Documentation for `Scope`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.util.expression`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getStringSupplier(String var1)`
+## Method Descriptions
+- `getStringSupplier(String var1)`: Add description.
   - Executes `getStringSupplier` behavior.
-- `getNumberSupplier(String var1)`
+- `getNumberSupplier(String var1)`: Add description.
   - Executes `getNumberSupplier` behavior.
-- `getBooleanSupplier(String var1)`
+- `getBooleanSupplier(String var1)`: Add description.
   - Executes `getBooleanSupplier` behavior.
-- `getStringArraySupplier(String var1)`
+- `getStringArraySupplier(String var1)`: Add description.
   - Executes `getStringArraySupplier` behavior.
-- `getNumberArraySupplier(String var1)`
+- `getNumberArraySupplier(String var1)`: Add description.
   - Executes `getNumberArraySupplier` behavior.
-- `getBooleanArraySupplier(String var1)`
+- `getBooleanArraySupplier(String var1)`: Add description.
   - Executes `getBooleanArraySupplier` behavior.
-- `getFunction(String var1)`
+- `getFunction(String var1)`: Add description.
   - Executes `getFunction` behavior.
-- `getString(String name)`
+- `getString(String name)`: Add description.
   - Executes `getString` behavior.
-- `getNumber(String name)`
+- `getNumber(String name)`: Add description.
   - Executes `getNumber` behavior.
-- `getBoolean(String name)`
+- `getBoolean(String name)`: Add description.
   - Executes `getBoolean` behavior.
-- `getStringArray(String name)`
+- `getStringArray(String name)`: Add description.
   - Executes `getStringArray` behavior.
-- `getNumberArray(String name)`
+- `getNumberArray(String name)`: Add description.
   - Executes `getNumberArray` behavior.
-- `getBooleanArray(String name)`
+- `getBooleanArray(String name)`: Add description.
   - Executes `getBooleanArray` behavior.
-- `isConstant(String var1)`
+- `isConstant(String var1)`: Add description.
   - Executes `isConstant` behavior.
-- `getType(String var1)`
+- `getType(String var1)`: Add description.
   - Executes `getType` behavior.
-- `encodeFunctionName(@Nonnull String name, @Nonnull ValueType[] values)`
+- `encodeFunctionName(@Nonnull String name, @Nonnull ValueType[] values)`: Add description.
   - Executes `encodeFunctionName` behavior.
-- `encodeType(@Nonnull ValueType type)`
+- `encodeType(@Nonnull ValueType type)`: Add description.
   - Executes `encodeType` behavior.
-- `call(ExecutionContext var1, int var2)`
+- `call(ExecutionContext var1, int var2)`: Add description.
   - Executes `call` behavior.
 
 ## Notes

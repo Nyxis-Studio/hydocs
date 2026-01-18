@@ -1,23 +1,23 @@
+**Source Hash:** `1749deb72436a62dff8ce03dc5b435a41cb4e182ea32b73311797cf9507fbc16`
+
 # CameraDemo
 
 ## Overview
-- Documentation for `CameraDemo`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.camera`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraDemo()`
   - Creates a `CameraDemo` instance.
 
-## Methods
-- `activate()`
+## Method Descriptions
+- `activate()`: Add description.
   - Executes `activate` behavior.
-- `deactivate()`
+- `deactivate()`: Add description.
   - Executes `deactivate` behavior.
-- `onAddNewPlayer(@Nonnull PlayerRef player)`
+- `onAddNewPlayer(@Nonnull PlayerRef player)`: Add description.
   - Executes `onAddNewPlayer` behavior.
-- `onPlayerMouseButton(@Nonnull PlayerMouseButtonEvent event)`
+- `onPlayerMouseButton(@Nonnull PlayerMouseButtonEvent event)`: Add description.
   - Executes `onPlayerMouseButton` behavior.
-- `createServerCameraSettings()`
+- `createServerCameraSettings()`: Add description.
   - Executes `createServerCameraSettings` behavior.
 
 ## Notes

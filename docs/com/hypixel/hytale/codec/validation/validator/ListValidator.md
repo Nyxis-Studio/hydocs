@@ -1,15 +1,15 @@
+**Source Hash:** `a795f45e38002a0a5324ae70dab174bd15fdaab0e55546a8cdcac4b067df2224`
+
 # ListValidator
 
 ## Overview
-- Documentation for `ListValidator`.
-- Declared as a class in `com.hypixel.hytale.codec.validation.validator`.
 
-## Constructors
+## Constructor Descriptions
 - `ListValidator(Validator<T> validator)`
   - Creates a `ListValidator` instance.
 
-## Methods
-- `accept(@Nonnull List<T> ts, ValidationResults results)`
+## Method Descriptions
+- `accept(@Nonnull List<T> ts, ValidationResults results)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

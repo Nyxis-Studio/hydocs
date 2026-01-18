@@ -1,14 +1,14 @@
+**Source Hash:** `61c60d5f54b5fd8136647e2132d38034acbbe7035bb1382b79e63f34fc2e7293`
+
 # QuadPredicate
 
 ## Overview
-- Documentation for `QuadPredicate`.
-- Declared as a interface in `com.hypixel.hytale.function.predicate`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(T var1, R var2, S var3, U var4)`
+## Method Descriptions
+- `test(T var1, R var2, S var3, U var4)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

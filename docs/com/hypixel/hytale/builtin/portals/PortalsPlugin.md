@@ -1,29 +1,29 @@
+**Source Hash:** `2e39cb68fca3a295057faa1bf588b96d22236ea56fa0932869665875b1459ec6`
+
 # PortalsPlugin
 
 ## Overview
-- Documentation for `PortalsPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals`.
 
-## Constructors
+## Constructor Descriptions
 - `PortalsPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `PortalsPlugin` instance.
 
-## Methods
-- `getInstance()`
+## Method Descriptions
+- `getInstance()`: Add description.
   - Executes `getInstance` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `turnOffPortalWhenWorldRemoved(RemoveWorldEvent event)`
+- `turnOffPortalWhenWorldRemoved(RemoveWorldEvent event)`: Add description.
   - Executes `turnOffPortalWhenWorldRemoved` behavior.
-- `countActiveFragments()`
+- `countActiveFragments()`: Add description.
   - Executes `countActiveFragments` behavior.
-- `getPortalResourceType()`
+- `getPortalResourceType()`: Add description.
   - Executes `getPortalResourceType` behavior.
-- `getPortalDeviceComponentType()`
+- `getPortalDeviceComponentType()`: Add description.
   - Executes `getPortalDeviceComponentType` behavior.
-- `getVoidEventComponentType()`
+- `getVoidEventComponentType()`: Add description.
   - Executes `getVoidEventComponentType` behavior.
-- `getVoidPortalComponentType()`
+- `getVoidPortalComponentType()`: Add description.
   - Executes `getVoidPortalComponentType` behavior.
 
 ## Notes

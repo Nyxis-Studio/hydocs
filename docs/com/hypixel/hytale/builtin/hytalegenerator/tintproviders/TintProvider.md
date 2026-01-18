@@ -1,16 +1,16 @@
+**Source Hash:** `bc7863be7d974afb13cffc93fa4099d27954405418f778b19231e3c59056880a`
+
 # TintProvider
 
 ## Overview
-- Documentation for `TintProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.tintproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getValue(@Nonnull Context var1)`
+## Method Descriptions
+- `getValue(@Nonnull Context var1)`: Add description.
   - Executes `getValue` behavior.
-- `noTintProvider()`
+- `noTintProvider()`: Add description.
   - Executes `noTintProvider` behavior.
 
 ## Notes

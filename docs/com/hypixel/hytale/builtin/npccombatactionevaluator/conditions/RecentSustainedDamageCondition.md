@@ -1,16 +1,16 @@
+**Source Hash:** `7435889c862a58dca20a4edf824c0fb6b7c7bd83c0ee30ac7fa5beec164a3466`
+
 # RecentSustainedDamageCondition
 
 ## Overview
-- Documentation for `RecentSustainedDamageCondition`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.conditions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getInput(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+## Method Descriptions
+- `getInput(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `getInput` behavior.
-- `setupNPC(@Nonnull Holder<EntityStore> holder)`
+- `setupNPC(@Nonnull Holder<EntityStore> holder)`: Add description.
   - Executes `setupNPC` behavior.
 
 ## Notes

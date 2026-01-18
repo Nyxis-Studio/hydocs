@@ -1,29 +1,29 @@
+**Source Hash:** `18a07349e04b1790e8777508012af350dbf398320e640f71b0e973a05bdbf468`
+
 # WorkerIndexer
 
 ## Overview
-- Documentation for `WorkerIndexer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.threadindexer`.
 
-## Constructors
+## Constructor Descriptions
 - `WorkerIndexer(int workerCount)`
   - Creates a `WorkerIndexer` instance.
 
-## Methods
-- `getWorkerCount()`
+## Method Descriptions
+- `getWorkerCount()`: Add description.
   - Executes `getWorkerCount` behavior.
-- `getWorkedIds()`
+- `getWorkedIds()`: Add description.
   - Executes `getWorkedIds` behavior.
-- `createSession()`
+- `createSession()`: Add description.
   - Executes `createSession` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
-- `hasNext()`
+- `hasNext()`: Add description.
   - Executes `hasNext` behavior.
-- `isValid(@Nonnull Id id)`
+- `isValid(@Nonnull Id id)`: Add description.
   - Executes `isValid` behavior.
-- `get(@Nonnull Id id)`
+- `get(@Nonnull Id id)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

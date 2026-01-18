@@ -1,63 +1,63 @@
+**Source Hash:** `3ba574e8654785e233cf9841a1d062f3dee89468e67d83c082dc235c48af6097`
+
 # Damage
 
 ## Overview
-- Documentation for `Damage`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.damage`.
 
-## Constructors
+## Constructor Descriptions
 - `Damage(@Nonnull Source source, @Nonnull DamageCause damageCause, float amount)`
   - Creates a `Damage` instance.
 - `Damage(@Nonnull Source source, int damageCauseIndex, float amount)`
   - Creates a `Damage` instance.
 
-## Methods
-- `getDamageCauseIndex()`
+## Method Descriptions
+- `getDamageCauseIndex()`: Add description.
   - Executes `getDamageCauseIndex` behavior.
-- `setDamageCauseIndex(int damageCauseIndex)`
+- `setDamageCauseIndex(int damageCauseIndex)`: Add description.
   - Executes `setDamageCauseIndex` behavior.
-- `getCause()`
+- `getCause()`: Add description.
   - Executes `getCause` behavior.
-- `getSource()`
+- `getSource()`: Add description.
   - Executes `getSource` behavior.
-- `setSource(@Nonnull Source source)`
+- `setSource(@Nonnull Source source)`: Add description.
   - Executes `setSource` behavior.
-- `getAmount()`
+- `getAmount()`: Add description.
   - Executes `getAmount` behavior.
-- `setAmount(float amount)`
+- `setAmount(float amount)`: Add description.
   - Executes `setAmount` behavior.
-- `getInitialAmount()`
+- `getInitialAmount()`: Add description.
   - Executes `getInitialAmount` behavior.
-- `getDeathMessage(@Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getDeathMessage(@Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getDeathMessage` behavior.
-- `getMetaStore()`
+- `getMetaStore()`: Add description.
   - Executes `getMetaStore` behavior.
-- `getDeathMessage(@Nonnull Damage info, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getDeathMessage(@Nonnull Damage info, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getDeathMessage` behavior.
-- `getProjectile()`
+- `getProjectile()`: Add description.
   - Executes `getProjectile` behavior.
-- `getRef()`
+- `getRef()`: Add description.
   - Executes `getRef` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `CameraEffect(int cameraEffectIndex)`
+- `CameraEffect(int cameraEffectIndex)`: Add description.
   - Executes `CameraEffect` behavior.
-- `getEffectIndex()`
+- `getEffectIndex()`: Add description.
   - Executes `getEffectIndex` behavior.
-- `setSoundEventIndex(int soundEventIndex)`
+- `setSoundEventIndex(int soundEventIndex)`: Add description.
   - Executes `setSoundEventIndex` behavior.
-- `getSoundEventIndex()`
+- `getSoundEventIndex()`: Add description.
   - Executes `getSoundEventIndex` behavior.
-- `getModelParticles()`
+- `getModelParticles()`: Add description.
   - Executes `getModelParticles` behavior.
-- `setModelParticles(@Nullable ModelParticle[] modelParticles)`
+- `setModelParticles(@Nullable ModelParticle[] modelParticles)`: Add description.
   - Executes `setModelParticles` behavior.
-- `getWorldParticles()`
+- `getWorldParticles()`: Add description.
   - Executes `getWorldParticles` behavior.
-- `setWorldParticles(@Nullable WorldParticle[] worldParticles)`
+- `setWorldParticles(@Nullable WorldParticle[] worldParticles)`: Add description.
   - Executes `setWorldParticles` behavior.
-- `getViewDistance()`
+- `getViewDistance()`: Add description.
   - Executes `getViewDistance` behavior.
-- `setViewDistance(double viewDistance)`
+- `setViewDistance(double viewDistance)`: Add description.
   - Executes `setViewDistance` behavior.
 
 ## Notes

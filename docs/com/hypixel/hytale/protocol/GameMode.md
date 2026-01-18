@@ -1,17 +1,17 @@
+**Source Hash:** `b4c03583a103e7a9ab9b2aa8214b0a876aedba411bbfd3348c51cb5a5c8894ee`
+
 # GameMode
 
 ## Overview
-- Documentation for `GameMode`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `GameMode(int value)`
   - Creates a `GameMode` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

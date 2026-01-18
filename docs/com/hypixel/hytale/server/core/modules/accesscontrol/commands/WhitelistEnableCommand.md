@@ -1,15 +1,15 @@
+**Source Hash:** `65d067dd50689afd76796a07fb4e5e8710c1317ad14251d479f0c590ac2a04aa`
+
 # WhitelistEnableCommand
 
 ## Overview
-- Documentation for `WhitelistEnableCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WhitelistEnableCommand(@Nonnull HytaleWhitelistProvider whitelistProvider)`
   - Creates a `WhitelistEnableCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `813cd8c9b6c09dd14207f1f7e26d26dba7bd1fec41574e84e3edb2f77beb90b8`
+
 # InteractionPriorityCodec
 
 ## Overview
-- Documentation for `InteractionPriorityCodec`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+## Method Descriptions
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nonnull InteractionPriority priority, ExtraInfo extraInfo)`
+- `encode(@Nonnull InteractionPriority priority, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

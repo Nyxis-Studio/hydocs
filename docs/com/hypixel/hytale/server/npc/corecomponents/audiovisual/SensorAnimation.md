@@ -1,17 +1,17 @@
+**Source Hash:** `8fad1b7a4276c92ce006ee78477cceff4c3099751048732112eb3649a9006d72`
+
 # SensorAnimation
 
 ## Overview
-- Documentation for `SensorAnimation`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.audiovisual`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorAnimation(@Nonnull BuilderSensorAnimation builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorAnimation` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `689b987466a855c6096a1106c8e2e5af0e900ee6b6fa3abd3d0cd5a875905742`
+
 # Attitude
 
 ## Overview
-- Documentation for `Attitude`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.attitude`.
 
-## Constructors
+## Constructor Descriptions
 - `Attitude(String description)`
   - Creates a `Attitude` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

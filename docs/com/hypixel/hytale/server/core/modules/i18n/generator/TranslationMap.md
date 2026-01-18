@@ -1,10 +1,10 @@
+**Source Hash:** `6aa6bfac660b34e7f4aec964f130f55f261d50000ee8cb9069f31d45c37f5ccd`
+
 # TranslationMap
 
 ## Overview
-- Documentation for `TranslationMap`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.generator`.
 
-## Constructors
+## Constructor Descriptions
 - `TranslationMap()`
   - Creates a `TranslationMap` instance.
 - `TranslationMap(Map<String, String> initial)`
@@ -12,20 +12,20 @@
 - `TranslationMap(@Nonnull Properties initial)`
   - Creates a `TranslationMap` instance.
 
-## Methods
-- `get(String key)`
+## Method Descriptions
+- `get(String key)`: Add description.
   - Executes `get` behavior.
-- `put(String key, String value)`
+- `put(String key, String value)`: Add description.
   - Executes `put` behavior.
-- `removeKeys(@Nonnull Collection<? extends String> keys)`
+- `removeKeys(@Nonnull Collection<? extends String> keys)`: Add description.
   - Executes `removeKeys` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `putAbsentKeys(@Nonnull TranslationMap other)`
+- `putAbsentKeys(@Nonnull TranslationMap other)`: Add description.
   - Executes `putAbsentKeys` behavior.
-- `sortByKeyBeforeFirstDot()`
+- `sortByKeyBeforeFirstDot()`: Add description.
   - Executes `sortByKeyBeforeFirstDot` behavior.
-- `asMap()`
+- `asMap()`: Add description.
   - Executes `asMap` behavior.
 
 ## Notes

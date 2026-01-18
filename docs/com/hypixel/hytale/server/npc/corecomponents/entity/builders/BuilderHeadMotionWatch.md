@@ -1,24 +1,24 @@
+**Source Hash:** `142fbdfd95af4d8852c623bcab35a6fca3cfd98e727b2fa2f6ab945f481e5976`
+
 # BuilderHeadMotionWatch
 
 ## Overview
-- Documentation for `BuilderHeadMotionWatch`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getRelativeTurnSpeed(@Nonnull BuilderSupport support)`
+- `getRelativeTurnSpeed(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeTurnSpeed` behavior.
 
 ## Notes

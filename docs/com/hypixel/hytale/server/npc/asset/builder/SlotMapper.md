@@ -1,23 +1,23 @@
+**Source Hash:** `097bbe77a0847ad2c7bd70b1b6768995a36d9d3808aa826a67646c2bc98f341c`
+
 # SlotMapper
 
 ## Overview
-- Documentation for `SlotMapper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `SlotMapper()`
   - Creates a `SlotMapper` instance.
 - `SlotMapper(boolean trackNames)`
   - Creates a `SlotMapper` instance.
 
-## Methods
-- `getSlot(String name)`
+## Method Descriptions
+- `getSlot(String name)`: Add description.
   - Executes `getSlot` behavior.
-- `slotCount()`
+- `slotCount()`: Add description.
   - Executes `slotCount` behavior.
-- `getSlotMappings()`
+- `getSlotMappings()`: Add description.
   - Executes `getSlotMappings` behavior.
-- `getNameMap()`
+- `getNameMap()`: Add description.
   - Executes `getNameMap` behavior.
 
 ## Notes

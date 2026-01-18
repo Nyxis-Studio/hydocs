@@ -1,26 +1,26 @@
+**Source Hash:** `1dd9f2fcff6284b9631314870fdc66ce563be9a4c434760f322343a7a7f52974`
+
 # OggVorbisInfoCache
 
 ## Overview
-- Documentation for `OggVorbisInfoCache`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(String name)`
+## Method Descriptions
+- `get(String name)`: Add description.
   - Executes `get` behavior.
-- `get(@Nonnull CommonAsset asset)`
+- `get(@Nonnull CommonAsset asset)`: Add description.
   - Executes `get` behavior.
-- `getNow(String name)`
+- `getNow(String name)`: Add description.
   - Executes `getNow` behavior.
-- `getNow(@Nonnull CommonAsset asset)`
+- `getNow(@Nonnull CommonAsset asset)`: Add description.
   - Executes `getNow` behavior.
-- `get0(@Nonnull CommonAsset asset)`
+- `get0(@Nonnull CommonAsset asset)`: Add description.
   - Executes `get0` behavior.
-- `invalidate(String name)`
+- `invalidate(String name)`: Add description.
   - Executes `invalidate` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

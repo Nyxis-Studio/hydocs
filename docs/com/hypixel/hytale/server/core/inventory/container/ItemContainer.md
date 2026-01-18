@@ -1,284 +1,284 @@
+**Source Hash:** `257473c555a5d2d2658480efea1e0018053831b04a41d69d4ae316b427da4a89`
+
 # ItemContainer
 
 ## Overview
-- Documentation for `ItemContainer`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getCapacity()`
+## Method Descriptions
+- `getCapacity()`: Add description.
   - Executes `getCapacity` behavior.
-- `setGlobalFilter(FilterType var1)`
+- `setGlobalFilter(FilterType var1)`: Add description.
   - Executes `setGlobalFilter` behavior.
-- `setSlotFilter(FilterActionType var1, short var2, SlotFilter var3)`
+- `setSlotFilter(FilterActionType var1, short var2, SlotFilter var3)`: Add description.
   - Executes `setSlotFilter` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `readAction(Supplier<V> var1)`
+- `readAction(Supplier<V> var1)`: Add description.
   - Executes `readAction` behavior.
-- `readAction(Function<X, V> var1, X var2)`
+- `readAction(Function<X, V> var1, X var2)`: Add description.
   - Executes `readAction` behavior.
-- `writeAction(Supplier<V> var1)`
+- `writeAction(Supplier<V> var1)`: Add description.
   - Executes `writeAction` behavior.
-- `writeAction(Function<X, V> var1, X var2)`
+- `writeAction(Function<X, V> var1, X var2)`: Add description.
   - Executes `writeAction` behavior.
-- `internal_clear()`
+- `internal_clear()`: Add description.
   - Executes `internal_clear` behavior.
-- `internal_getSlot(short var1)`
+- `internal_getSlot(short var1)`: Add description.
   - Executes `internal_getSlot` behavior.
-- `internal_setSlot(short var1, ItemStack var2)`
+- `internal_setSlot(short var1, ItemStack var2)`: Add description.
   - Executes `internal_setSlot` behavior.
-- `internal_removeSlot(short var1)`
+- `internal_removeSlot(short var1)`: Add description.
   - Executes `internal_removeSlot` behavior.
-- `cantAddToSlot(short var1, ItemStack var2, ItemStack var3)`
+- `cantAddToSlot(short var1, ItemStack var2, ItemStack var3)`: Add description.
   - Executes `cantAddToSlot` behavior.
-- `cantRemoveFromSlot(short var1)`
+- `cantRemoveFromSlot(short var1)`: Add description.
   - Executes `cantRemoveFromSlot` behavior.
-- `cantDropFromSlot(short var1)`
+- `cantDropFromSlot(short var1)`: Add description.
   - Executes `cantDropFromSlot` behavior.
-- `cantMoveToSlot(ItemContainer var1, short var2)`
+- `cantMoveToSlot(ItemContainer var1, short var2)`: Add description.
   - Executes `cantMoveToSlot` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `toProtocolMap()`
+- `toProtocolMap()`: Add description.
   - Executes `toProtocolMap` behavior.
-- `registerChangeEvent(@Nonnull Consumer<ItemContainerChangeEvent> consumer)`
+- `registerChangeEvent(@Nonnull Consumer<ItemContainerChangeEvent> consumer)`: Add description.
   - Executes `registerChangeEvent` behavior.
-- `registerChangeEvent(@Nonnull EventPriority priority, @Nonnull Consumer<ItemContainerChangeEvent> consumer)`
+- `registerChangeEvent(@Nonnull EventPriority priority, @Nonnull Consumer<ItemContainerChangeEvent> consumer)`: Add description.
   - Executes `registerChangeEvent` behavior.
-- `registerChangeEvent(short priority, @Nonnull Consumer<ItemContainerChangeEvent> consumer)`
+- `registerChangeEvent(short priority, @Nonnull Consumer<ItemContainerChangeEvent> consumer)`: Add description.
   - Executes `registerChangeEvent` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `canAddItemStackToSlot(short slot, @Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`
+- `canAddItemStackToSlot(short slot, @Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `canAddItemStackToSlot` behavior.
-- `addItemStackToSlot(short slot, @Nonnull ItemStack itemStack)`
+- `addItemStackToSlot(short slot, @Nonnull ItemStack itemStack)`: Add description.
   - Executes `addItemStackToSlot` behavior.
-- `addItemStackToSlot(short slot, @Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`
+- `addItemStackToSlot(short slot, @Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `addItemStackToSlot` behavior.
-- `setItemStackForSlot(short slot, ItemStack itemStack)`
+- `setItemStackForSlot(short slot, ItemStack itemStack)`: Add description.
   - Executes `setItemStackForSlot` behavior.
-- `setItemStackForSlot(short slot, ItemStack itemStack, boolean filter)`
+- `setItemStackForSlot(short slot, ItemStack itemStack, boolean filter)`: Add description.
   - Executes `setItemStackForSlot` behavior.
-- `getItemStack(short slot)`
+- `getItemStack(short slot)`: Add description.
   - Executes `getItemStack` behavior.
-- `replaceItemStackInSlot(short slot, ItemStack itemStackToRemove, ItemStack itemStack)`
+- `replaceItemStackInSlot(short slot, ItemStack itemStackToRemove, ItemStack itemStack)`: Add description.
   - Executes `replaceItemStackInSlot` behavior.
-- `replaceAll(SlotReplacementFunction func)`
+- `replaceAll(SlotReplacementFunction func)`: Add description.
   - Executes `replaceAll` behavior.
-- `replaceAll(SlotReplacementFunction func, boolean ignoreEmpty)`
+- `replaceAll(SlotReplacementFunction func, boolean ignoreEmpty)`: Add description.
   - Executes `replaceAll` behavior.
-- `internal_replaceItemStack(short slot, @Nullable ItemStack itemStackToRemove, ItemStack itemStack)`
+- `internal_replaceItemStack(short slot, @Nullable ItemStack itemStackToRemove, ItemStack itemStack)`: Add description.
   - Executes `internal_replaceItemStack` behavior.
-- `removeItemStackFromSlot(short slot)`
+- `removeItemStackFromSlot(short slot)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `removeItemStackFromSlot(short slot, boolean filter)`
+- `removeItemStackFromSlot(short slot, boolean filter)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `removeItemStackFromSlot(short slot, int quantityToRemove)`
+- `removeItemStackFromSlot(short slot, int quantityToRemove)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `removeItemStackFromSlot(short slot, int quantityToRemove, boolean allOrNothing, boolean filter)`
+- `removeItemStackFromSlot(short slot, int quantityToRemove, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `internal_removeItemStack(short slot, int quantityToRemove)`
+- `internal_removeItemStack(short slot, int quantityToRemove)`: Add description.
   - Executes `internal_removeItemStack` behavior.
-- `removeItemStackFromSlot(short slot, ItemStack itemStackToRemove, int quantityToRemove)`
+- `removeItemStackFromSlot(short slot, ItemStack itemStackToRemove, int quantityToRemove)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `removeItemStackFromSlot(short slot, ItemStack itemStackToRemove, int quantityToRemove, boolean allOrNothing, boolean filter)`
+- `removeItemStackFromSlot(short slot, ItemStack itemStackToRemove, int quantityToRemove, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `removeItemStackFromSlot` behavior.
-- `removeMaterialFromSlot(short slot, @Nonnull MaterialQuantity material)`
+- `removeMaterialFromSlot(short slot, @Nonnull MaterialQuantity material)`: Add description.
   - Executes `removeMaterialFromSlot` behavior.
-- `removeMaterialFromSlot(short slot, @Nonnull MaterialQuantity material, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeMaterialFromSlot(short slot, @Nonnull MaterialQuantity material, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeMaterialFromSlot` behavior.
-- `removeResourceFromSlot(short slot, @Nonnull ResourceQuantity resource)`
+- `removeResourceFromSlot(short slot, @Nonnull ResourceQuantity resource)`: Add description.
   - Executes `removeResourceFromSlot` behavior.
-- `removeResourceFromSlot(short slot, @Nonnull ResourceQuantity resource, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeResourceFromSlot(short slot, @Nonnull ResourceQuantity resource, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeResourceFromSlot` behavior.
-- `removeTagFromSlot(short slot, int tagIndex, int quantity)`
+- `removeTagFromSlot(short slot, int tagIndex, int quantity)`: Add description.
   - Executes `removeTagFromSlot` behavior.
-- `removeTagFromSlot(short slot, int tagIndex, int quantity, boolean allOrNothing, boolean filter)`
+- `removeTagFromSlot(short slot, int tagIndex, int quantity, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `removeTagFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo)`
+- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean filter)`
+- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean filter)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`
+- `moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `internal_moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`
+- `internal_moveItemStackFromSlot(short slot, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `internal_moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo)`
+- `moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`
+- `moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `internal_moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`
+- `internal_moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `internal_moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, ItemContainer ... containerTo)`
+- `moveItemStackFromSlot(short slot, ItemContainer ... containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, boolean allOrNothing, boolean filter, ItemContainer ... containerTo)`
+- `moveItemStackFromSlot(short slot, boolean allOrNothing, boolean filter, ItemContainer ... containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `internal_moveItemStackFromSlot(short slot, boolean allOrNothing, boolean filter, @Nonnull ItemContainer[] containerTo)`
+- `internal_moveItemStackFromSlot(short slot, boolean allOrNothing, boolean filter, @Nonnull ItemContainer[] containerTo)`: Add description.
   - Executes `internal_moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, int quantity, ItemContainer ... containerTo)`
+- `moveItemStackFromSlot(short slot, int quantity, ItemContainer ... containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlot(short slot, int quantity, boolean allOrNothing, boolean filter, ItemContainer ... containerTo)`
+- `moveItemStackFromSlot(short slot, int quantity, boolean allOrNothing, boolean filter, ItemContainer ... containerTo)`: Add description.
   - Executes `moveItemStackFromSlot` behavior.
-- `internal_moveItemStackFromSlot(short slot, int quantity, boolean allOrNothing, boolean filter, @Nonnull ItemContainer[] containerTo)`
+- `internal_moveItemStackFromSlot(short slot, int quantity, boolean allOrNothing, boolean filter, @Nonnull ItemContainer[] containerTo)`: Add description.
   - Executes `internal_moveItemStackFromSlot` behavior.
-- `moveItemStackFromSlotToSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo)`
+- `moveItemStackFromSlotToSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo)`: Add description.
   - Executes `moveItemStackFromSlotToSlot` behavior.
-- `moveItemStackFromSlotToSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo, boolean filter)`
+- `moveItemStackFromSlotToSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo, boolean filter)`: Add description.
   - Executes `moveItemStackFromSlotToSlot` behavior.
-- `internal_moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo, boolean filter)`
+- `internal_moveItemStackFromSlot(short slot, int quantity, @Nonnull ItemContainer containerTo, short slotTo, boolean filter)`: Add description.
   - Executes `internal_moveItemStackFromSlot` behavior.
-- `moveAllItemStacksTo(ItemContainer ... containerTo)`
+- `moveAllItemStacksTo(ItemContainer ... containerTo)`: Add description.
   - Executes `moveAllItemStacksTo` behavior.
-- `moveAllItemStacksTo(Predicate<ItemStack> itemPredicate, ItemContainer ... containerTo)`
+- `moveAllItemStacksTo(Predicate<ItemStack> itemPredicate, ItemContainer ... containerTo)`: Add description.
   - Executes `moveAllItemStacksTo` behavior.
-- `internal_moveAllItemStacksTo(@Nullable Predicate<ItemStack> itemPredicate, ItemContainer[] containerTo)`
+- `internal_moveAllItemStacksTo(@Nullable Predicate<ItemStack> itemPredicate, ItemContainer[] containerTo)`: Add description.
   - Executes `internal_moveAllItemStacksTo` behavior.
-- `quickStackTo(ItemContainer ... containerTo)`
+- `quickStackTo(ItemContainer ... containerTo)`: Add description.
   - Executes `quickStackTo` behavior.
-- `combineItemStacksIntoSlot(@Nonnull ItemContainer containerTo, short slotTo)`
+- `combineItemStacksIntoSlot(@Nonnull ItemContainer containerTo, short slotTo)`: Add description.
   - Executes `combineItemStacksIntoSlot` behavior.
-- `internal_combineItemStacksIntoSlot(@Nonnull ItemContainer containerTo, short slotTo)`
+- `internal_combineItemStacksIntoSlot(@Nonnull ItemContainer containerTo, short slotTo)`: Add description.
   - Executes `internal_combineItemStacksIntoSlot` behavior.
-- `swapItems(short srcPos, @Nonnull ItemContainer containerTo, short destPos, short length)`
+- `swapItems(short srcPos, @Nonnull ItemContainer containerTo, short destPos, short length)`: Add description.
   - Executes `swapItems` behavior.
-- `internal_swapItems(short srcPos, @Nonnull ItemContainer containerTo, short destPos, short length)`
+- `internal_swapItems(short srcPos, @Nonnull ItemContainer containerTo, short destPos, short length)`: Add description.
   - Executes `internal_swapItems` behavior.
-- `internal_swapItems(@Nonnull ItemContainer containerTo, short slotFrom, short slotTo)`
+- `internal_swapItems(@Nonnull ItemContainer containerTo, short slotFrom, short slotTo)`: Add description.
   - Executes `internal_swapItems` behavior.
-- `canAddItemStack(@Nonnull ItemStack itemStack)`
+- `canAddItemStack(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `canAddItemStack` behavior.
-- `canAddItemStack(@Nonnull ItemStack itemStack, boolean fullStacks, boolean filter)`
+- `canAddItemStack(@Nonnull ItemStack itemStack, boolean fullStacks, boolean filter)`: Add description.
   - Executes `canAddItemStack` behavior.
-- `addItemStack(@Nonnull ItemStack itemStack)`
+- `addItemStack(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `addItemStack` behavior.
-- `addItemStack(@Nonnull ItemStack itemStack, boolean allOrNothing, boolean fullStacks, boolean filter)`
+- `addItemStack(@Nonnull ItemStack itemStack, boolean allOrNothing, boolean fullStacks, boolean filter)`: Add description.
   - Executes `addItemStack` behavior.
-- `canAddItemStacks(List<ItemStack> itemStacks)`
+- `canAddItemStacks(List<ItemStack> itemStacks)`: Add description.
   - Executes `canAddItemStacks` behavior.
-- `canAddItemStacks(@Nullable List<ItemStack> itemStacks, boolean fullStacks, boolean filter)`
+- `canAddItemStacks(@Nullable List<ItemStack> itemStacks, boolean fullStacks, boolean filter)`: Add description.
   - Executes `canAddItemStacks` behavior.
-- `addItemStacks(List<ItemStack> itemStacks)`
+- `addItemStacks(List<ItemStack> itemStacks)`: Add description.
   - Executes `addItemStacks` behavior.
-- `addItemStacks(@Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean fullStacks, boolean filter)`
+- `addItemStacks(@Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean fullStacks, boolean filter)`: Add description.
   - Executes `addItemStacks` behavior.
-- `addItemStacksOrdered(List<ItemStack> itemStacks)`
+- `addItemStacksOrdered(List<ItemStack> itemStacks)`: Add description.
   - Executes `addItemStacksOrdered` behavior.
-- `addItemStacksOrdered(short offset, List<ItemStack> itemStacks)`
+- `addItemStacksOrdered(short offset, List<ItemStack> itemStacks)`: Add description.
   - Executes `addItemStacksOrdered` behavior.
-- `addItemStacksOrdered(List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`
+- `addItemStacksOrdered(List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `addItemStacksOrdered` behavior.
-- `addItemStacksOrdered(short offset, @Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`
+- `addItemStacksOrdered(short offset, @Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `addItemStacksOrdered` behavior.
-- `canRemoveItemStack(ItemStack itemStack)`
+- `canRemoveItemStack(ItemStack itemStack)`: Add description.
   - Executes `canRemoveItemStack` behavior.
-- `canRemoveItemStack(@Nullable ItemStack itemStack, boolean exactAmount, boolean filter)`
+- `canRemoveItemStack(@Nullable ItemStack itemStack, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveItemStack` behavior.
-- `removeItemStack(@Nonnull ItemStack itemStack)`
+- `removeItemStack(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `removeItemStack` behavior.
-- `removeItemStack(@Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`
+- `removeItemStack(@Nonnull ItemStack itemStack, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `removeItemStack` behavior.
-- `canRemoveItemStacks(List<ItemStack> itemStacks)`
+- `canRemoveItemStacks(List<ItemStack> itemStacks)`: Add description.
   - Executes `canRemoveItemStacks` behavior.
-- `canRemoveItemStacks(@Nullable List<ItemStack> itemStacks, boolean exactAmount, boolean filter)`
+- `canRemoveItemStacks(@Nullable List<ItemStack> itemStacks, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveItemStacks` behavior.
-- `removeItemStacks(List<ItemStack> itemStacks)`
+- `removeItemStacks(List<ItemStack> itemStacks)`: Add description.
   - Executes `removeItemStacks` behavior.
-- `removeItemStacks(@Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`
+- `removeItemStacks(@Nullable List<ItemStack> itemStacks, boolean allOrNothing, boolean filter)`: Add description.
   - Executes `removeItemStacks` behavior.
-- `canRemoveTag(int tagIndex, int quantity)`
+- `canRemoveTag(int tagIndex, int quantity)`: Add description.
   - Executes `canRemoveTag` behavior.
-- `canRemoveTag(int tagIndex, int quantity, boolean exactAmount, boolean filter)`
+- `canRemoveTag(int tagIndex, int quantity, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveTag` behavior.
-- `removeTag(int tagIndex, int quantity)`
+- `removeTag(int tagIndex, int quantity)`: Add description.
   - Executes `removeTag` behavior.
-- `removeTag(int tagIndex, int quantity, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeTag(int tagIndex, int quantity, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeTag` behavior.
-- `canRemoveResource(ResourceQuantity resource)`
+- `canRemoveResource(ResourceQuantity resource)`: Add description.
   - Executes `canRemoveResource` behavior.
-- `canRemoveResource(@Nullable ResourceQuantity resource, boolean exactAmount, boolean filter)`
+- `canRemoveResource(@Nullable ResourceQuantity resource, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveResource` behavior.
-- `removeResource(@Nonnull ResourceQuantity resource)`
+- `removeResource(@Nonnull ResourceQuantity resource)`: Add description.
   - Executes `removeResource` behavior.
-- `removeResource(@Nonnull ResourceQuantity resource, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeResource(@Nonnull ResourceQuantity resource, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeResource` behavior.
-- `canRemoveResources(List<ResourceQuantity> resources)`
+- `canRemoveResources(List<ResourceQuantity> resources)`: Add description.
   - Executes `canRemoveResources` behavior.
-- `canRemoveResources(@Nullable List<ResourceQuantity> resources, boolean exactAmount, boolean filter)`
+- `canRemoveResources(@Nullable List<ResourceQuantity> resources, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveResources` behavior.
-- `removeResources(List<ResourceQuantity> resources)`
+- `removeResources(List<ResourceQuantity> resources)`: Add description.
   - Executes `removeResources` behavior.
-- `removeResources(@Nullable List<ResourceQuantity> resources, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeResources(@Nullable List<ResourceQuantity> resources, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeResources` behavior.
-- `canRemoveMaterial(MaterialQuantity material)`
+- `canRemoveMaterial(MaterialQuantity material)`: Add description.
   - Executes `canRemoveMaterial` behavior.
-- `canRemoveMaterial(@Nullable MaterialQuantity material, boolean exactAmount, boolean filter)`
+- `canRemoveMaterial(@Nullable MaterialQuantity material, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveMaterial` behavior.
-- `removeMaterial(@Nonnull MaterialQuantity material)`
+- `removeMaterial(@Nonnull MaterialQuantity material)`: Add description.
   - Executes `removeMaterial` behavior.
-- `removeMaterial(@Nonnull MaterialQuantity material, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeMaterial(@Nonnull MaterialQuantity material, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeMaterial` behavior.
-- `canRemoveMaterials(List<MaterialQuantity> materials)`
+- `canRemoveMaterials(List<MaterialQuantity> materials)`: Add description.
   - Executes `canRemoveMaterials` behavior.
-- `canRemoveMaterials(@Nullable List<MaterialQuantity> materials, boolean exactAmount, boolean filter)`
+- `canRemoveMaterials(@Nullable List<MaterialQuantity> materials, boolean exactAmount, boolean filter)`: Add description.
   - Executes `canRemoveMaterials` behavior.
-- `getSlotMaterialsToRemove(@Nullable List<MaterialQuantity> materials, boolean exactAmount, boolean filter)`
+- `getSlotMaterialsToRemove(@Nullable List<MaterialQuantity> materials, boolean exactAmount, boolean filter)`: Add description.
   - Executes `getSlotMaterialsToRemove` behavior.
-- `removeMaterials(List<MaterialQuantity> materials)`
+- `removeMaterials(List<MaterialQuantity> materials)`: Add description.
   - Executes `removeMaterials` behavior.
-- `removeMaterials(@Nullable List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeMaterials(@Nullable List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeMaterials` behavior.
-- `removeMaterialsOrdered(short offset, List<MaterialQuantity> materials)`
+- `removeMaterialsOrdered(short offset, List<MaterialQuantity> materials)`: Add description.
   - Executes `removeMaterialsOrdered` behavior.
-- `removeMaterialsOrdered(List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeMaterialsOrdered(List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeMaterialsOrdered` behavior.
-- `removeMaterialsOrdered(short offset, @Nullable List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`
+- `removeMaterialsOrdered(short offset, @Nullable List<MaterialQuantity> materials, boolean allOrNothing, boolean exactAmount, boolean filter)`: Add description.
   - Executes `removeMaterialsOrdered` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `countItemStacks(@Nonnull Predicate<ItemStack> itemPredicate)`
+- `countItemStacks(@Nonnull Predicate<ItemStack> itemPredicate)`: Add description.
   - Executes `countItemStacks` behavior.
-- `containsItemStacksStackableWith(@Nonnull ItemStack itemStack)`
+- `containsItemStacksStackableWith(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `containsItemStacksStackableWith` behavior.
-- `forEach(@Nonnull ShortObjectConsumer<ItemStack> action)`
+- `forEach(@Nonnull ShortObjectConsumer<ItemStack> action)`: Add description.
   - Executes `forEach` behavior.
-- `forEachWithMeta(@Nonnull Short2ObjectConcurrentHashMap.ShortBiObjConsumer<ItemStack, T> consumer, T meta)`
+- `forEachWithMeta(@Nonnull Short2ObjectConcurrentHashMap.ShortBiObjConsumer<ItemStack, T> consumer, T meta)`: Add description.
   - Executes `forEachWithMeta` behavior.
-- `removeAllItemStacks()`
+- `removeAllItemStacks()`: Add description.
   - Executes `removeAllItemStacks` behavior.
-- `dropAllItemStacks()`
+- `dropAllItemStacks()`: Add description.
   - Executes `dropAllItemStacks` behavior.
-- `dropAllItemStacks(boolean filter)`
+- `dropAllItemStacks(boolean filter)`: Add description.
   - Executes `dropAllItemStacks` behavior.
-- `sortItems(@Nonnull SortType sort)`
+- `sortItems(@Nonnull SortType sort)`: Add description.
   - Executes `sortItems` behavior.
-- `internal_sortItems(@Nonnull SortType sort)`
+- `internal_sortItems(@Nonnull SortType sort)`: Add description.
   - Executes `internal_sortItems` behavior.
-- `sendUpdate(@Nonnull Transaction transaction)`
+- `sendUpdate(@Nonnull Transaction transaction)`: Add description.
   - Executes `sendUpdate` behavior.
-- `containsContainer(ItemContainer itemContainer)`
+- `containsContainer(ItemContainer itemContainer)`: Add description.
   - Executes `containsContainer` behavior.
-- `doMigration(Function<String, String> blockMigration)`
+- `doMigration(Function<String, String> blockMigration)`: Add description.
   - Executes `doMigration` behavior.
-- `getMatchingResourceType(@Nonnull Item item, @Nonnull String resourceId)`
+- `getMatchingResourceType(@Nonnull Item item, @Nonnull String resourceId)`: Add description.
   - Executes `getMatchingResourceType` behavior.
-- `validateQuantity(int quantity)`
+- `validateQuantity(int quantity)`: Add description.
   - Executes `validateQuantity` behavior.
-- `validateSlotIndex(short slot, int capacity)`
+- `validateSlotIndex(short slot, int capacity)`: Add description.
   - Executes `validateSlotIndex` behavior.
-- `copy(@Nonnull ItemContainer from, @Nonnull T to, @Nullable List<ItemStack> remainder)`
+- `copy(@Nonnull ItemContainer from, @Nonnull T to, @Nullable List<ItemStack> remainder)`: Add description.
   - Executes `copy` behavior.
-- `ensureContainerCapacity(@Nullable T inputContainer, short capacity, @Nonnull Short2ObjectConcurrentHashMap.ShortFunction<T> newContainerSupplier, List<ItemStack> remainder)`
+- `ensureContainerCapacity(@Nullable T inputContainer, short capacity, @Nonnull Short2ObjectConcurrentHashMap.ShortFunction<T> newContainerSupplier, List<ItemStack> remainder)`: Add description.
   - Executes `ensureContainerCapacity` behavior.
-- `getNewContainer(short capacity, @Nonnull Short2ObjectConcurrentHashMap.ShortFunction<ItemContainer> supplier)`
+- `getNewContainer(short capacity, @Nonnull Short2ObjectConcurrentHashMap.ShortFunction<ItemContainer> supplier)`: Add description.
   - Executes `getNewContainer` behavior.
-- `ItemContainerChangeEvent(ItemContainer container, Transaction transaction)`
+- `ItemContainerChangeEvent(ItemContainer container, Transaction transaction)`: Add description.
   - Executes `ItemContainerChangeEvent` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `TempItemData(ItemStack itemStack, Item item)`
+- `TempItemData(ItemStack itemStack, Item item)`: Add description.
   - Executes `TempItemData` behavior.
 
 ## Notes

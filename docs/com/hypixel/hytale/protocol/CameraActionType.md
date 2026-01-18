@@ -1,17 +1,17 @@
+**Source Hash:** `d85a4c0829cec9428eff62020b78d7d981e6baeac9d24da4b0ce12312431595f`
+
 # CameraActionType
 
 ## Overview
-- Documentation for `CameraActionType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraActionType(int value)`
   - Creates a `CameraActionType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `5d7c72af33318abbb1dfb0c455a606d3b56bc3d311b26e915fc929f8d64ee0ed`
+
 # CameraSettings
 
 ## Overview
-- Documentation for `CameraSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config.camera`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraSettings()`
   - Creates a `CameraSettings` instance.
 - `CameraSettings(Vector3f positionOffset, CameraAxis yaw, CameraAxis pitch)`
@@ -14,18 +14,18 @@
 - `CameraSettings(this)`
   - Creates a `CameraSettings` instance.
 
-## Methods
-- `getPositionOffset()`
+## Method Descriptions
+- `getPositionOffset()`: Add description.
   - Executes `getPositionOffset` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `getPitch()`
+- `getPitch()`: Add description.
   - Executes `getPitch` behavior.
-- `scale(float scale)`
+- `scale(float scale)`: Add description.
   - Executes `scale` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

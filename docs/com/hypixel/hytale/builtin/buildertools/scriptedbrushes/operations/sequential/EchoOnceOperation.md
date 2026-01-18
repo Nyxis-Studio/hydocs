@@ -1,17 +1,17 @@
+**Source Hash:** `f82d37fd7162da62f3405d265f8436d369e3847bb04de7b13c83491cb03f6dda`
+
 # EchoOnceOperation
 
 ## Overview
-- Documentation for `EchoOnceOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential`.
 
-## Constructors
+## Constructor Descriptions
 - `EchoOnceOperation()`
   - Creates a `EchoOnceOperation` instance.
 
-## Methods
-- `resetInternalState()`
+## Method Descriptions
+- `resetInternalState()`: Add description.
   - Executes `resetInternalState` behavior.
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

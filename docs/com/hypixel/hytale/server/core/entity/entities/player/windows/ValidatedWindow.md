@@ -1,14 +1,14 @@
+**Source Hash:** `e1ebf3520f28775942e6c1c0ae56e53e1f89019d6b2c70e4e646120df2fcd721`
+
 # ValidatedWindow
 
 ## Overview
-- Documentation for `ValidatedWindow`.
-- Declared as a interface in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `validate()`
+## Method Descriptions
+- `validate()`: Add description.
   - Executes `validate` behavior.
 
 ## Notes

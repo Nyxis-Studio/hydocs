@@ -1,14 +1,14 @@
+**Source Hash:** `cdedb00e1adb6613d966730976873108e84ca2bf8c24f3bed544c9e17084bf6a`
+
 # Distance2SubReturnTypeAsset
 
 ## Overview
-- Documentation for `Distance2SubReturnTypeAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density.positions.returntypes`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

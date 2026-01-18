@@ -1,32 +1,32 @@
+**Source Hash:** `cf0961885658afd8adcc79998e35df357d3576951553fcd6dc0e0f0fda5641f6`
+
 # BuilderStateTransitionEdges
 
 ## Overview
-- Documentation for `BuilderStateTransitionEdges`.
-- Declared as a class in `com.hypixel.hytale.server.npc.statetransition.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getPriority()`
+- `getPriority()`: Add description.
   - Executes `getPriority` behavior.
-- `getFromStateIndices()`
+- `getFromStateIndices()`: Add description.
   - Executes `getFromStateIndices` behavior.
-- `getToStateIndices()`
+- `getToStateIndices()`: Add description.
   - Executes `getToStateIndices` behavior.
 
 ## Notes

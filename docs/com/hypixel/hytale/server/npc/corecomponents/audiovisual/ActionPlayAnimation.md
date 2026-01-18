@@ -1,17 +1,17 @@
+**Source Hash:** `09d3180d5eb9175d15f8634fb5248eb8c9ee1082c2f41d941f32a13703ca70b6`
+
 # ActionPlayAnimation
 
 ## Overview
-- Documentation for `ActionPlayAnimation`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.audiovisual`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionPlayAnimation(@Nonnull BuilderActionPlayAnimation builderActionPlayAnimation, @Nonnull BuilderSupport support)`
   - Creates a `ActionPlayAnimation` instance.
 
-## Methods
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `setAnimationId(String animationId)`
+- `setAnimationId(String animationId)`: Add description.
   - Executes `setAnimationId` behavior.
 
 ## Notes

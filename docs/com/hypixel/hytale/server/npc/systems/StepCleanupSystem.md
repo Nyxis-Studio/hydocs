@@ -1,19 +1,19 @@
+**Source Hash:** `82f6e5c657a84fe6c77cbee0ca65f9f82f72da713d8a397f1d7dd20d360c4566`
+
 # StepCleanupSystem
 
 ## Overview
-- Documentation for `StepCleanupSystem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `StepCleanupSystem(@Nonnull ComponentType<EntityStore, StepComponent> stepComponentType)`
   - Creates a `StepCleanupSystem` instance.
 
-## Methods
-- `getDependencies()`
+## Method Descriptions
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

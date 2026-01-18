@@ -1,14 +1,14 @@
+**Source Hash:** `6071fce43698ade81989dcd2e1f56c8e654f879882fd7577d89ee66827de153e`
+
 # BootEvent
 
 ## Overview
-- Documentation for `BootEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

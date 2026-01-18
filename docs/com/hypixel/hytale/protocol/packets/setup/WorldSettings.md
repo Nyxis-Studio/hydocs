@@ -1,10 +1,10 @@
+**Source Hash:** `a2b9bde253d644fab0a69ebd6c09410c1b42b80009774996fe7bc6322f6d1cd9`
+
 # WorldSettings
 
 ## Overview
-- Documentation for `WorldSettings`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.setup`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSettings()`
   - Creates a `WorldSettings` instance.
 - `WorldSettings(int worldHeight, @Nullable Asset[] requiredAssets)`
@@ -12,24 +12,24 @@
 - `WorldSettings(@Nonnull WorldSettings other)`
   - Creates a `WorldSettings` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

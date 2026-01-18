@@ -1,10 +1,10 @@
+**Source Hash:** `690ab5dfaa445361b1a562723208cbfa9cfc6289af0bb44ab2a893b0210c927b`
+
 # IntRangeBoundValidator
 
 ## Overview
-- Documentation for `IntRangeBoundValidator`.
-- Declared as a class in `com.hypixel.hytale.math.range`.
 
-## Constructors
+## Constructor Descriptions
 - `IntRangeBoundValidator(min, max, inclusive, true)`
   - Creates a `IntRangeBoundValidator` instance.
 - `IntRangeBoundValidator(min, max, inclusive, false)`
@@ -12,18 +12,18 @@
 - `IntRangeBoundValidator(Integer min, Integer max, boolean inclusive, boolean lowerBound)`
   - Creates a `IntRangeBoundValidator` instance.
 
-## Methods
-- `lowerBound(Integer min, Integer max, boolean inclusive)`
+## Method Descriptions
+- `lowerBound(Integer min, Integer max, boolean inclusive)`: Add description.
   - Executes `lowerBound` behavior.
-- `upperBound(Integer min, Integer max, boolean inclusive)`
+- `upperBound(Integer min, Integer max, boolean inclusive)`: Add description.
   - Executes `upperBound` behavior.
-- `accept(@Nullable IntRange intRange, @Nonnull ValidationResults results)`
+- `accept(@Nullable IntRange intRange, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `validateBound(int value, String boundName, @Nonnull ValidationResults results)`
+- `validateBound(int value, String boundName, @Nonnull ValidationResults results)`: Add description.
   - Executes `validateBound` behavior.
-- `updateSchema(SchemaContext context, Schema target)`
+- `updateSchema(SchemaContext context, Schema target)`: Add description.
   - Executes `updateSchema` behavior.
-- `updateSchemaBound(@Nonnull IntegerSchema integerSchema)`
+- `updateSchemaBound(@Nonnull IntegerSchema integerSchema)`: Add description.
   - Executes `updateSchemaBound` behavior.
 
 ## Notes

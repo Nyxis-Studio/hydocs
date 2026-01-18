@@ -1,17 +1,17 @@
+**Source Hash:** `55d76be0624d0bd3c96274dd8c7de8a69f24cb144853b2819f712e0a99a8eee2`
+
 # Access
 
 ## Overview
-- Documentation for `Access`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.serveraccess`.
 
-## Constructors
+## Constructor Descriptions
 - `Access(int value)`
   - Creates a `Access` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

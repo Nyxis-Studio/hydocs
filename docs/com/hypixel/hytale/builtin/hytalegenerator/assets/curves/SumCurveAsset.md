@@ -1,16 +1,16 @@
+**Source Hash:** `9d55d01bb9708864213b2ad340e43f04bebd07d475c16ba4e7abc764b83d5530`
+
 # SumCurveAsset
 
 ## Overview
-- Documentation for `SumCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

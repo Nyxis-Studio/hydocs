@@ -1,33 +1,33 @@
+**Source Hash:** `26266f7f7c17cb45196375699518e06f167f4acd3830137bd711de15d60532cc`
+
 # Warp
 
 ## Overview
-- Documentation for `Warp`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `Warp()`
   - Creates a `Warp` instance.
 - `Warp(double locX, double locY, double locZ, float yaw, float pitch, float roll, String id, @Nonnull World world, String creator, Instant creationDate)`
   - Creates a `Warp` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `getTransform()`
+- `getTransform()`: Add description.
   - Executes `getTransform` behavior.
-- `getCreator()`
+- `getCreator()`: Add description.
   - Executes `getCreator` behavior.
-- `getCreationDate()`
+- `getCreationDate()`: Add description.
   - Executes `getCreationDate` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `toTeleport()`
+- `toTeleport()`: Add description.
   - Executes `toTeleport` behavior.
 
 ## Notes

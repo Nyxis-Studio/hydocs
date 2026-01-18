@@ -1,53 +1,53 @@
+**Source Hash:** `06c73adabdcc9d09e03c6770b9619330323fa5a725d89c6fb45424eda3c21f18`
+
 # PipeCaveNodeShape
 
 ## Overview
-- Documentation for `PipeCaveNodeShape`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `PipeCaveNodeShape(CaveType caveType, @Nonnull Vector3d o, @Nonnull Vector3d v, double radius1, double radius2, double middleRadius)`
   - Creates a `PipeCaveNodeShape` instance.
 - `PipeCaveNodeShape(caveType, origin, direction, radius1, radius2, radius3)`
   - Creates a `PipeCaveNodeShape` instance.
 
-## Methods
-- `getStart()`
+## Method Descriptions
+- `getStart()`: Add description.
   - Executes `getStart` behavior.
-- `getEnd()`
+- `getEnd()`: Add description.
   - Executes `getEnd` behavior.
-- `getAnchor(@Nonnull Vector3d vector, double t, double tv, double th)`
+- `getAnchor(@Nonnull Vector3d vector, double t, double tv, double th)`: Add description.
   - Executes `getAnchor` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
-- `getLowBoundX()`
+- `getLowBoundX()`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundZ()`
+- `getLowBoundZ()`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX()`
+- `getHighBoundX()`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundZ()`
+- `getHighBoundZ()`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `getLowBoundY()`
+- `getLowBoundY()`: Add description.
   - Executes `getLowBoundY` behavior.
-- `getHighBoundY()`
+- `getHighBoundY()`: Add description.
   - Executes `getHighBoundY` behavior.
-- `getRadius1()`
+- `getRadius1()`: Add description.
   - Executes `getRadius1` behavior.
-- `getRadius2()`
+- `getRadius2()`: Add description.
   - Executes `getRadius2` behavior.
-- `shouldReplace(int seed, double x, double z, int y)`
+- `shouldReplace(int seed, double x, double z, int y)`: Add description.
   - Executes `shouldReplace` behavior.
-- `projectPointOnNode(double px, double py, double pz)`
+- `projectPointOnNode(double px, double py, double pz)`: Add description.
   - Executes `projectPointOnNode` behavior.
-- `getRadiusAt(double t)`
+- `getRadiusAt(double t)`: Add description.
   - Executes `getRadiusAt` behavior.
-- `getFloorPosition(int seed, double x, double z)`
+- `getFloorPosition(int seed, double x, double z)`: Add description.
   - Executes `getFloorPosition` behavior.
-- `getCeilingPosition(int seed, double x, double z)`
+- `getCeilingPosition(int seed, double x, double z)`: Add description.
   - Executes `getCeilingPosition` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `generateCaveNodeShape(@Nonnull Random random, CaveType caveType, CaveNode parentNode, @Nonnull CaveNodeType.CaveNodeChildEntry childEntry, @Nonnull Vector3d origin, float yaw, float pitch)`
+- `generateCaveNodeShape(@Nonnull Random random, CaveType caveType, CaveNode parentNode, @Nonnull CaveNodeType.CaveNodeChildEntry childEntry, @Nonnull Vector3d origin, float yaw, float pitch)`: Add description.
   - Executes `generateCaveNodeShape` behavior.
 
 ## Notes

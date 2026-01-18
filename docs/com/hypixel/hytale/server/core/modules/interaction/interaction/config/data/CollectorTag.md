@@ -1,15 +1,15 @@
+**Source Hash:** `805729b71e34a6d942a0c2bfa2a39c40c8f6cb901a04974568919dd01fd7339f`
+
 # CollectorTag
 
 ## Overview
-- Documentation for `CollectorTag`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.data`.
 
-## Constructors
+## Constructor Descriptions
 - `CollectorTag()`
   - Creates a `CollectorTag` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

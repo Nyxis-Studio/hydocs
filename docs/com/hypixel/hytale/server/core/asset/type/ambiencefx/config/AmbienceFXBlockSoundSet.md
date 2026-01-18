@@ -1,23 +1,23 @@
+**Source Hash:** `2ac0101dec5e1ed4553e362ccb561b6435f6f6aa37a7c20484c412348d32bba6`
+
 # AmbienceFXBlockSoundSet
 
 ## Overview
-- Documentation for `AmbienceFXBlockSoundSet`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.ambiencefx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXBlockSoundSet(String blockSoundSetId, Rangef percent)`
   - Creates a `AmbienceFXBlockSoundSet` instance.
 - `AmbienceFXBlockSoundSet()`
   - Creates a `AmbienceFXBlockSoundSet` instance.
 
-## Methods
-- `getBlockSoundSetId()`
+## Method Descriptions
+- `getBlockSoundSetId()`: Add description.
   - Executes `getBlockSoundSetId` behavior.
-- `getPercent()`
+- `getPercent()`: Add description.
   - Executes `getPercent` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

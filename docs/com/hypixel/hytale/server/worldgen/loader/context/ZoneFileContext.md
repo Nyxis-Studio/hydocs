@@ -1,21 +1,21 @@
+**Source Hash:** `41aad9ac2dac31c1c116c0b5fc81408710361af02cce57ed1cf62079b99e324b`
+
 # ZoneFileContext
 
 ## Overview
-- Documentation for `ZoneFileContext`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.context`.
 
-## Constructors
+## Constructor Descriptions
 - `ZoneFileContext(int id, String name, Path filepath, FileLoadingContext context)`
   - Creates a `ZoneFileContext` instance.
 
-## Methods
-- `matchContext(@Nullable JsonElement json, String key)`
+## Method Descriptions
+- `matchContext(@Nullable JsonElement json, String key)`: Add description.
   - Executes `matchContext` behavior.
-- `matchContext(@Nonnull String filePath)`
+- `matchContext(@Nonnull String filePath)`: Add description.
   - Executes `matchContext` behavior.
-- `createBiome(String name, Path path, BiomeFileContext.Type type)`
+- `createBiome(String name, Path path, BiomeFileContext.Type type)`: Add description.
   - Executes `createBiome` behavior.
-- `createBiome(int id, String name, Path path, BiomeFileContext.Type type)`
+- `createBiome(int id, String name, Path path, BiomeFileContext.Type type)`: Add description.
   - Executes `createBiome` behavior.
 
 ## Notes

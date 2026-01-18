@@ -1,20 +1,20 @@
+**Source Hash:** `ee4842eab6c08663ce89c5b1f78486fe692185895600769d7e5ca02466df345e`
+
 # ColorCodec
 
 ## Overview
-- Documentation for `ColorCodec`.
-- Declared as a class in `com.hypixel.hytale.server.core.codec.protocol`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `encode(Color color, ExtraInfo extraInfo)`
+## Method Descriptions
+- `encode(Color color, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

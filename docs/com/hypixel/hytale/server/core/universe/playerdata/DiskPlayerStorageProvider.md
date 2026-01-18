@@ -1,26 +1,26 @@
+**Source Hash:** `868d304cb11cfb6a583c3f64d334b4eb723a72a84f8ad9d89016c71e7af56d76`
+
 # DiskPlayerStorageProvider
 
 ## Overview
-- Documentation for `DiskPlayerStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.playerdata`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPath()`
+## Method Descriptions
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getPlayerStorage()`
+- `getPlayerStorage()`: Add description.
   - Executes `getPlayerStorage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `load(@Nonnull UUID uuid)`
+- `load(@Nonnull UUID uuid)`: Add description.
   - Executes `load` behavior.
-- `save(@Nonnull UUID uuid, @Nonnull Holder<EntityStore> holder)`
+- `save(@Nonnull UUID uuid, @Nonnull Holder<EntityStore> holder)`: Add description.
   - Executes `save` behavior.
-- `remove(@Nonnull UUID uuid)`
+- `remove(@Nonnull UUID uuid)`: Add description.
   - Executes `remove` behavior.
-- `getPlayers()`
+- `getPlayers()`: Add description.
   - Executes `getPlayers` behavior.
 
 ## Notes

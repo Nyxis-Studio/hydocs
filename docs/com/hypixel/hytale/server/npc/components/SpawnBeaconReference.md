@@ -1,17 +1,17 @@
+**Source Hash:** `7c1252364fa475a16a83802de3a445212bdac7e12bf96406d391e033901db695`
+
 # SpawnBeaconReference
 
 ## Overview
-- Documentation for `SpawnBeaconReference`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnBeaconReference()`
   - Creates a `SpawnBeaconReference` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

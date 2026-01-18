@@ -1,26 +1,26 @@
+**Source Hash:** `e669dab6aaa480b1b21dd70403fa04082d8bb6ea0dbaf502f7e2eb556f62e508`
+
 # ToolArg
 
 ## Overview
-- Documentation for `ToolArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `isRequired()`
+- `isRequired()`: Add description.
   - Executes `isRequired` behavior.
-- `getCodec()`
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String var1)`
+- `fromString(@Nonnull String var1)`: Add description.
   - Executes `fromString` behavior.
-- `setupPacket(BuilderToolArg var1)`
+- `setupPacket(BuilderToolArg var1)`: Add description.
   - Executes `setupPacket` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

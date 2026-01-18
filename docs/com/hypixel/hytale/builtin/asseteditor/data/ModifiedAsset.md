@@ -1,16 +1,16 @@
+**Source Hash:** `c254a6ea649c02b20cfc258c65697d23eb4246b7e8673dae91e83a13c62a2bbc`
+
 # ModifiedAsset
 
 ## Overview
-- Documentation for `ModifiedAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.data`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `markEditedBy(@Nonnull EditorClient editorClient)`
+## Method Descriptions
+- `markEditedBy(@Nonnull EditorClient editorClient)`: Add description.
   - Executes `markEditedBy` behavior.
-- `toAssetInfoPacket(String assetPack)`
+- `toAssetInfoPacket(String assetPack)`: Add description.
   - Executes `toAssetInfoPacket` behavior.
 
 ## Notes

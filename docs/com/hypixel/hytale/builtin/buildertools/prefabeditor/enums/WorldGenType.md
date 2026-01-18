@@ -1,15 +1,15 @@
+**Source Hash:** `3c4f8a8352053eeed90623237e20badb94a21357a52f06b1005c24f414a78fe3`
+
 # WorldGenType
 
 ## Overview
-- Documentation for `WorldGenType`.
-- Declared as a enum in `com.hypixel.hytale.builtin.buildertools.prefabeditor.enums`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenType(String localizationString)`
   - Creates a `WorldGenType` instance.
 
-## Methods
-- `getLocalizationString()`
+## Method Descriptions
+- `getLocalizationString()`: Add description.
   - Executes `getLocalizationString` behavior.
 
 ## Notes

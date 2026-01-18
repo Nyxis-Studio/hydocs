@@ -1,32 +1,32 @@
+**Source Hash:** `6e110e3983ce227210a1798bdd5d37cd1daea473321111bf2616b87bac5fc159`
+
 # BuilderSensorState
 
 ## Overview
-- Documentation for `BuilderSensorState`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.statemachine.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `setIndexes(int main, int sub)`
+- `setIndexes(int main, int sub)`: Add description.
   - Executes `setIndexes` behavior.
-- `isDefaultSubState()`
+- `isDefaultSubState()`: Add description.
   - Executes `isDefaultSubState` behavior.
-- `getSubStateIndex()`
+- `getSubStateIndex()`: Add description.
   - Executes `getSubStateIndex` behavior.
-- `isComponentLocal()`
+- `isComponentLocal()`: Add description.
   - Executes `isComponentLocal` behavior.
 
 ## Notes

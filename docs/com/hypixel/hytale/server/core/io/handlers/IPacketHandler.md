@@ -1,20 +1,20 @@
+**Source Hash:** `d8bf69fed64a021095570f6e002f689fb9ffb1377bdafdda029f20b3320c3ca8`
+
 # IPacketHandler
 
 ## Overview
-- Documentation for `IPacketHandler`.
-- Declared as a interface in `com.hypixel.hytale.server.core.io.handlers`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `registerHandler(int var1, @Nonnull Consumer<Packet> var2)`
+## Method Descriptions
+- `registerHandler(int var1, @Nonnull Consumer<Packet> var2)`: Add description.
   - Executes `registerHandler` behavior.
-- `registerNoOpHandlers(int ... var1)`
+- `registerNoOpHandlers(int ... var1)`: Add description.
   - Executes `registerNoOpHandlers` behavior.
-- `getPlayerRef()`
+- `getPlayerRef()`: Add description.
   - Executes `getPlayerRef` behavior.
-- `getIdentifier()`
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
 
 ## Notes

@@ -1,26 +1,26 @@
+**Source Hash:** `fdbe70fd0749f83b48900cd34e473c200c8e29855d49752fcef9d53947915dd7`
+
 # BuilderActionFlockSetTarget
 
 ## Overview
-- Documentation for `BuilderActionFlockSetTarget`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `isClear()`
+- `isClear()`: Add description.
   - Executes `isClear` behavior.
-- `getTargetSlot(@Nonnull BuilderSupport support)`
+- `getTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetSlot` behavior.
 
 ## Notes

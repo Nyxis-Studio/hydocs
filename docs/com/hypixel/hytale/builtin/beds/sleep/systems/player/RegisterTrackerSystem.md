@@ -1,18 +1,18 @@
+**Source Hash:** `097a96f95860c652ec4fea2db1688c9a246acf0cf747939e29ea365867c364c6`
+
 # RegisterTrackerSystem
 
 ## Overview
-- Documentation for `RegisterTrackerSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.systems.player`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onEntityAdd(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl AddReason reason, @NonNullDecl Store<EntityStore> store)`
+## Method Descriptions
+- `onEntityAdd(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl AddReason reason, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl RemoveReason reason, @NonNullDecl Store<EntityStore> store)`
+- `onEntityRemoved(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl RemoveReason reason, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

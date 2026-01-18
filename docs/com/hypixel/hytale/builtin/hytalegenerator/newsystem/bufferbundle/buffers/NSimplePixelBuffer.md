@@ -1,27 +1,27 @@
+**Source Hash:** `730507a614db425b66462f502bfa4144be8fa03f995336ec7411ca46a991a9ba`
+
 # NSimplePixelBuffer
 
 ## Overview
-- Documentation for `NSimplePixelBuffer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers`.
 
-## Constructors
+## Constructor Descriptions
 - `NSimplePixelBuffer(@Nonnull Class<T> pixelType)`
   - Creates a `NSimplePixelBuffer` instance.
 
-## Methods
-- `getPixelContent(@Nonnull Vector3i position)`
+## Method Descriptions
+- `getPixelContent(@Nonnull Vector3i position)`: Add description.
   - Executes `getPixelContent` behavior.
-- `setPixelContent(@Nonnull Vector3i position, @Nullable T value)`
+- `setPixelContent(@Nonnull Vector3i position, @Nullable T value)`: Add description.
   - Executes `setPixelContent` behavior.
-- `getPixelType()`
+- `getPixelType()`: Add description.
   - Executes `getPixelType` behavior.
-- `copyFrom(@Nonnull NSimplePixelBuffer<T> sourceBuffer)`
+- `copyFrom(@Nonnull NSimplePixelBuffer<T> sourceBuffer)`: Add description.
   - Executes `copyFrom` behavior.
-- `ensureContents()`
+- `ensureContents()`: Add description.
   - Executes `ensureContents` behavior.
-- `switchFromSingleValueToArray()`
+- `switchFromSingleValueToArray()`: Add description.
   - Executes `switchFromSingleValueToArray` behavior.
-- `index(@Nonnull Vector3i position)`
+- `index(@Nonnull Vector3i position)`: Add description.
   - Executes `index` behavior.
 
 ## Notes

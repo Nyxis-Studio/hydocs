@@ -1,14 +1,14 @@
+**Source Hash:** `187e041409707a477afbd1cbd88e3aeb1a7a0e451ede16f4d51ffdce5c21b4b4`
+
 # MotionKind
 
 ## Overview
-- Documentation for `MotionKind`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.movement`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

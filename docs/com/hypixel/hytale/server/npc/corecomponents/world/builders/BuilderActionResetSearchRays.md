@@ -1,24 +1,24 @@
+**Source Hash:** `ea1366e529e73935887b0f0379927802aef29a4caab098ab30852c0161210af2`
+
 # BuilderActionResetSearchRays
 
 ## Overview
-- Documentation for `BuilderActionResetSearchRays`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getIds(@Nonnull BuilderSupport support)`
+- `getIds(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getIds` behavior.
 
 ## Notes

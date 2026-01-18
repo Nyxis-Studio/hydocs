@@ -1,30 +1,30 @@
+**Source Hash:** `451a6a10e5ea517029b58a7fc60362d2469a942526f541f133a3fe28fadbaedc`
+
 # SpawnMarkerBlockStateSystems
 
 ## Overview
-- Documentation for `SpawnMarkerBlockStateSystems`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.blockstates`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `createMarker(@Nonnull Ref<ChunkStore> ref, @Nonnull SpawnMarkerBlockState state, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+## Method Descriptions
+- `createMarker(@Nonnull Ref<ChunkStore> ref, @Nonnull SpawnMarkerBlockState state, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `createMarker` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
 
 ## Notes

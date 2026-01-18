@@ -1,10 +1,10 @@
+**Source Hash:** `910bd5a3a203ab6b8af2edfac69fbb67e3c22b2d23d7cdd2c0982481b0b9fae0`
+
 # PhysicsConfig
 
 ## Overview
-- Documentation for `PhysicsConfig`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `PhysicsConfig()`
   - Creates a `PhysicsConfig` instance.
 - `PhysicsConfig(@Nonnull PhysicsType type, double density, double gravity, double bounciness, int bounceCount, double bounceLimit, boolean sticksVertically, boolean computeYaw, boolean computePitch, @Nonnull RotationMode rotationMode, double moveOutOfSolidSpeed, double terminalVelocityAir, double densityAir, double terminalVelocityWater, double densityWater, double hitWaterImpulseLoss, double rotationForce, float speedRotationFactor, double swimmingDampingFactor, boolean allowRolling, double rollingFrictionFactor, float rollingSpeed)`
@@ -12,22 +12,22 @@
 - `PhysicsConfig(@Nonnull PhysicsConfig other)`
   - Creates a `PhysicsConfig` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

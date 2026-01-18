@@ -1,14 +1,14 @@
+**Source Hash:** `cc0a86467ec117b317fc4186d7f54ab9f4fe5f14dfbc18edf58910a50cb60ace`
+
 # CustomTemplateConnectedBlockPattern
 
 ## Overview
-- Documentation for `CustomTemplateConnectedBlockPattern`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

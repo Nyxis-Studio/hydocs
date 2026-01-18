@@ -1,37 +1,37 @@
+**Source Hash:** `7d03dd700ce3ccc84f4d141a6131604260faa57fa6fe313e29c32ea2517ad1ed`
+
 # EntityFilterNot
 
 ## Overview
-- Documentation for `EntityFilterNot`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityFilterNot(IEntityFilter filter)`
   - Creates a `EntityFilterNot` instance.
 
-## Methods
-- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matchesEntity` behavior.
-- `cost()`
+- `cost()`: Add description.
   - Executes `cost` behavior.
-- `registerWithSupport(Role role)`
+- `registerWithSupport(Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `componentCount()`
+- `componentCount()`: Add description.
   - Executes `componentCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
-- `setContext(IAnnotatedComponent parent, int index)`
+- `setContext(IAnnotatedComponent parent, int index)`: Add description.
   - Executes `setContext` behavior.
 
 ## Notes

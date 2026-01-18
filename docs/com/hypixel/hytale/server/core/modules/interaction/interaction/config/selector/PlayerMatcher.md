@@ -1,16 +1,16 @@
+**Source Hash:** `d86eb090c386e4b0ab212d6883fc0be3a553390ebb009cd59054440af6e35a66`
+
 # PlayerMatcher
 
 ## Overview
-- Documentation for `PlayerMatcher`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.selector`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test0(Ref<EntityStore> attacker, @Nonnull Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `test0(Ref<EntityStore> attacker, @Nonnull Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `test0` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
 
 ## Notes

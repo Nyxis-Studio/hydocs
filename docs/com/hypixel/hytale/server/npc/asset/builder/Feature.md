@@ -1,15 +1,15 @@
+**Source Hash:** `238c831fc7ef5f289b381df413db56bdd81303391ece560d1c576122ae1f376a`
+
 # Feature
 
 ## Overview
-- Documentation for `Feature`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `Feature(String description)`
   - Creates a `Feature` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

@@ -1,155 +1,155 @@
+**Source Hash:** `0d156487c7b8d1bba567a24269f57c58210c79e7e535451799c433376b89a9de`
+
 # HytaleServerConfig
 
 ## Overview
-- Documentation for `HytaleServerConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core`.
 
-## Constructors
+## Constructor Descriptions
 - `HytaleServerConfig()`
   - Creates a `HytaleServerConfig` instance.
 
-## Methods
-- `getServerName()`
+## Method Descriptions
+- `getServerName()`: Add description.
   - Executes `getServerName` behavior.
-- `setServerName(@Nonnull String serverName)`
+- `setServerName(@Nonnull String serverName)`: Add description.
   - Executes `setServerName` behavior.
-- `getMotd()`
+- `getMotd()`: Add description.
   - Executes `getMotd` behavior.
-- `setMotd(@Nonnull String motd)`
+- `setMotd(@Nonnull String motd)`: Add description.
   - Executes `setMotd` behavior.
-- `getPassword()`
+- `getPassword()`: Add description.
   - Executes `getPassword` behavior.
-- `setPassword(@Nonnull String password)`
+- `setPassword(@Nonnull String password)`: Add description.
   - Executes `setPassword` behavior.
-- `isDisplayTmpTagsInStrings()`
+- `isDisplayTmpTagsInStrings()`: Add description.
   - Executes `isDisplayTmpTagsInStrings` behavior.
-- `setDisplayTmpTagsInStrings(boolean displayTmpTagsInStrings)`
+- `setDisplayTmpTagsInStrings(boolean displayTmpTagsInStrings)`: Add description.
   - Executes `setDisplayTmpTagsInStrings` behavior.
-- `getMaxPlayers()`
+- `getMaxPlayers()`: Add description.
   - Executes `getMaxPlayers` behavior.
-- `setMaxPlayers(int maxPlayers)`
+- `setMaxPlayers(int maxPlayers)`: Add description.
   - Executes `setMaxPlayers` behavior.
-- `getMaxViewRadius()`
+- `getMaxViewRadius()`: Add description.
   - Executes `getMaxViewRadius` behavior.
-- `setMaxViewRadius(int maxViewRadius)`
+- `setMaxViewRadius(int maxViewRadius)`: Add description.
   - Executes `setMaxViewRadius` behavior.
-- `isLocalCompressionEnabled()`
+- `isLocalCompressionEnabled()`: Add description.
   - Executes `isLocalCompressionEnabled` behavior.
-- `setLocalCompressionEnabled(boolean localCompression)`
+- `setLocalCompressionEnabled(boolean localCompression)`: Add description.
   - Executes `setLocalCompressionEnabled` behavior.
-- `getDefaults()`
+- `getDefaults()`: Add description.
   - Executes `getDefaults` behavior.
-- `setDefaults(@Nonnull Defaults defaults)`
+- `setDefaults(@Nonnull Defaults defaults)`: Add description.
   - Executes `setDefaults` behavior.
-- `getConnectionTimeouts()`
+- `getConnectionTimeouts()`: Add description.
   - Executes `getConnectionTimeouts` behavior.
-- `setConnectionTimeouts(@Nonnull ConnectionTimeouts connectionTimeouts)`
+- `setConnectionTimeouts(@Nonnull ConnectionTimeouts connectionTimeouts)`: Add description.
   - Executes `setConnectionTimeouts` behavior.
-- `getRateLimitConfig()`
+- `getRateLimitConfig()`: Add description.
   - Executes `getRateLimitConfig` behavior.
-- `setRateLimitConfig(@Nonnull RateLimitConfig rateLimitConfig)`
+- `setRateLimitConfig(@Nonnull RateLimitConfig rateLimitConfig)`: Add description.
   - Executes `setRateLimitConfig` behavior.
-- `getModules()`
+- `getModules()`: Add description.
   - Executes `getModules` behavior.
-- `getModule(String moduleName)`
+- `getModule(String moduleName)`: Add description.
   - Executes `getModule` behavior.
-- `setModules(@Nonnull Map<String, Module> modules)`
+- `setModules(@Nonnull Map<String, Module> modules)`: Add description.
   - Executes `setModules` behavior.
-- `getLogLevels()`
+- `getLogLevels()`: Add description.
   - Executes `getLogLevels` behavior.
-- `setLogLevels(@Nonnull Map<String, Level> logLevels)`
+- `setLogLevels(@Nonnull Map<String, Level> logLevels)`: Add description.
   - Executes `setLogLevels` behavior.
-- `getModConfig()`
+- `getModConfig()`: Add description.
   - Executes `getModConfig` behavior.
-- `setModConfig(@Nonnull Map<PluginIdentifier, ModConfig> modConfig)`
+- `setModConfig(@Nonnull Map<PluginIdentifier, ModConfig> modConfig)`: Add description.
   - Executes `setModConfig` behavior.
-- `getPlayerStorageProvider()`
+- `getPlayerStorageProvider()`: Add description.
   - Executes `getPlayerStorageProvider` behavior.
-- `setPlayerStorageProvider(@Nonnull PlayerStorageProvider playerStorageProvider)`
+- `setPlayerStorageProvider(@Nonnull PlayerStorageProvider playerStorageProvider)`: Add description.
   - Executes `setPlayerStorageProvider` behavior.
-- `getAuthCredentialStoreProvider()`
+- `getAuthCredentialStoreProvider()`: Add description.
   - Executes `getAuthCredentialStoreProvider` behavior.
-- `setAuthCredentialStoreProvider(@Nonnull AuthCredentialStoreProvider provider)`
+- `setAuthCredentialStoreProvider(@Nonnull AuthCredentialStoreProvider provider)`: Add description.
   - Executes `setAuthCredentialStoreProvider` behavior.
-- `removeModule(@Nonnull String module)`
+- `removeModule(@Nonnull String module)`: Add description.
   - Executes `removeModule` behavior.
-- `markChanged()`
+- `markChanged()`: Add description.
   - Executes `markChanged` behavior.
-- `consumeHasChanged()`
+- `consumeHasChanged()`: Add description.
   - Executes `consumeHasChanged` behavior.
-- `load()`
+- `load()`: Add description.
   - Executes `load` behavior.
-- `load(@Nonnull Path path)`
+- `load(@Nonnull Path path)`: Add description.
   - Executes `load` behavior.
-- `save(@Nonnull HytaleServerConfig hytaleServerConfig)`
+- `save(@Nonnull HytaleServerConfig hytaleServerConfig)`: Add description.
   - Executes `save` behavior.
-- `save(@Nonnull Path path, @Nonnull HytaleServerConfig hytaleServerConfig)`
+- `save(@Nonnull Path path, @Nonnull HytaleServerConfig hytaleServerConfig)`: Add description.
   - Executes `save` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `setWorld(String world)`
+- `setWorld(String world)`: Add description.
   - Executes `setWorld` behavior.
-- `getGameMode()`
+- `getGameMode()`: Add description.
   - Executes `getGameMode` behavior.
-- `setGameMode(GameMode gameMode)`
+- `setGameMode(GameMode gameMode)`: Add description.
   - Executes `setGameMode` behavior.
-- `getInitialTimeout()`
+- `getInitialTimeout()`: Add description.
   - Executes `getInitialTimeout` behavior.
-- `setInitialTimeout(Duration initialTimeout)`
+- `setInitialTimeout(Duration initialTimeout)`: Add description.
   - Executes `setInitialTimeout` behavior.
-- `getAuthTimeout()`
+- `getAuthTimeout()`: Add description.
   - Executes `getAuthTimeout` behavior.
-- `setAuthTimeout(Duration authTimeout)`
+- `setAuthTimeout(Duration authTimeout)`: Add description.
   - Executes `setAuthTimeout` behavior.
-- `getPlayTimeout()`
+- `getPlayTimeout()`: Add description.
   - Executes `getPlayTimeout` behavior.
-- `setPlayTimeout(Duration playTimeout)`
+- `setPlayTimeout(Duration playTimeout)`: Add description.
   - Executes `setPlayTimeout` behavior.
-- `getJoinTimeouts()`
+- `getJoinTimeouts()`: Add description.
   - Executes `getJoinTimeouts` behavior.
-- `setJoinTimeouts(Map<String, Duration> joinTimeouts)`
+- `setJoinTimeouts(Map<String, Duration> joinTimeouts)`: Add description.
   - Executes `setJoinTimeouts` behavior.
-- `isEnabled()`
+- `isEnabled()`: Add description.
   - Executes `isEnabled` behavior.
-- `setEnabled(boolean enabled)`
+- `setEnabled(boolean enabled)`: Add description.
   - Executes `setEnabled` behavior.
-- `getPacketsPerSecond()`
+- `getPacketsPerSecond()`: Add description.
   - Executes `getPacketsPerSecond` behavior.
-- `setPacketsPerSecond(int packetsPerSecond)`
+- `setPacketsPerSecond(int packetsPerSecond)`: Add description.
   - Executes `setPacketsPerSecond` behavior.
-- `getBurstCapacity()`
+- `getBurstCapacity()`: Add description.
   - Executes `getBurstCapacity` behavior.
-- `setBurstCapacity(int burstCapacity)`
+- `setBurstCapacity(int burstCapacity)`: Add description.
   - Executes `setBurstCapacity` behavior.
-- `isEnabled(boolean def)`
+- `isEnabled(boolean def)`: Add description.
   - Executes `isEnabled` behavior.
-- `getEnabled()`
+- `getEnabled()`: Add description.
   - Executes `getEnabled` behavior.
-- `getModule(@Nonnull String moduleName)`
+- `getModule(@Nonnull String moduleName)`: Add description.
   - Executes `getModule` behavior.
-- `getDocument()`
+- `getDocument()`: Add description.
   - Executes `getDocument` behavior.
-- `decode(@Nonnull Codec<T> codec)`
+- `decode(@Nonnull Codec<T> codec)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nonnull Codec<T> codec, @Nonnull T t)`
+- `encode(@Nonnull Codec<T> codec, @Nonnull T t)`: Add description.
   - Executes `encode` behavior.
-- `getData(@Nonnull KeyedCodec<T> keyedCodec)`
+- `getData(@Nonnull KeyedCodec<T> keyedCodec)`: Add description.
   - Executes `getData` behavior.
-- `getDataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`
+- `getDataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`: Add description.
   - Executes `getDataOrNull` behavior.
-- `getDataNow(@Nonnull KeyedCodec<T> keyedCodec)`
+- `getDataNow(@Nonnull KeyedCodec<T> keyedCodec)`: Add description.
   - Executes `getDataNow` behavior.
-- `put(@Nonnull KeyedCodec<T> keyedCodec, T t)`
+- `put(@Nonnull KeyedCodec<T> keyedCodec, T t)`: Add description.
   - Executes `put` behavior.
-- `setDocument(@Nonnull BsonDocument document)`
+- `setDocument(@Nonnull BsonDocument document)`: Add description.
   - Executes `setDocument` behavior.
-- `setEnabled(Boolean enabled)`
+- `setEnabled(Boolean enabled)`: Add description.
   - Executes `setEnabled` behavior.
-- `getRequiredVersion()`
+- `getRequiredVersion()`: Add description.
   - Executes `getRequiredVersion` behavior.
-- `setRequiredVersion(SemverRange requiredVersion)`
+- `setRequiredVersion(SemverRange requiredVersion)`: Add description.
   - Executes `setRequiredVersion` behavior.
-- `setBoot(HytaleServerConfig serverConfig, PluginIdentifier identifier, boolean enabled)`
+- `setBoot(HytaleServerConfig serverConfig, PluginIdentifier identifier, boolean enabled)`: Add description.
   - Executes `setBoot` behavior.
 
 ## Notes

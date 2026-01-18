@@ -1,28 +1,28 @@
+**Source Hash:** `81e01cd10cf35526cdce993d0545a7a1ee575a5beadc6f9d8be2876d73b903d4`
+
 # ISpawnableWithModel
 
 ## Overview
-- Documentation for `ISpawnableWithModel`.
-- Declared as a interface in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSpawnModelName(ExecutionContext var1, Scope var2)`
+## Method Descriptions
+- `getSpawnModelName(ExecutionContext var1, Scope var2)`: Add description.
   - Executes `getSpawnModelName` behavior.
-- `createModifierScope(ExecutionContext executionContext)`
+- `createModifierScope(ExecutionContext executionContext)`: Add description.
   - Executes `createModifierScope` behavior.
-- `createExecutionScope()`
+- `createExecutionScope()`: Add description.
   - Executes `createExecutionScope` behavior.
-- `markNeedsReload()`
+- `markNeedsReload()`: Add description.
   - Executes `markNeedsReload` behavior.
-- `isMemory(ExecutionContext var1, @Nullable Scope var2)`
+- `isMemory(ExecutionContext var1, @Nullable Scope var2)`: Add description.
   - Executes `isMemory` behavior.
-- `getMemoriesCategory(ExecutionContext var1, @Nullable Scope var2)`
+- `getMemoriesCategory(ExecutionContext var1, @Nullable Scope var2)`: Add description.
   - Executes `getMemoriesCategory` behavior.
-- `getMemoriesNameOverride(ExecutionContext var1, @Nullable Scope var2)`
+- `getMemoriesNameOverride(ExecutionContext var1, @Nullable Scope var2)`: Add description.
   - Executes `getMemoriesNameOverride` behavior.
-- `getNameTranslationKey(ExecutionContext var1, @Nullable Scope var2)`
+- `getNameTranslationKey(ExecutionContext var1, @Nullable Scope var2)`: Add description.
   - Executes `getNameTranslationKey` behavior.
 
 ## Notes

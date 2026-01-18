@@ -1,121 +1,121 @@
+**Source Hash:** `a545298be8d8e62aa91c0da1eba00d3068c79a36dc7bc274b30804d879286baf`
+
 # PositionCache
 
 ## Overview
-- Documentation for `PositionCache`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role.support`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionCache(@Nonnull Role role)`
   - Creates a `PositionCache` instance.
 
-## Methods
-- `isBenchmarking()`
+## Method Descriptions
+- `isBenchmarking()`: Add description.
   - Executes `isBenchmarking` behavior.
-- `setBenchmarking(boolean benchmarking)`
+- `setBenchmarking(boolean benchmarking)`: Add description.
   - Executes `setBenchmarking` behavior.
-- `setCouldBreathe(boolean couldBreathe)`
+- `setCouldBreathe(boolean couldBreathe)`: Add description.
   - Executes `setCouldBreathe` behavior.
-- `getPlayers()`
+- `getPlayers()`: Add description.
   - Executes `getPlayers` behavior.
-- `getNpcs()`
+- `getNpcs()`: Add description.
   - Executes `getNpcs` behavior.
-- `tickPositionCacheNextUpdate(float dt)`
+- `tickPositionCacheNextUpdate(float dt)`: Add description.
   - Executes `tickPositionCacheNextUpdate` behavior.
-- `resetPositionCacheNextUpdate()`
+- `resetPositionCacheNextUpdate()`: Add description.
   - Executes `resetPositionCacheNextUpdate` behavior.
-- `getMaxDroppedItemDistance()`
+- `getMaxDroppedItemDistance()`: Add description.
   - Executes `getMaxDroppedItemDistance` behavior.
-- `getMaxSpawnMarkerDistance()`
+- `getMaxSpawnMarkerDistance()`: Add description.
   - Executes `getMaxSpawnMarkerDistance` behavior.
-- `getMaxSpawnBeaconDistance()`
+- `getMaxSpawnBeaconDistance()`: Add description.
   - Executes `getMaxSpawnBeaconDistance` behavior.
-- `addExternalPositionCacheRegistration(Consumer<Role> registration)`
+- `addExternalPositionCacheRegistration(Consumer<Role> registration)`: Add description.
   - Executes `addExternalPositionCacheRegistration` behavior.
-- `getExternalRegistrations()`
+- `getExternalRegistrations()`: Add description.
   - Executes `getExternalRegistrations` behavior.
-- `reset(boolean isConfiguring)`
+- `reset(boolean isConfiguring)`: Add description.
   - Executes `reset` behavior.
-- `finalizeConfiguration()`
+- `finalizeConfiguration()`: Add description.
   - Executes `finalizeConfiguration` behavior.
-- `clear(double tickTime)`
+- `clear(double tickTime)`: Add description.
   - Executes `clear` behavior.
-- `couldBreatheCached()`
+- `couldBreatheCached()`: Add description.
   - Executes `couldBreatheCached` behavior.
-- `forEachPlayer(@Nonnull DoubleQuadObjectConsumer<Ref<EntityStore>, T, U, V> consumer, T t, U u, V v, double d, ComponentAccessor<EntityStore> componentAccessor)`
+- `forEachPlayer(@Nonnull DoubleQuadObjectConsumer<Ref<EntityStore>, T, U, V> consumer, T t, U u, V v, double d, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forEachPlayer` behavior.
-- `getClosestPlayerInRange(double minRange, double maxRange, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getClosestPlayerInRange(double minRange, double maxRange, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getClosestPlayerInRange` behavior.
-- `getClosestPlayerInRange(double minRange, double maxRange, @Nonnull Predicate<Ref<EntityStore>> filter, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getClosestPlayerInRange(double minRange, double maxRange, @Nonnull Predicate<Ref<EntityStore>> filter, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getClosestPlayerInRange` behavior.
-- `getClosestNPCInRange(double minRange, double maxRange, @Nonnull Predicate<Ref<EntityStore>> filter, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getClosestNPCInRange(double minRange, double maxRange, @Nonnull Predicate<Ref<EntityStore>> filter, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getClosestNPCInRange` behavior.
-- `processNPCsInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `processNPCsInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `processNPCsInRange` behavior.
-- `processPlayersInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `processPlayersInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `processPlayersInRange` behavior.
-- `processEntitiesInRange(@Nonnull Ref<EntityStore> ref, @Nonnull EntityList entities, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `processEntitiesInRange(@Nonnull Ref<EntityStore> ref, @Nonnull EntityList entities, double minRange, double maxRange, boolean useProjectedDistance, Ref<EntityStore> ignoredEntityReference, @Nonnull Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, T> filter, S s, T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `processEntitiesInRange` behavior.
-- `getClosestDroppedItemInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, ComponentAccessor<EntityStore>> filter, Role role, S s, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getClosestDroppedItemInRange(@Nonnull Ref<EntityStore> ref, double minRange, double maxRange, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, ComponentAccessor<EntityStore>> filter, Role role, S s, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getClosestDroppedItemInRange` behavior.
-- `isEntityCountInRange(double minRange, double maxRange, int minCount, int maxCount, boolean findPlayers, Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, ComponentAccessor<EntityStore>> filter, S s, ComponentAccessor<EntityStore> componentAccessor)`
+- `isEntityCountInRange(double minRange, double maxRange, int minCount, int maxCount, boolean findPlayers, Role role, @Nonnull QuadPredicate<S, Ref<EntityStore>, Role, ComponentAccessor<EntityStore>> filter, S s, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isEntityCountInRange` behavior.
-- `countEntitiesInRange(double minRange, double maxRange, boolean findPlayers, @Nonnull QuadPredicate<S, Ref<EntityStore>, T, ComponentAccessor<EntityStore>> filter, S s, T t, ComponentAccessor<EntityStore> componentAccessor)`
+- `countEntitiesInRange(double minRange, double maxRange, boolean findPlayers, @Nonnull QuadPredicate<S, Ref<EntityStore>, T, ComponentAccessor<EntityStore>> filter, S s, T t, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `countEntitiesInRange` behavior.
-- `requirePlayerDistanceSorted(double v)`
+- `requirePlayerDistanceSorted(double v)`: Add description.
   - Executes `requirePlayerDistanceSorted` behavior.
-- `requirePlayerDistanceUnsorted(double v)`
+- `requirePlayerDistanceUnsorted(double v)`: Add description.
   - Executes `requirePlayerDistanceUnsorted` behavior.
-- `requirePlayerDistanceAvoidance(double v)`
+- `requirePlayerDistanceAvoidance(double v)`: Add description.
   - Executes `requirePlayerDistanceAvoidance` behavior.
-- `requireEntityDistanceSorted(double v)`
+- `requireEntityDistanceSorted(double v)`: Add description.
   - Executes `requireEntityDistanceSorted` behavior.
-- `requireEntityDistanceUnsorted(double v)`
+- `requireEntityDistanceUnsorted(double v)`: Add description.
   - Executes `requireEntityDistanceUnsorted` behavior.
-- `requireEntityDistanceAvoidance(double v)`
+- `requireEntityDistanceAvoidance(double v)`: Add description.
   - Executes `requireEntityDistanceAvoidance` behavior.
-- `requireDroppedItemDistance(double value)`
+- `requireDroppedItemDistance(double value)`: Add description.
   - Executes `requireDroppedItemDistance` behavior.
-- `requireSpawnMarkerDistance(double value)`
+- `requireSpawnMarkerDistance(double value)`: Add description.
   - Executes `requireSpawnMarkerDistance` behavior.
-- `requireSpawnBeaconDistance(int value)`
+- `requireSpawnBeaconDistance(int value)`: Add description.
   - Executes `requireSpawnBeaconDistance` behavior.
-- `getRole()`
+- `getRole()`: Add description.
   - Executes `getRole` behavior.
-- `forEachNPCUnordered(double maxDistance, @Nonnull QuadPredicate<Ref<EntityStore>, T, U, ComponentAccessor<EntityStore>> predicate, @Nonnull QuadConsumer<Ref<EntityStore>, T, V, R> consumer, T t, U u, V v, R r, ComponentAccessor<EntityStore> componentAccessor)`
+- `forEachNPCUnordered(double maxDistance, @Nonnull QuadPredicate<Ref<EntityStore>, T, U, ComponentAccessor<EntityStore>> predicate, @Nonnull QuadConsumer<Ref<EntityStore>, T, V, R> consumer, T t, U u, V v, R r, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forEachNPCUnordered` behavior.
-- `forEachEntityInAvoidanceRange(@Nonnull Set<Ref<EntityStore>> ignoredEntitiesForAvoidance, @Nonnull TriConsumer<Ref<EntityStore>, T, CommandBuffer<EntityStore>> consumer, T t, CommandBuffer<EntityStore> commandBuffer)`
+- `forEachEntityInAvoidanceRange(@Nonnull Set<Ref<EntityStore>> ignoredEntitiesForAvoidance, @Nonnull TriConsumer<Ref<EntityStore>, T, CommandBuffer<EntityStore>> consumer, T t, CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `forEachEntityInAvoidanceRange` behavior.
-- `forEachEntityInAvoidanceRange(@Nonnull Set<Ref<EntityStore>> ignoredEntitiesForAvoidance, @Nonnull QuadConsumer<Ref<EntityStore>, T, U, CommandBuffer<EntityStore>> consumer, T t, U u, CommandBuffer<EntityStore> commandBuffer)`
+- `forEachEntityInAvoidanceRange(@Nonnull Set<Ref<EntityStore>> ignoredEntitiesForAvoidance, @Nonnull QuadConsumer<Ref<EntityStore>, T, U, CommandBuffer<EntityStore>> consumer, T t, U u, CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `forEachEntityInAvoidanceRange` behavior.
-- `setOpaqueBlockSet(int blockSet)`
+- `setOpaqueBlockSet(int blockSet)`: Add description.
   - Executes `setOpaqueBlockSet` behavior.
-- `testLineOfSightRays(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull RayPredicate<T> predicate, @Nonnull T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `testLineOfSightRays(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull RayPredicate<T> predicate, @Nonnull T t, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `testLineOfSightRays` behavior.
-- `hasLineOfSightInternal(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `hasLineOfSightInternal(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `hasLineOfSightInternal` behavior.
-- `hasLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `hasLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `hasLineOfSight` behavior.
-- `hasInverseLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `hasInverseLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `hasInverseLineOfSight` behavior.
-- `isFriendlyBlockingLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `isFriendlyBlockingLineOfSight(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isFriendlyBlockingLineOfSight` behavior.
-- `testLineOfSightEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull LineOfSightEntityBuffer buffer, @Nonnull ComponentAccessor<EntityStore> componentAccessor, double length2)`
+- `testLineOfSightEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull LineOfSightEntityBuffer buffer, @Nonnull ComponentAccessor<EntityStore> componentAccessor, double length2)`: Add description.
   - Executes `testLineOfSightEntity` behavior.
-- `clearLineOfSightCache(double tickTime)`
+- `clearLineOfSightCache(double tickTime)`: Add description.
   - Executes `clearLineOfSightCache` behavior.
-- `clearLineOfSightCache()`
+- `clearLineOfSightCache()`: Add description.
   - Executes `clearLineOfSightCache` behavior.
-- `rayIsIntersectingEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d pos, @Nonnull Vector3d dir, @Nonnull Vector2d minMax, double length2, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `rayIsIntersectingEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d pos, @Nonnull Vector3d dir, @Nonnull Vector2d minMax, double length2, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `rayIsIntersectingEntity` behavior.
-- `getDroppedItemList()`
+- `getDroppedItemList()`: Add description.
   - Executes `getDroppedItemList` behavior.
-- `getSpawnMarkerList()`
+- `getSpawnMarkerList()`: Add description.
   - Executes `getSpawnMarkerList` behavior.
-- `getSpawnBeaconList()`
+- `getSpawnBeaconList()`: Add description.
   - Executes `getSpawnBeaconList` behavior.
-- `clearRefs()`
+- `clearRefs()`: Add description.
   - Executes `clearRefs` behavior.
-- `test(double var1, double var3, double var5, double var7, double var9, double var11, T var13, @Nonnull ComponentAccessor<EntityStore> var14)`
+- `test(double var1, double var3, double var5, double var7, double var9, double var11, T var13, @Nonnull ComponentAccessor<EntityStore> var14)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

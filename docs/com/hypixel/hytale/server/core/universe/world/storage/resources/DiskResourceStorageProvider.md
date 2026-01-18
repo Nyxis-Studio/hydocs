@@ -1,26 +1,26 @@
+**Source Hash:** `592457dfecb408567a583351838059330c68755b9591e8317d5d1552b56a60e3`
+
 # DiskResourceStorageProvider
 
 ## Overview
-- Documentation for `DiskResourceStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage.resources`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPath()`
+## Method Descriptions
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getResourceStorage(@Nonnull World world)`
+- `getResourceStorage(@Nonnull World world)`: Add description.
   - Executes `getResourceStorage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `migrateFiles(@Nonnull World world)`
+- `migrateFiles(@Nonnull World world)`: Add description.
   - Executes `migrateFiles` behavior.
-- `load(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+- `load(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType)`: Add description.
   - Executes `load` behavior.
-- `save(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType, T resource)`
+- `save(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType, T resource)`: Add description.
   - Executes `save` behavior.
-- `remove(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType)`
+- `remove(@Nonnull Store<ECS_TYPE> store, @Nonnull ComponentRegistry.Data<ECS_TYPE> data, @Nonnull ResourceType<ECS_TYPE, T> resourceType)`: Add description.
   - Executes `remove` behavior.
 
 ## Notes

@@ -1,30 +1,30 @@
+**Source Hash:** `ff4e8f9035c339b2868f832b44894d2c89832ef4a2b3e56ca1e7693cb9f312a1`
+
 # ContinuousValueRecorder
 
 ## Overview
-- Documentation for `ContinuousValueRecorder`.
-- Declared as a class in `com.hypixel.hytale.common.benchmark`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `reset()`
+## Method Descriptions
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `getMinValue(double def)`
+- `getMinValue(double def)`: Add description.
   - Executes `getMinValue` behavior.
-- `getMinValue()`
+- `getMinValue()`: Add description.
   - Executes `getMinValue` behavior.
-- `getMaxValue(double def)`
+- `getMaxValue(double def)`: Add description.
   - Executes `getMaxValue` behavior.
-- `getMaxValue()`
+- `getMaxValue()`: Add description.
   - Executes `getMaxValue` behavior.
-- `getCount()`
+- `getCount()`: Add description.
   - Executes `getCount` behavior.
-- `getAverage(double def)`
+- `getAverage(double def)`: Add description.
   - Executes `getAverage` behavior.
-- `getAverage()`
+- `getAverage()`: Add description.
   - Executes `getAverage` behavior.
-- `record(double value)`
+- `record(double value)`: Add description.
   - Executes `record` behavior.
 
 ## Notes

@@ -1,25 +1,25 @@
+**Source Hash:** `56f3297fac36b0b32a9085bfefc76af444fd9ac08757c7e1d81f49430996459c`
+
 # WeighedShader
 
 ## Overview
-- Documentation for `WeighedShader`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.framework.shaders`.
 
-## Constructors
+## Constructor Descriptions
 - `WeighedShader(@Nonnull Shader<T> initialChild, double weight)`
   - Creates a `WeighedShader` instance.
 
-## Methods
-- `add(@Nonnull Shader<T> child, double weight)`
+## Method Descriptions
+- `add(@Nonnull Shader<T> child, double weight)`: Add description.
   - Executes `add` behavior.
-- `setSeed(long seed)`
+- `setSeed(long seed)`: Add description.
   - Executes `setSeed` behavior.
-- `shade(T current, long seed)`
+- `shade(T current, long seed)`: Add description.
   - Executes `shade` behavior.
-- `shade(T current, long seedA, long seedB)`
+- `shade(T current, long seedA, long seedB)`: Add description.
   - Executes `shade` behavior.
-- `shade(T current, long seedA, long seedB, long seedC)`
+- `shade(T current, long seedA, long seedB, long seedC)`: Add description.
   - Executes `shade` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

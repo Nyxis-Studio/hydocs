@@ -1,15 +1,15 @@
+**Source Hash:** `5c92c94211356d98d9a4848f32543d9333350df80ffb6e5076432c153be0e1bd`
+
 # BlockSelectorToolData
 
 ## Overview
-- Documentation for `BlockSelectorToolData`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSelectorToolData()`
   - Creates a `BlockSelectorToolData` instance.
 
-## Methods
-- `getDurabilityLossOnUse()`
+## Method Descriptions
+- `getDurabilityLossOnUse()`: Add description.
   - Executes `getDurabilityLossOnUse` behavior.
 
 ## Notes

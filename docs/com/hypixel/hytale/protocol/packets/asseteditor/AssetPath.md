@@ -1,10 +1,10 @@
+**Source Hash:** `57df0185c898f86479301f8cb33e9e7e0ec6ace97bc96d447545fdf9e0742d8f`
+
 # AssetPath
 
 ## Overview
-- Documentation for `AssetPath`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetPath()`
   - Creates a `AssetPath` instance.
 - `AssetPath(@Nullable String pack, @Nullable String path)`
@@ -12,22 +12,22 @@
 - `AssetPath(@Nonnull AssetPath other)`
   - Creates a `AssetPath` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `23e6b0d73599c54e931d5827971f92489e13f36a128ed9c7d1e6658b7182e56b`
+
 # BuilderActionFlockJoin
 
 ## Overview
-- Documentation for `BuilderActionFlockJoin`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isForceJoin()`
+- `isForceJoin()`: Add description.
   - Executes `isForceJoin` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `568688ed79066dacb59e51194283ebfeaa3a8e7d410a7a6ac976da0ccca24195`
+
 # TileBiome
 
 ## Overview
-- Documentation for `TileBiome`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `TileBiome(int id, String name, BiomeInterpolation interpolation, @Nonnull IHeightThresholdInterpreter heightmapInterpreter, CoverContainer coverContainer, LayerContainer layerContainer, PrefabContainer prefabContainer, TintContainer tintContainer, EnvironmentContainer environmentContainer, WaterContainer waterContainer, FadeContainer fadeContainer, NoiseProperty heightmapNoise, double weight, double sizeModifier, int mapColor)`
   - Creates a `TileBiome` instance.
 
-## Methods
-- `getWeight()`
+## Method Descriptions
+- `getWeight()`: Add description.
   - Executes `getWeight` behavior.
-- `getSizeModifier()`
+- `getSizeModifier()`: Add description.
   - Executes `getSizeModifier` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

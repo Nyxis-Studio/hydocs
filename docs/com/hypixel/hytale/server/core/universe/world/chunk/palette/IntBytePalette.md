@@ -1,10 +1,10 @@
+**Source Hash:** `777c9c12c0f1d8fd73beb592c72ab79b898bddd2e13d33b7d0010a4479ae1e21`
+
 # IntBytePalette
 
 ## Overview
-- Documentation for `IntBytePalette`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `IntBytePalette()`
   - Creates a `IntBytePalette` instance.
 - `IntBytePalette(int aDefault)`
@@ -12,24 +12,24 @@
 - `IntBytePalette(this.keys[this.array.get(0)`
   - Creates a `IntBytePalette` instance.
 
-## Methods
-- `set(int x, int z, int key)`
+## Method Descriptions
+- `set(int x, int z, int key)`: Add description.
   - Executes `set` behavior.
-- `get(int x, int z)`
+- `get(int x, int z)`: Add description.
   - Executes `get` behavior.
-- `contains(int key)`
+- `contains(int key)`: Add description.
   - Executes `contains` behavior.
-- `optimize()`
+- `optimize()`: Add description.
   - Executes `optimize` behavior.
-- `optimize(int index)`
+- `optimize(int index)`: Add description.
   - Executes `optimize` behavior.
-- `serialize(@Nonnull ByteBuf dos)`
+- `serialize(@Nonnull ByteBuf dos)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(@Nonnull ByteBuf dis)`
+- `deserialize(@Nonnull ByteBuf dis)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize()`
+- `serialize()`: Add description.
   - Executes `serialize` behavior.
-- `copyFrom(@Nonnull IntBytePalette other)`
+- `copyFrom(@Nonnull IntBytePalette other)`: Add description.
   - Executes `copyFrom` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `6cc8ac3bcf2cb6bc71caa880a64dcff058fc668509368230374a9cb20ddff1f9`
+
 # ClientType
 
 ## Overview
-- Documentation for `ClientType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.connection`.
 
-## Constructors
+## Constructor Descriptions
 - `ClientType(int value)`
   - Creates a `ClientType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,35 +1,35 @@
+**Source Hash:** `1ac10949f15c2dc47de545f378977c75e1a14998e247a326e85d93abcaae6978`
+
 # BenchRecipeRegistry
 
 ## Overview
-- Documentation for `BenchRecipeRegistry`.
-- Declared as a class in `com.hypixel.hytale.builtin.crafting`.
 
-## Constructors
+## Constructor Descriptions
 - `BenchRecipeRegistry(String benchId)`
   - Creates a `BenchRecipeRegistry` instance.
 
-## Methods
-- `getIncomingRecipesForItem(@Nonnull String itemId)`
+## Method Descriptions
+- `getIncomingRecipesForItem(@Nonnull String itemId)`: Add description.
   - Executes `getIncomingRecipesForItem` behavior.
-- `removeRecipe(@Nonnull String id)`
+- `removeRecipe(@Nonnull String id)`: Add description.
   - Executes `removeRecipe` behavior.
-- `addRecipe(@Nonnull BenchRequirement benchRequirement, @Nonnull CraftingRecipe recipe)`
+- `addRecipe(@Nonnull BenchRequirement benchRequirement, @Nonnull CraftingRecipe recipe)`: Add description.
   - Executes `addRecipe` behavior.
-- `getAllRecipes()`
+- `getAllRecipes()`: Add description.
   - Executes `getAllRecipes` behavior.
-- `getRecipesForCategory(@Nonnull String benchCategoryId)`
+- `getRecipesForCategory(@Nonnull String benchCategoryId)`: Add description.
   - Executes `getRecipesForCategory` behavior.
-- `recompute()`
+- `recompute()`: Add description.
   - Executes `recompute` behavior.
-- `extractMaterialFromRecipes(Set<String> recipes)`
+- `extractMaterialFromRecipes(Set<String> recipes)`: Add description.
   - Executes `extractMaterialFromRecipes` behavior.
-- `isValidCraftingMaterial(@Nonnull ItemStack itemStack)`
+- `isValidCraftingMaterial(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `isValidCraftingMaterial` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

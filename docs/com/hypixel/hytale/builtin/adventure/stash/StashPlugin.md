@@ -1,25 +1,25 @@
+**Source Hash:** `11600eb9c2bee94704362c37e83e9ff84048f1a25ef595a6de6dda41371ebce9`
+
 # StashPlugin
 
 ## Overview
-- Documentation for `StashPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.stash`.
 
-## Constructors
+## Constructor Descriptions
 - `StashPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `StashPlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `stash(@Nonnull ItemContainerState containerState, boolean clearDropList)`
+- `stash(@Nonnull ItemContainerState containerState, boolean clearDropList)`: Add description.
   - Executes `stash` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
 
 ## Notes

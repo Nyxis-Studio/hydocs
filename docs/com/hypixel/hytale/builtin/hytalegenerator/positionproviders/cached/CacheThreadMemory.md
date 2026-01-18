@@ -1,15 +1,15 @@
+**Source Hash:** `cc8144d382c49a6de7736b4dc76a0120a971ba902554cd566523046525635155`
+
 # CacheThreadMemory
 
 ## Overview
-- Documentation for `CacheThreadMemory`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.positionproviders.cached`.
 
-## Constructors
+## Constructor Descriptions
 - `CacheThreadMemory(int size)`
   - Creates a `CacheThreadMemory` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

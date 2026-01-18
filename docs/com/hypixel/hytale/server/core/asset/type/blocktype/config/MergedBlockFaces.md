@@ -1,17 +1,17 @@
+**Source Hash:** `d6af556996491fb25c87ccf8594f3875971a99973bb54b03ca80f136643297aa`
+
 # MergedBlockFaces
 
 ## Overview
-- Documentation for `MergedBlockFaces`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `MergedBlockFaces(BlockFace ... components)`
   - Creates a `MergedBlockFaces` instance.
 
-## Methods
-- `getComponents()`
+## Method Descriptions
+- `getComponents()`: Add description.
   - Executes `getComponents` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

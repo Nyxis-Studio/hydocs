@@ -1,69 +1,69 @@
+**Source Hash:** `22c5fa482a110a2dde39c0170eb7c24560552185277e30bea24f852bb058e563`
+
 # StandardDataSource
 
 ## Overview
-- Documentation for `StandardDataSource`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.datasource`.
 
-## Constructors
+## Constructor Descriptions
 - `StandardDataSource(String packKey, Path rootPath, boolean isImmutable, PluginManifest manifest)`
   - Creates a `StandardDataSource` instance.
 
-## Methods
-- `isInModsDirectory(Path path)`
+## Method Descriptions
+- `isInModsDirectory(Path path)`: Add description.
   - Executes `isInModsDirectory` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `loadRecentModifications()`
+- `loadRecentModifications()`: Add description.
   - Executes `loadRecentModifications` behavior.
-- `saveRecentModifications()`
+- `saveRecentModifications()`: Add description.
   - Executes `saveRecentModifications` behavior.
-- `canAssetPackBeDeleted()`
+- `canAssetPackBeDeleted()`: Add description.
   - Executes `canAssetPackBeDeleted` behavior.
-- `resolveAbsolutePath(Path path)`
+- `resolveAbsolutePath(Path path)`: Add description.
   - Executes `resolveAbsolutePath` behavior.
-- `getFullPathToAssetData(Path assetPath)`
+- `getFullPathToAssetData(Path assetPath)`: Add description.
   - Executes `getFullPathToAssetData` behavior.
-- `getAssetTree()`
+- `getAssetTree()`: Add description.
   - Executes `getAssetTree` behavior.
-- `isImmutable()`
+- `isImmutable()`: Add description.
   - Executes `isImmutable` behavior.
-- `getRootPath()`
+- `getRootPath()`: Add description.
   - Executes `getRootPath` behavior.
-- `getManifest()`
+- `getManifest()`: Add description.
   - Executes `getManifest` behavior.
-- `doesDirectoryExist(Path folderPath)`
+- `doesDirectoryExist(Path folderPath)`: Add description.
   - Executes `doesDirectoryExist` behavior.
-- `createDirectory(Path dirPath, EditorClient editorClient)`
+- `createDirectory(Path dirPath, EditorClient editorClient)`: Add description.
   - Executes `createDirectory` behavior.
-- `deleteDirectory(Path dirPath)`
+- `deleteDirectory(Path dirPath)`: Add description.
   - Executes `deleteDirectory` behavior.
-- `moveDirectory(Path oldDirPath, Path newDirPath)`
+- `moveDirectory(Path oldDirPath, Path newDirPath)`: Add description.
   - Executes `moveDirectory` behavior.
-- `doesAssetExist(Path assetPath)`
+- `doesAssetExist(Path assetPath)`: Add description.
   - Executes `doesAssetExist` behavior.
-- `getAssetBytes(Path assetPath)`
+- `getAssetBytes(Path assetPath)`: Add description.
   - Executes `getAssetBytes` behavior.
-- `updateAsset(Path assetPath, byte[] bytes, EditorClient editorClient)`
+- `updateAsset(Path assetPath, byte[] bytes, EditorClient editorClient)`: Add description.
   - Executes `updateAsset` behavior.
-- `createAsset(Path assetPath, byte[] bytes, EditorClient editorClient)`
+- `createAsset(Path assetPath, byte[] bytes, EditorClient editorClient)`: Add description.
   - Executes `createAsset` behavior.
-- `deleteAsset(Path assetPath, EditorClient editorClient)`
+- `deleteAsset(Path assetPath, EditorClient editorClient)`: Add description.
   - Executes `deleteAsset` behavior.
-- `shouldReloadAssetFromDisk(Path assetPath)`
+- `shouldReloadAssetFromDisk(Path assetPath)`: Add description.
   - Executes `shouldReloadAssetFromDisk` behavior.
-- `getLastModificationTimestamp(Path assetPath)`
+- `getLastModificationTimestamp(Path assetPath)`: Add description.
   - Executes `getLastModificationTimestamp` behavior.
-- `moveAsset(Path oldAssetPath, Path newAssetPath, EditorClient editorClient)`
+- `moveAsset(Path oldAssetPath, Path newAssetPath, EditorClient editorClient)`: Add description.
   - Executes `moveAsset` behavior.
-- `loadAssetTree(Collection<AssetTypeHandler> assetTypes)`
+- `loadAssetTree(Collection<AssetTypeHandler> assetTypes)`: Add description.
   - Executes `loadAssetTree` behavior.
-- `putModifiedAsset(ModifiedAsset modifiedAsset)`
+- `putModifiedAsset(ModifiedAsset modifiedAsset)`: Add description.
   - Executes `putModifiedAsset` behavior.
-- `getRecentlyModifiedAssets()`
+- `getRecentlyModifiedAssets()`: Add description.
   - Executes `getRecentlyModifiedAssets` behavior.
-- `trackEditorFileSave(Path path, String hash)`
+- `trackEditorFileSave(Path path, String hash)`: Add description.
   - Executes `trackEditorFileSave` behavior.
 
 ## Notes

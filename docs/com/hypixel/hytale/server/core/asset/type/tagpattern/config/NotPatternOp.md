@@ -1,16 +1,16 @@
+**Source Hash:** `51eb998ec14d0c9edb77f3460279aa8d5841b5337b3c2dc35e0d7a10f6ea6c2d`
+
 # NotPatternOp
 
 ## Overview
-- Documentation for `NotPatternOp`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.tagpattern.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(Int2ObjectMap<IntSet> tags)`
+## Method Descriptions
+- `test(Int2ObjectMap<IntSet> tags)`: Add description.
   - Executes `test` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

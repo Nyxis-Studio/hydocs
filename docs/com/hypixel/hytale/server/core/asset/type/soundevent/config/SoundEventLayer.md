@@ -1,45 +1,45 @@
+**Source Hash:** `0e1d30f8e2b415ced00cdb37c6b05ac5edd742b4e5fd7e98efdb60c8f9afcf1d`
+
 # SoundEventLayer
 
 ## Overview
-- Documentation for `SoundEventLayer`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.soundevent.config`.
 
-## Constructors
+## Constructor Descriptions
 - `SoundEventLayer(float volume, float startDelay, boolean looping, int probability, float probabilityRerollDelay, RandomSettings randomSettings, String[] files, int roundRobinHistorySize)`
   - Creates a `SoundEventLayer` instance.
 - `SoundEventLayer()`
   - Creates a `SoundEventLayer` instance.
 
-## Methods
-- `getVolume()`
+## Method Descriptions
+- `getVolume()`: Add description.
   - Executes `getVolume` behavior.
-- `getStartDelay()`
+- `getStartDelay()`: Add description.
   - Executes `getStartDelay` behavior.
-- `isLooping()`
+- `isLooping()`: Add description.
   - Executes `isLooping` behavior.
-- `getProbability()`
+- `getProbability()`: Add description.
   - Executes `getProbability` behavior.
-- `getProbabilityRerollDelay()`
+- `getProbabilityRerollDelay()`: Add description.
   - Executes `getProbabilityRerollDelay` behavior.
-- `getRandomSettings()`
+- `getRandomSettings()`: Add description.
   - Executes `getRandomSettings` behavior.
-- `getFiles()`
+- `getFiles()`: Add description.
   - Executes `getFiles` behavior.
-- `getRoundRobinHistorySize()`
+- `getRoundRobinHistorySize()`: Add description.
   - Executes `getRoundRobinHistorySize` behavior.
-- `getHighestNumberOfChannels()`
+- `getHighestNumberOfChannels()`: Add description.
   - Executes `getHighestNumberOfChannels` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getMinVolume()`
+- `getMinVolume()`: Add description.
   - Executes `getMinVolume` behavior.
-- `getMaxVolume()`
+- `getMaxVolume()`: Add description.
   - Executes `getMaxVolume` behavior.
-- `getMinPitch()`
+- `getMinPitch()`: Add description.
   - Executes `getMinPitch` behavior.
-- `getMaxPitch()`
+- `getMaxPitch()`: Add description.
   - Executes `getMaxPitch` behavior.
-- `getMaxStartOffset()`
+- `getMaxStartOffset()`: Add description.
   - Executes `getMaxStartOffset` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `42d8bd315f1e0b496a4a2cc1afc8b68b5c075316160010a8db32266684e4b213`
+
 # ValueStoreValidator
 
 ## Overview
-- Documentation for `ValueStoreValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.valuestore`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `registerValueUsage(@Nonnull ValueUsage usage)`
+## Method Descriptions
+- `registerValueUsage(@Nonnull ValueUsage usage)`: Add description.
   - Executes `registerValueUsage` behavior.
-- `validate(@Nonnull List<String> errors)`
+- `validate(@Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `validateType(@Nonnull ValueStore.Type type, @Nonnull List<String> errors)`
+- `validateType(@Nonnull ValueStore.Type type, @Nonnull List<String> errors)`: Add description.
   - Executes `validateType` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

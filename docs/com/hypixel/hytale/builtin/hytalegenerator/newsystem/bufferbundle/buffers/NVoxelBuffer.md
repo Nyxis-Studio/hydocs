@@ -1,29 +1,29 @@
+**Source Hash:** `04028507ca1e2300d7ede7e5b0de7e495602efbbe8b28c75bec239e80f6c9cb1`
+
 # NVoxelBuffer
 
 ## Overview
-- Documentation for `NVoxelBuffer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers`.
 
-## Constructors
+## Constructor Descriptions
 - `NVoxelBuffer(@Nonnull Class<T> voxelType)`
   - Creates a `NVoxelBuffer` instance.
 
-## Methods
-- `getVoxelContent(@Nonnull Vector3i position)`
+## Method Descriptions
+- `getVoxelContent(@Nonnull Vector3i position)`: Add description.
   - Executes `getVoxelContent` behavior.
-- `getVoxelType()`
+- `getVoxelType()`: Add description.
   - Executes `getVoxelType` behavior.
-- `setVoxelContent(@Nonnull Vector3i position, @Nullable T value)`
+- `setVoxelContent(@Nonnull Vector3i position, @Nullable T value)`: Add description.
   - Executes `setVoxelContent` behavior.
-- `reference(@Nonnull NVoxelBuffer<T> sourceBuffer)`
+- `reference(@Nonnull NVoxelBuffer<T> sourceBuffer)`: Add description.
   - Executes `reference` behavior.
-- `lastReference(@Nonnull NVoxelBuffer<T> sourceBuffer)`
+- `lastReference(@Nonnull NVoxelBuffer<T> sourceBuffer)`: Add description.
   - Executes `lastReference` behavior.
-- `switchFromSingleValueToArray()`
+- `switchFromSingleValueToArray()`: Add description.
   - Executes `switchFromSingleValueToArray` behavior.
-- `dereference()`
+- `dereference()`: Add description.
   - Executes `dereference` behavior.
-- `index(@Nonnull Vector3i position)`
+- `index(@Nonnull Vector3i position)`: Add description.
   - Executes `index` behavior.
 
 ## Notes

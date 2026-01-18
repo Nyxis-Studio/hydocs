@@ -1,89 +1,89 @@
+**Source Hash:** `08bdc414afbc1a1606b9ef5d6d3adbb68520ecec3f05ab32f0c5611371905a03`
+
 # SpawningContext
 
 ## Overview
-- Documentation for `SpawningContext`.
-- Declared as a class in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawningContext()`
   - Creates a `SpawningContext` instance.
 
-## Methods
-- `setSpawnable(@Nonnull ISpawnableWithModel spawnable)`
+## Method Descriptions
+- `setSpawnable(@Nonnull ISpawnableWithModel spawnable)`: Add description.
   - Executes `setSpawnable` behavior.
-- `setSpawnable(@Nonnull ISpawnableWithModel spawnable, boolean maxScale)`
+- `setSpawnable(@Nonnull ISpawnableWithModel spawnable, boolean maxScale)`: Add description.
   - Executes `setSpawnable` behavior.
-- `setModel(@Nullable String modelName, boolean maxScale)`
+- `setModel(@Nullable String modelName, boolean maxScale)`: Add description.
   - Executes `setModel` behavior.
-- `clearModel()`
+- `clearModel()`: Add description.
   - Executes `clearModel` behavior.
-- `newModel()`
+- `newModel()`: Add description.
   - Executes `newModel` behavior.
-- `getModel()`
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `setChunk(@Nonnull WorldChunk worldChunk, int environmentIndex)`
+- `setChunk(@Nonnull WorldChunk worldChunk, int environmentIndex)`: Add description.
   - Executes `setChunk` behavior.
-- `setColumn(int x, int z, int yHint, @Nonnull int[] yRange)`
+- `setColumn(int x, int z, int yHint, @Nonnull int[] yRange)`: Add description.
   - Executes `setColumn` behavior.
-- `setColumn(int x, int z, int yHint, @Nonnull int[] yRange, @Nonnull SuppressionSpanHelper suppressionHelper)`
+- `setColumn(int x, int z, int yHint, @Nonnull int[] yRange, @Nonnull SuppressionSpanHelper suppressionHelper)`: Add description.
   - Executes `setColumn` behavior.
-- `setColumn(int x, int z, @Nonnull SuppressionSpanHelper suppressionHelper)`
+- `setColumn(int x, int z, @Nonnull SuppressionSpanHelper suppressionHelper)`: Add description.
   - Executes `setColumn` behavior.
-- `getModifierScope()`
+- `getModifierScope()`: Add description.
   - Executes `getModifierScope` behavior.
-- `set(@Nonnull World world, double x, double y, double z)`
+- `set(@Nonnull World world, double x, double y, double z)`: Add description.
   - Executes `set` behavior.
-- `deleteCurrentSpawnSpan()`
+- `deleteCurrentSpawnSpan()`: Add description.
   - Executes `deleteCurrentSpawnSpan` behavior.
-- `selectRandomSpawnSpan()`
+- `selectRandomSpawnSpan()`: Add description.
   - Executes `selectRandomSpawnSpan` behavior.
-- `selectSpawnSpan(int index)`
+- `selectSpawnSpan(int index)`: Add description.
   - Executes `selectSpawnSpan` behavior.
-- `splitRangeToSpawnSpans(int min, int max)`
+- `splitRangeToSpawnSpans(int min, int max)`: Add description.
   - Executes `splitRangeToSpawnSpans` behavior.
-- `addSpawnSpan(int top, int span, int groundLevel, int waterLevel)`
+- `addSpawnSpan(int top, int span, int groundLevel, int waterLevel)`: Add description.
   - Executes `addSpawnSpan` behavior.
-- `isSpawnSpanBlock(int x, int y, int z)`
+- `isSpawnSpanBlock(int x, int y, int z)`: Add description.
   - Executes `isSpawnSpanBlock` behavior.
-- `commonInit()`
+- `commonInit()`: Add description.
   - Executes `commonInit` behavior.
-- `canSpawn(boolean testOverlapBlocks, boolean testOverlapEntities)`
+- `canSpawn(boolean testOverlapBlocks, boolean testOverlapEntities)`: Add description.
   - Executes `canSpawn` behavior.
-- `canSpawn()`
+- `canSpawn()`: Add description.
   - Executes `canSpawn` behavior.
-- `intersectsEntity()`
+- `intersectsEntity()`: Add description.
   - Executes `intersectsEntity` behavior.
-- `intersectsBlock()`
+- `intersectsBlock()`: Add description.
   - Executes `intersectsBlock` behavior.
-- `isWaterBlock(int fluidId)`
+- `isWaterBlock(int fluidId)`: Add description.
   - Executes `isWaterBlock` behavior.
-- `getWaterLevel()`
+- `getWaterLevel()`: Add description.
   - Executes `getWaterLevel` behavior.
-- `getAirHeight()`
+- `getAirHeight()`: Add description.
   - Executes `getAirHeight` behavior.
-- `isInsideSpan(double y)`
+- `isInsideSpan(double y)`: Add description.
   - Executes `isInsideSpan` behavior.
-- `isInWater(float minDepth)`
+- `isInWater(float minDepth)`: Add description.
   - Executes `isInWater` behavior.
-- `isOnSolidGround()`
+- `isOnSolidGround()`: Add description.
   - Executes `isOnSolidGround` behavior.
-- `isInAir(double height)`
+- `isInAir(double height)`: Add description.
   - Executes `isInAir` behavior.
-- `validatePosition(int invalidMaterials)`
+- `validatePosition(int invalidMaterials)`: Add description.
   - Executes `validatePosition` behavior.
-- `canBreathe(boolean breathesInAir, boolean breathesInWater)`
+- `canBreathe(boolean breathesInAir, boolean breathesInWater)`: Add description.
   - Executes `canBreathe` behavior.
-- `release()`
+- `release()`: Add description.
   - Executes `release` behavior.
-- `releaseFull()`
+- `releaseFull()`: Add description.
   - Executes `releaseFull` behavior.
-- `getExecutionContext()`
+- `getExecutionContext()`: Add description.
   - Executes `getExecutionContext` behavior.
-- `newPosition()`
+- `newPosition()`: Add description.
   - Executes `newPosition` behavior.
-- `newRotation()`
+- `newRotation()`: Add description.
   - Executes `newRotation` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

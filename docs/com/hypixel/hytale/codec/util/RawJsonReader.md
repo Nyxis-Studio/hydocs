@@ -1,10 +1,10 @@
+**Source Hash:** `daeed4d96eb6a9eb65e0e0d531c2983086e154d26de8ef0a23cd19742cee256c`
+
 # RawJsonReader
 
 ## Overview
-- Documentation for `RawJsonReader`.
-- Declared as a class in `com.hypixel.hytale.codec.util`.
 
-## Constructors
+## Constructor Descriptions
 - `RawJsonReader(@Nonnull char[] preFilledBuffer)`
   - Creates a `RawJsonReader` instance.
 - `RawJsonReader(Reader in, @Nonnull char[] buffer)`
@@ -14,196 +14,196 @@
 - `RawJsonReader(buffer)`
   - Creates a `RawJsonReader` instance.
 
-## Methods
-- `getBuffer()`
+## Method Descriptions
+- `getBuffer()`: Add description.
   - Executes `getBuffer` behavior.
-- `getBufferIndex()`
+- `getBufferIndex()`: Add description.
   - Executes `getBufferIndex` behavior.
-- `getBufferSize()`
+- `getBufferSize()`: Add description.
   - Executes `getBufferSize` behavior.
-- `getLine()`
+- `getLine()`: Add description.
   - Executes `getLine` behavior.
-- `getColumn()`
+- `getColumn()`: Add description.
   - Executes `getColumn` behavior.
-- `ensure()`
+- `ensure()`: Add description.
   - Executes `ensure` behavior.
-- `ensure(int n)`
+- `ensure(int n)`: Add description.
   - Executes `ensure` behavior.
-- `fill()`
+- `fill()`: Add description.
   - Executes `fill` behavior.
-- `peek()`
+- `peek()`: Add description.
   - Executes `peek` behavior.
-- `peek(int n)`
+- `peek(int n)`: Add description.
   - Executes `peek` behavior.
-- `read()`
+- `read()`: Add description.
   - Executes `read` behavior.
-- `skip(long skip)`
+- `skip(long skip)`: Add description.
   - Executes `skip` behavior.
-- `findOffset(char value)`
+- `findOffset(char value)`: Add description.
   - Executes `findOffset` behavior.
-- `findOffset(int start, char value)`
+- `findOffset(int start, char value)`: Add description.
   - Executes `findOffset` behavior.
-- `skipOrThrow(long n)`
+- `skipOrThrow(long n)`: Add description.
   - Executes `skipOrThrow` behavior.
-- `ready()`
+- `ready()`: Add description.
   - Executes `ready` behavior.
-- `markSupported()`
+- `markSupported()`: Add description.
   - Executes `markSupported` behavior.
-- `mark(int readAheadLimit)`
+- `mark(int readAheadLimit)`: Add description.
   - Executes `mark` behavior.
-- `isMarked()`
+- `isMarked()`: Add description.
   - Executes `isMarked` behavior.
-- `mark()`
+- `mark()`: Add description.
   - Executes `mark` behavior.
-- `unmark()`
+- `unmark()`: Add description.
   - Executes `unmark` behavior.
-- `getMarkDistance()`
+- `getMarkDistance()`: Add description.
   - Executes `getMarkDistance` behavior.
-- `cloneMark()`
+- `cloneMark()`: Add description.
   - Executes `cloneMark` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `close()`
+- `close()`: Add description.
   - Executes `close` behavior.
-- `closeAndTakeBuffer()`
+- `closeAndTakeBuffer()`: Add description.
   - Executes `closeAndTakeBuffer` behavior.
-- `peekFor(char consume)`
+- `peekFor(char consume)`: Add description.
   - Executes `peekFor` behavior.
-- `tryConsume(char consume)`
+- `tryConsume(char consume)`: Add description.
   - Executes `tryConsume` behavior.
-- `tryConsumeString(@Nonnull String str)`
+- `tryConsumeString(@Nonnull String str)`: Add description.
   - Executes `tryConsumeString` behavior.
-- `tryConsume(@Nonnull String str)`
+- `tryConsume(@Nonnull String str)`: Add description.
   - Executes `tryConsume` behavior.
-- `tryConsume(@Nonnull String str, int start)`
+- `tryConsume(@Nonnull String str, int start)`: Add description.
   - Executes `tryConsume` behavior.
-- `tryConsumeSome(@Nonnull String str, int start)`
+- `tryConsumeSome(@Nonnull String str, int start)`: Add description.
   - Executes `tryConsumeSome` behavior.
-- `expect(char expect)`
+- `expect(char expect)`: Add description.
   - Executes `expect` behavior.
-- `expect(@Nonnull String str, int start)`
+- `expect(@Nonnull String str, int start)`: Add description.
   - Executes `expect` behavior.
-- `tryConsumeOrExpect(char consume, char expect)`
+- `tryConsumeOrExpect(char consume, char expect)`: Add description.
   - Executes `tryConsumeOrExpect` behavior.
-- `consumeWhiteSpace()`
+- `consumeWhiteSpace()`: Add description.
   - Executes `consumeWhiteSpace` behavior.
-- `consumeIgnoreCase(@Nonnull String str, int start)`
+- `consumeIgnoreCase(@Nonnull String str, int start)`: Add description.
   - Executes `consumeIgnoreCase` behavior.
-- `readString()`
+- `readString()`: Add description.
   - Executes `readString` behavior.
-- `readRemainingString()`
+- `readRemainingString()`: Add description.
   - Executes `readRemainingString` behavior.
-- `skipString()`
+- `skipString()`: Add description.
   - Executes `skipString` behavior.
-- `skipRemainingString()`
+- `skipRemainingString()`: Add description.
   - Executes `skipRemainingString` behavior.
-- `readStringPartAsLong(int count)`
+- `readStringPartAsLong(int count)`: Add description.
   - Executes `readStringPartAsLong` behavior.
-- `readStringPartAsLongSlow(int count)`
+- `readStringPartAsLongSlow(int count)`: Add description.
   - Executes `readStringPartAsLongSlow` behavior.
-- `readStringPartAsLongUnsafe(int count)`
+- `readStringPartAsLongUnsafe(int count)`: Add description.
   - Executes `readStringPartAsLongUnsafe` behavior.
-- `readBooleanValue()`
+- `readBooleanValue()`: Add description.
   - Executes `readBooleanValue` behavior.
-- `skipBooleanValue()`
+- `skipBooleanValue()`: Add description.
   - Executes `skipBooleanValue` behavior.
-- `readNullValue()`
+- `readNullValue()`: Add description.
   - Executes `readNullValue` behavior.
-- `skipNullValue()`
+- `skipNullValue()`: Add description.
   - Executes `skipNullValue` behavior.
-- `readDoubleValue()`
+- `readDoubleValue()`: Add description.
   - Executes `readDoubleValue` behavior.
-- `skipDoubleValue()`
+- `skipDoubleValue()`: Add description.
   - Executes `skipDoubleValue` behavior.
-- `readFloatValue()`
+- `readFloatValue()`: Add description.
   - Executes `readFloatValue` behavior.
-- `skipFloatValue()`
+- `skipFloatValue()`: Add description.
   - Executes `skipFloatValue` behavior.
-- `readLongValue()`
+- `readLongValue()`: Add description.
   - Executes `readLongValue` behavior.
-- `readLongValue(int radix)`
+- `readLongValue(int radix)`: Add description.
   - Executes `readLongValue` behavior.
-- `skipLongValue()`
+- `skipLongValue()`: Add description.
   - Executes `skipLongValue` behavior.
-- `skipLongValue(int radix)`
+- `skipLongValue(int radix)`: Add description.
   - Executes `skipLongValue` behavior.
-- `readIntValue()`
+- `readIntValue()`: Add description.
   - Executes `readIntValue` behavior.
-- `readIntValue(int radix)`
+- `readIntValue(int radix)`: Add description.
   - Executes `readIntValue` behavior.
-- `readByteValue()`
+- `readByteValue()`: Add description.
   - Executes `readByteValue` behavior.
-- `readByteValue(int radix)`
+- `readByteValue(int radix)`: Add description.
   - Executes `readByteValue` behavior.
-- `skipIntValue()`
+- `skipIntValue()`: Add description.
   - Executes `skipIntValue` behavior.
-- `skipIntValue(int radix)`
+- `skipIntValue(int radix)`: Add description.
   - Executes `skipIntValue` behavior.
-- `skipObject()`
+- `skipObject()`: Add description.
   - Executes `skipObject` behavior.
-- `skipObjectContinued()`
+- `skipObjectContinued()`: Add description.
   - Executes `skipObjectContinued` behavior.
-- `skipArray()`
+- `skipArray()`: Add description.
   - Executes `skipArray` behavior.
-- `skipArrayContinued()`
+- `skipArrayContinued()`: Add description.
   - Executes `skipArrayContinued` behavior.
-- `skipValue()`
+- `skipValue()`: Add description.
   - Executes `skipValue` behavior.
-- `unexpectedEOF()`
+- `unexpectedEOF()`: Add description.
   - Executes `unexpectedEOF` behavior.
-- `unexpectedChar(char read)`
+- `unexpectedChar(char read)`: Add description.
   - Executes `unexpectedChar` behavior.
-- `expecting(char read, char expect)`
+- `expecting(char read, char expect)`: Add description.
   - Executes `expecting` behavior.
-- `expecting(char read, String expected)`
+- `expecting(char read, String expected)`: Add description.
   - Executes `expecting` behavior.
-- `expectingWhile(char read, String expected, String reason)`
+- `expectingWhile(char read, String expected, String reason)`: Add description.
   - Executes `expectingWhile` behavior.
-- `expecting(char read, @Nonnull String expected, int index)`
+- `expecting(char read, @Nonnull String expected, int index)`: Add description.
   - Executes `expecting` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `findLineStart(int index)`
+- `findLineStart(int index)`: Add description.
   - Executes `findLineStart` behavior.
-- `appendLine(@Nonnull StringBuilder sb, int index, int lineNumber)`
+- `appendLine(@Nonnull StringBuilder sb, int index, int lineNumber)`: Add description.
   - Executes `appendLine` behavior.
-- `appendProblemLine(@Nonnull StringBuilder sb, int index, int lineNumber)`
+- `appendProblemLine(@Nonnull StringBuilder sb, int index, int lineNumber)`: Add description.
   - Executes `appendProblemLine` behavior.
-- `fromRawString(String str)`
+- `fromRawString(String str)`: Add description.
   - Executes `fromRawString` behavior.
-- `fromJsonString(@Nonnull String str)`
+- `fromJsonString(@Nonnull String str)`: Add description.
   - Executes `fromJsonString` behavior.
-- `fromPath(@Nonnull Path path, @Nonnull char[] buffer)`
+- `fromPath(@Nonnull Path path, @Nonnull char[] buffer)`: Add description.
   - Executes `fromPath` behavior.
-- `fromBuffer(@Nonnull char[] buffer)`
+- `fromBuffer(@Nonnull char[] buffer)`: Add description.
   - Executes `fromBuffer` behavior.
-- `equalsIgnoreCase(char c1, char c2)`
+- `equalsIgnoreCase(char c1, char c2)`: Add description.
   - Executes `equalsIgnoreCase` behavior.
-- `readBsonDocument(@Nonnull RawJsonReader reader)`
+- `readBsonDocument(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `readBsonDocument` behavior.
-- `readBsonDocument0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`
+- `readBsonDocument0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`: Add description.
   - Executes `readBsonDocument0` behavior.
-- `readBsonArray(@Nonnull RawJsonReader reader)`
+- `readBsonArray(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `readBsonArray` behavior.
-- `readBsonArray0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`
+- `readBsonArray0(@Nonnull RawJsonReader reader, @Nonnull StringBuilder sb)`: Add description.
   - Executes `readBsonArray0` behavior.
-- `readBsonValue(@Nonnull RawJsonReader reader)`
+- `readBsonValue(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `readBsonValue` behavior.
-- `seekToKey(@Nonnull RawJsonReader reader, @Nonnull String search)`
+- `seekToKey(@Nonnull RawJsonReader reader, @Nonnull String search)`: Add description.
   - Executes `seekToKey` behavior.
-- `seekToKeyFromObjectStart(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`
+- `seekToKeyFromObjectStart(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`: Add description.
   - Executes `seekToKeyFromObjectStart` behavior.
-- `seekToKeyFromObjectContinued(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`
+- `seekToKeyFromObjectContinued(@Nonnull RawJsonReader reader, @Nonnull String search1, @Nonnull String search2)`: Add description.
   - Executes `seekToKeyFromObjectContinued` behavior.
-- `validateBsonDocument(@Nonnull RawJsonReader reader)`
+- `validateBsonDocument(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `validateBsonDocument` behavior.
-- `validateBsonArray(@Nonnull RawJsonReader reader)`
+- `validateBsonArray(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `validateBsonArray` behavior.
-- `validateBsonValue(@Nonnull RawJsonReader reader)`
+- `validateBsonValue(@Nonnull RawJsonReader reader)`: Add description.
   - Executes `validateBsonValue` behavior.
-- `readSync(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`
+- `readSync(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`: Add description.
   - Executes `readSync` behavior.
-- `readSyncWithBak(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`
+- `readSyncWithBak(@Nonnull Path path, @Nonnull Codec<T> codec, @Nonnull HytaleLogger logger)`: Add description.
   - Executes `readSyncWithBak` behavior.
 
 ## Notes

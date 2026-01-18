@@ -1,10 +1,10 @@
+**Source Hash:** `5658ac4ecf750f86652704ea074f9de081e55ed7d672e4d08c1862f04d3f9b1c`
+
 # AmbienceFXConditions
 
 ## Overview
-- Documentation for `AmbienceFXConditions`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXConditions()`
   - Creates a `AmbienceFXConditions` instance.
 - `AmbienceFXConditions(boolean never, @Nullable int[] environmentIndices, @Nullable int[] weatherIndices, @Nullable int[] fluidFXIndices, int environmentTagPatternIndex, int weatherTagPatternIndex, @Nullable AmbienceFXBlockSoundSet[] surroundingBlockSoundSets, @Nullable Range altitude, @Nullable Rangeb walls, boolean roof, int roofMaterialTagPatternIndex, boolean floor, @Nullable Rangeb sunLightLevel, @Nullable Rangeb torchLightLevel, @Nullable Rangeb globalLightLevel, @Nullable Rangef dayTime)`
@@ -12,22 +12,22 @@
 - `AmbienceFXConditions(@Nonnull AmbienceFXConditions other)`
   - Creates a `AmbienceFXConditions` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

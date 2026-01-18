@@ -1,19 +1,19 @@
+**Source Hash:** `265b76902cc6cf6076b16a4e46802c12c8eefeacb717507db523d0418296069b`
+
 # StatePair
 
 ## Overview
-- Documentation for `StatePair`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `StatePair(String fullStateName, int state, int subState)`
   - Creates a `StatePair` instance.
 
-## Methods
-- `getFullStateName()`
+## Method Descriptions
+- `getFullStateName()`: Add description.
   - Executes `getFullStateName` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `getSubState()`
+- `getSubState()`: Add description.
   - Executes `getSubState` behavior.
 
 ## Notes

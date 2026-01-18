@@ -1,27 +1,27 @@
+**Source Hash:** `de24f4e471cc5e09bb37bf1f7402fdc68eb9261771e78c3c3f823e37f51984cc`
+
 # SemverComparator
 
 ## Overview
-- Documentation for `SemverComparator`.
-- Declared as a class in `com.hypixel.hytale.common.semver`.
 
-## Constructors
+## Constructor Descriptions
 - `SemverComparator(ComparisonType comparisonType, Semver compareTo)`
   - Creates a `SemverComparator` instance.
 - `SemverComparator(comparisonType, semver)`
   - Creates a `SemverComparator` instance.
 
-## Methods
-- `satisfies(Semver semver)`
+## Method Descriptions
+- `satisfies(Semver semver)`: Add description.
   - Executes `satisfies` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `fromString(String str)`
+- `fromString(String str)`: Add description.
   - Executes `fromString` behavior.
-- `getPrefix()`
+- `getPrefix()`: Add description.
   - Executes `getPrefix` behavior.
-- `satisfies(Semver compareTo, Semver semver)`
+- `satisfies(Semver compareTo, Semver semver)`: Add description.
   - Executes `satisfies` behavior.
-- `hasAPrefix(@Nonnull String range)`
+- `hasAPrefix(@Nonnull String range)`: Add description.
   - Executes `hasAPrefix` behavior.
 
 ## Notes

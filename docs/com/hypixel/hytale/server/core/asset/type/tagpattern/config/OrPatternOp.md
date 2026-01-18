@@ -1,18 +1,18 @@
+**Source Hash:** `00997be646cc8cbc35bc72276f304cef5278871c6733db5740996d43f89eb0c8`
+
 # OrPatternOp
 
 ## Overview
-- Documentation for `OrPatternOp`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.tagpattern.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(Int2ObjectMap<IntSet> tags)`
+## Method Descriptions
+- `test(Int2ObjectMap<IntSet> tags)`: Add description.
   - Executes `test` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

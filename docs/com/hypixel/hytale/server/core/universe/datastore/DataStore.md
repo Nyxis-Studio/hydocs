@@ -1,28 +1,28 @@
+**Source Hash:** `981f673807f073544f96f0cd0c32d18057ce1e5929972574aa59c9adb741919c`
+
 # DataStore
 
 ## Overview
-- Documentation for `DataStore`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.datastore`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `load(String var1)`
+- `load(String var1)`: Add description.
   - Executes `load` behavior.
-- `save(String var1, T var2)`
+- `save(String var1, T var2)`: Add description.
   - Executes `save` behavior.
-- `remove(String var1)`
+- `remove(String var1)`: Add description.
   - Executes `remove` behavior.
-- `list()`
+- `list()`: Add description.
   - Executes `list` behavior.
-- `loadAll()`
+- `loadAll()`: Add description.
   - Executes `loadAll` behavior.
-- `saveAll(@Nonnull Map<String, T> objectsToSave)`
+- `saveAll(@Nonnull Map<String, T> objectsToSave)`: Add description.
   - Executes `saveAll` behavior.
-- `removeAll()`
+- `removeAll()`: Add description.
   - Executes `removeAll` behavior.
 
 ## Notes

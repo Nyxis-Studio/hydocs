@@ -1,10 +1,10 @@
+**Source Hash:** `ab9a3305567116668f6f576e0a0b041b16c1977d2139c2d0a3a2fc9dae7d9ed9`
+
 # BuilderExpressionStaticBooleanArray
 
 ## Overview
-- Documentation for `BuilderExpressionStaticBooleanArray`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.expression`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderExpressionStaticBooleanArray(ArrayUtil.EMPTY_BOOLEAN_ARRAY)`
   - Creates a `BuilderExpressionStaticBooleanArray` instance.
 - `BuilderExpressionStaticBooleanArray(boolean[] array)`
@@ -12,18 +12,18 @@
 - `BuilderExpressionStaticBooleanArray(array)`
   - Creates a `BuilderExpressionStaticBooleanArray` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `isStatic()`
+- `isStatic()`: Add description.
   - Executes `isStatic` behavior.
-- `getBooleanArray(ExecutionContext executionContext)`
+- `getBooleanArray(ExecutionContext executionContext)`: Add description.
   - Executes `getBooleanArray` behavior.
-- `addToScope(String name, @Nonnull StdScope scope)`
+- `addToScope(String name, @Nonnull StdScope scope)`: Add description.
   - Executes `addToScope` behavior.
-- `updateScope(@Nonnull StdScope scope, String name, ExecutionContext executionContext)`
+- `updateScope(@Nonnull StdScope scope, String name, ExecutionContext executionContext)`: Add description.
   - Executes `updateScope` behavior.
-- `fromJSON(@Nonnull JsonArray jsonArray)`
+- `fromJSON(@Nonnull JsonArray jsonArray)`: Add description.
   - Executes `fromJSON` behavior.
 
 ## Notes

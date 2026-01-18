@@ -1,18 +1,18 @@
+**Source Hash:** `e4a5e3af1a282ec87e05ab6f530a4714e8fe3bd15619be4b0327f7d91ea4fcc0`
+
 # BuilderActionTimerStop
 
 ## Overview
-- Documentation for `BuilderActionTimerStop`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
 
 ## Notes

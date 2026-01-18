@@ -1,17 +1,17 @@
+**Source Hash:** `b5d293e8cc95bc5e68bb176ffac0d2818fda52743a4435559bc5435081b770c1`
+
 # BlockSoundEvent
 
 ## Overview
-- Documentation for `BlockSoundEvent`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSoundEvent(int value)`
   - Creates a `BlockSoundEvent` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

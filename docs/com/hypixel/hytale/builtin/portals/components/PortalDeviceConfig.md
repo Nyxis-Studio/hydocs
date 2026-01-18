@@ -1,24 +1,24 @@
+**Source Hash:** `8640df0e61c49ae8c4fab0dfd7704b795a7bcf9167ac5be80b376d084156b31d`
+
 # PortalDeviceConfig
 
 ## Overview
-- Documentation for `PortalDeviceConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.components`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getOnState()`
+## Method Descriptions
+- `getOnState()`: Add description.
   - Executes `getOnState` behavior.
-- `getSpawningState()`
+- `getSpawningState()`: Add description.
   - Executes `getSpawningState` behavior.
-- `getOffState()`
+- `getOffState()`: Add description.
   - Executes `getOffState` behavior.
-- `getReturnBlock()`
+- `getReturnBlock()`: Add description.
   - Executes `getReturnBlock` behavior.
-- `getBlockStates()`
+- `getBlockStates()`: Add description.
   - Executes `getBlockStates` behavior.
-- `areBlockStatesValid(BlockType baseBlockType)`
+- `areBlockStatesValid(BlockType baseBlockType)`: Add description.
   - Executes `areBlockStatesValid` behavior.
 
 ## Notes

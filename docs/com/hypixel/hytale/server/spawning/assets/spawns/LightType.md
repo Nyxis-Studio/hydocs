@@ -1,14 +1,14 @@
+**Source Hash:** `46a6bcf59488c9b5921f06742ab79472c030596c6a0d0157ffd8615a17ab7564`
+
 # LightType
 
 ## Overview
-- Documentation for `LightType`.
-- Declared as a enum in `com.hypixel.hytale.server.spawning.assets.spawns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,10 +1,10 @@
+**Source Hash:** `d894c1d666fa7e5d80df7907aca33b6dbf6e63992e19cb37c5f17e1d9799a9c6`
+
 # PrefabWeights
 
 ## Overview
-- Documentation for `PrefabWeights`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabWeights(Object2DoubleMaps.emptyMap()`
   - Creates a `PrefabWeights` instance.
 - `PrefabWeights()`
@@ -14,34 +14,34 @@
 - `PrefabWeights(map)`
   - Creates a `PrefabWeights` instance.
 
-## Methods
-- `size()`
+## Method Descriptions
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc, @Nonnull Random random)`
+- `get(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc, @Nonnull Random random)`: Add description.
   - Executes `get` behavior.
-- `get(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc, double value)`
+- `get(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc, double value)`: Add description.
   - Executes `get` behavior.
-- `getWeight(String prefab)`
+- `getWeight(String prefab)`: Add description.
   - Executes `getWeight` behavior.
-- `setWeight(String prefab, double weight)`
+- `setWeight(String prefab, double weight)`: Add description.
   - Executes `setWeight` behavior.
-- `removeWeight(String prefab)`
+- `removeWeight(String prefab)`: Add description.
   - Executes `removeWeight` behavior.
-- `getDefaultWeight()`
+- `getDefaultWeight()`: Add description.
   - Executes `getDefaultWeight` behavior.
-- `setDefaultWeight(double defaultWeight)`
+- `setDefaultWeight(double defaultWeight)`: Add description.
   - Executes `setDefaultWeight` behavior.
-- `getMappingString()`
+- `getMappingString()`: Add description.
   - Executes `getMappingString` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `initialize(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc)`
+- `initialize(@Nonnull T[] elements, @Nonnull Function<T, String> nameFunc)`: Add description.
   - Executes `initialize` behavior.
-- `parse(@Nonnull String mappingString)`
+- `parse(@Nonnull String mappingString)`: Add description.
   - Executes `parse` behavior.
-- `checkWeight(String prefab, double weight)`
+- `checkWeight(String prefab, double weight)`: Add description.
   - Executes `checkWeight` behavior.
-- `accept(@Nonnull Object2DoubleMap<String> stringObject2DoubleMap, ValidationResults results)`
+- `accept(@Nonnull Object2DoubleMap<String> stringObject2DoubleMap, ValidationResults results)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

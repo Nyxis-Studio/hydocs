@@ -1,17 +1,17 @@
+**Source Hash:** `e353f34518c0dc9c6a919367c343c5a7fc7c59b28f5b46ff245118f090f078b2`
+
 # AttachedToType
 
 ## Overview
-- Documentation for `AttachedToType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AttachedToType(int value)`
   - Creates a `AttachedToType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

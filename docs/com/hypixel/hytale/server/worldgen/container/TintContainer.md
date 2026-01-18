@@ -1,19 +1,19 @@
+**Source Hash:** `fa7a134e19ad59aac673332575471a7c656dcfd8f76b2898b6ac1aad23165ae6`
+
 # TintContainer
 
 ## Overview
-- Documentation for `TintContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `TintContainer(DefaultTintContainerEntry defaultEntry, List<TintContainerEntry> entries)`
   - Creates a `TintContainer` instance.
 
-## Methods
-- `getTintColorAt(int seed, int x, int z)`
+## Method Descriptions
+- `getTintColorAt(int seed, int x, int z)`: Add description.
   - Executes `getTintColorAt` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `shouldGenerate(int seed, int x, int z)`
+- `shouldGenerate(int seed, int x, int z)`: Add description.
   - Executes `shouldGenerate` behavior.
 
 ## Notes

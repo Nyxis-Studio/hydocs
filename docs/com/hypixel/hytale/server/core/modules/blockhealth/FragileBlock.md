@@ -1,10 +1,10 @@
+**Source Hash:** `db47c5de1a591afc61752075e25fb44ddcdbfe2e00ac9509cfedc1de05e99c8c`
+
 # FragileBlock
 
 ## Overview
-- Documentation for `FragileBlock`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.blockhealth`.
 
-## Constructors
+## Constructor Descriptions
 - `FragileBlock(float durationSeconds)`
   - Creates a `FragileBlock` instance.
 - `FragileBlock()`
@@ -12,18 +12,18 @@
 - `FragileBlock(this.durationSeconds)`
   - Creates a `FragileBlock` instance.
 
-## Methods
-- `getDurationSeconds()`
+## Method Descriptions
+- `getDurationSeconds()`: Add description.
   - Executes `getDurationSeconds` behavior.
-- `setDurationSeconds(float durationSeconds)`
+- `setDurationSeconds(float durationSeconds)`: Add description.
   - Executes `setDurationSeconds` behavior.
-- `deserialize(@Nonnull ByteBuf buf, byte version)`
+- `deserialize(@Nonnull ByteBuf buf, byte version)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

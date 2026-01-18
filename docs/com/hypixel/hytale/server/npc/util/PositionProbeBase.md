@@ -1,42 +1,42 @@
+**Source Hash:** `dbf4f318921db0a2a14dcb7dc954e55228ef65e8cde4b3ce1a52faf670151807`
+
 # PositionProbeBase
 
 ## Overview
-- Documentation for `PositionProbeBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, @Nonnull T t, @Nonnull CollisionFilter<BoxBlockIntersectionEvaluator, T> blockTest, int materialSet, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `probePosition(@Nonnull Ref<EntityStore> ref, @Nonnull Box boundingBox, @Nonnull Vector3d position, @Nonnull CollisionResult collisionResult, @Nonnull T t, @Nonnull CollisionFilter<BoxBlockIntersectionEvaluator, T> blockTest, int materialSet, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `probePosition` behavior.
-- `updateWaterLevel(@Nonnull ComponentAccessor<ChunkStore> chunkStore, @Nonnull ChunkColumn chunkColumn, @Nonnull BlockChunk blockChunk, int x, int z)`
+- `updateWaterLevel(@Nonnull ComponentAccessor<ChunkStore> chunkStore, @Nonnull ChunkColumn chunkColumn, @Nonnull BlockChunk blockChunk, int x, int z)`: Add description.
   - Executes `updateWaterLevel` behavior.
-- `movedFarEnough(int x, int z)`
+- `movedFarEnough(int x, int z)`: Add description.
   - Executes `movedFarEnough` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `isValidPosition()`
+- `isValidPosition()`: Add description.
   - Executes `isValidPosition` behavior.
-- `isTouchCeil()`
+- `isTouchCeil()`: Add description.
   - Executes `isTouchCeil` behavior.
-- `isOnGround()`
+- `isOnGround()`: Add description.
   - Executes `isOnGround` behavior.
-- `isInWater()`
+- `isInWater()`: Add description.
   - Executes `isInWater` behavior.
-- `getGroundLevel()`
+- `getGroundLevel()`: Add description.
   - Executes `getGroundLevel` behavior.
-- `getWaterLevel()`
+- `getWaterLevel()`: Add description.
   - Executes `getWaterLevel` behavior.
-- `getHeightOverGround()`
+- `getHeightOverGround()`: Add description.
   - Executes `getHeightOverGround` behavior.
-- `getHeightOverSurface()`
+- `getHeightOverSurface()`: Add description.
   - Executes `getHeightOverSurface` behavior.
-- `getDepthBelowSurface()`
+- `getDepthBelowSurface()`: Add description.
   - Executes `getDepthBelowSurface` behavior.
-- `getHeightOverWater()`
+- `getHeightOverWater()`: Add description.
   - Executes `getHeightOverWater` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

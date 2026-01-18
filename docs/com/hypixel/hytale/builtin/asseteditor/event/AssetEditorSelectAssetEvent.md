@@ -1,21 +1,21 @@
+**Source Hash:** `1064549acdaf8d4222b0f6124eb94f6bf31166b5f435579c8ad9ef31f9719670`
+
 # AssetEditorSelectAssetEvent
 
 ## Overview
-- Documentation for `AssetEditorSelectAssetEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.event`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorSelectAssetEvent(EditorClient editorClient, String assetType, AssetPath assetFilePath, String previousAssetType, AssetPath previousAssetFilePath)`
   - Creates a `AssetEditorSelectAssetEvent` instance.
 
-## Methods
-- `getAssetType()`
+## Method Descriptions
+- `getAssetType()`: Add description.
   - Executes `getAssetType` behavior.
-- `getAssetFilePath()`
+- `getAssetFilePath()`: Add description.
   - Executes `getAssetFilePath` behavior.
-- `getPreviousAssetType()`
+- `getPreviousAssetType()`: Add description.
   - Executes `getPreviousAssetType` behavior.
-- `getPreviousAssetFilePath()`
+- `getPreviousAssetFilePath()`: Add description.
   - Executes `getPreviousAssetFilePath` behavior.
 
 ## Notes

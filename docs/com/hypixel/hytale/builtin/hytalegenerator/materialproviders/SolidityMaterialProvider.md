@@ -1,15 +1,15 @@
+**Source Hash:** `cf93062c694ff6b671fc399aeabb27789001d3567b2f2c79200a06a66ca0f1f1`
+
 # SolidityMaterialProvider
 
 ## Overview
-- Documentation for `SolidityMaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `SolidityMaterialProvider(@Nonnull MaterialProvider<V> solidMaterialProvider, @Nonnull MaterialProvider<V> emptyMaterialProvider)`
   - Creates a `SolidityMaterialProvider` instance.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
 
 ## Notes

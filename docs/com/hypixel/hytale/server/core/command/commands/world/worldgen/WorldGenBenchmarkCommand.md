@@ -1,15 +1,15 @@
+**Source Hash:** `1e99f883fb24c5b13a0bd732d56e70e55603bb6af014b68f590b34b5e7eacb5e`
+
 # WorldGenBenchmarkCommand
 
 ## Overview
-- Documentation for `WorldGenBenchmarkCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenBenchmarkCommand()`
   - Creates a `WorldGenBenchmarkCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

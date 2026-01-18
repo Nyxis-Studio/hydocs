@@ -1,26 +1,26 @@
+**Source Hash:** `a324dfbe17f6a45ff9aab4a42059d140a78147311af5c7f8e0640e32783d30fd`
+
 # BuilderSensorFlag
 
 ## Overview
-- Documentation for `BuilderSensorFlag`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `getFlagSlot(@Nonnull BuilderSupport support)`
+- `getFlagSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getFlagSlot` behavior.
-- `getValue(@Nonnull BuilderSupport support)`
+- `getValue(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getValue` behavior.
 
 ## Notes

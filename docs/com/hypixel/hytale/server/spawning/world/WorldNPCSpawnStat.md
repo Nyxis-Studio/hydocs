@@ -1,61 +1,61 @@
+**Source Hash:** `1656d4d645603f42906ddb0cfb53147bcef51a828e7a4532d045038a82ccd3c8`
+
 # WorldNPCSpawnStat
 
 ## Overview
-- Documentation for `WorldNPCSpawnStat`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldNPCSpawnStat(int roleIndex, WorldSpawnWrapper spawnWrapper, @Nonnull RoleSpawnParameters spawnParams, World world)`
   - Creates a `WorldNPCSpawnStat` instance.
 - `WorldNPCSpawnStat(int roleIndex)`
   - Creates a `WorldNPCSpawnStat` instance.
 
-## Methods
-- `getRoleIndex()`
+## Method Descriptions
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `getExpected()`
+- `getExpected()`: Add description.
   - Executes `getExpected` behavior.
-- `setExpected(double expected)`
+- `setExpected(double expected)`: Add description.
   - Executes `setExpected` behavior.
-- `getActual()`
+- `getActual()`: Add description.
   - Executes `getActual` behavior.
-- `adjustActual(int count)`
+- `adjustActual(int count)`: Add description.
   - Executes `adjustActual` behavior.
-- `isUnspawnable()`
+- `isUnspawnable()`: Add description.
   - Executes `isUnspawnable` behavior.
-- `setUnspawnable(boolean unspawnable)`
+- `setUnspawnable(boolean unspawnable)`: Add description.
   - Executes `setUnspawnable` behavior.
-- `getSpawnWrapper()`
+- `getSpawnWrapper()`: Add description.
   - Executes `getSpawnWrapper` behavior.
-- `getSpawnParams()`
+- `getSpawnParams()`: Add description.
   - Executes `getSpawnParams` behavior.
-- `getSpansTried()`
+- `getSpansTried()`: Add description.
   - Executes `getSpansTried` behavior.
-- `getSpansSuccess()`
+- `getSpansSuccess()`: Add description.
   - Executes `getSpansSuccess` behavior.
-- `getSuccessfulJobCount()`
+- `getSuccessfulJobCount()`: Add description.
   - Executes `getSuccessfulJobCount` behavior.
-- `getSuccessfulJobTotalBudget()`
+- `getSuccessfulJobTotalBudget()`: Add description.
   - Executes `getSuccessfulJobTotalBudget` behavior.
-- `getFailedJobCount()`
+- `getFailedJobCount()`: Add description.
   - Executes `getFailedJobCount` behavior.
-- `getFailedJobTotalBudget()`
+- `getFailedJobTotalBudget()`: Add description.
   - Executes `getFailedJobTotalBudget` behavior.
-- `getWeight(int moonPhase)`
+- `getWeight(int moonPhase)`: Add description.
   - Executes `getWeight` behavior.
-- `getMissingCount(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getMissingCount(@Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getMissingCount` behavior.
-- `getAvailableSlots()`
+- `getAvailableSlots()`: Add description.
   - Executes `getAvailableSlots` behavior.
-- `getRejectionCount(SpawnRejection rejection)`
+- `getRejectionCount(SpawnRejection rejection)`: Add description.
   - Executes `getRejectionCount` behavior.
-- `updateSpawnStats(int spansTried, int spansSuccess, int budgetUsed, @Nonnull Object2IntMap<SpawnRejection> rejections, boolean success)`
+- `updateSpawnStats(int spansTried, int spansSuccess, int budgetUsed, @Nonnull Object2IntMap<SpawnRejection> rejections, boolean success)`: Add description.
   - Executes `updateSpawnStats` behavior.
-- `resetUnspawnable()`
+- `resetUnspawnable()`: Add description.
   - Executes `resetUnspawnable` behavior.
-- `isSpawnable()`
+- `isSpawnable()`: Add description.
   - Executes `isSpawnable` behavior.
-- `recomputeSpawnSize()`
+- `recomputeSpawnSize()`: Add description.
   - Executes `recomputeSpawnSize` behavior.
 
 ## Notes

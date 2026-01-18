@@ -1,10 +1,10 @@
+**Source Hash:** `9f7abaebdd10eac88664c40dc87baf578e341e34ab56bf0dddc30dd90d81da23`
+
 # AudioComponent
 
 ## Overview
-- Documentation for `AudioComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `AudioComponent()`
   - Creates a `AudioComponent` instance.
 - `AudioComponent(IntList soundEventIds)`
@@ -12,16 +12,16 @@
 - `AudioComponent(new IntArrayList(this.soundEventIds)`
   - Creates a `AudioComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSoundEventIds()`
+- `getSoundEventIds()`: Add description.
   - Executes `getSoundEventIds` behavior.
-- `addSound(int soundIndex)`
+- `addSound(int soundIndex)`: Add description.
   - Executes `addSound` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

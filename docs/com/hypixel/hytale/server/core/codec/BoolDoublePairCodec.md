@@ -1,18 +1,18 @@
+**Source Hash:** `88ea09e8758eb1457490586a2492edb9ca03622214e50204ea5d37bff328bca8`
+
 # BoolDoublePairCodec
 
 ## Overview
-- Documentation for `BoolDoublePairCodec`.
-- Declared as a class in `com.hypixel.hytale.server.core.codec`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `decode(BsonValue bsonValue, ExtraInfo extraInfo)`
+## Method Descriptions
+- `decode(BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nonnull BoolDoublePair pair, ExtraInfo extraInfo)`
+- `encode(@Nonnull BoolDoublePair pair, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `861a5297660835038b373f6463f8392f860f44816c5789f9cfaea73f711b079c`
+
 # AssetEditorUpdateJsonAsset
 
 ## Overview
-- Documentation for `AssetEditorUpdateJsonAsset`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorUpdateJsonAsset()`
   - Creates a `AssetEditorUpdateJsonAsset` instance.
 - `AssetEditorUpdateJsonAsset(int token, @Nullable String assetType, @Nullable AssetPath path, int assetIndex, @Nullable JsonUpdateCommand[] commands)`
@@ -12,24 +12,24 @@
 - `AssetEditorUpdateJsonAsset(@Nonnull AssetEditorUpdateJsonAsset other)`
   - Creates a `AssetEditorUpdateJsonAsset` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

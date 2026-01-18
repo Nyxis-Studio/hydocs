@@ -1,14 +1,14 @@
+**Source Hash:** `7f706c0b2a3f3dbb8e553d9d38f2c6b8facade6425643ec27fc3af5732995f9a`
+
 # ImportedMaterialProviderAsset
 
 ## Overview
-- Documentation for `ImportedMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

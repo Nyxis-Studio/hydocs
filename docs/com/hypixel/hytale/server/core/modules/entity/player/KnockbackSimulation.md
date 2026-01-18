@@ -1,79 +1,79 @@
+**Source Hash:** `9c33eaf294f64df3b7e25446511f97713d7e307adfc3dceb492f21b5bedaa250`
+
 # KnockbackSimulation
 
 ## Overview
-- Documentation for `KnockbackSimulation`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.player`.
 
-## Constructors
+## Constructor Descriptions
 - `KnockbackSimulation()`
   - Creates a `KnockbackSimulation` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getTickBuffer()`
+- `getTickBuffer()`: Add description.
   - Executes `getTickBuffer` behavior.
-- `setTickBuffer(float tickBuffer)`
+- `setTickBuffer(float tickBuffer)`: Add description.
   - Executes `setTickBuffer` behavior.
-- `getRequestedVelocity()`
+- `getRequestedVelocity()`: Add description.
   - Executes `getRequestedVelocity` behavior.
-- `addRequestedVelocity(@Nonnull Vector3d velocity)`
+- `addRequestedVelocity(@Nonnull Vector3d velocity)`: Add description.
   - Executes `addRequestedVelocity` behavior.
-- `setRequestedVelocity(@Nonnull Vector3d velocity)`
+- `setRequestedVelocity(@Nonnull Vector3d velocity)`: Add description.
   - Executes `setRequestedVelocity` behavior.
-- `getRequestedVelocityChangeType()`
+- `getRequestedVelocityChangeType()`: Add description.
   - Executes `getRequestedVelocityChangeType` behavior.
-- `setRequestedVelocityChangeType(ChangeVelocityType requestedVelocityChangeType)`
+- `setRequestedVelocityChangeType(ChangeVelocityType requestedVelocityChangeType)`: Add description.
   - Executes `setRequestedVelocityChangeType` behavior.
-- `getClientLastPosition()`
+- `getClientLastPosition()`: Add description.
   - Executes `getClientLastPosition` behavior.
-- `getClientPosition()`
+- `getClientPosition()`: Add description.
   - Executes `getClientPosition` behavior.
-- `getRelativeMovement()`
+- `getRelativeMovement()`: Add description.
   - Executes `getRelativeMovement` behavior.
-- `getSimPosition()`
+- `getSimPosition()`: Add description.
   - Executes `getSimPosition` behavior.
-- `getSimVelocity()`
+- `getSimVelocity()`: Add description.
   - Executes `getSimVelocity` behavior.
-- `getRemainingTime()`
+- `getRemainingTime()`: Add description.
   - Executes `getRemainingTime` behavior.
-- `setRemainingTime(float remainingTime)`
+- `setRemainingTime(float remainingTime)`: Add description.
   - Executes `setRemainingTime` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `consumeWasJumping()`
+- `consumeWasJumping()`: Add description.
   - Executes `consumeWasJumping` behavior.
-- `setWasJumping(boolean wasJumping)`
+- `setWasJumping(boolean wasJumping)`: Add description.
   - Executes `setWasJumping` behavior.
-- `hadWishMovement()`
+- `hadWishMovement()`: Add description.
   - Executes `hadWishMovement` behavior.
-- `setHadWishMovement(boolean hadWishMovement)`
+- `setHadWishMovement(boolean hadWishMovement)`: Add description.
   - Executes `setHadWishMovement` behavior.
-- `isClientFinished()`
+- `isClientFinished()`: Add description.
   - Executes `isClientFinished` behavior.
-- `setClientFinished(boolean clientFinished)`
+- `setClientFinished(boolean clientFinished)`: Add description.
   - Executes `setClientFinished` behavior.
-- `getJumpCombo()`
+- `getJumpCombo()`: Add description.
   - Executes `getJumpCombo` behavior.
-- `setJumpCombo(int jumpCombo)`
+- `setJumpCombo(int jumpCombo)`: Add description.
   - Executes `setJumpCombo` behavior.
-- `wasOnGround()`
+- `wasOnGround()`: Add description.
   - Executes `wasOnGround` behavior.
-- `setWasOnGround(boolean wasOnGround)`
+- `setWasOnGround(boolean wasOnGround)`: Add description.
   - Executes `setWasOnGround` behavior.
-- `getClientMovementStates()`
+- `getClientMovementStates()`: Add description.
   - Executes `getClientMovementStates` behavior.
-- `setClientMovementStates(MovementStates clientMovementStates)`
+- `setClientMovementStates(MovementStates clientMovementStates)`: Add description.
   - Executes `setClientMovementStates` behavior.
-- `getMovementOffset()`
+- `getMovementOffset()`: Add description.
   - Executes `getMovementOffset` behavior.
-- `getCollisionResult()`
+- `getCollisionResult()`: Add description.
   - Executes `getCollisionResult` behavior.
-- `getCheckPosition()`
+- `getCheckPosition()`: Add description.
   - Executes `getCheckPosition` behavior.
-- `getTempPosition()`
+- `getTempPosition()`: Add description.
   - Executes `getTempPosition` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

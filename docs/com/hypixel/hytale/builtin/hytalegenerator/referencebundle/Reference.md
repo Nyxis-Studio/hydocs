@@ -1,14 +1,14 @@
+**Source Hash:** `fdaff2f2ed88e32c7a80f91bae08b3bf747faad234b9fdb41122dfea642f7011`
+
 # Reference
 
 ## Overview
-- Documentation for `Reference`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.referencebundle`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

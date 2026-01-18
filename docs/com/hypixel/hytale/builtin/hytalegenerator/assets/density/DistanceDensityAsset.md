@@ -1,16 +1,16 @@
+**Source Hash:** `7b5a30b70952bc9c0db8a39d4c13bbfafa7a6d3ca90515ac98296a0730039610`
+
 # DistanceDensityAsset
 
 ## Overview
-- Documentation for `DistanceDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

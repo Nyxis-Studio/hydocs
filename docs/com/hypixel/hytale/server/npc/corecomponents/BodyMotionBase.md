@@ -1,15 +1,15 @@
+**Source Hash:** `c120cdd6758fd812d641df91354d91acf2c54a92fe5068f6dd3adcfb167d1e20`
+
 # BodyMotionBase
 
 ## Overview
-- Documentation for `BodyMotionBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `BodyMotionBase(@Nonnull BuilderBodyMotionBase builderMotionBase)`
   - Creates a `BodyMotionBase` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

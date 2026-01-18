@@ -1,15 +1,15 @@
+**Source Hash:** `8c095b13dca045a5a6a8d86ab127eef5b4726fd9410ebaf786cbd37938b60003`
+
 # PrefabEditCreateNewCommand
 
 ## Overview
-- Documentation for `PrefabEditCreateNewCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditCreateNewCommand()`
   - Creates a `PrefabEditCreateNewCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

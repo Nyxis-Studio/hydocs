@@ -1,21 +1,21 @@
+**Source Hash:** `d3605d1d74346c0563869961492a991b21247d182a5736b7d70df0f2fc6724e7`
+
 # ConstantNoise
 
 ## Overview
-- Documentation for `ConstantNoise`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.logic`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantNoise(double value)`
   - Creates a `ConstantNoise` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `get(int seed, int offsetSeed, double x, double y)`
+- `get(int seed, int offsetSeed, double x, double y)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, int offsetSeed, double x, double y, double z)`
+- `get(int seed, int offsetSeed, double x, double y, double z)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

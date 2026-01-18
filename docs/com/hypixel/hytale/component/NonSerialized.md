@@ -1,17 +1,17 @@
+**Source Hash:** `3225016abfe7aaae4528e1ba9fd96caf3c9b7a3ee60cd64303f03e8ba14b17f6`
+
 # NonSerialized
 
 ## Overview
-- Documentation for `NonSerialized`.
-- Declared as a class in `com.hypixel.hytale.component`.
 
-## Constructors
+## Constructor Descriptions
 - `NonSerialized()`
   - Creates a `NonSerialized` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,29 +1,29 @@
+**Source Hash:** `ee06263bc423aba35e7fa32678275e5e326caab553237283c228c24eee5796c6`
+
 # HytaleWhitelistProvider
 
 ## Overview
-- Documentation for `HytaleWhitelistProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.provider`.
 
-## Constructors
+## Constructor Descriptions
 - `HytaleWhitelistProvider()`
   - Creates a `HytaleWhitelistProvider` instance.
 
-## Methods
-- `read(@Nonnull BufferedReader fileReader)`
+## Method Descriptions
+- `read(@Nonnull BufferedReader fileReader)`: Add description.
   - Executes `read` behavior.
-- `write(@Nonnull BufferedWriter fileWriter)`
+- `write(@Nonnull BufferedWriter fileWriter)`: Add description.
   - Executes `write` behavior.
-- `create(@Nonnull BufferedWriter fileWriter)`
+- `create(@Nonnull BufferedWriter fileWriter)`: Add description.
   - Executes `create` behavior.
-- `getDisconnectReason(UUID uuid)`
+- `getDisconnectReason(UUID uuid)`: Add description.
   - Executes `getDisconnectReason` behavior.
-- `setEnabled(boolean isEnabled)`
+- `setEnabled(boolean isEnabled)`: Add description.
   - Executes `setEnabled` behavior.
-- `modify(@Nonnull Function<Set<UUID>, Boolean> consumer)`
+- `modify(@Nonnull Function<Set<UUID>, Boolean> consumer)`: Add description.
   - Executes `modify` behavior.
-- `getList()`
+- `getList()`: Add description.
   - Executes `getList` behavior.
-- `isEnabled()`
+- `isEnabled()`: Add description.
   - Executes `isEnabled` behavior.
 
 ## Notes

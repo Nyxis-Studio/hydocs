@@ -1,51 +1,51 @@
+**Source Hash:** `5c7419530a3f547da0072766c04b92e0976225a16dbddc4c0cd6587eac4dc2ef`
+
 # ChunkLightingManager
 
 ## Overview
-- Documentation for `ChunkLightingManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.lighting`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkLightingManager(@Nonnull World world)`
   - Creates a `ChunkLightingManager` instance.
 
-## Methods
-- `getLogger()`
+## Method Descriptions
+- `getLogger()`: Add description.
   - Executes `getLogger` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `setLightCalculation(LightCalculation lightCalculation)`
+- `setLightCalculation(LightCalculation lightCalculation)`: Add description.
   - Executes `setLightCalculation` behavior.
-- `getLightCalculation()`
+- `getLightCalculation()`: Add description.
   - Executes `getLightCalculation` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `run()`
+- `run()`: Add description.
   - Executes `run` behavior.
-- `process(Vector3i chunkPosition)`
+- `process(Vector3i chunkPosition)`: Add description.
   - Executes `process` behavior.
-- `interrupt()`
+- `interrupt()`: Add description.
   - Executes `interrupt` behavior.
-- `stop()`
+- `stop()`: Add description.
   - Executes `stop` behavior.
-- `init(WorldChunk worldChunk)`
+- `init(WorldChunk worldChunk)`: Add description.
   - Executes `init` behavior.
-- `addToQueue(Vector3i chunkPosition)`
+- `addToQueue(Vector3i chunkPosition)`: Add description.
   - Executes `addToQueue` behavior.
-- `isQueued(int chunkX, int chunkZ)`
+- `isQueued(int chunkX, int chunkZ)`: Add description.
   - Executes `isQueued` behavior.
-- `isQueued(Vector3i chunkPosition)`
+- `isQueued(Vector3i chunkPosition)`: Add description.
   - Executes `isQueued` behavior.
-- `getQueueSize()`
+- `getQueueSize()`: Add description.
   - Executes `getQueueSize` behavior.
-- `invalidateLightAtBlock(WorldChunk worldChunk, int blockX, int blockY, int blockZ, BlockType blockType, int oldHeight, int newHeight)`
+- `invalidateLightAtBlock(WorldChunk worldChunk, int blockX, int blockY, int blockZ, BlockType blockType, int oldHeight, int newHeight)`: Add description.
   - Executes `invalidateLightAtBlock` behavior.
-- `invalidateLightInChunk(WorldChunk worldChunk)`
+- `invalidateLightInChunk(WorldChunk worldChunk)`: Add description.
   - Executes `invalidateLightInChunk` behavior.
-- `invalidateLightInChunkSection(WorldChunk worldChunk, int sectionIndex)`
+- `invalidateLightInChunkSection(WorldChunk worldChunk, int sectionIndex)`: Add description.
   - Executes `invalidateLightInChunkSection` behavior.
-- `invalidateLightInChunkSections(WorldChunk worldChunk, int sectionIndexFrom, int sectionIndexTo)`
+- `invalidateLightInChunkSections(WorldChunk worldChunk, int sectionIndexFrom, int sectionIndexTo)`: Add description.
   - Executes `invalidateLightInChunkSections` behavior.
-- `invalidateLoadedChunks()`
+- `invalidateLoadedChunks()`: Add description.
   - Executes `invalidateLoadedChunks` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `0f9fd82e8ba7e32125cd29abf8d9c90922953f84b9cb4506e73caa71b18d254d`
+
 # DistanceExponentialCurveAsset
 
 ## Overview
-- Documentation for `DistanceExponentialCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

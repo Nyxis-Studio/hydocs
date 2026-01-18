@@ -1,16 +1,16 @@
+**Source Hash:** `26c785e375f854f2a5bbf0ff173382e955f5780bbde2de220007821a9673ca93`
+
 # OffsetPatternAsset
 
 ## Overview
-- Documentation for `OffsetPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

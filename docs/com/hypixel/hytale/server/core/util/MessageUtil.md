@@ -1,30 +1,30 @@
+**Source Hash:** `c8d840b16198f9327ce1a817b5461bc2c0a323dbe756e2b7422221a74a12e99a`
+
 # MessageUtil
 
 ## Overview
-- Documentation for `MessageUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toAnsiString(@Nonnull Message message)`
+## Method Descriptions
+- `toAnsiString(@Nonnull Message message)`: Add description.
   - Executes `toAnsiString` behavior.
-- `hexToStyle(@Nonnull String str)`
+- `hexToStyle(@Nonnull String str)`: Add description.
   - Executes `hexToStyle` behavior.
-- `sendSuccessReply(@Nonnull PlayerRef playerRef, int token)`
+- `sendSuccessReply(@Nonnull PlayerRef playerRef, int token)`: Add description.
   - Executes `sendSuccessReply` behavior.
-- `sendSuccessReply(@Nonnull PlayerRef playerRef, int token, @Nullable Message message)`
+- `sendSuccessReply(@Nonnull PlayerRef playerRef, int token, @Nullable Message message)`: Add description.
   - Executes `sendSuccessReply` behavior.
-- `sendFailureReply(@Nonnull PlayerRef playerRef, int token, @Nonnull Message message)`
+- `sendFailureReply(@Nonnull PlayerRef playerRef, int token, @Nonnull Message message)`: Add description.
   - Executes `sendFailureReply` behavior.
-- `formatText(String text, @Nullable Map<String, ParamValue> params, @Nullable Map<String, FormattedMessage> messageParams)`
+- `formatText(String text, @Nullable Map<String, ParamValue> params, @Nullable Map<String, FormattedMessage> messageParams)`: Add description.
   - Executes `formatText` behavior.
-- `findMatchingBrace(@Nonnull String text, int start)`
+- `findMatchingBrace(@Nonnull String text, int start)`: Add description.
   - Executes `findMatchingBrace` behavior.
-- `trimStart(@Nonnull String text, int start, int end)`
+- `trimStart(@Nonnull String text, int start, int end)`: Add description.
   - Executes `trimStart` behavior.
-- `trimEnd(@Nonnull String text, int start, int end)`
+- `trimEnd(@Nonnull String text, int start, int end)`: Add description.
   - Executes `trimEnd` behavior.
 
 ## Notes

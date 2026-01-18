@@ -1,15 +1,15 @@
+**Source Hash:** `3eaf0bb90d9272a5fcfbaccf031ea2b77b342d2e0046e808573090e8865e893b`
+
 # PrefabEditSaveUICommand
 
 ## Overview
-- Documentation for `PrefabEditSaveUICommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditSaveUICommand()`
   - Creates a `PrefabEditSaveUICommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

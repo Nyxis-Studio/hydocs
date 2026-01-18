@@ -1,14 +1,14 @@
+**Source Hash:** `5c67a16359ea4bb28f710d5dea1efea2397849f4aa69e17896a806e9648a6825`
+
 # IntParameterProvider
 
 ## Overview
-- Documentation for `IntParameterProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.sensorinfo.parameterproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIntParameter()`
+## Method Descriptions
+- `getIntParameter()`: Add description.
   - Executes `getIntParameter` behavior.
 
 ## Notes

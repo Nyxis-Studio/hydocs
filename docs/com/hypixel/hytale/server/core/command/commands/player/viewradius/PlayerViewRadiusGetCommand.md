@@ -1,15 +1,15 @@
+**Source Hash:** `4aadb877571ff4651f97eed540506daeef803aa73b433b45284268edd29b44c7`
+
 # PlayerViewRadiusGetCommand
 
 ## Overview
-- Documentation for `PlayerViewRadiusGetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.viewradius`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerViewRadiusGetCommand()`
   - Creates a `PlayerViewRadiusGetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

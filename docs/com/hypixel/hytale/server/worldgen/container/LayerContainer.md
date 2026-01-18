@@ -1,43 +1,43 @@
+**Source Hash:** `b575b34af99ec2d07dcd6300a55d86c2d50a154579df84b87da243c7114ee752`
+
 # LayerContainer
 
 ## Overview
-- Documentation for `LayerContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `LayerContainer(int filling, int fillingEnvironment, StaticLayer[] staticLayers, DynamicLayer[] dynamicLayers)`
   - Creates a `LayerContainer` instance.
 
-## Methods
-- `getFilling()`
+## Method Descriptions
+- `getFilling()`: Add description.
   - Executes `getFilling` behavior.
-- `getFillingEnvironment()`
+- `getFillingEnvironment()`: Add description.
   - Executes `getFillingEnvironment` behavior.
-- `getStaticLayers()`
+- `getStaticLayers()`: Add description.
   - Executes `getStaticLayers` behavior.
-- `getDynamicLayers()`
+- `getDynamicLayers()`: Add description.
   - Executes `getDynamicLayers` behavior.
-- `getTopBlockAt(int seed, int x, int z)`
+- `getTopBlockAt(int seed, int x, int z)`: Add description.
   - Executes `getTopBlockAt` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getOffset(int seed, int x, int z)`
+- `getOffset(int seed, int x, int z)`: Add description.
   - Executes `getOffset` behavior.
-- `isActive(int seed, int x, int z)`
+- `isActive(int seed, int x, int z)`: Add description.
   - Executes `isActive` behavior.
-- `getBlockArray()`
+- `getBlockArray()`: Add description.
   - Executes `getBlockArray` behavior.
-- `getMinInt(int seed, int x, int z)`
+- `getMinInt(int seed, int x, int z)`: Add description.
   - Executes `getMinInt` behavior.
-- `getMinValue(int seed, int x, int z)`
+- `getMinValue(int seed, int x, int z)`: Add description.
   - Executes `getMinValue` behavior.
-- `getMaxInt(int seed, int x, int z)`
+- `getMaxInt(int seed, int x, int z)`: Add description.
   - Executes `getMaxInt` behavior.
-- `getMaxValue(int seed, int x, int z)`
+- `getMaxValue(int seed, int x, int z)`: Add description.
   - Executes `getMaxValue` behavior.
-- `getEnvironmentId()`
+- `getEnvironmentId()`: Add description.
   - Executes `getEnvironmentId` behavior.
-- `getActiveEntry(int seed, int x, int z)`
+- `getActiveEntry(int seed, int x, int z)`: Add description.
   - Executes `getActiveEntry` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `49b4e22ac2c144c3b665a3cda3e79b2911eb9d5622fa939d0b40d8ec915306d6`
+
 # MaterialContainerWindow
 
 ## Overview
-- Documentation for `MaterialContainerWindow`.
-- Declared as a interface in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getExtraResourcesSection()`
+## Method Descriptions
+- `getExtraResourcesSection()`: Add description.
   - Executes `getExtraResourcesSection` behavior.
-- `invalidateExtraResources()`
+- `invalidateExtraResources()`: Add description.
   - Executes `invalidateExtraResources` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
 
 ## Notes

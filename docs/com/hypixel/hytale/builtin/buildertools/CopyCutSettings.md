@@ -1,14 +1,14 @@
+**Source Hash:** `5ee7ead0d9fc4950b733dcb87df4931f14eceae9123175d139745ba87da5d45b`
+
 # CopyCutSettings
 
 ## Overview
-- Documentation for `CopyCutSettings`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

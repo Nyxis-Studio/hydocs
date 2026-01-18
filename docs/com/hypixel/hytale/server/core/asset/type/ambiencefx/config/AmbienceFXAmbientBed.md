@@ -1,27 +1,27 @@
+**Source Hash:** `bc5945f6aa30e42933591a0a50c2099520ce0af1e209400735e6fe59630f0180`
+
 # AmbienceFXAmbientBed
 
 ## Overview
-- Documentation for `AmbienceFXAmbientBed`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.ambiencefx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXAmbientBed(String track, float decibels, AmbienceTransitionSpeed transitionSpeed)`
   - Creates a `AmbienceFXAmbientBed` instance.
 - `AmbienceFXAmbientBed()`
   - Creates a `AmbienceFXAmbientBed` instance.
 
-## Methods
-- `getTrack()`
+## Method Descriptions
+- `getTrack()`: Add description.
   - Executes `getTrack` behavior.
-- `getDecibels()`
+- `getDecibels()`: Add description.
   - Executes `getDecibels` behavior.
-- `getVolume()`
+- `getVolume()`: Add description.
   - Executes `getVolume` behavior.
-- `getTransitionSpeed()`
+- `getTransitionSpeed()`: Add description.
   - Executes `getTransitionSpeed` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `4d80cfd09a321ab24fc5a3bf499068fedda7eb255245fd6a33983a933c061de7`
+
 # UpdateKnownRecipes
 
 ## Overview
-- Documentation for `UpdateKnownRecipes`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateKnownRecipes()`
   - Creates a `UpdateKnownRecipes` instance.
 - `UpdateKnownRecipes(@Nullable Map<String, CraftingRecipe> known)`
@@ -12,24 +12,24 @@
 - `UpdateKnownRecipes(@Nonnull UpdateKnownRecipes other)`
   - Creates a `UpdateKnownRecipes` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

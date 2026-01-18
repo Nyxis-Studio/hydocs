@@ -1,10 +1,10 @@
+**Source Hash:** `8b2cb23e4412b28f42911195cc54daa4eb526d9fd184e36791df40efe29e5f66`
+
 # RelativeInteger
 
 ## Overview
-- Documentation for `RelativeInteger`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeInteger(int value, boolean isRelative)`
   - Creates a `RelativeInteger` instance.
 - `RelativeInteger()`
@@ -12,16 +12,16 @@
 - `RelativeInteger(value, relative)`
   - Creates a `RelativeInteger` instance.
 
-## Methods
-- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`
+## Method Descriptions
+- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `getRawValue()`
+- `getRawValue()`: Add description.
   - Executes `getRawValue` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
-- `resolve(int baseValue)`
+- `resolve(int baseValue)`: Add description.
   - Executes `resolve` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

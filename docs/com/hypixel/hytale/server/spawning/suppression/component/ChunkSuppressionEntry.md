@@ -1,35 +1,35 @@
+**Source Hash:** `f52cecb639bb95c74540368a962aed3f3022fd2dea4495f1aebfc29311c963a9`
+
 # ChunkSuppressionEntry
 
 ## Overview
-- Documentation for `ChunkSuppressionEntry`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.suppression.component`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkSuppressionEntry(@Nonnull List<SuppressionSpan> suppressionSpans)`
   - Creates a `ChunkSuppressionEntry` instance.
 - `ChunkSuppressionEntry(this.suppressionSpans)`
   - Creates a `ChunkSuppressionEntry` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSuppressionSpans()`
+- `getSuppressionSpans()`: Add description.
   - Executes `getSuppressionSpans` behavior.
-- `containsOnly(UUID suppressorId)`
+- `containsOnly(UUID suppressorId)`: Add description.
   - Executes `containsOnly` behavior.
-- `isSuppressingRoleAt(int roleIndex, int yPosition)`
+- `isSuppressingRoleAt(int roleIndex, int yPosition)`: Add description.
   - Executes `isSuppressingRoleAt` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getSuppressorId()`
+- `getSuppressorId()`: Add description.
   - Executes `getSuppressorId` behavior.
-- `getSuppressedRoles()`
+- `getSuppressedRoles()`: Add description.
   - Executes `getSuppressedRoles` behavior.
-- `getMinY()`
+- `getMinY()`: Add description.
   - Executes `getMinY` behavior.
-- `getMaxY()`
+- `getMaxY()`: Add description.
   - Executes `getMaxY` behavior.
-- `includesRole(int roleIndex)`
+- `includesRole(int roleIndex)`: Add description.
   - Executes `includesRole` behavior.
 
 ## Notes

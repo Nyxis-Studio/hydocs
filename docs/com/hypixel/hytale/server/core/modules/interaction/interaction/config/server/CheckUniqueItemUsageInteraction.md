@@ -1,18 +1,18 @@
+**Source Hash:** `4acd629be0496d6b506dcbebc342bc97ab5aceadaeccb110c0d14737f48800de`
+
 # CheckUniqueItemUsageInteraction
 
 ## Overview
-- Documentation for `CheckUniqueItemUsageInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `firstRun(@NonNullDecl InteractionType type, @NonNullDecl InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `firstRun(@NonNullDecl InteractionType type, @NonNullDecl InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

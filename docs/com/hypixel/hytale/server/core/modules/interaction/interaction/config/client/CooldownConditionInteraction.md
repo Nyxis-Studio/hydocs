@@ -1,23 +1,23 @@
+**Source Hash:** `16ec17b0a3fe33ec8fca1db3010a0ff4e889fbce1d963f3581f23072cea9a1ca`
+
 # CooldownConditionInteraction
 
 ## Overview
-- Documentation for `CooldownConditionInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `CooldownConditionInteraction()`
   - Creates a `CooldownConditionInteraction` instance.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `checkCooldown(@Nonnull CooldownHandler cooldownHandler, @Nonnull String cooldownId)`
+- `checkCooldown(@Nonnull CooldownHandler cooldownHandler, @Nonnull String cooldownId)`: Add description.
   - Executes `checkCooldown` behavior.
-- `generatePacket()`
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

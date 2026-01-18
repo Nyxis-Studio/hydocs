@@ -1,29 +1,29 @@
+**Source Hash:** `44ddfdd813a0a7def29f89f6a07db102c9b7fcee43a4a909d075e6e1027c76e2`
+
 # IntHolder
 
 ## Overview
-- Documentation for `IntHolder`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
+## Constructor Descriptions
 - `IntHolder()`
   - Creates a `IntHolder` instance.
 
-## Methods
-- `validate(ExecutionContext context)`
+## Method Descriptions
+- `validate(ExecutionContext context)`: Add description.
   - Executes `validate` behavior.
-- `readJSON(@Nonnull JsonElement requiredJsonElement, IntValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(@Nonnull JsonElement requiredJsonElement, IntValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, int defaultValue, IntValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, int defaultValue, IntValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `get(ExecutionContext executionContext)`
+- `get(ExecutionContext executionContext)`: Add description.
   - Executes `get` behavior.
-- `rawGet(ExecutionContext executionContext)`
+- `rawGet(ExecutionContext executionContext)`: Add description.
   - Executes `rawGet` behavior.
-- `validate(int value)`
+- `validate(int value)`: Add description.
   - Executes `validate` behavior.
-- `addRelationValidator(ObjIntConsumer<ExecutionContext> validator)`
+- `addRelationValidator(ObjIntConsumer<ExecutionContext> validator)`: Add description.
   - Executes `addRelationValidator` behavior.
-- `validateRelations(ExecutionContext executionContext, int value)`
+- `validateRelations(ExecutionContext executionContext, int value)`: Add description.
   - Executes `validateRelations` behavior.
 
 ## Notes

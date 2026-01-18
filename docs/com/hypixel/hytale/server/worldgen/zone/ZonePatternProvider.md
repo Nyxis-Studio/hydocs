@@ -1,25 +1,25 @@
+**Source Hash:** `f40994f88f83be884088829b99f1aa045697da885a67744818cfd94581750894`
+
 # ZonePatternProvider
 
 ## Overview
-- Documentation for `ZonePatternProvider`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.zone`.
 
-## Constructors
+## Constructor Descriptions
 - `ZonePatternProvider(IPointGenerator pointGenerator, Zone[] zones, Zone.UniqueCandidate[] uniqueZones, MaskProvider maskProvider, ZoneColorMapping zoneColorMapping)`
   - Creates a `ZonePatternProvider` instance.
 
-## Methods
-- `getMaxExtent()`
+## Method Descriptions
+- `getMaxExtent()`: Add description.
   - Executes `getMaxExtent` behavior.
-- `getZones()`
+- `getZones()`: Add description.
   - Executes `getZones` behavior.
-- `getMaskProvider()`
+- `getMaskProvider()`: Add description.
   - Executes `getMaskProvider` behavior.
-- `createGenerator(int seed)`
+- `createGenerator(int seed)`: Add description.
   - Executes `createGenerator` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getMaxExtent(@Nonnull Zone[] zones)`
+- `getMaxExtent(@Nonnull Zone[] zones)`: Add description.
   - Executes `getMaxExtent` behavior.
 
 ## Notes

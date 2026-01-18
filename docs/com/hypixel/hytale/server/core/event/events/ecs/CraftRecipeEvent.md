@@ -1,17 +1,17 @@
+**Source Hash:** `a2e6c0a3116502204913a5d325a04c6fa8410e71e21b1b916d25cef108c8e81e`
+
 # CraftRecipeEvent
 
 ## Overview
-- Documentation for `CraftRecipeEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `CraftRecipeEvent(@Nonnull CraftingRecipe craftedRecipe, int quantity)`
   - Creates a `CraftRecipeEvent` instance.
 
-## Methods
-- `getCraftedRecipe()`
+## Method Descriptions
+- `getCraftedRecipe()`: Add description.
   - Executes `getCraftedRecipe` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
 
 ## Notes

@@ -1,69 +1,69 @@
+**Source Hash:** `5b4dd09d48c0d6a0fdf11371d96777f72477b798661543e3e55674bc91528c8b`
+
 # CombinedItemContainer
 
 ## Overview
-- Documentation for `CombinedItemContainer`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container`.
 
-## Constructors
+## Constructor Descriptions
 - `CombinedItemContainer(ItemContainer ... containers)`
   - Creates a `CombinedItemContainer` instance.
 
-## Methods
-- `getContainer(int index)`
+## Method Descriptions
+- `getContainer(int index)`: Add description.
   - Executes `getContainer` behavior.
-- `getContainersSize()`
+- `getContainersSize()`: Add description.
   - Executes `getContainersSize` behavior.
-- `getContainerForSlot(short slot)`
+- `getContainerForSlot(short slot)`: Add description.
   - Executes `getContainerForSlot` behavior.
-- `readAction(@Nonnull Supplier<V> action)`
+- `readAction(@Nonnull Supplier<V> action)`: Add description.
   - Executes `readAction` behavior.
-- `readAction0(int i, @Nonnull Supplier<V> action)`
+- `readAction0(int i, @Nonnull Supplier<V> action)`: Add description.
   - Executes `readAction0` behavior.
-- `readAction(@Nonnull Function<X, V> action, X x)`
+- `readAction(@Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `readAction` behavior.
-- `readAction0(int i, @Nonnull Function<X, V> action, X x)`
+- `readAction0(int i, @Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `readAction0` behavior.
-- `writeAction(@Nonnull Supplier<V> action)`
+- `writeAction(@Nonnull Supplier<V> action)`: Add description.
   - Executes `writeAction` behavior.
-- `writeAction0(int i, @Nonnull Supplier<V> action)`
+- `writeAction0(int i, @Nonnull Supplier<V> action)`: Add description.
   - Executes `writeAction0` behavior.
-- `writeAction(@Nonnull Function<X, V> action, X x)`
+- `writeAction(@Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `writeAction` behavior.
-- `writeAction0(int i, @Nonnull Function<X, V> action, X x)`
+- `writeAction0(int i, @Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `writeAction0` behavior.
-- `internal_clear()`
+- `internal_clear()`: Add description.
   - Executes `internal_clear` behavior.
-- `internal_getSlot(short slot)`
+- `internal_getSlot(short slot)`: Add description.
   - Executes `internal_getSlot` behavior.
-- `internal_setSlot(short slot, ItemStack itemStack)`
+- `internal_setSlot(short slot, ItemStack itemStack)`: Add description.
   - Executes `internal_setSlot` behavior.
-- `internal_removeSlot(short slot)`
+- `internal_removeSlot(short slot)`: Add description.
   - Executes `internal_removeSlot` behavior.
-- `cantAddToSlot(short slot, ItemStack itemStack, ItemStack slotItemStack)`
+- `cantAddToSlot(short slot, ItemStack itemStack, ItemStack slotItemStack)`: Add description.
   - Executes `cantAddToSlot` behavior.
-- `cantRemoveFromSlot(short slot)`
+- `cantRemoveFromSlot(short slot)`: Add description.
   - Executes `cantRemoveFromSlot` behavior.
-- `cantDropFromSlot(short slot)`
+- `cantDropFromSlot(short slot)`: Add description.
   - Executes `cantDropFromSlot` behavior.
-- `cantMoveToSlot(ItemContainer fromContainer, short slotFrom)`
+- `cantMoveToSlot(ItemContainer fromContainer, short slotFrom)`: Add description.
   - Executes `cantMoveToSlot` behavior.
-- `getCapacity()`
+- `getCapacity()`: Add description.
   - Executes `getCapacity` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `registerChangeEvent(short priority, @Nonnull Consumer<ItemContainer.ItemContainerChangeEvent> consumer)`
+- `registerChangeEvent(short priority, @Nonnull Consumer<ItemContainer.ItemContainerChangeEvent> consumer)`: Add description.
   - Executes `registerChangeEvent` behavior.
-- `sendUpdate(@Nonnull Transaction transaction)`
+- `sendUpdate(@Nonnull Transaction transaction)`: Add description.
   - Executes `sendUpdate` behavior.
-- `containsContainer(ItemContainer itemContainer)`
+- `containsContainer(ItemContainer itemContainer)`: Add description.
   - Executes `containsContainer` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `setGlobalFilter(FilterType globalFilter)`
+- `setGlobalFilter(FilterType globalFilter)`: Add description.
   - Executes `setGlobalFilter` behavior.
-- `setSlotFilter(FilterActionType actionType, short slot, SlotFilter filter)`
+- `setSlotFilter(FilterActionType actionType, short slot, SlotFilter filter)`: Add description.
   - Executes `setSlotFilter` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `b0b2872dfa0d4888f1c1a1d64665e2c1be49946c3857b85d28c5f1eaf7d313c6`
+
 # StaminaGameplayConfig
 
 ## Overview
-- Documentation for `StaminaGameplayConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.stamina`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSprintRegenDelay()`
+## Method Descriptions
+- `getSprintRegenDelay()`: Add description.
   - Executes `getSprintRegenDelay` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getValue()`
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
 
 ## Notes

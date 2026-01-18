@@ -1,33 +1,33 @@
+**Source Hash:** `92976c79da17def002ff958fee9c0a05ff71237a7d6fd3642969679eabbb9c15`
+
 # ArrayMetaStore
 
 ## Overview
-- Documentation for `ArrayMetaStore`.
-- Declared as a class in `com.hypixel.hytale.server.core.meta`.
 
-## Constructors
+## Constructor Descriptions
 - `ArrayMetaStore(K parent, IMetaRegistry<K> registry)`
   - Creates a `ArrayMetaStore` instance.
 - `ArrayMetaStore(K parent, IMetaRegistry<K> registry, boolean bypassEncodedCache)`
   - Creates a `ArrayMetaStore` instance.
 
-## Methods
-- `get0(@Nonnull MetaKey<T> key)`
+## Method Descriptions
+- `get0(@Nonnull MetaKey<T> key)`: Add description.
   - Executes `get0` behavior.
-- `getMetaObject(@Nonnull MetaKey<T> key)`
+- `getMetaObject(@Nonnull MetaKey<T> key)`: Add description.
   - Executes `getMetaObject` behavior.
-- `getIfPresentMetaObject(@Nonnull MetaKey<T> key)`
+- `getIfPresentMetaObject(@Nonnull MetaKey<T> key)`: Add description.
   - Executes `getIfPresentMetaObject` behavior.
-- `putMetaObject(@Nonnull MetaKey<T> key, T obj)`
+- `putMetaObject(@Nonnull MetaKey<T> key, T obj)`: Add description.
   - Executes `putMetaObject` behavior.
-- `removeMetaObject(@Nonnull MetaKey<T> key)`
+- `removeMetaObject(@Nonnull MetaKey<T> key)`: Add description.
   - Executes `removeMetaObject` behavior.
-- `removeSerializedMetaObject(@Nonnull MetaKey<T> key)`
+- `removeSerializedMetaObject(@Nonnull MetaKey<T> key)`: Add description.
   - Executes `removeSerializedMetaObject` behavior.
-- `hasMetaObject(@Nonnull MetaKey<?> key)`
+- `hasMetaObject(@Nonnull MetaKey<?> key)`: Add description.
   - Executes `hasMetaObject` behavior.
-- `forEachMetaObject(@Nonnull IMetaStore.MetaEntryConsumer consumer)`
+- `forEachMetaObject(@Nonnull IMetaStore.MetaEntryConsumer consumer)`: Add description.
   - Executes `forEachMetaObject` behavior.
-- `resizeArray(T obj, int id)`
+- `resizeArray(T obj, int id)`: Add description.
   - Executes `resizeArray` behavior.
 
 ## Notes

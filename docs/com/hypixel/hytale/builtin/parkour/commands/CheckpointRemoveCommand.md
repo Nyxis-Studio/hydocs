@@ -1,15 +1,15 @@
+**Source Hash:** `f83651acccae0d9c3cad8e3ac7fa22f0cefeb049dc67da15e40432472e4b9c2b`
+
 # CheckpointRemoveCommand
 
 ## Overview
-- Documentation for `CheckpointRemoveCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.parkour.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `CheckpointRemoveCommand()`
   - Creates a `CheckpointRemoveCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

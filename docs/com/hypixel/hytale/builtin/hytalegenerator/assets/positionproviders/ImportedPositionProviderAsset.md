@@ -1,14 +1,14 @@
+**Source Hash:** `b746d74fd7c9bc5b5a8696f4f00e17168a03e9e914c54178df048a1e82f1842a`
+
 # ImportedPositionProviderAsset
 
 ## Overview
-- Documentation for `ImportedPositionProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.positionproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PositionProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PositionProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

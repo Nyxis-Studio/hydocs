@@ -1,15 +1,15 @@
+**Source Hash:** `4d5df4ff68d47ff0ee35f1c611542d8c722bb5000dcebd104d04aaf0139acdc8`
+
 # TeleportHistoryCommand
 
 ## Overview
-- Documentation for `TeleportHistoryCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportHistoryCommand()`
   - Creates a `TeleportHistoryCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

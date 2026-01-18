@@ -1,10 +1,10 @@
+**Source Hash:** `d820a1432482bfa854b84a48c7ec183422d312e5779edd45adb91df659a286db`
+
 # WeightedTrade
 
 ## Overview
-- Documentation for `WeightedTrade`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `WeightedTrade(double weight, @Nonnull BarterItemStack output, @Nonnull BarterItemStack[] input, int stock)`
   - Creates a `WeightedTrade` instance.
 - `WeightedTrade(double weight, @Nonnull BarterItemStack output, @Nonnull BarterItemStack[] input, int stockMin, int stockMax)`
@@ -12,28 +12,28 @@
 - `WeightedTrade()`
   - Creates a `WeightedTrade` instance.
 
-## Methods
-- `getWeight()`
+## Method Descriptions
+- `getWeight()`: Add description.
   - Executes `getWeight` behavior.
-- `getOutput()`
+- `getOutput()`: Add description.
   - Executes `getOutput` behavior.
-- `getInput()`
+- `getInput()`: Add description.
   - Executes `getInput` behavior.
-- `getStockRange()`
+- `getStockRange()`: Add description.
   - Executes `getStockRange` behavior.
-- `hasStockRange()`
+- `hasStockRange()`: Add description.
   - Executes `hasStockRange` behavior.
-- `getStockMin()`
+- `getStockMin()`: Add description.
   - Executes `getStockMin` behavior.
-- `getStockMax()`
+- `getStockMax()`: Add description.
   - Executes `getStockMax` behavior.
-- `resolveStock(@Nonnull Random random)`
+- `resolveStock(@Nonnull Random random)`: Add description.
   - Executes `resolveStock` behavior.
-- `toBarterTrade(@Nonnull Random random)`
+- `toBarterTrade(@Nonnull Random random)`: Add description.
   - Executes `toBarterTrade` behavior.
-- `toBarterTrade()`
+- `toBarterTrade()`: Add description.
   - Executes `toBarterTrade` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

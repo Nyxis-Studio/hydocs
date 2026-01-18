@@ -1,21 +1,21 @@
+**Source Hash:** `c707ac3c38101d452b701d9e3dd28bbe5391f1916764d0cf15a38f4641013f57`
+
 # WorldPathBuilder
 
 ## Overview
-- Documentation for `WorldPathBuilder`.
-- Declared as a class in `com.hypixel.hytale.builtin.path`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldPathBuilder()`
   - Creates a `WorldPathBuilder` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `setPath(WorldPath path)`
+- `setPath(WorldPath path)`: Add description.
   - Executes `setPath` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

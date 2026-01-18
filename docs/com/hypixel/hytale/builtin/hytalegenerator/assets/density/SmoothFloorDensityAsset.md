@@ -1,16 +1,16 @@
+**Source Hash:** `9b96b98bf4ecf9a3312ed7743772655b317fd6512df5a180c5183b49cf460383`
+
 # SmoothFloorDensityAsset
 
 ## Overview
-- Documentation for `SmoothFloorDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

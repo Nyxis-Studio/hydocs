@@ -1,20 +1,20 @@
+**Source Hash:** `9ef09e7340bad5b028f00856b25445471871b8f8d80039ca9a959be73442b662`
+
 # PlayerStorage
 
 ## Overview
-- Documentation for `PlayerStorage`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.playerdata`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `load(@Nonnull UUID var1)`
+## Method Descriptions
+- `load(@Nonnull UUID var1)`: Add description.
   - Executes `load` behavior.
-- `save(@Nonnull UUID var1, @Nonnull Holder<EntityStore> var2)`
+- `save(@Nonnull UUID var1, @Nonnull Holder<EntityStore> var2)`: Add description.
   - Executes `save` behavior.
-- `remove(@Nonnull UUID var1)`
+- `remove(@Nonnull UUID var1)`: Add description.
   - Executes `remove` behavior.
-- `getPlayers()`
+- `getPlayers()`: Add description.
   - Executes `getPlayers` behavior.
 
 ## Notes

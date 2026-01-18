@@ -1,14 +1,14 @@
+**Source Hash:** `3d59e81f1b27a0ec734b37b654142c73b6666f4412299adc534f108c82b04edc`
+
 # FilterActionType
 
 ## Overview
-- Documentation for `FilterActionType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.inventory.container.filter`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

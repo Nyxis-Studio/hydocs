@@ -1,18 +1,18 @@
+**Source Hash:** `6d652da23ad3f70b88d5075f129ef2228878f31ae48a22545e1431ee8ed6a3c5`
+
 # PathProvider
 
 ## Overview
-- Documentation for `PathProvider`.
-- Declared as a class in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setPath(IPath<? extends IPathWaypoint> path)`
+## Method Descriptions
+- `setPath(IPath<? extends IPathWaypoint> path)`: Add description.
   - Executes `setPath` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `hasPath()`
+- `hasPath()`: Add description.
   - Executes `hasPath` behavior.
 
 ## Notes

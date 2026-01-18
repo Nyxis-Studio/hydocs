@@ -1,15 +1,15 @@
+**Source Hash:** `08b5f87fc3238d83556b879ba7b68f8f8ddfd92365905dc923f5d36b48a42dad`
+
 # ClearObjectiveItemsCompletionAsset
 
 ## Overview
-- Documentation for `ClearObjectiveItemsCompletionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.completion`.
 
-## Constructors
+## Constructor Descriptions
 - `ClearObjectiveItemsCompletionAsset()`
   - Creates a `ClearObjectiveItemsCompletionAsset` instance.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `f7b2de9d8d834d834298c360b8ac49d00c7c87d3ed7f0052bc075f0e3e632c41`
+
 # EffectControllerComponent
 
 ## Overview
-- Documentation for `EffectControllerComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.effect`.
 
-## Constructors
+## Constructor Descriptions
 - `EffectControllerComponent()`
   - Creates a `EffectControllerComponent` instance.
 - `EffectControllerComponent(@Nonnull EffectControllerComponent effectControllerComponent)`
@@ -12,56 +12,56 @@
 - `EffectControllerComponent(this)`
   - Creates a `EffectControllerComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `isInvulnerable()`
+- `isInvulnerable()`: Add description.
   - Executes `isInvulnerable` behavior.
-- `setInvulnerable(boolean invulnerable)`
+- `setInvulnerable(boolean invulnerable)`: Add description.
   - Executes `setInvulnerable` behavior.
-- `addEffect(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `addEffect(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `addEffect` behavior.
-- `addEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `addEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `addEffect` behavior.
-- `addEffect(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, float duration, @Nonnull OverlapBehavior overlapBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `addEffect(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, float duration, @Nonnull OverlapBehavior overlapBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `addEffect` behavior.
-- `addEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, float duration, @Nonnull OverlapBehavior overlapBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `addEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, float duration, @Nonnull OverlapBehavior overlapBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `addEffect` behavior.
-- `addInfiniteEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `addInfiniteEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull EntityEffect entityEffect, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `addInfiniteEffect` behavior.
-- `setModelChange(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, int entityEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setModelChange(@Nonnull Ref<EntityStore> ownerRef, @Nonnull EntityEffect entityEffect, int entityEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setModelChange` behavior.
-- `tryResetModelChange(@Nonnull Ref<EntityStore> ownerRef, int activeEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `tryResetModelChange(@Nonnull Ref<EntityStore> ownerRef, int activeEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `tryResetModelChange` behavior.
-- `addActiveEntityEffects(@Nonnull ActiveEntityEffect[] activeEntityEffects)`
+- `addActiveEntityEffects(@Nonnull ActiveEntityEffect[] activeEntityEffects)`: Add description.
   - Executes `addActiveEntityEffects` behavior.
-- `removeEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `removeEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `removeEffect` behavior.
-- `removeEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull RemovalBehavior removalBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `removeEffect(@Nonnull Ref<EntityStore> ownerRef, int entityEffectIndex, @Nonnull RemovalBehavior removalBehavior, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `removeEffect` behavior.
-- `addChange(@Nonnull EntityEffectUpdate update)`
+- `addChange(@Nonnull EntityEffectUpdate update)`: Add description.
   - Executes `addChange` behavior.
-- `clearEffects(@Nonnull Ref<EntityStore> ownerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `clearEffects(@Nonnull Ref<EntityStore> ownerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `clearEffects` behavior.
-- `invalidateCache()`
+- `invalidateCache()`: Add description.
   - Executes `invalidateCache` behavior.
-- `getActiveEffects()`
+- `getActiveEffects()`: Add description.
   - Executes `getActiveEffects` behavior.
-- `getActiveEffectIndexes()`
+- `getActiveEffectIndexes()`: Add description.
   - Executes `getActiveEffectIndexes` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `consumeChanges()`
+- `consumeChanges()`: Add description.
   - Executes `consumeChanges` behavior.
-- `clearChanges()`
+- `clearChanges()`: Add description.
   - Executes `clearChanges` behavior.
-- `createInitUpdates()`
+- `createInitUpdates()`: Add description.
   - Executes `createInitUpdates` behavior.
-- `getAllActiveEntityEffects()`
+- `getAllActiveEntityEffects()`: Add description.
   - Executes `getAllActiveEntityEffects` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

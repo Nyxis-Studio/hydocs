@@ -1,10 +1,10 @@
+**Source Hash:** `b1c3b68cc696dd3b69ef076da79650ca8d2cd163371452dc300dfc36933650b2`
+
 # Vector3f
 
 ## Overview
-- Documentation for `Vector3f`.
-- Declared as a class in `com.hypixel.hytale.math.vector`.
 
-## Constructors
+## Constructor Descriptions
 - `Vector3f(Float.NaN, Float.NaN, Float.NaN)`
   - Creates a `Vector3f` instance.
 - `Vector3f(0.0f, 0.0f, 0.0f)`
@@ -50,152 +50,152 @@
 - `Vector3f(Float.MAX_VALUE, Float.MAX_VALUE, Float.MAX_VALUE)`
   - Creates a `Vector3f` instance.
 
-## Methods
-- `getX()`
+## Method Descriptions
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getPitch()`
+- `getPitch()`: Add description.
   - Executes `getPitch` behavior.
-- `setX(float x)`
+- `setX(float x)`: Add description.
   - Executes `setX` behavior.
-- `setPitch(float pitch)`
+- `setPitch(float pitch)`: Add description.
   - Executes `setPitch` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `setY(float y)`
+- `setY(float y)`: Add description.
   - Executes `setY` behavior.
-- `setYaw(float yaw)`
+- `setYaw(float yaw)`: Add description.
   - Executes `setYaw` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getRoll()`
+- `getRoll()`: Add description.
   - Executes `getRoll` behavior.
-- `setZ(float z)`
+- `setZ(float z)`: Add description.
   - Executes `setZ` behavior.
-- `setRoll(float roll)`
+- `setRoll(float roll)`: Add description.
   - Executes `setRoll` behavior.
-- `assign(@Nonnull Vector3f v)`
+- `assign(@Nonnull Vector3f v)`: Add description.
   - Executes `assign` behavior.
-- `assign(float v)`
+- `assign(float v)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull float[] v)`
+- `assign(@Nonnull float[] v)`: Add description.
   - Executes `assign` behavior.
-- `assign(float yaw, float pitch)`
+- `assign(float yaw, float pitch)`: Add description.
   - Executes `assign` behavior.
-- `assign(float x, float y, float z)`
+- `assign(float x, float y, float z)`: Add description.
   - Executes `assign` behavior.
-- `add(@Nonnull Vector3f v)`
+- `add(@Nonnull Vector3f v)`: Add description.
   - Executes `add` behavior.
-- `add(@Nonnull Vector3i v)`
+- `add(@Nonnull Vector3i v)`: Add description.
   - Executes `add` behavior.
-- `add(float x, float y, float z)`
+- `add(float x, float y, float z)`: Add description.
   - Executes `add` behavior.
-- `addPitch(float pitch)`
+- `addPitch(float pitch)`: Add description.
   - Executes `addPitch` behavior.
-- `addYaw(float yaw)`
+- `addYaw(float yaw)`: Add description.
   - Executes `addYaw` behavior.
-- `addRoll(float roll)`
+- `addRoll(float roll)`: Add description.
   - Executes `addRoll` behavior.
-- `addScaled(@Nonnull Vector3f v, float s)`
+- `addScaled(@Nonnull Vector3f v, float s)`: Add description.
   - Executes `addScaled` behavior.
-- `subtract(@Nonnull Vector3f v)`
+- `subtract(@Nonnull Vector3f v)`: Add description.
   - Executes `subtract` behavior.
-- `subtract(@Nonnull Vector3i v)`
+- `subtract(@Nonnull Vector3i v)`: Add description.
   - Executes `subtract` behavior.
-- `subtract(float x, float y, float z)`
+- `subtract(float x, float y, float z)`: Add description.
   - Executes `subtract` behavior.
-- `addRotationOnAxis(@Nonnull Axis axis, int angle)`
+- `addRotationOnAxis(@Nonnull Axis axis, int angle)`: Add description.
   - Executes `addRotationOnAxis` behavior.
-- `flipRotationOnAxis(@Nonnull Axis axis)`
+- `flipRotationOnAxis(@Nonnull Axis axis)`: Add description.
   - Executes `flipRotationOnAxis` behavior.
-- `negate()`
+- `negate()`: Add description.
   - Executes `negate` behavior.
-- `scale(float s)`
+- `scale(float s)`: Add description.
   - Executes `scale` behavior.
-- `scale(@Nonnull Vector3f p)`
+- `scale(@Nonnull Vector3f p)`: Add description.
   - Executes `scale` behavior.
-- `cross(@Nonnull Vector3f v)`
+- `cross(@Nonnull Vector3f v)`: Add description.
   - Executes `cross` behavior.
-- `cross(@Nonnull Vector3f v, @Nonnull Vector3f res)`
+- `cross(@Nonnull Vector3f v, @Nonnull Vector3f res)`: Add description.
   - Executes `cross` behavior.
-- `dot(@Nonnull Vector3f other)`
+- `dot(@Nonnull Vector3f other)`: Add description.
   - Executes `dot` behavior.
-- `distanceTo(@Nonnull Vector3f v)`
+- `distanceTo(@Nonnull Vector3f v)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceTo(@Nonnull Vector3i v)`
+- `distanceTo(@Nonnull Vector3i v)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceTo(float x, float y, float z)`
+- `distanceTo(float x, float y, float z)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceSquaredTo(@Nonnull Vector3f v)`
+- `distanceSquaredTo(@Nonnull Vector3f v)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `distanceSquaredTo(@Nonnull Vector3i v)`
+- `distanceSquaredTo(@Nonnull Vector3i v)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `distanceSquaredTo(float x, float y, float z)`
+- `distanceSquaredTo(float x, float y, float z)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `normalize()`
+- `normalize()`: Add description.
   - Executes `normalize` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
-- `squaredLength()`
+- `squaredLength()`: Add description.
   - Executes `squaredLength` behavior.
-- `setLength(float newLen)`
+- `setLength(float newLen)`: Add description.
   - Executes `setLength` behavior.
-- `clampLength(float maxLength)`
+- `clampLength(float maxLength)`: Add description.
   - Executes `clampLength` behavior.
-- `rotateX(float angle)`
+- `rotateX(float angle)`: Add description.
   - Executes `rotateX` behavior.
-- `rotateY(float angle)`
+- `rotateY(float angle)`: Add description.
   - Executes `rotateY` behavior.
-- `rotateZ(float angle)`
+- `rotateZ(float angle)`: Add description.
   - Executes `rotateZ` behavior.
-- `floor()`
+- `floor()`: Add description.
   - Executes `floor` behavior.
-- `ceil()`
+- `ceil()`: Add description.
   - Executes `ceil` behavior.
-- `clipToZero(float epsilon)`
+- `clipToZero(float epsilon)`: Add description.
   - Executes `clipToZero` behavior.
-- `closeToZero(float epsilon)`
+- `closeToZero(float epsilon)`: Add description.
   - Executes `closeToZero` behavior.
-- `isInside(int x, int y, int z)`
+- `isInside(int x, int y, int z)`: Add description.
   - Executes `isInside` behavior.
-- `isFinite()`
+- `isFinite()`: Add description.
   - Executes `isFinite` behavior.
-- `dropHash()`
+- `dropHash()`: Add description.
   - Executes `dropHash` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `equals(@Nullable Vector3f o)`
+- `equals(@Nullable Vector3f o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `toVector3d()`
+- `toVector3d()`: Add description.
   - Executes `toVector3d` behavior.
-- `max(@Nonnull Vector3f a, @Nonnull Vector3f b)`
+- `max(@Nonnull Vector3f a, @Nonnull Vector3f b)`: Add description.
   - Executes `max` behavior.
-- `min(@Nonnull Vector3f a, @Nonnull Vector3f b)`
+- `min(@Nonnull Vector3f a, @Nonnull Vector3f b)`: Add description.
   - Executes `min` behavior.
-- `lerp(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+- `lerp(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`: Add description.
   - Executes `lerp` behavior.
-- `lerpUnclamped(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+- `lerpUnclamped(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`: Add description.
   - Executes `lerpUnclamped` behavior.
-- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`
+- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t)`: Add description.
   - Executes `lerpAngle` behavior.
-- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t, @Nonnull Vector3f target)`
+- `lerpAngle(@Nonnull Vector3f a, @Nonnull Vector3f b, float t, @Nonnull Vector3f target)`: Add description.
   - Executes `lerpAngle` behavior.
-- `directionTo(@Nonnull Vector3f from, @Nonnull Vector3f to)`
+- `directionTo(@Nonnull Vector3f from, @Nonnull Vector3f to)`: Add description.
   - Executes `directionTo` behavior.
-- `add(@Nonnull Vector3f one, @Nonnull Vector3f two)`
+- `add(@Nonnull Vector3f one, @Nonnull Vector3f two)`: Add description.
   - Executes `add` behavior.
-- `add(@Nonnull Vector3f one, @Nonnull Vector3f two, @Nonnull Vector3f three)`
+- `add(@Nonnull Vector3f one, @Nonnull Vector3f two, @Nonnull Vector3f three)`: Add description.
   - Executes `add` behavior.
-- `lookAt(@Nonnull Vector3d relative)`
+- `lookAt(@Nonnull Vector3d relative)`: Add description.
   - Executes `lookAt` behavior.
-- `lookAt(@Nonnull Vector3d relative, @Nonnull Vector3f result)`
+- `lookAt(@Nonnull Vector3d relative, @Nonnull Vector3f result)`: Add description.
   - Executes `lookAt` behavior.
 
 ## Notes

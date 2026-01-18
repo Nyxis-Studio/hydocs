@@ -1,16 +1,16 @@
+**Source Hash:** `c65906bad0e532e5bd2f926edcbde0bcef96e9ac4d106b9bd7a778480bd2b725`
+
 # CreativeHubWorldConfig
 
 ## Overview
-- Documentation for `CreativeHubWorldConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.creativehub.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(@Nonnull WorldConfig config)`
+## Method Descriptions
+- `get(@Nonnull WorldConfig config)`: Add description.
   - Executes `get` behavior.
-- `getStartupInstance()`
+- `getStartupInstance()`: Add description.
   - Executes `getStartupInstance` behavior.
 
 ## Notes

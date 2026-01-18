@@ -1,21 +1,21 @@
+**Source Hash:** `e6b0e0dbb7703457d2ca87b5a3c4b9f0daa4c9e121b01e970b1be4bc2067cb68`
+
 # ChoiceItemDropContainer
 
 ## Overview
-- Documentation for `ChoiceItemDropContainer`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config.container`.
 
-## Constructors
+## Constructor Descriptions
 - `ChoiceItemDropContainer(ItemDropContainer[] containers, double chance)`
   - Creates a `ChoiceItemDropContainer` instance.
 - `ChoiceItemDropContainer()`
   - Creates a `ChoiceItemDropContainer` instance.
 
-## Methods
-- `populateDrops(List<ItemDrop> drops, DoubleSupplier chanceProvider, Set<String> droplistReferences)`
+## Method Descriptions
+- `populateDrops(List<ItemDrop> drops, DoubleSupplier chanceProvider, Set<String> droplistReferences)`: Add description.
   - Executes `populateDrops` behavior.
-- `getAllDrops(List<ItemDrop> list)`
+- `getAllDrops(List<ItemDrop> list)`: Add description.
   - Executes `getAllDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

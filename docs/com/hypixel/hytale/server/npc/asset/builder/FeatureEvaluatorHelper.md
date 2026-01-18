@@ -1,41 +1,41 @@
+**Source Hash:** `e662f0e8dd83d37ace2ddcfb5e437b7e41b16515ee4f5b6a3cd1729da645eaef`
+
 # FeatureEvaluatorHelper
 
 ## Overview
-- Documentation for `FeatureEvaluatorHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `FeatureEvaluatorHelper()`
   - Creates a `FeatureEvaluatorHelper` instance.
 - `FeatureEvaluatorHelper(boolean couldRequireFeature)`
   - Creates a `FeatureEvaluatorHelper` instance.
 
-## Methods
-- `isDisallowParameterProviders()`
+## Method Descriptions
+- `isDisallowParameterProviders()`: Add description.
   - Executes `isDisallowParameterProviders` behavior.
-- `add(ProviderEvaluator evaluator)`
+- `add(ProviderEvaluator evaluator)`: Add description.
   - Executes `add` behavior.
-- `canAddProvider()`
+- `canAddProvider()`: Add description.
   - Executes `canAddProvider` behavior.
-- `lock()`
+- `lock()`: Add description.
   - Executes `lock` behavior.
-- `setContainsReference()`
+- `setContainsReference()`: Add description.
   - Executes `setContainsReference` behavior.
-- `addProviderReferenceValidator(BiConsumer<BuilderManager, ExecutionContext> referenceValidator)`
+- `addProviderReferenceValidator(BiConsumer<BuilderManager, ExecutionContext> referenceValidator)`: Add description.
   - Executes `addProviderReferenceValidator` behavior.
-- `addComponentRequirementValidator(BiConsumer<FeatureEvaluatorHelper, ExecutionContext> validator)`
+- `addComponentRequirementValidator(BiConsumer<FeatureEvaluatorHelper, ExecutionContext> validator)`: Add description.
   - Executes `addComponentRequirementValidator` behavior.
-- `getProviders()`
+- `getProviders()`: Add description.
   - Executes `getProviders` behavior.
-- `requiresProviderReferenceEvaluation()`
+- `requiresProviderReferenceEvaluation()`: Add description.
   - Executes `requiresProviderReferenceEvaluation` behavior.
-- `belongsToFeatureRequiringComponent()`
+- `belongsToFeatureRequiringComponent()`: Add description.
   - Executes `belongsToFeatureRequiringComponent` behavior.
-- `validateProviderReferences(BuilderManager manager, ExecutionContext context)`
+- `validateProviderReferences(BuilderManager manager, ExecutionContext context)`: Add description.
   - Executes `validateProviderReferences` behavior.
-- `validateComponentRequirements(FeatureEvaluatorHelper providers, ExecutionContext context)`
+- `validateComponentRequirements(FeatureEvaluatorHelper providers, ExecutionContext context)`: Add description.
   - Executes `validateComponentRequirements` behavior.
-- `disallowParameterProviders()`
+- `disallowParameterProviders()`: Add description.
   - Executes `disallowParameterProviders` behavior.
 
 ## Notes

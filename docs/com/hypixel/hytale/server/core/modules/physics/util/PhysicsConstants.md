@@ -1,14 +1,14 @@
+**Source Hash:** `59c36195221c63dd64bfef2f658f356ceba9be9bc97bd6301f16fcbd769eb615`
+
 # PhysicsConstants
 
 ## Overview
-- Documentation for `PhysicsConstants`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

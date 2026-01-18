@@ -1,22 +1,22 @@
+**Source Hash:** `713fc3c37ef94bd04086957b52163c927e0295d08254053ec1451818684c0a68`
+
 # BallisticData
 
 ## Overview
-- Documentation for `BallisticData`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.projectile.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getMuzzleVelocity()`
+## Method Descriptions
+- `getMuzzleVelocity()`: Add description.
   - Executes `getMuzzleVelocity` behavior.
-- `getGravity()`
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `getVerticalCenterShot()`
+- `getVerticalCenterShot()`: Add description.
   - Executes `getVerticalCenterShot` behavior.
-- `getDepthShot()`
+- `getDepthShot()`: Add description.
   - Executes `getDepthShot` behavior.
-- `isPitchAdjustShot()`
+- `isPitchAdjustShot()`: Add description.
   - Executes `isPitchAdjustShot` behavior.
 
 ## Notes

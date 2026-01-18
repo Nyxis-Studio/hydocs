@@ -1,27 +1,27 @@
+**Source Hash:** `722a08f9d64026d112ec034ab149b4a827f541d826c4dd59b41771f6ca6d1e51`
+
 # NoiseFormulaProperty
 
 ## Overview
-- Documentation for `NoiseFormulaProperty`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.property`.
 
-## Constructors
+## Constructor Descriptions
 - `NoiseFormulaProperty(NoiseProperty property, NoiseFormula.Formula formula)`
   - Creates a `NoiseFormulaProperty` instance.
 
-## Methods
-- `getProperty()`
+## Method Descriptions
+- `getProperty()`: Add description.
   - Executes `getProperty` behavior.
-- `get(int seed, double x, double y)`
+- `get(int seed, double x, double y)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, double x, double y, double z)`
+- `get(int seed, double x, double y, double z)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `eval(double noise)`
+- `eval(double noise)`: Add description.
   - Executes `eval` behavior.
-- `getFormula()`
+- `getFormula()`: Add description.
   - Executes `getFormula` behavior.
-- `eval(double var1)`
+- `eval(double var1)`: Add description.
   - Executes `eval` behavior.
 
 ## Notes

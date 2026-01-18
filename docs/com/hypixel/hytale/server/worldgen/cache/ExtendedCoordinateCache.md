@@ -1,29 +1,29 @@
+**Source Hash:** `76b0cdd67c8cf1230f56db62567c6394ff6ad80fb01649d5a20684fe8808991c`
+
 # ExtendedCoordinateCache
 
 ## Overview
-- Documentation for `ExtendedCoordinateCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cache`.
 
-## Constructors
+## Constructor Descriptions
 - `ExtendedCoordinateCache(@Nonnull ExtendedCoordinateObjectFunction<K, T> loader, @Nullable ExtendedCoordinateRemovalListener<T> removalListener, int maxSize, long expireAfterSeconds)`
   - Creates a `ExtendedCoordinateCache` instance.
 
-## Methods
-- `get(@Nonnull K k, int seed, int x, int y)`
+## Method Descriptions
+- `get(@Nonnull K k, int seed, int x, int y)`: Add description.
   - Executes `get` behavior.
-- `localKey()`
+- `localKey()`: Add description.
   - Executes `localKey` behavior.
-- `compute(K var1, int var2, int var3, int var4)`
+- `compute(K var1, int var2, int var3, int var4)`: Add description.
   - Executes `compute` behavior.
-- `onRemoval(T var1)`
+- `onRemoval(T var1)`: Add description.
   - Executes `onRemoval` behavior.
-- `setLocation(@Nonnull K k, int seed, int x, int y)`
+- `setLocation(@Nonnull K k, int seed, int x, int y)`: Add description.
   - Executes `setLocation` behavior.
-- `apply(@Nonnull ExtendedCoordinateKey<K> cachedKey)`
+- `apply(@Nonnull ExtendedCoordinateKey<K> cachedKey)`: Add description.
   - Executes `apply` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
 
 ## Notes

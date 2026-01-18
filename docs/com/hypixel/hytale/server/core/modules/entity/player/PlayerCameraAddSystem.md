@@ -1,18 +1,18 @@
+**Source Hash:** `279f9cadc657643b0970cbdd518706acd642d7809995c3c3bb719c7f59bd381e`
+
 # PlayerCameraAddSystem
 
 ## Overview
-- Documentation for `PlayerCameraAddSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.player`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

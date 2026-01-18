@@ -1,21 +1,21 @@
+**Source Hash:** `48c910eccf2ab3e927eae747886d441f8437d9dce87dec225b86eac68c0ba115`
+
 # PipeCaveNodeShapeGeneratorJsonLoader
 
 ## Overview
-- Documentation for `PipeCaveNodeShapeGeneratorJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `PipeCaveNodeShapeGeneratorJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json)`
   - Creates a `PipeCaveNodeShapeGeneratorJsonLoader` instance.
 
-## Methods
-- `loadRadius()`
+## Method Descriptions
+- `loadRadius()`: Add description.
   - Executes `loadRadius` behavior.
-- `loadMiddleRadius()`
+- `loadMiddleRadius()`: Add description.
   - Executes `loadMiddleRadius` behavior.
-- `loadLength()`
+- `loadLength()`: Add description.
   - Executes `loadLength` behavior.
-- `loadInheritParentRadius()`
+- `loadInheritParentRadius()`: Add description.
   - Executes `loadInheritParentRadius` behavior.
 
 ## Notes

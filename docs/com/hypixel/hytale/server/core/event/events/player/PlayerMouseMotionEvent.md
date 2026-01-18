@@ -1,31 +1,31 @@
+**Source Hash:** `019b15308dead2f897a5d7738569e5b4024142397c9fce03c699b58161250c57`
+
 # PlayerMouseMotionEvent
 
 ## Overview
-- Documentation for `PlayerMouseMotionEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerMouseMotionEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Player player, long clientUseTime, Item itemInHand, Vector3i targetBlock, Entity targetEntity, Vector2f screenPoint, MouseMotionEvent mouseMotion)`
   - Creates a `PlayerMouseMotionEvent` instance.
 
-## Methods
-- `isCancelled()`
+## Method Descriptions
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
-- `getClientUseTime()`
+- `getClientUseTime()`: Add description.
   - Executes `getClientUseTime` behavior.
-- `getItemInHand()`
+- `getItemInHand()`: Add description.
   - Executes `getItemInHand` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `getTargetEntity()`
+- `getTargetEntity()`: Add description.
   - Executes `getTargetEntity` behavior.
-- `getScreenPoint()`
+- `getScreenPoint()`: Add description.
   - Executes `getScreenPoint` behavior.
-- `getMouseMotion()`
+- `getMouseMotion()`: Add description.
   - Executes `getMouseMotion` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

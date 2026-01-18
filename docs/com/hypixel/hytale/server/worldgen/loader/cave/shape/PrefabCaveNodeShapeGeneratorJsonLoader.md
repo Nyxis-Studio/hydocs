@@ -1,17 +1,17 @@
+**Source Hash:** `546d089fbb96e12ef7ef6648148e4356cb275f117c7c3611c5b297e6d64fa88e`
+
 # PrefabCaveNodeShapeGeneratorJsonLoader
 
 ## Overview
-- Documentation for `PrefabCaveNodeShapeGeneratorJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabCaveNodeShapeGeneratorJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json)`
   - Creates a `PrefabCaveNodeShapeGeneratorJsonLoader` instance.
 
-## Methods
-- `loadPrefabs()`
+## Method Descriptions
+- `loadPrefabs()`: Add description.
   - Executes `loadPrefabs` behavior.
-- `loadMask()`
+- `loadMask()`: Add description.
   - Executes `loadMask` behavior.
 
 ## Notes

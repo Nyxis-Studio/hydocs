@@ -1,24 +1,24 @@
+**Source Hash:** `29000180b461aea2465982e2388a9d7a665a35892963e10b9f7bfb5a6cab8db7`
+
 # BuilderSensorWeather
 
 ## Overview
-- Documentation for `BuilderSensorWeather`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getWeathers(@Nonnull BuilderSupport support)`
+- `getWeathers(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getWeathers` behavior.
 
 ## Notes

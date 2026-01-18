@@ -1,17 +1,17 @@
+**Source Hash:** `3a69946aa4e5162ebd15546091a74f2ee990349e054ca592eb10f02407953796`
+
 # PositionDistanceOffsetType
 
 ## Overview
-- Documentation for `PositionDistanceOffsetType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionDistanceOffsetType(int value)`
   - Creates a `PositionDistanceOffsetType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

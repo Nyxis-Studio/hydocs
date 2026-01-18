@@ -1,17 +1,17 @@
+**Source Hash:** `b1c9f2a9e61448876f7c03fd9d44e3bbf0b051a742f3ef1d2aaab66d6c4f207a`
+
 # ParticleRotationInfluence
 
 ## Overview
-- Documentation for `ParticleRotationInfluence`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleRotationInfluence(int value)`
   - Creates a `ParticleRotationInfluence` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

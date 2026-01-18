@@ -1,15 +1,15 @@
+**Source Hash:** `08f741243612aec92e4f727b1caed8fc6804c70ac49e29c258f98d50ede97fbf`
+
 # NoDuplicateFilter
 
 ## Overview
-- Documentation for `NoDuplicateFilter`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container.filter`.
 
-## Constructors
+## Constructor Descriptions
 - `NoDuplicateFilter(SimpleItemContainer container)`
   - Creates a `NoDuplicateFilter` instance.
 
-## Methods
-- `test(@Nullable Item item)`
+## Method Descriptions
+- `test(@Nullable Item item)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

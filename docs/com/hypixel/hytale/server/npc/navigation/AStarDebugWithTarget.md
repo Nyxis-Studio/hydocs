@@ -1,21 +1,21 @@
+**Source Hash:** `2e0db5d46ea6df51ca7ea98f82581723a77a64ae692e521336e6ea3eecc2cac9`
+
 # AStarDebugWithTarget
 
 ## Overview
-- Documentation for `AStarDebugWithTarget`.
-- Declared as a class in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
+## Constructor Descriptions
 - `AStarDebugWithTarget(AStarWithTarget aStarWithTarget, @Nonnull HytaleLogger logger)`
   - Creates a `AStarDebugWithTarget` instance.
 
-## Methods
-- `getDumpMapRegionZ(int def)`
+## Method Descriptions
+- `getDumpMapRegionZ(int def)`: Add description.
   - Executes `getDumpMapRegionZ` behavior.
-- `getDumpMapRegionX(int def)`
+- `getDumpMapRegionX(int def)`: Add description.
   - Executes `getDumpMapRegionX` behavior.
-- `drawMapFinish(@Nonnull StringBuilder[] map, int minX, int minZ)`
+- `drawMapFinish(@Nonnull StringBuilder[] map, int minX, int minZ)`: Add description.
   - Executes `drawMapFinish` behavior.
-- `getExtraLogString(MotionController controller)`
+- `getExtraLogString(MotionController controller)`: Add description.
   - Executes `getExtraLogString` behavior.
 
 ## Notes

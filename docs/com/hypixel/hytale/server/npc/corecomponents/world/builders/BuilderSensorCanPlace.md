@@ -1,26 +1,26 @@
+**Source Hash:** `288d85b84ce9ab5c4d62df35a75d39283452590afc55a6e41da5f3a16f7479f0`
+
 # BuilderSensorCanPlace
 
 ## Overview
-- Documentation for `BuilderSensorCanPlace`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getRetryDelay(@Nonnull BuilderSupport support)`
+- `getRetryDelay(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRetryDelay` behavior.
-- `isAllowEmptyMaterials(@Nonnull BuilderSupport support)`
+- `isAllowEmptyMaterials(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isAllowEmptyMaterials` behavior.
 
 ## Notes

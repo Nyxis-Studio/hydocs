@@ -1,27 +1,27 @@
+**Source Hash:** `e1431649bbf9650d66f6da1667e99c27449e47c9e04ca4e86092bb7d77a82ece`
+
 # PersistentFlockData
 
 ## Overview
-- Documentation for `PersistentFlockData`.
-- Declared as a class in `com.hypixel.hytale.server.flock`.
 
-## Constructors
+## Constructor Descriptions
 - `PersistentFlockData(@Nullable FlockAsset flockDefinition, @Nonnull String[] allowedRoles)`
   - Creates a `PersistentFlockData` instance.
 - `PersistentFlockData()`
   - Creates a `PersistentFlockData` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getMaxGrowSize()`
+- `getMaxGrowSize()`: Add description.
   - Executes `getMaxGrowSize` behavior.
-- `isFlockAllowedRole(String role)`
+- `isFlockAllowedRole(String role)`: Add description.
   - Executes `isFlockAllowedRole` behavior.
-- `increaseSize()`
+- `increaseSize()`: Add description.
   - Executes `increaseSize` behavior.
-- `decreaseSize()`
+- `decreaseSize()`: Add description.
   - Executes `decreaseSize` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,194 +1,194 @@
+**Source Hash:** `09262b6535a23e749325d1058eba600d810484cc8afc1dee6c8331959b7f6a08`
+
 # BuilderRole
 
 ## Overview
-- Documentation for `BuilderRole`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getIdentifier()`
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `canSpawn(@Nonnull SpawningContext context)`
+- `canSpawn(@Nonnull SpawningContext context)`: Add description.
   - Executes `canSpawn` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getSpawnModelName(ExecutionContext context, Scope modifierScope)`
+- `getSpawnModelName(ExecutionContext context, Scope modifierScope)`: Add description.
   - Executes `getSpawnModelName` behavior.
-- `createModifierScope(ExecutionContext executionContext)`
+- `createModifierScope(ExecutionContext executionContext)`: Add description.
   - Executes `createModifierScope` behavior.
-- `createExecutionScope()`
+- `createExecutionScope()`: Add description.
   - Executes `createExecutionScope` behavior.
-- `markNeedsReload()`
+- `markNeedsReload()`: Add description.
   - Executes `markNeedsReload` behavior.
-- `getSpawnParticles()`
+- `getSpawnParticles()`: Add description.
   - Executes `getSpawnParticles` behavior.
-- `getSpawnParticleOffset()`
+- `getSpawnParticleOffset()`: Add description.
   - Executes `getSpawnParticleOffset` behavior.
-- `getSpawnViewDistance()`
+- `getSpawnViewDistance()`: Add description.
   - Executes `getSpawnViewDistance` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `getMaxHealth(@Nonnull BuilderSupport builderSupport)`
+- `getMaxHealth(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getMaxHealth` behavior.
-- `getDisplayNames()`
+- `getDisplayNames()`: Add description.
   - Executes `getDisplayNames` behavior.
-- `getNameTranslationKey(BuilderSupport support)`
+- `getNameTranslationKey(BuilderSupport support)`: Add description.
   - Executes `getNameTranslationKey` behavior.
-- `getAppearance(@Nonnull BuilderSupport builderSupport)`
+- `getAppearance(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getAppearance` behavior.
-- `isBreathesInAir(BuilderSupport support)`
+- `isBreathesInAir(BuilderSupport support)`: Add description.
   - Executes `isBreathesInAir` behavior.
-- `isBreathesInWater(BuilderSupport support)`
+- `isBreathesInWater(BuilderSupport support)`: Add description.
   - Executes `isBreathesInWater` behavior.
-- `getOpaqueBlockSet()`
+- `getOpaqueBlockSet()`: Add description.
   - Executes `getOpaqueBlockSet` behavior.
-- `getInertia()`
+- `getInertia()`: Add description.
   - Executes `getInertia` behavior.
-- `getKnockbackScale()`
+- `getKnockbackScale()`: Add description.
   - Executes `getKnockbackScale` behavior.
-- `getHotbarItems(@Nonnull BuilderSupport support)`
+- `getHotbarItems(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getHotbarItems` behavior.
-- `getOffHandItems(@Nonnull BuilderSupport support)`
+- `getOffHandItems(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getOffHandItems` behavior.
-- `getInventoryItemsDropList(@Nonnull BuilderSupport support)`
+- `getInventoryItemsDropList(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInventoryItemsDropList` behavior.
-- `getArmor()`
+- `getArmor()`: Add description.
   - Executes `getArmor` behavior.
-- `isPickupDropOnDeath()`
+- `isPickupDropOnDeath()`: Add description.
   - Executes `isPickupDropOnDeath` behavior.
-- `getDropListId(@Nonnull BuilderSupport builderSupport)`
+- `getDropListId(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getDropListId` behavior.
-- `getStartState()`
+- `getStartState()`: Add description.
   - Executes `getStartState` behavior.
-- `getStartStateIndex()`
+- `getStartStateIndex()`: Add description.
   - Executes `getStartStateIndex` behavior.
-- `getStartSubStateIndex()`
+- `getStartSubStateIndex()`: Add description.
   - Executes `getStartSubStateIndex` behavior.
-- `getCollisionDistance()`
+- `getCollisionDistance()`: Add description.
   - Executes `getCollisionDistance` behavior.
-- `getCollisionForceFalloff()`
+- `getCollisionForceFalloff()`: Add description.
   - Executes `getCollisionForceFalloff` behavior.
-- `isAvoidingEntities()`
+- `isAvoidingEntities()`: Add description.
   - Executes `isAvoidingEntities` behavior.
-- `getCollisionRadius()`
+- `getCollisionRadius()`: Add description.
   - Executes `getCollisionRadius` behavior.
-- `getSeparationDistance()`
+- `getSeparationDistance()`: Add description.
   - Executes `getSeparationDistance` behavior.
-- `getSeparationWeight()`
+- `getSeparationWeight()`: Add description.
   - Executes `getSeparationWeight` behavior.
-- `getSeparationDistanceTarget()`
+- `getSeparationDistanceTarget()`: Add description.
   - Executes `getSeparationDistanceTarget` behavior.
-- `getSeparationNearRadiusTarget()`
+- `getSeparationNearRadiusTarget()`: Add description.
   - Executes `getSeparationNearRadiusTarget` behavior.
-- `getSeparationFarRadiusTarget()`
+- `getSeparationFarRadiusTarget()`: Add description.
   - Executes `getSeparationFarRadiusTarget` behavior.
-- `isApplySeparation(BuilderSupport support)`
+- `isApplySeparation(BuilderSupport support)`: Add description.
   - Executes `isApplySeparation` behavior.
-- `isStayingInEnvironment()`
+- `isStayingInEnvironment()`: Add description.
   - Executes `isStayingInEnvironment` behavior.
-- `getAllowedEnvironments()`
+- `getAllowedEnvironments()`: Add description.
   - Executes `getAllowedEnvironments` behavior.
-- `getEntityAvoidanceStrength()`
+- `getEntityAvoidanceStrength()`: Add description.
   - Executes `getEntityAvoidanceStrength` behavior.
-- `getFlockSpawnTypes(@Nonnull BuilderSupport support)`
+- `getFlockSpawnTypes(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getFlockSpawnTypes` behavior.
-- `isFlockSpawnTypeRandom(@Nonnull BuilderSupport support)`
+- `isFlockSpawnTypeRandom(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isFlockSpawnTypeRandom` behavior.
-- `getFlockAllowedRoles(@Nonnull BuilderSupport support)`
+- `getFlockAllowedRoles(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getFlockAllowedRoles` behavior.
-- `isCanLeadFlock(@Nonnull BuilderSupport support)`
+- `isCanLeadFlock(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isCanLeadFlock` behavior.
-- `getFlockWeightAlignment()`
+- `getFlockWeightAlignment()`: Add description.
   - Executes `getFlockWeightAlignment` behavior.
-- `getFlockWeightSeparation()`
+- `getFlockWeightSeparation()`: Add description.
   - Executes `getFlockWeightSeparation` behavior.
-- `getFlockWeightCohesion()`
+- `getFlockWeightCohesion()`: Add description.
   - Executes `getFlockWeightCohesion` behavior.
-- `getFlockInfluenceRange()`
+- `getFlockInfluenceRange()`: Add description.
   - Executes `getFlockInfluenceRange` behavior.
-- `getDebugFlags()`
+- `getDebugFlags()`: Add description.
   - Executes `getDebugFlags` behavior.
-- `getCollisionViewAngle()`
+- `getCollisionViewAngle()`: Add description.
   - Executes `getCollisionViewAngle` behavior.
-- `getBalanceAsset(@Nonnull BuilderSupport support)`
+- `getBalanceAsset(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBalanceAsset` behavior.
-- `getDeathAnimationTime()`
+- `getDeathAnimationTime()`: Add description.
   - Executes `getDeathAnimationTime` behavior.
-- `getDeathInteraction(@Nonnull BuilderSupport builderSupport)`
+- `getDeathInteraction(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getDeathInteraction` behavior.
-- `getDespawnAnimationTime()`
+- `getDespawnAnimationTime()`: Add description.
   - Executes `getDespawnAnimationTime` behavior.
-- `isDisableDamageFlock()`
+- `isDisableDamageFlock()`: Add description.
   - Executes `isDisableDamageFlock` behavior.
-- `getDisableDamageGroups(@Nonnull BuilderSupport support)`
+- `getDisableDamageGroups(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDisableDamageGroups` behavior.
-- `isInvulnerable(BuilderSupport support)`
+- `isInvulnerable(BuilderSupport support)`: Add description.
   - Executes `isInvulnerable` behavior.
-- `getInventorySlots()`
+- `getInventorySlots()`: Add description.
   - Executes `getInventorySlots` behavior.
-- `getHotbarSlots()`
+- `getHotbarSlots()`: Add description.
   - Executes `getHotbarSlots` behavior.
-- `getOffHandSlots()`
+- `getOffHandSlots()`: Add description.
   - Executes `getOffHandSlots` behavior.
-- `getDefaultOffHandSlot(@Nonnull BuilderSupport support)`
+- `getDefaultOffHandSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDefaultOffHandSlot` behavior.
-- `getBusyStates()`
+- `getBusyStates()`: Add description.
   - Executes `getBusyStates` behavior.
-- `getDefaultPlayerAttitude(@Nonnull BuilderSupport support)`
+- `getDefaultPlayerAttitude(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDefaultPlayerAttitude` behavior.
-- `getDefaultNPCAttitude(@Nonnull BuilderSupport support)`
+- `getDefaultNPCAttitude(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDefaultNPCAttitude` behavior.
-- `getAttitudeGroup(@Nonnull BuilderSupport support)`
+- `getAttitudeGroup(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAttitudeGroup` behavior.
-- `getItemAttitudeGroup(@Nonnull BuilderSupport support)`
+- `getItemAttitudeGroup(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getItemAttitudeGroup` behavior.
-- `isCorpseStaysInFlock()`
+- `isCorpseStaysInFlock()`: Add description.
   - Executes `isCorpseStaysInFlock` behavior.
-- `getMotionControllerMap(@Nonnull BuilderSupport support)`
+- `getMotionControllerMap(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMotionControllerMap` behavior.
-- `getInitialMotionController(@Nonnull BuilderSupport support)`
+- `getInitialMotionController(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInitialMotionController` behavior.
-- `getInstructionList(@Nonnull BuilderSupport support)`
+- `getInstructionList(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInstructionList` behavior.
-- `getInteractionInstruction(@Nonnull BuilderSupport support)`
+- `getInteractionInstruction(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInteractionInstruction` behavior.
-- `getDeathInstruction(@Nonnull BuilderSupport support)`
+- `getDeathInstruction(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDeathInstruction` behavior.
-- `getStateTransitionController(@Nonnull BuilderSupport support)`
+- `getStateTransitionController(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getStateTransitionController` behavior.
-- `registerStateEvaluator(@Nonnull BuilderSupport support)`
+- `registerStateEvaluator(@Nonnull BuilderSupport support)`: Add description.
   - Executes `registerStateEvaluator` behavior.
-- `getInteractionVars(@Nonnull BuilderSupport support)`
+- `getInteractionVars(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInteractionVars` behavior.
-- `isMemory(ExecutionContext context)`
+- `isMemory(ExecutionContext context)`: Add description.
   - Executes `isMemory` behavior.
-- `isMemory(ExecutionContext context, Scope modifierScope)`
+- `isMemory(ExecutionContext context, Scope modifierScope)`: Add description.
   - Executes `isMemory` behavior.
-- `getMemoriesCategory(ExecutionContext context, Scope modifierScope)`
+- `getMemoriesCategory(ExecutionContext context, Scope modifierScope)`: Add description.
   - Executes `getMemoriesCategory` behavior.
-- `getMemoriesNameOverride(ExecutionContext context)`
+- `getMemoriesNameOverride(ExecutionContext context)`: Add description.
   - Executes `getMemoriesNameOverride` behavior.
-- `getMemoriesNameOverride(ExecutionContext context, @NullableDecl Scope modifierScope)`
+- `getMemoriesNameOverride(ExecutionContext context, @NullableDecl Scope modifierScope)`: Add description.
   - Executes `getMemoriesNameOverride` behavior.
-- `getNameTranslationKey(ExecutionContext context, @NullableDecl Scope modifierScope)`
+- `getNameTranslationKey(ExecutionContext context, @NullableDecl Scope modifierScope)`: Add description.
   - Executes `getNameTranslationKey` behavior.
-- `getSpawnLockTime(BuilderSupport support)`
+- `getSpawnLockTime(BuilderSupport support)`: Add description.
   - Executes `getSpawnLockTime` behavior.
-- `runLoadTimeValidationHelper0(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, @Nonnull List<String> errors)`
+- `runLoadTimeValidationHelper0(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, @Nonnull List<String> errors)`: Add description.
   - Executes `runLoadTimeValidationHelper0` behavior.
 
 ## Notes

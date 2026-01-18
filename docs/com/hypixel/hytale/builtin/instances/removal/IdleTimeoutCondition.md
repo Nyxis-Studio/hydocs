@@ -1,14 +1,14 @@
+**Source Hash:** `002782eb26caa78dbcec2ef15e5be50f539c2db90ada54d46de52cc06baa162a`
+
 # IdleTimeoutCondition
 
 ## Overview
-- Documentation for `IdleTimeoutCondition`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.removal`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`
+## Method Descriptions
+- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `shouldRemoveWorld` behavior.
 
 ## Notes

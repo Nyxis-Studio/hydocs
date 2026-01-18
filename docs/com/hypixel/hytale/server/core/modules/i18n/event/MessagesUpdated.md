@@ -1,19 +1,19 @@
+**Source Hash:** `0f5106aafda18de0df47c6657e93d33fdfa1a5eda99859ae291405a0987b32ba`
+
 # MessagesUpdated
 
 ## Overview
-- Documentation for `MessagesUpdated`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.event`.
 
-## Constructors
+## Constructor Descriptions
 - `MessagesUpdated(Map<String, Map<String, String>> changedMessages, Map<String, Map<String, String>> removedMessages)`
   - Creates a `MessagesUpdated` instance.
 
-## Methods
-- `getChangedMessages()`
+## Method Descriptions
+- `getChangedMessages()`: Add description.
   - Executes `getChangedMessages` behavior.
-- `getRemovedMessages()`
+- `getRemovedMessages()`: Add description.
   - Executes `getRemovedMessages` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

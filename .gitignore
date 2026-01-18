@@ -1,2 +1,5 @@
 build/
 lib/
+reports/
+.ruff_cache/
+.ruff

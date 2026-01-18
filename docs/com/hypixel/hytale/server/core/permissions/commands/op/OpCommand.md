@@ -1,15 +1,15 @@
+**Source Hash:** `ef2b79ed15e243e275179492507334c8cda9e98b653ecd6293359e03f11a12a7`
+
 # OpCommand
 
 ## Overview
-- Documentation for `OpCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions.commands.op`.
 
-## Constructors
+## Constructor Descriptions
 - `OpCommand()`
   - Creates a `OpCommand` instance.
 
-## Methods
-- `canGeneratePermission()`
+## Method Descriptions
+- `canGeneratePermission()`: Add description.
   - Executes `canGeneratePermission` behavior.
 
 ## Notes

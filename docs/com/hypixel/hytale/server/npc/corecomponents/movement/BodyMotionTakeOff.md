@@ -1,15 +1,15 @@
+**Source Hash:** `01210dd2fc251d1c68af2826ba35cfc2831d946fb0cc13d02238908ff97beaec`
+
 # BodyMotionTakeOff
 
 ## Overview
-- Documentation for `BodyMotionTakeOff`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `BodyMotionTakeOff(@Nonnull BuilderBodyMotionTakeOff builderBodyMotionTakeOff)`
   - Creates a `BodyMotionTakeOff` instance.
 
-## Methods
-- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeSteering` behavior.
 
 ## Notes

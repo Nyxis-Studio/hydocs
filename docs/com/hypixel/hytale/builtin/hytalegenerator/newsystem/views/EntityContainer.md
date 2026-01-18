@@ -1,16 +1,16 @@
+**Source Hash:** `21e67cb8782fa52fb15205eda0de644838c04841ac20f3c36414e31dc45105bb`
+
 # EntityContainer
 
 ## Overview
-- Documentation for `EntityContainer`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.views`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `addEntity(@Nonnull EntityPlacementData var1)`
+## Method Descriptions
+- `addEntity(@Nonnull EntityPlacementData var1)`: Add description.
   - Executes `addEntity` behavior.
-- `isInsideBuffer(int var1, int var2, int var3)`
+- `isInsideBuffer(int var1, int var2, int var3)`: Add description.
   - Executes `isInsideBuffer` behavior.
 
 ## Notes

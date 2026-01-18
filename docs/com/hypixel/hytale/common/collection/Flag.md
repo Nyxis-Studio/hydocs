@@ -1,16 +1,16 @@
+**Source Hash:** `c08de6200e549f56892d510111dc2e6af95ecda83effe406bfc2783c2ff237a5`
+
 # Flag
 
 ## Overview
-- Documentation for `Flag`.
-- Declared as a interface in `com.hypixel.hytale.common.collection`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `name()`
+## Method Descriptions
+- `name()`: Add description.
   - Executes `name` behavior.
-- `mask()`
+- `mask()`: Add description.
   - Executes `mask` behavior.
 
 ## Notes

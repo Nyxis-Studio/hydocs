@@ -1,20 +1,20 @@
+**Source Hash:** `6532981ba93d85769c1dcc520b00243bc4bba696ee2f5a663d6b4cd2960352cc`
+
 # BuilderBodyMotionNothing
 
 ## Overview
-- Documentation for `BuilderBodyMotionNothing`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

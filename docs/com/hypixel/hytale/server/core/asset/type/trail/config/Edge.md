@@ -1,19 +1,19 @@
+**Source Hash:** `52ffdf894c5db8f445168e7f00123a2be0b34964c29385bb61c9fd8074981303`
+
 # Edge
 
 ## Overview
-- Documentation for `Edge`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.trail.config`.
 
-## Constructors
+## Constructor Descriptions
 - `Edge()`
   - Creates a `Edge` instance.
 
-## Methods
-- `getWidth()`
+## Method Descriptions
+- `getWidth()`: Add description.
   - Executes `getWidth` behavior.
-- `getColor()`
+- `getColor()`: Add description.
   - Executes `getColor` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

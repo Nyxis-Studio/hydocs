@@ -1,15 +1,15 @@
+**Source Hash:** `ce76da1b52ca3ce94c1c63dbc9b5e184183957f4a9a91a03c5ab5d101eae3441`
+
 # SayCommand
 
 ## Overview
-- Documentation for `SayCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.console.command`.
 
-## Constructors
+## Constructor Descriptions
 - `SayCommand()`
   - Creates a `SayCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

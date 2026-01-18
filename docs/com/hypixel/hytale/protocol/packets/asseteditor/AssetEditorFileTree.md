@@ -1,17 +1,17 @@
+**Source Hash:** `d324427faf76ce403c2ed4ac8eb2646bd6b4f0a969da4f41706a27234c82f51c`
+
 # AssetEditorFileTree
 
 ## Overview
-- Documentation for `AssetEditorFileTree`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorFileTree(int value)`
   - Creates a `AssetEditorFileTree` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

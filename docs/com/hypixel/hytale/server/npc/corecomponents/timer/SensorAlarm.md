@@ -1,21 +1,21 @@
+**Source Hash:** `0ab6fc64a9acf4dd22620a5792629f43e896493c4256a33961a6994695ca5940`
+
 # SensorAlarm
 
 ## Overview
-- Documentation for `SensorAlarm`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorAlarm(@Nonnull BuilderSensorAlarm builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorAlarm` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `asText()`
+- `asText()`: Add description.
   - Executes `asText` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

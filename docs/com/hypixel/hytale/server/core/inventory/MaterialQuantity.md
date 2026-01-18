@@ -1,10 +1,10 @@
+**Source Hash:** `0be27f6374855c8b9730b3b6aba77aebbe3cff60981ab6a4d6f4c9dd746f80a6`
+
 # MaterialQuantity
 
 ## Overview
-- Documentation for `MaterialQuantity`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `MaterialQuantity(@Nullable String itemId, @Nullable String resourceTypeId, @Nullable String tag, int quantity, BsonDocument metadata)`
   - Creates a `MaterialQuantity` instance.
 - `MaterialQuantity()`
@@ -12,28 +12,28 @@
 - `MaterialQuantity(this.itemId, this.resourceTypeId, this.tag, quantity, this.metadata)`
   - Creates a `MaterialQuantity` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getResourceTypeId()`
+- `getResourceTypeId()`: Add description.
   - Executes `getResourceTypeId` behavior.
-- `getTagIndex()`
+- `getTagIndex()`: Add description.
   - Executes `getTagIndex` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `getMetadata()`
+- `getMetadata()`: Add description.
   - Executes `getMetadata` behavior.
-- `clone(int quantity)`
+- `clone(int quantity)`: Add description.
   - Executes `clone` behavior.
-- `toItemStack()`
+- `toItemStack()`: Add description.
   - Executes `toItemStack` behavior.
-- `toResource()`
+- `toResource()`: Add description.
   - Executes `toResource` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `141e0b224b2fcea5dbbf0f1696c4ca0af68e5eaa13d93c507979134b95ffbc79`
+
 # BuilderObjectStaticListHelper
 
 ## Overview
-- Documentation for `BuilderObjectStaticListHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderObjectStaticListHelper(Class<?> classType, BuilderContext owner)`
   - Creates a `BuilderObjectStaticListHelper` instance.
 
-## Methods
-- `createReferenceHelper()`
+## Method Descriptions
+- `createReferenceHelper()`: Add description.
   - Executes `createReferenceHelper` behavior.
-- `staticBuild(@Nonnull BuilderManager manager)`
+- `staticBuild(@Nonnull BuilderManager manager)`: Add description.
   - Executes `staticBuild` behavior.
 
 ## Notes

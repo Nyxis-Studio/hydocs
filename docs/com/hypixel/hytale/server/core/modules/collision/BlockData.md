@@ -1,42 +1,42 @@
+**Source Hash:** `b173bdece65d81f78a5f4f70fea7d4f126fb019124dbf6bfdc7bfe563c743878`
+
 # BlockData
 
 ## Overview
-- Documentation for `BlockData`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `assign(@Nonnull BlockData other)`
+## Method Descriptions
+- `assign(@Nonnull BlockData other)`: Add description.
   - Executes `assign` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `isFiller()`
+- `isFiller()`: Add description.
   - Executes `isFiller` behavior.
-- `originX(int x)`
+- `originX(int x)`: Add description.
   - Executes `originX` behavior.
-- `originY(int y)`
+- `originY(int y)`: Add description.
   - Executes `originY` behavior.
-- `originZ(int z)`
+- `originZ(int z)`: Add description.
   - Executes `originZ` behavior.
-- `getFillHeight()`
+- `getFillHeight()`: Add description.
   - Executes `getFillHeight` behavior.
-- `isTrigger()`
+- `isTrigger()`: Add description.
   - Executes `isTrigger` behavior.
-- `getBlockDamage()`
+- `getBlockDamage()`: Add description.
   - Executes `getBlockDamage` behavior.
-- `getSubmergeDamage()`
+- `getSubmergeDamage()`: Add description.
   - Executes `getSubmergeDamage` behavior.
-- `getCollisionMaterials()`
+- `getCollisionMaterials()`: Add description.
   - Executes `getCollisionMaterials` behavior.
-- `getBlockBoundingBoxes()`
+- `getBlockBoundingBoxes()`: Add description.
   - Executes `getBlockBoundingBoxes` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `getFluidId()`
+- `getFluidId()`: Add description.
   - Executes `getFluidId` behavior.
-- `getFluid()`
+- `getFluid()`: Add description.
   - Executes `getFluid` behavior.
 
 ## Notes

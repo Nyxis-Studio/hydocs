@@ -1,17 +1,17 @@
+**Source Hash:** `4e1d68136a56f632912fc0c910a0a31adb931de3909472b9490e3c222dae3773`
+
 # TestRemoveItemSlotResult
 
 ## Overview
-- Documentation for `TestRemoveItemSlotResult`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container`.
 
-## Constructors
+## Constructor Descriptions
 - `TestRemoveItemSlotResult(int testQuantityRemaining)`
   - Creates a `TestRemoveItemSlotResult` instance.
 
-## Methods
-- `hasResult()`
+## Method Descriptions
+- `hasResult()`: Add description.
   - Executes `hasResult` behavior.
-- `getPickedSlots()`
+- `getPickedSlots()`: Add description.
   - Executes `getPickedSlots` behavior.
 
 ## Notes

@@ -1,30 +1,30 @@
+**Source Hash:** `d79caab7afd61f848d5631568c3c962bd72e4c1db74cf75c3d62ad5ea286923b`
+
 # PortalDescription
 
 ## Overview
-- Documentation for `PortalDescription`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.portalworld`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDisplayNameKey()`
+## Method Descriptions
+- `getDisplayNameKey()`: Add description.
   - Executes `getDisplayNameKey` behavior.
-- `getDisplayName()`
+- `getDisplayName()`: Add description.
   - Executes `getDisplayName` behavior.
-- `getFlavorTextKey()`
+- `getFlavorTextKey()`: Add description.
   - Executes `getFlavorTextKey` behavior.
-- `getFlavorText()`
+- `getFlavorText()`: Add description.
   - Executes `getFlavorText` behavior.
-- `getThemeColor()`
+- `getThemeColor()`: Add description.
   - Executes `getThemeColor` behavior.
-- `getPillTags()`
+- `getPillTags()`: Add description.
   - Executes `getPillTags` behavior.
-- `getObjectivesKeys()`
+- `getObjectivesKeys()`: Add description.
   - Executes `getObjectivesKeys` behavior.
-- `getWisdomKeys()`
+- `getWisdomKeys()`: Add description.
   - Executes `getWisdomKeys` behavior.
-- `getSplashImageFilename()`
+- `getSplashImageFilename()`: Add description.
   - Executes `getSplashImageFilename` behavior.
 
 ## Notes

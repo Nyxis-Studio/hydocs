@@ -1,35 +1,35 @@
+**Source Hash:** `62d39ad2d0c81d178842df701468d706f9ca41a934b9992a1d1e6f31a9a049c3`
+
 # SensorEntityPrioritiserAttitude
 
 ## Overview
-- Documentation for `SensorEntityPrioritiserAttitude`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.prioritisers`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorEntityPrioritiserAttitude(@Nonnull BuilderSensorEntityPrioritiserAttitude builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorEntityPrioritiserAttitude` instance.
 
-## Methods
-- `registerWithSupport(@Nonnull Role role)`
+## Method Descriptions
+- `registerWithSupport(@Nonnull Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `getNPCPrioritiser()`
+- `getNPCPrioritiser()`: Add description.
   - Executes `getNPCPrioritiser` behavior.
-- `getPlayerPrioritiser()`
+- `getPlayerPrioritiser()`: Add description.
   - Executes `getPlayerPrioritiser` behavior.
-- `pickTarget(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Vector3d position, @Nonnull Ref<EntityStore> playerRef, @Nonnull Ref<EntityStore> npcRef, boolean useProjectedDistance, @Nonnull Store<EntityStore> store)`
+- `pickTarget(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Vector3d position, @Nonnull Ref<EntityStore> playerRef, @Nonnull Ref<EntityStore> npcRef, boolean useProjectedDistance, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `pickTarget` behavior.
-- `providesFilters()`
+- `providesFilters()`: Add description.
   - Executes `providesFilters` behavior.
-- `buildProvidedFilters(@Nonnull List<IEntityFilter> filters)`
+- `buildProvidedFilters(@Nonnull List<IEntityFilter> filters)`: Add description.
   - Executes `buildProvidedFilters` behavior.
-- `getPriority(@Nonnull Ref<EntityStore> ref, @Nonnull WorldSupport support, @Nonnull Ref<EntityStore> targetRef, @Nonnull Store<EntityStore> store)`
+- `getPriority(@Nonnull Ref<EntityStore> ref, @Nonnull WorldSupport support, @Nonnull Ref<EntityStore> targetRef, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `getPriority` behavior.
-- `init(@Nonnull Role role)`
+- `init(@Nonnull Role role)`: Add description.
   - Executes `init` behavior.
-- `test(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `test(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `test` behavior.
-- `getHighestPriorityTarget()`
+- `getHighestPriorityTarget()`: Add description.
   - Executes `getHighestPriorityTarget` behavior.
-- `cleanup()`
+- `cleanup()`: Add description.
   - Executes `cleanup` behavior.
 
 ## Notes

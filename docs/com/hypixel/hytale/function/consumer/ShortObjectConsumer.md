@@ -1,14 +1,14 @@
+**Source Hash:** `242c021fdaa4cd70ab8dfad972280ff60befd745065936583c3aa2bffec8f607`
+
 # ShortObjectConsumer
 
 ## Overview
-- Documentation for `ShortObjectConsumer`.
-- Declared as a interface in `com.hypixel.hytale.function.consumer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(short var1, T var2)`
+## Method Descriptions
+- `accept(short var1, T var2)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

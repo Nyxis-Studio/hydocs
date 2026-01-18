@@ -1,31 +1,31 @@
+**Source Hash:** `e853567d246d1b1879e4ab8cfd28bd20d5a92c1a11a5dca4c464d805cf8f1e69`
+
 # Cave
 
 ## Overview
-- Documentation for `Cave`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
+## Constructor Descriptions
 - `Cave(CaveType caveType)`
   - Creates a `Cave` instance.
 
-## Methods
-- `getNodeCount()`
+## Method Descriptions
+- `getNodeCount()`: Add description.
   - Executes `getNodeCount` behavior.
-- `getCaveType()`
+- `getCaveType()`: Add description.
   - Executes `getCaveType` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
-- `addNode(@Nonnull CaveNode element)`
+- `addNode(@Nonnull CaveNode element)`: Add description.
   - Executes `addNode` behavior.
-- `contains(long chunkIndex)`
+- `contains(long chunkIndex)`: Add description.
   - Executes `contains` behavior.
-- `getCaveNodes(long chunkIndex)`
+- `getCaveNodes(long chunkIndex)`: Add description.
   - Executes `getCaveNodes` behavior.
-- `compile()`
+- `compile()`: Add description.
   - Executes `compile` behavior.
-- `compileNodeMap()`
+- `compileNodeMap()`: Add description.
   - Executes `compileNodeMap` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

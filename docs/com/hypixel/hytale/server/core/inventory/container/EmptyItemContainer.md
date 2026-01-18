@@ -1,55 +1,55 @@
+**Source Hash:** `b7c6937a8dd06923a948f619dc502520e8163a128329a486833f01bf7d82554a`
+
 # EmptyItemContainer
 
 ## Overview
-- Documentation for `EmptyItemContainer`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyItemContainer()`
   - Creates a `EmptyItemContainer` instance.
 
-## Methods
-- `getCapacity()`
+## Method Descriptions
+- `getCapacity()`: Add description.
   - Executes `getCapacity` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `forEach(ShortObjectConsumer<ItemStack> action)`
+- `forEach(ShortObjectConsumer<ItemStack> action)`: Add description.
   - Executes `forEach` behavior.
-- `readAction(@Nonnull Supplier<V> action)`
+- `readAction(@Nonnull Supplier<V> action)`: Add description.
   - Executes `readAction` behavior.
-- `readAction(@Nonnull Function<X, V> action, X x)`
+- `readAction(@Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `readAction` behavior.
-- `writeAction(@Nonnull Supplier<V> action)`
+- `writeAction(@Nonnull Supplier<V> action)`: Add description.
   - Executes `writeAction` behavior.
-- `writeAction(@Nonnull Function<X, V> action, X x)`
+- `writeAction(@Nonnull Function<X, V> action, X x)`: Add description.
   - Executes `writeAction` behavior.
-- `internal_clear()`
+- `internal_clear()`: Add description.
   - Executes `internal_clear` behavior.
-- `internal_getSlot(short slot)`
+- `internal_getSlot(short slot)`: Add description.
   - Executes `internal_getSlot` behavior.
-- `internal_setSlot(short slot, ItemStack itemStack)`
+- `internal_setSlot(short slot, ItemStack itemStack)`: Add description.
   - Executes `internal_setSlot` behavior.
-- `internal_removeSlot(short slot)`
+- `internal_removeSlot(short slot)`: Add description.
   - Executes `internal_removeSlot` behavior.
-- `cantAddToSlot(short slot, ItemStack itemStack, ItemStack slotItemStack)`
+- `cantAddToSlot(short slot, ItemStack itemStack, ItemStack slotItemStack)`: Add description.
   - Executes `cantAddToSlot` behavior.
-- `cantRemoveFromSlot(short slot)`
+- `cantRemoveFromSlot(short slot)`: Add description.
   - Executes `cantRemoveFromSlot` behavior.
-- `cantDropFromSlot(short slot)`
+- `cantDropFromSlot(short slot)`: Add description.
   - Executes `cantDropFromSlot` behavior.
-- `cantMoveToSlot(ItemContainer fromContainer, short slotFrom)`
+- `cantMoveToSlot(ItemContainer fromContainer, short slotFrom)`: Add description.
   - Executes `cantMoveToSlot` behavior.
-- `removeAllItemStacks()`
+- `removeAllItemStacks()`: Add description.
   - Executes `removeAllItemStacks` behavior.
-- `toProtocolMap()`
+- `toProtocolMap()`: Add description.
   - Executes `toProtocolMap` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `registerChangeEvent(short priority, Consumer<ItemContainer.ItemContainerChangeEvent> consumer)`
+- `registerChangeEvent(short priority, Consumer<ItemContainer.ItemContainerChangeEvent> consumer)`: Add description.
   - Executes `registerChangeEvent` behavior.
-- `setGlobalFilter(FilterType globalFilter)`
+- `setGlobalFilter(FilterType globalFilter)`: Add description.
   - Executes `setGlobalFilter` behavior.
-- `setSlotFilter(FilterActionType actionType, short slot, SlotFilter filter)`
+- `setSlotFilter(FilterActionType actionType, short slot, SlotFilter filter)`: Add description.
   - Executes `setSlotFilter` behavior.
 
 ## Notes

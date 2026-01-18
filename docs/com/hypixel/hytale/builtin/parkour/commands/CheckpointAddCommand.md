@@ -1,15 +1,15 @@
+**Source Hash:** `ffc1bc14d2439771a14f8f23d67f7adfb4b43b0f637c2ecb24c500550fc673c6`
+
 # CheckpointAddCommand
 
 ## Overview
-- Documentation for `CheckpointAddCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.parkour.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `CheckpointAddCommand()`
   - Creates a `CheckpointAddCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

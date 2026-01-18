@@ -1,20 +1,20 @@
+**Source Hash:** `dab214b72750f0dfca81f8bddd7b39d7c1f902ea276d341e19032f07bf2fdbc3`
+
 # WorldLocationCondition
 
 ## Overview
-- Documentation for `WorldLocationCondition`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldlocationcondition`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(World var1, int var2, int var3, int var4)`
+## Method Descriptions
+- `test(World var1, int var2, int var3, int var4)`: Add description.
   - Executes `test` behavior.
-- `equals(Object var1)`
+- `equals(Object var1)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

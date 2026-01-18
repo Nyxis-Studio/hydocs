@@ -1,21 +1,21 @@
+**Source Hash:** `34b42b99dc84acb462cbf600f166d5081f2ff09e9025ae2c0d40eabd9d76b8d3`
+
 # ChunkGeneratorResource
 
 ## Overview
-- Documentation for `ChunkGeneratorResource`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkGeneratorResource()`
   - Creates a `ChunkGeneratorResource` instance.
 
-## Methods
-- `init(ChunkGenerator chunkGenerator)`
+## Method Descriptions
+- `init(ChunkGenerator chunkGenerator)`: Add description.
   - Executes `init` behavior.
-- `release()`
+- `release()`: Add description.
   - Executes `release` behavior.
-- `getRandom()`
+- `getRandom()`: Add description.
   - Executes `getRandom` behavior.
-- `getPrefab(WorldGenPrefabSupplier prefabSupplier)`
+- `getPrefab(WorldGenPrefabSupplier prefabSupplier)`: Add description.
   - Executes `getPrefab` behavior.
 
 ## Notes

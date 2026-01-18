@@ -1,15 +1,15 @@
+**Source Hash:** `d86785be8ab478813d277bbf2b90384de0b9667684e0051b5416289d074734c7`
+
 # NPCMessageCommand
 
 ## Overview
-- Documentation for `NPCMessageCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCMessageCommand()`
   - Creates a `NPCMessageCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `973623da5ecc12c1a001e3d6554fae18d2da640ae7a7c07866363fd3ce356a80`
+
 # VirtualPath
 
 ## Overview
-- Documentation for `VirtualPath`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata`.
 
-## Constructors
+## Constructor Descriptions
 - `VirtualPath(String path)`
   - Creates a `VirtualPath` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

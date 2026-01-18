@@ -1,17 +1,17 @@
+**Source Hash:** `5bc9b6915d21e4145461ade34044f946f353e9ddb8a0aa700fdd7113f965f745`
+
 # VariantRotation
 
 ## Overview
-- Documentation for `VariantRotation`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `VariantRotation(int value)`
   - Creates a `VariantRotation` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

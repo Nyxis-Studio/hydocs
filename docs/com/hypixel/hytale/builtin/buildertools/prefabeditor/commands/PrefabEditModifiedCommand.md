@@ -1,15 +1,15 @@
+**Source Hash:** `9350cb8b2c6491025309bb69070391823b29ad416b18f1ab3b9f19c7a78c8f0d`
+
 # PrefabEditModifiedCommand
 
 ## Overview
-- Documentation for `PrefabEditModifiedCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditModifiedCommand()`
   - Creates a `PrefabEditModifiedCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

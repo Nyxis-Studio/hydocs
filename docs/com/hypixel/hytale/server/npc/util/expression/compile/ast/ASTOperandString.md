@@ -1,19 +1,19 @@
+**Source Hash:** `87c4cc4e03be1fe1b084688a00cad4f7043b3e470893e0ce529d84380b239660`
+
 # ASTOperandString
 
 ## Overview
-- Documentation for `ASTOperandString`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression.compile.ast`.
 
-## Constructors
+## Constructor Descriptions
 - `ASTOperandString(@Nonnull Token token, int tokenPosition, String constantString)`
   - Creates a `ASTOperandString` instance.
 - `ASTOperandString(@Nonnull Token token, int tokenPosition, @Nonnull Scope scope, String identifier)`
   - Creates a `ASTOperandString` instance.
 
-## Methods
-- `getString()`
+## Method Descriptions
+- `getString()`: Add description.
   - Executes `getString` behavior.
-- `isConstant()`
+- `isConstant()`: Add description.
   - Executes `isConstant` behavior.
 
 ## Notes

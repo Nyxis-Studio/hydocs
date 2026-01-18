@@ -1,14 +1,14 @@
+**Source Hash:** `26ba2b4ea165441d852d17f89e22f0704120490eaedeea4acd8ebf2586a31145`
+
 # CosmeticType
 
 ## Overview
-- Documentation for `CosmeticType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

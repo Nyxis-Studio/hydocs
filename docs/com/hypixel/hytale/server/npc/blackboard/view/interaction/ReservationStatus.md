@@ -1,14 +1,14 @@
+**Source Hash:** `85485025a1e3cc291afdbe4d113b83234cbd546375eda8b30ef6d30013fb1926`
+
 # ReservationStatus
 
 ## Overview
-- Documentation for `ReservationStatus`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.blackboard.view.interaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

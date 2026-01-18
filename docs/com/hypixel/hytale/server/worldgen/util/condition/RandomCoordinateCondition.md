@@ -1,19 +1,19 @@
+**Source Hash:** `e4f37642ee3db677d13cc03c0f7ddebc09342130f5062d94f75914f0aae08be2`
+
 # RandomCoordinateCondition
 
 ## Overview
-- Documentation for `RandomCoordinateCondition`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `RandomCoordinateCondition(double chance)`
   - Creates a `RandomCoordinateCondition` instance.
 
-## Methods
-- `eval(int seed, int x, int y)`
+## Method Descriptions
+- `eval(int seed, int x, int y)`: Add description.
   - Executes `eval` behavior.
-- `eval(int seed, int x, int y, int z)`
+- `eval(int seed, int x, int y, int z)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

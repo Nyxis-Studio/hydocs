@@ -1,14 +1,14 @@
+**Source Hash:** `7f7f6a88fb6af15023398610ca776ddc3e145f25bb1fbad3cef206fb368bb1ed`
+
 # SetBlockSettings
 
 ## Overview
-- Documentation for `SetBlockSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

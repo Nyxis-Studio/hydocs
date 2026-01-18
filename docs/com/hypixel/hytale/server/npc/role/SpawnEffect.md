@@ -1,20 +1,20 @@
+**Source Hash:** `5ef1a4f58eeccb82f6b5ae7a26b6ab7f298d9f10bcb0ad412468b9d290774115`
+
 # SpawnEffect
 
 ## Overview
-- Documentation for `SpawnEffect`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.role`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSpawnParticles()`
+## Method Descriptions
+- `getSpawnParticles()`: Add description.
   - Executes `getSpawnParticles` behavior.
-- `getSpawnParticleOffset()`
+- `getSpawnParticleOffset()`: Add description.
   - Executes `getSpawnParticleOffset` behavior.
-- `getSpawnViewDistance()`
+- `getSpawnViewDistance()`: Add description.
   - Executes `getSpawnViewDistance` behavior.
-- `spawnEffect(@Nonnull Vector3d position, @Nonnull Vector3f rotation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `spawnEffect(@Nonnull Vector3d position, @Nonnull Vector3f rotation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `spawnEffect` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `c0ef8bd93626740931cfa342458642c957370a199b685652a7912c31b4500981`
+
 # CommonAssetValidator
 
 ## Overview
-- Documentation for `CommonAssetValidator`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common`.
 
-## Constructors
+## Constructor Descriptions
 - `CommonAssetValidator("png", "Blocks", "BlockTextures", "Items", "NPC", "Resources", "VFX")`
   - Creates a `CommonAssetValidator` instance.
 - `CommonAssetValidator("png", "Characters", "NPC", "Items", "VFX")`
@@ -64,10 +64,10 @@
 - `CommonAssetValidator()`
   - Creates a `CommonAssetValidator` instance.
 
-## Methods
-- `accept(@Nullable String asset, @Nonnull ValidationResults results)`
+## Method Descriptions
+- `accept(@Nullable String asset, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `updateSchema(SchemaContext context, @Nonnull Schema target)`
+- `updateSchema(SchemaContext context, @Nonnull Schema target)`: Add description.
   - Executes `updateSchema` behavior.
 
 ## Notes

@@ -1,28 +1,28 @@
+**Source Hash:** `0042f9688b72faf6de6b41f71eee30afebf7fba3b77feb16aa571ff4d19c7147`
+
 # BlockTarget
 
 ## Overview
-- Documentation for `BlockTarget`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPosition()`
+## Method Descriptions
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getChunkChangeRevision()`
+- `getChunkChangeRevision()`: Add description.
   - Executes `getChunkChangeRevision` behavior.
-- `getFoundBlockType()`
+- `getFoundBlockType()`: Add description.
   - Executes `getFoundBlockType` behavior.
-- `setChunkChangeRevision(int chunkChangeRevision)`
+- `setChunkChangeRevision(int chunkChangeRevision)`: Add description.
   - Executes `setChunkChangeRevision` behavior.
-- `setFoundBlockType(int foundBlockType)`
+- `setFoundBlockType(int foundBlockType)`: Add description.
   - Executes `setFoundBlockType` behavior.
-- `setReservationHolder(ResourceView resourceView)`
+- `setReservationHolder(ResourceView resourceView)`: Add description.
   - Executes `setReservationHolder` behavior.
-- `reset(@Nonnull NPCEntity parent)`
+- `reset(@Nonnull NPCEntity parent)`: Add description.
   - Executes `reset` behavior.
-- `isActive()`
+- `isActive()`: Add description.
   - Executes `isActive` behavior.
 
 ## Notes

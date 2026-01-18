@@ -1,25 +1,25 @@
+**Source Hash:** `b9606879b3655a3f9cc5eedf13437dccb3ff2f11f719f9ceb59e7565e33ed7ec`
+
 # CreativeHubEntityConfig
 
 ## Overview
-- Documentation for `CreativeHubEntityConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.creativehub.config`.
 
-## Constructors
+## Constructor Descriptions
 - `CreativeHubEntityConfig()`
   - Creates a `CreativeHubEntityConfig` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `ensureAndGet(@Nonnull Holder<EntityStore> holder)`
+- `ensureAndGet(@Nonnull Holder<EntityStore> holder)`: Add description.
   - Executes `ensureAndGet` behavior.
-- `get(@Nonnull Holder<EntityStore> holder)`
+- `get(@Nonnull Holder<EntityStore> holder)`: Add description.
   - Executes `get` behavior.
-- `getParentHubWorldUuid()`
+- `getParentHubWorldUuid()`: Add description.
   - Executes `getParentHubWorldUuid` behavior.
-- `setParentHubWorldUuid(@Nullable UUID parentHubWorldUuid)`
+- `setParentHubWorldUuid(@Nullable UUID parentHubWorldUuid)`: Add description.
   - Executes `setParentHubWorldUuid` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

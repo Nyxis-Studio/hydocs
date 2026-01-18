@@ -1,23 +1,23 @@
+**Source Hash:** `dd08c82880c87e4f1506243c73983babb4e8fa57c294fe285b99bdafa1585dd3`
+
 # SpawnSuppressionComponent
 
 ## Overview
-- Documentation for `SpawnSuppressionComponent`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.suppression.component`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnSuppressionComponent(String spawnSuppression)`
   - Creates a `SpawnSuppressionComponent` instance.
 - `SpawnSuppressionComponent()`
   - Creates a `SpawnSuppressionComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSpawnSuppression()`
+- `getSpawnSuppression()`: Add description.
   - Executes `getSpawnSuppression` behavior.
-- `setSpawnSuppression(String spawnSuppression)`
+- `setSpawnSuppression(String spawnSuppression)`: Add description.
   - Executes `setSpawnSuppression` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

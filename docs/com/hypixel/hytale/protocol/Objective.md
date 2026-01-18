@@ -1,10 +1,10 @@
+**Source Hash:** `eef4f78eb8836a98a9250c399ff99d85741798a50e84a499a57a103c99dc3846`
+
 # Objective
 
 ## Overview
-- Documentation for `Objective`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Objective()`
   - Creates a `Objective` instance.
 - `Objective(@Nonnull UUID objectiveUuid, @Nullable String objectiveTitleKey, @Nullable String objectiveDescriptionKey, @Nullable String objectiveLineId, @Nullable ObjectiveTask[] tasks)`
@@ -12,22 +12,22 @@
 - `Objective(@Nonnull Objective other)`
   - Creates a `Objective` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

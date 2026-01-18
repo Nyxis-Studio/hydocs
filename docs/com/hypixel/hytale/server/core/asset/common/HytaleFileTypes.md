@@ -1,14 +1,14 @@
+**Source Hash:** `80554d91d1c3b4fbb98a5bd65c54632dce13c246efd08621f8c2f4a0c735f566`
+
 # HytaleFileTypes
 
 ## Overview
-- Documentation for `HytaleFileTypes`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

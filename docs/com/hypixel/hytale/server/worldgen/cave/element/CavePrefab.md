@@ -1,29 +1,29 @@
+**Source Hash:** `d7abd0fba984c26dea83966fb6311d63848a81d4651f9879691e808cddfac757`
+
 # CavePrefab
 
 ## Overview
-- Documentation for `CavePrefab`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.element`.
 
-## Constructors
+## Constructor Descriptions
 - `CavePrefab(@Nonnull WorldGenPrefabSupplier prefabSupplier, @Nonnull PrefabRotation rotation, IIntCondition biomeMask, BlockMaskCondition blockMask, int x, int y, int z)`
   - Creates a `CavePrefab` instance.
 
-## Methods
-- `getPrefab()`
+## Method Descriptions
+- `getPrefab()`: Add description.
   - Executes `getPrefab` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `getBiomeMask()`
+- `getBiomeMask()`: Add description.
   - Executes `getBiomeMask` behavior.
-- `getConfiguration()`
+- `getConfiguration()`: Add description.
   - Executes `getConfiguration` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
 
 ## Notes

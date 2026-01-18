@@ -1,10 +1,10 @@
+**Source Hash:** `97cc8fbf31bda65c2519c78659ce7893dcdcfbc932527cbc64760a330f0bea0e`
+
 # AssetEditorSetGameTime
 
 ## Overview
-- Documentation for `AssetEditorSetGameTime`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorSetGameTime()`
   - Creates a `AssetEditorSetGameTime` instance.
 - `AssetEditorSetGameTime(@Nullable InstantData gameTime, boolean paused)`
@@ -12,24 +12,24 @@
 - `AssetEditorSetGameTime(@Nonnull AssetEditorSetGameTime other)`
   - Creates a `AssetEditorSetGameTime` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

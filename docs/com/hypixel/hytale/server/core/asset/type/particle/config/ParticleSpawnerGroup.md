@@ -1,43 +1,43 @@
+**Source Hash:** `513ce1caca8fe8a90a0b33b3475bdd946ffae93c71c6c14b6b6e73c4656e5dc3`
+
 # ParticleSpawnerGroup
 
 ## Overview
-- Documentation for `ParticleSpawnerGroup`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.particle.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleSpawnerGroup(String spawnerId, Vector3f positionOffset, Direction rotationOffset, boolean fixedRotation, Rangef spawnRate, Rangef lifeSpan, float startDelay, Rangef waveDelay, int totalSpawners, int maxConcurrent, InitialVelocity initialVelocity, RangeVector3f emitOffset, ParticleAttractor[] attractors)`
   - Creates a `ParticleSpawnerGroup` instance.
 - `ParticleSpawnerGroup()`
   - Creates a `ParticleSpawnerGroup` instance.
 
-## Methods
-- `getSpawnerId()`
+## Method Descriptions
+- `getSpawnerId()`: Add description.
   - Executes `getSpawnerId` behavior.
-- `getPositionOffset()`
+- `getPositionOffset()`: Add description.
   - Executes `getPositionOffset` behavior.
-- `getRotationOffset()`
+- `getRotationOffset()`: Add description.
   - Executes `getRotationOffset` behavior.
-- `isFixedRotation()`
+- `isFixedRotation()`: Add description.
   - Executes `isFixedRotation` behavior.
-- `getSpawnRate()`
+- `getSpawnRate()`: Add description.
   - Executes `getSpawnRate` behavior.
-- `getLifeSpan()`
+- `getLifeSpan()`: Add description.
   - Executes `getLifeSpan` behavior.
-- `getStartDelay()`
+- `getStartDelay()`: Add description.
   - Executes `getStartDelay` behavior.
-- `getWaveDelay()`
+- `getWaveDelay()`: Add description.
   - Executes `getWaveDelay` behavior.
-- `getTotalSpawners()`
+- `getTotalSpawners()`: Add description.
   - Executes `getTotalSpawners` behavior.
-- `getMaxConcurrent()`
+- `getMaxConcurrent()`: Add description.
   - Executes `getMaxConcurrent` behavior.
-- `getInitialVelocity()`
+- `getInitialVelocity()`: Add description.
   - Executes `getInitialVelocity` behavior.
-- `getEmitOffset()`
+- `getEmitOffset()`: Add description.
   - Executes `getEmitOffset` behavior.
-- `getAttractors()`
+- `getAttractors()`: Add description.
   - Executes `getAttractors` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

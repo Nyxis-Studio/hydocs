@@ -1,10 +1,10 @@
+**Source Hash:** `df5ae200b787186b243d9f9b02dfaba247b7c4a515822255fb1bf543299271c6`
+
 # ManualSpawnMarkerExistsValidator
 
 ## Overview
-- Documentation for `ManualSpawnMarkerExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `ManualSpawnMarkerExistsValidator()`
   - Creates a `ManualSpawnMarkerExistsValidator` instance.
 - `ManualSpawnMarkerExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `ManualSpawnMarkerExistsValidator(config)`
   - Creates a `ManualSpawnMarkerExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String marker)`
+- `test(String marker)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String marker, String attributeName)`
+- `errorMessage(String marker, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

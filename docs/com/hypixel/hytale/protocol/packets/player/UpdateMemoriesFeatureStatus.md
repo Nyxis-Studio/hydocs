@@ -1,10 +1,10 @@
+**Source Hash:** `20800a9835328e25ace80bab663197ff98014c338efad07a6dc472e0d60105cc`
+
 # UpdateMemoriesFeatureStatus
 
 ## Overview
-- Documentation for `UpdateMemoriesFeatureStatus`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.player`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateMemoriesFeatureStatus()`
   - Creates a `UpdateMemoriesFeatureStatus` instance.
 - `UpdateMemoriesFeatureStatus(boolean isFeatureUnlocked)`
@@ -12,24 +12,24 @@
 - `UpdateMemoriesFeatureStatus(@Nonnull UpdateMemoriesFeatureStatus other)`
   - Creates a `UpdateMemoriesFeatureStatus` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

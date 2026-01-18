@@ -1,17 +1,17 @@
+**Source Hash:** `82a6417bffdeba8fe3a9db91f0d68d35dac6b6710e3217b52a6f6a192d6aedd7`
+
 # DelimiterDouble
 
 ## Overview
-- Documentation for `DelimiterDouble`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.delimiters`.
 
-## Constructors
+## Constructor Descriptions
 - `DelimiterDouble(@Nonnull RangeDouble range, @Nullable V value)`
   - Creates a `DelimiterDouble` instance.
 
-## Methods
-- `getRange()`
+## Method Descriptions
+- `getRange()`: Add description.
   - Executes `getRange` behavior.
-- `getValue()`
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
 
 ## Notes

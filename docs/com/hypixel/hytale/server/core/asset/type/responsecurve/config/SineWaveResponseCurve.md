@@ -1,25 +1,25 @@
+**Source Hash:** `921ff5f4d33bf244ede0a1968924cd8c7ee26abd1717f59cada9daed240ef00a`
+
 # SineWaveResponseCurve
 
 ## Overview
-- Documentation for `SineWaveResponseCurve`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.responsecurve.config`.
 
-## Constructors
+## Constructor Descriptions
 - `SineWaveResponseCurve()`
   - Creates a `SineWaveResponseCurve` instance.
 
-## Methods
-- `computeY(double x)`
+## Method Descriptions
+- `computeY(double x)`: Add description.
   - Executes `computeY` behavior.
-- `getAmplitude()`
+- `getAmplitude()`: Add description.
   - Executes `getAmplitude` behavior.
-- `getFrequency()`
+- `getFrequency()`: Add description.
   - Executes `getFrequency` behavior.
-- `getHorizontalShift()`
+- `getHorizontalShift()`: Add description.
   - Executes `getHorizontalShift` behavior.
-- `getVerticalShift()`
+- `getVerticalShift()`: Add description.
   - Executes `getVerticalShift` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

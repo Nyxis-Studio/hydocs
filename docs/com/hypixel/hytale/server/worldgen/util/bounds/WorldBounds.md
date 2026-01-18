@@ -1,10 +1,10 @@
+**Source Hash:** `6a07d71792d5a1f0f0402276de17a72c6ae4635ad51cc3557e6e538bf09ef580`
+
 # WorldBounds
 
 ## Overview
-- Documentation for `WorldBounds`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.bounds`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldBounds()`
   - Creates a `WorldBounds` instance.
 - `WorldBounds(@Nonnull IWorldBounds bounds)`
@@ -14,16 +14,16 @@
 - `WorldBounds(int x, int y, int z)`
   - Creates a `WorldBounds` instance.
 
-## Methods
-- `getLowBoundY()`
+## Method Descriptions
+- `getLowBoundY()`: Add description.
   - Executes `getLowBoundY` behavior.
-- `getHighBoundY()`
+- `getHighBoundY()`: Add description.
   - Executes `getHighBoundY` behavior.
-- `expandNegative(double x, double y, double z)`
+- `expandNegative(double x, double y, double z)`: Add description.
   - Executes `expandNegative` behavior.
-- `expandPositive(double x, double y, double z)`
+- `expandPositive(double x, double y, double z)`: Add description.
   - Executes `expandPositive` behavior.
-- `include(@Nonnull IChunkBounds bounds)`
+- `include(@Nonnull IChunkBounds bounds)`: Add description.
   - Executes `include` behavior.
 
 ## Notes

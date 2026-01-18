@@ -1,165 +1,165 @@
+**Source Hash:** `c80d9e5d693cde66ff8adee4dd4b3b0a7123e53b4eedcd98a279f140057befab`
+
 # FastNoiseLite
 
 ## Overview
-- Documentation for `FastNoiseLite`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.fields`.
 
-## Constructors
+## Constructor Descriptions
 - `FastNoiseLite()`
   - Creates a `FastNoiseLite` instance.
 - `FastNoiseLite(int seed)`
   - Creates a `FastNoiseLite` instance.
 
-## Methods
-- `setSeed(int seed)`
+## Method Descriptions
+- `setSeed(int seed)`: Add description.
   - Executes `setSeed` behavior.
-- `setFrequency(float frequency)`
+- `setFrequency(float frequency)`: Add description.
   - Executes `setFrequency` behavior.
-- `setNoiseType(NoiseType noiseType)`
+- `setNoiseType(NoiseType noiseType)`: Add description.
   - Executes `setNoiseType` behavior.
-- `SetRotationType3D(RotationType3D rotationType3D)`
+- `SetRotationType3D(RotationType3D rotationType3D)`: Add description.
   - Executes `SetRotationType3D` behavior.
-- `setFractalType(FractalType fractalType)`
+- `setFractalType(FractalType fractalType)`: Add description.
   - Executes `setFractalType` behavior.
-- `setFractalOctaves(int octaves)`
+- `setFractalOctaves(int octaves)`: Add description.
   - Executes `setFractalOctaves` behavior.
-- `SetFractalLacunarity(float lacunarity)`
+- `SetFractalLacunarity(float lacunarity)`: Add description.
   - Executes `SetFractalLacunarity` behavior.
-- `SetFractalGain(float gain)`
+- `SetFractalGain(float gain)`: Add description.
   - Executes `SetFractalGain` behavior.
-- `SetFractalWeightedStrength(float weightedStrength)`
+- `SetFractalWeightedStrength(float weightedStrength)`: Add description.
   - Executes `SetFractalWeightedStrength` behavior.
-- `SetFractalPingPongStrength(float pingPongStrength)`
+- `SetFractalPingPongStrength(float pingPongStrength)`: Add description.
   - Executes `SetFractalPingPongStrength` behavior.
-- `setCellularDistanceFunction(CellularDistanceFunction cellularDistanceFunction)`
+- `setCellularDistanceFunction(CellularDistanceFunction cellularDistanceFunction)`: Add description.
   - Executes `setCellularDistanceFunction` behavior.
-- `setCellularReturnType(CellularReturnType cellularReturnType)`
+- `setCellularReturnType(CellularReturnType cellularReturnType)`: Add description.
   - Executes `setCellularReturnType` behavior.
-- `setCellularJitter(float cellularJitter)`
+- `setCellularJitter(float cellularJitter)`: Add description.
   - Executes `setCellularJitter` behavior.
-- `setDomainWarpType(DomainWarpType domainWarpType)`
+- `setDomainWarpType(DomainWarpType domainWarpType)`: Add description.
   - Executes `setDomainWarpType` behavior.
-- `setDomainWarpAmp(float domainWarpAmp)`
+- `setDomainWarpAmp(float domainWarpAmp)`: Add description.
   - Executes `setDomainWarpAmp` behavior.
-- `setDomainWarpFreq(float domainWarpFreq)`
+- `setDomainWarpFreq(float domainWarpFreq)`: Add description.
   - Executes `setDomainWarpFreq` behavior.
-- `getNoise(double x, double y)`
+- `getNoise(double x, double y)`: Add description.
   - Executes `getNoise` behavior.
-- `getNoise(double x, double y, double z)`
+- `getNoise(double x, double y, double z)`: Add description.
   - Executes `getNoise` behavior.
-- `DomainWarp(@Nonnull Vector2 coord)`
+- `DomainWarp(@Nonnull Vector2 coord)`: Add description.
   - Executes `DomainWarp` behavior.
-- `DomainWarp(@Nonnull Vector3 coord)`
+- `DomainWarp(@Nonnull Vector3 coord)`: Add description.
   - Executes `DomainWarp` behavior.
-- `FastMin(float a, float b)`
+- `FastMin(float a, float b)`: Add description.
   - Executes `FastMin` behavior.
-- `FastMax(float a, float b)`
+- `FastMax(float a, float b)`: Add description.
   - Executes `FastMax` behavior.
-- `FastAbs(float f)`
+- `FastAbs(float f)`: Add description.
   - Executes `FastAbs` behavior.
-- `FastSqrt(float f)`
+- `FastSqrt(float f)`: Add description.
   - Executes `FastSqrt` behavior.
-- `FastFloor(double f)`
+- `FastFloor(double f)`: Add description.
   - Executes `FastFloor` behavior.
-- `fastRound(double f)`
+- `fastRound(double f)`: Add description.
   - Executes `fastRound` behavior.
-- `Lerp(float a, float b, float t)`
+- `Lerp(float a, float b, float t)`: Add description.
   - Executes `Lerp` behavior.
-- `InterpHermite(float t)`
+- `InterpHermite(float t)`: Add description.
   - Executes `InterpHermite` behavior.
-- `InterpQuintic(float t)`
+- `InterpQuintic(float t)`: Add description.
   - Executes `InterpQuintic` behavior.
-- `CubicLerp(float a, float b, float c, float d, float t)`
+- `CubicLerp(float a, float b, float c, float d, float t)`: Add description.
   - Executes `CubicLerp` behavior.
-- `PingPong(float t)`
+- `PingPong(float t)`: Add description.
   - Executes `PingPong` behavior.
-- `CalculateFractalBounding()`
+- `CalculateFractalBounding()`: Add description.
   - Executes `CalculateFractalBounding` behavior.
-- `hash(int seed, int xPrimed, int yPrimed)`
+- `hash(int seed, int xPrimed, int yPrimed)`: Add description.
   - Executes `hash` behavior.
-- `hash(int seed, int xPrimed, int yPrimed, int zPrimed)`
+- `hash(int seed, int xPrimed, int yPrimed, int zPrimed)`: Add description.
   - Executes `hash` behavior.
-- `ValCoord(int seed, int xPrimed, int yPrimed)`
+- `ValCoord(int seed, int xPrimed, int yPrimed)`: Add description.
   - Executes `ValCoord` behavior.
-- `ValCoord(int seed, int xPrimed, int yPrimed, int zPrimed)`
+- `ValCoord(int seed, int xPrimed, int yPrimed, int zPrimed)`: Add description.
   - Executes `ValCoord` behavior.
-- `GradCoord(int seed, int xPrimed, int yPrimed, float xd, float yd)`
+- `GradCoord(int seed, int xPrimed, int yPrimed, float xd, float yd)`: Add description.
   - Executes `GradCoord` behavior.
-- `GradCoord(int seed, int xPrimed, int yPrimed, int zPrimed, float xd, float yd, float zd)`
+- `GradCoord(int seed, int xPrimed, int yPrimed, int zPrimed, float xd, float yd, float zd)`: Add description.
   - Executes `GradCoord` behavior.
-- `GenNoiseSingle(int seed, double x, double y)`
+- `GenNoiseSingle(int seed, double x, double y)`: Add description.
   - Executes `GenNoiseSingle` behavior.
-- `GenNoiseSingle(int seed, double x, double y, double z)`
+- `GenNoiseSingle(int seed, double x, double y, double z)`: Add description.
   - Executes `GenNoiseSingle` behavior.
-- `UpdateTransformType3D()`
+- `UpdateTransformType3D()`: Add description.
   - Executes `UpdateTransformType3D` behavior.
-- `UpdateWarpTransformType3D()`
+- `UpdateWarpTransformType3D()`: Add description.
   - Executes `UpdateWarpTransformType3D` behavior.
-- `GenFractalFBm(double x, double y)`
+- `GenFractalFBm(double x, double y)`: Add description.
   - Executes `GenFractalFBm` behavior.
-- `GenFractalFBm(double x, double y, double z)`
+- `GenFractalFBm(double x, double y, double z)`: Add description.
   - Executes `GenFractalFBm` behavior.
-- `GenFractalRidged(double x, double y)`
+- `GenFractalRidged(double x, double y)`: Add description.
   - Executes `GenFractalRidged` behavior.
-- `GenFractalRidged(double x, double y, double z)`
+- `GenFractalRidged(double x, double y, double z)`: Add description.
   - Executes `GenFractalRidged` behavior.
-- `GenFractalPingPong(double x, double y)`
+- `GenFractalPingPong(double x, double y)`: Add description.
   - Executes `GenFractalPingPong` behavior.
-- `GenFractalPingPong(double x, double y, double z)`
+- `GenFractalPingPong(double x, double y, double z)`: Add description.
   - Executes `GenFractalPingPong` behavior.
-- `SingleSimplex(int seed, double x, double y)`
+- `SingleSimplex(int seed, double x, double y)`: Add description.
   - Executes `SingleSimplex` behavior.
-- `SingleOpenSimplex2(int seed, double x, double y, double z)`
+- `SingleOpenSimplex2(int seed, double x, double y, double z)`: Add description.
   - Executes `SingleOpenSimplex2` behavior.
-- `SingleOpenSimplex2S(int seed, double x, double y)`
+- `SingleOpenSimplex2S(int seed, double x, double y)`: Add description.
   - Executes `SingleOpenSimplex2S` behavior.
-- `SingleOpenSimplex2S(int seed, double x, double y, double z)`
+- `SingleOpenSimplex2S(int seed, double x, double y, double z)`: Add description.
   - Executes `SingleOpenSimplex2S` behavior.
-- `pointFor(int seed, double jitter, double x, double y, double z)`
+- `pointFor(int seed, double jitter, double x, double y, double z)`: Add description.
   - Executes `pointFor` behavior.
-- `pointFor(int seed, double jitter, double x, double y)`
+- `pointFor(int seed, double jitter, double x, double y)`: Add description.
   - Executes `pointFor` behavior.
-- `pointFor(int seed, double jitter, double x)`
+- `pointFor(int seed, double jitter, double x)`: Add description.
   - Executes `pointFor` behavior.
-- `SingleCellular(int seed, double x, double y)`
+- `SingleCellular(int seed, double x, double y)`: Add description.
   - Executes `SingleCellular` behavior.
-- `SingleCellular(int seed, double x, double y, double z)`
+- `SingleCellular(int seed, double x, double y, double z)`: Add description.
   - Executes `SingleCellular` behavior.
-- `SinglePerlin(int seed, double x, double y)`
+- `SinglePerlin(int seed, double x, double y)`: Add description.
   - Executes `SinglePerlin` behavior.
-- `SinglePerlin(int seed, double x, double y, double z)`
+- `SinglePerlin(int seed, double x, double y, double z)`: Add description.
   - Executes `SinglePerlin` behavior.
-- `SingleValueCubic(int seed, double x, double y)`
+- `SingleValueCubic(int seed, double x, double y)`: Add description.
   - Executes `SingleValueCubic` behavior.
-- `SingleValueCubic(int seed, double x, double y, double z)`
+- `SingleValueCubic(int seed, double x, double y, double z)`: Add description.
   - Executes `SingleValueCubic` behavior.
-- `SingleValue(int seed, double x, double y)`
+- `SingleValue(int seed, double x, double y)`: Add description.
   - Executes `SingleValue` behavior.
-- `SingleValue(int seed, double x, double y, double z)`
+- `SingleValue(int seed, double x, double y, double z)`: Add description.
   - Executes `SingleValue` behavior.
-- `DoSingleDomainWarp(int seed, float amp, float freq, double x, double y, @Nonnull Vector2 coord)`
+- `DoSingleDomainWarp(int seed, float amp, float freq, double x, double y, @Nonnull Vector2 coord)`: Add description.
   - Executes `DoSingleDomainWarp` behavior.
-- `DoSingleDomainWarp(int seed, float amp, float freq, double x, double y, double z, @Nonnull Vector3 coord)`
+- `DoSingleDomainWarp(int seed, float amp, float freq, double x, double y, double z, @Nonnull Vector3 coord)`: Add description.
   - Executes `DoSingleDomainWarp` behavior.
-- `DomainWarpSingle(@Nonnull Vector2 coord)`
+- `DomainWarpSingle(@Nonnull Vector2 coord)`: Add description.
   - Executes `DomainWarpSingle` behavior.
-- `DomainWarpSingle(@Nonnull Vector3 coord)`
+- `DomainWarpSingle(@Nonnull Vector3 coord)`: Add description.
   - Executes `DomainWarpSingle` behavior.
-- `DomainWarpFractalProgressive(@Nonnull Vector2 coord)`
+- `DomainWarpFractalProgressive(@Nonnull Vector2 coord)`: Add description.
   - Executes `DomainWarpFractalProgressive` behavior.
-- `DomainWarpFractalProgressive(@Nonnull Vector3 coord)`
+- `DomainWarpFractalProgressive(@Nonnull Vector3 coord)`: Add description.
   - Executes `DomainWarpFractalProgressive` behavior.
-- `DomainWarpFractalIndependent(@Nonnull Vector2 coord)`
+- `DomainWarpFractalIndependent(@Nonnull Vector2 coord)`: Add description.
   - Executes `DomainWarpFractalIndependent` behavior.
-- `DomainWarpFractalIndependent(@Nonnull Vector3 coord)`
+- `DomainWarpFractalIndependent(@Nonnull Vector3 coord)`: Add description.
   - Executes `DomainWarpFractalIndependent` behavior.
-- `SingleDomainWarpBasicGrid(int seed, float warpAmp, float frequency, double x, double y, @Nonnull Vector2 coord)`
+- `SingleDomainWarpBasicGrid(int seed, float warpAmp, float frequency, double x, double y, @Nonnull Vector2 coord)`: Add description.
   - Executes `SingleDomainWarpBasicGrid` behavior.
-- `SingleDomainWarpBasicGrid(int seed, float warpAmp, float frequency, double x, double y, double z, @Nonnull Vector3 coord)`
+- `SingleDomainWarpBasicGrid(int seed, float warpAmp, float frequency, double x, double y, double z, @Nonnull Vector3 coord)`: Add description.
   - Executes `SingleDomainWarpBasicGrid` behavior.
-- `SingleDomainWarpSimplexGradient(int seed, float warpAmp, float frequency, double x, double y, @Nonnull Vector2 coord, boolean outGradOnly)`
+- `SingleDomainWarpSimplexGradient(int seed, float warpAmp, float frequency, double x, double y, @Nonnull Vector2 coord, boolean outGradOnly)`: Add description.
   - Executes `SingleDomainWarpSimplexGradient` behavior.
-- `SingleDomainWarpOpenSimplex2Gradient(int seed, float warpAmp, float frequency, double x, double y, double z, @Nonnull Vector3 coord, boolean outGradOnly)`
+- `SingleDomainWarpOpenSimplex2Gradient(int seed, float warpAmp, float frequency, double x, double y, double z, @Nonnull Vector3 coord, boolean outGradOnly)`: Add description.
   - Executes `SingleDomainWarpOpenSimplex2Gradient` behavior.
 
 ## Notes

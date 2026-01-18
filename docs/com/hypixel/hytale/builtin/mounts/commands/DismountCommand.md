@@ -1,17 +1,17 @@
+**Source Hash:** `8a9a95f4d7f6c95ee7e1c0b18ac13e841d03ea866ff1da503e6566a067ffb710`
+
 # DismountCommand
 
 ## Overview
-- Documentation for `DismountCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.mounts.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `DismountCommand()`
   - Creates a `DismountCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `executeSync(@Nonnull CommandContext context)`
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

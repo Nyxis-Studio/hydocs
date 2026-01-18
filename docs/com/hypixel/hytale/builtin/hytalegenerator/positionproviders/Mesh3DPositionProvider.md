@@ -1,15 +1,15 @@
+**Source Hash:** `7a42afcb91368835d6699468bde1a3bbe27bf0fce108b3fdc91d244d04b6fafd`
+
 # Mesh3DPositionProvider
 
 ## Overview
-- Documentation for `Mesh3DPositionProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.positionproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `Mesh3DPositionProvider(@Nonnull PointProvider positionProvider)`
   - Creates a `Mesh3DPositionProvider` instance.
 
-## Methods
-- `positionsIn(@Nonnull PositionProvider.Context context)`
+## Method Descriptions
+- `positionsIn(@Nonnull PositionProvider.Context context)`: Add description.
   - Executes `positionsIn` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `1651c3d38c47bbfdf1bb9b39cbf85176866e096d8c1fe2cf5990bf572b4a6e34`
+
 # BrushConfigExitCommand
 
 ## Overview
-- Documentation for `BrushConfigExitCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigExitCommand()`
   - Creates a `BrushConfigExitCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

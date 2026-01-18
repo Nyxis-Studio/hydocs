@@ -1,33 +1,33 @@
+**Source Hash:** `45b4986d03f94e19509109033cfb2c4ffa55257794f53ef126ebb59683f9520e`
+
 # CommonAsset
 
 ## Overview
-- Documentation for `CommonAsset`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common`.
 
-## Constructors
+## Constructor Descriptions
 - `CommonAsset(@Nonnull String name, @Nullable byte[] bytes)`
   - Creates a `CommonAsset` instance.
 - `CommonAsset(@Nonnull String name, @Nonnull String hash, @Nullable byte[] bytes)`
   - Creates a `CommonAsset` instance.
 
-## Methods
-- `getName()`
+## Method Descriptions
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getHash()`
+- `getHash()`: Add description.
   - Executes `getHash` behavior.
-- `getBlob()`
+- `getBlob()`: Add description.
   - Executes `getBlob` behavior.
-- `getBlob0()`
+- `getBlob0()`: Add description.
   - Executes `getBlob0` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `hash(byte[] bytes)`
+- `hash(byte[] bytes)`: Add description.
   - Executes `hash` behavior.
 
 ## Notes

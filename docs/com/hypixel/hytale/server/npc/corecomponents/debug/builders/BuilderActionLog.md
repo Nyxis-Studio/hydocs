@@ -1,24 +1,24 @@
+**Source Hash:** `253ad0f86b5702a10ce61ee3c9e029b92e578da81096865c9864cd0ae8f2dd7f`
+
 # BuilderActionLog
 
 ## Overview
-- Documentation for `BuilderActionLog`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.debug.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getText(@Nonnull BuilderSupport support)`
+- `getText(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getText` behavior.
 
 ## Notes

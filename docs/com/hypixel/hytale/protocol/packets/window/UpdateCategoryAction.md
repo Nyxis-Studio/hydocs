@@ -1,10 +1,10 @@
+**Source Hash:** `c1dfa28891d8047fb759304d9807ad5bfafd8aed8cc597bd3a003d5492a4e681`
+
 # UpdateCategoryAction
 
 ## Overview
-- Documentation for `UpdateCategoryAction`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.window`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateCategoryAction()`
   - Creates a `UpdateCategoryAction` instance.
 - `UpdateCategoryAction(@Nonnull String category, @Nonnull String itemCategory)`
@@ -12,22 +12,22 @@
 - `UpdateCategoryAction(@Nonnull UpdateCategoryAction other)`
   - Creates a `UpdateCategoryAction` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

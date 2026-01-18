@@ -1,24 +1,24 @@
+**Source Hash:** `bee6d9d6c329eb1ca416ca709917b72523a51ececf74f0f68ce097b2113df894`
+
 # BuilderActionRemove
 
 ## Overview
-- Documentation for `BuilderActionRemove`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.lifecycle.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getUseTarget(@Nonnull BuilderSupport support)`
+- `getUseTarget(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getUseTarget` behavior.
 
 ## Notes

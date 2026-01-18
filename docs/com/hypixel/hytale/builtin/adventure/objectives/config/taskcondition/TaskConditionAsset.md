@@ -1,21 +1,21 @@
+**Source Hash:** `29f9cb66d959f7e6e80fc9b250fd93837b14c76834cfed68095243a2f74aada2`
+
 # TaskConditionAsset
 
 ## Overview
-- Documentation for `TaskConditionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.taskcondition`.
 
-## Constructors
+## Constructor Descriptions
 - `TaskConditionAsset()`
   - Creates a `TaskConditionAsset` instance.
 
-## Methods
-- `isConditionFulfilled(ComponentAccessor<EntityStore> var1, Ref<EntityStore> var2, Set<UUID> var3)`
+## Method Descriptions
+- `isConditionFulfilled(ComponentAccessor<EntityStore> var1, Ref<EntityStore> var2, Set<UUID> var3)`: Add description.
   - Executes `isConditionFulfilled` behavior.
-- `consumeCondition(ComponentAccessor<EntityStore> var1, Ref<EntityStore> var2, Set<UUID> var3)`
+- `consumeCondition(ComponentAccessor<EntityStore> var1, Ref<EntityStore> var2, Set<UUID> var3)`: Add description.
   - Executes `consumeCondition` behavior.
-- `equals(Object var1)`
+- `equals(Object var1)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `48b1424b5be18dcce21a3282adea819cf654047c94147a708245fee6e5c09644`
+
 # DebugShapeArrowCommand
 
 ## Overview
-- Documentation for `DebugShapeArrowCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.debug.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `DebugShapeArrowCommand()`
   - Creates a `DebugShapeArrowCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

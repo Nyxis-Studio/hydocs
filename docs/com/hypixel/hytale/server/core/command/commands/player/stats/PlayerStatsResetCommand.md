@@ -1,15 +1,15 @@
+**Source Hash:** `4c87c15d716435cea814e25f3f5f673de25bb5d7f4a2fd7555e667ceeaa34f0d`
+
 # PlayerStatsResetCommand
 
 ## Overview
-- Documentation for `PlayerStatsResetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.stats`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerStatsResetCommand()`
   - Creates a `PlayerStatsResetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

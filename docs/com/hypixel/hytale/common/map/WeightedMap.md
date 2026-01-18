@@ -1,77 +1,77 @@
+**Source Hash:** `7cbd99bf113bbfbed05fceaf8b2b6d5a94f94ce5baefbe5d7d08e88406df8f89`
+
 # WeightedMap
 
 ## Overview
-- Documentation for `WeightedMap`.
-- Declared as a class in `com.hypixel.hytale.common.map`.
 
-## Constructors
+## Constructor Descriptions
 - `WeightedMap(@Nonnull T[] keys, double[] values, double sum)`
   - Creates a `WeightedMap` instance.
 
-## Methods
-- `builder(T[] emptyKeys)`
+## Method Descriptions
+- `builder(T[] emptyKeys)`: Add description.
   - Executes `builder` behavior.
-- `get(double value)`
+- `get(double value)`: Add description.
   - Executes `get` behavior.
-- `get(@Nonnull DoubleSupplier supplier)`
+- `get(@Nonnull DoubleSupplier supplier)`: Add description.
   - Executes `get` behavior.
-- `get(@Nonnull Random random)`
+- `get(@Nonnull Random random)`: Add description.
   - Executes `get` behavior.
-- `get(int x, int z, @Nonnull BiIntToDoubleFunction supplier)`
+- `get(int x, int z, @Nonnull BiIntToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(long x, long z, @Nonnull BiLongToDoubleFunction supplier)`
+- `get(long x, long z, @Nonnull BiLongToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(double x, double z, @Nonnull BiDoubleToDoubleFunction supplier)`
+- `get(double x, double z, @Nonnull BiDoubleToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, int x, int z, @Nonnull IWeightedMap.SeedCoordinateFunction<K> supplier, K k)`
+- `get(int seed, int x, int z, @Nonnull IWeightedMap.SeedCoordinateFunction<K> supplier, K k)`: Add description.
   - Executes `get` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `contains(T obj)`
+- `contains(T obj)`: Add description.
   - Executes `contains` behavior.
-- `forEach(@Nonnull Consumer<T> consumer)`
+- `forEach(@Nonnull Consumer<T> consumer)`: Add description.
   - Executes `forEach` behavior.
-- `forEachEntry(@Nonnull ObjDoubleConsumer<T> consumer)`
+- `forEachEntry(@Nonnull ObjDoubleConsumer<T> consumer)`: Add description.
   - Executes `forEachEntry` behavior.
-- `internalKeys()`
+- `internalKeys()`: Add description.
   - Executes `internalKeys` behavior.
-- `toArray()`
+- `toArray()`: Add description.
   - Executes `toArray` behavior.
-- `resolveKeys(@Nonnull Function<T, K> mapper, @Nonnull IntFunction<K[]> arraySupplier)`
+- `resolveKeys(@Nonnull Function<T, K> mapper, @Nonnull IntFunction<K[]> arraySupplier)`: Add description.
   - Executes `resolveKeys` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `putAll(@Nullable IWeightedMap<T> map)`
+- `putAll(@Nullable IWeightedMap<T> map)`: Add description.
   - Executes `putAll` behavior.
-- `putAll(@Nullable T[] arr, @Nonnull ToDoubleFunction<T> weight)`
+- `putAll(@Nullable T[] arr, @Nonnull ToDoubleFunction<T> weight)`: Add description.
   - Executes `putAll` behavior.
-- `put(T obj, double weight)`
+- `put(T obj, double weight)`: Add description.
   - Executes `put` behavior.
-- `ensureCapacity(int toAdd)`
+- `ensureCapacity(int toAdd)`: Add description.
   - Executes `ensureCapacity` behavior.
-- `resize(int newLength)`
+- `resize(int newLength)`: Add description.
   - Executes `resize` behavior.
-- `insert(T key, double value)`
+- `insert(T key, double value)`: Add description.
   - Executes `insert` behavior.
-- `allocated()`
+- `allocated()`: Add description.
   - Executes `allocated` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `build()`
+- `build()`: Add description.
   - Executes `build` behavior.
-- `get(DoubleSupplier supplier)`
+- `get(DoubleSupplier supplier)`: Add description.
   - Executes `get` behavior.
-- `get(Random random)`
+- `get(Random random)`: Add description.
   - Executes `get` behavior.
-- `get(int x, int z, BiIntToDoubleFunction supplier)`
+- `get(int x, int z, BiIntToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(long x, long z, BiLongToDoubleFunction supplier)`
+- `get(long x, long z, BiLongToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(double x, double z, BiDoubleToDoubleFunction supplier)`
+- `get(double x, double z, BiDoubleToDoubleFunction supplier)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, int x, int z, IWeightedMap.SeedCoordinateFunction<K> supplier, K k)`
+- `get(int seed, int x, int z, IWeightedMap.SeedCoordinateFunction<K> supplier, K k)`: Add description.
   - Executes `get` behavior.
-- `contains(@Nullable T obj)`
+- `contains(@Nullable T obj)`: Add description.
   - Executes `contains` behavior.
 
 ## Notes

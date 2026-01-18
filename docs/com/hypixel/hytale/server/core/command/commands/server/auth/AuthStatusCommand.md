@@ -1,15 +1,15 @@
+**Source Hash:** `bfe8d12ebd8e23712d470300c5bd2a9e870339e651aacef9f62f20f3c6ca267f`
+
 # AuthStatusCommand
 
 ## Overview
-- Documentation for `AuthStatusCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthStatusCommand()`
   - Creates a `AuthStatusCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

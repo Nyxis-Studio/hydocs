@@ -1,15 +1,15 @@
+**Source Hash:** `db76b4e006e5d43105f4f0944455a6d9f8d6de9951e411019c1929526e5ecc2b`
+
 # HomeOrSpawnPoint
 
 ## Overview
-- Documentation for `HomeOrSpawnPoint`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay.respawn`.
 
-## Constructors
+## Constructor Descriptions
 - `HomeOrSpawnPoint()`
   - Creates a `HomeOrSpawnPoint` instance.
 
-## Methods
-- `respawnPlayer(@Nonnull World world, @Nonnull Ref<EntityStore> playerReference, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `respawnPlayer(@Nonnull World world, @Nonnull Ref<EntityStore> playerReference, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `respawnPlayer` behavior.
 
 ## Notes

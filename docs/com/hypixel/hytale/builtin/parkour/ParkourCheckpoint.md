@@ -1,21 +1,21 @@
+**Source Hash:** `fae3b5fb7acd682987bdd863df064479515b2a1e266e32adb511099973374078`
+
 # ParkourCheckpoint
 
 ## Overview
-- Documentation for `ParkourCheckpoint`.
-- Declared as a class in `com.hypixel.hytale.builtin.parkour`.
 
-## Constructors
+## Constructor Descriptions
 - `ParkourCheckpoint(int index)`
   - Creates a `ParkourCheckpoint` instance.
 - `ParkourCheckpoint()`
   - Creates a `ParkourCheckpoint` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

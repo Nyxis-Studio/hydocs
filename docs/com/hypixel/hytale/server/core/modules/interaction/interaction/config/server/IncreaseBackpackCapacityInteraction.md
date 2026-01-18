@@ -1,18 +1,18 @@
+**Source Hash:** `b2246f7b17e4ab483214304ac0aec775a59b89e50bc14b48eadfe10b7a19bf5c`
+
 # IncreaseBackpackCapacityInteraction
 
 ## Overview
-- Documentation for `IncreaseBackpackCapacityInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `firstRun(@NonNullDecl InteractionType type, @NonNullDecl InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `firstRun(@NonNullDecl InteractionType type, @NonNullDecl InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

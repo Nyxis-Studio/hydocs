@@ -1,21 +1,21 @@
+**Source Hash:** `62ec1df8c50711c3d741b44fc164229b33c96f473d92f1b66ff0c1f9261aebab`
+
 # GlobalSpawnProvider
 
 ## Overview
-- Documentation for `GlobalSpawnProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.spawn`.
 
-## Constructors
+## Constructor Descriptions
 - `GlobalSpawnProvider()`
   - Creates a `GlobalSpawnProvider` instance.
 - `GlobalSpawnProvider(Transform spawnPoint)`
   - Creates a `GlobalSpawnProvider` instance.
 
-## Methods
-- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`
+## Method Descriptions
+- `getSpawnPoint(@Nonnull World world, @Nonnull UUID uuid)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoints()`
+- `getSpawnPoints()`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`
+- `isWithinSpawnDistance(@Nonnull Vector3d position, double distance)`: Add description.
   - Executes `isWithinSpawnDistance` behavior.
 
 ## Notes

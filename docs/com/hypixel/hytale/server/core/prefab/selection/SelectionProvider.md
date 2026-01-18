@@ -1,14 +1,14 @@
+**Source Hash:** `296206156b0c12bc14503b93a385434d2f1aa28830b9fbd7f8e96cf1c4d39c0e`
+
 # SelectionProvider
 
 ## Overview
-- Documentation for `SelectionProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.prefab.selection`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `computeSelectionCopy(@Nonnull Ref<EntityStore> var1, @Nonnull Player var2, @Nonnull ThrowableConsumer<BlockSelection, T> var3, @Nonnull ComponentAccessor<EntityStore> var4)`
+## Method Descriptions
+- `computeSelectionCopy(@Nonnull Ref<EntityStore> var1, @Nonnull Player var2, @Nonnull ThrowableConsumer<BlockSelection, T> var3, @Nonnull ComponentAccessor<EntityStore> var4)`: Add description.
   - Executes `computeSelectionCopy` behavior.
 
 ## Notes

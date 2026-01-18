@@ -1,15 +1,15 @@
+**Source Hash:** `b719ccf737657f5de528fc82db1f6d6f6fbe5dca380341afc89be3ab57c66248`
+
 # UpdateBinaryPrefabException
 
 ## Overview
-- Documentation for `UpdateBinaryPrefabException`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.buffer`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateBinaryPrefabException(String message)`
   - Creates a `UpdateBinaryPrefabException` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,23 +1,23 @@
+**Source Hash:** `76d9603650c5850bc61338da5e331c3e6ae9b7d4cc886f9f51a947b2484d9e98`
+
 # PathWatcherThread
 
 ## Overview
-- Documentation for `PathWatcherThread`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.monitor`.
 
-## Constructors
+## Constructor Descriptions
 - `PathWatcherThread(BiConsumer<Path, EventKind> consumer)`
   - Creates a `PathWatcherThread` instance.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `addPath(Path path)`
+- `addPath(Path path)`: Add description.
   - Executes `addPath` behavior.
-- `watchPath(@Nonnull Path path)`
+- `watchPath(@Nonnull Path path)`: Add description.
   - Executes `watchPath` behavior.
 
 ## Notes

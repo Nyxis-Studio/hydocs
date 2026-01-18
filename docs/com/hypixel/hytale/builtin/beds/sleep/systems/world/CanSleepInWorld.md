@@ -1,18 +1,18 @@
+**Source Hash:** `29422b8fb2b7236eb2e61747634311d6dbdf9d1355eed85afff8fc71fb1e76fe`
+
 # CanSleepInWorld
 
 ## Overview
-- Documentation for `CanSleepInWorld`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.systems.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `check(World world)`
+## Method Descriptions
+- `check(World world)`: Add description.
   - Executes `check` behavior.
-- `isNegative()`
+- `isNegative()`: Add description.
   - Executes `isNegative` behavior.
-- `NotDuringSleepHoursRange(LocalDateTime worldTime, SleepConfig sleepConfig)`
+- `NotDuringSleepHoursRange(LocalDateTime worldTime, SleepConfig sleepConfig)`: Add description.
   - Executes `NotDuringSleepHoursRange` behavior.
 
 ## Notes

@@ -1,29 +1,29 @@
+**Source Hash:** `fbf67b4e1f3d4d90ad1b0c7d2017d01387846db0a06607d81ebed600ba34ddab`
+
 # CollisionTracker
 
 ## Overview
-- Documentation for `CollisionTracker`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
+## Constructor Descriptions
 - `CollisionTracker()`
   - Creates a `CollisionTracker` instance.
 
-## Methods
-- `getBlockData(int index)`
+## Method Descriptions
+- `getBlockData(int index)`: Add description.
   - Executes `getBlockData` behavior.
-- `getContactData(int index)`
+- `getContactData(int index)`: Add description.
   - Executes `getContactData` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `track(int x, int y, int z, @Nonnull BlockContactData contactData, @Nonnull BlockData blockData)`
+- `track(int x, int y, int z, @Nonnull BlockContactData contactData, @Nonnull BlockData blockData)`: Add description.
   - Executes `track` behavior.
-- `trackNew(int x, int y, int z, @Nonnull BlockContactData contactData, @Nonnull BlockData blockData)`
+- `trackNew(int x, int y, int z, @Nonnull BlockContactData contactData, @Nonnull BlockData blockData)`: Add description.
   - Executes `trackNew` behavior.
-- `untrack(int index)`
+- `untrack(int index)`: Add description.
   - Executes `untrack` behavior.
-- `getContactData(int x, int y, int z)`
+- `getContactData(int x, int y, int z)`: Add description.
   - Executes `getContactData` behavior.
-- `alloc()`
+- `alloc()`: Add description.
   - Executes `alloc` behavior.
 
 ## Notes

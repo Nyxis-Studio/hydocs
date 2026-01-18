@@ -1,10 +1,10 @@
+**Source Hash:** `c46cba9868392a1977ecfb498d79803e87bc7f3cfc15018744fca4586d7cf261`
+
 # TimeResource
 
 ## Overview
-- Documentation for `TimeResource`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.time`.
 
-## Constructors
+## Constructor Descriptions
 - `TimeResource()`
   - Creates a `TimeResource` instance.
 - `TimeResource(@Nonnull Instant now)`
@@ -12,24 +12,24 @@
 - `TimeResource(this.now)`
   - Creates a `TimeResource` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getTimeDilationModifier()`
+- `getTimeDilationModifier()`: Add description.
   - Executes `getTimeDilationModifier` behavior.
-- `setTimeDilationModifier(float timeDilationModifier)`
+- `setTimeDilationModifier(float timeDilationModifier)`: Add description.
   - Executes `setTimeDilationModifier` behavior.
-- `getNow()`
+- `getNow()`: Add description.
   - Executes `getNow` behavior.
-- `setNow(@Nonnull Instant now)`
+- `setNow(@Nonnull Instant now)`: Add description.
   - Executes `setNow` behavior.
-- `add(@Nonnull Duration duration)`
+- `add(@Nonnull Duration duration)`: Add description.
   - Executes `add` behavior.
-- `add(long time, @Nonnull TemporalUnit unit)`
+- `add(long time, @Nonnull TemporalUnit unit)`: Add description.
   - Executes `add` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

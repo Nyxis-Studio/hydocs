@@ -1,10 +1,10 @@
+**Source Hash:** `3027afae57df16e544e199780f241aa3faf84e9d73ffc23658fc5fdb740a6239`
+
 # Bounds3i
 
 ## Overview
-- Documentation for `Bounds3i`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.bounds`.
 
-## Constructors
+## Constructor Descriptions
 - `Bounds3i()`
   - Creates a `Bounds3i` instance.
 - `Bounds3i(@Nonnull Vector3i min, @Nonnull Vector3i max)`
@@ -12,42 +12,42 @@
 - `Bounds3i(this.min.clone()`
   - Creates a `Bounds3i` instance.
 
-## Methods
-- `contains(@Nonnull Vector3i position)`
+## Method Descriptions
+- `contains(@Nonnull Vector3i position)`: Add description.
   - Executes `contains` behavior.
-- `contains(@Nonnull Bounds3i other)`
+- `contains(@Nonnull Bounds3i other)`: Add description.
   - Executes `contains` behavior.
-- `intersects(@Nonnull Bounds3i other)`
+- `intersects(@Nonnull Bounds3i other)`: Add description.
   - Executes `intersects` behavior.
-- `isZeroVolume()`
+- `isZeroVolume()`: Add description.
   - Executes `isZeroVolume` behavior.
-- `getSize()`
+- `getSize()`: Add description.
   - Executes `getSize` behavior.
-- `assign(@Nonnull Bounds3i other)`
+- `assign(@Nonnull Bounds3i other)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull Vector3i min, @Nonnull Vector3i max)`
+- `assign(@Nonnull Vector3i min, @Nonnull Vector3i max)`: Add description.
   - Executes `assign` behavior.
-- `offset(@Nonnull Vector3i vector)`
+- `offset(@Nonnull Vector3i vector)`: Add description.
   - Executes `offset` behavior.
-- `intersect(@Nonnull Bounds3i other)`
+- `intersect(@Nonnull Bounds3i other)`: Add description.
   - Executes `intersect` behavior.
-- `encompass(@Nonnull Bounds3i other)`
+- `encompass(@Nonnull Bounds3i other)`: Add description.
   - Executes `encompass` behavior.
-- `encompass(@Nonnull Vector3i position)`
+- `encompass(@Nonnull Vector3i position)`: Add description.
   - Executes `encompass` behavior.
-- `stack(@Nonnull Bounds3i other)`
+- `stack(@Nonnull Bounds3i other)`: Add description.
   - Executes `stack` behavior.
-- `flipOnOriginPoint()`
+- `flipOnOriginPoint()`: Add description.
   - Executes `flipOnOriginPoint` behavior.
-- `flipOnOriginVoxel()`
+- `flipOnOriginVoxel()`: Add description.
   - Executes `flipOnOriginVoxel` behavior.
-- `toBounds3d()`
+- `toBounds3d()`: Add description.
   - Executes `toBounds3d` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `isCorrect()`
+- `isCorrect()`: Add description.
   - Executes `isCorrect` behavior.
-- `correct()`
+- `correct()`: Add description.
   - Executes `correct` behavior.
 
 ## Notes

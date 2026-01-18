@@ -1,10 +1,10 @@
+**Source Hash:** `865bddf1f7952d56215d5488261c3dfeb3eccbfd8dc46ac9ea7002ab66a4ae58`
+
 # IntCoord
 
 ## Overview
-- Documentation for `IntCoord`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `IntCoord(int value, boolean height, boolean relative, boolean chunk)`
   - Creates a `IntCoord` instance.
 - `IntCoord(0, true, relative, chunk)`
@@ -16,24 +16,24 @@
 - `IntCoord(Integer.parseInt(rest)`
   - Creates a `IntCoord` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `isNotBase()`
+- `isNotBase()`: Add description.
   - Executes `isNotBase` behavior.
-- `isHeight()`
+- `isHeight()`: Add description.
   - Executes `isHeight` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
-- `isChunk()`
+- `isChunk()`: Add description.
   - Executes `isChunk` behavior.
-- `resolveXZ(int base)`
+- `resolveXZ(int base)`: Add description.
   - Executes `resolveXZ` behavior.
-- `resolveYAtWorldCoords(int base, @Nonnull ChunkStore chunkStore, int x, int z)`
+- `resolveYAtWorldCoords(int base, @Nonnull ChunkStore chunkStore, int x, int z)`: Add description.
   - Executes `resolveYAtWorldCoords` behavior.
-- `resolve(int base)`
+- `resolve(int base)`: Add description.
   - Executes `resolve` behavior.
-- `parse(@Nonnull String str)`
+- `parse(@Nonnull String str)`: Add description.
   - Executes `parse` behavior.
 
 ## Notes

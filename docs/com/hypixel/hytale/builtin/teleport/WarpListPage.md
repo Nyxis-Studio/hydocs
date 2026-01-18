@@ -1,23 +1,23 @@
+**Source Hash:** `26d6524941ba571eb8632a9d985f5b5e88e0ad6f33a65ecee31a2124509eb684`
+
 # WarpListPage
 
 ## Overview
-- Documentation for `WarpListPage`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `WarpListPage(@Nonnull PlayerRef playerRef, Map<String, Warp> warps, Consumer<String> callback)`
   - Creates a `WarpListPage` instance.
 
-## Methods
-- `buildWarpList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+## Method Descriptions
+- `buildWarpList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildWarpList` behavior.
-- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`
+- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `build` behavior.
-- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull WarpListPageEventData eventData)`
+- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull WarpListPageEventData eventData)`: Add description.
   - Executes `handleDataEvent` behavior.
-- `getWarp()`
+- `getWarp()`: Add description.
   - Executes `getWarp` behavior.
-- `getSearchQuery()`
+- `getSearchQuery()`: Add description.
   - Executes `getSearchQuery` behavior.
 
 ## Notes

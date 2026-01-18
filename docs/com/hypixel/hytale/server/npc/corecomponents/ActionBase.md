@@ -1,31 +1,31 @@
+**Source Hash:** `a791012380da8bed22fb48946e32ad9a99f565ffb791c694a58cad9a41d3704a`
+
 # ActionBase
 
 ## Overview
-- Documentation for `ActionBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionBase(@Nonnull BuilderActionBase builderActionBase)`
   - Creates a `ActionBase` instance.
 
-## Methods
-- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `canExecute` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `activate(Role role, InfoProvider infoProvider)`
+- `activate(Role role, InfoProvider infoProvider)`: Add description.
   - Executes `activate` behavior.
-- `deactivate(Role role, InfoProvider infoProvider)`
+- `deactivate(Role role, InfoProvider infoProvider)`: Add description.
   - Executes `deactivate` behavior.
-- `isActivated()`
+- `isActivated()`: Add description.
   - Executes `isActivated` behavior.
-- `isTriggered()`
+- `isTriggered()`: Add description.
   - Executes `isTriggered` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `setOnce()`
+- `setOnce()`: Add description.
   - Executes `setOnce` behavior.
-- `processDelay(float dt)`
+- `processDelay(float dt)`: Add description.
   - Executes `processDelay` behavior.
 
 ## Notes

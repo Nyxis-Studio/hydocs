@@ -1,14 +1,14 @@
+**Source Hash:** `52d0c4e2f2e92267c7d356fe5cf0d7a444231b974a28758958618a3e93339fbe`
+
 # BlockFlipType
 
 ## Overview
-- Documentation for `BlockFlipType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `flipYaw(@Nonnull Rotation rotation, Axis axis)`
+## Method Descriptions
+- `flipYaw(@Nonnull Rotation rotation, Axis axis)`: Add description.
   - Executes `flipYaw` behavior.
 
 ## Notes

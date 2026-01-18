@@ -1,25 +1,25 @@
+**Source Hash:** `5e5d56e4d9e6136484a168fbbc649d47d299d0f03613f28b359d6aa08fde096a`
+
 # SingleCollector
 
 ## Overview
-- Documentation for `SingleCollector`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.data`.
 
-## Constructors
+## Constructor Descriptions
 - `SingleCollector(TriFunction<CollectorTag, InteractionContext, Interaction, T> function)`
   - Creates a `SingleCollector` instance.
 
-## Methods
-- `getResult()`
+## Method Descriptions
+- `getResult()`: Add description.
   - Executes `getResult` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `into(@Nonnull InteractionContext context, Interaction interaction)`
+- `into(@Nonnull InteractionContext context, Interaction interaction)`: Add description.
   - Executes `into` behavior.
-- `collect(@Nonnull CollectorTag tag, @Nonnull InteractionContext context, @Nonnull Interaction interaction)`
+- `collect(@Nonnull CollectorTag tag, @Nonnull InteractionContext context, @Nonnull Interaction interaction)`: Add description.
   - Executes `collect` behavior.
-- `outof()`
+- `outof()`: Add description.
   - Executes `outof` behavior.
-- `finished()`
+- `finished()`: Add description.
   - Executes `finished` behavior.
 
 ## Notes

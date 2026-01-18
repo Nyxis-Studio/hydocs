@@ -1,14 +1,14 @@
+**Source Hash:** `0b887500e3009bb7d0bdeff415b898bfee589f7d63cfbd387a22bc268faaefda`
+
 # BodyType
 
 ## Overview
-- Documentation for `BodyType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

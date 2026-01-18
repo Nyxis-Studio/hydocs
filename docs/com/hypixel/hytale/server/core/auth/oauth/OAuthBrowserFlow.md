@@ -1,14 +1,14 @@
+**Source Hash:** `9ba84a086c9cfee8f361f5e1aea71914b64d5fe95aeac1eefb04217e89b28f24`
+
 # OAuthBrowserFlow
 
 ## Overview
-- Documentation for `OAuthBrowserFlow`.
-- Declared as a class in `com.hypixel.hytale.server.core.auth.oauth`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onFlowInfo(String var1)`
+## Method Descriptions
+- `onFlowInfo(String var1)`: Add description.
   - Executes `onFlowInfo` behavior.
 
 ## Notes

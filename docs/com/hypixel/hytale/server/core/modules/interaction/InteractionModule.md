@@ -1,35 +1,35 @@
+**Source Hash:** `278e21c17281d4c530461c88e4abe648e50f815cf061b8cc67ebe7da8cb44fa8`
+
 # InteractionModule
 
 ## Overview
-- Documentation for `InteractionModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionModule(@Nonnull JavaPluginInit init)`
   - Creates a `InteractionModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `handledLoadedRootInteractions(@Nonnull LoadedAssetsEvent<String, RootInteraction, ?> event)`
+- `handledLoadedRootInteractions(@Nonnull LoadedAssetsEvent<String, RootInteraction, ?> event)`: Add description.
   - Executes `handledLoadedRootInteractions` behavior.
-- `handledLoadedInteractions(@Nonnull LoadedAssetsEvent<String, Interaction, ?> event)`
+- `handledLoadedInteractions(@Nonnull LoadedAssetsEvent<String, Interaction, ?> event)`: Add description.
   - Executes `handledLoadedInteractions` behavior.
-- `handledRemovedInteractions(@Nonnull RemovedAssetsEvent<String, Interaction, ?> event)`
+- `handledRemovedInteractions(@Nonnull RemovedAssetsEvent<String, Interaction, ?> event)`: Add description.
   - Executes `handledRemovedInteractions` behavior.
-- `doMouseInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull MouseInteraction packet, @Nonnull Player playerComponent, @Nonnull PlayerRef playerRefComponent)`
+- `doMouseInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull MouseInteraction packet, @Nonnull Player playerComponent, @Nonnull PlayerRef playerRefComponent)`: Add description.
   - Executes `doMouseInteraction` behavior.
-- `getInteractionsComponentType()`
+- `getInteractionsComponentType()`: Add description.
   - Executes `getInteractionsComponentType` behavior.
-- `getInteractionManagerComponent()`
+- `getInteractionManagerComponent()`: Add description.
   - Executes `getInteractionManagerComponent` behavior.
-- `getPlacedByComponentType()`
+- `getPlacedByComponentType()`: Add description.
   - Executes `getPlacedByComponentType` behavior.
-- `getBlockCounterResourceType()`
+- `getBlockCounterResourceType()`: Add description.
   - Executes `getBlockCounterResourceType` behavior.
-- `getTrackedPlacementComponentType()`
+- `getTrackedPlacementComponentType()`: Add description.
   - Executes `getTrackedPlacementComponentType` behavior.
 
 ## Notes

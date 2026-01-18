@@ -1,66 +1,66 @@
+**Source Hash:** `96687f5f350e93bef38be31fc526b0260e4ffa85887922888db6fdff4452a726`
+
 # BuilderMotionControllerFly
 
 ## Overview
-- Documentation for `BuilderMotionControllerFly`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getMinAirSpeed()`
+- `getMinAirSpeed()`: Add description.
   - Executes `getMinAirSpeed` behavior.
-- `getMaxClimbSpeed()`
+- `getMaxClimbSpeed()`: Add description.
   - Executes `getMaxClimbSpeed` behavior.
-- `getMaxSinkSpeed()`
+- `getMaxSinkSpeed()`: Add description.
   - Executes `getMaxSinkSpeed` behavior.
-- `getMaxFallSpeed()`
+- `getMaxFallSpeed()`: Add description.
   - Executes `getMaxFallSpeed` behavior.
-- `getMaxSinkSpeedFluid()`
+- `getMaxSinkSpeedFluid()`: Add description.
   - Executes `getMaxSinkSpeedFluid` behavior.
-- `getMaxClimbAngle()`
+- `getMaxClimbAngle()`: Add description.
   - Executes `getMaxClimbAngle` behavior.
-- `getMaxSinkAngle()`
+- `getMaxSinkAngle()`: Add description.
   - Executes `getMaxSinkAngle` behavior.
-- `getAcceleration()`
+- `getAcceleration()`: Add description.
   - Executes `getAcceleration` behavior.
-- `getDeceleration()`
+- `getDeceleration()`: Add description.
   - Executes `getDeceleration` behavior.
-- `getGravity()`
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `getMaxTurnSpeed()`
+- `getMaxTurnSpeed()`: Add description.
   - Executes `getMaxTurnSpeed` behavior.
-- `getMaxRollAngle()`
+- `getMaxRollAngle()`: Add description.
   - Executes `getMaxRollAngle` behavior.
-- `getMaxRollSpeed()`
+- `getMaxRollSpeed()`: Add description.
   - Executes `getMaxRollSpeed` behavior.
-- `getRollDamping()`
+- `getRollDamping()`: Add description.
   - Executes `getRollDamping` behavior.
-- `getMinHeightOverGround(BuilderSupport support)`
+- `getMinHeightOverGround(BuilderSupport support)`: Add description.
   - Executes `getMinHeightOverGround` behavior.
-- `getMaxHeightOverGround(BuilderSupport support)`
+- `getMaxHeightOverGround(BuilderSupport support)`: Add description.
   - Executes `getMaxHeightOverGround` behavior.
-- `getFastFlyThreshold()`
+- `getFastFlyThreshold()`: Add description.
   - Executes `getFastFlyThreshold` behavior.
-- `isAutoLevel()`
+- `isAutoLevel()`: Add description.
   - Executes `isAutoLevel` behavior.
-- `getDesiredAltitudeWeight()`
+- `getDesiredAltitudeWeight()`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `canSpawn(@Nonnull SpawningContext context)`
+- `canSpawn(@Nonnull SpawningContext context)`: Add description.
   - Executes `canSpawn` behavior.
 
 ## Notes

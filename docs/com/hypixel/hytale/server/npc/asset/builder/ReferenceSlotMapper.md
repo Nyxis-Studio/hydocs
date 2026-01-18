@@ -1,19 +1,19 @@
+**Source Hash:** `692ee0a35055bb9fa27a568517ba23bce35c4df17176fdf19e70f6988447b4d2`
+
 # ReferenceSlotMapper
 
 ## Overview
-- Documentation for `ReferenceSlotMapper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `ReferenceSlotMapper(Supplier<T> slotSupplier)`
   - Creates a `ReferenceSlotMapper` instance.
 - `ReferenceSlotMapper(Supplier<T> slotSupplier, boolean trackNames)`
   - Creates a `ReferenceSlotMapper` instance.
 
-## Methods
-- `getReference(String name)`
+## Method Descriptions
+- `getReference(String name)`: Add description.
   - Executes `getReference` behavior.
-- `getReferenceList()`
+- `getReferenceList()`: Add description.
   - Executes `getReferenceList` behavior.
 
 ## Notes

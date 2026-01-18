@@ -1,10 +1,10 @@
+**Source Hash:** `172e548e871384748579826cdb8f8fb6371c26d62e0c548acd57c2f68d7c6373`
+
 # RangeSizeFlockAsset
 
 ## Overview
-- Documentation for `RangeSizeFlockAsset`.
-- Declared as a class in `com.hypixel.hytale.server.flock.config`.
 
-## Constructors
+## Constructor Descriptions
 - `RangeSizeFlockAsset(String id)`
   - Creates a `RangeSizeFlockAsset` instance.
 - `RangeSizeFlockAsset()`
@@ -12,16 +12,16 @@
 - `RangeSizeFlockAsset(id)`
   - Creates a `RangeSizeFlockAsset` instance.
 
-## Methods
-- `getSize()`
+## Method Descriptions
+- `getSize()`: Add description.
   - Executes `getSize` behavior.
-- `getMinFlockSize()`
+- `getMinFlockSize()`: Add description.
   - Executes `getMinFlockSize` behavior.
-- `pickFlockSize()`
+- `pickFlockSize()`: Add description.
   - Executes `pickFlockSize` behavior.
-- `getUnknownFor(String id)`
+- `getUnknownFor(String id)`: Add description.
   - Executes `getUnknownFor` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `5c8af8f56c9472d2bc5b236a84ea59ab49b776c8c7a746932319785496861aa5`
+
 # MaxPlayersCommand
 
 ## Overview
-- Documentation for `MaxPlayersCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server`.
 
-## Constructors
+## Constructor Descriptions
 - `MaxPlayersCommand()`
   - Creates a `MaxPlayersCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

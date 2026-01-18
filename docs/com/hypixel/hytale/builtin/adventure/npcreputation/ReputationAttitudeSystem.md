@@ -1,16 +1,16 @@
+**Source Hash:** `43cc5ade5f90bebc7a5ac0229da5440c06b30195be1f51e3b9c790f622dd8f58`
+
 # ReputationAttitudeSystem
 
 ## Overview
-- Documentation for `ReputationAttitudeSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcreputation`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`
+- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
 
 ## Notes

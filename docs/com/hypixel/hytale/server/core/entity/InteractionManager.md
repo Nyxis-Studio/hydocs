@@ -1,115 +1,115 @@
+**Source Hash:** `f91d08c5a17cce8c1e4d01405766deb9a73476ce32326881b490812ca5f1e17c`
+
 # InteractionManager
 
 ## Overview
-- Documentation for `InteractionManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionManager(@Nonnull LivingEntity entity, @Nullable PlayerRef playerRef, @Nonnull IInteractionSimulationHandler simulationHandler)`
   - Creates a `InteractionManager` instance.
 - `InteractionManager(this.entity, this.playerRef, this.interactionSimulationHandler)`
   - Creates a `InteractionManager` instance.
 
-## Methods
-- `getChains()`
+## Method Descriptions
+- `getChains()`: Add description.
   - Executes `getChains` behavior.
-- `getInteractionSimulationHandler()`
+- `getInteractionSimulationHandler()`: Add description.
   - Executes `getInteractionSimulationHandler` behavior.
-- `getOperationTimeoutThreshold()`
+- `getOperationTimeoutThreshold()`: Add description.
   - Executes `getOperationTimeoutThreshold` behavior.
-- `waitingForClient(@Nonnull Ref<EntityStore> ref)`
+- `waitingForClient(@Nonnull Ref<EntityStore> ref)`: Add description.
   - Executes `waitingForClient` behavior.
-- `setHasRemoteClient(boolean hasRemoteClient)`
+- `setHasRemoteClient(boolean hasRemoteClient)`: Add description.
   - Executes `setHasRemoteClient` behavior.
-- `copyFrom(@Nonnull InteractionManager interactionManager)`
+- `copyFrom(@Nonnull InteractionManager interactionManager)`: Add description.
   - Executes `copyFrom` behavior.
-- `tick(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, float dt)`
+- `tick(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, float dt)`: Add description.
   - Executes `tick` behavior.
-- `tryConsumePacketQueue(@Nonnull Ref<EntityStore> ref, @Nonnull Deque<SyncInteractionChain> packetQueue)`
+- `tryConsumePacketQueue(@Nonnull Ref<EntityStore> ref, @Nonnull Deque<SyncInteractionChain> packetQueue)`: Add description.
   - Executes `tryConsumePacketQueue` behavior.
-- `getChain(int chainId, @Nullable ForkedChainId forkedChainId)`
+- `getChain(int chainId, @Nullable ForkedChainId forkedChainId)`: Add description.
   - Executes `getChain` behavior.
-- `tickChain(@Nonnull InteractionChain chain)`
+- `tickChain(@Nonnull InteractionChain chain)`: Add description.
   - Executes `tickChain` behavior.
-- `handleCancelledChain(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`
+- `handleCancelledChain(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`: Add description.
   - Executes `handleCancelledChain` behavior.
-- `doTickChain(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`
+- `doTickChain(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`: Add description.
   - Executes `doTickChain` behavior.
-- `serverTick(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, long tickTime)`
+- `serverTick(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, long tickTime)`: Add description.
   - Executes `serverTick` behavior.
-- `removeInteractionIfFinished(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, @Nonnull InteractionEntry entry)`
+- `removeInteractionIfFinished(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, @Nonnull InteractionEntry entry)`: Add description.
   - Executes `removeInteractionIfFinished` behavior.
-- `simulationTick(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, long tickTime)`
+- `simulationTick(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain, long tickTime)`: Add description.
   - Executes `simulationTick` behavior.
-- `syncStart(@Nonnull Ref<EntityStore> ref, @Nonnull SyncInteractionChain packet)`
+- `syncStart(@Nonnull Ref<EntityStore> ref, @Nonnull SyncInteractionChain packet)`: Add description.
   - Executes `syncStart` behavior.
-- `sync(@Nonnull Ref<EntityStore> ref, @Nonnull ChainSyncStorage chainSyncStorage, @Nonnull SyncInteractionChain packet)`
+- `sync(@Nonnull Ref<EntityStore> ref, @Nonnull ChainSyncStorage chainSyncStorage, @Nonnull SyncInteractionChain packet)`: Add description.
   - Executes `sync` behavior.
-- `canRun(@Nonnull InteractionType type, @Nonnull RootInteraction rootInteraction)`
+- `canRun(@Nonnull InteractionType type, @Nonnull RootInteraction rootInteraction)`: Add description.
   - Executes `canRun` behavior.
-- `canRun(@Nonnull InteractionType type, short equipSlot, @Nonnull RootInteraction rootInteraction)`
+- `canRun(@Nonnull InteractionType type, short equipSlot, @Nonnull RootInteraction rootInteraction)`: Add description.
   - Executes `canRun` behavior.
-- `applyRules(@Nonnull InteractionContext context, @Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull RootInteraction rootInteraction)`
+- `applyRules(@Nonnull InteractionContext context, @Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull RootInteraction rootInteraction)`: Add description.
   - Executes `applyRules` behavior.
-- `cancelChains(@Nonnull InteractionChain chain)`
+- `cancelChains(@Nonnull InteractionChain chain)`: Add description.
   - Executes `cancelChains` behavior.
-- `applyRules(@Nullable InteractionChainData data, @Nonnull InteractionType type, int heldItemSlot, @Nullable RootInteraction rootInteraction, @Nonnull Map<?, InteractionChain> chains, @Nullable List<InteractionChain> chainsToCancel)`
+- `applyRules(@Nullable InteractionChainData data, @Nonnull InteractionType type, int heldItemSlot, @Nullable RootInteraction rootInteraction, @Nonnull Map<?, InteractionChain> chains, @Nullable List<InteractionChain> chainsToCancel)`: Add description.
   - Executes `applyRules` behavior.
-- `tryStartChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction)`
+- `tryStartChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction)`: Add description.
   - Executes `tryStartChain` behavior.
-- `startChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction)`
+- `startChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction)`: Add description.
   - Executes `startChain` behavior.
-- `initChain(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean forceRemoteSync)`
+- `initChain(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean forceRemoteSync)`: Add description.
   - Executes `initChain` behavior.
-- `initChain(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, int entityId, @Nullable BlockPosition blockPosition, boolean forceRemoteSync)`
+- `initChain(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, int entityId, @Nullable BlockPosition blockPosition, boolean forceRemoteSync)`: Add description.
   - Executes `initChain` behavior.
-- `initChain(@Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean forceRemoteSync)`
+- `initChain(@Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean forceRemoteSync)`: Add description.
   - Executes `initChain` behavior.
-- `queueExecuteChain(@Nonnull InteractionChain chain)`
+- `queueExecuteChain(@Nonnull InteractionChain chain)`: Add description.
   - Executes `queueExecuteChain` behavior.
-- `executeChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionChain chain)`
+- `executeChain(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionChain chain)`: Add description.
   - Executes `executeChain` behavior.
-- `executeChain0(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`
+- `executeChain0(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionChain chain)`: Add description.
   - Executes `executeChain0` behavior.
-- `isOnCooldown(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, @Nonnull RootInteraction root, boolean remote)`
+- `isOnCooldown(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, @Nonnull RootInteraction root, boolean remote)`: Add description.
   - Executes `isOnCooldown` behavior.
-- `tryRunHeldInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type)`
+- `tryRunHeldInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type)`: Add description.
   - Executes `tryRunHeldInteraction` behavior.
-- `tryRunHeldInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, short equipSlot)`
+- `tryRunHeldInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, short equipSlot)`: Add description.
   - Executes `tryRunHeldInteraction` behavior.
-- `sendSyncPacket(@Nonnull InteractionChain chain, int operationBaseIndex, @Nullable List<InteractionSyncData> interactionData)`
+- `sendSyncPacket(@Nonnull InteractionChain chain, int operationBaseIndex, @Nullable List<InteractionSyncData> interactionData)`: Add description.
   - Executes `sendSyncPacket` behavior.
-- `makeSyncPacket(@Nonnull InteractionChain chain, int operationBaseIndex, @Nullable List<InteractionSyncData> interactionData)`
+- `makeSyncPacket(@Nonnull InteractionChain chain, int operationBaseIndex, @Nullable List<InteractionSyncData> interactionData)`: Add description.
   - Executes `makeSyncPacket` behavior.
-- `sendCancelPacket(@Nonnull InteractionChain chain)`
+- `sendCancelPacket(@Nonnull InteractionChain chain)`: Add description.
   - Executes `sendCancelPacket` behavior.
-- `sendCancelPacket(int chainId, @Nonnull ForkedChainId forkedChainId)`
+- `sendCancelPacket(int chainId, @Nonnull ForkedChainId forkedChainId)`: Add description.
   - Executes `sendCancelPacket` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `clearAllGlobalTimeShift(float dt)`
+- `clearAllGlobalTimeShift(float dt)`: Add description.
   - Executes `clearAllGlobalTimeShift` behavior.
-- `setGlobalTimeShift(@Nonnull InteractionType type, float shift)`
+- `setGlobalTimeShift(@Nonnull InteractionType type, float shift)`: Add description.
   - Executes `setGlobalTimeShift` behavior.
-- `getGlobalTimeShift(@Nonnull InteractionType type)`
+- `getGlobalTimeShift(@Nonnull InteractionType type)`: Add description.
   - Executes `getGlobalTimeShift` behavior.
-- `forEachInteraction(@Nonnull TriFunction<InteractionChain, Interaction, T, T> func, @Nonnull T val)`
+- `forEachInteraction(@Nonnull TriFunction<InteractionChain, Interaction, T, T> func, @Nonnull T val)`: Add description.
   - Executes `forEachInteraction` behavior.
-- `forEachInteraction(@Nonnull Map<?, InteractionChain> chains, @Nonnull TriFunction<InteractionChain, Interaction, T, T> func, @Nonnull T val)`
+- `forEachInteraction(@Nonnull Map<?, InteractionChain> chains, @Nonnull TriFunction<InteractionChain, Interaction, T, T> func, @Nonnull T val)`: Add description.
   - Executes `forEachInteraction` behavior.
-- `walkChain(@Nonnull Ref<EntityStore> ref, @Nonnull Collector collector, @Nonnull InteractionType type, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `walkChain(@Nonnull Ref<EntityStore> ref, @Nonnull Collector collector, @Nonnull InteractionType type, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `walkChain` behavior.
-- `walkChain(@Nonnull Ref<EntityStore> ref, @Nonnull Collector collector, @Nonnull InteractionType type, @Nullable RootInteraction rootInteraction, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `walkChain(@Nonnull Ref<EntityStore> ref, @Nonnull Collector collector, @Nonnull InteractionType type, @Nullable RootInteraction rootInteraction, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `walkChain` behavior.
-- `walkChain(@Nonnull Collector collector, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable RootInteraction rootInteraction)`
+- `walkChain(@Nonnull Collector collector, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable RootInteraction rootInteraction)`: Add description.
   - Executes `walkChain` behavior.
-- `walkInteractions(@Nonnull Collector collector, @Nonnull InteractionContext context, @Nonnull CollectorTag tag, @Nonnull String[] interactionIds)`
+- `walkInteractions(@Nonnull Collector collector, @Nonnull InteractionContext context, @Nonnull CollectorTag tag, @Nonnull String[] interactionIds)`: Add description.
   - Executes `walkInteractions` behavior.
-- `walkInteraction(@Nonnull Collector collector, @Nonnull InteractionContext context, @Nonnull CollectorTag tag, @Nullable String id)`
+- `walkInteraction(@Nonnull Collector collector, @Nonnull InteractionContext context, @Nonnull CollectorTag tag, @Nullable String id)`: Add description.
   - Executes `walkInteraction` behavior.
-- `getSyncPackets()`
+- `getSyncPackets()`: Add description.
   - Executes `getSyncPackets` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

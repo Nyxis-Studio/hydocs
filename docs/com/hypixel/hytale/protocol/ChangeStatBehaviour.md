@@ -1,17 +1,17 @@
+**Source Hash:** `2e84985c45825b9979c660080fdd6ccc4bcb86602b156ad55f3c2172e0ecd464`
+
 # ChangeStatBehaviour
 
 ## Overview
-- Documentation for `ChangeStatBehaviour`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ChangeStatBehaviour(int value)`
   - Creates a `ChangeStatBehaviour` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

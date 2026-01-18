@@ -1,67 +1,67 @@
+**Source Hash:** `0f08e0a85074562f662f0244a496b9ca7857dac372de08856df7b6a34e4385b1`
+
 # BlockModule
 
 ## Overview
-- Documentation for `BlockModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockModule(@Nonnull JavaPluginInit init)`
   - Creates a `BlockModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `ensureBlockEntity(WorldChunk chunk, int x, int y, int z)`
+- `ensureBlockEntity(WorldChunk chunk, int x, int y, int z)`: Add description.
   - Executes `ensureBlockEntity` behavior.
-- `onChunkPreLoadProcessEnsureBlockEntity(@Nonnull ChunkPreLoadProcessEvent event)`
+- `onChunkPreLoadProcessEnsureBlockEntity(@Nonnull ChunkPreLoadProcessEvent event)`: Add description.
   - Executes `onChunkPreLoadProcessEnsureBlockEntity` behavior.
-- `getMigrationSystemType()`
+- `getMigrationSystemType()`: Add description.
   - Executes `getMigrationSystemType` behavior.
-- `getBlockStateInfoComponentType()`
+- `getBlockStateInfoComponentType()`: Add description.
   - Executes `getBlockStateInfoComponentType` behavior.
-- `getLaunchPadComponentType()`
+- `getLaunchPadComponentType()`: Add description.
   - Executes `getLaunchPadComponentType` behavior.
-- `getRespawnBlockComponentType()`
+- `getRespawnBlockComponentType()`: Add description.
   - Executes `getRespawnBlockComponentType` behavior.
-- `getBlockMapMarkerComponentType()`
+- `getBlockMapMarkerComponentType()`: Add description.
   - Executes `getBlockMapMarkerComponentType` behavior.
-- `getBlockMapMarkersResourceType()`
+- `getBlockMapMarkersResourceType()`: Add description.
   - Executes `getBlockMapMarkersResourceType` behavior.
-- `getBlockStateInfoNeedRebuildResourceType()`
+- `getBlockStateInfoNeedRebuildResourceType()`: Add description.
   - Executes `getBlockStateInfoNeedRebuildResourceType` behavior.
-- `getBlockEntity(@Nonnull World world, int x, int y, int z)`
+- `getBlockEntity(@Nonnull World world, int x, int y, int z)`: Add description.
   - Executes `getBlockEntity` behavior.
-- `getComponent(ComponentType<ChunkStore, T> componentType, World world, int x, int y, int z)`
+- `getComponent(ComponentType<ChunkStore, T> componentType, World world, int x, int y, int z)`: Add description.
   - Executes `getComponent` behavior.
-- `getComponentType()`
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getChunkRef()`
+- `getChunkRef()`: Add description.
   - Executes `getChunkRef` behavior.
-- `markNeedsSaving()`
+- `markNeedsSaving()`: Add description.
   - Executes `markNeedsSaving` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<ChunkStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityRemoved(@Nonnull Holder<ChunkStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getResourceType()`
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `invalidateAndReturnIfNeedRebuild()`
+- `invalidateAndReturnIfNeedRebuild()`: Add description.
   - Executes `invalidateAndReturnIfNeedRebuild` behavior.
-- `markAsNeedRebuild()`
+- `markAsNeedRebuild()`: Add description.
   - Executes `markAsNeedRebuild` behavior.
 
 ## Notes

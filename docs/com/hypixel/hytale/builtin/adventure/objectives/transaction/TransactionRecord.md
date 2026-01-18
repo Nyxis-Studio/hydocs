@@ -1,30 +1,30 @@
+**Source Hash:** `2fd2b1b4b60c24a47b4b4f9d73477aad79ae948aafe0451a6425153aa529594d`
+
 # TransactionRecord
 
 ## Overview
-- Documentation for `TransactionRecord`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getStatus()`
+## Method Descriptions
+- `getStatus()`: Add description.
   - Executes `getStatus` behavior.
-- `revert()`
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
-- `fail(String reason)`
+- `fail(String reason)`: Add description.
   - Executes `fail` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `appendTransaction(@Nullable TransactionRecord[] transactions, @Nonnull T transaction)`
+- `appendTransaction(@Nullable TransactionRecord[] transactions, @Nonnull T transaction)`: Add description.
   - Executes `appendTransaction` behavior.
-- `appendFailedTransaction(TransactionRecord[] transactions, @Nonnull T transaction, String reason)`
+- `appendFailedTransaction(TransactionRecord[] transactions, @Nonnull T transaction, String reason)`: Add description.
   - Executes `appendFailedTransaction` behavior.
 
 ## Notes

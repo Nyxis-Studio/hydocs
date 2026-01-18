@@ -1,15 +1,15 @@
+**Source Hash:** `63e1b1b7fcb6ae44c16722f31edc951e711619b8da9594afa885abc7bf0a063e`
+
 # PlayerEffectSubCommand
 
 ## Overview
-- Documentation for `PlayerEffectSubCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.effect`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerEffectSubCommand()`
   - Creates a `PlayerEffectSubCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

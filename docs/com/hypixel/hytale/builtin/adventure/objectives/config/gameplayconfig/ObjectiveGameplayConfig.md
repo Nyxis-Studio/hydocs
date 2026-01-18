@@ -1,16 +1,16 @@
+**Source Hash:** `2565921b67c5f0ce0eba2b6792f4dc1882be7c8b35ed9918616a2b5a10c43dd3`
+
 # ObjectiveGameplayConfig
 
 ## Overview
-- Documentation for `ObjectiveGameplayConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.gameplayconfig`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(@Nonnull GameplayConfig config)`
+## Method Descriptions
+- `get(@Nonnull GameplayConfig config)`: Add description.
   - Executes `get` behavior.
-- `getStarterObjectiveLinePerWorld()`
+- `getStarterObjectiveLinePerWorld()`: Add description.
   - Executes `getStarterObjectiveLinePerWorld` behavior.
 
 ## Notes

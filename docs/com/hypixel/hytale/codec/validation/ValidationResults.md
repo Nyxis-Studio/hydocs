@@ -1,41 +1,41 @@
+**Source Hash:** `b4b367082099bdb075ad7cb6f49fd161309b59be0197eaeeee8eb5e43c5ac5d0`
+
 # ValidationResults
 
 ## Overview
-- Documentation for `ValidationResults`.
-- Declared as a class in `com.hypixel.hytale.codec.validation`.
 
-## Constructors
+## Constructor Descriptions
 - `ValidationResults(ExtraInfo extraInfo)`
   - Creates a `ValidationResults` instance.
 
-## Methods
-- `getExtraInfo()`
+## Method Descriptions
+- `getExtraInfo()`: Add description.
   - Executes `getExtraInfo` behavior.
-- `fail(String reason)`
+- `fail(String reason)`: Add description.
   - Executes `fail` behavior.
-- `warn(String reason)`
+- `warn(String reason)`: Add description.
   - Executes `warn` behavior.
-- `add(ValidationResult result)`
+- `add(ValidationResult result)`: Add description.
   - Executes `add` behavior.
-- `_processValidationResults()`
+- `_processValidationResults()`: Add description.
   - Executes `_processValidationResults` behavior.
-- `logOrThrowValidatorExceptions(@Nonnull HytaleLogger logger)`
+- `logOrThrowValidatorExceptions(@Nonnull HytaleLogger logger)`: Add description.
   - Executes `logOrThrowValidatorExceptions` behavior.
-- `logOrThrowValidatorExceptions(@Nonnull HytaleLogger logger, @Nonnull String msg)`
+- `logOrThrowValidatorExceptions(@Nonnull HytaleLogger logger, @Nonnull String msg)`: Add description.
   - Executes `logOrThrowValidatorExceptions` behavior.
-- `hasFailed()`
+- `hasFailed()`: Add description.
   - Executes `hasFailed` behavior.
-- `getResults()`
+- `getResults()`: Add description.
   - Executes `getResults` behavior.
-- `setResults(@Nullable List<ValidationResult> results)`
+- `setResults(@Nullable List<ValidationResult> results)`: Add description.
   - Executes `setResults` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `ValidationResult(Result result, String reason)`
+- `ValidationResult(Result result, String reason)`: Add description.
   - Executes `ValidationResult` behavior.
-- `appendResult(@Nonnull StringBuilder sb)`
+- `appendResult(@Nonnull StringBuilder sb)`: Add description.
   - Executes `appendResult` behavior.
-- `ValidatorResultsHolder(String key, int line, int column, List<ValidationResult> results)`
+- `ValidatorResultsHolder(String key, int line, int column, List<ValidationResult> results)`: Add description.
   - Executes `ValidatorResultsHolder` behavior.
 
 ## Notes

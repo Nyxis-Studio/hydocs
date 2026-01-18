@@ -1,20 +1,20 @@
+**Source Hash:** `bce23fbb84bea3ae0eebc37e8b4f19a4ba42c725eb47c84726cc5a2d42d22e39`
+
 # Splitter
 
 ## Overview
-- Documentation for `Splitter`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.framework.math`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `split(@Nonnull Range range, int pieces)`
+## Method Descriptions
+- `split(@Nonnull Range range, int pieces)`: Add description.
   - Executes `split` behavior.
-- `split(@Nonnull Area area, int pieces)`
+- `split(@Nonnull Area area, int pieces)`: Add description.
   - Executes `split` behavior.
-- `splitX(@Nonnull Area area, int pieces)`
+- `splitX(@Nonnull Area area, int pieces)`: Add description.
   - Executes `splitX` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

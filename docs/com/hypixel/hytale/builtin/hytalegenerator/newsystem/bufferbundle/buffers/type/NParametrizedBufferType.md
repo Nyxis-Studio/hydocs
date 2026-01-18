@@ -1,21 +1,21 @@
+**Source Hash:** `bc7a147d5d983df28f3381d6e3d31116504ad0b743e48411bafeceffd2795b12`
+
 # NParametrizedBufferType
 
 ## Overview
-- Documentation for `NParametrizedBufferType`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers.type`.
 
-## Constructors
+## Constructor Descriptions
 - `NParametrizedBufferType(@Nonnull String name, int index, @Nonnull Class bufferClass, @Nonnull Class parameterClass, @Nonnull Supplier<NBuffer> bufferSupplier)`
   - Creates a `NParametrizedBufferType` instance.
 
-## Methods
-- `isValidType(@Nonnull Class bufferClass, @Nonnull Class parameterClass)`
+## Method Descriptions
+- `isValidType(@Nonnull Class bufferClass, @Nonnull Class parameterClass)`: Add description.
   - Executes `isValidType` behavior.
-- `isValid(@Nonnull NBuffer buffer)`
+- `isValid(@Nonnull NBuffer buffer)`: Add description.
   - Executes `isValid` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,71 +1,71 @@
+**Source Hash:** `4278638c849558178d66fd3858fa3c328441a8b4f8183ff70249c24085ea93ce`
+
 # BrushData
 
 ## Overview
-- Documentation for `BrushData`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushData()`
   - Creates a `BrushData` instance.
 - `BrushData(IntArg width, IntArg height, IntArg thickness, BoolArg capped, BrushShapeArg shape, BrushOriginArg origin, BoolArg originRotation, BrushAxisArg rotationAxis, BrushRotationArg rotationAngle, BrushAxisArg mirrorAxis, BlockArg material, BlockArg[] favoriteMaterials, MaskArg mask, MaskArg maskAbove, MaskArg maskNot, MaskArg maskBelow, MaskArg maskAdjacent, MaskArg maskNeighbor, StringArg[] maskCommands, BoolArg useMaskCommands)`
   - Creates a `BrushData` instance.
 
-## Methods
-- `getWidth()`
+## Method Descriptions
+- `getWidth()`: Add description.
   - Executes `getWidth` behavior.
-- `getHeight()`
+- `getHeight()`: Add description.
   - Executes `getHeight` behavior.
-- `getThickness()`
+- `getThickness()`: Add description.
   - Executes `getThickness` behavior.
-- `getCapped()`
+- `getCapped()`: Add description.
   - Executes `getCapped` behavior.
-- `getShape()`
+- `getShape()`: Add description.
   - Executes `getShape` behavior.
-- `getOrigin()`
+- `getOrigin()`: Add description.
   - Executes `getOrigin` behavior.
-- `getOriginRotation()`
+- `getOriginRotation()`: Add description.
   - Executes `getOriginRotation` behavior.
-- `getRotationAxis()`
+- `getRotationAxis()`: Add description.
   - Executes `getRotationAxis` behavior.
-- `getRotationAngle()`
+- `getRotationAngle()`: Add description.
   - Executes `getRotationAngle` behavior.
-- `getMirrorAxis()`
+- `getMirrorAxis()`: Add description.
   - Executes `getMirrorAxis` behavior.
-- `getMaterial()`
+- `getMaterial()`: Add description.
   - Executes `getMaterial` behavior.
-- `getFavoriteMaterials()`
+- `getFavoriteMaterials()`: Add description.
   - Executes `getFavoriteMaterials` behavior.
-- `getMask()`
+- `getMask()`: Add description.
   - Executes `getMask` behavior.
-- `getMaskAbove()`
+- `getMaskAbove()`: Add description.
   - Executes `getMaskAbove` behavior.
-- `getMaskNot()`
+- `getMaskNot()`: Add description.
   - Executes `getMaskNot` behavior.
-- `getMaskBelow()`
+- `getMaskBelow()`: Add description.
   - Executes `getMaskBelow` behavior.
-- `getMaskAdjacent()`
+- `getMaskAdjacent()`: Add description.
   - Executes `getMaskAdjacent` behavior.
-- `getMaskNeighbor()`
+- `getMaskNeighbor()`: Add description.
   - Executes `getMaskNeighbor` behavior.
-- `getMaskCommands()`
+- `getMaskCommands()`: Add description.
   - Executes `getMaskCommands` behavior.
-- `getUseMaskCommands()`
+- `getUseMaskCommands()`: Add description.
   - Executes `getUseMaskCommands` behavior.
-- `getInvertMask()`
+- `getInvertMask()`: Add description.
   - Executes `getInvertMask` behavior.
-- `updateArgValue(@Nonnull Values brush, @Nonnull String id, @Nonnull String value)`
+- `updateArgValue(@Nonnull Values brush, @Nonnull String id, @Nonnull String value)`: Add description.
   - Executes `updateArgValue` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `isCapped()`
+- `isCapped()`: Add description.
   - Executes `isCapped` behavior.
-- `getParsedMaskCommands()`
+- `getParsedMaskCommands()`: Add description.
   - Executes `getParsedMaskCommands` behavior.
-- `shouldUseMaskCommands()`
+- `shouldUseMaskCommands()`: Add description.
   - Executes `shouldUseMaskCommands` behavior.
-- `shouldInvertMask()`
+- `shouldInvertMask()`: Add description.
   - Executes `shouldInvertMask` behavior.
 
 ## Notes

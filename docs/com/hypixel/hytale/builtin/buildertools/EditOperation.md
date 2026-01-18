@@ -1,33 +1,33 @@
+**Source Hash:** `4a2c7edbe766eb78f2aee56497b741d41b9528705469f914f8fa952a2218512d`
+
 # EditOperation
 
 ## Overview
-- Documentation for `EditOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `EditOperation(@Nonnull World world, int x, int y, int z, int editRange, Vector3i min, Vector3i max, BlockMask blockMask)`
   - Creates a `EditOperation` instance.
 
-## Methods
-- `getBlockMask()`
+## Method Descriptions
+- `getBlockMask()`: Add description.
   - Executes `getBlockMask` behavior.
-- `getBefore()`
+- `getBefore()`: Add description.
   - Executes `getBefore` behavior.
-- `getAfter()`
+- `getAfter()`: Add description.
   - Executes `getAfter` behavior.
-- `getAccessor()`
+- `getAccessor()`: Add description.
   - Executes `getAccessor` behavior.
-- `getBlock(int x, int y, int z)`
+- `getBlock(int x, int y, int z)`: Add description.
   - Executes `getBlock` behavior.
-- `setBlock(int x, int y, int z, int blockId)`
+- `setBlock(int x, int y, int z, int blockId)`: Add description.
   - Executes `setBlock` behavior.
-- `setBlock(int x, int y, int z, int blockId, int rotation)`
+- `setBlock(int x, int y, int z, int blockId, int rotation)`: Add description.
   - Executes `setBlock` behavior.
-- `setFluid(int x, int y, int z, int fluidId, byte fluidLevel)`
+- `setFluid(int x, int y, int z, int fluidId, byte fluidLevel)`: Add description.
   - Executes `setFluid` behavior.
-- `getFluid(int x, int y, int z)`
+- `getFluid(int x, int y, int z)`: Add description.
   - Executes `getFluid` behavior.
-- `setMaterial(int x, int y, int z, @Nonnull Material material)`
+- `setMaterial(int x, int y, int z, @Nonnull Material material)`: Add description.
   - Executes `setMaterial` behavior.
 
 ## Notes

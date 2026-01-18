@@ -1,14 +1,14 @@
+**Source Hash:** `dc870e71ef10a810e60047b5e9f9624b7c6a50fba9a66e31d06076467234ff8e`
+
 # BuilderDescriptorState
 
 ## Overview
-- Documentation for `BuilderDescriptorState`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

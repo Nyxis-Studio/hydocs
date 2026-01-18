@@ -1,19 +1,19 @@
+**Source Hash:** `d331431d9bb7ff56923161450793910ebe4445ac278be3a868ca4e88647019ad`
+
 # BlockTickManager
 
 ## Overview
-- Documentation for `BlockTickManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktick`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockTickManager()`
   - Creates a `BlockTickManager` instance.
 
-## Methods
-- `setBlockTickProvider(@Nonnull IBlockTickProvider provider)`
+## Method Descriptions
+- `setBlockTickProvider(@Nonnull IBlockTickProvider provider)`: Add description.
   - Executes `setBlockTickProvider` behavior.
-- `getBlockTickProvider()`
+- `getBlockTickProvider()`: Add description.
   - Executes `getBlockTickProvider` behavior.
-- `hasBlockTickProvider()`
+- `hasBlockTickProvider()`: Add description.
   - Executes `hasBlockTickProvider` behavior.
 
 ## Notes

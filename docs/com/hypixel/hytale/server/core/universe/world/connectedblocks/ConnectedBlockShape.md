@@ -1,16 +1,16 @@
+**Source Hash:** `a46773cff28ef52c69d30eeab941218ed97b0582eafd146d5e25b0dfd6e11cf6`
+
 # ConnectedBlockShape
 
 ## Overview
-- Documentation for `ConnectedBlockShape`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPatternsToMatchAnyOf()`
+## Method Descriptions
+- `getPatternsToMatchAnyOf()`: Add description.
   - Executes `getPatternsToMatchAnyOf` behavior.
-- `getFaceTags()`
+- `getFaceTags()`: Add description.
   - Executes `getFaceTags` behavior.
 
 ## Notes

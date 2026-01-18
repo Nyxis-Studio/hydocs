@@ -1,15 +1,15 @@
+**Source Hash:** `4006ce1921cfb39647e79618ea7dc46dd8a2e34c76346096fccaaaefd2cfc299`
+
 # EntityLodCommand
 
 ## Overview
-- Documentation for `EntityLodCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityLodCommand()`
   - Creates a `EntityLodCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

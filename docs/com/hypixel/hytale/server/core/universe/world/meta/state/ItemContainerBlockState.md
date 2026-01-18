@@ -1,14 +1,14 @@
+**Source Hash:** `c04f4a89967f983b0d221e0b16c2b3a7c12bd39f5b9e159eeaa87003f8060aa8`
+
 # ItemContainerBlockState
 
 ## Overview
-- Documentation for `ItemContainerBlockState`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getItemContainer()`
+## Method Descriptions
+- `getItemContainer()`: Add description.
   - Executes `getItemContainer` behavior.
 
 ## Notes

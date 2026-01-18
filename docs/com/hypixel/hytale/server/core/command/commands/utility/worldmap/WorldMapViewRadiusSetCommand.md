@@ -1,15 +1,15 @@
+**Source Hash:** `b42235ad76de33a36c584ab4173791e8f1c402e1dedb29896e4b582ee536e474`
+
 # WorldMapViewRadiusSetCommand
 
 ## Overview
-- Documentation for `WorldMapViewRadiusSetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.worldmap`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldMapViewRadiusSetCommand()`
   - Creates a `WorldMapViewRadiusSetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

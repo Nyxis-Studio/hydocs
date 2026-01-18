@@ -1,15 +1,15 @@
+**Source Hash:** `7d56d459651347bb6f9e06a7835575a2b8910fd2cced5008a13f46b0ac5e5148`
+
 # NoPermissionException
 
 ## Overview
-- Documentation for `NoPermissionException`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.exceptions`.
 
-## Constructors
+## Constructor Descriptions
 - `NoPermissionException(@Nonnull String permission)`
   - Creates a `NoPermissionException` instance.
 
-## Methods
-- `sendTranslatedMessage(@Nonnull CommandSender sender)`
+## Method Descriptions
+- `sendTranslatedMessage(@Nonnull CommandSender sender)`: Add description.
   - Executes `sendTranslatedMessage` behavior.
 
 ## Notes

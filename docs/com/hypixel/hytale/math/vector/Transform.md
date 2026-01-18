@@ -1,10 +1,10 @@
+**Source Hash:** `71512284ebdfa29fb6c548543795ab5836c2bfe417ae104eaf49775480ba0e0f`
+
 # Transform
 
 ## Overview
-- Documentation for `Transform`.
-- Declared as a class in `com.hypixel.hytale.math.vector`.
 
-## Constructors
+## Constructor Descriptions
 - `Transform()`
   - Creates a `Transform` instance.
 - `Transform(@Nonnull Vector3i position)`
@@ -20,36 +20,36 @@
 - `Transform(this.position.clone()`
   - Creates a `Transform` instance.
 
-## Methods
-- `assign(@Nonnull Transform transform)`
+## Method Descriptions
+- `assign(@Nonnull Transform transform)`: Add description.
   - Executes `assign` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `setPosition(@Nonnull Vector3d position)`
+- `setPosition(@Nonnull Vector3d position)`: Add description.
   - Executes `setPosition` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `setRotation(@Nonnull Vector3f rotation)`
+- `setRotation(@Nonnull Vector3f rotation)`: Add description.
   - Executes `setRotation` behavior.
-- `getDirection()`
+- `getDirection()`: Add description.
   - Executes `getDirection` behavior.
-- `getDirection(float pitch, float yaw)`
+- `getDirection(float pitch, float yaw)`: Add description.
   - Executes `getDirection` behavior.
-- `getAxisDirection()`
+- `getAxisDirection()`: Add description.
   - Executes `getAxisDirection` behavior.
-- `getAxisDirection(float pitch, float yaw)`
+- `getAxisDirection(float pitch, float yaw)`: Add description.
   - Executes `getAxisDirection` behavior.
-- `getAxis()`
+- `getAxis()`: Add description.
   - Executes `getAxis` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `applyMaskedRelativeTransform(@Nonnull Transform transform, byte relativeMask, @Nonnull Vector3d sourcePosition, @Nonnull Vector3f sourceRotation, @Nonnull Vector3i blockPosition)`
+- `applyMaskedRelativeTransform(@Nonnull Transform transform, byte relativeMask, @Nonnull Vector3d sourcePosition, @Nonnull Vector3f sourceRotation, @Nonnull Vector3i blockPosition)`: Add description.
   - Executes `applyMaskedRelativeTransform` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `575565fd34cd35c10159e9f382468eb8a6ece2dda9e023fe6ff8abcb620f3139`
+
 # AttitudeGroupExistsValidator
 
 ## Overview
-- Documentation for `AttitudeGroupExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `AttitudeGroupExistsValidator()`
   - Creates a `AttitudeGroupExistsValidator` instance.
 - `AttitudeGroupExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `AttitudeGroupExistsValidator(config)`
   - Creates a `AttitudeGroupExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String attitudeGroup)`
+- `test(String attitudeGroup)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String attitudeGroup, String attributeName)`
+- `errorMessage(String attitudeGroup, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

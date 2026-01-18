@@ -1,35 +1,35 @@
+**Source Hash:** `72b2f78b9d7daadccee7ae9bf0f8360eab0e7cf44bc4cf46a875075bca22b3f7`
+
 # WrappedInfoProvider
 
 ## Overview
-- Documentation for `WrappedInfoProvider`.
-- Declared as a class in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
+## Constructor Descriptions
 - `WrappedInfoProvider()`
   - Creates a `WrappedInfoProvider` instance.
 - `WrappedInfoProvider(Sensor[] sensors)`
   - Creates a `WrappedInfoProvider` instance.
 
-## Methods
-- `getExtraInfo(Class<E> clazz)`
+## Method Descriptions
+- `getExtraInfo(Class<E> clazz)`: Add description.
   - Executes `getExtraInfo` behavior.
-- `passExtraInfo(E provider)`
+- `passExtraInfo(E provider)`: Add description.
   - Executes `passExtraInfo` behavior.
-- `getPassedExtraInfo(Class<E> clazz)`
+- `getPassedExtraInfo(Class<E> clazz)`: Add description.
   - Executes `getPassedExtraInfo` behavior.
-- `hasPosition()`
+- `hasPosition()`: Add description.
   - Executes `hasPosition` behavior.
-- `getPositionProvider()`
+- `getPositionProvider()`: Add description.
   - Executes `getPositionProvider` behavior.
-- `getParameterProvider(int parameter)`
+- `getParameterProvider(int parameter)`: Add description.
   - Executes `getParameterProvider` behavior.
-- `clearMatches()`
+- `clearMatches()`: Add description.
   - Executes `clearMatches` behavior.
-- `addMatch(Sensor sensor)`
+- `addMatch(Sensor sensor)`: Add description.
   - Executes `addMatch` behavior.
-- `clearPositionMatch()`
+- `clearPositionMatch()`: Add description.
   - Executes `clearPositionMatch` behavior.
-- `setPositionMatch(IPositionProvider provider)`
+- `setPositionMatch(IPositionProvider provider)`: Add description.
   - Executes `setPositionMatch` behavior.
 
 ## Notes

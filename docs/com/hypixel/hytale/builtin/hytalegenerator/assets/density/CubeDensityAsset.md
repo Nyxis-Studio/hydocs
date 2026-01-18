@@ -1,16 +1,16 @@
+**Source Hash:** `c553f8ec1184552c044cca3d29a0e109728026ab17f893471aa5f552d9a70fe0`
+
 # CubeDensityAsset
 
 ## Overview
-- Documentation for `CubeDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

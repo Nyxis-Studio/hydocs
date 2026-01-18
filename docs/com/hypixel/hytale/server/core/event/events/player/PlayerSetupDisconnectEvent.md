@@ -1,21 +1,21 @@
+**Source Hash:** `663d9f7b6627de458ce16f6a28162fef4141ca847893d7b830769d6da609dca4`
+
 # PlayerSetupDisconnectEvent
 
 ## Overview
-- Documentation for `PlayerSetupDisconnectEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerSetupDisconnectEvent(String username, UUID uuid, PlayerAuthentication auth, PacketHandler.DisconnectReason disconnectReason)`
   - Creates a `PlayerSetupDisconnectEvent` instance.
 
-## Methods
-- `getUsername()`
+## Method Descriptions
+- `getUsername()`: Add description.
   - Executes `getUsername` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `getAuth()`
+- `getAuth()`: Add description.
   - Executes `getAuth` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `61ee8b78e378869de04b508ae8bbce936b4fc79e06e44e61ed0321a8f71bbe90`
+
 # CircleOffsetAndLoopOperation
 
 ## Overview
-- Documentation for `CircleOffsetAndLoopOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol.loops`.
 
-## Constructors
+## Constructor Descriptions
 - `CircleOffsetAndLoopOperation()`
   - Creates a `CircleOffsetAndLoopOperation` instance.
 
-## Methods
-- `resetInternalState()`
+## Method Descriptions
+- `resetInternalState()`: Add description.
   - Executes `resetInternalState` behavior.
-- `doubleToNearestInt(double number)`
+- `doubleToNearestInt(double number)`: Add description.
   - Executes `doubleToNearestInt` behavior.
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

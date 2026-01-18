@@ -1,33 +1,33 @@
+**Source Hash:** `eea3bf817084bab97f170af12cdda8aefdf101832ca9b491b1d072759c13751a`
+
 # CoverContainer
 
 ## Overview
-- Documentation for `CoverContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `CoverContainer(CoverContainerEntry[] entries)`
   - Creates a `CoverContainer` instance.
 
-## Methods
-- `getEntries()`
+## Method Descriptions
+- `getEntries()`: Add description.
   - Executes `getEntries` behavior.
-- `get(Random random)`
+- `get(Random random)`: Add description.
   - Executes `get` behavior.
-- `getParentCondition()`
+- `getParentCondition()`: Add description.
   - Executes `getParentCondition` behavior.
-- `getMapCondition()`
+- `getMapCondition()`: Add description.
   - Executes `getMapCondition` behavior.
-- `getCoverDensity()`
+- `getCoverDensity()`: Add description.
   - Executes `getCoverDensity` behavior.
-- `getHeightCondition()`
+- `getHeightCondition()`: Add description.
   - Executes `getHeightCondition` behavior.
-- `isOnWater()`
+- `isOnWater()`: Add description.
   - Executes `isOnWater` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getEntry()`
+- `getEntry()`: Add description.
   - Executes `getEntry` behavior.
-- `getOffset()`
+- `getOffset()`: Add description.
   - Executes `getOffset` behavior.
 
 ## Notes

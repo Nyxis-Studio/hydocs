@@ -1,25 +1,25 @@
+**Source Hash:** `5fb0f57b5f55ac47cd25f341f346fa73dd0907adf7cf5889b0e41c6da7c091ec`
+
 # HytaleBanProvider
 
 ## Overview
-- Documentation for `HytaleBanProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.provider`.
 
-## Constructors
+## Constructor Descriptions
 - `HytaleBanProvider()`
   - Creates a `HytaleBanProvider` instance.
 
-## Methods
-- `getDisconnectReason(UUID uuid)`
+## Method Descriptions
+- `getDisconnectReason(UUID uuid)`: Add description.
   - Executes `getDisconnectReason` behavior.
-- `read(@Nonnull BufferedReader fileReader)`
+- `read(@Nonnull BufferedReader fileReader)`: Add description.
   - Executes `read` behavior.
-- `write(@Nonnull BufferedWriter fileWriter)`
+- `write(@Nonnull BufferedWriter fileWriter)`: Add description.
   - Executes `write` behavior.
-- `create(@Nonnull BufferedWriter fileWriter)`
+- `create(@Nonnull BufferedWriter fileWriter)`: Add description.
   - Executes `create` behavior.
-- `hasBan(UUID uuid)`
+- `hasBan(UUID uuid)`: Add description.
   - Executes `hasBan` behavior.
-- `modify(@Nonnull Function<Map<UUID, Ban>, Boolean> function)`
+- `modify(@Nonnull Function<Map<UUID, Ban>, Boolean> function)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

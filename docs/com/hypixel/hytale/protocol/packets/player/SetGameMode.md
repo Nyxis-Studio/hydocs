@@ -1,10 +1,10 @@
+**Source Hash:** `e905a2cf7f22617b452368c9eecc8884c0ed1fcbbf616794156c666d58f4c478`
+
 # SetGameMode
 
 ## Overview
-- Documentation for `SetGameMode`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.player`.
 
-## Constructors
+## Constructor Descriptions
 - `SetGameMode()`
   - Creates a `SetGameMode` instance.
 - `SetGameMode(@Nonnull GameMode gameMode)`
@@ -12,24 +12,24 @@
 - `SetGameMode(@Nonnull SetGameMode other)`
   - Creates a `SetGameMode` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

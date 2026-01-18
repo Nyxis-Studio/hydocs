@@ -1,31 +1,31 @@
+**Source Hash:** `530a600d3492958c901a80da6e1d0a9f2a4245e55b1832407ca81d64da1467bc`
+
 # ItemAppearanceCondition
 
 ## Overview
-- Documentation for `ItemAppearanceCondition`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemAppearanceCondition()`
   - Creates a `ItemAppearanceCondition` instance.
 
-## Methods
-- `getModel()`
+## Method Descriptions
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `getTexture()`
+- `getTexture()`: Add description.
   - Executes `getTexture` behavior.
-- `getConditionValueType()`
+- `getConditionValueType()`: Add description.
   - Executes `getConditionValueType` behavior.
-- `getModelVFXId()`
+- `getModelVFXId()`: Add description.
   - Executes `getModelVFXId` behavior.
-- `getWorldSoundEventId()`
+- `getWorldSoundEventId()`: Add description.
   - Executes `getWorldSoundEventId` behavior.
-- `getWorldSoundEventIndex()`
+- `getWorldSoundEventIndex()`: Add description.
   - Executes `getWorldSoundEventIndex` behavior.
-- `getLocalSoundEventId()`
+- `getLocalSoundEventId()`: Add description.
   - Executes `getLocalSoundEventId` behavior.
-- `getLocalSoundEventIndex()`
+- `getLocalSoundEventIndex()`: Add description.
   - Executes `getLocalSoundEventIndex` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

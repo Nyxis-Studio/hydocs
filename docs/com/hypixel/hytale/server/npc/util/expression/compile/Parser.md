@@ -1,39 +1,39 @@
+**Source Hash:** `b4749adb8507ad215389588f8f53ad8847ff0800417797e81bfc920ae547ee61`
+
 # Parser
 
 ## Overview
-- Documentation for `Parser`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression.compile`.
 
-## Constructors
+## Constructor Descriptions
 - `Parser(Lexer<Token> lexer)`
   - Creates a `Parser` instance.
 
-## Methods
-- `nextToken()`
+## Method Descriptions
+- `nextToken()`: Add description.
   - Executes `nextToken` behavior.
-- `parse(@Nonnull String expression, @Nonnull ParsedTokenConsumer tokenConsumer)`
+- `parse(@Nonnull String expression, @Nonnull ParsedTokenConsumer tokenConsumer)`: Add description.
   - Executes `parse` behavior.
-- `peekOperator()`
+- `peekOperator()`: Add description.
   - Executes `peekOperator` behavior.
-- `validateOperandCount(@Nonnull ParsedToken bracket)`
+- `validateOperandCount(@Nonnull ParsedToken bracket)`: Add description.
   - Executes `validateOperandCount` behavior.
-- `adjustOperandCount(@Nonnull ParsedToken parsedToken, int operandCount)`
+- `adjustOperandCount(@Nonnull ParsedToken parsedToken, int operandCount)`: Add description.
   - Executes `adjustOperandCount` behavior.
-- `hasLowerPrecedence(@Nonnull Token token, @Nullable ParsedToken stackToken)`
+- `hasLowerPrecedence(@Nonnull Token token, @Nullable ParsedToken stackToken)`: Add description.
   - Executes `hasLowerPrecedence` behavior.
-- `arity(@Nonnull Token operator)`
+- `arity(@Nonnull Token operator)`: Add description.
   - Executes `arity` behavior.
-- `fromLexer(@Nonnull Lexer<Token> lexer, @Nonnull LexerContext<Token> context)`
+- `fromLexer(@Nonnull Lexer<Token> lexer, @Nonnull LexerContext<Token> context)`: Add description.
   - Executes `fromLexer` behavior.
-- `pushOperand(ParsedToken var1)`
+- `pushOperand(ParsedToken var1)`: Add description.
   - Executes `pushOperand` behavior.
-- `processOperator(ParsedToken var1)`
+- `processOperator(ParsedToken var1)`: Add description.
   - Executes `processOperator` behavior.
-- `processFunction(int var1)`
+- `processFunction(int var1)`: Add description.
   - Executes `processFunction` behavior.
-- `processTuple(ParsedToken var1, int var2)`
+- `processTuple(ParsedToken var1, int var2)`: Add description.
   - Executes `processTuple` behavior.
-- `done()`
+- `done()`: Add description.
   - Executes `done` behavior.
 
 ## Notes

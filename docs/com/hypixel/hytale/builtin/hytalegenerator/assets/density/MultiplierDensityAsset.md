@@ -1,16 +1,16 @@
+**Source Hash:** `f31c3a0b27b030057926ac8aa2c333303fd8a5b742321cdb95a58d8fe2156656`
+
 # MultiplierDensityAsset
 
 ## Overview
-- Documentation for `MultiplierDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

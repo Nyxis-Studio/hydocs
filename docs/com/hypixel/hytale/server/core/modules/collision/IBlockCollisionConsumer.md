@@ -1,22 +1,22 @@
+**Source Hash:** `80d30008a8a9d7d3a58a2baf6a5ce4ae41512b1bb53e7bf9ad7cc1993ebd2e9a`
+
 # IBlockCollisionConsumer
 
 ## Overview
-- Documentation for `IBlockCollisionConsumer`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onCollision(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6, Box var7)`
+## Method Descriptions
+- `onCollision(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6, Box var7)`: Add description.
   - Executes `onCollision` behavior.
-- `probeCollisionDamage(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6)`
+- `probeCollisionDamage(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6)`: Add description.
   - Executes `probeCollisionDamage` behavior.
-- `onCollisionDamage(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6)`
+- `onCollisionDamage(int var1, int var2, int var3, Vector3d var4, BlockContactData var5, BlockData var6)`: Add description.
   - Executes `onCollisionDamage` behavior.
-- `onCollisionSliceFinished()`
+- `onCollisionSliceFinished()`: Add description.
   - Executes `onCollisionSliceFinished` behavior.
-- `onCollisionFinished()`
+- `onCollisionFinished()`: Add description.
   - Executes `onCollisionFinished` behavior.
 
 ## Notes

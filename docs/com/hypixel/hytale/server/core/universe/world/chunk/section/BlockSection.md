@@ -1,131 +1,131 @@
+**Source Hash:** `fb7ced1d75e4342785d9be6efc8d04bd1b5e127fa4ee9fc19553fdebed3f8258`
+
 # BlockSection
 
 ## Overview
-- Documentation for `BlockSection`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSection()`
   - Creates a `BlockSection` instance.
 - `BlockSection(ISectionPalette chunkSection, ISectionPalette fillerSection, ISectionPalette rotationSection)`
   - Creates a `BlockSection` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getChunkSection()`
+- `getChunkSection()`: Add description.
   - Executes `getChunkSection` behavior.
-- `setChunkSection(ISectionPalette chunkSection)`
+- `setChunkSection(ISectionPalette chunkSection)`: Add description.
   - Executes `setChunkSection` behavior.
-- `setLocalLight(@Nonnull ChunkLightDataBuilder localLight)`
+- `setLocalLight(@Nonnull ChunkLightDataBuilder localLight)`: Add description.
   - Executes `setLocalLight` behavior.
-- `setGlobalLight(@Nonnull ChunkLightDataBuilder globalLight)`
+- `setGlobalLight(@Nonnull ChunkLightDataBuilder globalLight)`: Add description.
   - Executes `setGlobalLight` behavior.
-- `getLocalLight()`
+- `getLocalLight()`: Add description.
   - Executes `getLocalLight` behavior.
-- `getGlobalLight()`
+- `getGlobalLight()`: Add description.
   - Executes `getGlobalLight` behavior.
-- `hasLocalLight()`
+- `hasLocalLight()`: Add description.
   - Executes `hasLocalLight` behavior.
-- `hasGlobalLight()`
+- `hasGlobalLight()`: Add description.
   - Executes `hasGlobalLight` behavior.
-- `invalidateLocalLight()`
+- `invalidateLocalLight()`: Add description.
   - Executes `invalidateLocalLight` behavior.
-- `invalidateGlobalLight()`
+- `invalidateGlobalLight()`: Add description.
   - Executes `invalidateGlobalLight` behavior.
-- `getLocalChangeCounter()`
+- `getLocalChangeCounter()`: Add description.
   - Executes `getLocalChangeCounter` behavior.
-- `getGlobalChangeCounter()`
+- `getGlobalChangeCounter()`: Add description.
   - Executes `getGlobalChangeCounter` behavior.
-- `invalidate()`
+- `invalidate()`: Add description.
   - Executes `invalidate` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `getFiller(int index)`
+- `getFiller(int index)`: Add description.
   - Executes `getFiller` behavior.
-- `getFiller(int x, int y, int z)`
+- `getFiller(int x, int y, int z)`: Add description.
   - Executes `getFiller` behavior.
-- `getRotationIndex(int index)`
+- `getRotationIndex(int index)`: Add description.
   - Executes `getRotationIndex` behavior.
-- `getRotationIndex(int x, int y, int z)`
+- `getRotationIndex(int x, int y, int z)`: Add description.
   - Executes `getRotationIndex` behavior.
-- `getRotation(int index)`
+- `getRotation(int index)`: Add description.
   - Executes `getRotation` behavior.
-- `getRotation(int x, int y, int z)`
+- `getRotation(int x, int y, int z)`: Add description.
   - Executes `getRotation` behavior.
-- `set(int blockIdx, int blockId, int rotation, int filler)`
+- `set(int blockIdx, int blockId, int rotation, int filler)`: Add description.
   - Executes `set` behavior.
-- `getAndClearChangedPositions()`
+- `getAndClearChangedPositions()`: Add description.
   - Executes `getAndClearChangedPositions` behavior.
-- `contains(int id)`
+- `contains(int id)`: Add description.
   - Executes `contains` behavior.
-- `containsAny(IntList ids)`
+- `containsAny(IntList ids)`: Add description.
   - Executes `containsAny` behavior.
-- `count()`
+- `count()`: Add description.
   - Executes `count` behavior.
-- `count(int id)`
+- `count(int id)`: Add description.
   - Executes `count` behavior.
-- `values()`
+- `values()`: Add description.
   - Executes `values` behavior.
-- `forEachValue(IntConsumer consumer)`
+- `forEachValue(IntConsumer consumer)`: Add description.
   - Executes `forEachValue` behavior.
-- `valueCounts()`
+- `valueCounts()`: Add description.
   - Executes `valueCounts` behavior.
-- `isSolidAir()`
+- `isSolidAir()`: Add description.
   - Executes `isSolidAir` behavior.
-- `find(IntList ids, IntSet internalIdHolder, IntConsumer indexConsumer)`
+- `find(IntList ids, IntSet internalIdHolder, IntConsumer indexConsumer)`: Add description.
   - Executes `find` behavior.
-- `setTicking(int blockIdx, boolean ticking)`
+- `setTicking(int blockIdx, boolean ticking)`: Add description.
   - Executes `setTicking` behavior.
-- `getTickingBlocksCount()`
+- `getTickingBlocksCount()`: Add description.
   - Executes `getTickingBlocksCount` behavior.
-- `getTickingBlocksCountCopy()`
+- `getTickingBlocksCountCopy()`: Add description.
   - Executes `getTickingBlocksCountCopy` behavior.
-- `hasTicking()`
+- `hasTicking()`: Add description.
   - Executes `hasTicking` behavior.
-- `isTicking(int blockIdx)`
+- `isTicking(int blockIdx)`: Add description.
   - Executes `isTicking` behavior.
-- `scheduleTick(int index, @Nullable Instant gameTime)`
+- `scheduleTick(int index, @Nullable Instant gameTime)`: Add description.
   - Executes `scheduleTick` behavior.
-- `preTick(Instant gameTime)`
+- `preTick(Instant gameTime)`: Add description.
   - Executes `preTick` behavior.
-- `forEachTicking(T t, V v, int sectionIndex, @Nonnull ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`
+- `forEachTicking(T t, V v, int sectionIndex, @Nonnull ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`: Add description.
   - Executes `forEachTicking` behavior.
-- `mergeTickingBlocks()`
+- `mergeTickingBlocks()`: Add description.
   - Executes `mergeTickingBlocks` behavior.
-- `getMaximumHitboxExtent()`
+- `getMaximumHitboxExtent()`: Add description.
   - Executes `getMaximumHitboxExtent` behavior.
-- `invalidateBlock(int x, int y, int z)`
+- `invalidateBlock(int x, int y, int z)`: Add description.
   - Executes `invalidateBlock` behavior.
-- `takeMigratedFluid()`
+- `takeMigratedFluid()`: Add description.
   - Executes `takeMigratedFluid` behavior.
-- `takeMigratedDecoBlocks()`
+- `takeMigratedDecoBlocks()`: Add description.
   - Executes `takeMigratedDecoBlocks` behavior.
-- `serializeForPacket(@Nonnull ByteBuf buf)`
+- `serializeForPacket(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serializeForPacket` behavior.
-- `serialize(ISectionPalette.KeySerializer keySerializer, @Nonnull ByteBuf buf)`
+- `serialize(ISectionPalette.KeySerializer keySerializer, @Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `serialize(ExtraInfo extraInfo)`
+- `serialize(ExtraInfo extraInfo)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(ToIntFunction<ByteBuf> keyDeserializer, @Nonnull ByteBuf buf, int version)`
+- `deserialize(ToIntFunction<ByteBuf> keyDeserializer, @Nonnull ByteBuf buf, int version)`: Add description.
   - Executes `deserialize` behavior.
-- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`
+- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `deserialize` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `cloneSerializable()`
+- `cloneSerializable()`: Add description.
   - Executes `cloneSerializable` behavior.
-- `getCachedChunkPacket(int x, int y, int z)`
+- `getCachedChunkPacket(int x, int y, int z)`: Add description.
   - Executes `getCachedChunkPacket` behavior.
-- `get(int x, int y, int z)`
+- `get(int x, int y, int z)`: Add description.
   - Executes `get` behavior.
-- `set(int x, int y, int z, int blockId, int rotation, int filler)`
+- `set(int x, int y, int z, int blockId, int rotation, int filler)`: Add description.
   - Executes `set` behavior.
-- `setTicking(int x, int y, int z, boolean ticking)`
+- `setTicking(int x, int y, int z, boolean ticking)`: Add description.
   - Executes `setTicking` behavior.
-- `isTicking(int x, int y, int z)`
+- `isTicking(int x, int y, int z)`: Add description.
   - Executes `isTicking` behavior.
-- `TickRequest(int index, @Nonnull Instant requestedGameTime)`
+- `TickRequest(int index, @Nonnull Instant requestedGameTime)`: Add description.
   - Executes `TickRequest` behavior.
 
 ## Notes

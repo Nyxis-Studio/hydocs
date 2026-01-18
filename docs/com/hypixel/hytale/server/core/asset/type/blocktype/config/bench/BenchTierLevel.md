@@ -1,23 +1,23 @@
+**Source Hash:** `6f00e9313ae1e79b025546d610d2d354e0079e2b45fe075c816a634a1e2245b3`
+
 # BenchTierLevel
 
 ## Overview
-- Documentation for `BenchTierLevel`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.bench`.
 
-## Constructors
+## Constructor Descriptions
 - `BenchTierLevel(BenchUpgradeRequirement upgradeRequirement, float craftingTimeReductionModifier, int extraInputSlot, int extraOutputSlot)`
   - Creates a `BenchTierLevel` instance.
 - `BenchTierLevel()`
   - Creates a `BenchTierLevel` instance.
 
-## Methods
-- `getCraftingTimeReductionModifier()`
+## Method Descriptions
+- `getCraftingTimeReductionModifier()`: Add description.
   - Executes `getCraftingTimeReductionModifier` behavior.
-- `getUpgradeRequirement()`
+- `getUpgradeRequirement()`: Add description.
   - Executes `getUpgradeRequirement` behavior.
-- `getExtraInputSlot()`
+- `getExtraInputSlot()`: Add description.
   - Executes `getExtraInputSlot` behavior.
-- `getExtraOutputSlot()`
+- `getExtraOutputSlot()`: Add description.
   - Executes `getExtraOutputSlot` behavior.
 
 ## Notes

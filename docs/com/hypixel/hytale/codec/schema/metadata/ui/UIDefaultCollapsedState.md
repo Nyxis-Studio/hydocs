@@ -1,17 +1,17 @@
+**Source Hash:** `437b8ed23e600bfd26ee6500bcff5047be1121577cdd5a378110f60c3fc6eca8`
+
 # UIDefaultCollapsedState
 
 ## Overview
-- Documentation for `UIDefaultCollapsedState`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `UIDefaultCollapsedState(false)`
   - Creates a `UIDefaultCollapsedState` instance.
 - `UIDefaultCollapsedState(boolean collapsedByDefault)`
   - Creates a `UIDefaultCollapsedState` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

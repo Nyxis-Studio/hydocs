@@ -1,10 +1,10 @@
+**Source Hash:** `3112695844ef074a72c3e2b59e1da04bfd644fb751042370fd5541cb06dab819`
+
 # SetTimeDilation
 
 ## Overview
-- Documentation for `SetTimeDilation`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.setup`.
 
-## Constructors
+## Constructor Descriptions
 - `SetTimeDilation()`
   - Creates a `SetTimeDilation` instance.
 - `SetTimeDilation(float timeDilation)`
@@ -12,24 +12,24 @@
 - `SetTimeDilation(@Nonnull SetTimeDilation other)`
   - Creates a `SetTimeDilation` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

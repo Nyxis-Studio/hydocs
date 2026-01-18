@@ -1,16 +1,16 @@
+**Source Hash:** `76efc21860b77750251c9faa9a05c2b1839791ad2d191a486180445a07bbe3da`
+
 # RespawnConfig
 
 ## Overview
-- Documentation for `RespawnConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRadiusLimitRespawnPoint()`
+## Method Descriptions
+- `getRadiusLimitRespawnPoint()`: Add description.
   - Executes `getRadiusLimitRespawnPoint` behavior.
-- `getMaxRespawnPointsPerPlayer()`
+- `getMaxRespawnPointsPerPlayer()`: Add description.
   - Executes `getMaxRespawnPointsPerPlayer` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `16b3090b9a788f0e53f79db2536ec4bfbbb0cf0ab4bcdb948e60405dd5467c5c`
+
 # StructuralCraftingBench
 
 ## Overview
-- Documentation for `StructuralCraftingBench`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.bench`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `processConfig()`
+## Method Descriptions
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `isHeaderCategory(@Nonnull String category)`
+- `isHeaderCategory(@Nonnull String category)`: Add description.
   - Executes `isHeaderCategory` behavior.
-- `getCategoryIndex(@Nonnull String category)`
+- `getCategoryIndex(@Nonnull String category)`: Add description.
   - Executes `getCategoryIndex` behavior.
-- `shouldAllowBlockGroupCycling()`
+- `shouldAllowBlockGroupCycling()`: Add description.
   - Executes `shouldAllowBlockGroupCycling` behavior.
-- `shouldAlwaysShowInventoryHints()`
+- `shouldAlwaysShowInventoryHints()`: Add description.
   - Executes `shouldAlwaysShowInventoryHints` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `eb04ebbbc300bcaf1ecb480065be3d8a14792f78eb0a17594386db49b43063b5`
+
 # RemovalSystem
 
 ## Overview
-- Documentation for `RemovalSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.removal`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tick(float dt, int systemIndex, @Nonnull Store<ChunkStore> store)`
+## Method Descriptions
+- `tick(float dt, int systemIndex, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `tick` behavior.
-- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`
+- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `shouldRemoveWorld` behavior.
 
 ## Notes

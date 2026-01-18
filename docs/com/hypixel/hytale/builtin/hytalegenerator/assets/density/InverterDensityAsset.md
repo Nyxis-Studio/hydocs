@@ -1,16 +1,16 @@
+**Source Hash:** `30155990158d63299c2ecc782a04c58c16a84ad97bbc6dd8d8dd5d645b73d682`
+
 # InverterDensityAsset
 
 ## Overview
-- Documentation for `InverterDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

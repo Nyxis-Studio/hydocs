@@ -1,16 +1,16 @@
+**Source Hash:** `e9c49f07fc399d1beecd2f31b56535f7339694aca1c140ddf04443b3be8e78ac`
+
 # CaveYawMode
 
 ## Overview
-- Documentation for `CaveYawMode`.
-- Declared as a enum in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `combine(float parentYaw, @Nullable PrefabRotation parentRotation)`
+## Method Descriptions
+- `combine(float parentYaw, @Nullable PrefabRotation parentRotation)`: Add description.
   - Executes `combine` behavior.
-- `combine(float var1, @Nullable PrefabRotation var2)`
+- `combine(float var1, @Nullable PrefabRotation var2)`: Add description.
   - Executes `combine` behavior.
 
 ## Notes

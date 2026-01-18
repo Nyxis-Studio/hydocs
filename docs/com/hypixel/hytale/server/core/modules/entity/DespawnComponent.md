@@ -1,10 +1,10 @@
+**Source Hash:** `1ed1702a9759657b2c046e6a9ed9dae589710e58dee6d71201088da187fcf24e`
+
 # DespawnComponent
 
 ## Overview
-- Documentation for `DespawnComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `DespawnComponent()`
   - Creates a `DespawnComponent` instance.
 - `DespawnComponent(@Nullable Instant timeToDespawnAt)`
@@ -14,24 +14,24 @@
 - `DespawnComponent(this.timeToDespawnAt)`
   - Creates a `DespawnComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `setDespawn(Instant timeToDespawnAt)`
+- `setDespawn(Instant timeToDespawnAt)`: Add description.
   - Executes `setDespawn` behavior.
-- `setDespawnTo(@Nonnull Instant from, float additionalSeconds)`
+- `setDespawnTo(@Nonnull Instant from, float additionalSeconds)`: Add description.
   - Executes `setDespawnTo` behavior.
-- `getDespawn()`
+- `getDespawn()`: Add description.
   - Executes `getDespawn` behavior.
-- `despawnInSeconds(@Nonnull TimeResource time, int seconds)`
+- `despawnInSeconds(@Nonnull TimeResource time, int seconds)`: Add description.
   - Executes `despawnInSeconds` behavior.
-- `despawnInSeconds(@Nonnull TimeResource time, float seconds)`
+- `despawnInSeconds(@Nonnull TimeResource time, float seconds)`: Add description.
   - Executes `despawnInSeconds` behavior.
-- `despawnInMilliseconds(@Nonnull TimeResource time, long milliseconds)`
+- `despawnInMilliseconds(@Nonnull TimeResource time, long milliseconds)`: Add description.
   - Executes `despawnInMilliseconds` behavior.
-- `trySetDespawn(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull TimeResource timeResource, @Nonnull Ref<EntityStore> ref, @Nullable DespawnComponent despawnComponent, @Nullable Float newLifetime)`
+- `trySetDespawn(@Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull TimeResource timeResource, @Nonnull Ref<EntityStore> ref, @Nullable DespawnComponent despawnComponent, @Nullable Float newLifetime)`: Add description.
   - Executes `trySetDespawn` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

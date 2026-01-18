@@ -1,14 +1,14 @@
+**Source Hash:** `fa2ccf925a2cbe7ca6c19ed4ac32d9a9bdc8063af8117b6e2b562a7c2532bcdd`
+
 # ColumnRandomScannerAsset
 
 ## Overview
-- Documentation for `ColumnRandomScannerAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.scanners`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull ScannerAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull ScannerAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

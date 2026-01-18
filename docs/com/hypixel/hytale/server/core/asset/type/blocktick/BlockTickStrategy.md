@@ -1,14 +1,14 @@
+**Source Hash:** `af913647418055bcae5321ec2bdf2be1c7b472d425bea7e51066d154ddae3593`
+
 # BlockTickStrategy
 
 ## Overview
-- Documentation for `BlockTickStrategy`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktick`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

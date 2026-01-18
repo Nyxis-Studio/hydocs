@@ -1,17 +1,17 @@
+**Source Hash:** `6974be5c3386d5f1ab9fe60623976b1071d02e91c6009d138959b5651a601c7b`
+
 # EventTitleCommand
 
 ## Overview
-- Documentation for `EventTitleCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `EventTitleCommand()`
   - Creates a `EventTitleCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
-- `extractTitleFromRawInput(@Nonnull String rawArgs, @Nonnull CommandContext context)`
+- `extractTitleFromRawInput(@Nonnull String rawArgs, @Nonnull CommandContext context)`: Add description.
   - Executes `extractTitleFromRawInput` behavior.
 
 ## Notes

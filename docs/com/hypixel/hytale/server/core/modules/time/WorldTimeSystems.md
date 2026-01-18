@@ -1,18 +1,18 @@
+**Source Hash:** `38dc449f0aa845c2d84ffa6182135dd544a26ac1381e0634fa568e5f8752a9f2`
+
 # WorldTimeSystems
 
 ## Overview
-- Documentation for `WorldTimeSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.time`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`
+- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`
+- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
 
 ## Notes

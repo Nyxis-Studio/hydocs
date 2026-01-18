@@ -1,26 +1,26 @@
+**Source Hash:** `75986e0050ee9196c23096238ba4c92265e623d512c6415e41703655be08d342`
+
 # IAuthCredentialStore
 
 ## Overview
-- Documentation for `IAuthCredentialStore`.
-- Declared as a interface in `com.hypixel.hytale.server.core.auth`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setTokens(@Nonnull OAuthTokens var1)`
+## Method Descriptions
+- `setTokens(@Nonnull OAuthTokens var1)`: Add description.
   - Executes `setTokens` behavior.
-- `getTokens()`
+- `getTokens()`: Add description.
   - Executes `getTokens` behavior.
-- `setProfile(@Nullable UUID var1)`
+- `setProfile(@Nullable UUID var1)`: Add description.
   - Executes `setProfile` behavior.
-- `getProfile()`
+- `getProfile()`: Add description.
   - Executes `getProfile` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `OAuthTokens(@Nullable String accessToken, @Nullable String refreshToken, @Nullable Instant accessTokenExpiresAt)`
+- `OAuthTokens(@Nullable String accessToken, @Nullable String refreshToken, @Nullable Instant accessTokenExpiresAt)`: Add description.
   - Executes `OAuthTokens` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
 
 ## Notes

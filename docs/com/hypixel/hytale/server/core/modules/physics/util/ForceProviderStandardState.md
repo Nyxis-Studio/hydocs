@@ -1,19 +1,19 @@
+**Source Hash:** `4ab61fd2ef2b82beb187fdfb2256278b793a3f5d9bfcbd3851810cd04882334f`
+
 # ForceProviderStandardState
 
 ## Overview
-- Documentation for `ForceProviderStandardState`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
+## Constructor Descriptions
 - `ForceProviderStandardState()`
   - Creates a `ForceProviderStandardState` instance.
 
-## Methods
-- `convertToForces(double dt, double mass)`
+## Method Descriptions
+- `convertToForces(double dt, double mass)`: Add description.
   - Executes `convertToForces` behavior.
-- `updateVelocity(@Nonnull Vector3d velocity)`
+- `updateVelocity(@Nonnull Vector3d velocity)`: Add description.
   - Executes `updateVelocity` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

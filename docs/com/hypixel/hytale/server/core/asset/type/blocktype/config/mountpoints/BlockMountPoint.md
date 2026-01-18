@@ -1,10 +1,10 @@
+**Source Hash:** `468123345add6c950fd3a8e3637ad5ba53435773eafaf701922eb8478f7f134a`
+
 # BlockMountPoint
 
 ## Overview
-- Documentation for `BlockMountPoint`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.mountpoints`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMountPoint()`
   - Creates a `BlockMountPoint` instance.
 - `BlockMountPoint(Vector3f offset, float yawOffSetDegrees)`
@@ -12,16 +12,16 @@
 - `BlockMountPoint(rotatedOffset, this.yawOffSetDegrees)`
   - Creates a `BlockMountPoint` instance.
 
-## Methods
-- `getOffset()`
+## Method Descriptions
+- `getOffset()`: Add description.
   - Executes `getOffset` behavior.
-- `getYawOffSetDegrees()`
+- `getYawOffSetDegrees()`: Add description.
   - Executes `getYawOffSetDegrees` behavior.
-- `rotate(@Nonnull Rotation yaw, @Nonnull Rotation pitch, @Nonnull Rotation roll)`
+- `rotate(@Nonnull Rotation yaw, @Nonnull Rotation pitch, @Nonnull Rotation roll)`: Add description.
   - Executes `rotate` behavior.
-- `computeWorldSpacePosition(@Nonnull Vector3i blockLoc)`
+- `computeWorldSpacePosition(@Nonnull Vector3i blockLoc)`: Add description.
   - Executes `computeWorldSpacePosition` behavior.
-- `computeRotationEuler(@Nonnull int rotationIndex)`
+- `computeRotationEuler(@Nonnull int rotationIndex)`: Add description.
   - Executes `computeRotationEuler` behavior.
 
 ## Notes

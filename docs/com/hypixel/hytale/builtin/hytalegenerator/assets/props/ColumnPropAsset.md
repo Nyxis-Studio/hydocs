@@ -1,18 +1,18 @@
+**Source Hash:** `1e142b10bcab30fa0fcdf856ec729d6d188303a8025ba95485423924a8283f5c`
+
 # ColumnPropAsset
 
 ## Overview
-- Documentation for `ColumnPropAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PropAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PropAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

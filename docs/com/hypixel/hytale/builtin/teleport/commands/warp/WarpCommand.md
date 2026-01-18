@@ -1,15 +1,15 @@
+**Source Hash:** `276ca64f26c8056b5bda3d8575ebd1faec4901ce6965df3306cd10e182fd20a5`
+
 # WarpCommand
 
 ## Overview
-- Documentation for `WarpCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.warp`.
 
-## Constructors
+## Constructor Descriptions
 - `WarpCommand()`
   - Creates a `WarpCommand` instance.
 
-## Methods
-- `tryGo(@Nonnull CommandContext context, @Nonnull String warp, @Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `tryGo(@Nonnull CommandContext context, @Nonnull String warp, @Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tryGo` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `139c0786b96d9633517432c4b57c75855aa07b12b11ffa2544c600c2af00a80a`
+
 # IMessageReceiver
 
 ## Overview
-- Documentation for `IMessageReceiver`.
-- Declared as a interface in `com.hypixel.hytale.server.core.receiver`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `sendMessage(@Nonnull Message var1)`
+## Method Descriptions
+- `sendMessage(@Nonnull Message var1)`: Add description.
   - Executes `sendMessage` behavior.
 
 ## Notes

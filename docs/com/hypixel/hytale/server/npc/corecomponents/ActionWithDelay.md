@@ -1,25 +1,25 @@
+**Source Hash:** `2138c2bfd7dfa21b28f8f708d44fec6936fee1af7b2cb73725872b668fb5c319`
+
 # ActionWithDelay
 
 ## Overview
-- Documentation for `ActionWithDelay`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionWithDelay(@Nonnull BuilderActionWithDelay builder, @Nonnull BuilderSupport support)`
   - Creates a `ActionWithDelay` instance.
 
-## Methods
-- `processDelay(float dt)`
+## Method Descriptions
+- `processDelay(float dt)`: Add description.
   - Executes `processDelay` behavior.
-- `isDelaying()`
+- `isDelaying()`: Add description.
   - Executes `isDelaying` behavior.
-- `isDelayPrepared()`
+- `isDelayPrepared()`: Add description.
   - Executes `isDelayPrepared` behavior.
-- `prepareDelay()`
+- `prepareDelay()`: Add description.
   - Executes `prepareDelay` behavior.
-- `clearDelay()`
+- `clearDelay()`: Add description.
   - Executes `clearDelay` behavior.
-- `startDelay(@Nonnull EntitySupport support)`
+- `startDelay(@Nonnull EntitySupport support)`: Add description.
   - Executes `startDelay` behavior.
 
 ## Notes

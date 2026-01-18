@@ -1,23 +1,23 @@
+**Source Hash:** `0b555097dafb8453e5e958517d3416d0ff111b34e9baf21af8f8a1796a24c683`
+
 # PlaceBlockEvent
 
 ## Overview
-- Documentation for `PlaceBlockEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `PlaceBlockEvent(@Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull RotationTuple rotation)`
   - Creates a `PlaceBlockEvent` instance.
 
-## Methods
-- `getItemInHand()`
+## Method Descriptions
+- `getItemInHand()`: Add description.
   - Executes `getItemInHand` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `setTargetBlock(@Nonnull Vector3i targetBlock)`
+- `setTargetBlock(@Nonnull Vector3i targetBlock)`: Add description.
   - Executes `setTargetBlock` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `setRotation(@Nonnull RotationTuple rotation)`
+- `setRotation(@Nonnull RotationTuple rotation)`: Add description.
   - Executes `setRotation` behavior.
 
 ## Notes

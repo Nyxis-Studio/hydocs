@@ -1,10 +1,10 @@
+**Source Hash:** `351087efff3cd1699d5e5050f85c5d506090018c1e4c2587ca446f5258f63b6b`
+
 # PrefabEditSession
 
 ## Overview
-- Documentation for `PrefabEditSession`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditSession()`
   - Creates a `PrefabEditSession` instance.
 - `PrefabEditSession(@Nonnull String worldName, @Nonnull UUID worldCreator, @Nonnull UUID worldArrivedFrom, @Nonnull Transform transformArrivedFrom)`
@@ -14,44 +14,44 @@
 - `PrefabEditSession(this)`
   - Creates a `PrefabEditSession` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `addPrefab(@Nonnull Path prefabPath, @Nonnull Vector3i minPoint, @Nonnull Vector3i maxPoint, @Nonnull Vector3i anchorPoint, @Nonnull Vector3i pastePosition)`
+- `addPrefab(@Nonnull Path prefabPath, @Nonnull Vector3i minPoint, @Nonnull Vector3i maxPoint, @Nonnull Vector3i anchorPoint, @Nonnull Vector3i pastePosition)`: Add description.
   - Executes `addPrefab` behavior.
-- `updatePrefabBounds(@Nonnull UUID prefab, @Nonnull Vector3i newMin, @Nonnull Vector3i newMax)`
+- `updatePrefabBounds(@Nonnull UUID prefab, @Nonnull Vector3i newMin, @Nonnull Vector3i newMax)`: Add description.
   - Executes `updatePrefabBounds` behavior.
-- `setSelectedPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull PrefabEditingMetadata prefabEditingMetadata, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setSelectedPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull PrefabEditingMetadata prefabEditingMetadata, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setSelectedPrefab` behavior.
-- `hidePrefabAnchors(@Nonnull PacketHandler packetHandler)`
+- `hidePrefabAnchors(@Nonnull PacketHandler packetHandler)`: Add description.
   - Executes `hidePrefabAnchors` behavior.
-- `getSelectedPrefab(@Nonnull UUID playerUuid)`
+- `getSelectedPrefab(@Nonnull UUID playerUuid)`: Add description.
   - Executes `getSelectedPrefab` behavior.
-- `clearSelectedPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `clearSelectedPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `clearSelectedPrefab` behavior.
-- `getWorldName()`
+- `getWorldName()`: Add description.
   - Executes `getWorldName` behavior.
-- `getWorldArrivedFrom()`
+- `getWorldArrivedFrom()`: Add description.
   - Executes `getWorldArrivedFrom` behavior.
-- `getTransformArrivedFrom()`
+- `getTransformArrivedFrom()`: Add description.
   - Executes `getTransformArrivedFrom` behavior.
-- `getWorldCreator()`
+- `getWorldCreator()`: Add description.
   - Executes `getWorldCreator` behavior.
-- `getSpawnPoint()`
+- `getSpawnPoint()`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getLoadedPrefabMetadata()`
+- `getLoadedPrefabMetadata()`: Add description.
   - Executes `getLoadedPrefabMetadata` behavior.
-- `markPrefabsDirtyAtPosition(@Nonnull Vector3i position)`
+- `markPrefabsDirtyAtPosition(@Nonnull Vector3i position)`: Add description.
   - Executes `markPrefabsDirtyAtPosition` behavior.
-- `markPrefabsDirtyInBounds(@Nonnull Vector3i min, @Nonnull Vector3i max)`
+- `markPrefabsDirtyInBounds(@Nonnull Vector3i min, @Nonnull Vector3i max)`: Add description.
   - Executes `markPrefabsDirtyInBounds` behavior.
-- `boundsIntersect(@Nonnull Vector3i aMin, @Nonnull Vector3i aMax, @Nonnull Vector3i bMin, @Nonnull Vector3i bMax)`
+- `boundsIntersect(@Nonnull Vector3i aMin, @Nonnull Vector3i aMax, @Nonnull Vector3i bMin, @Nonnull Vector3i bMax)`: Add description.
   - Executes `boundsIntersect` behavior.
-- `createPrefabMarkers()`
+- `createPrefabMarkers()`: Add description.
   - Executes `createPrefabMarkers` behavior.
-- `createPrefabMarker(@Nonnull PrefabEditingMetadata metadata)`
+- `createPrefabMarker(@Nonnull PrefabEditingMetadata metadata)`: Add description.
   - Executes `createPrefabMarker` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

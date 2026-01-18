@@ -1,18 +1,18 @@
+**Source Hash:** `8168a5c44399296d42410cbd2bfaca4ed1fac19115043c707f2a64b265db7c39`
+
 # EquipItemInteraction
 
 ## Overview
-- Documentation for `EquipItemInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

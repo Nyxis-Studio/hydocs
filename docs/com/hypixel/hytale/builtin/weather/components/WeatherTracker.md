@@ -1,10 +1,10 @@
+**Source Hash:** `cca2985c1d2384409f7e095b2b1fabbbbe3ffd29e1a96176ffb212f7e06d2fcc`
+
 # WeatherTracker
 
 ## Overview
-- Documentation for `WeatherTracker`.
-- Declared as a class in `com.hypixel.hytale.builtin.weather.components`.
 
-## Constructors
+## Constructor Descriptions
 - `WeatherTracker()`
   - Creates a `WeatherTracker` instance.
 - `WeatherTracker(@Nonnull WeatherTracker other)`
@@ -12,26 +12,26 @@
 - `WeatherTracker(this)`
   - Creates a `WeatherTracker` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `updateWeather(@Nonnull PlayerRef playerRef, @Nonnull WeatherResource weatherComponent, @Nonnull TransformComponent transformComponent, float transitionSeconds, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateWeather(@Nonnull PlayerRef playerRef, @Nonnull WeatherResource weatherComponent, @Nonnull TransformComponent transformComponent, float transitionSeconds, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateWeather` behavior.
-- `sendWeatherIndex(@Nonnull PlayerRef playerRef, int weatherIndex, float transitionSeconds)`
+- `sendWeatherIndex(@Nonnull PlayerRef playerRef, int weatherIndex, float transitionSeconds)`: Add description.
   - Executes `sendWeatherIndex` behavior.
-- `consumeFirstSendForWorld()`
+- `consumeFirstSendForWorld()`: Add description.
   - Executes `consumeFirstSendForWorld` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `updateEnvironment(@Nonnull TransformComponent transformComponent, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateEnvironment(@Nonnull TransformComponent transformComponent, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateEnvironment` behavior.
-- `getEnvironmentId()`
+- `getEnvironmentId()`: Add description.
   - Executes `getEnvironmentId` behavior.
-- `getWeatherIndex()`
+- `getWeatherIndex()`: Add description.
   - Executes `getWeatherIndex` behavior.
-- `setWeatherIndex(@Nonnull PlayerRef playerRef, int weatherIndex)`
+- `setWeatherIndex(@Nonnull PlayerRef playerRef, int weatherIndex)`: Add description.
   - Executes `setWeatherIndex` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

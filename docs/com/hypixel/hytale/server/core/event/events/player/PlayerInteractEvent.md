@@ -1,31 +1,31 @@
+**Source Hash:** `a30877cd7d40673bcd7df728f6534ae5442178a6cf06018ebbe0cdcb9f0351cd`
+
 # PlayerInteractEvent
 
 ## Overview
-- Documentation for `PlayerInteractEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerInteractEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Player player, long clientUseTime, InteractionType actionType, ItemStack itemInHand, Vector3i targetBlock, Ref<EntityStore> targetRef, Entity targetEntity)`
   - Creates a `PlayerInteractEvent` instance.
 
-## Methods
-- `isCancelled()`
+## Method Descriptions
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
-- `getActionType()`
+- `getActionType()`: Add description.
   - Executes `getActionType` behavior.
-- `getClientUseTime()`
+- `getClientUseTime()`: Add description.
   - Executes `getClientUseTime` behavior.
-- `getItemInHand()`
+- `getItemInHand()`: Add description.
   - Executes `getItemInHand` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `getTargetEntity()`
+- `getTargetEntity()`: Add description.
   - Executes `getTargetEntity` behavior.
-- `getTargetRef()`
+- `getTargetRef()`: Add description.
   - Executes `getTargetRef` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

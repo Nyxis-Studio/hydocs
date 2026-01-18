@@ -1,15 +1,15 @@
+**Source Hash:** `84914fe53f95028327eb6daf2be7dded19dc2fda78a9c467590e476fafd19626`
+
 # ObjectiveMarkerProvider
 
 ## Overview
-- Documentation for `ObjectiveMarkerProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.markers`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjectiveMarkerProvider()`
   - Creates a `ObjectiveMarkerProvider` instance.
 
-## Methods
-- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+## Method Descriptions
+- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`: Add description.
   - Executes `update` behavior.
 
 ## Notes

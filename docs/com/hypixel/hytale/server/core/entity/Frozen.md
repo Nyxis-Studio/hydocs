@@ -1,19 +1,19 @@
+**Source Hash:** `511324ad63ade243107620ad72109fdf5ebc484afafa5cc409b37c70cac78da0`
+
 # Frozen
 
 ## Overview
-- Documentation for `Frozen`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `Frozen()`
   - Creates a `Frozen` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

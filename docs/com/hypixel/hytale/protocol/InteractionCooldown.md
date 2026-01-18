@@ -1,10 +1,10 @@
+**Source Hash:** `2f3cee10f3ce5396670402fec9640e4b3856407743849080d212d9867c4d97b2`
+
 # InteractionCooldown
 
 ## Overview
-- Documentation for `InteractionCooldown`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionCooldown()`
   - Creates a `InteractionCooldown` instance.
 - `InteractionCooldown(@Nullable String cooldownId, float cooldown, boolean clickBypass, @Nullable float[] chargeTimes, boolean skipCooldownReset, boolean interruptRecharge)`
@@ -12,22 +12,22 @@
 - `InteractionCooldown(@Nonnull InteractionCooldown other)`
   - Creates a `InteractionCooldown` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

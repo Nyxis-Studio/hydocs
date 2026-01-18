@@ -1,36 +1,36 @@
+**Source Hash:** `d65e4b7cfaace488a384c80593999fdc23747ecd0dc5f9ddee6909a0d78456a7`
+
 # BlockContactData
 
 ## Overview
-- Documentation for `BlockContactData`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `clear()`
+## Method Descriptions
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `assign(@Nonnull BlockContactData other)`
+- `assign(@Nonnull BlockContactData other)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull BlockContactData other, int damage, boolean isSubmergedFluid)`
+- `assign(@Nonnull BlockContactData other, int damage, boolean isSubmergedFluid)`: Add description.
   - Executes `assign` behavior.
-- `setDamageAndSubmerged(int damage, boolean isSubmerge)`
+- `setDamageAndSubmerged(int damage, boolean isSubmerge)`: Add description.
   - Executes `setDamageAndSubmerged` behavior.
-- `getCollisionNormal()`
+- `getCollisionNormal()`: Add description.
   - Executes `getCollisionNormal` behavior.
-- `getCollisionPoint()`
+- `getCollisionPoint()`: Add description.
   - Executes `getCollisionPoint` behavior.
-- `getCollisionStart()`
+- `getCollisionStart()`: Add description.
   - Executes `getCollisionStart` behavior.
-- `getCollisionEnd()`
+- `getCollisionEnd()`: Add description.
   - Executes `getCollisionEnd` behavior.
-- `isOverlapping()`
+- `isOverlapping()`: Add description.
   - Executes `isOverlapping` behavior.
-- `isOnGround()`
+- `isOnGround()`: Add description.
   - Executes `isOnGround` behavior.
-- `getDamage()`
+- `getDamage()`: Add description.
   - Executes `getDamage` behavior.
-- `isSubmergeFluid()`
+- `isSubmergeFluid()`: Add description.
   - Executes `isSubmergeFluid` behavior.
 
 ## Notes

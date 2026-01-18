@@ -1,55 +1,55 @@
+**Source Hash:** `890de427f23064d3ec77e9b6d57f602b9963ea99fedd79b4ece4ab3ccff2906d`
+
 # CraftingPlugin
 
 ## Overview
-- Documentation for `CraftingPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.crafting`.
 
-## Constructors
+## Constructor Descriptions
 - `CraftingPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `CraftingPlugin` instance.
 
-## Methods
-- `getAvailableRecipesForCategory(String benchId, String benchCategoryId)`
+## Method Descriptions
+- `getAvailableRecipesForCategory(String benchId, String benchCategoryId)`: Add description.
   - Executes `getAvailableRecipesForCategory` behavior.
-- `isValidCraftingMaterialForBench(BenchState benchState, ItemStack itemStack)`
+- `isValidCraftingMaterialForBench(BenchState benchState, ItemStack itemStack)`: Add description.
   - Executes `isValidCraftingMaterialForBench` behavior.
-- `isValidUpgradeMaterialForBench(BenchState benchState, ItemStack itemStack)`
+- `isValidUpgradeMaterialForBench(BenchState benchState, ItemStack itemStack)`: Add description.
   - Executes `isValidUpgradeMaterialForBench` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `onItemAssetLoad(LoadedAssetsEvent<String, Item, DefaultAssetMap<String, Item>> event)`
+- `onItemAssetLoad(LoadedAssetsEvent<String, Item, DefaultAssetMap<String, Item>> event)`: Add description.
   - Executes `onItemAssetLoad` behavior.
-- `onItemAssetRemove(@Nonnull RemovedAssetsEvent<String, Item, DefaultAssetMap<String, Item>> event)`
+- `onItemAssetRemove(@Nonnull RemovedAssetsEvent<String, Item, DefaultAssetMap<String, Item>> event)`: Add description.
   - Executes `onItemAssetRemove` behavior.
-- `onRecipeLoad(LoadedAssetsEvent<String, CraftingRecipe, DefaultAssetMap<String, CraftingRecipe>> event)`
+- `onRecipeLoad(LoadedAssetsEvent<String, CraftingRecipe, DefaultAssetMap<String, CraftingRecipe>> event)`: Add description.
   - Executes `onRecipeLoad` behavior.
-- `onRecipeRemove(RemovedAssetsEvent<String, CraftingRecipe, DefaultAssetMap<String, CraftingRecipe>> event)`
+- `onRecipeRemove(RemovedAssetsEvent<String, CraftingRecipe, DefaultAssetMap<String, CraftingRecipe>> event)`: Add description.
   - Executes `onRecipeRemove` behavior.
-- `computeBenchRecipeRegistries()`
+- `computeBenchRecipeRegistries()`: Add description.
   - Executes `computeBenchRecipeRegistries` behavior.
-- `getBenchRecipes(@Nonnull Bench bench)`
+- `getBenchRecipes(@Nonnull Bench bench)`: Add description.
   - Executes `getBenchRecipes` behavior.
-- `getBenchRecipes(BenchType benchType, String name)`
+- `getBenchRecipes(BenchType benchType, String name)`: Add description.
   - Executes `getBenchRecipes` behavior.
-- `getBenchRecipes(BenchType benchType, String benchId, @Nullable String category)`
+- `getBenchRecipes(BenchType benchType, String benchId, @Nullable String category)`: Add description.
   - Executes `getBenchRecipes` behavior.
-- `hasCategory(@Nonnull CraftingRecipe recipe, String category)`
+- `hasCategory(@Nonnull CraftingRecipe recipe, String category)`: Add description.
   - Executes `hasCategory` behavior.
-- `learnRecipe(@Nonnull Ref<EntityStore> ref, @Nonnull String recipeId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `learnRecipe(@Nonnull Ref<EntityStore> ref, @Nonnull String recipeId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `learnRecipe` behavior.
-- `forgetRecipe(@Nonnull Ref<EntityStore> ref, @Nonnull String itemId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `forgetRecipe(@Nonnull Ref<EntityStore> ref, @Nonnull String itemId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forgetRecipe` behavior.
-- `sendKnownRecipes(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `sendKnownRecipes(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `sendKnownRecipes` behavior.
-- `getCraftingManagerComponentType()`
+- `getCraftingManagerComponentType()`: Add description.
   - Executes `getCraftingManagerComponentType` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
 
 ## Notes

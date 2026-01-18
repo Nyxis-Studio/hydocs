@@ -1,26 +1,26 @@
+**Source Hash:** `58900946af6dd02aaa5b5be7ce1b8cc4b1acda58e933c0d1ebc85e5aac60a2bd`
+
 # PortalSpawn
 
 ## Overview
-- Documentation for `PortalSpawn`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.portalworld`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getCenter()`
+## Method Descriptions
+- `getCenter()`: Add description.
   - Executes `getCenter` behavior.
-- `getCheckSpawnY()`
+- `getCheckSpawnY()`: Add description.
   - Executes `getCheckSpawnY` behavior.
-- `getScanHeight()`
+- `getScanHeight()`: Add description.
   - Executes `getScanHeight` behavior.
-- `getMinRadius()`
+- `getMinRadius()`: Add description.
   - Executes `getMinRadius` behavior.
-- `getMaxRadius()`
+- `getMaxRadius()`: Add description.
   - Executes `getMaxRadius` behavior.
-- `getChunkDartThrows()`
+- `getChunkDartThrows()`: Add description.
   - Executes `getChunkDartThrows` behavior.
-- `getChecksPerChunk()`
+- `getChecksPerChunk()`: Add description.
   - Executes `getChecksPerChunk` behavior.
 
 ## Notes

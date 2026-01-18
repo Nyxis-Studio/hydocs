@@ -1,24 +1,24 @@
+**Source Hash:** `ede7c3c33ec01bb4dd492c6acba01a5b897527c31b079edb484247255145b181`
+
 # DropItemEvent
 
 ## Overview
-- Documentation for `DropItemEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setThrowSpeed(float throwSpeed)`
+## Method Descriptions
+- `setThrowSpeed(float throwSpeed)`: Add description.
   - Executes `setThrowSpeed` behavior.
-- `getThrowSpeed()`
+- `getThrowSpeed()`: Add description.
   - Executes `getThrowSpeed` behavior.
-- `setItemStack(@Nonnull ItemStack itemStack)`
+- `setItemStack(@Nonnull ItemStack itemStack)`: Add description.
   - Executes `setItemStack` behavior.
-- `getItemStack()`
+- `getItemStack()`: Add description.
   - Executes `getItemStack` behavior.
-- `getInventorySectionId()`
+- `getInventorySectionId()`: Add description.
   - Executes `getInventorySectionId` behavior.
-- `getSlotId()`
+- `getSlotId()`: Add description.
   - Executes `getSlotId` behavior.
 
 ## Notes

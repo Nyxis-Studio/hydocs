@@ -1,51 +1,51 @@
+**Source Hash:** `05a7914ea55711acd3f26a61106baf84d506f6ea37b90e3dee1a0054d1f6390e`
+
 # PermissionsModule
 
 ## Overview
-- Documentation for `PermissionsModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions`.
 
-## Constructors
+## Constructor Descriptions
 - `PermissionsModule(@Nonnull JavaPluginInit init)`
   - Creates a `PermissionsModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `addProvider(@Nonnull PermissionProvider permissionProvider)`
+- `addProvider(@Nonnull PermissionProvider permissionProvider)`: Add description.
   - Executes `addProvider` behavior.
-- `removeProvider(@Nonnull PermissionProvider provider)`
+- `removeProvider(@Nonnull PermissionProvider provider)`: Add description.
   - Executes `removeProvider` behavior.
-- `getProviders()`
+- `getProviders()`: Add description.
   - Executes `getProviders` behavior.
-- `getFirstPermissionProvider()`
+- `getFirstPermissionProvider()`: Add description.
   - Executes `getFirstPermissionProvider` behavior.
-- `areProvidersTampered()`
+- `areProvidersTampered()`: Add description.
   - Executes `areProvidersTampered` behavior.
-- `addUserPermission(@Nonnull UUID uuid, @Nonnull Set<String> permissions)`
+- `addUserPermission(@Nonnull UUID uuid, @Nonnull Set<String> permissions)`: Add description.
   - Executes `addUserPermission` behavior.
-- `removeUserPermission(@Nonnull UUID uuid, @Nonnull Set<String> permissions)`
+- `removeUserPermission(@Nonnull UUID uuid, @Nonnull Set<String> permissions)`: Add description.
   - Executes `removeUserPermission` behavior.
-- `addGroupPermission(@Nonnull String group, @Nonnull Set<String> permissions)`
+- `addGroupPermission(@Nonnull String group, @Nonnull Set<String> permissions)`: Add description.
   - Executes `addGroupPermission` behavior.
-- `removeGroupPermission(@Nonnull String group, @Nonnull Set<String> permissions)`
+- `removeGroupPermission(@Nonnull String group, @Nonnull Set<String> permissions)`: Add description.
   - Executes `removeGroupPermission` behavior.
-- `addUserToGroup(@Nonnull UUID uuid, @Nonnull String group)`
+- `addUserToGroup(@Nonnull UUID uuid, @Nonnull String group)`: Add description.
   - Executes `addUserToGroup` behavior.
-- `removeUserFromGroup(@Nonnull UUID uuid, @Nonnull String group)`
+- `removeUserFromGroup(@Nonnull UUID uuid, @Nonnull String group)`: Add description.
   - Executes `removeUserFromGroup` behavior.
-- `setVirtualGroups(@Nonnull Map<String, Set<String>> virtualGroups)`
+- `setVirtualGroups(@Nonnull Map<String, Set<String>> virtualGroups)`: Add description.
   - Executes `setVirtualGroups` behavior.
-- `getGroupsForUser(@Nonnull UUID uuid)`
+- `getGroupsForUser(@Nonnull UUID uuid)`: Add description.
   - Executes `getGroupsForUser` behavior.
-- `hasPermission(@Nonnull UUID uuid, @Nonnull String id)`
+- `hasPermission(@Nonnull UUID uuid, @Nonnull String id)`: Add description.
   - Executes `hasPermission` behavior.
-- `hasPermission(@Nonnull UUID uuid, @Nonnull String id, boolean def)`
+- `hasPermission(@Nonnull UUID uuid, @Nonnull String id, boolean def)`: Add description.
   - Executes `hasPermission` behavior.
-- `hasPermission(@Nullable Set<String> nodes, @Nonnull String id)`
+- `hasPermission(@Nullable Set<String> nodes, @Nonnull String id)`: Add description.
   - Executes `hasPermission` behavior.
 
 ## Notes

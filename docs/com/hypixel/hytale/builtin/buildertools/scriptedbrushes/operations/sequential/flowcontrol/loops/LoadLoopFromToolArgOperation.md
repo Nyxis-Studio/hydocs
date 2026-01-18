@@ -1,17 +1,17 @@
+**Source Hash:** `a6c618bbaf02b79276c9b694fe862d8e884072a6b32606f1f371976efcddad12`
+
 # LoadLoopFromToolArgOperation
 
 ## Overview
-- Documentation for `LoadLoopFromToolArgOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol.loops`.
 
-## Constructors
+## Constructor Descriptions
 - `LoadLoopFromToolArgOperation()`
   - Creates a `LoadLoopFromToolArgOperation` instance.
 
-## Methods
-- `resetInternalState()`
+## Method Descriptions
+- `resetInternalState()`: Add description.
   - Executes `resetInternalState` behavior.
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

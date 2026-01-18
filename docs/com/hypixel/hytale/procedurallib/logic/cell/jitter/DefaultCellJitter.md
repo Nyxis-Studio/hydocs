@@ -1,31 +1,31 @@
+**Source Hash:** `06e302195693890fe2928c5f4ea6eeb8181e4dd2ee38ac3bf747688f1f32ddd6`
+
 # DefaultCellJitter
 
 ## Overview
-- Documentation for `DefaultCellJitter`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.logic.cell.jitter`.
 
-## Constructors
+## Constructor Descriptions
 - `DefaultCellJitter()`
   - Creates a `DefaultCellJitter` instance.
 
-## Methods
-- `getMaxX()`
+## Method Descriptions
+- `getMaxX()`: Add description.
   - Executes `getMaxX` behavior.
-- `getMaxY()`
+- `getMaxY()`: Add description.
   - Executes `getMaxY` behavior.
-- `getMaxZ()`
+- `getMaxZ()`: Add description.
   - Executes `getMaxZ` behavior.
-- `getPointX(int cx, @Nonnull DoubleArray.Double2 vec)`
+- `getPointX(int cx, @Nonnull DoubleArray.Double2 vec)`: Add description.
   - Executes `getPointX` behavior.
-- `getPointY(int cy, @Nonnull DoubleArray.Double2 vec)`
+- `getPointY(int cy, @Nonnull DoubleArray.Double2 vec)`: Add description.
   - Executes `getPointY` behavior.
-- `getPointX(int cx, @Nonnull DoubleArray.Double3 vec)`
+- `getPointX(int cx, @Nonnull DoubleArray.Double3 vec)`: Add description.
   - Executes `getPointX` behavior.
-- `getPointY(int cy, @Nonnull DoubleArray.Double3 vec)`
+- `getPointY(int cy, @Nonnull DoubleArray.Double3 vec)`: Add description.
   - Executes `getPointY` behavior.
-- `getPointZ(int cz, @Nonnull DoubleArray.Double3 vec)`
+- `getPointZ(int cz, @Nonnull DoubleArray.Double3 vec)`: Add description.
   - Executes `getPointZ` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

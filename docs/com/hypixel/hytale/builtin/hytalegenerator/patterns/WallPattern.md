@@ -1,19 +1,19 @@
+**Source Hash:** `ff164fa4a154e4e6bccf972fc37572a5fae563643ae7b00d726bdda4f42564c2`
+
 # WallPattern
 
 ## Overview
-- Documentation for `WallPattern`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.patterns`.
 
-## Constructors
+## Constructor Descriptions
 - `WallPattern(@Nonnull Pattern wallPattern, @Nonnull Pattern originPattern, @Nonnull List<WallDirection> wallDirections, boolean matchAll)`
   - Creates a `WallPattern` instance.
 
-## Methods
-- `matches(@Nonnull Pattern.Context context)`
+## Method Descriptions
+- `matches(@Nonnull Pattern.Context context)`: Add description.
   - Executes `matches` behavior.
-- `matches(@Nonnull Pattern.Context context, @Nonnull WallDirection direction)`
+- `matches(@Nonnull Pattern.Context context, @Nonnull WallDirection direction)`: Add description.
   - Executes `matches` behavior.
-- `readSpace()`
+- `readSpace()`: Add description.
   - Executes `readSpace` behavior.
 
 ## Notes

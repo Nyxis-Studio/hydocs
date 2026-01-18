@@ -1,10 +1,10 @@
+**Source Hash:** `31d2986da2c80f840213a46300cdfc56a9323642094c7c89ec9f0ab1bc7e363e`
+
 # ChunkBounds
 
 ## Overview
-- Documentation for `ChunkBounds`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.bounds`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkBounds()`
   - Creates a `ChunkBounds` instance.
 - `ChunkBounds(@Nonnull IChunkBounds bounds)`
@@ -14,30 +14,30 @@
 - `ChunkBounds(int x, int z)`
   - Creates a `ChunkBounds` instance.
 
-## Methods
-- `getLowBoundX()`
+## Method Descriptions
+- `getLowBoundX()`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundZ()`
+- `getLowBoundZ()`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX()`
+- `getHighBoundX()`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundZ()`
+- `getHighBoundZ()`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `expandNegative(int x, int z)`
+- `expandNegative(int x, int z)`: Add description.
   - Executes `expandNegative` behavior.
-- `expandPositive(int x, int z)`
+- `expandPositive(int x, int z)`: Add description.
   - Executes `expandPositive` behavior.
-- `expandNegative(double x, double z)`
+- `expandNegative(double x, double z)`: Add description.
   - Executes `expandNegative` behavior.
-- `expandPositive(double x, double z)`
+- `expandPositive(double x, double z)`: Add description.
   - Executes `expandPositive` behavior.
-- `include(int minX, int minZ, int maxX, int maxZ)`
+- `include(int minX, int minZ, int maxX, int maxZ)`: Add description.
   - Executes `include` behavior.
-- `include(int x, int z)`
+- `include(int x, int z)`: Add description.
   - Executes `include` behavior.
-- `include(@Nonnull IChunkBounds box)`
+- `include(@Nonnull IChunkBounds box)`: Add description.
   - Executes `include` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

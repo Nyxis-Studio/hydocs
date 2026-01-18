@@ -1,39 +1,39 @@
+**Source Hash:** `5aa388b240ef0c8daff87ab1d9078f49d78d5fecaf02e5f9d8d9ce01ed3da9c5`
+
 # BuilderInfo
 
 ## Overview
-- Documentation for `BuilderInfo`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderInfo(int index, String keyName, Builder<?> builder, Path path)`
   - Creates a `BuilderInfo` instance.
 
-## Methods
-- `getIndex()`
+## Method Descriptions
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getKeyName()`
+- `getKeyName()`: Add description.
   - Executes `getKeyName` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `isValidated()`
+- `isValidated()`: Add description.
   - Executes `isValidated` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
-- `setValidated(boolean success)`
+- `setValidated(boolean success)`: Add description.
   - Executes `setValidated` behavior.
-- `setForceValidation()`
+- `setForceValidation()`: Add description.
   - Executes `setForceValidation` behavior.
-- `setNeedsValidation()`
+- `setNeedsValidation()`: Add description.
   - Executes `setNeedsValidation` behavior.
-- `setNeedsReload()`
+- `setNeedsReload()`: Add description.
   - Executes `setNeedsReload` behavior.
-- `canBeValidated()`
+- `canBeValidated()`: Add description.
   - Executes `canBeValidated` behavior.
-- `needsValidation()`
+- `needsValidation()`: Add description.
   - Executes `needsValidation` behavior.
-- `setRemoved()`
+- `setRemoved()`: Add description.
   - Executes `setRemoved` behavior.
-- `isRemoved()`
+- `isRemoved()`: Add description.
   - Executes `isRemoved` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `dcb1839e50e3dd2016acaae6c4f15bc3623b6ddc59dc21e8ece536a10e168905`
+
 # NPCCleanCommand
 
 ## Overview
-- Documentation for `NPCCleanCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCCleanCommand()`
   - Creates a `NPCCleanCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

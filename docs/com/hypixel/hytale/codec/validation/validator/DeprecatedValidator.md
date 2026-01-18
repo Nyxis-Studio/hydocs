@@ -1,15 +1,15 @@
+**Source Hash:** `fbd485551cdbb9458d0b25786bd98fa52925f2564cc86f1434f33c76bbeeedb6`
+
 # DeprecatedValidator
 
 ## Overview
-- Documentation for `DeprecatedValidator`.
-- Declared as a class in `com.hypixel.hytale.codec.validation.validator`.
 
-## Constructors
+## Constructor Descriptions
 - `DeprecatedValidator()`
   - Creates a `DeprecatedValidator` instance.
 
-## Methods
-- `accept(T t, @Nonnull ValidationResults results)`
+## Method Descriptions
+- `accept(T t, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

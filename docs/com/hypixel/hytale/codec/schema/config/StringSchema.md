@@ -1,59 +1,59 @@
+**Source Hash:** `be406ed871ba13d925741f9bc3a1f4380e24341c2e3d02211a6c071ab1ecf25d`
+
 # StringSchema
 
 ## Overview
-- Documentation for `StringSchema`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.config`.
 
-## Constructors
+## Constructor Descriptions
 - `StringSchema()`
   - Creates a `StringSchema` instance.
 
-## Methods
-- `getPattern()`
+## Method Descriptions
+- `getPattern()`: Add description.
   - Executes `getPattern` behavior.
-- `setPattern(String pattern)`
+- `setPattern(String pattern)`: Add description.
   - Executes `setPattern` behavior.
-- `setPattern(@Nonnull Pattern pattern)`
+- `setPattern(@Nonnull Pattern pattern)`: Add description.
   - Executes `setPattern` behavior.
-- `getMinLength()`
+- `getMinLength()`: Add description.
   - Executes `getMinLength` behavior.
-- `setMinLength(int minLength)`
+- `setMinLength(int minLength)`: Add description.
   - Executes `setMinLength` behavior.
-- `getMaxLength()`
+- `getMaxLength()`: Add description.
   - Executes `getMaxLength` behavior.
-- `setMaxLength(int maxLength)`
+- `setMaxLength(int maxLength)`: Add description.
   - Executes `setMaxLength` behavior.
-- `getEnum()`
+- `getEnum()`: Add description.
   - Executes `getEnum` behavior.
-- `setEnum(String[] enum_)`
+- `setEnum(String[] enum_)`: Add description.
   - Executes `setEnum` behavior.
-- `getConst()`
+- `getConst()`: Add description.
   - Executes `getConst` behavior.
-- `setConst(String const_)`
+- `setConst(String const_)`: Add description.
   - Executes `setConst` behavior.
-- `getDefault()`
+- `getDefault()`: Add description.
   - Executes `getDefault` behavior.
-- `setDefault(String default_)`
+- `setDefault(String default_)`: Add description.
   - Executes `setDefault` behavior.
-- `getHytaleCommonAsset()`
+- `getHytaleCommonAsset()`: Add description.
   - Executes `getHytaleCommonAsset` behavior.
-- `setHytaleCommonAsset(CommonAsset hytaleCommonAsset)`
+- `setHytaleCommonAsset(CommonAsset hytaleCommonAsset)`: Add description.
   - Executes `setHytaleCommonAsset` behavior.
-- `getHytaleCosmeticAsset()`
+- `getHytaleCosmeticAsset()`: Add description.
   - Executes `getHytaleCosmeticAsset` behavior.
-- `setHytaleCosmeticAsset(String hytaleCosmeticAsset)`
+- `setHytaleCosmeticAsset(String hytaleCosmeticAsset)`: Add description.
   - Executes `setHytaleCosmeticAsset` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `constant(String c)`
+- `constant(String c)`: Add description.
   - Executes `constant` behavior.
-- `getRequiredRoots()`
+- `getRequiredRoots()`: Add description.
   - Executes `getRequiredRoots` behavior.
-- `getRequiredExtension()`
+- `getRequiredExtension()`: Add description.
   - Executes `getRequiredExtension` behavior.
-- `isUIAsset()`
+- `isUIAsset()`: Add description.
   - Executes `isUIAsset` behavior.
 
 ## Notes

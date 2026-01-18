@@ -1,24 +1,24 @@
+**Source Hash:** `1ab86f069bfa50f0cbdf6d04e38d80dbd2286493bede3ae6f2eb8ad0a1c97d42`
+
 # ManifestUtil
 
 ## Overview
-- Documentation for `ManifestUtil`.
-- Declared as a class in `com.hypixel.hytale.common.util.java`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isJar()`
+## Method Descriptions
+- `isJar()`: Add description.
   - Executes `isJar` behavior.
-- `getManifest()`
+- `getManifest()`: Add description.
   - Executes `getManifest` behavior.
-- `getImplementationVersion()`
+- `getImplementationVersion()`: Add description.
   - Executes `getImplementationVersion` behavior.
-- `getVersion()`
+- `getVersion()`: Add description.
   - Executes `getVersion` behavior.
-- `getImplementationRevisionId()`
+- `getImplementationRevisionId()`: Add description.
   - Executes `getImplementationRevisionId` behavior.
-- `getPatchline()`
+- `getPatchline()`: Add description.
   - Executes `getPatchline` behavior.
 
 ## Notes

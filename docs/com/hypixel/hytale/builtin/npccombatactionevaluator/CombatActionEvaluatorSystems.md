@@ -1,48 +1,48 @@
+**Source Hash:** `c81b1895a20bba29e4f14d14185e18d089f23cd7518eba86df00e85615ba78cd`
+
 # CombatActionEvaluatorSystems
 
 ## Overview
-- Documentation for `CombatActionEvaluatorSystems`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getCombatState()`
+- `getCombatState()`: Add description.
   - Executes `getCombatState` behavior.
-- `setCombatState(String state)`
+- `setCombatState(String state)`: Add description.
   - Executes `setCombatState` behavior.
-- `getMarkedTargetSlot()`
+- `getMarkedTargetSlot()`: Add description.
   - Executes `getMarkedTargetSlot` behavior.
-- `setMarkedTargetSlot(int markedTargetSlot)`
+- `setMarkedTargetSlot(int markedTargetSlot)`: Add description.
   - Executes `setMarkedTargetSlot` behavior.
-- `getMinRangeSlot()`
+- `getMinRangeSlot()`: Add description.
   - Executes `getMinRangeSlot` behavior.
-- `setMinRangeSlot(int minRangeSlot)`
+- `setMinRangeSlot(int minRangeSlot)`: Add description.
   - Executes `setMinRangeSlot` behavior.
-- `getMaxRangeSlot()`
+- `getMaxRangeSlot()`: Add description.
   - Executes `getMaxRangeSlot` behavior.
-- `setMaxRangeSlot(int maxRangeSlot)`
+- `setMaxRangeSlot(int maxRangeSlot)`: Add description.
   - Executes `setMaxRangeSlot` behavior.
-- `getPositioningAngleSlot()`
+- `getPositioningAngleSlot()`: Add description.
   - Executes `getPositioningAngleSlot` behavior.
-- `setPositioningAngleSlot(int positioningAngleSlot)`
+- `setPositioningAngleSlot(int positioningAngleSlot)`: Add description.
   - Executes `setPositioningAngleSlot` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

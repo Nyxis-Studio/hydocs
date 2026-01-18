@@ -1,17 +1,17 @@
+**Source Hash:** `80c23568b1d50203740df2c643ae5f6d56f8f2556c275cfed6c902cf0659f018`
+
 # DefaultPlayerStorageProvider
 
 ## Overview
-- Documentation for `DefaultPlayerStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.playerdata`.
 
-## Constructors
+## Constructor Descriptions
 - `DefaultPlayerStorageProvider()`
   - Creates a `DefaultPlayerStorageProvider` instance.
 
-## Methods
-- `getPlayerStorage()`
+## Method Descriptions
+- `getPlayerStorage()`: Add description.
   - Executes `getPlayerStorage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `746efd3fda5642d8df19af59e8438b39e93274bd28b8e8b13000f065624ef55c`
+
 # WorldTpsCommand
 
 ## Overview
-- Documentation for `WorldTpsCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world.tps`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldTpsCommand()`
   - Creates a `WorldTpsCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

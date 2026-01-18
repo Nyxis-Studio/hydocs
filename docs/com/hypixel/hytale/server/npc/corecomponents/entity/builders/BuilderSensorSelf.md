@@ -1,22 +1,22 @@
+**Source Hash:** `11cbf00688bfe348e908e04e8a62b54b3df1d91533a230638486b2a4a00a12ef`
+
 # BuilderSensorSelf
 
 ## Overview
-- Documentation for `BuilderSensorSelf`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

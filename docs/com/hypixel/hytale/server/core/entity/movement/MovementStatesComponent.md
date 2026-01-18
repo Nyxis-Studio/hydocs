@@ -1,10 +1,10 @@
+**Source Hash:** `bf2a8496d9a9f9c8c4bf474e5caae688e0d7a0175502c0fb863664970a6dc23e`
+
 # MovementStatesComponent
 
 ## Overview
-- Documentation for `MovementStatesComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `MovementStatesComponent()`
   - Creates a `MovementStatesComponent` instance.
 - `MovementStatesComponent(@Nonnull MovementStatesComponent other)`
@@ -12,18 +12,18 @@
 - `MovementStatesComponent(this)`
   - Creates a `MovementStatesComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getMovementStates()`
+- `getMovementStates()`: Add description.
   - Executes `getMovementStates` behavior.
-- `setMovementStates(MovementStates movementStates)`
+- `setMovementStates(MovementStates movementStates)`: Add description.
   - Executes `setMovementStates` behavior.
-- `getSentMovementStates()`
+- `getSentMovementStates()`: Add description.
   - Executes `getSentMovementStates` behavior.
-- `setSentMovementStates(MovementStates sentMovementStates)`
+- `setSentMovementStates(MovementStates sentMovementStates)`: Add description.
   - Executes `setSentMovementStates` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

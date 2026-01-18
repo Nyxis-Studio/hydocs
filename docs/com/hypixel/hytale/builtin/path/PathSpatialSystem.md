@@ -1,19 +1,19 @@
+**Source Hash:** `9a868719f437345aa9d4154cc1e369c36801209d0e776bfe18e82592cd17b490`
+
 # PathSpatialSystem
 
 ## Overview
-- Documentation for `PathSpatialSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.path`.
 
-## Constructors
+## Constructor Descriptions
 - `PathSpatialSystem(ResourceType<EntityStore, SpatialResource<Ref<EntityStore>, EntityStore>> resourceType)`
   - Creates a `PathSpatialSystem` instance.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `getPosition(@Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`
+- `getPosition(@Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`: Add description.
   - Executes `getPosition` behavior.
 
 ## Notes

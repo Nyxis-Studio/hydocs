@@ -1,10 +1,10 @@
+**Source Hash:** `fdf1518d61963eb775b93c4e24256ede491586ecf05e0d416055e72ac8c8f285`
+
 # ContextDependency
 
 ## Overview
-- Documentation for `ContextDependency`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.conveyor.stagedconveyor`.
 
-## Constructors
+## Constructor Descriptions
 - `ContextDependency(new Vector3i()`
   - Creates a `ContextDependency` instance.
 - `ContextDependency(@Nonnull Vector3i readRange, @Nonnull Vector3i writeRange)`
@@ -18,34 +18,34 @@
 - `ContextDependency(this.readRange, this.writeRange)`
   - Creates a `ContextDependency` instance.
 
-## Methods
-- `getTotalPropBounds_voxelGrid()`
+## Method Descriptions
+- `getTotalPropBounds_voxelGrid()`: Add description.
   - Executes `getTotalPropBounds_voxelGrid` behavior.
-- `update()`
+- `update()`: Add description.
   - Executes `update` behavior.
-- `stackOver(@Nonnull ContextDependency other)`
+- `stackOver(@Nonnull ContextDependency other)`: Add description.
   - Executes `stackOver` behavior.
-- `getReadRange()`
+- `getReadRange()`: Add description.
   - Executes `getReadRange` behavior.
-- `getWriteRange()`
+- `getWriteRange()`: Add description.
   - Executes `getWriteRange` behavior.
-- `getTrashRange()`
+- `getTrashRange()`: Add description.
   - Executes `getTrashRange` behavior.
-- `getExternalDependencyRange()`
+- `getExternalDependencyRange()`: Add description.
   - Executes `getExternalDependencyRange` behavior.
-- `getPositioningRange()`
+- `getPositioningRange()`: Add description.
   - Executes `getPositioningRange` behavior.
-- `getRequiredPadOf(@Nonnull List<ContextDependency> dependencies)`
+- `getRequiredPadOf(@Nonnull List<ContextDependency> dependencies)`: Add description.
   - Executes `getRequiredPadOf` behavior.
-- `cloneMap(@Nonnull Map<Integer, ContextDependency> map)`
+- `cloneMap(@Nonnull Map<Integer, ContextDependency> map)`: Add description.
   - Executes `cloneMap` behavior.
-- `stackMaps(@Nonnull Map<Integer, ContextDependency> under, @Nonnull Map<Integer, ContextDependency> over)`
+- `stackMaps(@Nonnull Map<Integer, ContextDependency> under, @Nonnull Map<Integer, ContextDependency> over)`: Add description.
   - Executes `stackMaps` behavior.
-- `mostOf(@Nonnull List<ContextDependency> dependencies)`
+- `mostOf(@Nonnull List<ContextDependency> dependencies)`: Add description.
   - Executes `mostOf` behavior.
-- `mostOf(@Nonnull ContextDependency a, @Nonnull ContextDependency b)`
+- `mostOf(@Nonnull ContextDependency a, @Nonnull ContextDependency b)`: Add description.
   - Executes `mostOf` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

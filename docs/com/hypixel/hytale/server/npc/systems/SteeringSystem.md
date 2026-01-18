@@ -1,21 +1,21 @@
+**Source Hash:** `527f2e9e43bba1c96a47db411cdd8813c5a8f1fb111d677b2efad7a80175b6fe`
+
 # SteeringSystem
 
 ## Overview
-- Documentation for `SteeringSystem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `SteeringSystem(@Nonnull ComponentType<EntityStore, NPCEntity> npcEntityComponent)`
   - Creates a `SteeringSystem` instance.
 
-## Methods
-- `getDependencies()`
+## Method Descriptions
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `steppedTick` behavior.
 
 ## Notes

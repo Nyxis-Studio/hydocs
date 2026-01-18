@@ -1,18 +1,18 @@
+**Source Hash:** `16ed895789c14ca2f5a14640c0cb5a17ba75c566961bf8ab3ef738ddab95ce97`
+
 # BlockArray
 
 ## Overview
-- Documentation for `BlockArray`.
-- Declared as a interface in `com.hypixel.hytale.server.worldgen.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBlocks()`
+## Method Descriptions
+- `getBlocks()`: Add description.
   - Executes `getBlocks` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `contains(int var1)`
+- `contains(int var1)`: Add description.
   - Executes `contains` behavior.
 
 ## Notes

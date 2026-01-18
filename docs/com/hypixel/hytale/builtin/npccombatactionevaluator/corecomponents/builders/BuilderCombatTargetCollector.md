@@ -1,24 +1,24 @@
+**Source Hash:** `84906a6dc13c3e95073711f724e0095353a9877fa538db9d95a6406da7add501`
+
 # BuilderCombatTargetCollector
 
 ## Overview
-- Documentation for `BuilderCombatTargetCollector`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

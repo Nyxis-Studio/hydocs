@@ -1,21 +1,21 @@
+**Source Hash:** `d0aa9829edaf0e5219a26ad2267d34d3c8fff9e523d18e10be71aaeb08d52f3b`
+
 # BuilderSensorEntityPrioritiserBase
 
 ## Overview
-- Documentation for `BuilderSensorEntityPrioritiserBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.builders`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderSensorEntityPrioritiserBase(Set<String> providedFilterTypes)`
   - Creates a `BuilderSensorEntityPrioritiserBase` instance.
 
-## Methods
-- `category()`
+## Method Descriptions
+- `category()`: Add description.
   - Executes `category` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `getProvidedFilterTypes()`
+- `getProvidedFilterTypes()`: Add description.
   - Executes `getProvidedFilterTypes` behavior.
 
 ## Notes

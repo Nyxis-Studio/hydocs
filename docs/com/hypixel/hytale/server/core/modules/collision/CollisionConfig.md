@@ -1,52 +1,52 @@
+**Source Hash:** `c9747f4f5fd7db69c7ca7040942f38b624f1b6ad437e004d03ceaf0bd1ba0059`
+
 # CollisionConfig
 
 ## Overview
-- Documentation for `CollisionConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDetailCount()`
+## Method Descriptions
+- `getDetailCount()`: Add description.
   - Executes `getDetailCount` behavior.
-- `getBoundingBox()`
+- `getBoundingBox()`: Add description.
   - Executes `getBoundingBox` behavior.
-- `getBoundingBox(int i)`
+- `getBoundingBox(int i)`: Add description.
   - Executes `getBoundingBox` behavior.
-- `getBoundingBoxOffsetX()`
+- `getBoundingBoxOffsetX()`: Add description.
   - Executes `getBoundingBoxOffsetX` behavior.
-- `getBoundingBoxOffsetY()`
+- `getBoundingBoxOffsetY()`: Add description.
   - Executes `getBoundingBoxOffsetY` behavior.
-- `getBoundingBoxOffsetZ()`
+- `getBoundingBoxOffsetZ()`: Add description.
   - Executes `getBoundingBoxOffsetZ` behavior.
-- `setCollisionByMaterial(int collidingMaterials)`
+- `setCollisionByMaterial(int collidingMaterials)`: Add description.
   - Executes `setCollisionByMaterial` behavior.
-- `getCollisionByMaterial()`
+- `getCollisionByMaterial()`: Add description.
   - Executes `getCollisionByMaterial` behavior.
-- `isCollidingWithDamageBlocks()`
+- `isCollidingWithDamageBlocks()`: Add description.
   - Executes `isCollidingWithDamageBlocks` behavior.
-- `setCollideWithDamageBlocks(boolean damageColliding)`
+- `setCollideWithDamageBlocks(boolean damageColliding)`: Add description.
   - Executes `setCollideWithDamageBlocks` behavior.
-- `getBlockCollisionPredicate()`
+- `getBlockCollisionPredicate()`: Add description.
   - Executes `getBlockCollisionPredicate` behavior.
-- `setDefaultCollisionBehaviour()`
+- `setDefaultCollisionBehaviour()`: Add description.
   - Executes `setDefaultCollisionBehaviour` behavior.
-- `setDefaultBlockCollisionPredicate()`
+- `setDefaultBlockCollisionPredicate()`: Add description.
   - Executes `setDefaultBlockCollisionPredicate` behavior.
-- `isCheckTriggerBlocks()`
+- `isCheckTriggerBlocks()`: Add description.
   - Executes `isCheckTriggerBlocks` behavior.
-- `setCheckTriggerBlocks(boolean checkTriggerBlocks)`
+- `setCheckTriggerBlocks(boolean checkTriggerBlocks)`: Add description.
   - Executes `setCheckTriggerBlocks` behavior.
-- `isCheckDamageBlocks()`
+- `isCheckDamageBlocks()`: Add description.
   - Executes `isCheckDamageBlocks` behavior.
-- `setCheckDamageBlocks(boolean checkDamageBlocks)`
+- `setCheckDamageBlocks(boolean checkDamageBlocks)`: Add description.
   - Executes `setCheckDamageBlocks` behavior.
-- `setWorld(World world)`
+- `setWorld(World world)`: Add description.
   - Executes `setWorld` behavior.
-- `canCollide(int x, int y, int z)`
+- `canCollide(int x, int y, int z)`: Add description.
   - Executes `canCollide` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

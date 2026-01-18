@@ -1,15 +1,15 @@
+**Source Hash:** `ad8abf3e915477d58d53bdde2730630fc09a6b7729c5b22d0188f4329b4b7c9e`
+
 # SpawnSetCommand
 
 ## Overview
-- Documentation for `SpawnSetCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnSetCommand()`
   - Creates a `SpawnSetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,39 +1,39 @@
+**Source Hash:** `6b46564ffe53ae7c67cbf3d227de6c75e3455948922c6479b224a6437ad6c6f4`
+
 # HudManager
 
 ## Overview
-- Documentation for `HudManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.hud`.
 
-## Constructors
+## Constructor Descriptions
 - `HudManager()`
   - Creates a `HudManager` instance.
 - `HudManager(@Nonnull HudManager other)`
   - Creates a `HudManager` instance.
 
-## Methods
-- `getCustomHud()`
+## Method Descriptions
+- `getCustomHud()`: Add description.
   - Executes `getCustomHud` behavior.
-- `getVisibleHudComponents()`
+- `getVisibleHudComponents()`: Add description.
   - Executes `getVisibleHudComponents` behavior.
-- `setVisibleHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`
+- `setVisibleHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`: Add description.
   - Executes `setVisibleHudComponents` behavior.
-- `setVisibleHudComponents(@Nonnull PlayerRef ref, @Nonnull Set<HudComponent> hudComponents)`
+- `setVisibleHudComponents(@Nonnull PlayerRef ref, @Nonnull Set<HudComponent> hudComponents)`: Add description.
   - Executes `setVisibleHudComponents` behavior.
-- `showHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`
+- `showHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`: Add description.
   - Executes `showHudComponents` behavior.
-- `showHudComponents(@Nonnull PlayerRef ref, @Nonnull Set<HudComponent> hudComponents)`
+- `showHudComponents(@Nonnull PlayerRef ref, @Nonnull Set<HudComponent> hudComponents)`: Add description.
   - Executes `showHudComponents` behavior.
-- `hideHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`
+- `hideHudComponents(@Nonnull PlayerRef ref, HudComponent ... hudComponents)`: Add description.
   - Executes `hideHudComponents` behavior.
-- `setCustomHud(@Nonnull PlayerRef ref, @Nullable CustomUIHud hud)`
+- `setCustomHud(@Nonnull PlayerRef ref, @Nullable CustomUIHud hud)`: Add description.
   - Executes `setCustomHud` behavior.
-- `resetHud(@Nonnull PlayerRef ref)`
+- `resetHud(@Nonnull PlayerRef ref)`: Add description.
   - Executes `resetHud` behavior.
-- `resetUserInterface(@Nonnull PlayerRef ref)`
+- `resetUserInterface(@Nonnull PlayerRef ref)`: Add description.
   - Executes `resetUserInterface` behavior.
-- `sendVisibleHudComponents(@Nonnull PacketHandler packetHandler)`
+- `sendVisibleHudComponents(@Nonnull PacketHandler packetHandler)`: Add description.
   - Executes `sendVisibleHudComponents` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `664afa278915a62abe99732f615c7cd4b4e91c489ded23c91ada8de6c3771bb0`
+
 # PlayerStatsAddCommand
 
 ## Overview
-- Documentation for `PlayerStatsAddCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.stats`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerStatsAddCommand()`
   - Creates a `PlayerStatsAddCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `809b9d37f5c541ce96bd8101ba4181b58180fdd2674c327e154273b8ada6a104`
+
 # PlayerDisconnectEvent
 
 ## Overview
-- Documentation for `PlayerDisconnectEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerDisconnectEvent(@Nonnull PlayerRef playerRef)`
   - Creates a `PlayerDisconnectEvent` instance.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

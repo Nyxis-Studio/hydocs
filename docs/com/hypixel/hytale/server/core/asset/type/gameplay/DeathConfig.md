@@ -1,20 +1,20 @@
+**Source Hash:** `da3d768e475815de3ea31dff2ac354a8f039f006694fcd74bfefa05658b3626b`
+
 # DeathConfig
 
 ## Overview
-- Documentation for `DeathConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRespawnController()`
+## Method Descriptions
+- `getRespawnController()`: Add description.
   - Executes `getRespawnController` behavior.
-- `getItemsLossMode()`
+- `getItemsLossMode()`: Add description.
   - Executes `getItemsLossMode` behavior.
-- `getItemsAmountLossPercentage()`
+- `getItemsAmountLossPercentage()`: Add description.
   - Executes `getItemsAmountLossPercentage` behavior.
-- `getItemsDurabilityLossPercentage()`
+- `getItemsDurabilityLossPercentage()`: Add description.
   - Executes `getItemsDurabilityLossPercentage` behavior.
 
 ## Notes

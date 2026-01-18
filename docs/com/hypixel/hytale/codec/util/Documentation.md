@@ -1,14 +1,14 @@
+**Source Hash:** `88c71893886bfdc81fa7854c858b23d6183dd8255fcd67ea687aa0625dcf20ce`
+
 # Documentation
 
 ## Overview
-- Documentation for `Documentation`.
-- Declared as a class in `com.hypixel.hytale.codec.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `stripMarkdown(@Nullable String markdown)`
+## Method Descriptions
+- `stripMarkdown(@Nullable String markdown)`: Add description.
   - Executes `stripMarkdown` behavior.
 
 ## Notes

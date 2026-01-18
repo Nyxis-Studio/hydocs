@@ -1,63 +1,63 @@
+**Source Hash:** `83a2bde00f2fa88779d0d91d124c9877cca1d93a7c009c7d21a7680f39a498a2`
+
 # NPCLoadTimeValidationHelper
 
 ## Overview
-- Documentation for `NPCLoadTimeValidationHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCLoadTimeValidationHelper(String fileName, Model spawnModel, boolean isAbstract)`
   - Creates a `NPCLoadTimeValidationHelper` instance.
 
-## Methods
-- `setInventorySizes(int inventorySize, int hotbarSize, int offHandSize)`
+## Method Descriptions
+- `setInventorySizes(int inventorySize, int hotbarSize, int offHandSize)`: Add description.
   - Executes `setInventorySizes` behavior.
-- `getSpawnModel()`
+- `getSpawnModel()`: Add description.
   - Executes `getSpawnModel` behavior.
-- `isAbstract()`
+- `isAbstract()`: Add description.
   - Executes `isAbstract` behavior.
-- `isParentSensorOnce()`
+- `isParentSensorOnce()`: Add description.
   - Executes `isParentSensorOnce` behavior.
-- `updateParentSensorOnce(boolean parentSensorOnce)`
+- `updateParentSensorOnce(boolean parentSensorOnce)`: Add description.
   - Executes `updateParentSensorOnce` behavior.
-- `clearParentSensorOnce()`
+- `clearParentSensorOnce()`: Add description.
   - Executes `clearParentSensorOnce` behavior.
-- `setIsVariant()`
+- `setIsVariant()`: Add description.
   - Executes `setIsVariant` behavior.
-- `isVariant()`
+- `isVariant()`: Add description.
   - Executes `isVariant` behavior.
-- `getValueStoreValidator()`
+- `getValueStoreValidator()`: Add description.
   - Executes `getValueStoreValidator` behavior.
-- `getCurrentStateName()`
+- `getCurrentStateName()`: Add description.
   - Executes `getCurrentStateName` behavior.
-- `pushCurrentStateName(@Nonnull String currentStateName)`
+- `pushCurrentStateName(@Nonnull String currentStateName)`: Add description.
   - Executes `pushCurrentStateName` behavior.
-- `popCurrentStateName()`
+- `popCurrentStateName()`: Add description.
   - Executes `popCurrentStateName` behavior.
-- `validateAnimation(@Nullable String animation)`
+- `validateAnimation(@Nullable String animation)`: Add description.
   - Executes `validateAnimation` behavior.
-- `registerMotionControllerType(Class<? extends MotionController> clazz)`
+- `registerMotionControllerType(Class<? extends MotionController> clazz)`: Add description.
   - Executes `registerMotionControllerType` behavior.
-- `requireMotionControllerType(Class<? extends MotionController> clazz)`
+- `requireMotionControllerType(Class<? extends MotionController> clazz)`: Add description.
   - Executes `requireMotionControllerType` behavior.
-- `validateMotionControllers(@Nonnull List<String> errors)`
+- `validateMotionControllers(@Nonnull List<String> errors)`: Add description.
   - Executes `validateMotionControllers` behavior.
-- `validateInventoryHasSlot(int slot, String context, @Nonnull List<String> errors)`
+- `validateInventoryHasSlot(int slot, String context, @Nonnull List<String> errors)`: Add description.
   - Executes `validateInventoryHasSlot` behavior.
-- `validateHotbarHasSlot(int slot, String context, @Nonnull List<String> errors)`
+- `validateHotbarHasSlot(int slot, String context, @Nonnull List<String> errors)`: Add description.
   - Executes `validateHotbarHasSlot` behavior.
-- `validateOffHandHasSlot(int slot, String context, @Nonnull List<String> errors)`
+- `validateOffHandHasSlot(int slot, String context, @Nonnull List<String> errors)`: Add description.
   - Executes `validateOffHandHasSlot` behavior.
-- `pushFilterSet()`
+- `pushFilterSet()`: Add description.
   - Executes `pushFilterSet` behavior.
-- `popFilterSet()`
+- `popFilterSet()`: Add description.
   - Executes `popFilterSet` behavior.
-- `hasSeenFilter(String filter)`
+- `hasSeenFilter(String filter)`: Add description.
   - Executes `hasSeenFilter` behavior.
-- `setPrioritiserProvidedFilterTypes(Set<String> prioritiserProvidedFilterTypes)`
+- `setPrioritiserProvidedFilterTypes(Set<String> prioritiserProvidedFilterTypes)`: Add description.
   - Executes `setPrioritiserProvidedFilterTypes` behavior.
-- `isFilterExternallyProvided(String filter)`
+- `isFilterExternallyProvided(String filter)`: Add description.
   - Executes `isFilterExternallyProvided` behavior.
-- `clearPrioritiserProvidedFilterTypes()`
+- `clearPrioritiserProvidedFilterTypes()`: Add description.
   - Executes `clearPrioritiserProvidedFilterTypes` behavior.
 
 ## Notes

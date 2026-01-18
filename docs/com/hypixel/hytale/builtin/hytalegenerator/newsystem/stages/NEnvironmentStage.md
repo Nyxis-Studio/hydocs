@@ -1,21 +1,21 @@
+**Source Hash:** `9aefb486380636610a7fa5cc04eda764755ca4919bc46b54ab34ffb724330685`
+
 # NEnvironmentStage
 
 ## Overview
-- Documentation for `NEnvironmentStage`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.stages`.
 
-## Constructors
+## Constructor Descriptions
 - `NEnvironmentStage(@Nonnull String stageName, @Nonnull NParametrizedBufferType biomeInputBufferType, @Nonnull NParametrizedBufferType environmentOutputBufferType)`
   - Creates a `NEnvironmentStage` instance.
 
-## Methods
-- `run(@Nonnull NStage.Context context)`
+## Method Descriptions
+- `run(@Nonnull NStage.Context context)`: Add description.
   - Executes `run` behavior.
-- `getInputTypesAndBounds_bufferGrid()`
+- `getInputTypesAndBounds_bufferGrid()`: Add description.
   - Executes `getInputTypesAndBounds_bufferGrid` behavior.
-- `getOutputTypes()`
+- `getOutputTypes()`: Add description.
   - Executes `getOutputTypes` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
 
 ## Notes

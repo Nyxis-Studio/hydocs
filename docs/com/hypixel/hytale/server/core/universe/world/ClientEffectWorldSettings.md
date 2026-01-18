@@ -1,44 +1,44 @@
+**Source Hash:** `86495aa32e48e1abf438eac9f3ffb13889871df5eeab55af0212f627df71d46f`
+
 # ClientEffectWorldSettings
 
 ## Overview
-- Documentation for `ClientEffectWorldSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSunHeightPercent()`
+## Method Descriptions
+- `getSunHeightPercent()`: Add description.
   - Executes `getSunHeightPercent` behavior.
-- `setSunHeightPercent(float sunHeightPercent)`
+- `setSunHeightPercent(float sunHeightPercent)`: Add description.
   - Executes `setSunHeightPercent` behavior.
-- `getSunAngleRadians()`
+- `getSunAngleRadians()`: Add description.
   - Executes `getSunAngleRadians` behavior.
-- `setSunAngleRadians(float sunAngleRadians)`
+- `setSunAngleRadians(float sunAngleRadians)`: Add description.
   - Executes `setSunAngleRadians` behavior.
-- `getBloomIntensity()`
+- `getBloomIntensity()`: Add description.
   - Executes `getBloomIntensity` behavior.
-- `setBloomIntensity(float bloomIntensity)`
+- `setBloomIntensity(float bloomIntensity)`: Add description.
   - Executes `setBloomIntensity` behavior.
-- `getBloomPower()`
+- `getBloomPower()`: Add description.
   - Executes `getBloomPower` behavior.
-- `setBloomPower(float bloomPower)`
+- `setBloomPower(float bloomPower)`: Add description.
   - Executes `setBloomPower` behavior.
-- `getSunIntensity()`
+- `getSunIntensity()`: Add description.
   - Executes `getSunIntensity` behavior.
-- `setSunIntensity(float sunIntensity)`
+- `setSunIntensity(float sunIntensity)`: Add description.
   - Executes `setSunIntensity` behavior.
-- `getSunshaftIntensity()`
+- `getSunshaftIntensity()`: Add description.
   - Executes `getSunshaftIntensity` behavior.
-- `setSunshaftIntensity(float sunshaftIntensity)`
+- `setSunshaftIntensity(float sunshaftIntensity)`: Add description.
   - Executes `setSunshaftIntensity` behavior.
-- `getSunshaftScaleFactor()`
+- `getSunshaftScaleFactor()`: Add description.
   - Executes `getSunshaftScaleFactor` behavior.
-- `setSunshaftScaleFactor(float sunshaftScaleFactor)`
+- `setSunshaftScaleFactor(float sunshaftScaleFactor)`: Add description.
   - Executes `setSunshaftScaleFactor` behavior.
-- `createSunSettingsPacket()`
+- `createSunSettingsPacket()`: Add description.
   - Executes `createSunSettingsPacket` behavior.
-- `createPostFxSettingsPacket()`
+- `createPostFxSettingsPacket()`: Add description.
   - Executes `createPostFxSettingsPacket` behavior.
 
 ## Notes

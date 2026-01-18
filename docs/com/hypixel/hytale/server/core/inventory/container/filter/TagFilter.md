@@ -1,15 +1,15 @@
+**Source Hash:** `4eac72d6a7d86ba0b792f5e6c6a627f79323b6269d1bb4e4d64393c3acc4d744`
+
 # TagFilter
 
 ## Overview
-- Documentation for `TagFilter`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container.filter`.
 
-## Constructors
+## Constructor Descriptions
 - `TagFilter(int tagIndex)`
   - Creates a `TagFilter` instance.
 
-## Methods
-- `test(@Nullable Item item)`
+## Method Descriptions
+- `test(@Nullable Item item)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

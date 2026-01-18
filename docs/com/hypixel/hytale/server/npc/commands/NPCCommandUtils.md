@@ -1,14 +1,14 @@
+**Source Hash:** `159e7922ed3f622eafd4893965814d98c530711b91f0622ac9de3f4f94758cdc`
+
 # NPCCommandUtils
 
 ## Overview
-- Documentation for `NPCCommandUtils`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getTargetNpc(@Nonnull CommandContext context, @Nonnull EntityWrappedArg arg, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `getTargetNpc(@Nonnull CommandContext context, @Nonnull EntityWrappedArg arg, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `getTargetNpc` behavior.
 
 ## Notes

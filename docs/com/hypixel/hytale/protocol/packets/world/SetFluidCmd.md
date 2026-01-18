@@ -1,10 +1,10 @@
+**Source Hash:** `c149c6d5b0c50db7272e210561af772ee91df0c755a9b39af2fb4220a64e948a`
+
 # SetFluidCmd
 
 ## Overview
-- Documentation for `SetFluidCmd`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SetFluidCmd()`
   - Creates a `SetFluidCmd` instance.
 - `SetFluidCmd(short index, int fluidId, byte fluidLevel)`
@@ -12,22 +12,22 @@
 - `SetFluidCmd(@Nonnull SetFluidCmd other)`
   - Creates a `SetFluidCmd` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

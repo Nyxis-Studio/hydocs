@@ -1,17 +1,17 @@
+**Source Hash:** `9db54b59ffb6efd500a232409bffe5bcf0a1f5167f8b57ae34b8c78e176b3c46`
+
 # ItemGridInfoDisplayMode
 
 ## Overview
-- Documentation for `ItemGridInfoDisplayMode`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemGridInfoDisplayMode(int value)`
   - Creates a `ItemGridInfoDisplayMode` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

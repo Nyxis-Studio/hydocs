@@ -1,15 +1,15 @@
+**Source Hash:** `53b649722dfcb50a18cd1fca6599702758c96978b649c4a495298bbe8e9f7822`
+
 # WorldLocationConditionPlugin
 
 ## Overview
-- Documentation for `WorldLocationConditionPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.worldlocationcondition`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldLocationConditionPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `WorldLocationConditionPlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
 
 ## Notes

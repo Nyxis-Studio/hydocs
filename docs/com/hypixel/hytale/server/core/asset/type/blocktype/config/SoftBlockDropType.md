@@ -1,10 +1,10 @@
+**Source Hash:** `209ca89d2e990c64688249c2b7caeae1d726946c4eca2945ec6aa67b6cf1238d`
+
 # SoftBlockDropType
 
 ## Overview
-- Documentation for `SoftBlockDropType`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `SoftBlockDropType(String itemId, String dropListId, boolean isWeaponBreakable)`
   - Creates a `SoftBlockDropType` instance.
 - `SoftBlockDropType()`
@@ -12,18 +12,18 @@
 - `SoftBlockDropType(null, null, this.isWeaponBreakable)`
   - Creates a `SoftBlockDropType` instance.
 
-## Methods
-- `toPacket()`
+## Method Descriptions
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `getItemId()`
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `isWeaponBreakable()`
+- `isWeaponBreakable()`: Add description.
   - Executes `isWeaponBreakable` behavior.
-- `withoutDrops()`
+- `withoutDrops()`: Add description.
   - Executes `withoutDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `32342b8f321992c9e987126c89c0606f26ebb41992d47f628baec2166470435f`
+
 # OrValidator
 
 ## Overview
-- Documentation for `OrValidator`.
-- Declared as a class in `com.hypixel.hytale.codec.validation.validator`.
 
-## Constructors
+## Constructor Descriptions
 - `OrValidator(Validator<T>[] validators)`
   - Creates a `OrValidator` instance.
 
-## Methods
-- `accept(T t, @Nonnull ValidationResults results)`
+## Method Descriptions
+- `accept(T t, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `updateSchema(SchemaContext context, @Nonnull Schema target)`
+- `updateSchema(SchemaContext context, @Nonnull Schema target)`: Add description.
   - Executes `updateSchema` behavior.
 
 ## Notes

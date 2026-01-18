@@ -1,151 +1,151 @@
+**Source Hash:** `193be5bf622b055bcffca98174b7d9f408f8a89bb0ba6c6a4c76c305acc1e3a9`
+
 # MathUtil
 
 ## Overview
-- Documentation for `MathUtil`.
-- Declared as a class in `com.hypixel.hytale.math.util`.
 
-## Constructors
+## Constructor Descriptions
 - `MathUtil()`
   - Creates a `MathUtil` instance.
 
-## Methods
-- `abs(int i)`
+## Method Descriptions
+- `abs(int i)`: Add description.
   - Executes `abs` behavior.
-- `floor(double d)`
+- `floor(double d)`: Add description.
   - Executes `floor` behavior.
-- `ceil(double d)`
+- `ceil(double d)`: Add description.
   - Executes `ceil` behavior.
-- `randomInt(int min, int max)`
+- `randomInt(int min, int max)`: Add description.
   - Executes `randomInt` behavior.
-- `randomDouble(double min, double max)`
+- `randomDouble(double min, double max)`: Add description.
   - Executes `randomDouble` behavior.
-- `randomFloat(float min, float max)`
+- `randomFloat(float min, float max)`: Add description.
   - Executes `randomFloat` behavior.
-- `round(double d, int p)`
+- `round(double d, int p)`: Add description.
   - Executes `round` behavior.
-- `within(double val, double min, double max)`
+- `within(double val, double min, double max)`: Add description.
   - Executes `within` behavior.
-- `minValue(double v, double a, double c)`
+- `minValue(double v, double a, double c)`: Add description.
   - Executes `minValue` behavior.
-- `minValue(int v, int a, int c)`
+- `minValue(int v, int a, int c)`: Add description.
   - Executes `minValue` behavior.
-- `maxValue(double v, double a, double b, double c)`
+- `maxValue(double v, double a, double b, double c)`: Add description.
   - Executes `maxValue` behavior.
-- `maxValue(double v, double a, double b)`
+- `maxValue(double v, double a, double b)`: Add description.
   - Executes `maxValue` behavior.
-- `maxValue(byte v, byte a, byte b)`
+- `maxValue(byte v, byte a, byte b)`: Add description.
   - Executes `maxValue` behavior.
-- `maxValue(byte v, byte a, byte b, byte c)`
+- `maxValue(byte v, byte a, byte b, byte c)`: Add description.
   - Executes `maxValue` behavior.
-- `maxValue(int v, int a, int b)`
+- `maxValue(int v, int a, int b)`: Add description.
   - Executes `maxValue` behavior.
-- `lengthSquared(double x, double y)`
+- `lengthSquared(double x, double y)`: Add description.
   - Executes `lengthSquared` behavior.
-- `length(double x, double y)`
+- `length(double x, double y)`: Add description.
   - Executes `length` behavior.
-- `lengthSquared(double x, double y, double z)`
+- `lengthSquared(double x, double y, double z)`: Add description.
   - Executes `lengthSquared` behavior.
-- `length(double x, double y, double z)`
+- `length(double x, double y, double z)`: Add description.
   - Executes `length` behavior.
-- `maxValue(double v, double a)`
+- `maxValue(double v, double a)`: Add description.
   - Executes `maxValue` behavior.
-- `clipToZero(double v)`
+- `clipToZero(double v)`: Add description.
   - Executes `clipToZero` behavior.
-- `clipToZero(double v, double epsilon)`
+- `clipToZero(double v, double epsilon)`: Add description.
   - Executes `clipToZero` behavior.
-- `clipToZero(float v)`
+- `clipToZero(float v)`: Add description.
   - Executes `clipToZero` behavior.
-- `clipToZero(float v, float epsilon)`
+- `clipToZero(float v, float epsilon)`: Add description.
   - Executes `clipToZero` behavior.
-- `closeToZero(double v)`
+- `closeToZero(double v)`: Add description.
   - Executes `closeToZero` behavior.
-- `closeToZero(double v, double epsilon)`
+- `closeToZero(double v, double epsilon)`: Add description.
   - Executes `closeToZero` behavior.
-- `closeToZero(float v)`
+- `closeToZero(float v)`: Add description.
   - Executes `closeToZero` behavior.
-- `closeToZero(float v, float epsilon)`
+- `closeToZero(float v, float epsilon)`: Add description.
   - Executes `closeToZero` behavior.
-- `clamp(double v, double min, double max)`
+- `clamp(double v, double min, double max)`: Add description.
   - Executes `clamp` behavior.
-- `clamp(float v, float min, float max)`
+- `clamp(float v, float min, float max)`: Add description.
   - Executes `clamp` behavior.
-- `clamp(int v, int min, int max)`
+- `clamp(int v, int min, int max)`: Add description.
   - Executes `clamp` behavior.
-- `clamp(long v, long min, long max)`
+- `clamp(long v, long min, long max)`: Add description.
   - Executes `clamp` behavior.
-- `getPercentageOf(int index, int max)`
+- `getPercentageOf(int index, int max)`: Add description.
   - Executes `getPercentageOf` behavior.
-- `percent(int v, int total)`
+- `percent(int v, int total)`: Add description.
   - Executes `percent` behavior.
-- `fastRound(float f)`
+- `fastRound(float f)`: Add description.
   - Executes `fastRound` behavior.
-- `fastRound(double d)`
+- `fastRound(double d)`: Add description.
   - Executes `fastRound` behavior.
-- `fastFloor(float f)`
+- `fastFloor(float f)`: Add description.
   - Executes `fastFloor` behavior.
-- `fastFloor(double d)`
+- `fastFloor(double d)`: Add description.
   - Executes `fastFloor` behavior.
-- `fastCeil(float f)`
+- `fastCeil(float f)`: Add description.
   - Executes `fastCeil` behavior.
-- `fastCeil(double d)`
+- `fastCeil(double d)`: Add description.
   - Executes `fastCeil` behavior.
-- `halfFloatToFloat(int hbits)`
+- `halfFloatToFloat(int hbits)`: Add description.
   - Executes `halfFloatToFloat` behavior.
-- `halfFloatFromFloat(float fval)`
+- `halfFloatFromFloat(float fval)`: Add description.
   - Executes `halfFloatFromFloat` behavior.
-- `byteCount(int i)`
+- `byteCount(int i)`: Add description.
   - Executes `byteCount` behavior.
-- `packInt(int x, int z)`
+- `packInt(int x, int z)`: Add description.
   - Executes `packInt` behavior.
-- `unpackLeft(int packed)`
+- `unpackLeft(int packed)`: Add description.
   - Executes `unpackLeft` behavior.
-- `unpackRight(int packed)`
+- `unpackRight(int packed)`: Add description.
   - Executes `unpackRight` behavior.
-- `packLong(int left, int right)`
+- `packLong(int left, int right)`: Add description.
   - Executes `packLong` behavior.
-- `unpackLeft(long packed)`
+- `unpackLeft(long packed)`: Add description.
   - Executes `unpackLeft` behavior.
-- `unpackRight(long packed)`
+- `unpackRight(long packed)`: Add description.
   - Executes `unpackRight` behavior.
-- `rotateVectorYAxis(@Nonnull Vector3i vector, int angle, boolean clockwise)`
+- `rotateVectorYAxis(@Nonnull Vector3i vector, int angle, boolean clockwise)`: Add description.
   - Executes `rotateVectorYAxis` behavior.
-- `rotateVectorYAxis(@Nonnull Vector3d vector, int angle, boolean clockwise)`
+- `rotateVectorYAxis(@Nonnull Vector3d vector, int angle, boolean clockwise)`: Add description.
   - Executes `rotateVectorYAxis` behavior.
-- `wrapAngle(float angle)`
+- `wrapAngle(float angle)`: Add description.
   - Executes `wrapAngle` behavior.
-- `lerp(float a, float b, float t)`
+- `lerp(float a, float b, float t)`: Add description.
   - Executes `lerp` behavior.
-- `lerpUnclamped(float a, float b, float t)`
+- `lerpUnclamped(float a, float b, float t)`: Add description.
   - Executes `lerpUnclamped` behavior.
-- `lerp(double a, double b, double t)`
+- `lerp(double a, double b, double t)`: Add description.
   - Executes `lerp` behavior.
-- `lerpUnclamped(double a, double b, double t)`
+- `lerpUnclamped(double a, double b, double t)`: Add description.
   - Executes `lerpUnclamped` behavior.
-- `shortAngleDistance(float a, float b)`
+- `shortAngleDistance(float a, float b)`: Add description.
   - Executes `shortAngleDistance` behavior.
-- `lerpAngle(float a, float b, float t)`
+- `lerpAngle(float a, float b, float t)`: Add description.
   - Executes `lerpAngle` behavior.
-- `floorMod(double x, double y)`
+- `floorMod(double x, double y)`: Add description.
   - Executes `floorMod` behavior.
-- `compareAngle(double a, double b)`
+- `compareAngle(double a, double b)`: Add description.
   - Executes `compareAngle` behavior.
-- `percentile(@Nonnull long[] sortedData, double percentile)`
+- `percentile(@Nonnull long[] sortedData, double percentile)`: Add description.
   - Executes `percentile` behavior.
-- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by)`
+- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by)`: Add description.
   - Executes `distanceToLineSq` behavior.
-- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by, double dxAx, double dyAy, double dBxAx, double dByAy)`
+- `distanceToLineSq(double x, double y, double ax, double ay, double bx, double by, double dxAx, double dyAy, double dBxAx, double dByAy)`: Add description.
   - Executes `distanceToLineSq` behavior.
-- `distanceToInfLineSq(double x, double y, double ax, double ay, double bx, double by)`
+- `distanceToInfLineSq(double x, double y, double ax, double ay, double bx, double by)`: Add description.
   - Executes `distanceToInfLineSq` behavior.
-- `distanceToInfLineSq(double x, double y, double ax, double ay, double dxAx, double dyAy, double dBxAx, double dByAy)`
+- `distanceToInfLineSq(double x, double y, double ax, double ay, double dxAx, double dyAy, double dBxAx, double dByAy)`: Add description.
   - Executes `distanceToInfLineSq` behavior.
-- `sideOfLine(double x, double y, double ax, double ay, double bx, double by)`
+- `sideOfLine(double x, double y, double ax, double ay, double bx, double by)`: Add description.
   - Executes `sideOfLine` behavior.
-- `getRotationForHitNormal(Vector3f normal)`
+- `getRotationForHitNormal(Vector3f normal)`: Add description.
   - Executes `getRotationForHitNormal` behavior.
-- `getNameForHitNormal(Vector3f normal)`
+- `getNameForHitNormal(Vector3f normal)`: Add description.
   - Executes `getNameForHitNormal` behavior.
-- `mapToRange(float value, float valueMin, float valueMax, float rangeMin, float rangeMax)`
+- `mapToRange(float value, float valueMin, float valueMax, float rangeMin, float rangeMax)`: Add description.
   - Executes `mapToRange` behavior.
 
 ## Notes

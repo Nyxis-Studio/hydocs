@@ -1,17 +1,17 @@
+**Source Hash:** `07af4da10a0ad02cbd36bad3d1189b48b6c1f9d7f58bc75c796deb43f020cb80`
+
 # TaskRegistry
 
 ## Overview
-- Documentation for `TaskRegistry`.
-- Declared as a class in `com.hypixel.hytale.server.core.task`.
 
-## Constructors
+## Constructor Descriptions
 - `TaskRegistry(@Nonnull List<BooleanConsumer> registrations, BooleanSupplier precondition, String preconditionMessage)`
   - Creates a `TaskRegistry` instance.
 
-## Methods
-- `registerTask(@Nonnull CompletableFuture<Void> task)`
+## Method Descriptions
+- `registerTask(@Nonnull CompletableFuture<Void> task)`: Add description.
   - Executes `registerTask` behavior.
-- `registerTask(@Nonnull ScheduledFuture<Void> task)`
+- `registerTask(@Nonnull ScheduledFuture<Void> task)`: Add description.
   - Executes `registerTask` behavior.
 
 ## Notes

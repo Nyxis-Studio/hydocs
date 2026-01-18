@@ -1,19 +1,19 @@
+**Source Hash:** `6bce2219bcb1eaecc083220956b58e3d1e1c0d2dd386a6f5759788d63a11d483`
+
 # PropField
 
 ## Overview
-- Documentation for `PropField`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator`.
 
-## Constructors
+## Constructor Descriptions
 - `PropField(int runtime, @Nonnull Assignments assignments, @Nonnull PositionProvider positionProvider)`
   - Creates a `PropField` instance.
 
-## Methods
-- `getPositionProvider()`
+## Method Descriptions
+- `getPositionProvider()`: Add description.
   - Executes `getPositionProvider` behavior.
-- `getPropDistribution()`
+- `getPropDistribution()`: Add description.
   - Executes `getPropDistribution` behavior.
-- `getRuntime()`
+- `getRuntime()`: Add description.
   - Executes `getRuntime` behavior.
 
 ## Notes

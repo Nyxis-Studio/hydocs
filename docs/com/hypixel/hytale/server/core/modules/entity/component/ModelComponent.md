@@ -1,23 +1,23 @@
+**Source Hash:** `43ead4a70e24d9aa2ab732716f17b4d016d055cbb3bf4ed318ef494ccf274862`
+
 # ModelComponent
 
 ## Overview
-- Documentation for `ModelComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `ModelComponent(Model model)`
   - Creates a `ModelComponent` instance.
 - `ModelComponent(this.model)`
   - Creates a `ModelComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getModel()`
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `dc1ed762395776b233a38b0937b6636e01cc41ee3d7b4372bd4bc90485c99378`
+
 # BiLongToDoubleFunction
 
 ## Overview
-- Documentation for `BiLongToDoubleFunction`.
-- Declared as a interface in `com.hypixel.hytale.function.function`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(long var1, long var3)`
+## Method Descriptions
+- `apply(long var1, long var3)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

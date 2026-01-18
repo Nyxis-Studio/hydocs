@@ -1,15 +1,15 @@
+**Source Hash:** `bb15ad7c3869f0c56a8bba09a8bd371774f03a9dace1d82d9a6896346c971788`
+
 # LoadMaterialFromToolArgOperation
 
 ## Overview
-- Documentation for `LoadMaterialFromToolArgOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential`.
 
-## Constructors
+## Constructor Descriptions
 - `LoadMaterialFromToolArgOperation()`
   - Creates a `LoadMaterialFromToolArgOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

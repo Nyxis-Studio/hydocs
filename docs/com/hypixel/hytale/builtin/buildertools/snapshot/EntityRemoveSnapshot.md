@@ -1,17 +1,17 @@
+**Source Hash:** `6821936f84e5ef9dd2858ce1be7e06adff6587097069a0b84894ab2457775ee7`
+
 # EntityRemoveSnapshot
 
 ## Overview
-- Documentation for `EntityRemoveSnapshot`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.snapshot`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityRemoveSnapshot(@Nonnull Ref<EntityStore> ref)`
   - Creates a `EntityRemoveSnapshot` instance.
 
-## Methods
-- `getHolder()`
+## Method Descriptions
+- `getHolder()`: Add description.
   - Executes `getHolder` behavior.
-- `restoreEntity(@Nonnull Player player, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `restoreEntity(@Nonnull Player player, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `restoreEntity` behavior.
 
 ## Notes

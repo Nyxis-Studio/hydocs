@@ -1,23 +1,23 @@
+**Source Hash:** `169a67d15c2e59772d716f9554fe5bd3c5929619092631e4932b718c0f42d3a1`
+
 # CurveCondition
 
 ## Overview
-- Documentation for `CurveCondition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.core.conditions.base`.
 
-## Constructors
+## Constructor Descriptions
 - `CurveCondition()`
   - Creates a `CurveCondition` instance.
 
-## Methods
-- `getResponseCurve()`
+## Method Descriptions
+- `getResponseCurve()`: Add description.
   - Executes `getResponseCurve` behavior.
-- `calculateUtility(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+- `calculateUtility(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `calculateUtility` behavior.
-- `getSimplicity()`
+- `getSimplicity()`: Add description.
   - Executes `getSimplicity` behavior.
-- `getNormalisedInput(int var1, ArchetypeChunk<EntityStore> var2, Ref<EntityStore> var3, CommandBuffer<EntityStore> var4, EvaluationContext var5)`
+- `getNormalisedInput(int var1, ArchetypeChunk<EntityStore> var2, Ref<EntityStore> var3, CommandBuffer<EntityStore> var4, EvaluationContext var5)`: Add description.
   - Executes `getNormalisedInput` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

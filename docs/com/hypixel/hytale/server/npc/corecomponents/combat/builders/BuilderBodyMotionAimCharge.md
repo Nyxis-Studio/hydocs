@@ -1,24 +1,24 @@
+**Source Hash:** `1ccb43433aef08534ac23a19ba6008a9099940a8d654e2e2e899e0ba8e56112a`
+
 # BuilderBodyMotionAimCharge
 
 ## Overview
-- Documentation for `BuilderBodyMotionAimCharge`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.combat.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getRelativeTurnSpeed(@Nonnull BuilderSupport support)`
+- `getRelativeTurnSpeed(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeTurnSpeed` behavior.
 
 ## Notes

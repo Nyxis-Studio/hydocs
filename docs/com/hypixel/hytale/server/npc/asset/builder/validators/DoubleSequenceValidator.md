@@ -1,10 +1,10 @@
+**Source Hash:** `103eecc5a65bf4ba7adcb0e0af6e9f5d88e25e91f5b3cb4a937a8d9198567277`
+
 # DoubleSequenceValidator
 
 ## Overview
-- Documentation for `DoubleSequenceValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `DoubleSequenceValidator(RelationalOperator.GreaterEqual, 0.0, RelationalOperator.LessEqual, 1.0, null)`
   - Creates a `DoubleSequenceValidator` instance.
 - `DoubleSequenceValidator(RelationalOperator.GreaterEqual, 0.0, RelationalOperator.LessEqual, 1.0, RelationalOperator.LessEqual)`
@@ -30,36 +30,36 @@
 - `DoubleSequenceValidator(RelationalOperator.Greater, lower, RelationalOperator.LessEqual, upper, RelationalOperator.Less)`
   - Creates a `DoubleSequenceValidator` instance.
 
-## Methods
-- `between01()`
+## Method Descriptions
+- `between01()`: Add description.
   - Executes `between01` behavior.
-- `between01WeaklyMonotonic()`
+- `between01WeaklyMonotonic()`: Add description.
   - Executes `between01WeaklyMonotonic` behavior.
-- `between01Monotonic()`
+- `between01Monotonic()`: Add description.
   - Executes `between01Monotonic` behavior.
-- `between(double lower, double upper)`
+- `between(double lower, double upper)`: Add description.
   - Executes `between` behavior.
-- `betweenWeaklyMonotonic(double lower, double upper)`
+- `betweenWeaklyMonotonic(double lower, double upper)`: Add description.
   - Executes `betweenWeaklyMonotonic` behavior.
-- `betweenMonotonic(double lower, double upper)`
+- `betweenMonotonic(double lower, double upper)`: Add description.
   - Executes `betweenMonotonic` behavior.
-- `fromExclToIncl(double lower, double upper)`
+- `fromExclToIncl(double lower, double upper)`: Add description.
   - Executes `fromExclToIncl` behavior.
-- `fromExclToInclWeaklyMonotonic(double lower, double upper)`
+- `fromExclToInclWeaklyMonotonic(double lower, double upper)`: Add description.
   - Executes `fromExclToInclWeaklyMonotonic` behavior.
-- `fromExclToInclMonotonic(double lower, double upper)`
+- `fromExclToInclMonotonic(double lower, double upper)`: Add description.
   - Executes `fromExclToInclMonotonic` behavior.
-- `monotonic()`
+- `monotonic()`: Add description.
   - Executes `monotonic` behavior.
-- `weaklyMonotonic()`
+- `weaklyMonotonic()`: Add description.
   - Executes `weaklyMonotonic` behavior.
-- `test(@Nonnull double[] values)`
+- `test(@Nonnull double[] values)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(double[] value)`
+- `errorMessage(double[] value)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage(double[] value, String name)`
+- `errorMessage(double[] value, String name)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage0(double[] value, String name)`
+- `errorMessage0(double[] value, String name)`: Add description.
   - Executes `errorMessage0` behavior.
 
 ## Notes

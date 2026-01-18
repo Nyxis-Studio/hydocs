@@ -1,19 +1,19 @@
+**Source Hash:** `e5b00e28fc720fa400b6ded7d3006f90785ed36af95e0b174022a378a6f59329`
+
 # EnvironmentContainer
 
 ## Overview
-- Documentation for `EnvironmentContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `EnvironmentContainer(DefaultEnvironmentContainerEntry defaultEntry, EnvironmentContainerEntry[] entries)`
   - Creates a `EnvironmentContainer` instance.
 
-## Methods
-- `getEnvironmentAt(int seed, int x, int z)`
+## Method Descriptions
+- `getEnvironmentAt(int seed, int x, int z)`: Add description.
   - Executes `getEnvironmentAt` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `shouldGenerate(int seed, int x, int z)`
+- `shouldGenerate(int seed, int x, int z)`: Add description.
   - Executes `shouldGenerate` behavior.
 
 ## Notes

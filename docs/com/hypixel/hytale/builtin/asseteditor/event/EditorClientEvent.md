@@ -1,17 +1,17 @@
+**Source Hash:** `e3be862ab72b299e8d87b78de172ef24c1bcdaf7e7bcbf2f9868cbc42503d9fc`
+
 # EditorClientEvent
 
 ## Overview
-- Documentation for `EditorClientEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.event`.
 
-## Constructors
+## Constructor Descriptions
 - `EditorClientEvent(EditorClient editorClient)`
   - Creates a `EditorClientEvent` instance.
 
-## Methods
-- `getEditorClient()`
+## Method Descriptions
+- `getEditorClient()`: Add description.
   - Executes `getEditorClient` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

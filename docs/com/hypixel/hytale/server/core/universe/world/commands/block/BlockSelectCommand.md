@@ -1,15 +1,15 @@
+**Source Hash:** `c7d1091357016904efeb4b6cc85aae233b314d9906fa75d25ac0c0995c26a8ea`
+
 # BlockSelectCommand
 
 ## Overview
-- Documentation for `BlockSelectCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.block`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSelectCommand()`
   - Creates a `BlockSelectCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

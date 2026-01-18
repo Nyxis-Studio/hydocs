@@ -1,14 +1,14 @@
+**Source Hash:** `b379517d8de6f109339e67e9a283c5d0060bdae55b0e019d67a789d0f6947fa4`
+
 # UnsafeUtil
 
 ## Overview
-- Documentation for `UnsafeUtil`.
-- Declared as a class in `com.hypixel.hytale.unsafe`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

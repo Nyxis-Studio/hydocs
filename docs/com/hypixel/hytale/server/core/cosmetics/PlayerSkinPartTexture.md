@@ -1,19 +1,19 @@
+**Source Hash:** `fa4bacb1d2887606426b6f1649254bd72e22480a3e977af733f4c689a8e66e07`
+
 # PlayerSkinPartTexture
 
 ## Overview
-- Documentation for `PlayerSkinPartTexture`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerSkinPartTexture(@Nonnull BsonDocument doc)`
   - Creates a `PlayerSkinPartTexture` instance.
 
-## Methods
-- `getTexture()`
+## Method Descriptions
+- `getTexture()`: Add description.
   - Executes `getTexture` behavior.
-- `getBaseColor()`
+- `getBaseColor()`: Add description.
   - Executes `getBaseColor` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

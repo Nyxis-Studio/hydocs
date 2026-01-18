@@ -1,29 +1,29 @@
+**Source Hash:** `5f31392b1023e1caaa7bb38cd1257d75ca6a7ada33809152471b66d28b995cf4`
+
 # AccessControlModule
 
 ## Overview
-- Documentation for `AccessControlModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol`.
 
-## Constructors
+## Constructor Descriptions
 - `AccessControlModule(@Nonnull JavaPluginInit init)`
   - Creates a `AccessControlModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `registerBanParser(String type, BanParser banParser)`
+- `registerBanParser(String type, BanParser banParser)`: Add description.
   - Executes `registerBanParser` behavior.
-- `registerAccessProvider(AccessProvider provider)`
+- `registerAccessProvider(AccessProvider provider)`: Add description.
   - Executes `registerAccessProvider` behavior.
-- `parseBan(String type, JsonObject object)`
+- `parseBan(String type, JsonObject object)`: Add description.
   - Executes `parseBan` behavior.
-- `getDisconnectReason(UUID uuid)`
+- `getDisconnectReason(UUID uuid)`: Add description.
   - Executes `getDisconnectReason` behavior.
 
 ## Notes

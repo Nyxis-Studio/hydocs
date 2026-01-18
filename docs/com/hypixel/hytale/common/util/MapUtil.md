@@ -1,18 +1,18 @@
+**Source Hash:** `24a458cf89255d5dc28bac4b20c7ce2a435bf778a9a70035a2165bfc1c280252`
+
 # MapUtil
 
 ## Overview
-- Documentation for `MapUtil`.
-- Declared as a class in `com.hypixel.hytale.common.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `combineUnmodifiable(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two)`
+## Method Descriptions
+- `combineUnmodifiable(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two)`: Add description.
   - Executes `combineUnmodifiable` behavior.
-- `combineUnmodifiable(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two, @Nonnull Supplier<M> supplier)`
+- `combineUnmodifiable(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two, @Nonnull Supplier<M> supplier)`: Add description.
   - Executes `combineUnmodifiable` behavior.
-- `combine(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two, @Nonnull Supplier<M> supplier)`
+- `combine(@Nonnull Map<T, V> one, @Nonnull Map<T, V> two, @Nonnull Supplier<M> supplier)`: Add description.
   - Executes `combine` behavior.
 
 ## Notes

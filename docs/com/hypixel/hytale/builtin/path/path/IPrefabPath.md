@@ -1,36 +1,36 @@
+**Source Hash:** `1c30875f0e04e022a3ee09d295ad5e7f19fb98be513980074d641b9dd2b4f45f`
+
 # IPrefabPath
 
 ## Overview
-- Documentation for `IPrefabPath`.
-- Declared as a interface in `com.hypixel.hytale.builtin.path.path`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `registerNewWaypoint(@Nonnull IPrefabPathWaypoint var1, int var2)`
+## Method Descriptions
+- `registerNewWaypoint(@Nonnull IPrefabPathWaypoint var1, int var2)`: Add description.
   - Executes `registerNewWaypoint` behavior.
-- `registerNewWaypointAt(int var1, @Nonnull IPrefabPathWaypoint var2, int var3)`
+- `registerNewWaypointAt(int var1, @Nonnull IPrefabPathWaypoint var2, int var3)`: Add description.
   - Executes `registerNewWaypointAt` behavior.
-- `addLoadedWaypoint(@Nonnull IPrefabPathWaypoint var1, int var2, int var3, int var4)`
+- `addLoadedWaypoint(@Nonnull IPrefabPathWaypoint var1, int var2, int var3, int var4)`: Add description.
   - Executes `addLoadedWaypoint` behavior.
-- `removeWaypoint(int var1, int var2)`
+- `removeWaypoint(int var1, int var2)`: Add description.
   - Executes `removeWaypoint` behavior.
-- `unloadWaypoint(int var1)`
+- `unloadWaypoint(int var1)`: Add description.
   - Executes `unloadWaypoint` behavior.
-- `hasLoadedWaypoints()`
+- `hasLoadedWaypoints()`: Add description.
   - Executes `hasLoadedWaypoints` behavior.
-- `isFullyLoaded()`
+- `isFullyLoaded()`: Add description.
   - Executes `isFullyLoaded` behavior.
-- `loadedWaypointCount()`
+- `loadedWaypointCount()`: Add description.
   - Executes `loadedWaypointCount` behavior.
-- `getWorldGenId()`
+- `getWorldGenId()`: Add description.
   - Executes `getWorldGenId` behavior.
-- `getNearestWaypointPosition(@Nonnull Vector3d var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+- `getNearestWaypointPosition(@Nonnull Vector3d var1, @Nonnull ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `getNearestWaypointPosition` behavior.
-- `mergeInto(@Nonnull IPrefabPath var1, int var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+- `mergeInto(@Nonnull IPrefabPath var1, int var2, @Nonnull ComponentAccessor<EntityStore> var3)`: Add description.
   - Executes `mergeInto` behavior.
-- `compact(int var1)`
+- `compact(int var1)`: Add description.
   - Executes `compact` behavior.
 
 ## Notes

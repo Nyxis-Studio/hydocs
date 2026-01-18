@@ -1,19 +1,19 @@
+**Source Hash:** `473ca63c45a23ca3da1801e8a404e7117f70cf674a11436775f071d5dcc339cc`
+
 # BlockPlacementSettings
 
 ## Overview
-- Documentation for `BlockPlacementSettings`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockPlacementSettings()`
   - Creates a `BlockPlacementSettings` instance.
 
-## Methods
-- `getWallPlacementOverrideBlockId()`
+## Method Descriptions
+- `getWallPlacementOverrideBlockId()`: Add description.
   - Executes `getWallPlacementOverrideBlockId` behavior.
-- `getFloorPlacementOverrideBlockId()`
+- `getFloorPlacementOverrideBlockId()`: Add description.
   - Executes `getFloorPlacementOverrideBlockId` behavior.
-- `getCeilingPlacementOverrideBlockId()`
+- `getCeilingPlacementOverrideBlockId()`: Add description.
   - Executes `getCeilingPlacementOverrideBlockId` behavior.
 
 ## Notes

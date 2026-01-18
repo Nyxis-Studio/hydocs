@@ -1,15 +1,15 @@
+**Source Hash:** `b307fe7f2eb71f4d40a95a509a255c3ee253d7f6b1929508cff4e70979090731`
+
 # PlayFriendCommand
 
 ## Overview
-- Documentation for `PlayFriendCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.singleplayer.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayFriendCommand(@Nonnull SingleplayerModule singleplayerModule)`
   - Creates a `PlayFriendCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

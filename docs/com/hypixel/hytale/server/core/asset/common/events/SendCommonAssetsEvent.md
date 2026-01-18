@@ -1,19 +1,19 @@
+**Source Hash:** `5027430b2d9702db150351141bb7dd46aa721cec177ab8e64d9c2f24610cbc14`
+
 # SendCommonAssetsEvent
 
 ## Overview
-- Documentation for `SendCommonAssetsEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common.events`.
 
-## Constructors
+## Constructor Descriptions
 - `SendCommonAssetsEvent(PacketHandler packetHandler, Asset[] assets)`
   - Creates a `SendCommonAssetsEvent` instance.
 
-## Methods
-- `getPacketHandler()`
+## Method Descriptions
+- `getPacketHandler()`: Add description.
   - Executes `getPacketHandler` behavior.
-- `getRequestedAssets()`
+- `getRequestedAssets()`: Add description.
   - Executes `getRequestedAssets` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

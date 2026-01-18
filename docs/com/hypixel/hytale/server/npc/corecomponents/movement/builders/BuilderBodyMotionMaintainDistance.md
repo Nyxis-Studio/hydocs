@@ -1,40 +1,40 @@
+**Source Hash:** `045f1a73ad0c6e3682353733e69b214787ea5da8b19dde515e10e71fc830b13a`
+
 # BuilderBodyMotionMaintainDistance
 
 ## Overview
-- Documentation for `BuilderBodyMotionMaintainDistance`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `getDesiredDistanceRange(@Nonnull BuilderSupport support)`
+- `getDesiredDistanceRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDesiredDistanceRange` behavior.
-- `getTargetDistanceFactor(@Nonnull BuilderSupport support)`
+- `getTargetDistanceFactor(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetDistanceFactor` behavior.
-- `getMoveThreshold(@Nonnull BuilderSupport support)`
+- `getMoveThreshold(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMoveThreshold` behavior.
-- `getRelativeForwardsSpeed(@Nonnull BuilderSupport support)`
+- `getRelativeForwardsSpeed(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeForwardsSpeed` behavior.
-- `getRelativeBackwardsSpeed(@Nonnull BuilderSupport support)`
+- `getRelativeBackwardsSpeed(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeBackwardsSpeed` behavior.
-- `getMoveTowardsSlowdownThreshold(@Nonnull BuilderSupport support)`
+- `getMoveTowardsSlowdownThreshold(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMoveTowardsSlowdownThreshold` behavior.
-- `getStrafingDurationRange(@Nonnull BuilderSupport support)`
+- `getStrafingDurationRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getStrafingDurationRange` behavior.
-- `getStrafingFrequencyRange(@Nonnull BuilderSupport support)`
+- `getStrafingFrequencyRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getStrafingFrequencyRange` behavior.
 
 ## Notes

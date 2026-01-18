@@ -1,29 +1,29 @@
+**Source Hash:** `56ec2aa0d7d9fea58dac7c07a454333e4ee127c2da7a51cc1fea32ddaa034b2d`
+
 # NCountedPixelBuffer
 
 ## Overview
-- Documentation for `NCountedPixelBuffer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers`.
 
-## Constructors
+## Constructor Descriptions
 - `NCountedPixelBuffer(@Nonnull Class<T> voxelType)`
   - Creates a `NCountedPixelBuffer` instance.
 
-## Methods
-- `getPixelContent(@Nonnull Vector3i position)`
+## Method Descriptions
+- `getPixelContent(@Nonnull Vector3i position)`: Add description.
   - Executes `getPixelContent` behavior.
-- `setPixelContent(@Nonnull Vector3i position, @Nullable T value)`
+- `setPixelContent(@Nonnull Vector3i position, @Nullable T value)`: Add description.
   - Executes `setPixelContent` behavior.
-- `getPixelType()`
+- `getPixelType()`: Add description.
   - Executes `getPixelType` behavior.
-- `getUniqueEntries()`
+- `getUniqueEntries()`: Add description.
   - Executes `getUniqueEntries` behavior.
-- `copyFrom(@Nonnull NCountedPixelBuffer<T> sourceBuffer)`
+- `copyFrom(@Nonnull NCountedPixelBuffer<T> sourceBuffer)`: Add description.
   - Executes `copyFrom` behavior.
-- `switchFromSingleValueToArray()`
+- `switchFromSingleValueToArray()`: Add description.
   - Executes `switchFromSingleValueToArray` behavior.
-- `index(@Nonnull Vector3i position)`
+- `index(@Nonnull Vector3i position)`: Add description.
   - Executes `index` behavior.
-- `copyFrom(@Nonnull CountedArrayContents<T> countedArrayContents)`
+- `copyFrom(@Nonnull CountedArrayContents<T> countedArrayContents)`: Add description.
   - Executes `copyFrom` behavior.
 
 ## Notes

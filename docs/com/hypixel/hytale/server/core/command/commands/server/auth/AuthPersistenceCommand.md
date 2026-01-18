@@ -1,15 +1,15 @@
+**Source Hash:** `6c2c0795a89c4e7b59f91859cec6ace8de9faf7fa321d6fc57f1686db9de6536`
+
 # AuthPersistenceCommand
 
 ## Overview
-- Documentation for `AuthPersistenceCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthPersistenceCommand()`
   - Creates a `AuthPersistenceCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

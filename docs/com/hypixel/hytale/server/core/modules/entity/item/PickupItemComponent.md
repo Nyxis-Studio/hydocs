@@ -1,10 +1,10 @@
+**Source Hash:** `366cd30c86a82eacca4ed189e314d72e0d3246181922223f17e01f79e0592efd`
+
 # PickupItemComponent
 
 ## Overview
-- Documentation for `PickupItemComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.item`.
 
-## Constructors
+## Constructor Descriptions
 - `PickupItemComponent()`
   - Creates a `PickupItemComponent` instance.
 - `PickupItemComponent(@Nonnull Ref<EntityStore> targetRef, @Nonnull Vector3d startPosition)`
@@ -16,26 +16,26 @@
 - `PickupItemComponent(this)`
   - Creates a `PickupItemComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `hasFinished()`
+- `hasFinished()`: Add description.
   - Executes `hasFinished` behavior.
-- `setFinished(boolean finished)`
+- `setFinished(boolean finished)`: Add description.
   - Executes `setFinished` behavior.
-- `decreaseLifetime(float amount)`
+- `decreaseLifetime(float amount)`: Add description.
   - Executes `decreaseLifetime` behavior.
-- `getLifeTime()`
+- `getLifeTime()`: Add description.
   - Executes `getLifeTime` behavior.
-- `getOriginalLifeTime()`
+- `getOriginalLifeTime()`: Add description.
   - Executes `getOriginalLifeTime` behavior.
-- `setInitialLifeTime(float lifeTimeS)`
+- `setInitialLifeTime(float lifeTimeS)`: Add description.
   - Executes `setInitialLifeTime` behavior.
-- `getStartPosition()`
+- `getStartPosition()`: Add description.
   - Executes `getStartPosition` behavior.
-- `getTargetRef()`
+- `getTargetRef()`: Add description.
   - Executes `getTargetRef` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

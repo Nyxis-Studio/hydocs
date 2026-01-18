@@ -1,27 +1,27 @@
+**Source Hash:** `98fd8e15979f2b5a6925411063530b289238443d6c0320c086761ebacec3b20a`
+
 # SeedString
 
 ## Overview
-- Documentation for `SeedString`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.json`.
 
-## Constructors
+## Constructor Descriptions
 - `SeedString(String original, @Nonnull T t)`
   - Creates a `SeedString` instance.
 - `SeedString(String original, String seed, @Nonnull T t)`
   - Creates a `SeedString` instance.
 
-## Methods
-- `append(String suffix)`
+## Method Descriptions
+- `append(String suffix)`: Add description.
   - Executes `append` behavior.
-- `appendToOriginal(String suffix)`
+- `appendToOriginal(String suffix)`: Add description.
   - Executes `appendToOriginal` behavior.
-- `alternateOriginal(String suffix)`
+- `alternateOriginal(String suffix)`: Add description.
   - Executes `alternateOriginal` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

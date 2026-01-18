@@ -1,15 +1,15 @@
+**Source Hash:** `5da6bb9ffef270d5df63502fa19c8945e674fb3039f54bc0ff985255f068207f`
+
 # WorldTpsResetCommand
 
 ## Overview
-- Documentation for `WorldTpsResetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world.tps`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldTpsResetCommand()`
   - Creates a `WorldTpsResetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

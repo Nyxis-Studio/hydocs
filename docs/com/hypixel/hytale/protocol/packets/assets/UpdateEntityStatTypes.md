@@ -1,10 +1,10 @@
+**Source Hash:** `9ddd3b8bddde842c17bc9f4d802e9ef7a537348c5ba208b65aa0258d82449bd0`
+
 # UpdateEntityStatTypes
 
 ## Overview
-- Documentation for `UpdateEntityStatTypes`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateEntityStatTypes()`
   - Creates a `UpdateEntityStatTypes` instance.
 - `UpdateEntityStatTypes(@Nonnull UpdateType type, int maxId, @Nullable Map<Integer, EntityStatType> types)`
@@ -12,24 +12,24 @@
 - `UpdateEntityStatTypes(@Nonnull UpdateEntityStatTypes other)`
   - Creates a `UpdateEntityStatTypes` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

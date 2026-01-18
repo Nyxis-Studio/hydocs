@@ -1,16 +1,16 @@
+**Source Hash:** `aa1b7758142e12cc039e32e03f9fc7d59a86f3cb67b2d47ae856b209c28310a0`
+
 # HytaleForkJoinThreadFactory
 
 ## Overview
-- Documentation for `HytaleForkJoinThreadFactory`.
-- Declared as a class in `com.hypixel.hytale.common.thread`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `newThread(@Nonnull ForkJoinPool pool)`
+## Method Descriptions
+- `newThread(@Nonnull ForkJoinPool pool)`: Add description.
   - Executes `newThread` behavior.
-- `getInitStack()`
+- `getInitStack()`: Add description.
   - Executes `getInitStack` behavior.
 
 ## Notes

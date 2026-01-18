@@ -1,25 +1,29 @@
+**Source Hash:** `7d827078ba836cdbd8bea4bfdd70b33d56aec276a457c9aff5a4016c068935cb`
+**Last Updated:** `2026-01-18T18:19:14-03:00`
+
 # BuilderActionCompleteTask
 
 ## Overview
-- Documentation for `BuilderActionCompleteTask`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcobjectives.npc.builders`.
+Builder configuration for the `ActionCompleteTask` NPC action. Supports optional animation playback configuration and enforces interaction instruction usage.
 
-## Constructors
-- None.
+## Field Descriptions
+- `playAnimation`: Boolean holder controlling whether completion animations should play.
 
-## Methods
-- `getShortDescription()`
-  - Executes `getShortDescription` behavior.
-- `getLongDescription()`
-  - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
-  - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
-  - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
-  - Executes `getBuilderDescriptorState` behavior.
-- `isPlayAnimation(@Nonnull BuilderSupport support)`
-  - Executes `isPlayAnimation` behavior.
+## Constructor Descriptions
+- `BuilderActionCompleteTask()`: Creates the action builder.
 
-## Notes
-- No additional notes.
+## Method Descriptions
+- `getShortDescription()`: Returns a brief description for UI/tooling.
+- `getLongDescription()`: Returns the detailed description of the action.
+- `build(BuilderSupport builderSupport)`: Creates an `ActionCompleteTask` instance.
+- `readConfig(JsonElement data)`: Reads configuration data and validates instruction type.
+- `getBuilderDescriptorState()`: Returns the stable descriptor state.
+- `isPlayAnimation(BuilderSupport support)`: Returns whether to play the completion animation.
+
+## Usage Notes
+- `PlayAnimation` defaults to true if not specified in config.
+
+## Examples
+```java
+BuilderActionCompleteTask builder = new BuilderActionCompleteTask();
+```

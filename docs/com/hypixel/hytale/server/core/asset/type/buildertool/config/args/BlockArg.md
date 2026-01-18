@@ -1,25 +1,25 @@
+**Source Hash:** `17b9396c7f6170c95dffdb343874664a7381cb39a9dbda8c41472c055822bb47`
+
 # BlockArg
 
 ## Overview
-- Documentation for `BlockArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockArg()`
   - Creates a `BlockArg` instance.
 - `BlockArg(BlockPattern value, boolean allowPattern)`
   - Creates a `BlockArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toBlockArgPacket()`
+- `toBlockArgPacket()`: Add description.
   - Executes `toBlockArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

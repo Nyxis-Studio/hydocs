@@ -1,19 +1,19 @@
+**Source Hash:** `7cc32c5fab3c5c4fca47f50a596b8c330ef7feaaa6a538a22eb4bc841b741a87`
+
 # AliveCondition
 
 ## Overview
-- Documentation for `AliveCondition`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entitystats.asset.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `AliveCondition()`
   - Creates a `AliveCondition` instance.
 - `AliveCondition(boolean inverse)`
   - Creates a `AliveCondition` instance.
 
-## Methods
-- `eval0(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime)`
+## Method Descriptions
+- `eval0(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime)`: Add description.
   - Executes `eval0` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

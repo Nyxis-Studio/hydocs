@@ -1,15 +1,15 @@
+**Source Hash:** `ad93653467014b345681ef4b5357bc638c910e9472fb2a97810beac598929822`
+
 # DebugShapeShowForceCommand
 
 ## Overview
-- Documentation for `DebugShapeShowForceCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.debug.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `DebugShapeShowForceCommand()`
   - Creates a `DebugShapeShowForceCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

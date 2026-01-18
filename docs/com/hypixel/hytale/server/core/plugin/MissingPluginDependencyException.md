@@ -1,15 +1,15 @@
+**Source Hash:** `aa37d35979de41418c690f8d07db3123ec52adc5ab4a0908ff8fe9e3278327de`
+
 # MissingPluginDependencyException
 
 ## Overview
-- Documentation for `MissingPluginDependencyException`.
-- Declared as a class in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `MissingPluginDependencyException(@Nonnull String message)`
   - Creates a `MissingPluginDependencyException` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

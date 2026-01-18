@@ -1,47 +1,47 @@
+**Source Hash:** `54026a351cc4af5f743d05616a3713579d6ba3ef71f239ba9d7e5203440f8a60`
+
 # ItemArmor
 
 ## Overview
-- Documentation for `ItemArmor`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemArmor(ItemArmorSlot armorSlot, double baseDamageResistance, @Nullable Int2ObjectMap<StaticModifier[]> statModifiers, Cosmetic[] cosmeticsToHide)`
   - Creates a `ItemArmor` instance.
 - `ItemArmor()`
   - Creates a `ItemArmor` instance.
 
-## Methods
-- `getArmorSlot()`
+## Method Descriptions
+- `getArmorSlot()`: Add description.
   - Executes `getArmorSlot` behavior.
-- `getBaseDamageResistance()`
+- `getBaseDamageResistance()`: Add description.
   - Executes `getBaseDamageResistance` behavior.
-- `getRegeneratingValues()`
+- `getRegeneratingValues()`: Add description.
   - Executes `getRegeneratingValues` behavior.
-- `getStatModifiers()`
+- `getStatModifiers()`: Add description.
   - Executes `getStatModifiers` behavior.
-- `getDamageResistanceValues()`
+- `getDamageResistanceValues()`: Add description.
   - Executes `getDamageResistanceValues` behavior.
-- `getDamageEnhancementValues()`
+- `getDamageEnhancementValues()`: Add description.
   - Executes `getDamageEnhancementValues` behavior.
-- `getDamageClassEnhancement()`
+- `getDamageClassEnhancement()`: Add description.
   - Executes `getDamageClassEnhancement` behavior.
-- `getKnockbackEnhancements()`
+- `getKnockbackEnhancements()`: Add description.
   - Executes `getKnockbackEnhancements` behavior.
-- `getKnockbackResistances()`
+- `getKnockbackResistances()`: Add description.
   - Executes `getKnockbackResistances` behavior.
-- `getInteractionModifier(String Key2)`
+- `getInteractionModifier(String Key2)`: Add description.
   - Executes `getInteractionModifier` behavior.
-- `processConfig(@Nonnull ItemArmor item)`
+- `processConfig(@Nonnull ItemArmor item)`: Add description.
   - Executes `processConfig` behavior.
-- `processStatModifiers(@Nonnull ItemArmor item)`
+- `processStatModifiers(@Nonnull ItemArmor item)`: Add description.
   - Executes `processStatModifiers` behavior.
-- `processRegenModifiers(@Nonnull ItemArmor item)`
+- `processRegenModifiers(@Nonnull ItemArmor item)`: Add description.
   - Executes `processRegenModifiers` behavior.
-- `processInteractionModifiers(@Nonnull ItemArmor item)`
+- `processInteractionModifiers(@Nonnull ItemArmor item)`: Add description.
   - Executes `processInteractionModifiers` behavior.
-- `convertStringKeyToDamageCause(@Nullable Map<String, T> rawData)`
+- `convertStringKeyToDamageCause(@Nullable Map<String, T> rawData)`: Add description.
   - Executes `convertStringKeyToDamageCause` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

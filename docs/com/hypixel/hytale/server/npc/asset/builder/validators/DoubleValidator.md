@@ -1,20 +1,20 @@
+**Source Hash:** `ab52c7aec742b548b558886e8f5b710ac3baed1370fb2922666802f737021b98`
+
 # DoubleValidator
 
 ## Overview
-- Documentation for `DoubleValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(double var1)`
+## Method Descriptions
+- `test(double var1)`: Add description.
   - Executes `test` behavior.
-- `compare(double value, @Nonnull RelationalOperator predicate, double c)`
+- `compare(double value, @Nonnull RelationalOperator predicate, double c)`: Add description.
   - Executes `compare` behavior.
-- `errorMessage(double var1)`
+- `errorMessage(double var1)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage(double var1, String var3)`
+- `errorMessage(double var1, String var3)`: Add description.
   - Executes `errorMessage` behavior.
 
 ## Notes

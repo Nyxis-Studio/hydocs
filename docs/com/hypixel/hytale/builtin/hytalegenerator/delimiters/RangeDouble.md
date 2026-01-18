@@ -1,19 +1,19 @@
+**Source Hash:** `629e2d4adb832c160c3f00c6177f8ad09f9d796c315098ba03390fbe0c2ae892`
+
 # RangeDouble
 
 ## Overview
-- Documentation for `RangeDouble`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.delimiters`.
 
-## Constructors
+## Constructor Descriptions
 - `RangeDouble(double minInclusive, double maxExclusive)`
   - Creates a `RangeDouble` instance.
 
-## Methods
-- `contains(double value)`
+## Method Descriptions
+- `contains(double value)`: Add description.
   - Executes `contains` behavior.
-- `min()`
+- `min()`: Add description.
   - Executes `min` behavior.
-- `max()`
+- `max()`: Add description.
   - Executes `max` behavior.
 
 ## Notes

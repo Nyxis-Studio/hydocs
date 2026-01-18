@@ -1,10 +1,10 @@
+**Source Hash:** `7490942386f4737472ee33d91317a984c45c4b31f1f8e6bde2744036ea447ef5`
+
 # ApplicationEffects
 
 ## Overview
-- Documentation for `ApplicationEffects`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplicationEffects()`
   - Creates a `ApplicationEffects` instance.
 - `ApplicationEffects(@Nullable Color entityBottomTint, @Nullable Color entityTopTint, @Nullable String entityAnimationId, @Nullable ModelParticle[] particles, @Nullable ModelParticle[] firstPersonParticles, @Nullable String screenEffect, float horizontalSpeedMultiplier, int soundEventIndexLocal, int soundEventIndexWorld, @Nullable String modelVFXId, @Nullable MovementEffects movementEffects, float mouseSensitivityAdjustmentTarget, float mouseSensitivityAdjustmentDuration, @Nullable AbilityEffects abilityEffects)`
@@ -12,22 +12,22 @@
 - `ApplicationEffects(@Nonnull ApplicationEffects other)`
   - Creates a `ApplicationEffects` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

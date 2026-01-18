@@ -1,29 +1,29 @@
+**Source Hash:** `99286e08c936d14e12694ebdc0f1031b9585e1255e6e2bb5c1f32ca77e855f93`
+
 # WorldSlumber
 
 ## Overview
-- Documentation for `WorldSlumber`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSlumber(Instant startInstant, Instant targetInstant, float irlDurationSeconds)`
   - Creates a `WorldSlumber` instance.
 
-## Methods
-- `getStartInstant()`
+## Method Descriptions
+- `getStartInstant()`: Add description.
   - Executes `getStartInstant` behavior.
-- `getTargetInstant()`
+- `getTargetInstant()`: Add description.
   - Executes `getTargetInstant` behavior.
-- `getStartInstantData()`
+- `getStartInstantData()`: Add description.
   - Executes `getStartInstantData` behavior.
-- `getTargetInstantData()`
+- `getTargetInstantData()`: Add description.
   - Executes `getTargetInstantData` behavior.
-- `getProgressSeconds()`
+- `getProgressSeconds()`: Add description.
   - Executes `getProgressSeconds` behavior.
-- `incProgressSeconds(float seconds)`
+- `incProgressSeconds(float seconds)`: Add description.
   - Executes `incProgressSeconds` behavior.
-- `getIrlDurationSeconds()`
+- `getIrlDurationSeconds()`: Add description.
   - Executes `getIrlDurationSeconds` behavior.
-- `createSleepClock()`
+- `createSleepClock()`: Add description.
   - Executes `createSleepClock` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `68a1ebebc767f59b731be8374f6eaee829cb20991cb316300a8289918aa4fc20`
+
 # SpawnBeaconsCommand
 
 ## Overview
-- Documentation for `SpawnBeaconsCommand`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnBeaconsCommand()`
   - Creates a `SpawnBeaconsCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

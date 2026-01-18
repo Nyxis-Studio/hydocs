@@ -1,26 +1,26 @@
+**Source Hash:** `c9341c1c2f375dff2bef7eef0536559ed07f5adff35c4490b5c2bb020f606fae`
+
 # BuilderBodyMotionWanderInRect
 
 ## Overview
-- Documentation for `BuilderBodyMotionWanderInRect`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getWidth()`
+- `getWidth()`: Add description.
   - Executes `getWidth` behavior.
-- `getDepth()`
+- `getDepth()`: Add description.
   - Executes `getDepth` behavior.
 
 ## Notes

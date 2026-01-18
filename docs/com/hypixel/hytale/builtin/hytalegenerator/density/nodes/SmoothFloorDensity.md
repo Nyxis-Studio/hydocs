@@ -1,17 +1,17 @@
+**Source Hash:** `af2b64ae5d084158673ed04b126217efd5b229c5e42da392cdd40a757adee2e9`
+
 # SmoothFloorDensity
 
 ## Overview
-- Documentation for `SmoothFloorDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `SmoothFloorDensity(double limit, double smoothRange, Density input)`
   - Creates a `SmoothFloorDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

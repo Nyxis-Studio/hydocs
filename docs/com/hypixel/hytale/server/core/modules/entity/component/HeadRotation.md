@@ -1,10 +1,10 @@
+**Source Hash:** `2de292e099e130731cc3dd880a44c8e44beba37473431b948157e9273956366d`
+
 # HeadRotation
 
 ## Overview
-- Documentation for `HeadRotation`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `HeadRotation()`
   - Creates a `HeadRotation` instance.
 - `HeadRotation(@Nonnull Vector3f rotation)`
@@ -12,30 +12,30 @@
 - `HeadRotation(this.rotation)`
   - Creates a `HeadRotation` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `setRotation(@Nonnull Vector3f rotation)`
+- `setRotation(@Nonnull Vector3f rotation)`: Add description.
   - Executes `setRotation` behavior.
-- `getDirection()`
+- `getDirection()`: Add description.
   - Executes `getDirection` behavior.
-- `getAxisDirection()`
+- `getAxisDirection()`: Add description.
   - Executes `getAxisDirection` behavior.
-- `getAxisDirection(@Nonnull Vector3i result)`
+- `getAxisDirection(@Nonnull Vector3i result)`: Add description.
   - Executes `getAxisDirection` behavior.
-- `getHorizontalAxisDirection()`
+- `getHorizontalAxisDirection()`: Add description.
   - Executes `getHorizontalAxisDirection` behavior.
-- `getAxis()`
+- `getAxis()`: Add description.
   - Executes `getAxis` behavior.
-- `getAxisDirection(float pitch, float yaw, @Nonnull Vector3i result)`
+- `getAxisDirection(float pitch, float yaw, @Nonnull Vector3i result)`: Add description.
   - Executes `getAxisDirection` behavior.
-- `getDirection(float pitch, float yaw, @Nonnull Vector3d result)`
+- `getDirection(float pitch, float yaw, @Nonnull Vector3d result)`: Add description.
   - Executes `getDirection` behavior.
-- `teleportRotation(@Nonnull Vector3f rotation)`
+- `teleportRotation(@Nonnull Vector3f rotation)`: Add description.
   - Executes `teleportRotation` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

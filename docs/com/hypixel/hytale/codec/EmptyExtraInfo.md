@@ -1,39 +1,39 @@
+**Source Hash:** `37129506126c51c4464354ff9865c02c7eb3f6ed2db48fb24623c2131fa1ac84`
+
 # EmptyExtraInfo
 
 ## Overview
-- Documentation for `EmptyExtraInfo`.
-- Declared as a class in `com.hypixel.hytale.codec`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyExtraInfo()`
   - Creates a `EmptyExtraInfo` instance.
 
-## Methods
-- `pushKey(String key)`
+## Method Descriptions
+- `pushKey(String key)`: Add description.
   - Executes `pushKey` behavior.
-- `pushIntKey(int i)`
+- `pushIntKey(int i)`: Add description.
   - Executes `pushIntKey` behavior.
-- `pushKey(String key, RawJsonReader reader)`
+- `pushKey(String key, RawJsonReader reader)`: Add description.
   - Executes `pushKey` behavior.
-- `pushIntKey(int key, RawJsonReader reader)`
+- `pushIntKey(int key, RawJsonReader reader)`: Add description.
   - Executes `pushIntKey` behavior.
-- `popKey()`
+- `popKey()`: Add description.
   - Executes `popKey` behavior.
-- `addUnknownKey(@Nonnull String key)`
+- `addUnknownKey(@Nonnull String key)`: Add description.
   - Executes `addUnknownKey` behavior.
-- `ignoreUnusedKey(String key)`
+- `ignoreUnusedKey(String key)`: Add description.
   - Executes `ignoreUnusedKey` behavior.
-- `popIgnoredUnusedKey()`
+- `popIgnoredUnusedKey()`: Add description.
   - Executes `popIgnoredUnusedKey` behavior.
-- `peekKey()`
+- `peekKey()`: Add description.
   - Executes `peekKey` behavior.
-- `peekKey(char separator)`
+- `peekKey(char separator)`: Add description.
   - Executes `peekKey` behavior.
-- `getUnknownKeys()`
+- `getUnknownKeys()`: Add description.
   - Executes `getUnknownKeys` behavior.
-- `appendDetailsTo(@Nonnull StringBuilder sb)`
+- `appendDetailsTo(@Nonnull StringBuilder sb)`: Add description.
   - Executes `appendDetailsTo` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

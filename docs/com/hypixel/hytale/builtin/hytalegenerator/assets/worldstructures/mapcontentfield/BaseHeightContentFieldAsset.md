@@ -1,19 +1,19 @@
+**Source Hash:** `20947f79fe6091d3355bde746fa17257ac1791e73a2c403c8a2af211f9f7afc6`
+
 # BaseHeightContentFieldAsset
 
 ## Overview
-- Documentation for `BaseHeightContentFieldAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.worldstructures.mapcontentfield`.
 
-## Constructors
+## Constructor Descriptions
 - `BaseHeightContentFieldAsset()`
   - Creates a `BaseHeightContentFieldAsset` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
 
 ## Notes

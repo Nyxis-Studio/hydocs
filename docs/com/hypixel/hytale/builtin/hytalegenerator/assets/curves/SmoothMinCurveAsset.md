@@ -1,16 +1,16 @@
+**Source Hash:** `6b105a7cb8c965aaa0d7230fa9a4f0dd84a4e45e70e55fd9287d76664aab78d4`
+
 # SmoothMinCurveAsset
 
 ## Overview
-- Documentation for `SmoothMinCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

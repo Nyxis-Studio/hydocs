@@ -1,16 +1,16 @@
+**Source Hash:** `3d11b82e2180ed1f574092b0559b3c871c93dc64547000d1fc98cd4b89eaefa9`
+
 # ItemContainerUtil
 
 ## Overview
-- Documentation for `ItemContainerUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `trySetArmorFilters(T container)`
+## Method Descriptions
+- `trySetArmorFilters(T container)`: Add description.
   - Executes `trySetArmorFilters` behavior.
-- `trySetSlotFilters(T container, SlotFilter filter)`
+- `trySetSlotFilters(T container, SlotFilter filter)`: Add description.
   - Executes `trySetSlotFilters` behavior.
 
 ## Notes

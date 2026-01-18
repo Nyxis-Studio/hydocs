@@ -1,20 +1,20 @@
+**Source Hash:** `6b0312750c640eca23a3fc2ad85e87a9288bfb5f24cecfb361bcc8c6891e7ba8`
+
 # IComponentExecutionControl
 
 ## Overview
-- Documentation for `IComponentExecutionControl`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `processDelay(float var1)`
+## Method Descriptions
+- `processDelay(float var1)`: Add description.
   - Executes `processDelay` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `setOnce()`
+- `setOnce()`: Add description.
   - Executes `setOnce` behavior.
-- `isTriggered()`
+- `isTriggered()`: Add description.
   - Executes `isTriggered` behavior.
 
 ## Notes

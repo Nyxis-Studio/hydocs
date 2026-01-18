@@ -1,47 +1,47 @@
+**Source Hash:** `8b3754fd35888dfbc3b81bca58e974cc0c040efb787afd3bd917136df2dd56c8`
+
 # LegacyModule
 
 ## Overview
-- Documentation for `LegacyModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules`.
 
-## Constructors
+## Constructor Descriptions
 - `LegacyModule(@Nonnull JavaPluginInit init)`
   - Creates a `LegacyModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getWorldChunkComponentType()`
+- `getWorldChunkComponentType()`: Add description.
   - Executes `getWorldChunkComponentType` behavior.
-- `getBlockChunkComponentType()`
+- `getBlockChunkComponentType()`: Add description.
   - Executes `getBlockChunkComponentType` behavior.
-- `getEntityChunkComponentType()`
+- `getEntityChunkComponentType()`: Add description.
   - Executes `getEntityChunkComponentType` behavior.
-- `getBlockComponentChunkComponentType()`
+- `getBlockComponentChunkComponentType()`: Add description.
   - Executes `getBlockComponentChunkComponentType` behavior.
-- `getEnvironmentChunkComponentType()`
+- `getEnvironmentChunkComponentType()`: Add description.
   - Executes `getEnvironmentChunkComponentType` behavior.
-- `getChunkColumnComponentType()`
+- `getChunkColumnComponentType()`: Add description.
   - Executes `getChunkColumnComponentType` behavior.
-- `getChunkSectionComponentType()`
+- `getChunkSectionComponentType()`: Add description.
   - Executes `getChunkSectionComponentType` behavior.
-- `getBlockSectionComponentType()`
+- `getBlockSectionComponentType()`: Add description.
   - Executes `getBlockSectionComponentType` behavior.
-- `getFluidSectionComponentType()`
+- `getFluidSectionComponentType()`: Add description.
   - Executes `getFluidSectionComponentType` behavior.
-- `getBlockPositionProviderComponentType()`
+- `getBlockPositionProviderComponentType()`: Add description.
   - Executes `getBlockPositionProviderComponentType` behavior.
-- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<ChunkStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityRemoved(@Nonnull Holder<ChunkStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

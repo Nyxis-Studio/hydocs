@@ -1,25 +1,25 @@
+**Source Hash:** `8620ea61644cf5fce7377e037c5800ec92e87e54bdd147f3b2836f36c534a413`
+
 # FileChangeTask
 
 ## Overview
-- Documentation for `FileChangeTask`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.monitor`.
 
-## Constructors
+## Constructor Descriptions
 - `FileChangeTask(AssetMonitor assetMonitor, @Nonnull Path path, @Nonnull PathEvent pathEvent)`
   - Creates a `FileChangeTask` instance.
 
-## Methods
-- `getAssetMonitor()`
+## Method Descriptions
+- `getAssetMonitor()`: Add description.
   - Executes `getAssetMonitor` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getPathEvent()`
+- `getPathEvent()`: Add description.
   - Executes `getPathEvent` behavior.
-- `run()`
+- `run()`: Add description.
   - Executes `run` behavior.
-- `cancelSchedule()`
+- `cancelSchedule()`: Add description.
   - Executes `cancelSchedule` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `a4aff4e2fe6e1c100c604fe37dcee4010af8b9e076cfb10f406143c0456394d4`
+
 # DirectionalKnockback
 
 ## Overview
-- Documentation for `DirectionalKnockback`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.combat`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `calculateVector(@Nonnull Vector3d source, float yaw, @Nonnull Vector3d target)`
+## Method Descriptions
+- `calculateVector(@Nonnull Vector3d source, float yaw, @Nonnull Vector3d target)`: Add description.
   - Executes `calculateVector` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

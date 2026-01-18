@@ -1,28 +1,28 @@
+**Source Hash:** `5ce15631ba38f839b95967bac44a6e12e5263fa04264c4c2e8ee2fe804959294`
+
 # IBlockPositionData
 
 ## Overview
-- Documentation for `IBlockPositionData`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.chunk.section.blockpositions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getChunkSection()`
+## Method Descriptions
+- `getChunkSection()`: Add description.
   - Executes `getChunkSection` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getXCentre()`
+- `getXCentre()`: Add description.
   - Executes `getXCentre` behavior.
-- `getYCentre()`
+- `getYCentre()`: Add description.
   - Executes `getYCentre` behavior.
-- `getZCentre()`
+- `getZCentre()`: Add description.
   - Executes `getZCentre` behavior.
 
 ## Notes

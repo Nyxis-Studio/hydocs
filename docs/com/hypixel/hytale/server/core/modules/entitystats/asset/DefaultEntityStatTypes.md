@@ -1,27 +1,27 @@
+**Source Hash:** `eae1c46119d2c63a11851fc3688fb2af84cabb21100d2afd3cdca0c5f9634044`
+
 # DefaultEntityStatTypes
 
 ## Overview
-- Documentation for `DefaultEntityStatTypes`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entitystats.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `DefaultEntityStatTypes()`
   - Creates a `DefaultEntityStatTypes` instance.
 
-## Methods
-- `getHealth()`
+## Method Descriptions
+- `getHealth()`: Add description.
   - Executes `getHealth` behavior.
-- `getOxygen()`
+- `getOxygen()`: Add description.
   - Executes `getOxygen` behavior.
-- `getStamina()`
+- `getStamina()`: Add description.
   - Executes `getStamina` behavior.
-- `getMana()`
+- `getMana()`: Add description.
   - Executes `getMana` behavior.
-- `getSignatureEnergy()`
+- `getSignatureEnergy()`: Add description.
   - Executes `getSignatureEnergy` behavior.
-- `getAmmo()`
+- `getAmmo()`: Add description.
   - Executes `getAmmo` behavior.
-- `update()`
+- `update()`: Add description.
   - Executes `update` behavior.
 
 ## Notes

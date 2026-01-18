@@ -1,15 +1,15 @@
+**Source Hash:** `7a78d0687fd571eda8e96e773d7e6aa812f5361045d85f9f92f15ab5e9531454`
+
 # UniquePrefabCache
 
 ## Overview
-- Documentation for `UniquePrefabCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cache`.
 
-## Constructors
+## Constructor Descriptions
 - `UniquePrefabCache(@Nonnull UniquePrefabFunction function, int maxSize, long expireAfterSeconds)`
   - Creates a `UniquePrefabCache` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

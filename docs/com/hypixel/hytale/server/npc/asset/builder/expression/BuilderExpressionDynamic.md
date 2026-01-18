@@ -1,25 +1,25 @@
+**Source Hash:** `32a08d312387dee49b2ce6eadf89c6f7f7ba14330fa3671f3794f71b982c7334`
+
 # BuilderExpressionDynamic
 
 ## Overview
-- Documentation for `BuilderExpressionDynamic`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.expression`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderExpressionDynamic(String expression, ExecutionContext.Instruction[] instructionSequence)`
   - Creates a `BuilderExpressionDynamic` instance.
 
-## Methods
-- `isStatic()`
+## Method Descriptions
+- `isStatic()`: Add description.
   - Executes `isStatic` behavior.
-- `getExpression()`
+- `getExpression()`: Add description.
   - Executes `getExpression` behavior.
-- `execute(@Nonnull ExecutionContext executionContext)`
+- `execute(@Nonnull ExecutionContext executionContext)`: Add description.
   - Executes `execute` behavior.
-- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters)`
+- `fromJSON(@Nonnull JsonElement jsonElement, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `fromJSON` behavior.
-- `toSchema()`
+- `toSchema()`: Add description.
   - Executes `toSchema` behavior.
-- `computableSchema(Schema toWrap)`
+- `computableSchema(Schema toWrap)`: Add description.
   - Executes `computableSchema` behavior.
 
 ## Notes

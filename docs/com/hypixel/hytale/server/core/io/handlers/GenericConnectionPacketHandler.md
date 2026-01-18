@@ -1,15 +1,15 @@
+**Source Hash:** `807c91cdb8ab9db0e2d0107b9c2d8778860b6e9c23686fedda64cadee9ffdc00`
+
 # GenericConnectionPacketHandler
 
 ## Overview
-- Documentation for `GenericConnectionPacketHandler`.
-- Declared as a class in `com.hypixel.hytale.server.core.io.handlers`.
 
-## Constructors
+## Constructor Descriptions
 - `GenericConnectionPacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion, String language)`
   - Creates a `GenericConnectionPacketHandler` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,15 +1,15 @@
+**Source Hash:** `0e32ef24d60720c92b16e01d6f877a843f979284c37e5b24bf62d6fbb47f7bc4`
+
 # CommandValidationResults
 
 ## Overview
-- Documentation for `CommandValidationResults`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system`.
 
-## Constructors
+## Constructor Descriptions
 - `CommandValidationResults(@Nonnull ExtraInfo extraInfo)`
   - Creates a `CommandValidationResults` instance.
 
-## Methods
-- `processResults(@Nonnull ParseResult parseResult)`
+## Method Descriptions
+- `processResults(@Nonnull ParseResult parseResult)`: Add description.
   - Executes `processResults` behavior.
 
 ## Notes

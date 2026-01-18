@@ -1,15 +1,15 @@
+**Source Hash:** `9a4b502cf6feac32b4c4fd99ce49d95fb2bd7056532ec55e3cbe2443cc5df434`
+
 # ConstantValueDensity
 
 ## Overview
-- Documentation for `ConstantValueDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantValueDensity(double value)`
   - Creates a `ConstantValueDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
 
 ## Notes

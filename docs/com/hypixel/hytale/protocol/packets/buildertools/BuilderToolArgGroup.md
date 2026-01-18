@@ -1,17 +1,17 @@
+**Source Hash:** `9a09067806e0277f6202e2ff369caaf156a1923132d1bb2c5e0bbac245db5915`
+
 # BuilderToolArgGroup
 
 ## Overview
-- Documentation for `BuilderToolArgGroup`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolArgGroup(int value)`
   - Creates a `BuilderToolArgGroup` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `0bf07b79beec964dc1a2b6ee74feb5cd67a095a90d4248950c889026f173f072`
+
 # SlotTransaction
 
 ## Overview
-- Documentation for `SlotTransaction`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SlotTransaction(false, ActionType.ADD, -1, null, null, null, false, false, false)`
   - Creates a `SlotTransaction` instance.
 - `SlotTransaction(boolean succeeded, @Nonnull ActionType action, short slot, @Nullable ItemStack slotBefore, @Nullable ItemStack slotAfter, @Nullable ItemStack output, boolean allOrNothing, boolean exactAmount, boolean filter)`
@@ -12,32 +12,32 @@
 - `SlotTransaction(this.succeeded, this.action, newSlot, this.slotBefore, this.slotAfter, this.output, this.allOrNothing, this.exactAmount, this.filter)`
   - Creates a `SlotTransaction` instance.
 
-## Methods
-- `succeeded()`
+## Method Descriptions
+- `succeeded()`: Add description.
   - Executes `succeeded` behavior.
-- `wasSlotModified(short slot)`
+- `wasSlotModified(short slot)`: Add description.
   - Executes `wasSlotModified` behavior.
-- `getAction()`
+- `getAction()`: Add description.
   - Executes `getAction` behavior.
-- `getSlot()`
+- `getSlot()`: Add description.
   - Executes `getSlot` behavior.
-- `getSlotBefore()`
+- `getSlotBefore()`: Add description.
   - Executes `getSlotBefore` behavior.
-- `getSlotAfter()`
+- `getSlotAfter()`: Add description.
   - Executes `getSlotAfter` behavior.
-- `getOutput()`
+- `getOutput()`: Add description.
   - Executes `getOutput` behavior.
-- `isAllOrNothing()`
+- `isAllOrNothing()`: Add description.
   - Executes `isAllOrNothing` behavior.
-- `isExactAmount()`
+- `isExactAmount()`: Add description.
   - Executes `isExactAmount` behavior.
-- `isFilter()`
+- `isFilter()`: Add description.
   - Executes `isFilter` behavior.
-- `toParent(ItemContainer parent, short start, ItemContainer container)`
+- `toParent(ItemContainer parent, short start, ItemContainer container)`: Add description.
   - Executes `toParent` behavior.
-- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`
+- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`: Add description.
   - Executes `fromParent` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

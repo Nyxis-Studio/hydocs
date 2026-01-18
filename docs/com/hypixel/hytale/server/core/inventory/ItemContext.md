@@ -1,21 +1,21 @@
+**Source Hash:** `875ed3674d50b8366e4f7879224df4843ac9e6657c9cbe9f472c7d69e9ab5be7`
+
 # ItemContext
 
 ## Overview
-- Documentation for `ItemContext`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemContext(@Nonnull ItemContainer container, short slot, @Nonnull ItemStack itemStack)`
   - Creates a `ItemContext` instance.
 
-## Methods
-- `getContainer()`
+## Method Descriptions
+- `getContainer()`: Add description.
   - Executes `getContainer` behavior.
-- `getSlot()`
+- `getSlot()`: Add description.
   - Executes `getSlot` behavior.
-- `getItemStack()`
+- `getItemStack()`: Add description.
   - Executes `getItemStack` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

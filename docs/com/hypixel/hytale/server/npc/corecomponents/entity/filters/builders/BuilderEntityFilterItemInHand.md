@@ -1,24 +1,24 @@
+**Source Hash:** `565f0145435f1eb3ee4b055a44e0d5cb6c0fe19ef527867285c889e6c14da798`
+
 # BuilderEntityFilterItemInHand
 
 ## Overview
-- Documentation for `BuilderEntityFilterItemInHand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getItems(@Nonnull BuilderSupport support)`
+- `getItems(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getItems` behavior.
 
 ## Notes

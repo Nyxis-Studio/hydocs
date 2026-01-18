@@ -1,17 +1,17 @@
+**Source Hash:** `19578886786ddc7c46c39d8a06c5aa3b314dc8e1cdd9acc1598887ad3f2aa5bc`
+
 # ChangeGameModeEvent
 
 ## Overview
-- Documentation for `ChangeGameModeEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `ChangeGameModeEvent(@Nonnull GameMode gameMode)`
   - Creates a `ChangeGameModeEvent` instance.
 
-## Methods
-- `getGameMode()`
+## Method Descriptions
+- `getGameMode()`: Add description.
   - Executes `getGameMode` behavior.
-- `setGameMode(@Nonnull GameMode gameMode)`
+- `setGameMode(@Nonnull GameMode gameMode)`: Add description.
   - Executes `setGameMode` behavior.
 
 ## Notes

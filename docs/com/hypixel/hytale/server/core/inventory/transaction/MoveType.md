@@ -1,14 +1,14 @@
+**Source Hash:** `cb53b21f237060f47383ff3aaca58bb4dfeb0cd4fbfe5c9241d228ba26ee79e1`
+
 # MoveType
 
 ## Overview
-- Documentation for `MoveType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.inventory.transaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

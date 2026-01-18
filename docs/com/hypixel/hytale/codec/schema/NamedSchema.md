@@ -1,14 +1,14 @@
+**Source Hash:** `959c35d953a94bc8a2b4687511b299cf2b768026c18ccfeb46a6acb5abba3c8f`
+
 # NamedSchema
 
 ## Overview
-- Documentation for `NamedSchema`.
-- Declared as a interface in `com.hypixel.hytale.codec.schema`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSchemaName()`
+## Method Descriptions
+- `getSchemaName()`: Add description.
   - Executes `getSchemaName` behavior.
 
 ## Notes

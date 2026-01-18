@@ -1,29 +1,29 @@
+**Source Hash:** `46d95bb6dcbca89a9a97cf93aae73e1190a6baa3d7579230ee219e35688eb714`
+
 # WeatherResource
 
 ## Overview
-- Documentation for `WeatherResource`.
-- Declared as a class in `com.hypixel.hytale.builtin.weather.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `WeatherResource()`
   - Creates a `WeatherResource` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getEnvironmentWeather()`
+- `getEnvironmentWeather()`: Add description.
   - Executes `getEnvironmentWeather` behavior.
-- `getWeatherIndexForEnvironment(int environmentId)`
+- `getWeatherIndexForEnvironment(int environmentId)`: Add description.
   - Executes `getWeatherIndexForEnvironment` behavior.
-- `getForcedWeatherIndex()`
+- `getForcedWeatherIndex()`: Add description.
   - Executes `getForcedWeatherIndex` behavior.
-- `setForcedWeather(@Nullable String forcedWeather)`
+- `setForcedWeather(@Nullable String forcedWeather)`: Add description.
   - Executes `setForcedWeather` behavior.
-- `consumeForcedWeatherChange()`
+- `consumeForcedWeatherChange()`: Add description.
   - Executes `consumeForcedWeatherChange` behavior.
-- `compareAndSwapHour(int currentHour)`
+- `compareAndSwapHour(int currentHour)`: Add description.
   - Executes `compareAndSwapHour` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

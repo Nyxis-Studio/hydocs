@@ -1,15 +1,15 @@
+**Source Hash:** `e5ee7bf6f6796c29a4a2316f5afba72c30308c5529a956a31ddf7ce717f902bd`
+
 # JumpToRandomIndex
 
 ## Overview
-- Documentation for `JumpToRandomIndex`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol`.
 
-## Constructors
+## Constructor Descriptions
 - `JumpToRandomIndex()`
   - Creates a `JumpToRandomIndex` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

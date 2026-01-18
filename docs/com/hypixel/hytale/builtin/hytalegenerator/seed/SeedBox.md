@@ -1,10 +1,10 @@
+**Source Hash:** `0948243a56cc1d84b96f630564555e7795325b9162295fff938df2d36188ca84`
+
 # SeedBox
 
 ## Overview
-- Documentation for `SeedBox`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.seed`.
 
-## Constructors
+## Constructor Descriptions
 - `SeedBox(@Nonnull String key)`
   - Creates a `SeedBox` instance.
 - `SeedBox(int key)`
@@ -12,12 +12,12 @@
 - `SeedBox(this.key + childKey)`
   - Creates a `SeedBox` instance.
 
-## Methods
-- `child(@Nonnull String childKey)`
+## Method Descriptions
+- `child(@Nonnull String childKey)`: Add description.
   - Executes `child` behavior.
-- `createSupplier()`
+- `createSupplier()`: Add description.
   - Executes `createSupplier` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

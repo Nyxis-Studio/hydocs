@@ -1,14 +1,14 @@
+**Source Hash:** `e6d0d0de7a220cbc9fbcc072966429460d43e48de00a4d9639f0e3c04393531e`
+
 # DestroyableBlockState
 
 ## Overview
-- Documentation for `DestroyableBlockState`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onDestroy()`
+## Method Descriptions
+- `onDestroy()`: Add description.
   - Executes `onDestroy` behavior.
 
 ## Notes

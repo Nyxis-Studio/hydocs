@@ -1,35 +1,35 @@
+**Source Hash:** `f6ac1a01201b65bd6c021b9bd926dd7b5e5b5f326058bc1f7369214d9d1767cf`
+
 # NTerrainStage
 
 ## Overview
-- Documentation for `NTerrainStage`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.stages`.
 
-## Constructors
+## Constructor Descriptions
 - `NTerrainStage(@Nonnull String stageName, @Nonnull NParametrizedBufferType biomeInputBufferType, @Nonnull NParametrizedBufferType biomeDistanceInputBufferType, @Nonnull NParametrizedBufferType materialOutputBufferType, int maxInterpolationRadius_voxelGrid, @Nonnull MaterialCache materialCache, @Nonnull WorkerIndexer workerIndexer)`
   - Creates a `NTerrainStage` instance.
 
-## Methods
-- `run(@Nonnull NStage.Context context)`
+## Method Descriptions
+- `run(@Nonnull NStage.Context context)`: Add description.
   - Executes `run` behavior.
-- `getInputTypesAndBounds_bufferGrid()`
+- `getInputTypesAndBounds_bufferGrid()`: Add description.
   - Executes `getInputTypesAndBounds_bufferGrid` behavior.
-- `getOutputTypes()`
+- `getOutputTypes()`: Add description.
   - Executes `getOutputTypes` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `generateDensity(@Nonnull FloatContainer3d densityBuffer, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`
+- `generateDensity(@Nonnull FloatContainer3d densityBuffer, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`: Add description.
   - Executes `generateDensity` behavior.
-- `getOrGenerateDensity(@Nonnull Vector3i position_voxelGrid, @Nonnull FloatContainer3d densityBuffer, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`
+- `getOrGenerateDensity(@Nonnull Vector3i position_voxelGrid, @Nonnull FloatContainer3d densityBuffer, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`: Add description.
   - Executes `getOrGenerateDensity` behavior.
-- `generateDensity(@Nonnull Vector3i position_voxelGrid, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`
+- `generateDensity(@Nonnull Vector3i position_voxelGrid, @Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull WorkerIndexer.Id workerId)`: Add description.
   - Executes `generateDensity` behavior.
-- `generateMaterials(@Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull FloatContainer3d densityBuffer, @Nonnull NVoxelBufferView<Material> materialSpace, @Nonnull WorkerIndexer.Id workerId)`
+- `generateMaterials(@Nonnull NPixelBufferView<BiomeType> biomeSpace, @Nonnull NPixelBufferView<NBiomeDistanceStage.BiomeDistanceEntries> distanceSpace, @Nonnull FloatContainer3d densityBuffer, @Nonnull NVoxelBufferView<Material> materialSpace, @Nonnull WorkerIndexer.Id workerId)`: Add description.
   - Executes `generateMaterials` behavior.
-- `createWeights(@Nonnull NBiomeDistanceStage.BiomeDistanceEntries distances, @Nonnull BiomeType biomeAtOrigin, double interpolationRange)`
+- `createWeights(@Nonnull NBiomeDistanceStage.BiomeDistanceEntries distances, @Nonnull BiomeType biomeAtOrigin, double interpolationRange)`: Add description.
   - Executes `createWeights` behavior.
-- `areaUnderCircleCurve(double maxX)`
+- `areaUnderCircleCurve(double maxX)`: Add description.
   - Executes `areaUnderCircleCurve` behavior.
-- `areaUnderCircleCurve(double minX, double maxX, double circleRadius)`
+- `areaUnderCircleCurve(double minX, double maxX, double circleRadius)`: Add description.
   - Executes `areaUnderCircleCurve` behavior.
 
 ## Notes

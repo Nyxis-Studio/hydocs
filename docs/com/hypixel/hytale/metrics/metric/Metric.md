@@ -1,35 +1,35 @@
+**Source Hash:** `68feef5a4a31cdf35a2ca4f408d9b5e31da06424243d88cca8076e3578bd81f7`
+
 # Metric
 
 ## Overview
-- Documentation for `Metric`.
-- Declared as a class in `com.hypixel.hytale.metrics.metric`.
 
-## Constructors
+## Constructor Descriptions
 - `Metric()`
   - Creates a `Metric` instance.
 
-## Methods
-- `add(long value)`
+## Method Descriptions
+- `add(long value)`: Add description.
   - Executes `add` behavior.
-- `remove(long value)`
+- `remove(long value)`: Add description.
   - Executes `remove` behavior.
-- `getMin()`
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `getAverage()`
+- `getAverage()`: Add description.
   - Executes `getAverage` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `resetMinMax()`
+- `resetMinMax()`: Add description.
   - Executes `resetMinMax` behavior.
-- `calculateMinMax(long value)`
+- `calculateMinMax(long value)`: Add description.
   - Executes `calculateMinMax` behavior.
-- `addToAverage(long value)`
+- `addToAverage(long value)`: Add description.
   - Executes `addToAverage` behavior.
-- `set(@Nonnull Metric metric)`
+- `set(@Nonnull Metric metric)`: Add description.
   - Executes `set` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,33 +1,33 @@
+**Source Hash:** `b45d1029442a2e963071a2bf0a9206970b56b7fe790c83e6328310531a65ef4a`
+
 # EntityStore
 
 ## Overview
-- Documentation for `EntityStore`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStore(@Nonnull World world)`
   - Creates a `EntityStore` instance.
 
-## Methods
-- `start(@Nonnull IResourceStorage resourceStorage)`
+## Method Descriptions
+- `start(@Nonnull IResourceStorage resourceStorage)`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `getStore()`
+- `getStore()`: Add description.
   - Executes `getStore` behavior.
-- `getRefFromUUID(@Nonnull UUID uuid)`
+- `getRefFromUUID(@Nonnull UUID uuid)`: Add description.
   - Executes `getRefFromUUID` behavior.
-- `getRefFromNetworkId(int networkId)`
+- `getRefFromNetworkId(int networkId)`: Add description.
   - Executes `getRefFromNetworkId` behavior.
-- `takeNextNetworkId()`
+- `takeNextNetworkId()`: Add description.
   - Executes `takeNextNetworkId` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
 
 ## Notes

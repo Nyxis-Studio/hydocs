@@ -1,19 +1,19 @@
+**Source Hash:** `5c45281ef4a913e5dc01e01d89bc6487481e84d4ac8bdc3e14f00edc59032383`
+
 # Tri
 
 ## Overview
-- Documentation for `Tri`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
+## Constructor Descriptions
 - `Tri(A left, B middle, C right)`
   - Creates a `Tri` instance.
 
-## Methods
-- `getLeft()`
+## Method Descriptions
+- `getLeft()`: Add description.
   - Executes `getLeft` behavior.
-- `getMiddle()`
+- `getMiddle()`: Add description.
   - Executes `getMiddle` behavior.
-- `getRight()`
+- `getRight()`: Add description.
   - Executes `getRight` behavior.
 
 ## Notes

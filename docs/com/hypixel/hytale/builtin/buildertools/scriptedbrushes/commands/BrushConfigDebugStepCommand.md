@@ -1,15 +1,15 @@
+**Source Hash:** `bdb03908f738561cab11d17d2f0f09734c592dfaac76918fa11c0a87cdcb815d`
+
 # BrushConfigDebugStepCommand
 
 ## Overview
-- Documentation for `BrushConfigDebugStepCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigDebugStepCommand()`
   - Creates a `BrushConfigDebugStepCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

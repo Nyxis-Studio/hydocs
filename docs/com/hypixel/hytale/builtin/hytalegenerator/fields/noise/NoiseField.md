@@ -1,24 +1,24 @@
+**Source Hash:** `0c9a948022f1a97d271b665be0ac57ec3324a72dd347ac08e8afe76a489f9d68`
+
 # NoiseField
 
 ## Overview
-- Documentation for `NoiseField`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.fields.noise`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `valueAt(double var1, double var3, double var5, double var7)`
+## Method Descriptions
+- `valueAt(double var1, double var3, double var5, double var7)`: Add description.
   - Executes `valueAt` behavior.
-- `valueAt(double var1, double var3, double var5)`
+- `valueAt(double var1, double var3, double var5)`: Add description.
   - Executes `valueAt` behavior.
-- `valueAt(double var1, double var3)`
+- `valueAt(double var1, double var3)`: Add description.
   - Executes `valueAt` behavior.
-- `valueAt(double var1)`
+- `valueAt(double var1)`: Add description.
   - Executes `valueAt` behavior.
-- `setScale(double scaleX, double scaleY, double scaleZ, double scaleW)`
+- `setScale(double scaleX, double scaleY, double scaleZ, double scaleW)`: Add description.
   - Executes `setScale` behavior.
-- `setScale(double scale)`
+- `setScale(double scale)`: Add description.
   - Executes `setScale` behavior.
 
 ## Notes

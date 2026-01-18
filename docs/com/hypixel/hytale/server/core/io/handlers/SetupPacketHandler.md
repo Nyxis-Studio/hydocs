@@ -1,10 +1,10 @@
+**Source Hash:** `2cedd2603409794854538e7f52a4f36a973fa93579e41382fb8e565b083aeceb`
+
 # SetupPacketHandler
 
 ## Overview
-- Documentation for `SetupPacketHandler`.
-- Declared as a class in `com.hypixel.hytale.server.core.io.handlers`.
 
-## Constructors
+## Constructor Descriptions
 - `SetupPacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion, String language, UUID uuid, String username)`
   - Creates a `SetupPacketHandler` instance.
 - `SetupPacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion, String language, UUID uuid, String username, byte[] referralData, HostAddress referralSource)`
@@ -12,22 +12,22 @@
 - `SetupPacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion, String language, @Nonnull PlayerAuthentication auth)`
   - Creates a `SetupPacketHandler` instance.
 
-## Methods
-- `getIdentifier()`
+## Method Descriptions
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `registered0(@Nonnull PacketHandler oldHandler)`
+- `registered0(@Nonnull PacketHandler oldHandler)`: Add description.
   - Executes `registered0` behavior.
-- `accept(@Nonnull Packet packet)`
+- `accept(@Nonnull Packet packet)`: Add description.
   - Executes `accept` behavior.
-- `closed(ChannelHandlerContext ctx)`
+- `closed(ChannelHandlerContext ctx)`: Add description.
   - Executes `closed` behavior.
-- `handle(@Nonnull Disconnect packet)`
+- `handle(@Nonnull Disconnect packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull RequestAssets packet)`
+- `handle(@Nonnull RequestAssets packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ViewRadius packet)`
+- `handle(@Nonnull ViewRadius packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull PlayerOptions packet)`
+- `handle(@Nonnull PlayerOptions packet)`: Add description.
   - Executes `handle` behavior.
 
 ## Notes

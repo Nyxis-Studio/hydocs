@@ -1,31 +1,31 @@
+**Source Hash:** `85df7ce922aec2b4f265aff22adcc20629b6451fbba0035b6f7a6b5bf1673ae6`
+
 # AStarDebugBase
 
 ## Overview
-- Documentation for `AStarDebugBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
+## Constructor Descriptions
 - `AStarDebugBase(AStarBase base, @Nonnull HytaleLogger logger)`
   - Creates a `AStarDebugBase` instance.
 
-## Methods
-- `dumpOpens(MotionController controller)`
+## Method Descriptions
+- `dumpOpens(MotionController controller)`: Add description.
   - Executes `dumpOpens` behavior.
-- `dumpPath()`
+- `dumpPath()`: Add description.
   - Executes `dumpPath` behavior.
-- `dumpMap(boolean drawPath, MotionController controller)`
+- `dumpMap(boolean drawPath, MotionController controller)`: Add description.
   - Executes `dumpMap` behavior.
-- `dumpMap(@Nullable AStarNode pathNode, boolean isFinalPath, MotionController controller)`
+- `dumpMap(@Nullable AStarNode pathNode, boolean isFinalPath, MotionController controller)`: Add description.
   - Executes `dumpMap` behavior.
-- `plot(long positionIndex, char character, @Nonnull StringBuilder[] map, int minX, int minZ)`
+- `plot(long positionIndex, char character, @Nonnull StringBuilder[] map, int minX, int minZ)`: Add description.
   - Executes `plot` behavior.
-- `drawMapFinish(StringBuilder[] map, int minX, int minZ)`
+- `drawMapFinish(StringBuilder[] map, int minX, int minZ)`: Add description.
   - Executes `drawMapFinish` behavior.
-- `getDumpMapRegionZ(int def)`
+- `getDumpMapRegionZ(int def)`: Add description.
   - Executes `getDumpMapRegionZ` behavior.
-- `getDumpMapRegionX(int def)`
+- `getDumpMapRegionX(int def)`: Add description.
   - Executes `getDumpMapRegionX` behavior.
-- `getExtraLogString(MotionController controller)`
+- `getExtraLogString(MotionController controller)`: Add description.
   - Executes `getExtraLogString` behavior.
 
 ## Notes

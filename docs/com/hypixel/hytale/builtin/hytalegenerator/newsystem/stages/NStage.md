@@ -1,20 +1,20 @@
+**Source Hash:** `eeb9cb8876e4a00c1ffbc855ad55f42109e350963e17f2af72911a8223e664da`
+
 # NStage
 
 ## Overview
-- Documentation for `NStage`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.stages`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `run(@Nonnull Context var1)`
+## Method Descriptions
+- `run(@Nonnull Context var1)`: Add description.
   - Executes `run` behavior.
-- `getInputTypesAndBounds_bufferGrid()`
+- `getInputTypesAndBounds_bufferGrid()`: Add description.
   - Executes `getInputTypesAndBounds_bufferGrid` behavior.
-- `getOutputTypes()`
+- `getOutputTypes()`: Add description.
   - Executes `getOutputTypes` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
 
 ## Notes

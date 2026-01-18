@@ -1,23 +1,23 @@
+**Source Hash:** `34236e625fc72c1d679b6ea5d6ff186ec6ffc412e547dc141aebe7004292bb95`
+
 # SensorBase
 
 ## Overview
-- Documentation for `SensorBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorBase(@Nonnull BuilderSensorBase builderSensorBase)`
   - Creates a `SensorBase` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `setOnce()`
+- `setOnce()`: Add description.
   - Executes `setOnce` behavior.
-- `isTriggered()`
+- `isTriggered()`: Add description.
   - Executes `isTriggered` behavior.
-- `processDelay(float dt)`
+- `processDelay(float dt)`: Add description.
   - Executes `processDelay` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `8ab038e6b69632d03458b785d3db923b817d33951e720ceafb53941734adba68`
+
 # HitDetectionBuffer
 
 ## Overview
-- Documentation for `HitDetectionBuffer`.
-- Declared as a class in `com.hypixel.hytale.math.hitdetection`.
 
-## Constructors
+## Constructor Descriptions
 - `HitDetectionBuffer()`
   - Creates a `HitDetectionBuffer` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

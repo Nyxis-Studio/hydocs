@@ -1,28 +1,28 @@
+**Source Hash:** `4b688bc187938f825bae56225470729e8b614010d0e6ceef45b23d8abd305b1f`
+
 # CapturedNPCMetadata
 
 ## Overview
-- Documentation for `CapturedNPCMetadata`.
-- Declared as a class in `com.hypixel.hytale.server.npc.metadata`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRoleIndex()`
+## Method Descriptions
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `getIconPath()`
+- `getIconPath()`: Add description.
   - Executes `getIconPath` behavior.
-- `getNpcNameKey()`
+- `getNpcNameKey()`: Add description.
   - Executes `getNpcNameKey` behavior.
-- `getFullItemIcon()`
+- `getFullItemIcon()`: Add description.
   - Executes `getFullItemIcon` behavior.
-- `setIconPath(String iconPath)`
+- `setIconPath(String iconPath)`: Add description.
   - Executes `setIconPath` behavior.
-- `setRoleIndex(int roleIndex)`
+- `setRoleIndex(int roleIndex)`: Add description.
   - Executes `setRoleIndex` behavior.
-- `setNpcNameKey(String npcNameKey)`
+- `setNpcNameKey(String npcNameKey)`: Add description.
   - Executes `setNpcNameKey` behavior.
-- `setFullItemIcon(String fullItemIcon)`
+- `setFullItemIcon(String fullItemIcon)`: Add description.
   - Executes `setFullItemIcon` behavior.
 
 ## Notes

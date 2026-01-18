@@ -1,14 +1,14 @@
+**Source Hash:** `74010f893db6a9c99fd09c0c084a24d1f35cdad0b44a5b28dac69b679858e111`
+
 # SpawnPrefabInteraction
 
 ## Overview
-- Documentation for `SpawnPrefabInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
 
 ## Notes

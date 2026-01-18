@@ -1,25 +1,25 @@
+**Source Hash:** `aa98e91b43e24ffb93866280220e6861aea48caa37900e67a3cede00a21ef7c4`
+
 # AssetEditorFetchAutoCompleteDataEvent
 
 ## Overview
-- Documentation for `AssetEditorFetchAutoCompleteDataEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.event`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorFetchAutoCompleteDataEvent(EditorClient editorClient, String dataSet, String query)`
   - Creates a `AssetEditorFetchAutoCompleteDataEvent` instance.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `getDataSet()`
+- `getDataSet()`: Add description.
   - Executes `getDataSet` behavior.
-- `getEditorClient()`
+- `getEditorClient()`: Add description.
   - Executes `getEditorClient` behavior.
-- `getResults()`
+- `getResults()`: Add description.
   - Executes `getResults` behavior.
-- `setResults(String[] results)`
+- `setResults(String[] results)`: Add description.
   - Executes `setResults` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

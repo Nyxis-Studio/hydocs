@@ -1,16 +1,16 @@
+**Source Hash:** `9eaabb2cca8e19f413d22b93c046386e392c9c1cd23acc8be4059f8fb20b6738`
+
 # IDoubleThreshold
 
 ## Overview
-- Documentation for `IDoubleThreshold`.
-- Declared as a interface in `com.hypixel.hytale.procedurallib.condition`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `eval(double var1)`
+## Method Descriptions
+- `eval(double var1)`: Add description.
   - Executes `eval` behavior.
-- `eval(double var1, double var3)`
+- `eval(double var1, double var3)`: Add description.
   - Executes `eval` behavior.
 
 ## Notes

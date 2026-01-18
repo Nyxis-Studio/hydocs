@@ -1,25 +1,25 @@
+**Source Hash:** `d920770200040849c03c192106ac31a0185d92dc6d8d136e7c7dc53e19e08ab0`
+
 # CameraInteraction
 
 ## Overview
-- Documentation for `CameraInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.none`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraInteraction()`
   - Creates a `CameraInteraction` instance.
 
-## Methods
-- `generatePacket()`
+## Method Descriptions
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `getWaitForDataFrom()`
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `needsRemoteSync()`
+- `needsRemoteSync()`: Add description.
   - Executes `needsRemoteSync` behavior.
 
 ## Notes

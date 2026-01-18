@@ -1,29 +1,29 @@
+**Source Hash:** `742ee017ebff1c8abc5aa0c59603119f633d71e1ab61ae7f839159b302d7bc78`
+
 # ResolvedBlockArray
 
 ## Overview
-- Documentation for `ResolvedBlockArray`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util`.
 
-## Constructors
+## Constructor Descriptions
 - `ResolvedBlockArray(BlockFluidEntry.EMPTY_ARRAY)`
   - Creates a `ResolvedBlockArray` instance.
 - `ResolvedBlockArray(@Nonnull BlockFluidEntry[] entries)`
   - Creates a `ResolvedBlockArray` instance.
 
-## Methods
-- `getEntries()`
+## Method Descriptions
+- `getEntries()`: Add description.
   - Executes `getEntries` behavior.
-- `getEntrySet()`
+- `getEntrySet()`: Add description.
   - Executes `getEntrySet` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `contains(int block, int fluidId)`
+- `contains(int block, int fluidId)`: Add description.
   - Executes `contains` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

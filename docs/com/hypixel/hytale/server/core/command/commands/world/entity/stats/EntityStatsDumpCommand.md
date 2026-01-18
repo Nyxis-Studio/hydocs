@@ -1,17 +1,17 @@
+**Source Hash:** `8a605df51060bdc95490115c97f3bea687efc06c5435c01f6dc972a52729db3e`
+
 # EntityStatsDumpCommand
 
 ## Overview
-- Documentation for `EntityStatsDumpCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.entity.stats`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStatsDumpCommand()`
   - Creates a `EntityStatsDumpCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull ObjectList<Ref<EntityStore>> entities, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull ObjectList<Ref<EntityStore>> entities, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `dumpEntityStatsData(@Nonnull CommandContext context, @Nonnull List<Ref<EntityStore>> entities, @Nonnull Store<EntityStore> store)`
+- `dumpEntityStatsData(@Nonnull CommandContext context, @Nonnull List<Ref<EntityStore>> entities, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `dumpEntityStatsData` behavior.
 
 ## Notes

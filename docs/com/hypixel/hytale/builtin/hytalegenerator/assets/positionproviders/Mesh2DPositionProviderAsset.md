@@ -1,14 +1,14 @@
+**Source Hash:** `e2a3c1ad3739990909e73dc37ccb36d80cb01b00d54de33231c1751b03591233`
+
 # Mesh2DPositionProviderAsset
 
 ## Overview
-- Documentation for `Mesh2DPositionProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.positionproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PositionProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PositionProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

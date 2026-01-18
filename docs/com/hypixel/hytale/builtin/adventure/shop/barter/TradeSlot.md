@@ -1,17 +1,17 @@
+**Source Hash:** `61b3d3d385e31151957815145b002143121d6504fab29eedc1d98d0ac96ba176`
+
 # TradeSlot
 
 ## Overview
-- Documentation for `TradeSlot`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `TradeSlot()`
   - Creates a `TradeSlot` instance.
 
-## Methods
-- `resolve(@Nonnull Random var1)`
+## Method Descriptions
+- `resolve(@Nonnull Random var1)`: Add description.
   - Executes `resolve` behavior.
-- `getSlotCount()`
+- `getSlotCount()`: Add description.
   - Executes `getSlotCount` behavior.
 
 ## Notes

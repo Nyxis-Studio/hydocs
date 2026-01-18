@@ -1,23 +1,23 @@
+**Source Hash:** `bfe3f943bc671abbd434849747632a7ff0768b6560bf4a910cffab2cabd30910`
+
 # VoidEventStagesSystem
 
 ## Overview
-- Documentation for `VoidEventStagesSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.systems.voidevent`.
 
-## Constructors
+## Constructor Descriptions
 - `VoidEventStagesSystem()`
   - Creates a `VoidEventStagesSystem` instance.
 
-## Methods
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `computeAppropriateStage(VoidEventConfig config, int elapsedSeconds)`
+- `computeAppropriateStage(VoidEventConfig config, int elapsedSeconds)`: Add description.
   - Executes `computeAppropriateStage` behavior.
-- `startStage(VoidEventStage stage, World world, Store<EntityStore> store, CommandBuffer<EntityStore> commandBuffer)`
+- `startStage(VoidEventStage stage, World world, Store<EntityStore> store, CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `startStage` behavior.
-- `stopStage(VoidEventStage stage, World world, Store<EntityStore> store, CommandBuffer<EntityStore> commandBuffer)`
+- `stopStage(VoidEventStage stage, World world, Store<EntityStore> store, CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `stopStage` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

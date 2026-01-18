@@ -1,19 +1,19 @@
+**Source Hash:** `8c49f5607523ab10c2c14b806f63a6974ee0e57313244aaba098f415f64f219d`
+
 # PlayerCollisionResultAddSystem
 
 ## Overview
-- Documentation for `PlayerCollisionResultAddSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.system`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerCollisionResultAddSystem(@Nonnull ComponentType<EntityStore, Player> playerComponentType, @Nonnull ComponentType<EntityStore, CollisionResultComponent> collisionResultComponentType)`
   - Creates a `PlayerCollisionResultAddSystem` instance.
 
-## Methods
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

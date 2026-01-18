@@ -1,15 +1,15 @@
+**Source Hash:** `ac4789eea59d5dda2c6fff69d0c612700d306a93b3b622b157202a3cbb6647cc`
+
 # RandomOffsetOperation
 
 ## Overview
-- Documentation for `RandomOffsetOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.offsets`.
 
-## Constructors
+## Constructor Descriptions
 - `RandomOffsetOperation()`
   - Creates a `RandomOffsetOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

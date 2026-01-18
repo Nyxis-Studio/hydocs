@@ -1,23 +1,23 @@
+**Source Hash:** `3545381ecbce82e16a761ca506fcb59b4695724a85c92078b3a979f4c3d6a7dd`
+
 # SensorCount
 
 ## Overview
-- Documentation for `SensorCount`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorCount(@Nonnull BuilderSensorCount builderSensorCount, @Nonnull BuilderSupport support)`
   - Creates a `SensorCount` instance.
 
-## Methods
-- `registerWithSupport(@Nonnull Role role)`
+## Method Descriptions
+- `registerWithSupport(@Nonnull Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `groupListHasPlayer(@Nonnull int[] groups)`
+- `groupListHasPlayer(@Nonnull int[] groups)`: Add description.
   - Executes `groupListHasPlayer` behavior.
-- `filterNPC(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `filterNPC(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `filterNPC` behavior.
 
 ## Notes

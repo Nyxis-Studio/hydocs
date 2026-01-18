@@ -1,15 +1,15 @@
+**Source Hash:** `e16f7898e6a75734eda67e36a6805cb09c2756cbd28aaacfa302d7dd39a35049`
+
 # UIEditorSectionStart
 
 ## Overview
-- Documentation for `UIEditorSectionStart`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `UIEditorSectionStart(String title)`
   - Creates a `UIEditorSectionStart` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

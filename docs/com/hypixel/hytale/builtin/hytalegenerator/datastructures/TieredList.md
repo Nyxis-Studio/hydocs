@@ -1,51 +1,51 @@
+**Source Hash:** `550e95633cf549d9492c4a32d2792cb7b3ff484f83e0f217bb76a36592863fd7`
+
 # TieredList
 
 ## Overview
-- Documentation for `TieredList`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures`.
 
-## Constructors
+## Constructor Descriptions
 - `TieredList()`
   - Creates a `TieredList` instance.
 - `TieredList(int tiers)`
   - Creates a `TieredList` instance.
 
-## Methods
-- `addTier(int tier)`
+## Method Descriptions
+- `addTier(int tier)`: Add description.
   - Executes `addTier` behavior.
-- `removeTier(int tier)`
+- `removeTier(int tier)`: Add description.
   - Executes `removeTier` behavior.
-- `add(@Nonnull E element, int tier)`
+- `add(@Nonnull E element, int tier)`: Add description.
   - Executes `add` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `peek()`
+- `peek()`: Add description.
   - Executes `peek` behavior.
-- `remove()`
+- `remove()`: Add description.
   - Executes `remove` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `size(int tier)`
+- `size(int tier)`: Add description.
   - Executes `size` behavior.
-- `forEach(int tier, @Nonnull Consumer<? super E> consumer)`
+- `forEach(int tier, @Nonnull Consumer<? super E> consumer)`: Add description.
   - Executes `forEach` behavior.
-- `removeEach(int tier, @Nonnull Consumer<? super E> consumer)`
+- `removeEach(int tier, @Nonnull Consumer<? super E> consumer)`: Add description.
   - Executes `removeEach` behavior.
-- `forEach(@Nonnull Consumer<? super E> consumer)`
+- `forEach(@Nonnull Consumer<? super E> consumer)`: Add description.
   - Executes `forEach` behavior.
-- `removeEach(@Nonnull Consumer<? super E> consumer)`
+- `removeEach(@Nonnull Consumer<? super E> consumer)`: Add description.
   - Executes `removeEach` behavior.
-- `iterator(int tier)`
+- `iterator(int tier)`: Add description.
   - Executes `iterator` behavior.
-- `listOf(int tier)`
+- `listOf(int tier)`: Add description.
   - Executes `listOf` behavior.
-- `tierExists(int tier)`
+- `tierExists(int tier)`: Add description.
   - Executes `tierExists` behavior.
-- `getTiers()`
+- `getTiers()`: Add description.
   - Executes `getTiers` behavior.
-- `updateSortedTierList()`
+- `updateSortedTierList()`: Add description.
   - Executes `updateSortedTierList` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

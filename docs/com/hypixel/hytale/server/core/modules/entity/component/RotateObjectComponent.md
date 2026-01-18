@@ -1,10 +1,10 @@
+**Source Hash:** `582c7603d2e2e3f4af625e8c6bb22a987afd468962afb7ebbd1a007692eee887`
+
 # RotateObjectComponent
 
 ## Overview
-- Documentation for `RotateObjectComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `RotateObjectComponent()`
   - Creates a `RotateObjectComponent` instance.
 - `RotateObjectComponent(float rotationSpeed)`
@@ -12,14 +12,14 @@
 - `RotateObjectComponent(this.rotationSpeed)`
   - Creates a `RotateObjectComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `setRotationSpeed(float rotationSpeed)`
+- `setRotationSpeed(float rotationSpeed)`: Add description.
   - Executes `setRotationSpeed` behavior.
-- `getRotationSpeed()`
+- `getRotationSpeed()`: Add description.
   - Executes `getRotationSpeed` behavior.
 
 ## Notes

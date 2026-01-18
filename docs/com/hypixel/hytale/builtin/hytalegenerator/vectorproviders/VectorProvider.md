@@ -1,14 +1,14 @@
+**Source Hash:** `7b259e4058efa102fc939a54d98b2762751610ca99c7cc13faf1316a659fa3a4`
+
 # VectorProvider
 
 ## Overview
-- Documentation for `VectorProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.vectorproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `process(@Nonnull Context var1)`
+## Method Descriptions
+- `process(@Nonnull Context var1)`: Add description.
   - Executes `process` behavior.
 
 ## Notes

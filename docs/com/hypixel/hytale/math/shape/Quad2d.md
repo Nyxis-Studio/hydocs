@@ -1,10 +1,10 @@
+**Source Hash:** `50638c625db532d5d92b5b7226a8e6372dc93264278c1c3089e5fc76ecdb61da`
+
 # Quad2d
 
 ## Overview
-- Documentation for `Quad2d`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Quad2d(Vector2d a, Vector2d b, Vector2d c, Vector2d d)`
   - Creates a `Quad2d` instance.
 - `Quad2d()`
@@ -14,32 +14,32 @@
 - `Quad2d(@Nonnull Vector2d[] points, int a, int b, int c, int d)`
   - Creates a `Quad2d` instance.
 
-## Methods
-- `getA()`
+## Method Descriptions
+- `getA()`: Add description.
   - Executes `getA` behavior.
-- `getB()`
+- `getB()`: Add description.
   - Executes `getB` behavior.
-- `getC()`
+- `getC()`: Add description.
   - Executes `getC` behavior.
-- `getD()`
+- `getD()`: Add description.
   - Executes `getD` behavior.
-- `getMinX()`
+- `getMinX()`: Add description.
   - Executes `getMinX` behavior.
-- `getMinY()`
+- `getMinY()`: Add description.
   - Executes `getMinY` behavior.
-- `getMaxX()`
+- `getMaxX()`: Add description.
   - Executes `getMaxX` behavior.
-- `getMaxY()`
+- `getMaxY()`: Add description.
   - Executes `getMaxY` behavior.
-- `getCenter()`
+- `getCenter()`: Add description.
   - Executes `getCenter` behavior.
-- `getCenter(@Nonnull Vector2d target)`
+- `getCenter(@Nonnull Vector2d target)`: Add description.
   - Executes `getCenter` behavior.
-- `getRandom(@Nonnull Random random)`
+- `getRandom(@Nonnull Random random)`: Add description.
   - Executes `getRandom` behavior.
-- `getRandom(@Nonnull Random random, @Nonnull Vector2d vec)`
+- `getRandom(@Nonnull Random random, @Nonnull Vector2d vec)`: Add description.
   - Executes `getRandom` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

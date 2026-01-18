@@ -1,17 +1,17 @@
+**Source Hash:** `906f8fd41662112e22f872f657ab3839dfb1e0068cba4d3edfe7e305c80ac727`
+
 # RangedThicknessLayer
 
 ## Overview
-- Documentation for `RangedThicknessLayer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.spaceanddepth.layers`.
 
-## Constructors
+## Constructor Descriptions
 - `RangedThicknessLayer(int minInclusive, int maxInclusive, @Nonnull SeedBox seedBox, @Nullable MaterialProvider<V> materialProvider)`
   - Creates a `RangedThicknessLayer` instance.
 
-## Methods
-- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`
+## Method Descriptions
+- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`: Add description.
   - Executes `getThicknessAt` behavior.
-- `getMaterialProvider()`
+- `getMaterialProvider()`: Add description.
   - Executes `getMaterialProvider` behavior.
 
 ## Notes

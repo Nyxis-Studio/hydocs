@@ -1,32 +1,32 @@
+**Source Hash:** `82bda4b48df348c6762f87cc464765d0657669dbc28d6d9fb53258360e7c2429`
+
 # SpatialData
 
 ## Overview
-- Documentation for `SpatialData`.
-- Declared as a class in `com.hypixel.hytale.component.spatial`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `size()`
+## Method Descriptions
+- `size()`: Add description.
   - Executes `size` behavior.
-- `getSortedIndex(int i)`
+- `getSortedIndex(int i)`: Add description.
   - Executes `getSortedIndex` behavior.
-- `getVector(int i)`
+- `getVector(int i)`: Add description.
   - Executes `getVector` behavior.
-- `getData(int i)`
+- `getData(int i)`: Add description.
   - Executes `getData` behavior.
-- `add(@Nonnull Vector3d vector, @Nonnull T value)`
+- `add(@Nonnull Vector3d vector, @Nonnull T value)`: Add description.
   - Executes `add` behavior.
-- `addCapacity(int additionalSize)`
+- `addCapacity(int additionalSize)`: Add description.
   - Executes `addCapacity` behavior.
-- `append(@Nonnull Vector3d vector, @Nonnull T value)`
+- `append(@Nonnull Vector3d vector, @Nonnull T value)`: Add description.
   - Executes `append` behavior.
-- `sort()`
+- `sort()`: Add description.
   - Executes `sort` behavior.
-- `sortMorton()`
+- `sortMorton()`: Add description.
   - Executes `sortMorton` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

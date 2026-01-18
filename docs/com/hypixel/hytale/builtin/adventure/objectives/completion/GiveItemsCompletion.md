@@ -1,19 +1,19 @@
+**Source Hash:** `eb801d19199b6f9dc6b928774b788d82b592c8cc37cb2817b2c72a16cd10ce0c`
+
 # GiveItemsCompletion
 
 ## Overview
-- Documentation for `GiveItemsCompletion`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.completion`.
 
-## Constructors
+## Constructor Descriptions
 - `GiveItemsCompletion(@Nonnull GiveItemsCompletionAsset asset)`
   - Creates a `GiveItemsCompletion` instance.
 
-## Methods
-- `getAsset()`
+## Method Descriptions
+- `getAsset()`: Add description.
   - Executes `getAsset` behavior.
-- `handle(@Nonnull Objective objective, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `handle(@Nonnull Objective objective, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `handle` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

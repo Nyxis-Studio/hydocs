@@ -1,18 +1,18 @@
+**Source Hash:** `a97065eef5bdcb53fe4e3fc8b631f9e893ba7c7c32ebfcd2b5f588552a8d4aad`
+
 # CombatBalanceAsset
 
 ## Overview
-- Documentation for `CombatBalanceAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getTargetMemoryDuration()`
+## Method Descriptions
+- `getTargetMemoryDuration()`: Add description.
   - Executes `getTargetMemoryDuration` behavior.
-- `getEvaluatorConfig()`
+- `getEvaluatorConfig()`: Add description.
   - Executes `getEvaluatorConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

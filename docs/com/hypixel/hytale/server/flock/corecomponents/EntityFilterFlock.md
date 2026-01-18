@@ -1,17 +1,17 @@
+**Source Hash:** `cfcf220bbdcee225e1e313f8eb203a398a1f7d48cf589ff819d440049ff062c9`
+
 # EntityFilterFlock
 
 ## Overview
-- Documentation for `EntityFilterFlock`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityFilterFlock(@Nonnull BuilderEntityFilterFlock builder)`
   - Creates a `EntityFilterFlock` instance.
 
-## Methods
-- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matchesEntity` behavior.
-- `cost()`
+- `cost()`: Add description.
   - Executes `cost` behavior.
 
 ## Notes

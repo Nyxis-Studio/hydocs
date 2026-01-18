@@ -1,14 +1,14 @@
+**Source Hash:** `a55f779f5c50722bc9113696e227d1d5da03c0a4cb34615dc3cdc00c33e11a1a`
+
 # HLongSet
 
 ## Overview
-- Documentation for `HLongSet`.
-- Declared as a interface in `com.hypixel.hytale.common.fastutil`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `removeIf(LongTriIntBiObjPredicate<T, V> var1, int var2, int var3, int var4, T var5, V var6)`
+## Method Descriptions
+- `removeIf(LongTriIntBiObjPredicate<T, V> var1, int var2, int var3, int var4, T var5, V var6)`: Add description.
   - Executes `removeIf` behavior.
 
 ## Notes

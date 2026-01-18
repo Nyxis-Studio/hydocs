@@ -1,16 +1,16 @@
+**Source Hash:** `5084283194e18d7e9eab9a4063f504ba9b4c1c31c9ad95665dd7b726c4312e65`
+
 # ImportedVectorProviderAsset
 
 ## Overview
-- Documentation for `ImportedVectorProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.vectorproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull VectorProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull VectorProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

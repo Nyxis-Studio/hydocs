@@ -1,14 +1,14 @@
+**Source Hash:** `241d81816a4c40e78ecb0eee1f36194b594f6889eddf2da023e925ad9022b7c9`
+
 # PatternUtil
 
 ## Overview
-- Documentation for `PatternUtil`.
-- Declared as a class in `com.hypixel.hytale.common.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `replaceBackslashWithForwardSlash(@Nonnull String name)`
+## Method Descriptions
+- `replaceBackslashWithForwardSlash(@Nonnull String name)`: Add description.
   - Executes `replaceBackslashWithForwardSlash` behavior.
 
 ## Notes

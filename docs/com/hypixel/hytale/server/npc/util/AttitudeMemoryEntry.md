@@ -1,23 +1,23 @@
+**Source Hash:** `92eb764bf8f64cf65def3d41f6d31f0d6326724c660b4ce5cb1c2c2bbd52bcf8`
+
 # AttitudeMemoryEntry
 
 ## Overview
-- Documentation for `AttitudeMemoryEntry`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
+## Constructor Descriptions
 - `AttitudeMemoryEntry(Attitude attitudeOverride, double initialDuration)`
   - Creates a `AttitudeMemoryEntry` instance.
 
-## Methods
-- `tick(float dt)`
+## Method Descriptions
+- `tick(float dt)`: Add description.
   - Executes `tick` behavior.
-- `getRemainingDuration()`
+- `getRemainingDuration()`: Add description.
   - Executes `getRemainingDuration` behavior.
-- `getInitialDuration()`
+- `getInitialDuration()`: Add description.
   - Executes `getInitialDuration` behavior.
-- `getAttitudeOverride()`
+- `getAttitudeOverride()`: Add description.
   - Executes `getAttitudeOverride` behavior.
-- `isExpired()`
+- `isExpired()`: Add description.
   - Executes `isExpired` behavior.
 
 ## Notes

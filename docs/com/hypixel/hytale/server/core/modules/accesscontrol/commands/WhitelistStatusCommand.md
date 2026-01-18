@@ -1,15 +1,15 @@
+**Source Hash:** `4219ad0277ec913ecbde6fb8245c99c8c4dd7dd9f61f7d85a6b167aa0cba7579`
+
 # WhitelistStatusCommand
 
 ## Overview
-- Documentation for `WhitelistStatusCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WhitelistStatusCommand(@Nonnull HytaleWhitelistProvider whitelistProvider)`
   - Creates a `WhitelistStatusCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

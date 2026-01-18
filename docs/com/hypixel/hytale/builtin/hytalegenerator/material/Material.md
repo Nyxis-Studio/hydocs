@@ -1,29 +1,29 @@
+**Source Hash:** `1587a275836d87ddc9fa4f536b6c804e70abf84a0fbb031c38da6e960cd5e2e3`
+
 # Material
 
 ## Overview
-- Documentation for `Material`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.material`.
 
-## Constructors
+## Constructor Descriptions
 - `Material(@Nonnull SolidMaterial solid, @Nonnull FluidMaterial fluid)`
   - Creates a `Material` instance.
 
-## Methods
-- `equals(Object o)`
+## Method Descriptions
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `hashMaterialIds()`
+- `hashMaterialIds()`: Add description.
   - Executes `hashMaterialIds` behavior.
-- `hashCode(@Nonnull SolidMaterial solid, @Nonnull FluidMaterial fluid)`
+- `hashCode(@Nonnull SolidMaterial solid, @Nonnull FluidMaterial fluid)`: Add description.
   - Executes `hashCode` behavior.
-- `hashMaterialIds(@Nonnull SolidMaterial solid, @Nonnull FluidMaterial fluid)`
+- `hashMaterialIds(@Nonnull SolidMaterial solid, @Nonnull FluidMaterial fluid)`: Add description.
   - Executes `hashMaterialIds` behavior.
-- `solid()`
+- `solid()`: Add description.
   - Executes `solid` behavior.
-- `fluid()`
+- `fluid()`: Add description.
   - Executes `fluid` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

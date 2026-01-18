@@ -1,10 +1,10 @@
+**Source Hash:** `c5d2c7a9012ae11b421bfe97ed013685de884a7c3a0ecae0d9f6def7fb613025`
+
 # BlockMask
 
 ## Overview
-- Documentation for `BlockMask`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.mask`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMask(BlockFilter.EMPTY_ARRAY)`
   - Creates a `BlockMask` instance.
 - `BlockMask(BlockFilter[] filters)`
@@ -16,32 +16,32 @@
 - `BlockMask(inputFilters)`
   - Creates a `BlockMask` instance.
 
-## Methods
-- `withOptions(@Nonnull BlockFilter.FilterType filterType, boolean inverted)`
+## Method Descriptions
+- `withOptions(@Nonnull BlockFilter.FilterType filterType, boolean inverted)`: Add description.
   - Executes `withOptions` behavior.
-- `getFilters()`
+- `getFilters()`: Add description.
   - Executes `getFilters` behavior.
-- `setInverted(boolean inverted)`
+- `setInverted(boolean inverted)`: Add description.
   - Executes `setInverted` behavior.
-- `isInverted()`
+- `isInverted()`: Add description.
   - Executes `isInverted` behavior.
-- `isExcluded(@Nonnull ChunkAccessor accessor, int x, int y, int z, Vector3i min, Vector3i max, int blockId)`
+- `isExcluded(@Nonnull ChunkAccessor accessor, int x, int y, int z, Vector3i min, Vector3i max, int blockId)`: Add description.
   - Executes `isExcluded` behavior.
-- `isExcluded(@Nonnull ChunkAccessor accessor, int x, int y, int z, Vector3i min, Vector3i max, int blockId, int fluidId)`
+- `isExcluded(@Nonnull ChunkAccessor accessor, int x, int y, int z, Vector3i min, Vector3i max, int blockId, int fluidId)`: Add description.
   - Executes `isExcluded` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `informativeToString()`
+- `informativeToString()`: Add description.
   - Executes `informativeToString` behavior.
-- `joinElements(String separator, @Nonnull Object[] elements)`
+- `joinElements(String separator, @Nonnull Object[] elements)`: Add description.
   - Executes `joinElements` behavior.
-- `parse(@Nonnull String masks)`
+- `parse(@Nonnull String masks)`: Add description.
   - Executes `parse` behavior.
-- `parse(@Nonnull String[] masks)`
+- `parse(@Nonnull String[] masks)`: Add description.
   - Executes `parse` behavior.
-- `combine(BlockMask ... masks)`
+- `combine(BlockMask ... masks)`: Add description.
   - Executes `combine` behavior.
-- `groupFilters(@Nonnull BlockFilter[] inputFilters)`
+- `groupFilters(@Nonnull BlockFilter[] inputFilters)`: Add description.
   - Executes `groupFilters` behavior.
 
 ## Notes

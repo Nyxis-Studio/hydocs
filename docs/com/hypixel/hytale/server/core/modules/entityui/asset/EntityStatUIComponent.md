@@ -1,14 +1,14 @@
+**Source Hash:** `b1d7c275ef892bf4721254fc02bf0ba116804b9311cf04ab10346646ee5b2c1e`
+
 # EntityStatUIComponent
 
 ## Overview
-- Documentation for `EntityStatUIComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui.asset`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

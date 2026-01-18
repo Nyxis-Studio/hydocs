@@ -1,20 +1,20 @@
+**Source Hash:** `83c7f1cad99f1a36926bf3f8245bb3b7134ba8d54930d4fb46408889763785c5`
+
 # BuilderSensorIsBackingAway
 
 ## Overview
-- Documentation for `BuilderSensorIsBackingAway`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.combat.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `9ef90841d84d55c2f0d653e81f98b8b6911985dce9a7c1e52b4f9730ec1c20ff`
+
 # UIComponentList
 
 ## Overview
-- Documentation for `UIComponentList`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui`.
 
-## Constructors
+## Constructor Descriptions
 - `UIComponentList()`
   - Creates a `UIComponentList` instance.
 - `UIComponentList(@Nonnull UIComponentList other)`
@@ -12,14 +12,14 @@
 - `UIComponentList(this)`
   - Creates a `UIComponentList` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `update()`
+- `update()`: Add description.
   - Executes `update` behavior.
-- `getComponentIds()`
+- `getComponentIds()`: Add description.
   - Executes `getComponentIds` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

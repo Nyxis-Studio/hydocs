@@ -1,17 +1,17 @@
+**Source Hash:** `f5d7c145da54a300bc174862b72f73b129c5f92be827e18120201fb5d2a904d3`
+
 # AuthSelectCommand
 
 ## Overview
-- Documentation for `AuthSelectCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthSelectCommand()`
   - Creates a `AuthSelectCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
-- `sendProfileList(@Nonnull CommandContext context, @Nonnull SessionServiceClient.GameProfile[] profiles)`
+- `sendProfileList(@Nonnull CommandContext context, @Nonnull SessionServiceClient.GameProfile[] profiles)`: Add description.
   - Executes `sendProfileList` behavior.
 
 ## Notes

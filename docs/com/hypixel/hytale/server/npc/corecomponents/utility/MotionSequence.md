@@ -1,45 +1,45 @@
+**Source Hash:** `c3b079b6974ccda351d84fc90fe8fc8671cdb3a42b47bd6d31f38d07f8d73934`
+
 # MotionSequence
 
 ## Overview
-- Documentation for `MotionSequence`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `MotionSequence(@Nonnull BuilderMotionSequence<T> builder, T[] steps)`
   - Creates a `MotionSequence` instance.
 
-## Methods
-- `activate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `activate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `activate` behavior.
-- `deactivate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `deactivate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `deactivate` behavior.
-- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeSteering` behavior.
-- `registerWithSupport(Role role)`
+- `registerWithSupport(Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `componentCount()`
+- `componentCount()`: Add description.
   - Executes `componentCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
-- `setContext(IAnnotatedComponent parent, int index)`
+- `setContext(IAnnotatedComponent parent, int index)`: Add description.
   - Executes `setContext` behavior.
-- `restart()`
+- `restart()`: Add description.
   - Executes `restart` behavior.
-- `doActivate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `doActivate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `doActivate` behavior.
-- `activateNext(@Nonnull Ref<EntityStore> ref, int newIndex, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `activateNext(@Nonnull Ref<EntityStore> ref, int newIndex, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `activateNext` behavior.
 
 ## Notes

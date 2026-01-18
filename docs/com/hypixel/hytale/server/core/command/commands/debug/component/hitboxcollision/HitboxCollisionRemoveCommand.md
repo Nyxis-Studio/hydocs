@@ -1,17 +1,17 @@
+**Source Hash:** `95e10a19c23d919a8c1f67086da90a1c592078d17aa09f8bb7851e7de474c95b`
+
 # HitboxCollisionRemoveCommand
 
 ## Overview
-- Documentation for `HitboxCollisionRemoveCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.component.hitboxcollision`.
 
-## Constructors
+## Constructor Descriptions
 - `HitboxCollisionRemoveCommand()`
   - Creates a `HitboxCollisionRemoveCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

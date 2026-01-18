@@ -1,17 +1,17 @@
+**Source Hash:** `764e380bbd60a5318f73d3f359f4b8310647707552761354dc6a85923421b5c7`
+
 # PlayerEffectApplyCommand
 
 ## Overview
-- Documentation for `PlayerEffectApplyCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.effect`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerEffectApplyCommand()`
   - Creates a `PlayerEffectApplyCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `executeSync(@Nonnull CommandContext context)`
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

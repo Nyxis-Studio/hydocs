@@ -1,48 +1,48 @@
+**Source Hash:** `d16b028c95dd495ee169c9a96a7692b5902f10b028824078239d8233cb189aeb`
+
 # ArgTypes
 
 ## Overview
-- Documentation for `ArgTypes`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `parse(String input, ParseResult parseResult)`
+## Method Descriptions
+- `parse(String input, ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`
+- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`: Add description.
   - Executes `suggest` behavior.
-- `parse(@Nonnull String input, ParseResult parseResult)`
+- `parse(@Nonnull String input, ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`
+- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `processedGet(CommandSender sender, @Nonnull CommandContext context, Argument<?, PlayerRef> argument)`
+- `processedGet(CommandSender sender, @Nonnull CommandContext context, Argument<?, PlayerRef> argument)`: Add description.
   - Executes `processedGet` behavior.
-- `processedGet(CommandSender sender, @Nonnull CommandContext context, @Nonnull Argument<?, World> argument)`
+- `processedGet(CommandSender sender, @Nonnull CommandContext context, @Nonnull Argument<?, World> argument)`: Add description.
   - Executes `processedGet` behavior.
-- `parse(String input, @Nonnull ParseResult parseResult)`
+- `parse(String input, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `parse(@Nonnull MultiArgumentContext context, @Nonnull ParseResult parseResult)`
+- `parse(@Nonnull MultiArgumentContext context, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `parse(@Nonnull MultiArgumentContext context, ParseResult parseResult)`
+- `parse(@Nonnull MultiArgumentContext context, ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `processInput(String blockTypeKey)`
+- `processInput(String blockTypeKey)`: Add description.
   - Executes `processInput` behavior.
-- `processInput(@Nonnull List<String> entries)`
+- `processInput(@Nonnull List<String> entries)`: Add description.
   - Executes `processInput` behavior.
-- `processInput(@Nonnull List<BlockMask> masks)`
+- `processInput(@Nonnull List<BlockMask> masks)`: Add description.
   - Executes `processInput` behavior.
-- `forEnum(String name, @Nonnull Class<E> enumType)`
+- `forEnum(String name, @Nonnull Class<E> enumType)`: Add description.
   - Executes `forEnum` behavior.
-- `operate(int previous, int modifier)`
+- `operate(int previous, int modifier)`: Add description.
   - Executes `operate` behavior.
-- `getStringRepresentation()`
+- `getStringRepresentation()`: Add description.
   - Executes `getStringRepresentation` behavior.
-- `getFromStringRepresentation(@Nonnull String stringRepresentation)`
+- `getFromStringRepresentation(@Nonnull String stringRepresentation)`: Add description.
   - Executes `getFromStringRepresentation` behavior.
-- `compare(int left, int right)`
+- `compare(int left, int right)`: Add description.
   - Executes `compare` behavior.
-- `getFromStringRepresentation(String stringRepresentation)`
+- `getFromStringRepresentation(String stringRepresentation)`: Add description.
   - Executes `getFromStringRepresentation` behavior.
 
 ## Notes

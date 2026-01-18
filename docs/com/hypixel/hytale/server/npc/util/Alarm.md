@@ -1,18 +1,18 @@
+**Source Hash:** `98bbb65a9387a91970a78c8bbef25257d75d9fab70013495bbd880d5abde7baa`
+
 # Alarm
 
 ## Overview
-- Documentation for `Alarm`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `set0(Instant value)`
+## Method Descriptions
+- `set0(Instant value)`: Add description.
   - Executes `set0` behavior.
-- `isSet()`
+- `isSet()`: Add description.
   - Executes `isSet` behavior.
-- `hasPassed(@Nonnull Instant instant)`
+- `hasPassed(@Nonnull Instant instant)`: Add description.
   - Executes `hasPassed` behavior.
 
 ## Notes

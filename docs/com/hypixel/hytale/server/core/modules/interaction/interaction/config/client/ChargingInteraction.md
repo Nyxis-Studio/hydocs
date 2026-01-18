@@ -1,39 +1,39 @@
+**Source Hash:** `b438f0603e84db24796c0a881d1ccc3db36a5de2410b56ef7f238d1ebc69e616`
+
 # ChargingInteraction
 
 ## Overview
-- Documentation for `ChargingInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `ChargingInteraction()`
   - Creates a `ChargingInteraction` instance.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateTick0` behavior.
-- `jumpToChargeValue(@Nonnull InteractionContext context, float chargeValue)`
+- `jumpToChargeValue(@Nonnull InteractionContext context, float chargeValue)`: Add description.
   - Executes `jumpToChargeValue` behavior.
-- `compile(@Nonnull OperationsBuilder builder)`
+- `compile(@Nonnull OperationsBuilder builder)`: Add description.
   - Executes `compile` behavior.
-- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`
+- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`: Add description.
   - Executes `walk` behavior.
-- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`
+- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `needsRemoteSync()`
+- `needsRemoteSync()`: Add description.
   - Executes `needsRemoteSync` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getSeconds()`
+- `getSeconds()`: Add description.
   - Executes `getSeconds` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `of(float seconds)`
+- `of(float seconds)`: Add description.
   - Executes `of` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `442a9e2d57b863f846fa6ec368f07b2abf7b4e732f8ca36faec9cd0f70c14816`
+
 # LeaveCommand
 
 ## Overview
-- Documentation for `LeaveCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.commands.player`.
 
-## Constructors
+## Constructor Descriptions
 - `LeaveCommand()`
   - Creates a `LeaveCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

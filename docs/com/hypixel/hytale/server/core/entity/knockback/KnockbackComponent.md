@@ -1,43 +1,43 @@
+**Source Hash:** `7cf1fec69b82acee7906ed7c0c8e97bd266e530bb1d6062979a5968320551b68`
+
 # KnockbackComponent
 
 ## Overview
-- Documentation for `KnockbackComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.knockback`.
 
-## Constructors
+## Constructor Descriptions
 - `KnockbackComponent()`
   - Creates a `KnockbackComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getVelocity()`
+- `getVelocity()`: Add description.
   - Executes `getVelocity` behavior.
-- `setVelocity(@Nonnull Vector3d velocity)`
+- `setVelocity(@Nonnull Vector3d velocity)`: Add description.
   - Executes `setVelocity` behavior.
-- `getVelocityType()`
+- `getVelocityType()`: Add description.
   - Executes `getVelocityType` behavior.
-- `setVelocityType(ChangeVelocityType velocityType)`
+- `setVelocityType(ChangeVelocityType velocityType)`: Add description.
   - Executes `setVelocityType` behavior.
-- `getVelocityConfig()`
+- `getVelocityConfig()`: Add description.
   - Executes `getVelocityConfig` behavior.
-- `setVelocityConfig(@Nullable VelocityConfig velocityConfig)`
+- `setVelocityConfig(@Nullable VelocityConfig velocityConfig)`: Add description.
   - Executes `setVelocityConfig` behavior.
-- `addModifier(double modifier)`
+- `addModifier(double modifier)`: Add description.
   - Executes `addModifier` behavior.
-- `applyModifiers()`
+- `applyModifiers()`: Add description.
   - Executes `applyModifiers` behavior.
-- `getDuration()`
+- `getDuration()`: Add description.
   - Executes `getDuration` behavior.
-- `setDuration(float duration)`
+- `setDuration(float duration)`: Add description.
   - Executes `setDuration` behavior.
-- `getTimer()`
+- `getTimer()`: Add description.
   - Executes `getTimer` behavior.
-- `incrementTimer(float time)`
+- `incrementTimer(float time)`: Add description.
   - Executes `incrementTimer` behavior.
-- `setTimer(float time)`
+- `setTimer(float time)`: Add description.
   - Executes `setTimer` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

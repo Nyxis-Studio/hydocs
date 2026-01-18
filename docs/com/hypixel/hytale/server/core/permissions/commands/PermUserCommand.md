@@ -1,15 +1,15 @@
+**Source Hash:** `66e262dff46fd08a2ee558e9f9fd790264200821e800aeb3d8867ebca0aa2766`
+
 # PermUserCommand
 
 ## Overview
-- Documentation for `PermUserCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PermUserCommand()`
   - Creates a `PermUserCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,29 +1,29 @@
+**Source Hash:** `3e68a454e0c996afec03a34e8b9a71b3bf751876b3820ea3067ffc207d3029db`
+
 # BlockPositionData
 
 ## Overview
-- Documentation for `BlockPositionData`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section.blockpositions`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockPositionData(int blockIndex, ChunkSectionReference section, int blockType)`
   - Creates a `BlockPositionData` instance.
 
-## Methods
-- `getChunkSection()`
+## Method Descriptions
+- `getChunkSection()`: Add description.
   - Executes `getChunkSection` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getXCentre()`
+- `getXCentre()`: Add description.
   - Executes `getXCentre` behavior.
-- `getYCentre()`
+- `getYCentre()`: Add description.
   - Executes `getYCentre` behavior.
-- `getZCentre()`
+- `getZCentre()`: Add description.
   - Executes `getZCentre` behavior.
 
 ## Notes

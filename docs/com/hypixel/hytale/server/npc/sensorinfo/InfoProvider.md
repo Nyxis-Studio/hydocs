@@ -1,24 +1,24 @@
+**Source Hash:** `ecce4077d608e351f45fedde0251dbf30fe6ce285c999b56bfeaabfad714ed5a`
+
 # InfoProvider
 
 ## Overview
-- Documentation for `InfoProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPositionProvider()`
+## Method Descriptions
+- `getPositionProvider()`: Add description.
   - Executes `getPositionProvider` behavior.
-- `getParameterProvider(int var1)`
+- `getParameterProvider(int var1)`: Add description.
   - Executes `getParameterProvider` behavior.
-- `getExtraInfo(Class<E> var1)`
+- `getExtraInfo(Class<E> var1)`: Add description.
   - Executes `getExtraInfo` behavior.
-- `passExtraInfo(E var1)`
+- `passExtraInfo(E var1)`: Add description.
   - Executes `passExtraInfo` behavior.
-- `getPassedExtraInfo(Class<E> var1)`
+- `getPassedExtraInfo(Class<E> var1)`: Add description.
   - Executes `getPassedExtraInfo` behavior.
-- `hasPosition()`
+- `hasPosition()`: Add description.
   - Executes `hasPosition` behavior.
 
 ## Notes

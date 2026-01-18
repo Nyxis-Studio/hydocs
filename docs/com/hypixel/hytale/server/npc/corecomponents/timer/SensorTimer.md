@@ -1,19 +1,19 @@
+**Source Hash:** `8e16e348031b40eaebfd488acea8ea1fbee60e6b833623dad498c5785c1f4862`
+
 # SensorTimer
 
 ## Overview
-- Documentation for `SensorTimer`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorTimer(@Nonnull BuilderSensorTimer builderSensorTimer, @Nonnull BuilderSupport builderSupport)`
   - Creates a `SensorTimer` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `isBetween(double value)`
+- `isBetween(double value)`: Add description.
   - Executes `isBetween` behavior.
 
 ## Notes

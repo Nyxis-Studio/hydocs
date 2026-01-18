@@ -1,10 +1,10 @@
+**Source Hash:** `95a2b0c49a82444547e027d41b1d3c3a11cf462cd36ade71ac1b362f94443483`
+
 # EditorClient
 
 ## Overview
-- Documentation for `EditorClient`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `EditorClient(String language, @Nonnull PlayerAuthentication auth, PacketHandler packetHandler)`
   - Creates a `EditorClient` instance.
 - `EditorClient(String language, UUID uuid, String username, PacketHandler packetHandler)`
@@ -12,32 +12,32 @@
 - `EditorClient(@Nonnull PlayerRef playerRef)`
   - Creates a `EditorClient` instance.
 
-## Methods
-- `getLanguage()`
+## Method Descriptions
+- `getLanguage()`: Add description.
   - Executes `getLanguage` behavior.
-- `setLanguage(String language)`
+- `setLanguage(String language)`: Add description.
   - Executes `setLanguage` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `getUsername()`
+- `getUsername()`: Add description.
   - Executes `getUsername` behavior.
-- `getAuth()`
+- `getAuth()`: Add description.
   - Executes `getAuth` behavior.
-- `getPacketHandler()`
+- `getPacketHandler()`: Add description.
   - Executes `getPacketHandler` behavior.
-- `tryGetPlayer()`
+- `tryGetPlayer()`: Add description.
   - Executes `tryGetPlayer` behavior.
-- `hasPermission(@Nonnull String id)`
+- `hasPermission(@Nonnull String id)`: Add description.
   - Executes `hasPermission` behavior.
-- `hasPermission(@Nonnull String id, boolean def)`
+- `hasPermission(@Nonnull String id, boolean def)`: Add description.
   - Executes `hasPermission` behavior.
-- `sendPopupNotification(AssetEditorPopupNotificationType type, @Nonnull Message message)`
+- `sendPopupNotification(AssetEditorPopupNotificationType type, @Nonnull Message message)`: Add description.
   - Executes `sendPopupNotification` behavior.
-- `sendSuccessReply(int token)`
+- `sendSuccessReply(int token)`: Add description.
   - Executes `sendSuccessReply` behavior.
-- `sendSuccessReply(int token, @Nullable Message message)`
+- `sendSuccessReply(int token, @Nullable Message message)`: Add description.
   - Executes `sendSuccessReply` behavior.
-- `sendFailureReply(int token, @Nonnull Message message)`
+- `sendFailureReply(int token, @Nonnull Message message)`: Add description.
   - Executes `sendFailureReply` behavior.
 
 ## Notes

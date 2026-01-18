@@ -1,10 +1,10 @@
+**Source Hash:** `664c04d6bd81f0a7de4743eecf53bb58ef3b0dad9f9332b94b0b781d93a21d83`
+
 # ConnectedBlockRuleSet
 
 ## Overview
-- Documentation for `ConnectedBlockRuleSet`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ConnectedBlockRuleSet()`
   - Creates a `ConnectedBlockRuleSet` instance.
 - `ConnectedBlockRuleSet(@Nonnull ConnectedBlockRuleSetType type, @Nullable StairConnectedBlockRuleSet stair, @Nullable RoofConnectedBlockRuleSet roof)`
@@ -12,22 +12,22 @@
 - `ConnectedBlockRuleSet(@Nonnull ConnectedBlockRuleSet other)`
   - Creates a `ConnectedBlockRuleSet` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,21 +1,21 @@
+**Source Hash:** `53093e5500cd8e2b512049a056f46ec956f7a5b24dafa33a7420b8e3b629660f`
+
 # AmbienceResource
 
 ## Overview
-- Documentation for `AmbienceResource`.
-- Declared as a class in `com.hypixel.hytale.builtin.ambience.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceResource()`
   - Creates a `AmbienceResource` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `setForcedMusicAmbience(@Nullable String musicAmbienceId)`
+- `setForcedMusicAmbience(@Nullable String musicAmbienceId)`: Add description.
   - Executes `setForcedMusicAmbience` behavior.
-- `getForcedMusicIndex()`
+- `getForcedMusicIndex()`: Add description.
   - Executes `getForcedMusicIndex` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

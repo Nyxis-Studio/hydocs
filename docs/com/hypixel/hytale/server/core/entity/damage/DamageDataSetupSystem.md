@@ -1,19 +1,19 @@
+**Source Hash:** `3f61d9d7883bef5e03aaeea38e7da4ae96f95eae293d4c26ca5ae5d6199dcbad`
+
 # DamageDataSetupSystem
 
 ## Overview
-- Documentation for `DamageDataSetupSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.damage`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageDataSetupSystem(@Nonnull ComponentType<EntityStore, DamageDataComponent> damageDataComponentType)`
   - Creates a `DamageDataSetupSystem` instance.
 
-## Methods
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

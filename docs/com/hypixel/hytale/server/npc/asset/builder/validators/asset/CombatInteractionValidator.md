@@ -1,10 +1,10 @@
+**Source Hash:** `2dff0c3268b3e4b14c7885859e3db51160c44f7cd38a9c2eafdcd4fd764fab63`
+
 # CombatInteractionValidator
 
 ## Overview
-- Documentation for `CombatInteractionValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `CombatInteractionValidator()`
   - Creates a `CombatInteractionValidator` instance.
 - `CombatInteractionValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,22 +12,22 @@
 - `CombatInteractionValidator(config)`
   - Creates a `CombatInteractionValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String value)`
+- `test(String value)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String value, String attribute)`
+- `errorMessage(String value, String attribute)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `testAttackTag(@Nonnull RootInteraction interaction)`
+- `testAttackTag(@Nonnull RootInteraction interaction)`: Add description.
   - Executes `testAttackTag` behavior.
-- `testOnlyOneAttackType(@Nonnull RootInteraction interaction)`
+- `testOnlyOneAttackType(@Nonnull RootInteraction interaction)`: Add description.
   - Executes `testOnlyOneAttackType` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

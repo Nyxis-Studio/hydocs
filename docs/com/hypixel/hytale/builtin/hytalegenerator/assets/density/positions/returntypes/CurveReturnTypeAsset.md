@@ -1,14 +1,14 @@
+**Source Hash:** `18947eac567a944ff939de72a8cb83a0c8df14810dea3b408090652fbe0d94c5`
+
 # CurveReturnTypeAsset
 
 ## Overview
-- Documentation for `CurveReturnTypeAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density.positions.returntypes`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

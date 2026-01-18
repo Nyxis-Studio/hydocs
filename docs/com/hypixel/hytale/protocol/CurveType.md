@@ -1,17 +1,17 @@
+**Source Hash:** `ed31a54bb412e6942e409d31b2241b268882af789f04314c9129e560a1d64a65`
+
 # CurveType
 
 ## Overview
-- Documentation for `CurveType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `CurveType(int value)`
   - Creates a `CurveType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

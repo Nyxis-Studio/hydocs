@@ -1,14 +1,14 @@
+**Source Hash:** `c00b220a8963a9e29e0aad1287c6c16d7efd2dd326fb86422b78c3980fd2322f`
+
 # PlayerSkinPartType
 
 ## Overview
-- Documentation for `PlayerSkinPartType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

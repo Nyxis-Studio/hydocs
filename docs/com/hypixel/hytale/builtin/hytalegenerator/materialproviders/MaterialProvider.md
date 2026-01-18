@@ -1,16 +1,16 @@
+**Source Hash:** `b0897f16ff78f6f602ac9711c90961b91074d1a4392af4f52a66f559659a83d4`
+
 # MaterialProvider
 
 ## Overview
-- Documentation for `MaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull Context var1)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull Context var1)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
-- `noMaterialProvider()`
+- `noMaterialProvider()`: Add description.
   - Executes `noMaterialProvider` behavior.
 
 ## Notes

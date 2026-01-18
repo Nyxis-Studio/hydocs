@@ -1,24 +1,24 @@
+**Source Hash:** `e9ac9302c0b0bb281c6a673ff88da30cfb5d5dce5dad1476a09c7b344ec39832`
+
 # ConnectedBlockPatternRule
 
 ## Overview
-- Documentation for `ConnectedBlockPatternRule`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRelativePosition()`
+## Method Descriptions
+- `getRelativePosition()`: Add description.
   - Executes `getRelativePosition` behavior.
-- `getBlockTypes()`
+- `getBlockTypes()`: Add description.
   - Executes `getBlockTypes` behavior.
-- `getFaceTags()`
+- `getFaceTags()`: Add description.
   - Executes `getFaceTags` behavior.
-- `getBlockTypeListAssets()`
+- `getBlockTypeListAssets()`: Add description.
   - Executes `getBlockTypeListAssets` behavior.
-- `getPlacementNormals()`
+- `getPlacementNormals()`: Add description.
   - Executes `getPlacementNormals` behavior.
-- `isInclude()`
+- `isInclude()`: Add description.
   - Executes `isInclude` behavior.
 
 ## Notes

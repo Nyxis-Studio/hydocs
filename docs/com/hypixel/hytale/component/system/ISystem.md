@@ -1,22 +1,22 @@
+**Source Hash:** `3affa3a9463e6ef4f4ed3a8327e16a9375915c90756da55b45da098239d5f528`
+
 # ISystem
 
 ## Overview
-- Documentation for `ISystem`.
-- Declared as a interface in `com.hypixel.hytale.component.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onSystemRegistered()`
+## Method Descriptions
+- `onSystemRegistered()`: Add description.
   - Executes `onSystemRegistered` behavior.
-- `onSystemUnregistered()`
+- `onSystemUnregistered()`: Add description.
   - Executes `onSystemUnregistered` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `calculateOrder(@Nonnull ComponentRegistry<ECS_TYPE> registry, @Nonnull ISystem<ECS_TYPE>[] sortedSystems, int systemSize)`
+- `calculateOrder(@Nonnull ComponentRegistry<ECS_TYPE> registry, @Nonnull ISystem<ECS_TYPE>[] sortedSystems, int systemSize)`: Add description.
   - Executes `calculateOrder` behavior.
 
 ## Notes

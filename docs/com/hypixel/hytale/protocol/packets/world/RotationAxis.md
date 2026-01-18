@@ -1,17 +1,17 @@
+**Source Hash:** `45165e7a4e944e1f5727891df60a2f8d5e0e465c6638113f2e4c228d2a892757`
+
 # RotationAxis
 
 ## Overview
-- Documentation for `RotationAxis`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `RotationAxis(int value)`
   - Creates a `RotationAxis` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

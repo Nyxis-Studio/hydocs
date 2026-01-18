@@ -1,18 +1,18 @@
+**Source Hash:** `3af8132fc01f16c2414daec729228c47b27cc640ea8454c11abf0d12d05309ae`
+
 # FieldFunctionPositionProviderAsset
 
 ## Overview
-- Documentation for `FieldFunctionPositionProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.positionproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PositionProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PositionProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

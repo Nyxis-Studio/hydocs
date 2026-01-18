@@ -1,10 +1,10 @@
+**Source Hash:** `53ba0f9d2f826b8261ef2f0ec95315406cc95c73978a1e2e37dcaba22e89543f`
+
 # Vector4d
 
 ## Overview
-- Documentation for `Vector4d`.
-- Declared as a class in `com.hypixel.hytale.math.vector`.
 
-## Constructors
+## Constructor Descriptions
 - `Vector4d()`
   - Creates a `Vector4d` instance.
 - `Vector4d(double x, double y, double z, double w)`
@@ -16,30 +16,30 @@
 - `Vector4d(x, y, z, 0.0)`
   - Creates a `Vector4d` instance.
 
-## Methods
-- `newPosition(double x, double y, double z)`
+## Method Descriptions
+- `newPosition(double x, double y, double z)`: Add description.
   - Executes `newPosition` behavior.
-- `newPosition(@Nonnull Vector3d v)`
+- `newPosition(@Nonnull Vector3d v)`: Add description.
   - Executes `newPosition` behavior.
-- `newDirection(double x, double y, double z)`
+- `newDirection(double x, double y, double z)`: Add description.
   - Executes `newDirection` behavior.
-- `setDirection()`
+- `setDirection()`: Add description.
   - Executes `setDirection` behavior.
-- `setPosition()`
+- `setPosition()`: Add description.
   - Executes `setPosition` behavior.
-- `assign(@Nonnull Vector4d v)`
+- `assign(@Nonnull Vector4d v)`: Add description.
   - Executes `assign` behavior.
-- `assign(double x, double y, double z, double w)`
+- `assign(double x, double y, double z, double w)`: Add description.
   - Executes `assign` behavior.
-- `lerp(@Nonnull Vector4d dest, double lerpFactor, @Nonnull Vector4d target)`
+- `lerp(@Nonnull Vector4d dest, double lerpFactor, @Nonnull Vector4d target)`: Add description.
   - Executes `lerp` behavior.
-- `perspectiveTransform()`
+- `perspectiveTransform()`: Add description.
   - Executes `perspectiveTransform` behavior.
-- `isInsideFrustum()`
+- `isInsideFrustum()`: Add description.
   - Executes `isInsideFrustum` behavior.
-- `get(int component)`
+- `get(int component)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

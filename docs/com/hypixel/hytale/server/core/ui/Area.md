@@ -1,20 +1,20 @@
+**Source Hash:** `a5f09017253c3ed458be793cd86167fa3d4bff22c6eb8a4f8d6ae52e9420549b`
+
 # Area
 
 ## Overview
-- Documentation for `Area`.
-- Declared as a class in `com.hypixel.hytale.server.core.ui`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setX(int x)`
+## Method Descriptions
+- `setX(int x)`: Add description.
   - Executes `setX` behavior.
-- `setY(int y)`
+- `setY(int y)`: Add description.
   - Executes `setY` behavior.
-- `setWidth(int width)`
+- `setWidth(int width)`: Add description.
   - Executes `setWidth` behavior.
-- `setHeight(int height)`
+- `setHeight(int height)`: Add description.
   - Executes `setHeight` behavior.
 
 ## Notes

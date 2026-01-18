@@ -1,17 +1,17 @@
+**Source Hash:** `7d6e7087b1c0a4c2b14bb39e661c33549eb52e515b42a4ee7690a7954844900c`
+
 # WaitForDataFrom
 
 ## Overview
-- Documentation for `WaitForDataFrom`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `WaitForDataFrom(int value)`
   - Creates a `WaitForDataFrom` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

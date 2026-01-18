@@ -1,25 +1,25 @@
+**Source Hash:** `208e3d1f7a4788c53559289d3b7f9cc92bce2dc18c684f4f703049ed0ec16c13`
+
 # MetricResults
 
 ## Overview
-- Documentation for `MetricResults`.
-- Declared as a class in `com.hypixel.hytale.metrics`.
 
-## Constructors
+## Constructor Descriptions
 - `MetricResults(BsonDocument bson)`
   - Creates a `MetricResults` instance.
 - `MetricResults(bsonValue.asDocument()`
   - Creates a `MetricResults` instance.
 
-## Methods
-- `getBson()`
+## Method Descriptions
+- `getBson()`: Add description.
   - Executes `getBson` behavior.
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(@Nullable MetricResults metricResults, ExtraInfo extraInfo)`
+- `encode(@Nullable MetricResults metricResults, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

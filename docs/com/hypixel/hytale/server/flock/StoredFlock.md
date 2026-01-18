@@ -1,25 +1,25 @@
+**Source Hash:** `b0c5659ec04cabbb1810d14c3f60f94f6d23e2cbf170b5c07c6c4b5caedc269a`
+
 # StoredFlock
 
 ## Overview
-- Documentation for `StoredFlock`.
-- Declared as a class in `com.hypixel.hytale.server.flock`.
 
-## Constructors
+## Constructor Descriptions
 - `StoredFlock()`
   - Creates a `StoredFlock` instance.
 
-## Methods
-- `storeNPCs(@Nonnull List<Ref<EntityStore>> refs, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `storeNPCs(@Nonnull List<Ref<EntityStore>> refs, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `storeNPCs` behavior.
-- `hasStoredNPCs()`
+- `hasStoredNPCs()`: Add description.
   - Executes `hasStoredNPCs` behavior.
-- `restoreNPCs(@Nonnull List<Ref<EntityStore>> output, @Nonnull Store<EntityStore> store)`
+- `restoreNPCs(@Nonnull List<Ref<EntityStore>> output, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `restoreNPCs` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

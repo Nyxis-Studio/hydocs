@@ -1,21 +1,21 @@
+**Source Hash:** `30a2e832a96b0f41743f76a464f92bcec4c90f1ed351147de8a88221ddbffead`
+
 # ItemObjectiveRewardHistoryData
 
 ## Overview
-- Documentation for `ItemObjectiveRewardHistoryData`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.historydata`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemObjectiveRewardHistoryData(String itemId, int quantity)`
   - Creates a `ItemObjectiveRewardHistoryData` instance.
 - `ItemObjectiveRewardHistoryData()`
   - Creates a `ItemObjectiveRewardHistoryData` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

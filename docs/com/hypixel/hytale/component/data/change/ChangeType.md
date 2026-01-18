@@ -1,14 +1,14 @@
+**Source Hash:** `1cde8de5f137d68c37f83b9fa1d924454aead4e06fdcfbfba6828c27a66aaaec`
+
 # ChangeType
 
 ## Overview
-- Documentation for `ChangeType`.
-- Declared as a enum in `com.hypixel.hytale.component.data.change`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,15 +1,15 @@
+**Source Hash:** `5c78d8eea51cc0c93bf689fb2e9e4d4f0df6afb246c4d12ffb4747d66a6be69b`
+
 # OrderPriority
 
 ## Overview
-- Documentation for `OrderPriority`.
-- Declared as a enum in `com.hypixel.hytale.component.dependency`.
 
-## Constructors
+## Constructor Descriptions
 - `OrderPriority(int value)`
   - Creates a `OrderPriority` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
 
 ## Notes

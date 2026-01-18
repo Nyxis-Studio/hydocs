@@ -1,15 +1,15 @@
+**Source Hash:** `07683209296f46fba6892b95fcc56c895fdb7ca46c2b81f3889b728ddd9cb472`
+
 # NotNearPointXZ
 
 ## Overview
-- Documentation for `NotNearPointXZ`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils.posqueries.predicates`.
 
-## Constructors
+## Constructor Descriptions
 - `NotNearPointXZ(Vector3d point, double radius)`
   - Creates a `NotNearPointXZ` instance.
 
-## Methods
-- `test(World world, Vector3d origin)`
+## Method Descriptions
+- `test(World world, Vector3d origin)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `e7b550275885eba2fee2b736042fd0d8ef83f70096fcd53df700b119b57bb50b`
+
 # ChatMessage
 
 ## Overview
-- Documentation for `ChatMessage`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `ChatMessage()`
   - Creates a `ChatMessage` instance.
 - `ChatMessage(@Nullable String message)`
@@ -12,24 +12,24 @@
 - `ChatMessage(@Nonnull ChatMessage other)`
   - Creates a `ChatMessage` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

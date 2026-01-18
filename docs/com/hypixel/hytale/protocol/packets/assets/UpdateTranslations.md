@@ -1,10 +1,10 @@
+**Source Hash:** `140b6595082c32753f2e4951f5df9e6cbf13fe52209fd3a89b83584ac3eed84a`
+
 # UpdateTranslations
 
 ## Overview
-- Documentation for `UpdateTranslations`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateTranslations()`
   - Creates a `UpdateTranslations` instance.
 - `UpdateTranslations(@Nonnull UpdateType type, @Nullable Map<String, String> translations)`
@@ -12,24 +12,24 @@
 - `UpdateTranslations(@Nonnull UpdateTranslations other)`
   - Creates a `UpdateTranslations` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

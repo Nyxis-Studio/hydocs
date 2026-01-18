@@ -1,23 +1,23 @@
+**Source Hash:** `7d3fd230ea4585e59147fa3e081842dbf86722be5df36c7ff77191a043260552`
+
 # SingleItemDropContainer
 
 ## Overview
-- Documentation for `SingleItemDropContainer`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config.container`.
 
-## Constructors
+## Constructor Descriptions
 - `SingleItemDropContainer(@Nonnull ItemDrop drop, double chance)`
   - Creates a `SingleItemDropContainer` instance.
 - `SingleItemDropContainer()`
   - Creates a `SingleItemDropContainer` instance.
 
-## Methods
-- `getDrop()`
+## Method Descriptions
+- `getDrop()`: Add description.
   - Executes `getDrop` behavior.
-- `populateDrops(@Nonnull List<ItemDrop> drops, DoubleSupplier chanceProvider, Set<String> droplistReferences)`
+- `populateDrops(@Nonnull List<ItemDrop> drops, DoubleSupplier chanceProvider, Set<String> droplistReferences)`: Add description.
   - Executes `populateDrops` behavior.
-- `getAllDrops(@Nonnull List<ItemDrop> list)`
+- `getAllDrops(@Nonnull List<ItemDrop> list)`: Add description.
   - Executes `getAllDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

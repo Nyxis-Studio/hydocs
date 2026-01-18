@@ -1,47 +1,47 @@
+**Source Hash:** `11ee65a723e686c881cc46633e9c46411f4245a4be246f605c9c23305494ddc1`
+
 # FlockPlugin
 
 ## Overview
-- Documentation for `FlockPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.flock`.
 
-## Constructors
+## Constructor Descriptions
 - `FlockPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `FlockPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `getFlockComponentType()`
+- `getFlockComponentType()`: Add description.
   - Executes `getFlockComponentType` behavior.
-- `getFlockMembershipComponentType()`
+- `getFlockMembershipComponentType()`: Add description.
   - Executes `getFlockMembershipComponentType` behavior.
-- `getPersistentFlockDataComponentType()`
+- `getPersistentFlockDataComponentType()`: Add description.
   - Executes `getPersistentFlockDataComponentType` behavior.
-- `getPrefabRemappedFlockReference(int prefabId, UUID oldId)`
+- `getPrefabRemappedFlockReference(int prefabId, UUID oldId)`: Add description.
   - Executes `getPrefabRemappedFlockReference` behavior.
-- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, @Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, @Nullable FlockAsset flockDefinition, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, @Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, @Nullable FlockAsset flockDefinition, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`: Add description.
   - Executes `trySpawnFlock` behavior.
-- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, @Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, int flockSize, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, @Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, int flockSize, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`: Add description.
   - Executes `trySpawnFlock` behavior.
-- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, int flockSize, FlockAsset flockDefinition, TriConsumer<NPCEntity, Holder<EntityStore>, Store<EntityStore>> preAddToWorld, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn, @Nonnull Store<EntityStore> store)`
+- `trySpawnFlock(@Nonnull Ref<EntityStore> npcRef, @Nonnull NPCEntity npc, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, int flockSize, FlockAsset flockDefinition, TriConsumer<NPCEntity, Holder<EntityStore>, Store<EntityStore>> preAddToWorld, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `trySpawnFlock` behavior.
-- `getFlock(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Ref<EntityStore> reference)`
+- `getFlock(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Ref<EntityStore> reference)`: Add description.
   - Executes `getFlock` behavior.
-- `createFlock(@Nonnull Store<EntityStore> store, @Nonnull Role role)`
+- `createFlock(@Nonnull Store<EntityStore> store, @Nonnull Role role)`: Add description.
   - Executes `createFlock` behavior.
-- `createFlock(@Nonnull Store<EntityStore> store, @Nullable FlockAsset flockDefinition, @Nonnull String[] allowedRoles)`
+- `createFlock(@Nonnull Store<EntityStore> store, @Nullable FlockAsset flockDefinition, @Nonnull String[] allowedRoles)`: Add description.
   - Executes `createFlock` behavior.
-- `getFlockReference(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getFlockReference(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getFlockReference` behavior.
-- `isFlockMember(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+- `isFlockMember(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `isFlockMember` behavior.
-- `handle(@Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull PrefabPasteEvent event)`
+- `handle(@Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull PrefabPasteEvent event)`: Add description.
   - Executes `handle` behavior.
 
 ## Notes

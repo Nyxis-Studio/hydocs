@@ -1,17 +1,17 @@
+**Source Hash:** `a4620b07798f38ce48c54190c5759c908a49bbe0a71ddf556b4fbfdbe1c9f1f0`
+
 # SelectionManager
 
 ## Overview
-- Documentation for `SelectionManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection`.
 
-## Constructors
+## Constructor Descriptions
 - `SelectionManager()`
   - Creates a `SelectionManager` instance.
 
-## Methods
-- `setSelectionProvider(SelectionProvider provider)`
+## Method Descriptions
+- `setSelectionProvider(SelectionProvider provider)`: Add description.
   - Executes `setSelectionProvider` behavior.
-- `getSelectionProvider()`
+- `getSelectionProvider()`: Add description.
   - Executes `getSelectionProvider` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `c5d1ae1c3903e322fbf8cf3944f1d05c109fc70219e0c8111d84a3b79c2ae076`
+
 # PreventPickup
 
 ## Overview
-- Documentation for `PreventPickup`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.item`.
 
-## Constructors
+## Constructor Descriptions
 - `PreventPickup()`
   - Creates a `PreventPickup` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

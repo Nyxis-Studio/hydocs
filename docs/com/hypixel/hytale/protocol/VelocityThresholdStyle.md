@@ -1,17 +1,17 @@
+**Source Hash:** `de9038e7d46b34daa87fbec33c06d1e243b8c2d25005c9f6d63dd7fb47400ea5`
+
 # VelocityThresholdStyle
 
 ## Overview
-- Documentation for `VelocityThresholdStyle`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `VelocityThresholdStyle(int value)`
   - Creates a `VelocityThresholdStyle` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

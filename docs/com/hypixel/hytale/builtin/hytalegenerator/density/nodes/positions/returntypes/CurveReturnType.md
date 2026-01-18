@@ -1,15 +1,15 @@
+**Source Hash:** `348a13b2635c15e716c476b746625876cc937f8a18eba00899446f7c0b07ba0d`
+
 # CurveReturnType
 
 ## Overview
-- Documentation for `CurveReturnType`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes.positions.returntypes`.
 
-## Constructors
+## Constructor Descriptions
 - `CurveReturnType(@Nonnull Double2DoubleFunction curve)`
   - Creates a `CurveReturnType` instance.
 
-## Methods
-- `get(double distance0, double distance1, @Nonnull Vector3d samplePosition, @Nullable Vector3d closestPoint0, Vector3d closestPoint1, @Nullable Density.Context context)`
+## Method Descriptions
+- `get(double distance0, double distance1, @Nonnull Vector3d samplePosition, @Nullable Vector3d closestPoint0, Vector3d closestPoint1, @Nullable Density.Context context)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

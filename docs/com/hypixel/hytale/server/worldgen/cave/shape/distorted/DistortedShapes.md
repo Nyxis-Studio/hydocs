@@ -1,21 +1,21 @@
+**Source Hash:** `2eb1ed1684837e4e0759e3adde77dff78dba3e285d3ef4d1635b7d09ee9fe703`
+
 # DistortedShapes
 
 ## Overview
-- Documentation for `DistortedShapes`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.shape.distorted`.
 
-## Constructors
+## Constructor Descriptions
 - `DistortedShapes()`
   - Creates a `DistortedShapes` instance.
 
-## Methods
-- `register(String name, DistortedShape.Factory factory)`
+## Method Descriptions
+- `register(String name, DistortedShape.Factory factory)`: Add description.
   - Executes `register` behavior.
-- `forEach(BiConsumer<String, DistortedShape.Factory> consumer)`
+- `forEach(BiConsumer<String, DistortedShape.Factory> consumer)`: Add description.
   - Executes `forEach` behavior.
-- `forEachName(Consumer<String> consumer)`
+- `forEachName(Consumer<String> consumer)`: Add description.
   - Executes `forEachName` behavior.
-- `forEachShape(Consumer<DistortedShape.Factory> consumer)`
+- `forEachShape(Consumer<DistortedShape.Factory> consumer)`: Add description.
   - Executes `forEachShape` behavior.
 
 ## Notes

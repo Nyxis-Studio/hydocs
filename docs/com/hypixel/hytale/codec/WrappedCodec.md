@@ -1,14 +1,14 @@
+**Source Hash:** `6d47738946dd3f907b3037f2091328a522e251bdbd6571fb16a1c6466be3e463`
+
 # WrappedCodec
 
 ## Overview
-- Documentation for `WrappedCodec`.
-- Declared as a interface in `com.hypixel.hytale.codec`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getChildCodec()`
+## Method Descriptions
+- `getChildCodec()`: Add description.
   - Executes `getChildCodec` behavior.
 
 ## Notes

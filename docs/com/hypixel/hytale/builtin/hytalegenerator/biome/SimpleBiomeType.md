@@ -1,29 +1,29 @@
+**Source Hash:** `7ecf4a717bc03b16b3e29817e20832bd254d9b3bac6aab5350296387e160aea8`
+
 # SimpleBiomeType
 
 ## Overview
-- Documentation for `SimpleBiomeType`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `SimpleBiomeType(@Nonnull String biomeName, @Nonnull Density terrainDensity, @Nonnull MaterialProvider<Material> materialProvider, @Nonnull EnvironmentProvider environmentProvider, @Nonnull TintProvider tintProvider)`
   - Creates a `SimpleBiomeType` instance.
 
-## Methods
-- `addPropFieldTo(@Nonnull PropField propField)`
+## Method Descriptions
+- `addPropFieldTo(@Nonnull PropField propField)`: Add description.
   - Executes `addPropFieldTo` behavior.
-- `getMaterialProvider()`
+- `getMaterialProvider()`: Add description.
   - Executes `getMaterialProvider` behavior.
-- `getTerrainDensity()`
+- `getTerrainDensity()`: Add description.
   - Executes `getTerrainDensity` behavior.
-- `getBiomeName()`
+- `getBiomeName()`: Add description.
   - Executes `getBiomeName` behavior.
-- `getPropFields()`
+- `getPropFields()`: Add description.
   - Executes `getPropFields` behavior.
-- `getEnvironmentProvider()`
+- `getEnvironmentProvider()`: Add description.
   - Executes `getEnvironmentProvider` behavior.
-- `getTintProvider()`
+- `getTintProvider()`: Add description.
   - Executes `getTintProvider` behavior.
-- `getAllPropDistributions()`
+- `getAllPropDistributions()`: Add description.
   - Executes `getAllPropDistributions` behavior.
 
 ## Notes

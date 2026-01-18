@@ -1,10 +1,10 @@
+**Source Hash:** `5f5150a71c9a9302338f4a22f8b0d2a1c06cceef023fe280501b2a4a68d17ceb`
+
 # SkipSentryException
 
 ## Overview
-- Documentation for `SkipSentryException`.
-- Declared as a class in `com.hypixel.hytale.logger.sentry`.
 
-## Constructors
+## Constructor Descriptions
 - `SkipSentryException()`
   - Creates a `SkipSentryException` instance.
 - `SkipSentryException(Throwable cause)`
@@ -12,8 +12,8 @@
 - `SkipSentryException(String message, Throwable cause)`
   - Creates a `SkipSentryException` instance.
 
-## Methods
-- `hasSkipSentry(Throwable thrown)`
+## Method Descriptions
+- `hasSkipSentry(Throwable thrown)`: Add description.
   - Executes `hasSkipSentry` behavior.
 
 ## Notes

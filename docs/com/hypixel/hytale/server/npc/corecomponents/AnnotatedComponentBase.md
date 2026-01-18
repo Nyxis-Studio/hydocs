@@ -1,20 +1,20 @@
+**Source Hash:** `911bf5684f182f8c3545641af21717ce2edd11286f63eac7b8356b0516dbb323`
+
 # AnnotatedComponentBase
 
 ## Overview
-- Documentation for `AnnotatedComponentBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getInfo(Role role, ComponentInfo holder)`
+## Method Descriptions
+- `getInfo(Role role, ComponentInfo holder)`: Add description.
   - Executes `getInfo` behavior.
-- `setContext(IAnnotatedComponent parent, int index)`
+- `setContext(IAnnotatedComponent parent, int index)`: Add description.
   - Executes `setContext` behavior.
-- `getParent()`
+- `getParent()`: Add description.
   - Executes `getParent` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
 
 ## Notes

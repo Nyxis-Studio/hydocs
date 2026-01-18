@@ -1,17 +1,17 @@
+**Source Hash:** `b01b04e8dc96950fbd161b7482d795374a5c646c9d2afef1d6aa0439dfbf6015`
+
 # ClampDensity
 
 ## Overview
-- Documentation for `ClampDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `ClampDensity(double wallA, double wallB, Density input)`
   - Creates a `ClampDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

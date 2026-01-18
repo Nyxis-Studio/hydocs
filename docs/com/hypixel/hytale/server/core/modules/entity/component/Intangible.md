@@ -1,17 +1,17 @@
+**Source Hash:** `d29f110b782e1278f9c14d9edba22e0b9ff73eb45a609d61309615649a02a841`
+
 # Intangible
 
 ## Overview
-- Documentation for `Intangible`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Intangible()`
   - Creates a `Intangible` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

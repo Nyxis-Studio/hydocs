@@ -1,17 +1,17 @@
+**Source Hash:** `de42184031d85681b5eb8f5ee59e5b415bbda2ebf45412de34a542ce0c5cd553`
+
 # CosmeticAssetValidator
 
 ## Overview
-- Documentation for `CosmeticAssetValidator`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `CosmeticAssetValidator(CosmeticType type)`
   - Creates a `CosmeticAssetValidator` instance.
 
-## Methods
-- `accept(@Nullable String asset, @Nonnull ValidationResults results)`
+## Method Descriptions
+- `accept(@Nullable String asset, @Nonnull ValidationResults results)`: Add description.
   - Executes `accept` behavior.
-- `updateSchema(SchemaContext context, @Nonnull Schema target)`
+- `updateSchema(SchemaContext context, @Nonnull Schema target)`: Add description.
   - Executes `updateSchema` behavior.
 
 ## Notes

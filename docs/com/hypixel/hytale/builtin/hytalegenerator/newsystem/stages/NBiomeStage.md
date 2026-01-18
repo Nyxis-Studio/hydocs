@@ -1,21 +1,21 @@
+**Source Hash:** `04dee774ba60be3a2ca5b1ede0706e920924ced36088de276828e19b1dcf6994`
+
 # NBiomeStage
 
 ## Overview
-- Documentation for `NBiomeStage`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.stages`.
 
-## Constructors
+## Constructor Descriptions
 - `NBiomeStage(@Nonnull String stageName, @Nonnull NParametrizedBufferType biomeOutputBufferType, @Nonnull BiCarta<BiomeType> biomeCarta)`
   - Creates a `NBiomeStage` instance.
 
-## Methods
-- `run(@Nonnull NStage.Context context)`
+## Method Descriptions
+- `run(@Nonnull NStage.Context context)`: Add description.
   - Executes `run` behavior.
-- `getInputTypesAndBounds_bufferGrid()`
+- `getInputTypesAndBounds_bufferGrid()`: Add description.
   - Executes `getInputTypesAndBounds_bufferGrid` behavior.
-- `getOutputTypes()`
+- `getOutputTypes()`: Add description.
   - Executes `getOutputTypes` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
 
 ## Notes

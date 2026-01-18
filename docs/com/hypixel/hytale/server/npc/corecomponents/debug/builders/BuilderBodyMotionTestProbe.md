@@ -1,34 +1,34 @@
+**Source Hash:** `e6b587a9ad54840ac49ac0276c4fcdbe0a9b95f790ab38ee2941eb7924c8711e`
+
 # BuilderBodyMotionTestProbe
 
 ## Overview
-- Documentation for `BuilderBodyMotionTestProbe`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.debug.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getAdjustX()`
+- `getAdjustX()`: Add description.
   - Executes `getAdjustX` behavior.
-- `getAdjustZ()`
+- `getAdjustZ()`: Add description.
   - Executes `getAdjustZ` behavior.
-- `getAdjustDistance()`
+- `getAdjustDistance()`: Add description.
   - Executes `getAdjustDistance` behavior.
-- `getSnapAngle()`
+- `getSnapAngle()`: Add description.
   - Executes `getSnapAngle` behavior.
-- `isAvoidingBlockDamage()`
+- `isAvoidingBlockDamage()`: Add description.
   - Executes `isAvoidingBlockDamage` behavior.
-- `isRelaxedMoveConstraints()`
+- `isRelaxedMoveConstraints()`: Add description.
   - Executes `isRelaxedMoveConstraints` behavior.
 
 ## Notes

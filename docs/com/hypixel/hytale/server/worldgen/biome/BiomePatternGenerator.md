@@ -1,33 +1,33 @@
+**Source Hash:** `5fd8ec56bd4f0411ae8a039f7f534dddc5c9f0231c702edcfdba828d5f9051eb`
+
 # BiomePatternGenerator
 
 ## Overview
-- Documentation for `BiomePatternGenerator`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `BiomePatternGenerator(IPointGenerator pointGenerator, @Nonnull IWeightedMap<TileBiome> tileBiomes, @Nonnull CustomBiome[] customBiomes)`
   - Creates a `BiomePatternGenerator` instance.
 
-## Methods
-- `getExtents()`
+## Method Descriptions
+- `getExtents()`: Add description.
   - Executes `getExtents` behavior.
-- `getBiomes()`
+- `getBiomes()`: Add description.
   - Executes `getBiomes` behavior.
-- `getCustomBiomes()`
+- `getCustomBiomes()`: Add description.
   - Executes `getCustomBiomes` behavior.
-- `getBiome(int seed, int x, int z)`
+- `getBiome(int seed, int x, int z)`: Add description.
   - Executes `getBiome` behavior.
-- `getBiomeIndex(int seed, int x, int z)`
+- `getBiomeIndex(int seed, int x, int z)`: Add description.
   - Executes `getBiomeIndex` behavior.
-- `getBiomeDirect(int seed, int x, int z)`
+- `getBiomeDirect(int seed, int x, int z)`: Add description.
   - Executes `getBiomeDirect` behavior.
-- `generateBiomeAt(@Nonnull ZoneGeneratorResult zoneResult, int seed, int x, int z)`
+- `generateBiomeAt(@Nonnull ZoneGeneratorResult zoneResult, int seed, int x, int z)`: Add description.
   - Executes `generateBiomeAt` behavior.
-- `getCustomBiomeAt(int seed, double x, double z, @Nonnull ZoneGeneratorResult zoneResult, @Nonnull Biome parentResult)`
+- `getCustomBiomeAt(int seed, double x, double z, @Nonnull ZoneGeneratorResult zoneResult, @Nonnull Biome parentResult)`: Add description.
   - Executes `getCustomBiomeAt` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getExtents(@Nonnull Biome[] biomes)`
+- `getExtents(@Nonnull Biome[] biomes)`: Add description.
   - Executes `getExtents` behavior.
 
 ## Notes

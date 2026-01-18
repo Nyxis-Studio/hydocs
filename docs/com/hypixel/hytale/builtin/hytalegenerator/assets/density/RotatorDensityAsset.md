@@ -1,16 +1,16 @@
+**Source Hash:** `77cc0d2d27053da29bca9db4c22d4729d3d65a73463c04b821951ea007f54078`
+
 # RotatorDensityAsset
 
 ## Overview
-- Documentation for `RotatorDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

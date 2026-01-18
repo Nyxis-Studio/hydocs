@@ -1,15 +1,15 @@
+**Source Hash:** `e51e2e62d7876bb4d6319df363c49d2fde0133c3e5804bdfbe7d2639225b6db5`
+
 # SetToolHistorySizeCommand
 
 ## Overview
-- Documentation for `SetToolHistorySizeCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `SetToolHistorySizeCommand()`
   - Creates a `SetToolHistorySizeCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

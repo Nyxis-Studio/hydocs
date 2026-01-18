@@ -1,15 +1,15 @@
+**Source Hash:** `e0d6b282e050757052afc61c2fc7fb6c8d8742b86ea7ea428dd0a85fe0f30c75`
+
 # PlayerGroupEvent
 
 ## Overview
-- Documentation for `PlayerGroupEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.permissions`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerGroupEvent(@Nonnull UUID playerUuid, @Nonnull String groupName)`
   - Creates a `PlayerGroupEvent` instance.
 
-## Methods
-- `getGroupName()`
+## Method Descriptions
+- `getGroupName()`: Add description.
   - Executes `getGroupName` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `980169b18d5a12f120b9a790213b504368f2da677d4d0fe528c05419abb19d72`
+
 # ItemPlayerAnimations
 
 ## Overview
-- Documentation for `ItemPlayerAnimations`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemPlayerAnimations()`
   - Creates a `ItemPlayerAnimations` instance.
 - `ItemPlayerAnimations(@Nullable String id, @Nullable Map<String, ItemAnimation> animations, @Nullable WiggleWeights wiggleWeights, @Nullable CameraSettings camera, @Nullable ItemPullbackConfiguration pullbackConfig, boolean useFirstPersonOverride)`
@@ -12,22 +12,22 @@
 - `ItemPlayerAnimations(@Nonnull ItemPlayerAnimations other)`
   - Creates a `ItemPlayerAnimations` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

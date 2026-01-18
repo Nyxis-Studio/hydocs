@@ -1,19 +1,19 @@
+**Source Hash:** `7e5dc7eb9548f8b138e0c2bcb576969799420ae2d44d93d7fdf16babd53abcc7`
+
 # WorldGenLoadException
 
 ## Overview
-- Documentation for `WorldGenLoadException`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenLoadException(@Nonnull String message)`
   - Creates a `WorldGenLoadException` instance.
 - `WorldGenLoadException(@Nonnull String message, Throwable cause)`
   - Creates a `WorldGenLoadException` instance.
 
-## Methods
-- `getTraceMessage()`
+## Method Descriptions
+- `getTraceMessage()`: Add description.
   - Executes `getTraceMessage` behavior.
-- `getTraceMessage(@Nonnull String joiner)`
+- `getTraceMessage(@Nonnull String joiner)`: Add description.
   - Executes `getTraceMessage` behavior.
 
 ## Notes

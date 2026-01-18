@@ -1,37 +1,37 @@
+**Source Hash:** `a2965a09b7f3ed178bbc58fd4e832f064816f2e29cf15913cc2d230038daad5d`
+
 # PendingLoadPlugin
 
 ## Overview
-- Documentation for `PendingLoadPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.core.plugin.pending`.
 
-## Constructors
+## Constructor Descriptions
 - `PendingLoadPlugin(@Nullable Path path, @Nonnull PluginManifest manifest)`
   - Creates a `PendingLoadPlugin` instance.
 
-## Methods
-- `getIdentifier()`
+## Method Descriptions
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `getManifest()`
+- `getManifest()`: Add description.
   - Executes `getManifest` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `createSubPendingLoadPlugin(PluginManifest var1)`
+- `createSubPendingLoadPlugin(PluginManifest var1)`: Add description.
   - Executes `createSubPendingLoadPlugin` behavior.
-- `load()`
+- `load()`: Add description.
   - Executes `load` behavior.
-- `createSubPendingLoadPlugins()`
+- `createSubPendingLoadPlugins()`: Add description.
   - Executes `createSubPendingLoadPlugins` behavior.
-- `dependsOn(PluginIdentifier identifier)`
+- `dependsOn(PluginIdentifier identifier)`: Add description.
   - Executes `dependsOn` behavior.
-- `isInServerClassPath()`
+- `isInServerClassPath()`: Add description.
   - Executes `isInServerClassPath` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `calculateLoadOrder(@Nonnull Map<PluginIdentifier, PendingLoadPlugin> pending)`
+- `calculateLoadOrder(@Nonnull Map<PluginIdentifier, PendingLoadPlugin> pending)`: Add description.
   - Executes `calculateLoadOrder` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `afade9b904a0bed7180f1f175ffb7ae37a4d79dfd27533fc216ccbbd62f3744e`
+
 # BuilderActionToggleStateEvaluator
 
 ## Overview
-- Documentation for `BuilderActionToggleStateEvaluator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.statemachine.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isEnable()`
+- `isEnable()`: Add description.
   - Executes `isEnable` behavior.
 
 ## Notes

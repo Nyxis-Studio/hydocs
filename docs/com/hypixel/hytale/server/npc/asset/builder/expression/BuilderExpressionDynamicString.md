@@ -1,19 +1,19 @@
+**Source Hash:** `e104c8a58481b5cbec946e03a294d55fd8f7a4ab364c922d6139f687266b8f58`
+
 # BuilderExpressionDynamicString
 
 ## Overview
-- Documentation for `BuilderExpressionDynamicString`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.expression`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderExpressionDynamicString(String expression, ExecutionContext.Instruction[] instructionSequence)`
   - Creates a `BuilderExpressionDynamicString` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getString(@Nonnull ExecutionContext executionContext)`
+- `getString(@Nonnull ExecutionContext executionContext)`: Add description.
   - Executes `getString` behavior.
-- `updateScope(@Nonnull StdScope scope, String name, @Nonnull ExecutionContext executionContext)`
+- `updateScope(@Nonnull StdScope scope, String name, @Nonnull ExecutionContext executionContext)`: Add description.
   - Executes `updateScope` behavior.
 
 ## Notes

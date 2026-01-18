@@ -1,36 +1,36 @@
+**Source Hash:** `4f64766ee04f29850749bdcc2257027ceae42a5634f03dade6903c7701287453`
+
 # AbilityCombatAction
 
 ## Overview
-- Documentation for `AbilityCombatAction`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.evaluator.combatactions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getAbility()`
+## Method Descriptions
+- `getAbility()`: Add description.
   - Executes `getAbility` behavior.
-- `getChargeFor()`
+- `getChargeFor()`: Add description.
   - Executes `getChargeFor` behavior.
-- `getAttackRange()`
+- `getAttackRange()`: Add description.
   - Executes `getAttackRange` behavior.
-- `getWeaponSlot()`
+- `getWeaponSlot()`: Add description.
   - Executes `getWeaponSlot` behavior.
-- `getOffhandSlot()`
+- `getOffhandSlot()`: Add description.
   - Executes `getOffhandSlot` behavior.
-- `getFailureTimeout()`
+- `getFailureTimeout()`: Add description.
   - Executes `getFailureTimeout` behavior.
-- `isDamageFriendlies()`
+- `isDamageFriendlies()`: Add description.
   - Executes `isDamageFriendlies` behavior.
-- `isPositionFirst()`
+- `isPositionFirst()`: Add description.
   - Executes `isPositionFirst` behavior.
-- `execute(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Role role, @Nonnull CombatActionEvaluator evaluator, @Nonnull ValueStore valueStore)`
+- `execute(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull Role role, @Nonnull CombatActionEvaluator evaluator, @Nonnull ValueStore valueStore)`: Add description.
   - Executes `execute` behavior.
-- `isBasicAttackAllowed(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull CombatActionEvaluator evaluator)`
+- `isBasicAttackAllowed(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull CombatActionEvaluator evaluator)`: Add description.
   - Executes `isBasicAttackAllowed` behavior.
-- `getInteractionVars(InteractionContext c)`
+- `getInteractionVars(InteractionContext c)`: Add description.
   - Executes `getInteractionVars` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

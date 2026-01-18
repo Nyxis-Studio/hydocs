@@ -1,26 +1,26 @@
+**Source Hash:** `fbfb1882ba2096260753fd10f78dbfafcc75be7221738f487a0647aa8c6015d4`
+
 # AuthorInfo
 
 ## Overview
-- Documentation for `AuthorInfo`.
-- Declared as a class in `com.hypixel.hytale.common.plugin`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getName()`
+## Method Descriptions
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getEmail()`
+- `getEmail()`: Add description.
   - Executes `getEmail` behavior.
-- `getUrl()`
+- `getUrl()`: Add description.
   - Executes `getUrl` behavior.
-- `setName(@Nullable String name)`
+- `setName(@Nullable String name)`: Add description.
   - Executes `setName` behavior.
-- `setEmail(@Nullable String email)`
+- `setEmail(@Nullable String email)`: Add description.
   - Executes `setEmail` behavior.
-- `setUrl(@Nullable String url)`
+- `setUrl(@Nullable String url)`: Add description.
   - Executes `setUrl` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

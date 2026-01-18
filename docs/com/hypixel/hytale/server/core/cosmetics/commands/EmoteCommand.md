@@ -1,15 +1,15 @@
+**Source Hash:** `26b53dd0c151cbdc9100785ddf956e6e2711613a9bb4441057afff5a9f5fc553`
+
 # EmoteCommand
 
 ## Overview
-- Documentation for `EmoteCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `EmoteCommand()`
   - Creates a `EmoteCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

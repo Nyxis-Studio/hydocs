@@ -1,16 +1,16 @@
+**Source Hash:** `2c0d4ed3779f82b1ae58aa7c14fe8e627daed1154b6171ab097c1655ba8d3ebd`
+
 # SurfacePatternAsset
 
 ## Overview
-- Documentation for `SurfacePatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

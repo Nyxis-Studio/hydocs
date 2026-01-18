@@ -1,19 +1,19 @@
+**Source Hash:** `c1f621dfd3783cd44a1f97bb0b7f0b1364dc834c37c025c7cd9ccb2fb70189b2`
+
 # GroupPermissionChangeEvent
 
 ## Overview
-- Documentation for `GroupPermissionChangeEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.permissions`.
 
-## Constructors
+## Constructor Descriptions
 - `GroupPermissionChangeEvent(@Nonnull String groupName)`
   - Creates a `GroupPermissionChangeEvent` instance.
 
-## Methods
-- `getGroupName()`
+## Method Descriptions
+- `getGroupName()`: Add description.
   - Executes `getGroupName` behavior.
-- `getRemovedPermissions()`
+- `getRemovedPermissions()`: Add description.
   - Executes `getRemovedPermissions` behavior.
-- `getAddedPermissions()`
+- `getAddedPermissions()`: Add description.
   - Executes `getAddedPermissions` behavior.
 
 ## Notes

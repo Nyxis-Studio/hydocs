@@ -1,10 +1,10 @@
+**Source Hash:** `6444d1d8d620905245ac9b703b10beb3e968362199ad875fab90339ed894fd7c`
+
 # AmbienceFXSound
 
 ## Overview
-- Documentation for `AmbienceFXSound`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXSound()`
   - Creates a `AmbienceFXSound` instance.
 - `AmbienceFXSound(int soundEventIndex, @Nonnull AmbienceFXSoundPlay3D play3D, int blockSoundSetIndex, @Nonnull AmbienceFXAltitude altitude, @Nullable Rangef frequency, @Nullable Range radius)`
@@ -12,22 +12,22 @@
 - `AmbienceFXSound(@Nonnull AmbienceFXSound other)`
   - Creates a `AmbienceFXSound` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

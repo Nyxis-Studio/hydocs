@@ -1,21 +1,21 @@
+**Source Hash:** `6554fc0ca3951efdf1432b74506978a694e01f3b43eac3edd49b661b57056131`
+
 # NBufferType
 
 ## Overview
-- Documentation for `NBufferType`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers.type`.
 
-## Constructors
+## Constructor Descriptions
 - `NBufferType(@Nonnull String name, int index, @Nonnull Class bufferClass, @Nonnull Supplier<NBuffer> bufferSupplier)`
   - Creates a `NBufferType` instance.
 
-## Methods
-- `equals(Object o)`
+## Method Descriptions
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `isValidType(@Nonnull Class bufferClass)`
+- `isValidType(@Nonnull Class bufferClass)`: Add description.
   - Executes `isValidType` behavior.
-- `isValid(@Nonnull NBuffer buffer)`
+- `isValid(@Nonnull NBuffer buffer)`: Add description.
   - Executes `isValid` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

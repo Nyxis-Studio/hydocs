@@ -1,10 +1,10 @@
+**Source Hash:** `1e99897f2ef76d5e689883f111d611b0f47bbd37d1fdc1bb9f545df7d49270fd`
+
 # BlockParticleSet
 
 ## Overview
-- Documentation for `BlockParticleSet`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockParticleSet()`
   - Creates a `BlockParticleSet` instance.
 - `BlockParticleSet(@Nullable String id, @Nullable Color color, float scale, @Nullable Vector3f positionOffset, @Nullable Direction rotationOffset, @Nullable Map<BlockParticleEvent, String> particleSystemIds)`
@@ -12,22 +12,22 @@
 - `BlockParticleSet(@Nonnull BlockParticleSet other)`
   - Creates a `BlockParticleSet` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

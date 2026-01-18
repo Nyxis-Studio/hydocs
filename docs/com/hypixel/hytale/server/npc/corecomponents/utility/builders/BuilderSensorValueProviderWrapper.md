@@ -1,30 +1,30 @@
+**Source Hash:** `c05879ac5397ff12b64732bf51e77c65904ffeb62e4961223df5b1536bb00cdf`
+
 # BuilderSensorValueProviderWrapper
 
 ## Overview
-- Documentation for `BuilderSensorValueProviderWrapper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `registerTags(@Nonnull Set<String> tags)`
+- `registerTags(@Nonnull Set<String> tags)`: Add description.
   - Executes `registerTags` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `isPassValues(@Nonnull BuilderSupport support)`
+- `isPassValues(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isPassValues` behavior.
-- `getSensor(@Nonnull BuilderSupport support)`
+- `getSensor(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getSensor` behavior.
 
 ## Notes

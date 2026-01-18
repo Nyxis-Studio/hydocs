@@ -1,27 +1,27 @@
+**Source Hash:** `2caf513fe52c61e331b78796abdfcd04abbab2585171cbdf774670db4b01312c`
+
 # ArrayHolder
 
 ## Overview
-- Documentation for `ArrayHolder`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
+## Constructor Descriptions
 - `ArrayHolder(ValueType valueType)`
   - Creates a `ArrayHolder` instance.
 
-## Methods
-- `readJSON(@Nonnull JsonElement requiredJsonElement, int minLength, int maxLength, String name, @Nonnull BuilderParameters builderParameters)`
+## Method Descriptions
+- `readJSON(@Nonnull JsonElement requiredJsonElement, int minLength, int maxLength, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, double[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, double[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, String[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, String[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, boolean[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(JsonElement optionalJsonElement, int minLength, int maxLength, boolean[] defaultValue, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `validateLength(int length)`
+- `validateLength(int length)`: Add description.
   - Executes `validateLength` behavior.
-- `setLength(int minLength, int maxLength)`
+- `setLength(int minLength, int maxLength)`: Add description.
   - Executes `setLength` behavior.
-- `setLength(int length)`
+- `setLength(int length)`: Add description.
   - Executes `setLength` behavior.
 
 ## Notes

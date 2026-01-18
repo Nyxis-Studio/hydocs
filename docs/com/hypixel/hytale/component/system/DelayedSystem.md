@@ -1,23 +1,23 @@
+**Source Hash:** `9a1ef893d4f12f74c514f3d732e2e074d8966eca9ff526bebae23209455d224b`
+
 # DelayedSystem
 
 ## Overview
-- Documentation for `DelayedSystem`.
-- Declared as a class in `com.hypixel.hytale.component.system`.
 
-## Constructors
+## Constructor Descriptions
 - `DelayedSystem(float intervalSec)`
   - Creates a `DelayedSystem` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getIntervalSec()`
+- `getIntervalSec()`: Add description.
   - Executes `getIntervalSec` behavior.
-- `tick(float dt, int systemIndex, @Nonnull Store<ECS_TYPE> store)`
+- `tick(float dt, int systemIndex, @Nonnull Store<ECS_TYPE> store)`: Add description.
   - Executes `tick` behavior.
-- `delayedTick(float var1, int var2, @Nonnull Store<ECS_TYPE> var3)`
+- `delayedTick(float var1, int var2, @Nonnull Store<ECS_TYPE> var3)`: Add description.
   - Executes `delayedTick` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

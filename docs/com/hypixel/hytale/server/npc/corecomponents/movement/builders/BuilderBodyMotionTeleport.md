@@ -1,28 +1,28 @@
+**Source Hash:** `9d76ecbc7183ed92419791110f770248ab9307ef309aa9703cae19ee17c778c6`
+
 # BuilderBodyMotionTeleport
 
 ## Overview
-- Documentation for `BuilderBodyMotionTeleport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getOffsetRadius()`
+- `getOffsetRadius()`: Add description.
   - Executes `getOffsetRadius` behavior.
-- `getMaxYOffset()`
+- `getMaxYOffset()`: Add description.
   - Executes `getMaxYOffset` behavior.
-- `getSectorRadians()`
+- `getSectorRadians()`: Add description.
   - Executes `getSectorRadians` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `592211f102e4753033bbb027776fdddd37a5efdfcc8d05eca6fcbe96dedd6e72`
+
 # ServerTags
 
 ## Overview
-- Documentation for `ServerTags`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.setup`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerTags()`
   - Creates a `ServerTags` instance.
 - `ServerTags(@Nullable Map<String, Integer> tags)`
@@ -12,24 +12,24 @@
 - `ServerTags(@Nonnull ServerTags other)`
   - Creates a `ServerTags` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

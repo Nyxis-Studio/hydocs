@@ -1,14 +1,14 @@
+**Source Hash:** `7ff03f6090cd955437ff834ad5f36be7b5be13f42670ee0346194783dcb4da86`
+
 # IResourceStorageProvider
 
 ## Overview
-- Documentation for `IResourceStorageProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.storage.resources`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getResourceStorage(@Nonnull World var1)`
+## Method Descriptions
+- `getResourceStorage(@Nonnull World var1)`: Add description.
   - Executes `getResourceStorage` behavior.
 
 ## Notes

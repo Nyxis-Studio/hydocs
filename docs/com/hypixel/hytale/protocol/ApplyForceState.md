@@ -1,17 +1,17 @@
+**Source Hash:** `7f94dd20e23f6c62960272a81d36a3b049490191fd7c5a4dcd1451c9ce8f84f8`
+
 # ApplyForceState
 
 ## Overview
-- Documentation for `ApplyForceState`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplyForceState(int value)`
   - Creates a `ApplyForceState` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

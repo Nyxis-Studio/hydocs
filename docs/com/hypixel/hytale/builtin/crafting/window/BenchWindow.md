@@ -1,35 +1,35 @@
+**Source Hash:** `79b50b9ebe45cb8e891a3e45cf57a13662ce061a7efcf830cc88ac82180bd5c3`
+
 # BenchWindow
 
 ## Overview
-- Documentation for `BenchWindow`.
-- Declared as a class in `com.hypixel.hytale.builtin.crafting.window`.
 
-## Constructors
+## Constructor Descriptions
 - `BenchWindow(@Nonnull WindowType windowType, @Nonnull BenchState benchState)`
   - Creates a `BenchWindow` instance.
 
-## Methods
-- `getData()`
+## Method Descriptions
+- `getData()`: Add description.
   - Executes `getData` behavior.
-- `onOpen0()`
+- `onOpen0()`: Add description.
   - Executes `onOpen0` behavior.
-- `getBenchTierLevel()`
+- `getBenchTierLevel()`: Add description.
   - Executes `getBenchTierLevel` behavior.
-- `onClose0()`
+- `onClose0()`: Add description.
   - Executes `onClose0` behavior.
-- `updateCraftingJob(float percent)`
+- `updateCraftingJob(float percent)`: Add description.
   - Executes `updateCraftingJob` behavior.
-- `updateBenchUpgradeJob(float percent)`
+- `updateBenchUpgradeJob(float percent)`: Add description.
   - Executes `updateBenchUpgradeJob` behavior.
-- `checkProgressInvalidate(float percent)`
+- `checkProgressInvalidate(float percent)`: Add description.
   - Executes `checkProgressInvalidate` behavior.
-- `updateBenchTierLevel(int newValue)`
+- `updateBenchTierLevel(int newValue)`: Add description.
   - Executes `updateBenchTierLevel` behavior.
-- `getExtraResourcesSection()`
+- `getExtraResourcesSection()`: Add description.
   - Executes `getExtraResourcesSection` behavior.
-- `invalidateExtraResources()`
+- `invalidateExtraResources()`: Add description.
   - Executes `invalidateExtraResources` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
 
 ## Notes

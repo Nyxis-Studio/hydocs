@@ -1,15 +1,15 @@
+**Source Hash:** `8bf5500e5eca9d6f5f4becffeb56726167467cdbbfbed254d4a8d2caca5e0ae0`
+
 # SelectionHistoryCommand
 
 ## Overview
-- Documentation for `SelectionHistoryCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `SelectionHistoryCommand()`
   - Creates a `SelectionHistoryCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

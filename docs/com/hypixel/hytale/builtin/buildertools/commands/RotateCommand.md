@@ -1,15 +1,15 @@
+**Source Hash:** `251da73b45b0368ca82f04a5ea96c8959502e06d50a5083a74a24beba5dba829`
+
 # RotateCommand
 
 ## Overview
-- Documentation for `RotateCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `RotateCommand()`
   - Creates a `RotateCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `bf94def525bbd72adb54f8d80fde8cca641f3ae4ad78ce29873d69788a22e666`
+
 # HelpCommand
 
 ## Overview
-- Documentation for `HelpCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.help`.
 
-## Constructors
+## Constructor Descriptions
 - `HelpCommand()`
   - Creates a `HelpCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
-- `openHelpUI(@Nonnull CommandContext context, @Nullable String initialCommand)`
+- `openHelpUI(@Nonnull CommandContext context, @Nullable String initialCommand)`: Add description.
   - Executes `openHelpUI` behavior.
-- `resolveCommandName(@Nullable String commandNameOrAlias)`
+- `resolveCommandName(@Nullable String commandNameOrAlias)`: Add description.
   - Executes `resolveCommandName` behavior.
 
 ## Notes

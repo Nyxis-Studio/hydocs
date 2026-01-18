@@ -1,39 +1,39 @@
+**Source Hash:** `3f109d80015e2a9a33f3a4147edb53575dd03b4c6261c25ee6fdf7d7f50e74f2`
+
 # ParticleAttractor
 
 ## Overview
-- Documentation for `ParticleAttractor`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.particle.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleAttractor(Vector3f position, Vector3f radialAxis, float trailPositionMultiplier, float radius, float radialAcceleration, float radialTangentAcceleration, Vector3f linearAcceleration, float radialImpulse, float radialTangentImpulse, Vector3f linearImpulse, Vector3f dampingMultiplier)`
   - Creates a `ParticleAttractor` instance.
 - `ParticleAttractor()`
   - Creates a `ParticleAttractor` instance.
 
-## Methods
-- `getPosition()`
+## Method Descriptions
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getRadialAxis()`
+- `getRadialAxis()`: Add description.
   - Executes `getRadialAxis` behavior.
-- `getTrailPositionMultiplier()`
+- `getTrailPositionMultiplier()`: Add description.
   - Executes `getTrailPositionMultiplier` behavior.
-- `getRadius()`
+- `getRadius()`: Add description.
   - Executes `getRadius` behavior.
-- `getRadialAcceleration()`
+- `getRadialAcceleration()`: Add description.
   - Executes `getRadialAcceleration` behavior.
-- `getRadialTangentAcceleration()`
+- `getRadialTangentAcceleration()`: Add description.
   - Executes `getRadialTangentAcceleration` behavior.
-- `getLinearAcceleration()`
+- `getLinearAcceleration()`: Add description.
   - Executes `getLinearAcceleration` behavior.
-- `getRadialImpulse()`
+- `getRadialImpulse()`: Add description.
   - Executes `getRadialImpulse` behavior.
-- `getRadialTangentImpulse()`
+- `getRadialTangentImpulse()`: Add description.
   - Executes `getRadialTangentImpulse` behavior.
-- `getLinearImpulse()`
+- `getLinearImpulse()`: Add description.
   - Executes `getLinearImpulse` behavior.
-- `getDampingMultiplier()`
+- `getDampingMultiplier()`: Add description.
   - Executes `getDampingMultiplier` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

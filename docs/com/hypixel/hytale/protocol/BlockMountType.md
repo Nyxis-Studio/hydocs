@@ -1,17 +1,17 @@
+**Source Hash:** `9bf76df0e9adb8f818a2c9f607611d9c6a4b06f37f6b2f0ac0e37f266d50e1a0`
+
 # BlockMountType
 
 ## Overview
-- Documentation for `BlockMountType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMountType(int value)`
   - Creates a `BlockMountType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

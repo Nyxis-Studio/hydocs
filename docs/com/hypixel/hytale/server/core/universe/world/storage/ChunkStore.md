@@ -1,73 +1,73 @@
+**Source Hash:** `7ea9d035dcae3be905522338703b0d14e5726f3353d294af1af45db2523e54c5`
+
 # ChunkStore
 
 ## Overview
-- Documentation for `ChunkStore`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkStore(@Nonnull World world)`
   - Creates a `ChunkStore` instance.
 
-## Methods
-- `getWorld()`
+## Method Descriptions
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `getStore()`
+- `getStore()`: Add description.
   - Executes `getStore` behavior.
-- `getLoader()`
+- `getLoader()`: Add description.
   - Executes `getLoader` behavior.
-- `getSaver()`
+- `getSaver()`: Add description.
   - Executes `getSaver` behavior.
-- `getGenerator()`
+- `getGenerator()`: Add description.
   - Executes `getGenerator` behavior.
-- `setGenerator(@Nullable IWorldGen generator)`
+- `setGenerator(@Nullable IWorldGen generator)`: Add description.
   - Executes `setGenerator` behavior.
-- `getChunkIndexes()`
+- `getChunkIndexes()`: Add description.
   - Executes `getChunkIndexes` behavior.
-- `getLoadedChunksCount()`
+- `getLoadedChunksCount()`: Add description.
   - Executes `getLoadedChunksCount` behavior.
-- `getTotalGeneratedChunksCount()`
+- `getTotalGeneratedChunksCount()`: Add description.
   - Executes `getTotalGeneratedChunksCount` behavior.
-- `getTotalLoadedChunksCount()`
+- `getTotalLoadedChunksCount()`: Add description.
   - Executes `getTotalLoadedChunksCount` behavior.
-- `start(@Nonnull IResourceStorage resourceStorage)`
+- `start(@Nonnull IResourceStorage resourceStorage)`: Add description.
   - Executes `start` behavior.
-- `waitForLoadingChunks()`
+- `waitForLoadingChunks()`: Add description.
   - Executes `waitForLoadingChunks` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `add(@Nonnull Holder<ChunkStore> holder)`
+- `add(@Nonnull Holder<ChunkStore> holder)`: Add description.
   - Executes `add` behavior.
-- `remove(@Nonnull Ref<ChunkStore> reference, @Nonnull RemoveReason reason)`
+- `remove(@Nonnull Ref<ChunkStore> reference, @Nonnull RemoveReason reason)`: Add description.
   - Executes `remove` behavior.
-- `getChunkReference(long index)`
+- `getChunkReference(long index)`: Add description.
   - Executes `getChunkReference` behavior.
-- `getChunkSectionReference(int x, int y, int z)`
+- `getChunkSectionReference(int x, int y, int z)`: Add description.
   - Executes `getChunkSectionReference` behavior.
-- `getChunkSectionReference(@Nonnull ComponentAccessor<ChunkStore> commandBuffer, int x, int y, int z)`
+- `getChunkSectionReference(@Nonnull ComponentAccessor<ChunkStore> commandBuffer, int x, int y, int z)`: Add description.
   - Executes `getChunkSectionReference` behavior.
-- `getChunkSectionReferenceAsync(int x, int y, int z)`
+- `getChunkSectionReferenceAsync(int x, int y, int z)`: Add description.
   - Executes `getChunkSectionReferenceAsync` behavior.
-- `getChunkComponent(long index, @Nonnull ComponentType<ChunkStore, T> componentType)`
+- `getChunkComponent(long index, @Nonnull ComponentType<ChunkStore, T> componentType)`: Add description.
   - Executes `getChunkComponent` behavior.
-- `getChunkReferenceAsync(long index)`
+- `getChunkReferenceAsync(long index)`: Add description.
   - Executes `getChunkReferenceAsync` behavior.
-- `getChunkReferenceAsync(long index, int flags)`
+- `getChunkReferenceAsync(long index, int flags)`: Add description.
   - Executes `getChunkReferenceAsync` behavior.
-- `isChunkStillNeeded(long index)`
+- `isChunkStillNeeded(long index)`: Add description.
   - Executes `isChunkStillNeeded` behavior.
-- `isChunkOnBackoff(long index, long maxFailureBackoffNanos)`
+- `isChunkOnBackoff(long index, long maxFailureBackoffNanos)`: Add description.
   - Executes `isChunkOnBackoff` behavior.
-- `preLoadChunkAsync(long index, @Nonnull Holder<ChunkStore> holder, boolean newlyGenerated)`
+- `preLoadChunkAsync(long index, @Nonnull Holder<ChunkStore> holder, boolean newlyGenerated)`: Add description.
   - Executes `preLoadChunkAsync` behavior.
-- `postLoadChunk(@Nullable Holder<ChunkStore> holder)`
+- `postLoadChunk(@Nullable Holder<ChunkStore> holder)`: Add description.
   - Executes `postLoadChunk` behavior.
-- `fail(Throwable throwable)`
+- `fail(Throwable throwable)`: Add description.
   - Executes `fail` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `onSystemAddedToStore(@Nonnull Store<ChunkStore> store)`
+- `onSystemAddedToStore(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<ChunkStore> store)`
+- `onSystemRemovedFromStore(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
 
 ## Notes

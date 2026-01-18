@@ -1,19 +1,19 @@
+**Source Hash:** `40f7719ce82f85ad0f5917f628c57708771fffdac4d82acad2fa9d3401c8946a`
+
 # PrefabRootDirectory
 
 ## Overview
-- Documentation for `PrefabRootDirectory`.
-- Declared as a enum in `com.hypixel.hytale.builtin.buildertools.prefabeditor.enums`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabRootDirectory(Supplier<Path> prefabPath, String localizationString, boolean supportsMultiPack)`
   - Creates a `PrefabRootDirectory` instance.
 
-## Methods
-- `getPrefabPath()`
+## Method Descriptions
+- `getPrefabPath()`: Add description.
   - Executes `getPrefabPath` behavior.
-- `getLocalizationString()`
+- `getLocalizationString()`: Add description.
   - Executes `getLocalizationString` behavior.
-- `supportsMultiPack()`
+- `supportsMultiPack()`: Add description.
   - Executes `supportsMultiPack` behavior.
 
 ## Notes

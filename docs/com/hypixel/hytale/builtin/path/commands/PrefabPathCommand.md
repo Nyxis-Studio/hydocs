@@ -1,15 +1,15 @@
+**Source Hash:** `b375e9319ba4d24d6d9c99e2f966b2f6be504711c241a182b9e4556842053740`
+
 # PrefabPathCommand
 
 ## Overview
-- Documentation for `PrefabPathCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.path.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabPathCommand()`
   - Creates a `PrefabPathCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

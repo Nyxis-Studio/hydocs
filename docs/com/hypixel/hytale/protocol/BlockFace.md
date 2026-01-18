@@ -1,17 +1,17 @@
+**Source Hash:** `1c189aadb7c3212f239e96ac7a47f85ed57b755397818b6178e520832bbd3b9c`
+
 # BlockFace
 
 ## Overview
-- Documentation for `BlockFace`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockFace(int value)`
   - Creates a `BlockFace` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

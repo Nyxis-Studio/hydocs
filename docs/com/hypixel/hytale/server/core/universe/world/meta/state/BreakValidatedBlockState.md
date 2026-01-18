@@ -1,14 +1,14 @@
+**Source Hash:** `27a5811437c13aec1bfefca9eba5629aeb1dc1939ff5155b4776dd005411fd4c`
+
 # BreakValidatedBlockState
 
 ## Overview
-- Documentation for `BreakValidatedBlockState`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `canDestroy(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+## Method Descriptions
+- `canDestroy(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `canDestroy` behavior.
 
 ## Notes

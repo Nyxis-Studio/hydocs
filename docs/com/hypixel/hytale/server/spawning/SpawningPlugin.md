@@ -1,117 +1,117 @@
+**Source Hash:** `1023222a76f94dfaa2361ad8853d9a9c62e9716cc2807ab4e0cfcb5dd48803e2`
+
 # SpawningPlugin
 
 ## Overview
-- Documentation for `SpawningPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawningPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `SpawningPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `getSpawnMarkerSpatialResource()`
+- `getSpawnMarkerSpatialResource()`: Add description.
   - Executes `getSpawnMarkerSpatialResource` behavior.
-- `getManualSpawnBeaconSpatialResource()`
+- `getManualSpawnBeaconSpatialResource()`: Add description.
   - Executes `getManualSpawnBeaconSpatialResource` behavior.
-- `getSpawnMarkerComponentType()`
+- `getSpawnMarkerComponentType()`: Add description.
   - Executes `getSpawnMarkerComponentType` behavior.
-- `getLocalSpawnControllerComponentType()`
+- `getLocalSpawnControllerComponentType()`: Add description.
   - Executes `getLocalSpawnControllerComponentType` behavior.
-- `getWorldSpawnDataResourceType()`
+- `getWorldSpawnDataResourceType()`: Add description.
   - Executes `getWorldSpawnDataResourceType` behavior.
-- `getSpawnSuppressorComponentType()`
+- `getSpawnSuppressorComponentType()`: Add description.
   - Executes `getSpawnSuppressorComponentType` behavior.
-- `getSpawnSuppressionControllerResourceType()`
+- `getSpawnSuppressionControllerResourceType()`: Add description.
   - Executes `getSpawnSuppressionControllerResourceType` behavior.
-- `getLocalSpawnBeaconComponentType()`
+- `getLocalSpawnBeaconComponentType()`: Add description.
   - Executes `getLocalSpawnBeaconComponentType` behavior.
-- `getLocalSpawnStateResourceType()`
+- `getLocalSpawnStateResourceType()`: Add description.
   - Executes `getLocalSpawnStateResourceType` behavior.
-- `getInitialBeaconDelayComponentType()`
+- `getInitialBeaconDelayComponentType()`: Add description.
   - Executes `getInitialBeaconDelayComponentType` behavior.
-- `getSpawnJobDataComponentType()`
+- `getSpawnJobDataComponentType()`: Add description.
   - Executes `getSpawnJobDataComponentType` behavior.
-- `getChunkSpawnDataComponentType()`
+- `getChunkSpawnDataComponentType()`: Add description.
   - Executes `getChunkSpawnDataComponentType` behavior.
-- `getChunkSpawnedNPCDataComponentType()`
+- `getChunkSpawnedNPCDataComponentType()`: Add description.
   - Executes `getChunkSpawnedNPCDataComponentType` behavior.
-- `getChunkSuppressionQueueResourceType()`
+- `getChunkSuppressionQueueResourceType()`: Add description.
   - Executes `getChunkSuppressionQueueResourceType` behavior.
-- `getFloodFillEntryPoolProviderSimpleResourceType()`
+- `getFloodFillEntryPoolProviderSimpleResourceType()`: Add description.
   - Executes `getFloodFillEntryPoolProviderSimpleResourceType` behavior.
-- `getChunkSuppressionEntryComponentType()`
+- `getChunkSuppressionEntryComponentType()`: Add description.
   - Executes `getChunkSuppressionEntryComponentType` behavior.
-- `getBeaconSpawnWrapper(int configId)`
+- `getBeaconSpawnWrapper(int configId)`: Add description.
   - Executes `getBeaconSpawnWrapper` behavior.
-- `getSpawnMarkerReferenceComponentType()`
+- `getSpawnMarkerReferenceComponentType()`: Add description.
   - Executes `getSpawnMarkerReferenceComponentType` behavior.
-- `getSpawnBeaconReferenceComponentType()`
+- `getSpawnBeaconReferenceComponentType()`: Add description.
   - Executes `getSpawnBeaconReferenceComponentType` behavior.
-- `getFloodFillPositionSelectorComponentType()`
+- `getFloodFillPositionSelectorComponentType()`: Add description.
   - Executes `getFloodFillPositionSelectorComponentType` behavior.
-- `getSpawnMarkerBlockReferenceComponentType()`
+- `getSpawnMarkerBlockReferenceComponentType()`: Add description.
   - Executes `getSpawnMarkerBlockReferenceComponentType` behavior.
-- `shouldNPCDespawn(@Nonnull Store<EntityStore> store, @Nonnull NPCEntity npcComponent, @Nonnull WorldTimeResource timeManager, int configuration, boolean beaconSpawn)`
+- `shouldNPCDespawn(@Nonnull Store<EntityStore> store, @Nonnull NPCEntity npcComponent, @Nonnull WorldTimeResource timeManager, int configuration, boolean beaconSpawn)`: Add description.
   - Executes `shouldNPCDespawn` behavior.
-- `getSpawnMarkerModel()`
+- `getSpawnMarkerModel()`: Add description.
   - Executes `getSpawnMarkerModel` behavior.
-- `getWorldEnvironmentSpawnParameters(int environmentIndex)`
+- `getWorldEnvironmentSpawnParameters(int environmentIndex)`: Add description.
   - Executes `getWorldEnvironmentSpawnParameters` behavior.
-- `getBeaconSpawnsForEnvironment(int environmentIndex)`
+- `getBeaconSpawnsForEnvironment(int environmentIndex)`: Add description.
   - Executes `getBeaconSpawnsForEnvironment` behavior.
-- `getRolesForEnvironment(int environment)`
+- `getRolesForEnvironment(int environment)`: Add description.
   - Executes `getRolesForEnvironment` behavior.
-- `getTickColumnBudget()`
+- `getTickColumnBudget()`: Add description.
   - Executes `getTickColumnBudget` behavior.
-- `getMaxActiveJobs()`
+- `getMaxActiveJobs()`: Add description.
   - Executes `getMaxActiveJobs` behavior.
-- `getLocalSpawnControllerJoinDelay()`
+- `getLocalSpawnControllerJoinDelay()`: Add description.
   - Executes `getLocalSpawnControllerJoinDelay` behavior.
-- `validateSpawnsConfigurations(String type, @Nonnull Map<String, T> spawns, @Nonnull List<String> errors)`
+- `validateSpawnsConfigurations(String type, @Nonnull Map<String, T> spawns, @Nonnull List<String> errors)`: Add description.
   - Executes `validateSpawnsConfigurations` behavior.
-- `validateSpawnMarkers(@Nonnull Map<String, SpawnMarker> markers, @Nonnull List<String> errors)`
+- `validateSpawnMarkers(@Nonnull Map<String, SpawnMarker> markers, @Nonnull List<String> errors)`: Add description.
   - Executes `validateSpawnMarkers` behavior.
-- `getEnvironmentDensity(int environmentIndex)`
+- `getEnvironmentDensity(int environmentIndex)`: Add description.
   - Executes `getEnvironmentDensity` behavior.
-- `onSpawnMarkersChange(@Nonnull LoadedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`
+- `onSpawnMarkersChange(@Nonnull LoadedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`: Add description.
   - Executes `onSpawnMarkersChange` behavior.
-- `onSpawnMarkersRemove(@Nonnull RemovedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`
+- `onSpawnMarkersRemove(@Nonnull RemovedAssetsEvent<String, SpawnMarker, DefaultAssetMap<String, SpawnMarker>> event)`: Add description.
   - Executes `onSpawnMarkersRemove` behavior.
-- `onEnvironmentChange(@Nonnull LoadedAssetsEvent<String, Environment, IndexedLookupTableAssetMap<String, Environment>> event)`
+- `onEnvironmentChange(@Nonnull LoadedAssetsEvent<String, Environment, IndexedLookupTableAssetMap<String, Environment>> event)`: Add description.
   - Executes `onEnvironmentChange` behavior.
-- `onWorldNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`
+- `onWorldNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`: Add description.
   - Executes `onWorldNPCSpawnsLoaded` behavior.
-- `onBeaconNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`
+- `onBeaconNPCSpawnsLoaded(@Nonnull LoadedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`: Add description.
   - Executes `onBeaconNPCSpawnsLoaded` behavior.
-- `onWorldNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`
+- `onWorldNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, WorldNPCSpawn, IndexedLookupTableAssetMap<String, WorldNPCSpawn>> event)`: Add description.
   - Executes `onWorldNPCSpawnsRemoved` behavior.
-- `onBeaconNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`
+- `onBeaconNPCSpawnsRemoved(@Nonnull RemovedAssetsEvent<String, BeaconNPCSpawn, IndexedLookupTableAssetMap<String, BeaconNPCSpawn>> event)`: Add description.
   - Executes `onBeaconNPCSpawnsRemoved` behavior.
-- `onLoadedNPCEvent(@Nonnull AllNPCsLoadedEvent loadedNPCEvent)`
+- `onLoadedNPCEvent(@Nonnull AllNPCsLoadedEvent loadedNPCEvent)`: Add description.
   - Executes `onLoadedNPCEvent` behavior.
-- `setUpWithAllRoles()`
+- `setUpWithAllRoles()`: Add description.
   - Executes `setUpWithAllRoles` behavior.
-- `rebuildBeaconSpawnConfigurations(@Nullable IntSet changeSet)`
+- `rebuildBeaconSpawnConfigurations(@Nullable IntSet changeSet)`: Add description.
   - Executes `rebuildBeaconSpawnConfigurations` behavior.
-- `onModelAssetChange(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`
+- `onModelAssetChange(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`: Add description.
   - Executes `onModelAssetChange` behavior.
-- `onLoadAsset(@Nonnull LoadAssetEvent event)`
+- `onLoadAsset(@Nonnull LoadAssetEvent event)`: Add description.
   - Executes `onLoadAsset` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
 
 ## Notes

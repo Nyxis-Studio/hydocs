@@ -1,15 +1,15 @@
+**Source Hash:** `be16e98753259dd405f579951198c2bcd7f0e590ad2d279c0dc5e3590e81da4a`
+
 # UnionPositionProvider
 
 ## Overview
-- Documentation for `UnionPositionProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.positionproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `UnionPositionProvider(@Nonnull List<PositionProvider> positionProviders)`
   - Creates a `UnionPositionProvider` instance.
 
-## Methods
-- `positionsIn(@Nonnull PositionProvider.Context context)`
+## Method Descriptions
+- `positionsIn(@Nonnull PositionProvider.Context context)`: Add description.
   - Executes `positionsIn` behavior.
 
 ## Notes

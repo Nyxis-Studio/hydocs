@@ -1,37 +1,37 @@
+**Source Hash:** `497747b9a539d6c3a19247c89faf55b4365a5c953ba0c0087ef2a07f28f27d7d`
+
 # DiskDataStore
 
 ## Overview
-- Documentation for `DiskDataStore`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.datastore`.
 
-## Constructors
+## Constructor Descriptions
 - `DiskDataStore(@Nonnull String path, BuilderCodec<T> codec)`
   - Creates a `DiskDataStore` instance.
 
-## Methods
-- `getPath()`
+## Method Descriptions
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getCodec()`
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `load(String id)`
+- `load(String id)`: Add description.
   - Executes `load` behavior.
-- `save(String id, T value)`
+- `save(String id, T value)`: Add description.
   - Executes `save` behavior.
-- `remove(String id)`
+- `remove(String id)`: Add description.
   - Executes `remove` behavior.
-- `list()`
+- `list()`: Add description.
   - Executes `list` behavior.
-- `loadAll()`
+- `loadAll()`: Add description.
   - Executes `loadAll` behavior.
-- `removeAll()`
+- `removeAll()`: Add description.
   - Executes `removeAll` behavior.
-- `load0(@Nonnull Path path)`
+- `load0(@Nonnull Path path)`: Add description.
   - Executes `load0` behavior.
-- `getPathFromId(@Nonnull Path path, String id)`
+- `getPathFromId(@Nonnull Path path, String id)`: Add description.
   - Executes `getPathFromId` behavior.
-- `getBackupPathFromId(@Nonnull Path path, String id)`
+- `getBackupPathFromId(@Nonnull Path path, String id)`: Add description.
   - Executes `getBackupPathFromId` behavior.
-- `getIdFromPath(@Nonnull Path path)`
+- `getIdFromPath(@Nonnull Path path)`: Add description.
   - Executes `getIdFromPath` behavior.
 
 ## Notes

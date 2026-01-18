@@ -1,21 +1,21 @@
+**Source Hash:** `23548581443de40704aae1b4bdd63c1e0d8d26e976fd7a500328ef1b85a5c910`
+
 # BarterItemStack
 
 ## Overview
-- Documentation for `BarterItemStack`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `BarterItemStack(String itemId, int quantity)`
   - Creates a `BarterItemStack` instance.
 - `BarterItemStack()`
   - Creates a `BarterItemStack` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `50214b1173e900750d6b9197365add06ea6cfb633925f29d9553a6323416248a`
+
 # EntityWrappedArg
 
 ## Overview
-- Documentation for `EntityWrappedArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityWrappedArg(@Nonnull Argument<?, UUID> argument)`
   - Creates a `EntityWrappedArg` instance.
 
-## Methods
-- `get(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull CommandContext context)`
+## Method Descriptions
+- `get(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull CommandContext context)`: Add description.
   - Executes `get` behavior.
-- `getEntityDirectly(@Nonnull CommandContext context, @Nonnull World world)`
+- `getEntityDirectly(@Nonnull CommandContext context, @Nonnull World world)`: Add description.
   - Executes `getEntityDirectly` behavior.
 
 ## Notes

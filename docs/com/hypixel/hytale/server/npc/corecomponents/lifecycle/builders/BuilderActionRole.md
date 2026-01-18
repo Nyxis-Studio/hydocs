@@ -1,28 +1,28 @@
+**Source Hash:** `3dd3453d4aef61ddaf451760b63519e99db9d7f5a6e3e004fcc457199cb722ce`
+
 # BuilderActionRole
 
 ## Overview
-- Documentation for `BuilderActionRole`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.lifecycle.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getRole(@Nonnull BuilderSupport support)`
+- `getRole(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRole` behavior.
-- `getChangeAppearance(@Nonnull BuilderSupport support)`
+- `getChangeAppearance(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getChangeAppearance` behavior.
-- `getState(@Nonnull BuilderSupport support)`
+- `getState(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getState` behavior.
 
 ## Notes

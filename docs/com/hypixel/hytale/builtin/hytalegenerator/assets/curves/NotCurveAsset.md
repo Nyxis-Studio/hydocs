@@ -1,16 +1,16 @@
+**Source Hash:** `89818c409cdd0060f1de82224a90789435e88d81009015f3b3a8d55718bf66b7`
+
 # NotCurveAsset
 
 ## Overview
-- Documentation for `NotCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `fbf893a1ab7b4a545c137ca8c3e199e290390c4d89ca0fa9d409eb3c1006b94a`
+
 # TokenFlags
 
 ## Overview
-- Documentation for `TokenFlags`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.util.expression.compile`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

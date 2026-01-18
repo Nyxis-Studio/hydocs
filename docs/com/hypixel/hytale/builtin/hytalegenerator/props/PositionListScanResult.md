@@ -1,19 +1,19 @@
+**Source Hash:** `a1b6e846ba80933966d86abda623abd5900b7019447376d85c3239d1524a9ba5`
+
 # PositionListScanResult
 
 ## Overview
-- Documentation for `PositionListScanResult`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.props`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionListScanResult(@Nullable List<Vector3i> positions)`
   - Creates a `PositionListScanResult` instance.
 
-## Methods
-- `getPositions()`
+## Method Descriptions
+- `getPositions()`: Add description.
   - Executes `getPositions` behavior.
-- `cast(ScanResult scanResult)`
+- `cast(ScanResult scanResult)`: Add description.
   - Executes `cast` behavior.
-- `isNegative()`
+- `isNegative()`: Add description.
   - Executes `isNegative` behavior.
 
 ## Notes

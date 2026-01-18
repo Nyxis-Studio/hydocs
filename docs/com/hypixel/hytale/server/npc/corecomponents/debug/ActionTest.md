@@ -1,15 +1,15 @@
+**Source Hash:** `1543b496c0a28f0be7289991c6be6017b9a6a5c89810012c24b2b136132a1036`
+
 # ActionTest
 
 ## Overview
-- Documentation for `ActionTest`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionTest(@Nonnull BuilderActionTest builder, @Nonnull BuilderSupport support)`
   - Creates a `ActionTest` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

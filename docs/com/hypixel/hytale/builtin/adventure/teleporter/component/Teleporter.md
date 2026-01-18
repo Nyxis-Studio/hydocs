@@ -1,53 +1,53 @@
+**Source Hash:** `dee16c1af69c0cafbf39f542bad984bf74ddc482631b2b92b47e6ade7830d1f9`
+
 # Teleporter
 
 ## Overview
-- Documentation for `Teleporter`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.teleporter.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Teleporter()`
   - Creates a `Teleporter` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getWorldUuid()`
+- `getWorldUuid()`: Add description.
   - Executes `getWorldUuid` behavior.
-- `setWorldUuid(@Nullable UUID worldUuid)`
+- `setWorldUuid(@Nullable UUID worldUuid)`: Add description.
   - Executes `setWorldUuid` behavior.
-- `getTransform()`
+- `getTransform()`: Add description.
   - Executes `getTransform` behavior.
-- `setTransform(@Nullable Transform transform)`
+- `setTransform(@Nullable Transform transform)`: Add description.
   - Executes `setTransform` behavior.
-- `getRelativeMask()`
+- `getRelativeMask()`: Add description.
   - Executes `getRelativeMask` behavior.
-- `setRelativeMask(byte relativeMask)`
+- `setRelativeMask(byte relativeMask)`: Add description.
   - Executes `setRelativeMask` behavior.
-- `getWarp()`
+- `getWarp()`: Add description.
   - Executes `getWarp` behavior.
-- `setWarp(@Nullable String warp)`
+- `setWarp(@Nullable String warp)`: Add description.
   - Executes `setWarp` behavior.
-- `getOwnedWarp()`
+- `getOwnedWarp()`: Add description.
   - Executes `getOwnedWarp` behavior.
-- `setOwnedWarp(String ownedWarp)`
+- `setOwnedWarp(String ownedWarp)`: Add description.
   - Executes `setOwnedWarp` behavior.
-- `hasOwnedWarp()`
+- `hasOwnedWarp()`: Add description.
   - Executes `hasOwnedWarp` behavior.
-- `setWarpNameWordListKey(String warpNameWordListKey)`
+- `setWarpNameWordListKey(String warpNameWordListKey)`: Add description.
   - Executes `setWarpNameWordListKey` behavior.
-- `isCustomName()`
+- `isCustomName()`: Add description.
   - Executes `isCustomName` behavior.
-- `setIsCustomName(boolean customName)`
+- `setIsCustomName(boolean customName)`: Add description.
   - Executes `setIsCustomName` behavior.
-- `getWarpNameWordListKey()`
+- `getWarpNameWordListKey()`: Add description.
   - Executes `getWarpNameWordListKey` behavior.
-- `getWarpNameWordList()`
+- `getWarpNameWordList()`: Add description.
   - Executes `getWarpNameWordList` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toTeleport(@Nonnull Vector3d currentPosition, @Nonnull Vector3f currentRotation, @Nonnull Vector3i blockPosition)`
+- `toTeleport(@Nonnull Vector3d currentPosition, @Nonnull Vector3f currentRotation, @Nonnull Vector3i blockPosition)`: Add description.
   - Executes `toTeleport` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `47e3f7684a73f8445ab292eabcd31d98c23806e0931a9b1ed22a0615e7a795dc`
+
 # ApplyForceInteraction
 
 ## Overview
-- Documentation for `ApplyForceInteraction`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplyForceInteraction()`
   - Creates a `ApplyForceInteraction` instance.
 - `ApplyForceInteraction(@Nonnull WaitForDataFrom waitForDataFrom, @Nullable InteractionEffects effects, float horizontalSpeedMultiplier, float runTime, boolean cancelOnItemChange, @Nullable Map<GameMode, InteractionSettings> settings, @Nullable InteractionRules rules, @Nullable int[] tags, @Nullable InteractionCameraSettings camera, int next, int failed, @Nullable VelocityConfig velocityConfig, @Nonnull ChangeVelocityType changeVelocityType, @Nullable AppliedForce[] forces, float duration, @Nullable FloatRange verticalClamp, boolean waitForGround, boolean waitForCollision, float groundCheckDelay, float collisionCheckDelay, int groundNext, int collisionNext, float raycastDistance, float raycastHeightOffset, @Nonnull RaycastMode raycastMode)`
@@ -12,22 +12,22 @@
 - `ApplyForceInteraction(@Nonnull ApplyForceInteraction other)`
   - Creates a `ApplyForceInteraction` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

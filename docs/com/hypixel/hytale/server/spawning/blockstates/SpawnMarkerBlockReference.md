@@ -1,25 +1,25 @@
+**Source Hash:** `a3c468c508e63d97501e1f45305c299dcbd915ceebbfd6c20acf16a19b275b03`
+
 # SpawnMarkerBlockReference
 
 ## Overview
-- Documentation for `SpawnMarkerBlockReference`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.blockstates`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnMarkerBlockReference()`
   - Creates a `SpawnMarkerBlockReference` instance.
 - `SpawnMarkerBlockReference(Vector3i blockPosition)`
   - Creates a `SpawnMarkerBlockReference` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getBlockPosition()`
+- `getBlockPosition()`: Add description.
   - Executes `getBlockPosition` behavior.
-- `refreshOriginLostTimeout()`
+- `refreshOriginLostTimeout()`: Add description.
   - Executes `refreshOriginLostTimeout` behavior.
-- `tickOriginLostTimeout(float dt)`
+- `tickOriginLostTimeout(float dt)`: Add description.
   - Executes `tickOriginLostTimeout` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

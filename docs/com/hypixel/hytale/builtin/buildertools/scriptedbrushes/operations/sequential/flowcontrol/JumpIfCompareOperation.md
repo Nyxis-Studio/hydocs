@@ -1,19 +1,19 @@
+**Source Hash:** `a875eb4c4e11bd68bf12f6baddeaa42d9f4af2d23f6e48a9d067050437d39243`
+
 # JumpIfCompareOperation
 
 ## Overview
-- Documentation for `JumpIfCompareOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol`.
 
-## Constructors
+## Constructor Descriptions
 - `JumpIfCompareOperation()`
   - Creates a `JumpIfCompareOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
-- `apply(BrushConfig brushConfig)`
+- `apply(BrushConfig brushConfig)`: Add description.
   - Executes `apply` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

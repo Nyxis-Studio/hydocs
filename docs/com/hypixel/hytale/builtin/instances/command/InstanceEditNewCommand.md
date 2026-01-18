@@ -1,15 +1,15 @@
+**Source Hash:** `9fde9d801ce0be5b00edeff4cdcc9f3c084ec0d75532810b8ba762f688c96fac`
+
 # InstanceEditNewCommand
 
 ## Overview
-- Documentation for `InstanceEditNewCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.command`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceEditNewCommand()`
   - Creates a `InstanceEditNewCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

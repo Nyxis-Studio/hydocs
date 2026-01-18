@@ -1,27 +1,27 @@
+**Source Hash:** `41aa95e2bafac5b5af63e7da69084d97be00e65b8b1df043701702da9df74b11`
+
 # EarlyPluginLoader
 
 ## Overview
-- Documentation for `EarlyPluginLoader`.
-- Declared as a class in `com.hypixel.hytale.plugin.early`.
 
-## Constructors
+## Constructor Descriptions
 - `EarlyPluginLoader()`
   - Creates a `EarlyPluginLoader` instance.
 
-## Methods
-- `loadEarlyPlugins(@Nonnull String[] args)`
+## Method Descriptions
+- `loadEarlyPlugins(@Nonnull String[] args)`: Add description.
   - Executes `loadEarlyPlugins` behavior.
-- `parseEarlyPluginPaths(@Nonnull String[] args)`
+- `parseEarlyPluginPaths(@Nonnull String[] args)`: Add description.
   - Executes `parseEarlyPluginPaths` behavior.
-- `hasFlag(String[] args, String flag)`
+- `hasFlag(String[] args, String flag)`: Add description.
   - Executes `hasFlag` behavior.
-- `collectPluginJars(Path path, List<URL> urls)`
+- `collectPluginJars(Path path, List<URL> urls)`: Add description.
   - Executes `collectPluginJars` behavior.
-- `hasTransformers()`
+- `hasTransformers()`: Add description.
   - Executes `hasTransformers` behavior.
-- `getTransformers()`
+- `getTransformers()`: Add description.
   - Executes `getTransformers` behavior.
-- `getPluginClassLoader()`
+- `getPluginClassLoader()`: Add description.
   - Executes `getPluginClassLoader` behavior.
 
 ## Notes

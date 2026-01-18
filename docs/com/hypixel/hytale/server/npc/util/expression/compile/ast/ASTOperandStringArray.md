@@ -1,10 +1,10 @@
+**Source Hash:** `9a594ccfab112ab9a1dbdd9e63437a89c2d47226f4b55b721a5e9c64b5d19ebb`
+
 # ASTOperandStringArray
 
 ## Overview
-- Documentation for `ASTOperandStringArray`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression.compile.ast`.
 
-## Constructors
+## Constructor Descriptions
 - `ASTOperandStringArray(@Nonnull Token token, int tokenPosition, String[] constantStringArray)`
   - Creates a `ASTOperandStringArray` instance.
 - `ASTOperandStringArray(@Nonnull Token token, int tokenPosition, @Nonnull Scope scope, String identifier)`
@@ -12,8 +12,8 @@
 - `ASTOperandStringArray(@Nonnull Token token, int tokenPosition, @Nonnull Stack<AST> operandStack, int firstArgument, int argumentCount)`
   - Creates a `ASTOperandStringArray` instance.
 
-## Methods
-- `isConstant()`
+## Method Descriptions
+- `isConstant()`: Add description.
   - Executes `isConstant` behavior.
 
 ## Notes

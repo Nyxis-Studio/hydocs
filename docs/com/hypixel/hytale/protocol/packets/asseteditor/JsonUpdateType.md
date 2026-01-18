@@ -1,17 +1,17 @@
+**Source Hash:** `8add6a72fe5c7b00f72ef4778abee96bfea3416a1387ad90cd79213ff764aca9`
+
 # JsonUpdateType
 
 ## Overview
-- Documentation for `JsonUpdateType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `JsonUpdateType(int value)`
   - Creates a `JsonUpdateType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `8d9cd98bbe26adc343198230789af35647d4e6634b2c21926e7201f42681916d`
+
 # PositionType
 
 ## Overview
-- Documentation for `PositionType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionType(int value)`
   - Creates a `PositionType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

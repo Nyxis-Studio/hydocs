@@ -1,14 +1,14 @@
+**Source Hash:** `f11112b5bab32a8cee0c3ac098eae25dac27498143e3074a488760d576257764`
+
 # MountInteraction
 
 ## Overview
-- Documentation for `MountInteraction`.
-- Declared as a class in `com.hypixel.hytale.builtin.mounts.interactions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
 
 ## Notes

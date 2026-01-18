@@ -1,17 +1,17 @@
+**Source Hash:** `c527ca3f5dbd88bd0ab7cdd6dbd22f070926458c9e17d658ab10db5da1fec100`
+
 # SpawnMarkerReference
 
 ## Overview
-- Documentation for `SpawnMarkerReference`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnMarkerReference()`
   - Creates a `SpawnMarkerReference` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

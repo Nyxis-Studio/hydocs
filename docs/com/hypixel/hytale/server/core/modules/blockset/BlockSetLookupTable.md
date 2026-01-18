@@ -1,25 +1,25 @@
+**Source Hash:** `6649c6f6501496bc39eb886a08c39f715973120eb1f553a8ca5048b3447433fa`
+
 # BlockSetLookupTable
 
 ## Overview
-- Documentation for `BlockSetLookupTable`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.blockset`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSetLookupTable(@Nonnull Map<String, BlockType> blockTypeMap)`
   - Creates a `BlockSetLookupTable` instance.
 
-## Methods
-- `addAll(@Nonnull IntSet result)`
+## Method Descriptions
+- `addAll(@Nonnull IntSet result)`: Add description.
   - Executes `addAll` behavior.
-- `getBlockNameIdMap()`
+- `getBlockNameIdMap()`: Add description.
   - Executes `getBlockNameIdMap` behavior.
-- `getGroupNameIdMap()`
+- `getGroupNameIdMap()`: Add description.
   - Executes `getGroupNameIdMap` behavior.
-- `getHitboxNameIdMap()`
+- `getHitboxNameIdMap()`: Add description.
   - Executes `getHitboxNameIdMap` behavior.
-- `getCategoryIdMap()`
+- `getCategoryIdMap()`: Add description.
   - Executes `getCategoryIdMap` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
 
 ## Notes

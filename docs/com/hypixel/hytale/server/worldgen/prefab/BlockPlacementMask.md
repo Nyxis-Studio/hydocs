@@ -1,40 +1,40 @@
+**Source Hash:** `2d8a5464b320f89d484253348b60cb1caf4438212b28acadc311f7a473a7335b`
+
 # BlockPlacementMask
 
 ## Overview
-- Documentation for `BlockPlacementMask`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.prefab`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `set(IMask defaultMask, Long2ObjectMap<Mask> specificMasks)`
+## Method Descriptions
+- `set(IMask defaultMask, Long2ObjectMap<Mask> specificMasks)`: Add description.
   - Executes `set` behavior.
-- `eval(int currentBlock, int currentFluid, @Nonnull BlockFluidEntry entry)`
+- `eval(int currentBlock, int currentFluid, @Nonnull BlockFluidEntry entry)`: Add description.
   - Executes `eval` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `shouldReplace(int var1, int var2)`
+- `shouldReplace(int var1, int var2)`: Add description.
   - Executes `shouldReplace` behavior.
-- `shouldReplace(int block, int fluid)`
+- `shouldReplace(int block, int fluid)`: Add description.
   - Executes `shouldReplace` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `set(ResolvedBlockArray blocks, boolean replace)`
+- `set(ResolvedBlockArray blocks, boolean replace)`: Add description.
   - Executes `set` behavior.
-- `shouldHandle(int current, int fluid)`
+- `shouldHandle(int current, int fluid)`: Add description.
   - Executes `shouldHandle` behavior.
-- `shouldReplace()`
+- `shouldReplace()`: Add description.
   - Executes `shouldReplace` behavior.
-- `shouldHandle(int block, int fluid)`
+- `shouldHandle(int block, int fluid)`: Add description.
   - Executes `shouldHandle` behavior.
-- `shouldHandle(int var1, int var2)`
+- `shouldHandle(int var1, int var2)`: Add description.
   - Executes `shouldHandle` behavior.
-- `shouldReplace(int current, int fluid)`
+- `shouldReplace(int current, int fluid)`: Add description.
   - Executes `shouldReplace` behavior.
 
 ## Notes

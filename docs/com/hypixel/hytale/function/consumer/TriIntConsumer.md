@@ -1,14 +1,14 @@
+**Source Hash:** `4ff14ed1bbfd2a680ec7b7aeb330e1c74f82fec8c62d6c871584ed22bfe5c243`
+
 # TriIntConsumer
 
 ## Overview
-- Documentation for `TriIntConsumer`.
-- Declared as a interface in `com.hypixel.hytale.function.consumer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(int var1, int var2, int var3)`
+## Method Descriptions
+- `accept(int var1, int var2, int var3)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

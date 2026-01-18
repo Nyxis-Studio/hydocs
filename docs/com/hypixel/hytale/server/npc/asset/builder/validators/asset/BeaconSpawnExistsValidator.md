@@ -1,10 +1,10 @@
+**Source Hash:** `1db0756188daadfc4c5366d6f8a2d7037ab5ded0cc71872a761ad5b31993c105`
+
 # BeaconSpawnExistsValidator
 
 ## Overview
-- Documentation for `BeaconSpawnExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `BeaconSpawnExistsValidator()`
   - Creates a `BeaconSpawnExistsValidator` instance.
 - `BeaconSpawnExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `BeaconSpawnExistsValidator(config)`
   - Creates a `BeaconSpawnExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String beacon)`
+- `test(String beacon)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String beacon, String attributeName)`
+- `errorMessage(String beacon, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

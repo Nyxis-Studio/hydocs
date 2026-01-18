@@ -1,17 +1,17 @@
+**Source Hash:** `ec47ff9eaf57116f858976d95d23cace66beee8ed5c011145674f7fba2b506a9`
+
 # CavePrefabPlacement
 
 ## Overview
-- Documentation for `CavePrefabPlacement`.
-- Declared as a enum in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
+## Constructor Descriptions
 - `CavePrefabPlacement(PrefabPlacementFunction function)`
   - Creates a `CavePrefabPlacement` instance.
 
-## Methods
-- `getFunction()`
+## Method Descriptions
+- `getFunction()`: Add description.
   - Executes `getFunction` behavior.
-- `generate(int var1, double var2, double var4, CaveNode var6)`
+- `generate(int var1, double var2, double var4, CaveNode var6)`: Add description.
   - Executes `generate` behavior.
 
 ## Notes

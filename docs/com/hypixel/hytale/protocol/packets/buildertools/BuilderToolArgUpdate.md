@@ -1,10 +1,10 @@
+**Source Hash:** `40e9ce343de8dafa1668381726928fda21af26ce2678c42145c9cfcfc97ddff9`
+
 # BuilderToolArgUpdate
 
 ## Overview
-- Documentation for `BuilderToolArgUpdate`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolArgUpdate()`
   - Creates a `BuilderToolArgUpdate` instance.
 - `BuilderToolArgUpdate(int token, int section, int slot, @Nonnull BuilderToolArgGroup group, @Nullable String id, @Nullable String value)`
@@ -12,24 +12,24 @@
 - `BuilderToolArgUpdate(@Nonnull BuilderToolArgUpdate other)`
   - Creates a `BuilderToolArgUpdate` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

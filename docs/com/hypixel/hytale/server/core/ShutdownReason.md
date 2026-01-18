@@ -1,10 +1,10 @@
+**Source Hash:** `eb097c3fdc67a94ad3e857f2a111108bff8c5951c3a75079f72989c68fccead2`
+
 # ShutdownReason
 
 ## Overview
-- Documentation for `ShutdownReason`.
-- Declared as a class in `com.hypixel.hytale.server.core`.
 
-## Constructors
+## Constructor Descriptions
 - `ShutdownReason(130)`
   - Creates a `ShutdownReason` instance.
 - `ShutdownReason(0)`
@@ -28,14 +28,14 @@
 - `ShutdownReason(this.exitCode, message)`
   - Creates a `ShutdownReason` instance.
 
-## Methods
-- `getExitCode()`
+## Method Descriptions
+- `getExitCode()`: Add description.
   - Executes `getExitCode` behavior.
-- `getMessage()`
+- `getMessage()`: Add description.
   - Executes `getMessage` behavior.
-- `withMessage(String message)`
+- `withMessage(String message)`: Add description.
   - Executes `withMessage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,31 +1,31 @@
+**Source Hash:** `046eb033ec54ba0e255e28eb31259459060e13e3e1c08257d24d96500f7234ff`
+
 # MaskProvider
 
 ## Overview
-- Documentation for `MaskProvider`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `MaskProvider(FuzzyZoom fuzzyZoom)`
   - Creates a `MaskProvider` instance.
 - `MaskProvider(this.fuzzyZoom.generateUniqueZones(candidates, random, zones)`
   - Creates a `MaskProvider` instance.
 
-## Methods
-- `getX(int seed, double x, double y)`
+## Method Descriptions
+- `getX(int seed, double x, double y)`: Add description.
   - Executes `getX` behavior.
-- `getY(int seed, double x, double y)`
+- `getY(int seed, double x, double y)`: Add description.
   - Executes `getY` behavior.
-- `get(int seed, double x, double y)`
+- `get(int seed, double x, double y)`: Add description.
   - Executes `get` behavior.
-- `distance(double x, double y)`
+- `distance(double x, double y)`: Add description.
   - Executes `distance` behavior.
-- `inBounds(double x, double y)`
+- `inBounds(double x, double y)`: Add description.
   - Executes `inBounds` behavior.
-- `getFuzzyZoom()`
+- `getFuzzyZoom()`: Add description.
   - Executes `getFuzzyZoom` behavior.
-- `generateUniqueZones(int seed, Zone.UniqueCandidate[] candidates, FastRandom random, List<Zone.Unique> zones)`
+- `generateUniqueZones(int seed, Zone.UniqueCandidate[] candidates, FastRandom random, List<Zone.Unique> zones)`: Add description.
   - Executes `generateUniqueZones` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

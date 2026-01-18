@@ -1,55 +1,55 @@
+**Source Hash:** `13fc702e594f45c31a3d2baaf6ee6e3ac825afb4e5d74edc884f6f1dd5a7453e`
+
 # InstanceDiscoveryConfig
 
 ## Overview
-- Documentation for `InstanceDiscoveryConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.config`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceDiscoveryConfig()`
   - Creates a `InstanceDiscoveryConfig` instance.
 
-## Methods
-- `getTitleKey()`
+## Method Descriptions
+- `getTitleKey()`: Add description.
   - Executes `getTitleKey` behavior.
-- `setTitleKey(@Nonnull String titleKey)`
+- `setTitleKey(@Nonnull String titleKey)`: Add description.
   - Executes `setTitleKey` behavior.
-- `getSubtitleKey()`
+- `getSubtitleKey()`: Add description.
   - Executes `getSubtitleKey` behavior.
-- `setSubtitleKey(@Nullable String subtitleKey)`
+- `setSubtitleKey(@Nullable String subtitleKey)`: Add description.
   - Executes `setSubtitleKey` behavior.
-- `isDisplay()`
+- `isDisplay()`: Add description.
   - Executes `isDisplay` behavior.
-- `setDisplay(boolean display)`
+- `setDisplay(boolean display)`: Add description.
   - Executes `setDisplay` behavior.
-- `alwaysDisplay()`
+- `alwaysDisplay()`: Add description.
   - Executes `alwaysDisplay` behavior.
-- `setAlwaysDisplay(boolean alwaysDisplay)`
+- `setAlwaysDisplay(boolean alwaysDisplay)`: Add description.
   - Executes `setAlwaysDisplay` behavior.
-- `getDiscoverySoundEventId()`
+- `getDiscoverySoundEventId()`: Add description.
   - Executes `getDiscoverySoundEventId` behavior.
-- `setDiscoverySoundEventId(@Nullable String discoverySoundEventId)`
+- `setDiscoverySoundEventId(@Nullable String discoverySoundEventId)`: Add description.
   - Executes `setDiscoverySoundEventId` behavior.
-- `getIcon()`
+- `getIcon()`: Add description.
   - Executes `getIcon` behavior.
-- `setIcon(@Nullable String icon)`
+- `setIcon(@Nullable String icon)`: Add description.
   - Executes `setIcon` behavior.
-- `isMajor()`
+- `isMajor()`: Add description.
   - Executes `isMajor` behavior.
-- `setMajor(boolean major)`
+- `setMajor(boolean major)`: Add description.
   - Executes `setMajor` behavior.
-- `getDuration()`
+- `getDuration()`: Add description.
   - Executes `getDuration` behavior.
-- `setDuration(float duration)`
+- `setDuration(float duration)`: Add description.
   - Executes `setDuration` behavior.
-- `getFadeInDuration()`
+- `getFadeInDuration()`: Add description.
   - Executes `getFadeInDuration` behavior.
-- `setFadeInDuration(float fadeInDuration)`
+- `setFadeInDuration(float fadeInDuration)`: Add description.
   - Executes `setFadeInDuration` behavior.
-- `getFadeOutDuration()`
+- `getFadeOutDuration()`: Add description.
   - Executes `getFadeOutDuration` behavior.
-- `setFadeOutDuration(float fadeOutDuration)`
+- `setFadeOutDuration(float fadeOutDuration)`: Add description.
   - Executes `setFadeOutDuration` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

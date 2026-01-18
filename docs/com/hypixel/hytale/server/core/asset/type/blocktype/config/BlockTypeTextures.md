@@ -1,10 +1,10 @@
+**Source Hash:** `17df31934c24a62d389273cc66f26aedbe462d707e59549730fd3f8aa161e9ac`
+
 # BlockTypeTextures
 
 ## Overview
-- Documentation for `BlockTypeTextures`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockTypeTextures()`
   - Creates a `BlockTypeTextures` instance.
 - `BlockTypeTextures(String all)`
@@ -12,22 +12,22 @@
 - `BlockTypeTextures(String up, String down, String north, String south, String east, String west, int weight)`
   - Creates a `BlockTypeTextures` instance.
 
-## Methods
-- `getUp()`
+## Method Descriptions
+- `getUp()`: Add description.
   - Executes `getUp` behavior.
-- `getDown()`
+- `getDown()`: Add description.
   - Executes `getDown` behavior.
-- `getNorth()`
+- `getNorth()`: Add description.
   - Executes `getNorth` behavior.
-- `getSouth()`
+- `getSouth()`: Add description.
   - Executes `getSouth` behavior.
-- `getEast()`
+- `getEast()`: Add description.
   - Executes `getEast` behavior.
-- `getWest()`
+- `getWest()`: Add description.
   - Executes `getWest` behavior.
-- `getWeight()`
+- `getWeight()`: Add description.
   - Executes `getWeight` behavior.
-- `toPacket(float totalWeight)`
+- `toPacket(float totalWeight)`: Add description.
   - Executes `toPacket` behavior.
 
 ## Notes

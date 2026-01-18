@@ -1,29 +1,29 @@
+**Source Hash:** `76571a3dfc09543945f1f17f0e6e18a3358f38e8f3aef6781716997c2441d769`
+
 # BeaconSupport
 
 ## Overview
-- Documentation for `BeaconSupport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components.messaging`.
 
-## Constructors
+## Constructor Descriptions
 - `BeaconSupport()`
   - Creates a `BeaconSupport` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `postMessage(String message, Ref<EntityStore> target, double age)`
+- `postMessage(String message, Ref<EntityStore> target, double age)`: Add description.
   - Executes `postMessage` behavior.
-- `pollMessage(int messageIndex)`
+- `pollMessage(int messageIndex)`: Add description.
   - Executes `pollMessage` behavior.
-- `peekMessage(int messageIndex)`
+- `peekMessage(int messageIndex)`: Add description.
   - Executes `peekMessage` behavior.
-- `initialise(@Nonnull Object2IntMap<String> messageIndices)`
+- `initialise(@Nonnull Object2IntMap<String> messageIndices)`: Add description.
   - Executes `initialise` behavior.
-- `getMessageTextForIndex(int messageIndex)`
+- `getMessageTextForIndex(int messageIndex)`: Add description.
   - Executes `getMessageTextForIndex` behavior.
-- `getMessageSlots()`
+- `getMessageSlots()`: Add description.
   - Executes `getMessageSlots` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

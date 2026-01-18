@@ -1,16 +1,16 @@
+**Source Hash:** `e32fcac6bfdf6d896ac8b9440bcd0ad4e13d085a4f2b929bc4a0c301e4e4d0c2`
+
 # CombatTextUIComponentPositionAnimationEvent
 
 ## Overview
-- Documentation for `CombatTextUIComponentPositionAnimationEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui.asset`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `generatePacket()`
+## Method Descriptions
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

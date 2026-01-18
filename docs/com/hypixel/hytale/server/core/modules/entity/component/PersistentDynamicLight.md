@@ -1,10 +1,10 @@
+**Source Hash:** `80ba4c366ef6693e530a04d288713c23cb12984fffaccdb1f98b712a3adf9d4f`
+
 # PersistentDynamicLight
 
 ## Overview
-- Documentation for `PersistentDynamicLight`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `PersistentDynamicLight()`
   - Creates a `PersistentDynamicLight` instance.
 - `PersistentDynamicLight(ColorLight colorLight)`
@@ -12,14 +12,14 @@
 - `PersistentDynamicLight(new ColorLight(this.colorLight)`
   - Creates a `PersistentDynamicLight` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getColorLight()`
+- `getColorLight()`: Add description.
   - Executes `getColorLight` behavior.
-- `setColorLight(ColorLight colorLight)`
+- `setColorLight(ColorLight colorLight)`: Add description.
   - Executes `setColorLight` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

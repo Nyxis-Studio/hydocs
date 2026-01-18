@@ -1,10 +1,10 @@
+**Source Hash:** `13229a9c28ace9a3e17d7dfbbdfcd8457658b9549c517bce2d25c1932630e336`
+
 # SemverRange
 
 ## Overview
-- Documentation for `SemverRange`.
-- Declared as a class in `com.hypixel.hytale.common.semver`.
 
-## Constructors
+## Constructor Descriptions
 - `SemverRange(new SemverSatisfies[0], true)`
   - Creates a `SemverRange` instance.
 - `SemverRange(SemverSatisfies[] comparators, boolean and)`
@@ -18,14 +18,14 @@
 - `SemverRange(comparators, false)`
   - Creates a `SemverRange` instance.
 
-## Methods
-- `satisfies(Semver semver)`
+## Method Descriptions
+- `satisfies(Semver semver)`: Add description.
   - Executes `satisfies` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `fromString(String str)`
+- `fromString(String str)`: Add description.
   - Executes `fromString` behavior.
-- `fromString(String str, boolean strict)`
+- `fromString(String str, boolean strict)`: Add description.
   - Executes `fromString` behavior.
 
 ## Notes

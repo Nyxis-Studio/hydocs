@@ -1,14 +1,14 @@
+**Source Hash:** `1c3bc43a88e333771f3bba7fce085c4b62173aa4b39123eaec9dd55eb7816190`
+
 # ToFloatFunction
 
 ## Overview
-- Documentation for `ToFloatFunction`.
-- Declared as a interface in `com.hypixel.hytale.function.function`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `applyAsFloat(T var1)`
+## Method Descriptions
+- `applyAsFloat(T var1)`: Add description.
   - Executes `applyAsFloat` behavior.
 
 ## Notes

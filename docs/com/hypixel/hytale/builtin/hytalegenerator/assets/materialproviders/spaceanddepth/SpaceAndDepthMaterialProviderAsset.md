@@ -1,16 +1,16 @@
+**Source Hash:** `5ee43202b32dce7a60a93166e8786756915dabd89313f7f31a6518906dd4c33b`
+
 # SpaceAndDepthMaterialProviderAsset
 
 ## Overview
-- Documentation for `SpaceAndDepthMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

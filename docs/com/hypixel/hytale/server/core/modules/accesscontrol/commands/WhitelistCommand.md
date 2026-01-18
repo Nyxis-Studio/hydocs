@@ -1,15 +1,15 @@
+**Source Hash:** `4bde55fe21b075fee9d0e55e6b5b548aa41b736a7bc9c865217e0c6443ecb83d`
+
 # WhitelistCommand
 
 ## Overview
-- Documentation for `WhitelistCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WhitelistCommand(@Nonnull HytaleWhitelistProvider whitelistProvider)`
   - Creates a `WhitelistCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

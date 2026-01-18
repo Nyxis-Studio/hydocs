@@ -1,14 +1,14 @@
+**Source Hash:** `b8b7b0374395201602f20f55f60982c4581a962f2a3cdb724698931797069622`
+
 # ChunkGenerator
 
 ## Overview
-- Documentation for `ChunkGenerator`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.chunkgenerator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `generate(@Nonnull ChunkRequest.Arguments var1)`
+## Method Descriptions
+- `generate(@Nonnull ChunkRequest.Arguments var1)`: Add description.
   - Executes `generate` behavior.
 
 ## Notes

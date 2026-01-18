@@ -1,16 +1,16 @@
+**Source Hash:** `8055a7facd2f1957525d72b18f2b06626c0af58f558d5568b90374ac6a17b1e9`
+
 # ForceAccumulator
 
 ## Overview
-- Documentation for `ForceAccumulator`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `initialize(@Nonnull PhysicsBodyState state, double mass, double timeStep)`
+## Method Descriptions
+- `initialize(@Nonnull PhysicsBodyState state, double mass, double timeStep)`: Add description.
   - Executes `initialize` behavior.
-- `computeResultingForce(@Nonnull PhysicsBodyState state, boolean onGround, @Nonnull ForceProvider[] forceProviders, double mass, double timeStep)`
+- `computeResultingForce(@Nonnull PhysicsBodyState state, boolean onGround, @Nonnull ForceProvider[] forceProviders, double mass, double timeStep)`: Add description.
   - Executes `computeResultingForce` behavior.
 
 ## Notes

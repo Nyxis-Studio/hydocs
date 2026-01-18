@@ -1,52 +1,52 @@
+**Source Hash:** `837b97994f76a28eef2549d1b0951c72a7e9b3ad4e723f3984deb2bd77f86687`
+
 # ISectionPalette
 
 ## Overview
-- Documentation for `ISectionPalette`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.chunk.section.palette`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPaletteType()`
+## Method Descriptions
+- `getPaletteType()`: Add description.
   - Executes `getPaletteType` behavior.
-- `set(int var1, int var2)`
+- `set(int var1, int var2)`: Add description.
   - Executes `set` behavior.
-- `get(int var1)`
+- `get(int var1)`: Add description.
   - Executes `get` behavior.
-- `contains(int var1)`
+- `contains(int var1)`: Add description.
   - Executes `contains` behavior.
-- `containsAny(IntList var1)`
+- `containsAny(IntList var1)`: Add description.
   - Executes `containsAny` behavior.
-- `isSolid(int id)`
+- `isSolid(int id)`: Add description.
   - Executes `isSolid` behavior.
-- `count()`
+- `count()`: Add description.
   - Executes `count` behavior.
-- `count(int var1)`
+- `count(int var1)`: Add description.
   - Executes `count` behavior.
-- `values()`
+- `values()`: Add description.
   - Executes `values` behavior.
-- `forEachValue(IntConsumer var1)`
+- `forEachValue(IntConsumer var1)`: Add description.
   - Executes `forEachValue` behavior.
-- `valueCounts()`
+- `valueCounts()`: Add description.
   - Executes `valueCounts` behavior.
-- `find(IntList var1, IntSet var2, IntConsumer var3)`
+- `find(IntList var1, IntSet var2, IntConsumer var3)`: Add description.
   - Executes `find` behavior.
-- `shouldDemote()`
+- `shouldDemote()`: Add description.
   - Executes `shouldDemote` behavior.
-- `demote()`
+- `demote()`: Add description.
   - Executes `demote` behavior.
-- `promote()`
+- `promote()`: Add description.
   - Executes `promote` behavior.
-- `serializeForPacket(ByteBuf var1)`
+- `serializeForPacket(ByteBuf var1)`: Add description.
   - Executes `serializeForPacket` behavior.
-- `serialize(KeySerializer var1, ByteBuf var2)`
+- `serialize(KeySerializer var1, ByteBuf var2)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(ToIntFunction<ByteBuf> var1, ByteBuf var2, int var3)`
+- `deserialize(ToIntFunction<ByteBuf> var1, ByteBuf var2, int var3)`: Add description.
   - Executes `deserialize` behavior.
-- `from(@Nonnull int[] data, int[] unique, int count)`
+- `from(@Nonnull int[] data, int[] unique, int count)`: Add description.
   - Executes `from` behavior.
-- `serialize(ByteBuf var1, int var2)`
+- `serialize(ByteBuf var1, int var2)`: Add description.
   - Executes `serialize` behavior.
 
 ## Notes

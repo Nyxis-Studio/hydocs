@@ -1,26 +1,26 @@
+**Source Hash:** `e8379e89864ad93e27136343cab14b75b2ef0d3f61b767405d89c329698e0c89`
+
 # PlayerUtil
 
 ## Overview
-- Documentation for `PlayerUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `forEachPlayerThatCanSeeEntity(@Nonnull Ref<EntityStore> ref, @Nonnull TriConsumer<Ref<EntityStore>, PlayerRef, ComponentAccessor<EntityStore>> consumer, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `forEachPlayerThatCanSeeEntity(@Nonnull Ref<EntityStore> ref, @Nonnull TriConsumer<Ref<EntityStore>, PlayerRef, ComponentAccessor<EntityStore>> consumer, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forEachPlayerThatCanSeeEntity` behavior.
-- `forEachPlayerThatCanSeeEntity(@Nonnull Ref<EntityStore> ref, @Nonnull TriConsumer<Ref<EntityStore>, PlayerRef, ComponentAccessor<EntityStore>> consumer, @Nullable Ref<EntityStore> ignoredPlayerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `forEachPlayerThatCanSeeEntity(@Nonnull Ref<EntityStore> ref, @Nonnull TriConsumer<Ref<EntityStore>, PlayerRef, ComponentAccessor<EntityStore>> consumer, @Nullable Ref<EntityStore> ignoredPlayerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forEachPlayerThatCanSeeEntity` behavior.
-- `broadcastMessageToPlayers(@Nullable UUID sourcePlayerUuid, @Nonnull Message message, @Nonnull Store<EntityStore> store)`
+- `broadcastMessageToPlayers(@Nullable UUID sourcePlayerUuid, @Nonnull Message message, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `broadcastMessageToPlayers` behavior.
-- `broadcastPacketToPlayers(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Packet packet)`
+- `broadcastPacketToPlayers(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Packet packet)`: Add description.
   - Executes `broadcastPacketToPlayers` behavior.
-- `broadcastPacketToPlayersNoCache(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Packet packet)`
+- `broadcastPacketToPlayersNoCache(@Nonnull ComponentAccessor<EntityStore> componentAccessor, @Nonnull Packet packet)`: Add description.
   - Executes `broadcastPacketToPlayersNoCache` behavior.
-- `broadcastPacketToPlayers(@Nonnull ComponentAccessor<EntityStore> componentAccessor, Packet ... packets)`
+- `broadcastPacketToPlayers(@Nonnull ComponentAccessor<EntityStore> componentAccessor, Packet ... packets)`: Add description.
   - Executes `broadcastPacketToPlayers` behavior.
-- `resetPlayerModel(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `resetPlayerModel(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `resetPlayerModel` behavior.
 
 ## Notes

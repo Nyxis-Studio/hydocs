@@ -1,15 +1,15 @@
+**Source Hash:** `000b948632fd2901ece8224d9158dbb19e948dac6bcfdccd1474ed6a07784c8c`
+
 # NPCAllCommand
 
 ## Overview
-- Documentation for `NPCAllCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCAllCommand()`
   - Creates a `NPCAllCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

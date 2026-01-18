@@ -1,17 +1,17 @@
+**Source Hash:** `830f52edf9032ed787ffbf6d8aefb3e1d7f87188243ff5b252bf8b8deb6a9ece`
+
 # SceneUpdateType
 
 ## Overview
-- Documentation for `SceneUpdateType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.machinima`.
 
-## Constructors
+## Constructor Descriptions
 - `SceneUpdateType(int value)`
   - Creates a `SceneUpdateType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

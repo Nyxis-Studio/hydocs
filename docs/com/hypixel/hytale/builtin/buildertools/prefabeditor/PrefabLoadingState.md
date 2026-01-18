@@ -1,62 +1,62 @@
+**Source Hash:** `4159e97bb4cd36123842a43838594041474b1446ac13575b4eb1a8646e0cf80e`
+
 # PrefabLoadingState
 
 ## Overview
-- Documentation for `PrefabLoadingState`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setTotalPrefabs(int totalPrefabs)`
+## Method Descriptions
+- `setTotalPrefabs(int totalPrefabs)`: Add description.
   - Executes `setTotalPrefabs` behavior.
-- `setPhase(@Nonnull Phase phase)`
+- `setPhase(@Nonnull Phase phase)`: Add description.
   - Executes `setPhase` behavior.
-- `onPrefabLoaded(@Nullable Path path)`
+- `onPrefabLoaded(@Nullable Path path)`: Add description.
   - Executes `onPrefabLoaded` behavior.
-- `onPrefabPasted(@Nullable Path path)`
+- `onPrefabPasted(@Nullable Path path)`: Add description.
   - Executes `onPrefabPasted` behavior.
-- `addError(@Nonnull LoadingError error)`
+- `addError(@Nonnull LoadingError error)`: Add description.
   - Executes `addError` behavior.
-- `addError(@Nonnull String translationKey)`
+- `addError(@Nonnull String translationKey)`: Add description.
   - Executes `addError` behavior.
-- `addError(@Nonnull String translationKey, @Nullable String details)`
+- `addError(@Nonnull String translationKey, @Nullable String details)`: Add description.
   - Executes `addError` behavior.
-- `getCurrentPhase()`
+- `getCurrentPhase()`: Add description.
   - Executes `getCurrentPhase` behavior.
-- `getTotalPrefabs()`
+- `getTotalPrefabs()`: Add description.
   - Executes `getTotalPrefabs` behavior.
-- `getLoadedPrefabs()`
+- `getLoadedPrefabs()`: Add description.
   - Executes `getLoadedPrefabs` behavior.
-- `getPastedPrefabs()`
+- `getPastedPrefabs()`: Add description.
   - Executes `getPastedPrefabs` behavior.
-- `getCurrentPrefabPath()`
+- `getCurrentPrefabPath()`: Add description.
   - Executes `getCurrentPrefabPath` behavior.
-- `getErrors()`
+- `getErrors()`: Add description.
   - Executes `getErrors` behavior.
-- `hasErrors()`
+- `hasErrors()`: Add description.
   - Executes `hasErrors` behavior.
-- `isShuttingDown()`
+- `isShuttingDown()`: Add description.
   - Executes `isShuttingDown` behavior.
-- `isShutdownComplete()`
+- `isShutdownComplete()`: Add description.
   - Executes `isShutdownComplete` behavior.
-- `getProgressPercentage()`
+- `getProgressPercentage()`: Add description.
   - Executes `getProgressPercentage` behavior.
-- `getElapsedTimeMillis()`
+- `getElapsedTimeMillis()`: Add description.
   - Executes `getElapsedTimeMillis` behavior.
-- `getLastNotifyTimeNanos()`
+- `getLastNotifyTimeNanos()`: Add description.
   - Executes `getLastNotifyTimeNanos` behavior.
-- `setLastNotifyTimeNanos(long nanos)`
+- `setLastNotifyTimeNanos(long nanos)`: Add description.
   - Executes `setLastNotifyTimeNanos` behavior.
-- `getStatusMessage()`
+- `getStatusMessage()`: Add description.
   - Executes `getStatusMessage` behavior.
-- `markComplete()`
+- `markComplete()`: Add description.
   - Executes `markComplete` behavior.
-- `getTranslationKey()`
+- `getTranslationKey()`: Add description.
   - Executes `getTranslationKey` behavior.
-- `LoadingError(@Nonnull String translationKey, @Nullable String details)`
+- `LoadingError(@Nonnull String translationKey, @Nullable String details)`: Add description.
   - Executes `LoadingError` behavior.
-- `toMessage()`
+- `toMessage()`: Add description.
   - Executes `toMessage` behavior.
 
 ## Notes

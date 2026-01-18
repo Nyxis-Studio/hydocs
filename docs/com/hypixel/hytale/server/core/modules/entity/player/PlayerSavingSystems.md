@@ -1,26 +1,26 @@
+**Source Hash:** `e110a541850716122a9bb61051e039f75ff2cdb1c5a7ca7dbf18a15085c9d882`
+
 # PlayerSavingSystems
 
 ## Overview
-- Documentation for `PlayerSavingSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.player`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `clone()`
+## Method Descriptions
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`
+- `onSystemAddedToStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`
+- `onSystemRemovedFromStore(@Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
 
 ## Notes

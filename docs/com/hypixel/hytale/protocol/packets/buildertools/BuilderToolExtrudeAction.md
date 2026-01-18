@@ -1,10 +1,10 @@
+**Source Hash:** `7ccf373b51cbc8bccca402c6aaf5036267c0851d4b53cd80321f8214fecc0016`
+
 # BuilderToolExtrudeAction
 
 ## Overview
-- Documentation for `BuilderToolExtrudeAction`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolExtrudeAction()`
   - Creates a `BuilderToolExtrudeAction` instance.
 - `BuilderToolExtrudeAction(int x, int y, int z, int xNormal, int yNormal, int zNormal)`
@@ -12,24 +12,24 @@
 - `BuilderToolExtrudeAction(@Nonnull BuilderToolExtrudeAction other)`
   - Creates a `BuilderToolExtrudeAction` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

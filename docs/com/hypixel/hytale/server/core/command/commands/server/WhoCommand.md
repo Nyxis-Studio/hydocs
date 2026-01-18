@@ -1,15 +1,15 @@
+**Source Hash:** `08447cb3308f6aa0160b1133f2b857d0e077723bf2ce2cb8454bd71603226eb0`
+
 # WhoCommand
 
 ## Overview
-- Documentation for `WhoCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server`.
 
-## Constructors
+## Constructor Descriptions
 - `WhoCommand()`
   - Creates a `WhoCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

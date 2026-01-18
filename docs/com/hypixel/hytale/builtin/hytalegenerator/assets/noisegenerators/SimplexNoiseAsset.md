@@ -1,14 +1,14 @@
+**Source Hash:** `b208e504159031ef55b08cd9118483ae90e96f0d9ffeafa85eee92dec23b9d86`
+
 # SimplexNoiseAsset
 
 ## Overview
-- Documentation for `SimplexNoiseAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.noisegenerators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

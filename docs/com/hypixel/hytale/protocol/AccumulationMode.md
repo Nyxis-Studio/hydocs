@@ -1,17 +1,17 @@
+**Source Hash:** `1fa9b8ab710de17f42723c25cc961d005ed2453ff7f6a1c1a9efd0e2dad4bb3f`
+
 # AccumulationMode
 
 ## Overview
-- Documentation for `AccumulationMode`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AccumulationMode(int value)`
   - Creates a `AccumulationMode` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

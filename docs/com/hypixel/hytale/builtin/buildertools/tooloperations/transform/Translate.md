@@ -1,23 +1,23 @@
+**Source Hash:** `9dacd18f58f87e09941064a4df335b5e536861c74ac8cc66323c72a1b35642c7`
+
 # Translate
 
 ## Overview
-- Documentation for `Translate`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.tooloperations.transform`.
 
-## Constructors
+## Constructor Descriptions
 - `Translate(int x, int y, int z)`
   - Creates a `Translate` instance.
 - `Translate(x, y, z)`
   - Creates a `Translate` instance.
 
-## Methods
-- `apply(@Nonnull Vector3i vector3i)`
+## Method Descriptions
+- `apply(@Nonnull Vector3i vector3i)`: Add description.
   - Executes `apply` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `of(@Nonnull Vector3i vector)`
+- `of(@Nonnull Vector3i vector)`: Add description.
   - Executes `of` behavior.
-- `of(int x, int y, int z)`
+- `of(int x, int y, int z)`: Add description.
   - Executes `of` behavior.
 
 ## Notes

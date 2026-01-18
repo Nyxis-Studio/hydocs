@@ -1,50 +1,50 @@
+**Source Hash:** `367e083db3c919c2ca9546ea258abbf70a3cd861ae9e2dd800fa847f7ee8917f`
+
 # WorldSpawnJobSystems
 
 ## Overview
-- Documentation for `WorldSpawnJobSystems`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `run(@Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk chunk, @Nonnull ChunkEnvironmentSpawnData chunkEnvironmentSpawnData, @Nonnull WorldSpawnData worldSpawnData, @Nonnull SpawnSuppressionController spawnSuppressionController)`
+## Method Descriptions
+- `run(@Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk chunk, @Nonnull ChunkEnvironmentSpawnData chunkEnvironmentSpawnData, @Nonnull WorldSpawnData worldSpawnData, @Nonnull SpawnSuppressionController spawnSuppressionController)`: Add description.
   - Executes `run` behavior.
-- `getSpawnable(int roleIndex)`
+- `getSpawnable(int roleIndex)`: Add description.
   - Executes `getSpawnable` behavior.
-- `trySpawn(@Nonnull ISpawnableWithModel spawnable, IntSet spawnBlockSet, int spawnFluidTag, @Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull ChunkEnvironmentSpawnData environmentSpawnData, @Nonnull WorldSpawnData worldSpawnData)`
+- `trySpawn(@Nonnull ISpawnableWithModel spawnable, IntSet spawnBlockSet, int spawnFluidTag, @Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull ChunkEnvironmentSpawnData environmentSpawnData, @Nonnull WorldSpawnData worldSpawnData)`: Add description.
   - Executes `trySpawn` behavior.
-- `spawn(@Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull WorldSpawnData worldSpawnData)`
+- `spawn(@Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull WorldSpawnData worldSpawnData)`: Add description.
   - Executes `spawn` behavior.
-- `preAddToWorld(@Nonnull NPCEntity npc, @Nonnull Holder<EntityStore> holder, int roleIndex, @Nonnull SpawnJobData spawnJobData)`
+- `preAddToWorld(@Nonnull NPCEntity npc, @Nonnull Holder<EntityStore> holder, int roleIndex, @Nonnull SpawnJobData spawnJobData)`: Add description.
   - Executes `preAddToWorld` behavior.
-- `canSpawnOnBlock(@Nullable IntSet spawnBlockSet, int spawnFluidTag, @Nonnull SpawningContext spawningContext)`
+- `canSpawnOnBlock(@Nullable IntSet spawnBlockSet, int spawnFluidTag, @Nonnull SpawningContext spawningContext)`: Add description.
   - Executes `canSpawnOnBlock` behavior.
-- `rejectSpan(@Nonnull Object2IntMap<SpawnRejection> rejectionMap, SpawnRejection rejection)`
+- `rejectSpan(@Nonnull Object2IntMap<SpawnRejection> rejectionMap, SpawnRejection rejection)`: Add description.
   - Executes `rejectSpan` behavior.
-- `endProbing(Result result, @Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull WorldSpawnData worldSpawnData)`
+- `endProbing(Result result, @Nonnull SpawnJobData spawnJobData, @Nonnull WorldChunk worldChunk, @Nonnull WorldSpawnData worldSpawnData)`: Add description.
   - Executes `endProbing` behavior.
-- `updateSpawnStats(@Nonnull WorldSpawnData worldSpawnData, @Nonnull SpawnJobData spawnJobData, Result result)`
+- `updateSpawnStats(@Nonnull WorldSpawnData worldSpawnData, @Nonnull SpawnJobData spawnJobData, Result result)`: Add description.
   - Executes `updateSpawnStats` behavior.
-- `getSpawnableName(int roleIndex)`
+- `getSpawnableName(int roleIndex)`: Add description.
   - Executes `getSpawnableName` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull NonTicking<ChunkStore> component, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull NonTicking<ChunkStore> component, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<ChunkStore> ref, NonTicking<ChunkStore> oldComponent, @Nonnull NonTicking<ChunkStore> newComponent, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<ChunkStore> ref, NonTicking<ChunkStore> oldComponent, @Nonnull NonTicking<ChunkStore> newComponent, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@Nonnull Ref<ChunkStore> ref, @Nonnull NonTicking<ChunkStore> component, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<ChunkStore> ref, @Nonnull NonTicking<ChunkStore> component, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityAdd(@Nonnull Holder<ChunkStore> holder, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<ChunkStore> entityHolder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`
+- `onEntityRemoved(@Nonnull Holder<ChunkStore> entityHolder, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

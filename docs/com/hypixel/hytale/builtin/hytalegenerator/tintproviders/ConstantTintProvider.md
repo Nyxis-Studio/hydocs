@@ -1,15 +1,15 @@
+**Source Hash:** `a045587f56f7eea50a55d28fad0ce889fe7f1c4820d84fff2ee877a98e86559c`
+
 # ConstantTintProvider
 
 ## Overview
-- Documentation for `ConstantTintProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.tintproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantTintProvider(int value)`
   - Creates a `ConstantTintProvider` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

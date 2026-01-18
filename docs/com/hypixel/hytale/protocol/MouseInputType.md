@@ -1,17 +1,17 @@
+**Source Hash:** `8d16055353880c11f3b3454430fb7ee407f5c8501ae075352b73c60c13cd70c6`
+
 # MouseInputType
 
 ## Overview
-- Documentation for `MouseInputType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `MouseInputType(int value)`
   - Creates a `MouseInputType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `1f3b9143007b28f32a75abc7ca837bf1bda6290a6b6cb892de8e211c08becd7e`
+
 # DownwardSpaceMaterialProviderAsset
 
 ## Overview
-- Documentation for `DownwardSpaceMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `ed8e50fa002fe7c2b3d51955f574947de8b6fa75d9be06ba0c895b1bdfd6a4e6`
+
 # StripedMaterialProviderAsset
 
 ## Overview
-- Documentation for `StripedMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

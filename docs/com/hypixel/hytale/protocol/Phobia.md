@@ -1,17 +1,17 @@
+**Source Hash:** `02a285471ae8d4fb207c259a5b44b192f5ef53fd0247611b607f15fa247a6b98`
+
 # Phobia
 
 ## Overview
-- Documentation for `Phobia`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Phobia(int value)`
   - Creates a `Phobia` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

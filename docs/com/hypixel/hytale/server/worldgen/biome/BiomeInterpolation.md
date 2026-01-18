@@ -1,10 +1,10 @@
+**Source Hash:** `834cceca4143fb28b667b31cb45e1d69e1e40f802190cf6ebe3090d4cd41fa5c`
+
 # BiomeInterpolation
 
 ## Overview
-- Documentation for `BiomeInterpolation`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `BiomeInterpolation(5, EMPTY_MAP)`
   - Creates a `BiomeInterpolation` instance.
 - `BiomeInterpolation(int radius, Int2IntMap biomeRadii2)`
@@ -12,18 +12,18 @@
 - `BiomeInterpolation(radius, biomeRadii2)`
   - Creates a `BiomeInterpolation` instance.
 
-## Methods
-- `getRadius()`
+## Method Descriptions
+- `getRadius()`: Add description.
   - Executes `getRadius` behavior.
-- `getBiomeRadius2(int biome)`
+- `getBiomeRadius2(int biome)`: Add description.
   - Executes `getBiomeRadius2` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `create(int radius, @Nonnull Int2IntMap biomeRadii2)`
+- `create(int radius, @Nonnull Int2IntMap biomeRadii2)`: Add description.
   - Executes `create` behavior.
-- `defaultReturnValue()`
+- `defaultReturnValue()`: Add description.
   - Executes `defaultReturnValue` behavior.
-- `get(int k)`
+- `get(int k)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

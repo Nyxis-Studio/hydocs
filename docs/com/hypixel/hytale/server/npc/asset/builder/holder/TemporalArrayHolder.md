@@ -1,22 +1,22 @@
+**Source Hash:** `c9810c8f55c63dc13deffd2928e98bdc6948dae659cb2ded6cff263151fdfb60`
+
 # TemporalArrayHolder
 
 ## Overview
-- Documentation for `TemporalArrayHolder`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `convertStringToTemporalArray(@Nullable String[] source)`
+## Method Descriptions
+- `convertStringToTemporalArray(@Nullable String[] source)`: Add description.
   - Executes `convertStringToTemporalArray` behavior.
-- `readJSON(@Nonnull JsonElement requiredJsonElement, int minLength, int maxLength, TemporalArrayValidator validator, String name, @Nonnull BuilderParameters builderParameters)`
+- `readJSON(@Nonnull JsonElement requiredJsonElement, int minLength, int maxLength, TemporalArrayValidator validator, String name, @Nonnull BuilderParameters builderParameters)`: Add description.
   - Executes `readJSON` behavior.
-- `getTemporalArray(ExecutionContext executionContext)`
+- `getTemporalArray(ExecutionContext executionContext)`: Add description.
   - Executes `getTemporalArray` behavior.
-- `rawGetTemporalArray(ExecutionContext executionContext)`
+- `rawGetTemporalArray(ExecutionContext executionContext)`: Add description.
   - Executes `rawGetTemporalArray` behavior.
-- `validate(@Nullable TemporalAmount[] value)`
+- `validate(@Nullable TemporalAmount[] value)`: Add description.
   - Executes `validate` behavior.
 
 ## Notes

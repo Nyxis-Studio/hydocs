@@ -1,70 +1,70 @@
+**Source Hash:** `eff88274a73cf4df36f2d6cedcf580ff9ab64d5317e7a78435ca885d71f506b5`
+
 # AimingData
 
 ## Overview
-- Documentation for `AimingData`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isHaveAttacked()`
+## Method Descriptions
+- `isHaveAttacked()`: Add description.
   - Executes `isHaveAttacked` behavior.
-- `setHaveAttacked(boolean haveAttacked)`
+- `setHaveAttacked(boolean haveAttacked)`: Add description.
   - Executes `setHaveAttacked` behavior.
-- `requireBallistic(@Nonnull BallisticData ballisticData)`
+- `requireBallistic(@Nonnull BallisticData ballisticData)`: Add description.
   - Executes `requireBallistic` behavior.
-- `requireCloseCombat()`
+- `requireCloseCombat()`: Add description.
   - Executes `requireCloseCombat` behavior.
-- `getPitch()`
+- `getPitch()`: Add description.
   - Executes `getPitch` behavior.
-- `getPitch(boolean flatTrajectory)`
+- `getPitch(boolean flatTrajectory)`: Add description.
   - Executes `getPitch` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `getYaw(boolean flatTrajectory)`
+- `getYaw(boolean flatTrajectory)`: Add description.
   - Executes `getYaw` behavior.
-- `isBallistic()`
+- `isBallistic()`: Add description.
   - Executes `isBallistic` behavior.
-- `getBallisticData()`
+- `getBallisticData()`: Add description.
   - Executes `getBallisticData` behavior.
-- `setUseFlatTrajectory(boolean useFlatTrajectory)`
+- `setUseFlatTrajectory(boolean useFlatTrajectory)`: Add description.
   - Executes `setUseFlatTrajectory` behavior.
-- `setChargeDistance(double chargeDistance)`
+- `setChargeDistance(double chargeDistance)`: Add description.
   - Executes `setChargeDistance` behavior.
-- `getChargeDistance()`
+- `getChargeDistance()`: Add description.
   - Executes `getChargeDistance` behavior.
-- `setDesiredHitAngle(double desiredHitAngle)`
+- `setDesiredHitAngle(double desiredHitAngle)`: Add description.
   - Executes `setDesiredHitAngle` behavior.
-- `getDesiredHitAngle()`
+- `getDesiredHitAngle()`: Add description.
   - Executes `getDesiredHitAngle` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `setDepthOffset(double depthOffset, boolean pitchAdjustOffset)`
+- `setDepthOffset(double depthOffset, boolean pitchAdjustOffset)`: Add description.
   - Executes `setDepthOffset` behavior.
-- `getTarget()`
+- `getTarget()`: Add description.
   - Executes `getTarget` behavior.
-- `setTarget(Ref<EntityStore> ref)`
+- `setTarget(Ref<EntityStore> ref)`: Add description.
   - Executes `setTarget` behavior.
-- `haveOrientation()`
+- `haveOrientation()`: Add description.
   - Executes `haveOrientation` behavior.
-- `setOrientation(float yaw, float pitch)`
+- `setOrientation(float yaw, float pitch)`: Add description.
   - Executes `setOrientation` behavior.
-- `clearSolution()`
+- `clearSolution()`: Add description.
   - Executes `clearSolution` behavior.
-- `computeSolution(double x, double y, double z, double vx, double vy, double vz)`
+- `computeSolution(double x, double y, double z, double vx, double vy, double vz)`: Add description.
   - Executes `computeSolution` behavior.
-- `isOnTarget(float yaw, float pitch, double hitAngle)`
+- `isOnTarget(float yaw, float pitch, double hitAngle)`: Add description.
   - Executes `isOnTarget` behavior.
-- `tryClaim(int id)`
+- `tryClaim(int id)`: Add description.
   - Executes `tryClaim` behavior.
-- `isClaimedBy(int id)`
+- `isClaimedBy(int id)`: Add description.
   - Executes `isClaimedBy` behavior.
-- `release()`
+- `release()`: Add description.
   - Executes `release` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `computeStaticSolution(double dx, double dy)`
+- `computeStaticSolution(double dx, double dy)`: Add description.
   - Executes `computeStaticSolution` behavior.
 
 ## Notes

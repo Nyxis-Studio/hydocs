@@ -1,10 +1,10 @@
+**Source Hash:** `7d2334e17784ce1155557dea9bf664d8178ff00122eba230b68bdbc97f13d769`
+
 # UpdateServerAccess
 
 ## Overview
-- Documentation for `UpdateServerAccess`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.serveraccess`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateServerAccess()`
   - Creates a `UpdateServerAccess` instance.
 - `UpdateServerAccess(@Nonnull Access access, @Nullable HostAddress[] hosts)`
@@ -12,24 +12,24 @@
 - `UpdateServerAccess(@Nonnull UpdateServerAccess other)`
   - Creates a `UpdateServerAccess` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

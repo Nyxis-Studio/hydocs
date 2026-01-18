@@ -1,159 +1,159 @@
+**Source Hash:** `1fe007a5e22db1f5bdedd12c34d5adad47481d10bfd50617d855e6f7d3995931`
+
 # BuilderSupport
 
 ## Overview
-- Documentation for `BuilderSupport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderSupport(BuilderManager builderManager, @Nonnull NPCEntity npcEntity, Holder<EntityStore> holder, ExecutionContext executionContext, @Nonnull Builder<?> roleBuilder, RoleStats roleStats)`
   - Creates a `BuilderSupport` instance.
 
-## Methods
-- `getBuilderManager()`
+## Method Descriptions
+- `getBuilderManager()`: Add description.
   - Executes `getBuilderManager` behavior.
-- `getEntity()`
+- `getEntity()`: Add description.
   - Executes `getEntity` behavior.
-- `getHolder()`
+- `getHolder()`: Add description.
   - Executes `getHolder` behavior.
-- `getExecutionContext()`
+- `getExecutionContext()`: Add description.
   - Executes `getExecutionContext` behavior.
-- `setScope(Scope scope)`
+- `setScope(Scope scope)`: Add description.
   - Executes `setScope` behavior.
-- `setGlobalScope(Scope scope)`
+- `setGlobalScope(Scope scope)`: Add description.
   - Executes `setGlobalScope` behavior.
-- `getGlobalScope()`
+- `getGlobalScope()`: Add description.
   - Executes `getGlobalScope` behavior.
-- `setRequireLeashPosition()`
+- `setRequireLeashPosition()`: Add description.
   - Executes `setRequireLeashPosition` behavior.
-- `getFlagSlot(String name)`
+- `getFlagSlot(String name)`: Add description.
   - Executes `getFlagSlot` behavior.
-- `getTimerByName(String name)`
+- `getTimerByName(String name)`: Add description.
   - Executes `getTimerByName` behavior.
-- `getBeaconMessageSlot(String name)`
+- `getBeaconMessageSlot(String name)`: Add description.
   - Executes `getBeaconMessageSlot` behavior.
-- `getTargetSlot(String name)`
+- `getTargetSlot(String name)`: Add description.
   - Executes `getTargetSlot` behavior.
-- `getAlarm(String name)`
+- `getAlarm(String name)`: Add description.
   - Executes `getAlarm` behavior.
-- `getTargetSlotMappings()`
+- `getTargetSlotMappings()`: Add description.
   - Executes `getTargetSlotMappings` behavior.
-- `getTargetSlotToNameMap()`
+- `getTargetSlotToNameMap()`: Add description.
   - Executes `getTargetSlotToNameMap` behavior.
-- `getPositionSlot(String name)`
+- `getPositionSlot(String name)`: Add description.
   - Executes `getPositionSlot` behavior.
-- `getParameterSlot(String name)`
+- `getParameterSlot(String name)`: Add description.
   - Executes `getParameterSlot` behavior.
-- `getSearchRaySlot(String name)`
+- `getSearchRaySlot(String name)`: Add description.
   - Executes `getSearchRaySlot` behavior.
-- `allocatePositionSlots()`
+- `allocatePositionSlots()`: Add description.
   - Executes `allocatePositionSlots` behavior.
-- `requiresLeashPosition()`
+- `requiresLeashPosition()`: Add description.
   - Executes `requiresLeashPosition` behavior.
-- `getStateEvaluator()`
+- `getStateEvaluator()`: Add description.
   - Executes `getStateEvaluator` behavior.
-- `setStateEvaluator(StateEvaluator stateEvaluator)`
+- `setStateEvaluator(StateEvaluator stateEvaluator)`: Add description.
   - Executes `setStateEvaluator` behavior.
-- `allocateFlags()`
+- `allocateFlags()`: Add description.
   - Executes `allocateFlags` behavior.
-- `allocateTimers()`
+- `allocateTimers()`: Add description.
   - Executes `allocateTimers` behavior.
-- `allocateSearchRayPositionSlots()`
+- `allocateSearchRayPositionSlots()`: Add description.
   - Executes `allocateSearchRayPositionSlots` behavior.
-- `getSensorScope()`
+- `getSensorScope()`: Add description.
   - Executes `getSensorScope` behavior.
-- `setToNewComponent()`
+- `setToNewComponent()`: Add description.
   - Executes `setToNewComponent` behavior.
-- `addComponentLocalStateMachine(int defaultState)`
+- `addComponentLocalStateMachine(int defaultState)`: Add description.
   - Executes `addComponentLocalStateMachine` behavior.
-- `getComponentIndex()`
+- `getComponentIndex()`: Add description.
   - Executes `getComponentIndex` behavior.
-- `popComponent()`
+- `popComponent()`: Add description.
   - Executes `popComponent` behavior.
-- `hasComponentLocalStateMachines()`
+- `hasComponentLocalStateMachines()`: Add description.
   - Executes `hasComponentLocalStateMachines` behavior.
-- `getComponentLocalStateMachines()`
+- `getComponentLocalStateMachines()`: Add description.
   - Executes `getComponentLocalStateMachines` behavior.
-- `setLocalStateMachineAutoReset()`
+- `setLocalStateMachineAutoReset()`: Add description.
   - Executes `setLocalStateMachineAutoReset` behavior.
-- `getLocalStateMachineAutoResetStates()`
+- `getLocalStateMachineAutoResetStates()`: Add description.
   - Executes `getLocalStateMachineAutoResetStates` behavior.
-- `getStateHelper()`
+- `getStateHelper()`: Add description.
   - Executes `getStateHelper` behavior.
-- `getBeaconSlotMappings()`
+- `getBeaconSlotMappings()`: Add description.
   - Executes `getBeaconSlotMappings` behavior.
-- `hasBlockEventSupport()`
+- `hasBlockEventSupport()`: Add description.
   - Executes `hasBlockEventSupport` behavior.
-- `getPlayerBlockEventSlotMapper()`
+- `getPlayerBlockEventSlotMapper()`: Add description.
   - Executes `getPlayerBlockEventSlotMapper` behavior.
-- `getNPCBlockEventSlotMapper()`
+- `getNPCBlockEventSlotMapper()`: Add description.
   - Executes `getNPCBlockEventSlotMapper` behavior.
-- `hasEntityEventSupport()`
+- `hasEntityEventSupport()`: Add description.
   - Executes `hasEntityEventSupport` behavior.
-- `getPlayerEntityEventSlotMapper()`
+- `getPlayerEntityEventSlotMapper()`: Add description.
   - Executes `getPlayerEntityEventSlotMapper` behavior.
-- `getNPCEntityEventSlotMapper()`
+- `getNPCEntityEventSlotMapper()`: Add description.
   - Executes `getNPCEntityEventSlotMapper` behavior.
-- `getInstructionSlot(@Nullable String name)`
+- `getInstructionSlot(@Nullable String name)`: Add description.
   - Executes `getInstructionSlot` behavior.
-- `putInstruction(int slot, Instruction instruction)`
+- `putInstruction(int slot, Instruction instruction)`: Add description.
   - Executes `putInstruction` behavior.
-- `getInstructionSlotMappings()`
+- `getInstructionSlotMappings()`: Add description.
   - Executes `getInstructionSlotMappings` behavior.
-- `setModifiedStateMap(@Nonnull StateMappingHelper helper, @Nonnull StatePair[] map)`
+- `setModifiedStateMap(@Nonnull StateMappingHelper helper, @Nonnull StatePair[] map)`: Add description.
   - Executes `setModifiedStateMap` behavior.
-- `getMappedStatePair(int index)`
+- `getMappedStatePair(int index)`: Add description.
   - Executes `getMappedStatePair` behavior.
-- `popModifiedStateMap()`
+- `popModifiedStateMap()`: Add description.
   - Executes `popModifiedStateMap` behavior.
-- `requireBlockTypeBlackboard(int blockSet)`
+- `requireBlockTypeBlackboard(int blockSet)`: Add description.
   - Executes `requireBlockTypeBlackboard` behavior.
-- `registerBlockSensorResetAction(int blockSet)`
+- `registerBlockSensorResetAction(int blockSet)`: Add description.
   - Executes `registerBlockSensorResetAction` behavior.
-- `requiresBlockTypeBlackboard()`
+- `requiresBlockTypeBlackboard()`: Add description.
   - Executes `requiresBlockTypeBlackboard` behavior.
-- `getBlockTypeBlackboardBlockSets()`
+- `getBlockTypeBlackboardBlockSets()`: Add description.
   - Executes `getBlockTypeBlackboardBlockSets` behavior.
-- `getBlockEventSlot(BlockEventType type, int blockSet, double maxRange, boolean player)`
+- `getBlockEventSlot(BlockEventType type, int blockSet, double maxRange, boolean player)`: Add description.
   - Executes `getBlockEventSlot` behavior.
-- `getBlockChangeSets(BlockEventType type)`
+- `getBlockChangeSets(BlockEventType type)`: Add description.
   - Executes `getBlockChangeSets` behavior.
-- `getEntityEventSlot(EntityEventType type, int npcGroup, double maxRange, boolean player)`
+- `getEntityEventSlot(EntityEventType type, int npcGroup, double maxRange, boolean player)`: Add description.
   - Executes `getEntityEventSlot` behavior.
-- `getEventNPCGroups(EntityEventType type)`
+- `getEventNPCGroups(EntityEventType type)`: Add description.
   - Executes `getEventNPCGroups` behavior.
-- `requireAttitudeOverrideMemory()`
+- `requireAttitudeOverrideMemory()`: Add description.
   - Executes `requireAttitudeOverrideMemory` behavior.
-- `trackInteractions()`
+- `trackInteractions()`: Add description.
   - Executes `trackInteractions` behavior.
-- `isTrackInteractions()`
+- `isTrackInteractions()`: Add description.
   - Executes `isTrackInteractions` behavior.
-- `requiresAttitudeOverrideMemory()`
+- `requiresAttitudeOverrideMemory()`: Add description.
   - Executes `requiresAttitudeOverrideMemory` behavior.
-- `setCurrentInstructionContext(InstructionType context)`
+- `setCurrentInstructionContext(InstructionType context)`: Add description.
   - Executes `setCurrentInstructionContext` behavior.
-- `getCurrentInstructionContext()`
+- `getCurrentInstructionContext()`: Add description.
   - Executes `getCurrentInstructionContext` behavior.
-- `getCurrentComponentContext()`
+- `getCurrentComponentContext()`: Add description.
   - Executes `getCurrentComponentContext` behavior.
-- `setCurrentComponentContext(ComponentContext currentComponentContext)`
+- `setCurrentComponentContext(ComponentContext currentComponentContext)`: Add description.
   - Executes `setCurrentComponentContext` behavior.
-- `getRoleStats()`
+- `getRoleStats()`: Add description.
   - Executes `getRoleStats` behavior.
-- `getNextAttackIndex()`
+- `getNextAttackIndex()`: Add description.
   - Executes `getNextAttackIndex` behavior.
-- `getValueStoreStringSlot(String name)`
+- `getValueStoreStringSlot(String name)`: Add description.
   - Executes `getValueStoreStringSlot` behavior.
-- `getValueStoreIntSlot(String name)`
+- `getValueStoreIntSlot(String name)`: Add description.
   - Executes `getValueStoreIntSlot` behavior.
-- `getValueStoreDoubleSlot(String name)`
+- `getValueStoreDoubleSlot(String name)`: Add description.
   - Executes `getValueStoreDoubleSlot` behavior.
-- `getCurrentStateName()`
+- `getCurrentStateName()`: Add description.
   - Executes `getCurrentStateName` behavior.
-- `pushCurrentStateName(@Nonnull String currentStateName)`
+- `pushCurrentStateName(@Nonnull String currentStateName)`: Add description.
   - Executes `pushCurrentStateName` behavior.
-- `popCurrentStateName()`
+- `popCurrentStateName()`: Add description.
   - Executes `popCurrentStateName` behavior.
-- `allocatePositionSlots(@Nonnull SlotMapper mapper)`
+- `allocatePositionSlots(@Nonnull SlotMapper mapper)`: Add description.
   - Executes `allocatePositionSlots` behavior.
 
 ## Notes

@@ -1,25 +1,25 @@
+**Source Hash:** `1d17f849d3621ca7e74e8ae8a3f50bca46b1dce83f3eadd2a3367b20599a44cc`
+
 # ListCollector
 
 ## Overview
-- Documentation for `ListCollector`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.data`.
 
-## Constructors
+## Constructor Descriptions
 - `ListCollector(TriFunction<CollectorTag, InteractionContext, Interaction, T> function)`
   - Creates a `ListCollector` instance.
 
-## Methods
-- `getList()`
+## Method Descriptions
+- `getList()`: Add description.
   - Executes `getList` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `into(@Nonnull InteractionContext context, Interaction interaction)`
+- `into(@Nonnull InteractionContext context, Interaction interaction)`: Add description.
   - Executes `into` behavior.
-- `collect(@Nonnull CollectorTag tag, @Nonnull InteractionContext context, @Nonnull Interaction interaction)`
+- `collect(@Nonnull CollectorTag tag, @Nonnull InteractionContext context, @Nonnull Interaction interaction)`: Add description.
   - Executes `collect` behavior.
-- `outof()`
+- `outof()`: Add description.
   - Executes `outof` behavior.
-- `finished()`
+- `finished()`: Add description.
   - Executes `finished` behavior.
 
 ## Notes

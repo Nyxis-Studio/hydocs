@@ -1,10 +1,10 @@
+**Source Hash:** `8785102dfb690e0806987beddfb6c09862d1bdfd42795a8b0722dae7f3f03257`
+
 # EntityScaleComponent
 
 ## Overview
-- Documentation for `EntityScaleComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityScaleComponent()`
   - Creates a `EntityScaleComponent` instance.
 - `EntityScaleComponent(float scale)`
@@ -12,16 +12,16 @@
 - `EntityScaleComponent(this.scale)`
   - Creates a `EntityScaleComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getScale()`
+- `getScale()`: Add description.
   - Executes `getScale` behavior.
-- `setScale(float scale)`
+- `setScale(float scale)`: Add description.
   - Executes `setScale` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

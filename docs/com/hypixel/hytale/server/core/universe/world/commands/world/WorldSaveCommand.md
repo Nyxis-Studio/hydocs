@@ -1,19 +1,19 @@
+**Source Hash:** `1d63d084198693f031017cd39eb66aa03ae4d515028aa86f0b07fa596d51eb9f`
+
 # WorldSaveCommand
 
 ## Overview
-- Documentation for `WorldSaveCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSaveCommand()`
   - Creates a `WorldSaveCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
-- `saveAllWorlds(@Nonnull CommandContext context)`
+- `saveAllWorlds(@Nonnull CommandContext context)`: Add description.
   - Executes `saveAllWorlds` behavior.
-- `saveWorld(@Nonnull World world)`
+- `saveWorld(@Nonnull World world)`: Add description.
   - Executes `saveWorld` behavior.
 
 ## Notes

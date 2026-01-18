@@ -1,14 +1,14 @@
+**Source Hash:** `4c7bc98bc1cef304cbd34e606c246b9c4b480611d4f51e4cebd38225980694c2`
+
 # QuadDoubleFunction
 
 ## Overview
-- Documentation for `QuadDoubleFunction`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.framework.interfaces.functions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(double var1, double var3, double var5, double var7)`
+## Method Descriptions
+- `apply(double var1, double var3, double var5, double var7)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

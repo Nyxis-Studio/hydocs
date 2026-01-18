@@ -1,16 +1,16 @@
+**Source Hash:** `d515ada154ba3646cacf02634efa3bea5ca67fc0fec811853edc293cbac75a07`
+
 # FloorPatternAsset
 
 ## Overview
-- Documentation for `FloorPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

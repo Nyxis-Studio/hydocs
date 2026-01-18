@@ -1,17 +1,17 @@
+**Source Hash:** `48955661be58e03e1cdd08b9a6399579e3ffea21806c532e618081586c7644b3`
+
 # RespondToHit
 
 ## Overview
-- Documentation for `RespondToHit`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `RespondToHit()`
   - Creates a `RespondToHit` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

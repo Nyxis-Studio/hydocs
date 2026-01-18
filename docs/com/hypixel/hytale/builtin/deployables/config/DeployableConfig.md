@@ -1,67 +1,67 @@
+**Source Hash:** `7428f2468bcecd4109c0c252e711489fff68bd5c28386b7fcb930f5c73f13973`
+
 # DeployableConfig
 
 ## Overview
-- Documentation for `DeployableConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.deployables.config`.
 
-## Constructors
+## Constructor Descriptions
 - `DeployableConfig()`
   - Creates a `DeployableConfig` instance.
 
-## Methods
-- `processConfig(DeployableConfig config)`
+## Method Descriptions
+- `processConfig(DeployableConfig config)`: Add description.
   - Executes `processConfig` behavior.
-- `playAnimation(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull DeployableConfig config, @Nonnull String animationSetKey)`
+- `playAnimation(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull DeployableConfig config, @Nonnull String animationSetKey)`: Add description.
   - Executes `playAnimation` behavior.
-- `stopAnimation(@Nonnull Store<EntityStore> store, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`
+- `stopAnimation(@Nonnull Store<EntityStore> store, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`: Add description.
   - Executes `stopAnimation` behavior.
-- `getModel()`
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `getModelPreview()`
+- `getModelPreview()`: Add description.
   - Executes `getModelPreview` behavior.
-- `getHitboxCollisionConfigIndex()`
+- `getHitboxCollisionConfigIndex()`: Add description.
   - Executes `getHitboxCollisionConfigIndex` behavior.
-- `getLiveDurationInMillis()`
+- `getLiveDurationInMillis()`: Add description.
   - Executes `getLiveDurationInMillis` behavior.
-- `getLiveDuration()`
+- `getLiveDuration()`: Add description.
   - Executes `getLiveDuration` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getMaxLiveCount()`
+- `getMaxLiveCount()`: Add description.
   - Executes `getMaxLiveCount` behavior.
-- `getInvulnerable()`
+- `getInvulnerable()`: Add description.
   - Executes `getInvulnerable` behavior.
-- `getStatValues()`
+- `getStatValues()`: Add description.
   - Executes `getStatValues` behavior.
-- `getDespawnSoundEventIndex()`
+- `getDespawnSoundEventIndex()`: Add description.
   - Executes `getDespawnSoundEventIndex` behavior.
-- `getDeploySoundEventIndex()`
+- `getDeploySoundEventIndex()`: Add description.
   - Executes `getDeploySoundEventIndex` behavior.
-- `getDieSoundEventIndex()`
+- `getDieSoundEventIndex()`: Add description.
   - Executes `getDieSoundEventIndex` behavior.
-- `getAmbientSoundEventIndex()`
+- `getAmbientSoundEventIndex()`: Add description.
   - Executes `getAmbientSoundEventIndex` behavior.
-- `getSpawnParticles()`
+- `getSpawnParticles()`: Add description.
   - Executes `getSpawnParticles` behavior.
-- `getDespawnParticles()`
+- `getDespawnParticles()`: Add description.
   - Executes `getDespawnParticles` behavior.
-- `getDebugVisuals()`
+- `getDebugVisuals()`: Add description.
   - Executes `getDebugVisuals` behavior.
-- `getAllowPlaceOnWalls()`
+- `getAllowPlaceOnWalls()`: Add description.
   - Executes `getAllowPlaceOnWalls` behavior.
-- `getWireframeDebugVisuals()`
+- `getWireframeDebugVisuals()`: Add description.
   - Executes `getWireframeDebugVisuals` behavior.
-- `getCountTowardsGlobalLimit()`
+- `getCountTowardsGlobalLimit()`: Add description.
   - Executes `getCountTowardsGlobalLimit` behavior.
-- `tick(@Nonnull DeployableComponent deployableComponent, float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(@Nonnull DeployableComponent deployableComponent, float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `firstTick(@Nonnull DeployableComponent deployableComponent, float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `firstTick(@Nonnull DeployableComponent deployableComponent, float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `firstTick` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `getInitial()`
+- `getInitial()`: Add description.
   - Executes `getInitial` behavior.
 
 ## Notes

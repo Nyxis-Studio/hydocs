@@ -1,26 +1,26 @@
+**Source Hash:** `6e13616181e378d6f15c1f279c154e8c1cb17cba67906cae2d4c709e46fdafca`
+
 # BuilderSensorBlockType
 
 ## Overview
-- Documentation for `BuilderSensorBlockType`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getSensor(@Nonnull BuilderSupport support)`
+- `getSensor(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getSensor` behavior.
-- `getBlockSet(@Nonnull BuilderSupport support)`
+- `getBlockSet(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBlockSet` behavior.
 
 ## Notes

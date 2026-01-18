@@ -1,36 +1,36 @@
+**Source Hash:** `2d626487ca62cb0fbc5027703f4df0efb6ef3032f7c81b7ed067c28d5603582e`
+
 # PrefabSaverSettings
 
 ## Overview
-- Documentation for `PrefabSaverSettings`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.saving`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isRelativize()`
+## Method Descriptions
+- `isRelativize()`: Add description.
   - Executes `isRelativize` behavior.
-- `setRelativize(boolean relativize)`
+- `setRelativize(boolean relativize)`: Add description.
   - Executes `setRelativize` behavior.
-- `isOverwriteExisting()`
+- `isOverwriteExisting()`: Add description.
   - Executes `isOverwriteExisting` behavior.
-- `setOverwriteExisting(boolean overwriteExisting)`
+- `setOverwriteExisting(boolean overwriteExisting)`: Add description.
   - Executes `setOverwriteExisting` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `setEmpty(boolean empty)`
+- `setEmpty(boolean empty)`: Add description.
   - Executes `setEmpty` behavior.
-- `isBlocks()`
+- `isBlocks()`: Add description.
   - Executes `isBlocks` behavior.
-- `setBlocks(boolean blocks)`
+- `setBlocks(boolean blocks)`: Add description.
   - Executes `setBlocks` behavior.
-- `isEntities()`
+- `isEntities()`: Add description.
   - Executes `isEntities` behavior.
-- `setEntities(boolean entities)`
+- `setEntities(boolean entities)`: Add description.
   - Executes `setEntities` behavior.
-- `isKeepAnchors()`
+- `isKeepAnchors()`: Add description.
   - Executes `isKeepAnchors` behavior.
-- `setKeepAnchors(boolean keepAnchors)`
+- `setKeepAnchors(boolean keepAnchors)`: Add description.
   - Executes `setKeepAnchors` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `2b956923e847d023fee2590e22d998dd6fa165c566ae3c5b159d443ff1555512`
+
 # ZoneGeneratorResult
 
 ## Overview
-- Documentation for `ZoneGeneratorResult`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.zone`.
 
-## Constructors
+## Constructor Descriptions
 - `ZoneGeneratorResult()`
   - Creates a `ZoneGeneratorResult` instance.
 - `ZoneGeneratorResult(Zone zone, double borderDistance)`
   - Creates a `ZoneGeneratorResult` instance.
 
-## Methods
-- `setZone(Zone zone)`
+## Method Descriptions
+- `setZone(Zone zone)`: Add description.
   - Executes `setZone` behavior.
-- `setBorderDistance(double borderDistance)`
+- `setBorderDistance(double borderDistance)`: Add description.
   - Executes `setBorderDistance` behavior.
-- `getZone()`
+- `getZone()`: Add description.
   - Executes `getZone` behavior.
-- `getBorderDistance()`
+- `getBorderDistance()`: Add description.
   - Executes `getBorderDistance` behavior.
 
 ## Notes

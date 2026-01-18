@@ -1,15 +1,15 @@
+**Source Hash:** `3ec02bf426feb427f9d3c15b836175dab228189874077acadac5a493f4e3b428`
+
 # StopNetworkChunkSendingCommand
 
 ## Overview
-- Documentation for `StopNetworkChunkSendingCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `StopNetworkChunkSendingCommand()`
   - Creates a `StopNetworkChunkSendingCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

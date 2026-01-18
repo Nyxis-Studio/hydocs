@@ -1,10 +1,10 @@
+**Source Hash:** `fd4b1ce516daaf5d04813cd6c8ef6ba455514d2dd905354afe7a66b7cc9a976f`
+
 # RoleExistsValidator
 
 ## Overview
-- Documentation for `RoleExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `RoleExistsValidator()`
   - Creates a `RoleExistsValidator` instance.
 - `RoleExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `RoleExistsValidator(config)`
   - Creates a `RoleExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String role)`
+- `test(String role)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String role, String attributeName)`
+- `errorMessage(String role, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

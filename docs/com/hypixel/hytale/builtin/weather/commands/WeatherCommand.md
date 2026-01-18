@@ -1,15 +1,15 @@
+**Source Hash:** `27b8bc9a60e1a6562939cdfbd6fa5ba20e78823ea86ae5a2797c7ee809f87c0c`
+
 # WeatherCommand
 
 ## Overview
-- Documentation for `WeatherCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.weather.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WeatherCommand()`
   - Creates a `WeatherCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,15 +1,15 @@
+**Source Hash:** `14056a77e88f0e200bcb1297ae05c2d4ba4157b8f14bc9c19035318427ba5704`
+
 # ServerDumpCommand
 
 ## Overview
-- Documentation for `ServerDumpCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.server`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerDumpCommand()`
   - Creates a `ServerDumpCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

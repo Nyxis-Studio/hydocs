@@ -1,10 +1,10 @@
+**Source Hash:** `65bc56c405470665b5a894d3ad4044b25ee565ea470aac68aba040fc6166af51`
+
 # BlockMapMarker
 
 ## Overview
-- Documentation for `BlockMapMarker`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMapMarker()`
   - Creates a `BlockMapMarker` instance.
 - `BlockMapMarker(String name, String icon)`
@@ -12,22 +12,22 @@
 - `BlockMapMarker(this.name, this.icon)`
   - Creates a `BlockMapMarker` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getIcon()`
+- `getIcon()`: Add description.
   - Executes `getIcon` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `update(World world, GameplayConfig gameplayConfig, WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+- `update(World world, GameplayConfig gameplayConfig, WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`: Add description.
   - Executes `update` behavior.
-- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

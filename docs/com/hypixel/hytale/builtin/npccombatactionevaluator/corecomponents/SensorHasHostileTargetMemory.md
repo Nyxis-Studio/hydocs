@@ -1,17 +1,17 @@
+**Source Hash:** `acd93efb576634feb1c2d4fda7d27dd52a23234f0acd92aded0eb0b0325d3f65`
+
 # SensorHasHostileTargetMemory
 
 ## Overview
-- Documentation for `SensorHasHostileTargetMemory`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorHasHostileTargetMemory(@Nonnull BuilderSensorHasHostileTargetMemory builder)`
   - Creates a `SensorHasHostileTargetMemory` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

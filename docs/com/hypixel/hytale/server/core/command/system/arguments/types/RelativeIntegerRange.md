@@ -1,10 +1,10 @@
+**Source Hash:** `58e65470cc3578734ef17a4e74b66dfc60e3bb0857d4b0404715b275da6a6bd9`
+
 # RelativeIntegerRange
 
 ## Overview
-- Documentation for `RelativeIntegerRange`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeIntegerRange(@Nonnull RelativeInteger min, @Nonnull RelativeInteger max)`
   - Creates a `RelativeIntegerRange` instance.
 - `RelativeIntegerRange()`
@@ -12,10 +12,10 @@
 - `RelativeIntegerRange(int min, int max)`
   - Creates a `RelativeIntegerRange` instance.
 
-## Methods
-- `getNumberInRange(int base)`
+## Method Descriptions
+- `getNumberInRange(int base)`: Add description.
   - Executes `getNumberInRange` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

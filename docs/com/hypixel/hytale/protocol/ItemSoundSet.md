@@ -1,10 +1,10 @@
+**Source Hash:** `dc202bb8689f4bd368b9a969f0e2a0907588da03688512df7ae7621d33c8dc51`
+
 # ItemSoundSet
 
 ## Overview
-- Documentation for `ItemSoundSet`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemSoundSet()`
   - Creates a `ItemSoundSet` instance.
 - `ItemSoundSet(@Nullable String id, @Nullable Map<ItemSoundEvent, Integer> soundEventIndices)`
@@ -12,22 +12,22 @@
 - `ItemSoundSet(@Nonnull ItemSoundSet other)`
   - Creates a `ItemSoundSet` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

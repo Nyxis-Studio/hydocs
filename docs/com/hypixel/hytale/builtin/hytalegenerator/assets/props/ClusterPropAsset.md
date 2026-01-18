@@ -1,18 +1,18 @@
+**Source Hash:** `21d61192c83520c4572d6a1d03bfabe7ba7b6a1af0cd8a4c2e402f724bc8f307`
+
 # ClusterPropAsset
 
 ## Overview
-- Documentation for `ClusterPropAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PropAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PropAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

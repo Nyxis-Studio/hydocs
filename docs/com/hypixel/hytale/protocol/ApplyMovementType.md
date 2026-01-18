@@ -1,17 +1,17 @@
+**Source Hash:** `4291afebd886ca4fc70a3bc7f46b7a6aa666a015d40f8f58f7afc0bb8319effe`
+
 # ApplyMovementType
 
 ## Overview
-- Documentation for `ApplyMovementType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplyMovementType(int value)`
   - Creates a `ApplyMovementType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

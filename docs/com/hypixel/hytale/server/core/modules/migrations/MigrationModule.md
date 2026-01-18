@@ -1,25 +1,25 @@
+**Source Hash:** `4ca346c57eff11ed01168e68e73d3ae89f6f6d9191fce269fc14a0f8b77195c0`
+
 # MigrationModule
 
 ## Overview
-- Documentation for `MigrationModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.migrations`.
 
-## Constructors
+## Constructor Descriptions
 - `MigrationModule(@Nonnull JavaPluginInit init)`
   - Creates a `MigrationModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getChunkColumnMigrationSystem()`
+- `getChunkColumnMigrationSystem()`: Add description.
   - Executes `getChunkColumnMigrationSystem` behavior.
-- `getChunkSectionMigrationSystem()`
+- `getChunkSectionMigrationSystem()`: Add description.
   - Executes `getChunkSectionMigrationSystem` behavior.
-- `register(String id, Function<Path, Migration> migration)`
+- `register(String id, Function<Path, Migration> migration)`: Add description.
   - Executes `register` behavior.
-- `runMigrations()`
+- `runMigrations()`: Add description.
   - Executes `runMigrations` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `4f78d46fe06e66f77d47ee61d798419f521aae416c836124741877835623d464`
+
 # ItemStack
 
 ## Overview
-- Documentation for `ItemStack`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemStack()`
   - Creates a `ItemStack` instance.
 - `ItemStack(@Nonnull String itemId, int quantity, @Nullable BsonDocument metadata)`
@@ -32,80 +32,80 @@
 - `ItemStack(packet.itemId, quantity, null)`
   - Creates a `ItemStack` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `getMetadata()`
+- `getMetadata()`: Add description.
   - Executes `getMetadata` behavior.
-- `isUnbreakable()`
+- `isUnbreakable()`: Add description.
   - Executes `isUnbreakable` behavior.
-- `isBroken()`
+- `isBroken()`: Add description.
   - Executes `isBroken` behavior.
-- `getMaxDurability()`
+- `getMaxDurability()`: Add description.
   - Executes `getMaxDurability` behavior.
-- `getDurability()`
+- `getDurability()`: Add description.
   - Executes `getDurability` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `getOverrideDroppedItemAnimation()`
+- `getOverrideDroppedItemAnimation()`: Add description.
   - Executes `getOverrideDroppedItemAnimation` behavior.
-- `setOverrideDroppedItemAnimation(boolean b)`
+- `setOverrideDroppedItemAnimation(boolean b)`: Add description.
   - Executes `setOverrideDroppedItemAnimation` behavior.
-- `getBlockKey()`
+- `getBlockKey()`: Add description.
   - Executes `getBlockKey` behavior.
-- `getItem()`
+- `getItem()`: Add description.
   - Executes `getItem` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
-- `withDurability(double durability)`
+- `withDurability(double durability)`: Add description.
   - Executes `withDurability` behavior.
-- `withMaxDurability(double maxDurability)`
+- `withMaxDurability(double maxDurability)`: Add description.
   - Executes `withMaxDurability` behavior.
-- `withIncreasedDurability(double inc)`
+- `withIncreasedDurability(double inc)`: Add description.
   - Executes `withIncreasedDurability` behavior.
-- `withRestoredDurability(double maxDurability)`
+- `withRestoredDurability(double maxDurability)`: Add description.
   - Executes `withRestoredDurability` behavior.
-- `withState(@Nonnull String state)`
+- `withState(@Nonnull String state)`: Add description.
   - Executes `withState` behavior.
-- `withQuantity(int quantity)`
+- `withQuantity(int quantity)`: Add description.
   - Executes `withQuantity` behavior.
-- `withMetadata(@Nullable BsonDocument metadata)`
+- `withMetadata(@Nullable BsonDocument metadata)`: Add description.
   - Executes `withMetadata` behavior.
-- `withMetadata(@Nonnull KeyedCodec<T> keyedCodec, @Nullable T data)`
+- `withMetadata(@Nonnull KeyedCodec<T> keyedCodec, @Nullable T data)`: Add description.
   - Executes `withMetadata` behavior.
-- `withMetadata(@Nonnull String key, @Nonnull Codec<T> codec, @Nullable T data)`
+- `withMetadata(@Nonnull String key, @Nonnull Codec<T> codec, @Nullable T data)`: Add description.
   - Executes `withMetadata` behavior.
-- `withMetadata(@Nonnull String key, @Nullable BsonValue bsonValue)`
+- `withMetadata(@Nonnull String key, @Nullable BsonValue bsonValue)`: Add description.
   - Executes `withMetadata` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `isStackableWith(@Nullable ItemStack itemStack)`
+- `isStackableWith(@Nullable ItemStack itemStack)`: Add description.
   - Executes `isStackableWith` behavior.
-- `isEquivalentType(@Nullable ItemStack itemStack)`
+- `isEquivalentType(@Nullable ItemStack itemStack)`: Add description.
   - Executes `isEquivalentType` behavior.
-- `getFromMetadataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`
+- `getFromMetadataOrNull(@Nonnull KeyedCodec<T> keyedCodec)`: Add description.
   - Executes `getFromMetadataOrNull` behavior.
-- `getFromMetadataOrNull(@Nonnull String key, @Nonnull Codec<T> codec)`
+- `getFromMetadataOrNull(@Nonnull String key, @Nonnull Codec<T> codec)`: Add description.
   - Executes `getFromMetadataOrNull` behavior.
-- `getFromMetadataOrDefault(@Nonnull String key, @Nonnull BuilderCodec<T> codec)`
+- `getFromMetadataOrDefault(@Nonnull String key, @Nonnull BuilderCodec<T> codec)`: Add description.
   - Executes `getFromMetadataOrDefault` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `isEmpty(@Nullable ItemStack itemFrom)`
+- `isEmpty(@Nullable ItemStack itemFrom)`: Add description.
   - Executes `isEmpty` behavior.
-- `isStackableWith(@Nullable ItemStack a, ItemStack b)`
+- `isStackableWith(@Nullable ItemStack a, ItemStack b)`: Add description.
   - Executes `isStackableWith` behavior.
-- `isEquivalentType(@Nullable ItemStack a, ItemStack b)`
+- `isEquivalentType(@Nullable ItemStack a, ItemStack b)`: Add description.
   - Executes `isEquivalentType` behavior.
-- `isSameItemType(@Nullable ItemStack a, @Nullable ItemStack b)`
+- `isSameItemType(@Nullable ItemStack a, @Nullable ItemStack b)`: Add description.
   - Executes `isSameItemType` behavior.
-- `fromPacket(@Nullable ItemQuantity packet)`
+- `fromPacket(@Nullable ItemQuantity packet)`: Add description.
   - Executes `fromPacket` behavior.
 
 ## Notes

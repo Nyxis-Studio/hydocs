@@ -1,14 +1,14 @@
+**Source Hash:** `d7ae0775be4d123dc650eed419aacf20225efcbfc033ef8e7177ce34ed31cd32`
+
 # EntityFilterBase
 
 ## Overview
-- Documentation for `EntityFilterBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

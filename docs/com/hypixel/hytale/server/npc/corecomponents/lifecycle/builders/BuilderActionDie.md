@@ -1,20 +1,20 @@
+**Source Hash:** `c874c686732ddb4cd2b08c30665e6d66f714c8ee7777780262a450e06f5fad85`
+
 # BuilderActionDie
 
 ## Overview
-- Documentation for `BuilderActionDie`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.lifecycle.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

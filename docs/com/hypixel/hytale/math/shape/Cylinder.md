@@ -1,10 +1,10 @@
+**Source Hash:** `611ced0438caca7941f334a16b91b20d0de1f32d62eeeb4e7d523059bb6ab99a`
+
 # Cylinder
 
 ## Overview
-- Documentation for `Cylinder`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Cylinder()`
   - Creates a `Cylinder` instance.
 - `Cylinder(double height, double radiusX, double radiusZ)`
@@ -12,28 +12,28 @@
 - `Cylinder(this.height, this.radiusX, this.radiusZ)`
   - Creates a `Cylinder` instance.
 
-## Methods
-- `getRadiusX()`
+## Method Descriptions
+- `getRadiusX()`: Add description.
   - Executes `getRadiusX` behavior.
-- `getRadiusZ()`
+- `getRadiusZ()`: Add description.
   - Executes `getRadiusZ` behavior.
-- `getHeight()`
+- `getHeight()`: Add description.
   - Executes `getHeight` behavior.
-- `assign(double radius)`
+- `assign(double radius)`: Add description.
   - Executes `assign` behavior.
-- `containsPosition(double x, double y, double z)`
+- `containsPosition(double x, double y, double z)`: Add description.
   - Executes `containsPosition` behavior.
-- `forEachBlock(double x, double y, double z, double epsilon, @Nonnull TriIntPredicate consumer)`
+- `forEachBlock(double x, double y, double z, double epsilon, @Nonnull TriIntPredicate consumer)`: Add description.
   - Executes `forEachBlock` behavior.
-- `forEachBlock(double x, double y, double z, double epsilon, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+- `forEachBlock(double x, double y, double z, double epsilon, T t, @Nonnull TriIntObjPredicate<T> consumer)`: Add description.
   - Executes `forEachBlock` behavior.
-- `expand(double radius)`
+- `expand(double radius)`: Add description.
   - Executes `expand` behavior.
-- `getBox(double x, double y, double z)`
+- `getBox(double x, double y, double z)`: Add description.
   - Executes `getBox` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

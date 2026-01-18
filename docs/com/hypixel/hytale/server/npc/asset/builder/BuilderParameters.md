@@ -1,10 +1,10 @@
+**Source Hash:** `eb2a20145c6bf430979eeae3b2a87acf395f52e3b30cfee9d79639603f97817a`
+
 # BuilderParameters
 
 ## Overview
-- Documentation for `BuilderParameters`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderParameters(StdScope scope, String fileName, String interfaceCode)`
   - Creates a `BuilderParameters` instance.
 - `BuilderParameters(StdScope scope, String fileName, String interfaceCode, IntSet dependencies)`
@@ -12,48 +12,48 @@
 - `BuilderParameters(@Nonnull BuilderParameters other)`
   - Creates a `BuilderParameters` instance.
 
-## Methods
-- `isEmpty()`
+## Method Descriptions
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `addParametersToScope()`
+- `addParametersToScope()`: Add description.
   - Executes `addParametersToScope` behavior.
-- `getParameterType(String name)`
+- `getParameterType(String name)`: Add description.
   - Executes `getParameterType` behavior.
-- `readJSON(@Nonnull JsonObject jsonObject, @Nonnull StateMappingHelper stateHelper)`
+- `readJSON(@Nonnull JsonObject jsonObject, @Nonnull StateMappingHelper stateHelper)`: Add description.
   - Executes `readJSON` behavior.
-- `createCompileContext()`
+- `createCompileContext()`: Add description.
   - Executes `createCompileContext` behavior.
-- `disposeCompileContext()`
+- `disposeCompileContext()`: Add description.
   - Executes `disposeCompileContext` behavior.
-- `getCompileContext()`
+- `getCompileContext()`: Add description.
   - Executes `getCompileContext` behavior.
-- `compile(@Nonnull String expression)`
+- `compile(@Nonnull String expression)`: Add description.
   - Executes `compile` behavior.
-- `getScope()`
+- `getScope()`: Add description.
   - Executes `getScope` behavior.
-- `createScope()`
+- `createScope()`: Add description.
   - Executes `createScope` behavior.
-- `validateNoDuplicateParameters(@Nonnull BuilderParameters other)`
+- `validateNoDuplicateParameters(@Nonnull BuilderParameters other)`: Add description.
   - Executes `validateNoDuplicateParameters` behavior.
-- `getFileName()`
+- `getFileName()`: Add description.
   - Executes `getFileName` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getInterfaceCode()`
+- `getInterfaceCode()`: Add description.
   - Executes `getInterfaceCode` behavior.
-- `addDependency(int d)`
+- `addDependency(int d)`: Add description.
   - Executes `addDependency` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
-- `getExpression()`
+- `getExpression()`: Add description.
   - Executes `getExpression` behavior.
-- `getDescription()`
+- `getDescription()`: Add description.
   - Executes `getDescription` behavior.
-- `isValidation()`
+- `isValidation()`: Add description.
   - Executes `isValidation` behavior.
-- `isPrivate()`
+- `isPrivate()`: Add description.
   - Executes `isPrivate` behavior.
-- `fromJSON(@Nonnull JsonElement element, @Nonnull BuilderParameters builderParameters, String parameterName)`
+- `fromJSON(@Nonnull JsonElement element, @Nonnull BuilderParameters builderParameters, String parameterName)`: Add description.
   - Executes `fromJSON` behavior.
 
 ## Notes

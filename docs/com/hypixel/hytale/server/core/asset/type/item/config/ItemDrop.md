@@ -1,27 +1,27 @@
+**Source Hash:** `1fc9d06aa78798e64bc49443258cb943f6f6c035e75472866975fbced5dce9ee`
+
 # ItemDrop
 
 ## Overview
-- Documentation for `ItemDrop`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemDrop(String itemId, BsonDocument metadata, int quantityMin, int quantityMax)`
   - Creates a `ItemDrop` instance.
 - `ItemDrop()`
   - Creates a `ItemDrop` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getMetadata()`
+- `getMetadata()`: Add description.
   - Executes `getMetadata` behavior.
-- `getQuantityMin()`
+- `getQuantityMin()`: Add description.
   - Executes `getQuantityMin` behavior.
-- `getQuantityMax()`
+- `getQuantityMax()`: Add description.
   - Executes `getQuantityMax` behavior.
-- `getRandomQuantity(@Nonnull Random random)`
+- `getRandomQuantity(@Nonnull Random random)`: Add description.
   - Executes `getRandomQuantity` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

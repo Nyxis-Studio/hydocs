@@ -1,29 +1,29 @@
+**Source Hash:** `0277c90d195b23ef237f9c600f9b6c301e07965733f07cd817893763ea9502d4`
+
 # PrefabContainer
 
 ## Overview
-- Documentation for `PrefabContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabContainer(PrefabContainerEntry[] entries)`
   - Creates a `PrefabContainer` instance.
 
-## Methods
-- `getEntries()`
+## Method Descriptions
+- `getEntries()`: Add description.
   - Executes `getEntries` behavior.
-- `getMaxSize()`
+- `getMaxSize()`: Add description.
   - Executes `getMaxSize` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getMaxSize(PrefabContainerEntry[] entries)`
+- `getMaxSize(PrefabContainerEntry[] entries)`: Add description.
   - Executes `getMaxSize` behavior.
-- `getPrefabs()`
+- `getPrefabs()`: Add description.
   - Executes `getPrefabs` behavior.
-- `getEnvironmentId()`
+- `getEnvironmentId()`: Add description.
   - Executes `getEnvironmentId` behavior.
-- `getExtents()`
+- `getExtents()`: Add description.
   - Executes `getExtents` behavior.
-- `getPrefabPatternGenerator()`
+- `getPrefabPatternGenerator()`: Add description.
   - Executes `getPrefabPatternGenerator` behavior.
 
 ## Notes

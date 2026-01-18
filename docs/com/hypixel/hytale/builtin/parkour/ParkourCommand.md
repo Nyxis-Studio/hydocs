@@ -1,15 +1,15 @@
+**Source Hash:** `b25503509eaba9eb067a37b1a585232df94d61f14489c72bba5346908767eca0`
+
 # ParkourCommand
 
 ## Overview
-- Documentation for `ParkourCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.parkour`.
 
-## Constructors
+## Constructor Descriptions
 - `ParkourCommand()`
   - Creates a `ParkourCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,10 +1,10 @@
+**Source Hash:** `8104d5dd46801ed89ff451918a06f5753cf0dd96e9d1dd1e62525e6c02c03e1b`
+
 # AnyBooleanValidator
 
 ## Overview
-- Documentation for `AnyBooleanValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `AnyBooleanValidator(@Nonnull String[] attributes)`
   - Creates a `AnyBooleanValidator` instance.
 - `AnyBooleanValidator(new String[]{attribute1, attribute2})`
@@ -12,16 +12,16 @@
 - `AnyBooleanValidator(attributes)`
   - Creates a `AnyBooleanValidator` instance.
 
-## Methods
-- `test(@Nonnull boolean[] values)`
+## Method Descriptions
+- `test(@Nonnull boolean[] values)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String[] attributes)`
+- `errorMessage(String[] attributes)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage()`
+- `errorMessage()`: Add description.
   - Executes `errorMessage` behavior.
-- `withAttributes(String attribute1, String attribute2)`
+- `withAttributes(String attribute1, String attribute2)`: Add description.
   - Executes `withAttributes` behavior.
-- `withAttributes(@Nonnull String[] attributes)`
+- `withAttributes(@Nonnull String[] attributes)`: Add description.
   - Executes `withAttributes` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `029e5b811c547510a75975ed819da896b520e76d5a2c234a29353b083463b9ee`
+
 # PositionProvider
 
 ## Overview
-- Documentation for `PositionProvider`.
-- Declared as a class in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
+## Constructor Descriptions
 - `PositionProvider()`
   - Creates a `PositionProvider` instance.
 - `PositionProvider(ParameterProvider parameterProvider)`
@@ -12,28 +12,28 @@
 - `PositionProvider(ParameterProvider parameterProvider, ExtraInfoProvider ... providers)`
   - Creates a `PositionProvider` instance.
 
-## Methods
-- `clear()`
+## Method Descriptions
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `setTarget(@Nullable Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setTarget(@Nullable Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setTarget` behavior.
-- `setTarget(@Nonnull Vector3d pos)`
+- `setTarget(@Nonnull Vector3d pos)`: Add description.
   - Executes `setTarget` behavior.
-- `setTarget(double x, double y, double z)`
+- `setTarget(double x, double y, double z)`: Add description.
   - Executes `setTarget` behavior.
-- `providePosition(@Nonnull Vector3d result)`
+- `providePosition(@Nonnull Vector3d result)`: Add description.
   - Executes `providePosition` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getPositionProvider()`
+- `getPositionProvider()`: Add description.
   - Executes `getPositionProvider` behavior.
-- `hasPosition()`
+- `hasPosition()`: Add description.
   - Executes `hasPosition` behavior.
-- `getTarget()`
+- `getTarget()`: Add description.
   - Executes `getTarget` behavior.
 
 ## Notes

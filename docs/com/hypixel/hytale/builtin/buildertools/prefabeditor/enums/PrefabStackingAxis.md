@@ -1,14 +1,14 @@
+**Source Hash:** `3c337744111a49daad69d56c9dd1bd28bb4326dd71bf50446501d8b09b0dd3d8`
+
 # PrefabStackingAxis
 
 ## Overview
-- Documentation for `PrefabStackingAxis`.
-- Declared as a enum in `com.hypixel.hytale.builtin.buildertools.prefabeditor.enums`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

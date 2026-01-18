@@ -1,15 +1,15 @@
+**Source Hash:** `48d6f16b3d2fb1ea9acbbaa4f689b43554346f14cc27db7fb0affa8d6f7a8447`
+
 # EntityCountCommand
 
 ## Overview
-- Documentation for `EntityCountCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityCountCommand()`
   - Creates a `EntityCountCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

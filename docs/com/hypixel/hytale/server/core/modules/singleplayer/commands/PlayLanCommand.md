@@ -1,15 +1,15 @@
+**Source Hash:** `1c796f36729265c65e827876a7fa432afa03411826c4ee8effc8cdaee21f3240`
+
 # PlayLanCommand
 
 ## Overview
-- Documentation for `PlayLanCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.singleplayer.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayLanCommand(@Nonnull SingleplayerModule singleplayerModule)`
   - Creates a `PlayLanCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

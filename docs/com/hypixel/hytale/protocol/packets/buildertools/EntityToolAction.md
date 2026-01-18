@@ -1,17 +1,17 @@
+**Source Hash:** `8f731c05d626726565296250d2f4bd3174c2f13435d4aba1b7520647db843ce5`
+
 # EntityToolAction
 
 ## Overview
-- Documentation for `EntityToolAction`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityToolAction(int value)`
   - Creates a `EntityToolAction` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

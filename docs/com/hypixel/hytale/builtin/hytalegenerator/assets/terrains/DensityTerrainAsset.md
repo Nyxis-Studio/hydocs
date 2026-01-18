@@ -1,16 +1,16 @@
+**Source Hash:** `a7d14575277fb9545f1e84d0bd631c9ad69e08134a75dec5a5493b1e9b40ec05`
+
 # DensityTerrainAsset
 
 ## Overview
-- Documentation for `DensityTerrainAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.terrains`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `buildDensity(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`
+## Method Descriptions
+- `buildDensity(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`: Add description.
   - Executes `buildDensity` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

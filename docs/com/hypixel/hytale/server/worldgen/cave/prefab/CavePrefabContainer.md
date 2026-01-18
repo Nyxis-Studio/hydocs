@@ -1,39 +1,39 @@
+**Source Hash:** `59ba422c7faafa6e612b3fd1579ea45b15493a4c7eead2b88ee89c69ec50b0b5`
+
 # CavePrefabContainer
 
 ## Overview
-- Documentation for `CavePrefabContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `CavePrefabContainer(CavePrefabEntry[] entries)`
   - Creates a `CavePrefabContainer` instance.
 
-## Methods
-- `getEntries()`
+## Method Descriptions
+- `getEntries()`: Add description.
   - Executes `getEntries` behavior.
-- `getPrefabs()`
+- `getPrefabs()`: Add description.
   - Executes `getPrefabs` behavior.
-- `getPrefab(double random)`
+- `getPrefab(double random)`: Add description.
   - Executes `getPrefab` behavior.
-- `getConfig()`
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `getRotation(@Nonnull Random random)`
+- `getRotation(@Nonnull Random random)`: Add description.
   - Executes `getRotation` behavior.
-- `getBiomeMask()`
+- `getBiomeMask()`: Add description.
   - Executes `getBiomeMask` behavior.
-- `getBlockMask()`
+- `getBlockMask()`: Add description.
   - Executes `getBlockMask` behavior.
-- `getIterations(double random)`
+- `getIterations(double random)`: Add description.
   - Executes `getIterations` behavior.
-- `getDisplacement(int seed, int x, int z, @Nonnull CaveNode caveNode)`
+- `getDisplacement(int seed, int x, int z, @Nonnull CaveNode caveNode)`: Add description.
   - Executes `getDisplacement` behavior.
-- `getHeight(int seed, int x, int z, @Nonnull CaveNode caveNode)`
+- `getHeight(int seed, int x, int z, @Nonnull CaveNode caveNode)`: Add description.
   - Executes `getHeight` behavior.
-- `isMatchingNoiseDensity(int seed, int x, int z)`
+- `isMatchingNoiseDensity(int seed, int x, int z)`: Add description.
   - Executes `isMatchingNoiseDensity` behavior.
-- `isMatchingHeight(int seed, int x, int y, int z, Random random)`
+- `isMatchingHeight(int seed, int x, int y, int z, Random random)`: Add description.
   - Executes `isMatchingHeight` behavior.
-- `isMatchingBiome(@Nonnull Biome biome)`
+- `isMatchingBiome(@Nonnull Biome biome)`: Add description.
   - Executes `isMatchingBiome` behavior.
 
 ## Notes

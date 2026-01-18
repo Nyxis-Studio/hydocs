@@ -1,15 +1,15 @@
+**Source Hash:** `7364ab732b6ba83e6a650f0fcd66f4d3b5b17e92196180c4689cd4cabc81a402`
+
 # ItemRepairElement
 
 ## Overview
-- Documentation for `ItemRepairElement`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.pages.itemrepair`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemRepairElement(ItemStack itemStack, RepairItemInteraction interaction)`
   - Creates a `ItemRepairElement` instance.
 
-## Methods
-- `addButton(@Nonnull UICommandBuilder commandBuilder, UIEventBuilder eventBuilder, String selector, PlayerRef playerRef)`
+## Method Descriptions
+- `addButton(@Nonnull UICommandBuilder commandBuilder, UIEventBuilder eventBuilder, String selector, PlayerRef playerRef)`: Add description.
   - Executes `addButton` behavior.
 
 ## Notes

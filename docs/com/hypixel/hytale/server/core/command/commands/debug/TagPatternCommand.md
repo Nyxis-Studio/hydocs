@@ -1,15 +1,15 @@
+**Source Hash:** `39730091129c1c37eb6b595e720e39d7c3ee733b3b74ec072cd976a928b5c71c`
+
 # TagPatternCommand
 
 ## Overview
-- Documentation for `TagPatternCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `TagPatternCommand()`
   - Creates a `TagPatternCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

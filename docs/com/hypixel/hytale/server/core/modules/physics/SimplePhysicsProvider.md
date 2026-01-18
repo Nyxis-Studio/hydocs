@@ -1,81 +1,81 @@
+**Source Hash:** `af743eb98b47b0c3d08c1fd9599344c16e26c306d26cd98f159a70f6a15a558a`
+
 # SimplePhysicsProvider
 
 ## Overview
-- Documentation for `SimplePhysicsProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics`.
 
-## Constructors
+## Constructor Descriptions
 - `SimplePhysicsProvider()`
   - Creates a `SimplePhysicsProvider` instance.
 - `SimplePhysicsProvider(@Nonnull BiConsumer<Vector3d, ComponentAccessor<EntityStore>> bounceConsumer, @Nonnull QuadConsumer<Ref<EntityStore>, Vector3d, Ref<EntityStore>, ComponentAccessor<EntityStore>> impactConsumer)`
   - Creates a `SimplePhysicsProvider` instance.
 
-## Methods
-- `setImpacted(boolean impacted)`
+## Method Descriptions
+- `setImpacted(boolean impacted)`: Add description.
   - Executes `setImpacted` behavior.
-- `isImpacted()`
+- `isImpacted()`: Add description.
   - Executes `isImpacted` behavior.
-- `setResting(boolean resting)`
+- `setResting(boolean resting)`: Add description.
   - Executes `setResting` behavior.
-- `isResting()`
+- `isResting()`: Add description.
   - Executes `isResting` behavior.
-- `onCollisionDamage(int blockX, int blockY, int blockZ, Vector3d direction, BlockContactData collisionData, BlockData blockData)`
+- `onCollisionDamage(int blockX, int blockY, int blockZ, Vector3d direction, BlockContactData collisionData, BlockData blockData)`: Add description.
   - Executes `onCollisionDamage` behavior.
-- `onCollisionFinished()`
+- `onCollisionFinished()`: Add description.
   - Executes `onCollisionFinished` behavior.
-- `tick(double dt, @Nonnull Velocity entityVelocity, @Nonnull World entityWorld, @Nonnull TransformComponent entityTransform, Ref<EntityStore> selfRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `tick(double dt, @Nonnull Velocity entityVelocity, @Nonnull World entityWorld, @Nonnull TransformComponent entityTransform, Ref<EntityStore> selfRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `tick` behavior.
-- `finishTick(@Nonnull TransformComponent position, @Nonnull Velocity velocity)`
+- `finishTick(@Nonnull TransformComponent position, @Nonnull Velocity velocity)`: Add description.
   - Executes `finishTick` behavior.
-- `rotateBody(double dt, @Nonnull Vector3f bodyRotation)`
+- `rotateBody(double dt, @Nonnull Vector3f bodyRotation)`: Add description.
   - Executes `rotateBody` behavior.
-- `isOnGround()`
+- `isOnGround()`: Add description.
   - Executes `isOnGround` behavior.
-- `isSwimming()`
+- `isSwimming()`: Add description.
   - Executes `isSwimming` behavior.
-- `computeReflectedVector(@Nonnull Vector3d vec, @Nonnull Vector3d normal, @Nonnull Vector3d result)`
+- `computeReflectedVector(@Nonnull Vector3d vec, @Nonnull Vector3d normal, @Nonnull Vector3d result)`: Add description.
   - Executes `computeReflectedVector` behavior.
-- `isProvidingCharacterCollisions()`
+- `isProvidingCharacterCollisions()`: Add description.
   - Executes `isProvidingCharacterCollisions` behavior.
-- `setProvideCharacterCollisions(boolean provideCharacterCollisions)`
+- `setProvideCharacterCollisions(boolean provideCharacterCollisions)`: Add description.
   - Executes `setProvideCharacterCollisions` behavior.
-- `setGravity(double gravity, @Nonnull BoundingBox boundingBox)`
+- `setGravity(double gravity, @Nonnull BoundingBox boundingBox)`: Add description.
   - Executes `setGravity` behavior.
-- `setBounciness(double bounciness)`
+- `setBounciness(double bounciness)`: Add description.
   - Executes `setBounciness` behavior.
-- `setTerminalVelocities(double terminalVelocityAir, double terminalVelocityWater, @Nonnull BoundingBox boundingBox)`
+- `setTerminalVelocities(double terminalVelocityAir, double terminalVelocityWater, @Nonnull BoundingBox boundingBox)`: Add description.
   - Executes `setTerminalVelocities` behavior.
-- `setTerminalVelocities(double terminalVelocity1, double density1, double terminalVelocity2, double density2, @Nonnull BoundingBox boundingBox)`
+- `setTerminalVelocities(double terminalVelocity1, double density1, double terminalVelocity2, double density2, @Nonnull BoundingBox boundingBox)`: Add description.
   - Executes `setTerminalVelocities` behavior.
-- `setImpactSlowdown(double impactSlowdown)`
+- `setImpactSlowdown(double impactSlowdown)`: Add description.
   - Executes `setImpactSlowdown` behavior.
-- `setSticksVertically(boolean sticksVertically)`
+- `setSticksVertically(boolean sticksVertically)`: Add description.
   - Executes `setSticksVertically` behavior.
-- `isComputeYaw()`
+- `isComputeYaw()`: Add description.
   - Executes `isComputeYaw` behavior.
-- `setComputeYaw(boolean computeYaw)`
+- `setComputeYaw(boolean computeYaw)`: Add description.
   - Executes `setComputeYaw` behavior.
-- `isComputePitch()`
+- `isComputePitch()`: Add description.
   - Executes `isComputePitch` behavior.
-- `setComputePitch(boolean computePitch)`
+- `setComputePitch(boolean computePitch)`: Add description.
   - Executes `setComputePitch` behavior.
-- `setCreatorId(UUID creatorUuid)`
+- `setCreatorId(UUID creatorUuid)`: Add description.
   - Executes `setCreatorId` behavior.
-- `initialize(@Nullable Projectile projectile, @Nonnull BoundingBox boundingBox)`
+- `initialize(@Nullable Projectile projectile, @Nonnull BoundingBox boundingBox)`: Add description.
   - Executes `initialize` behavior.
-- `getVelocity()`
+- `getVelocity()`: Add description.
   - Executes `getVelocity` behavior.
-- `addVelocity(float x, float y, float z)`
+- `addVelocity(float x, float y, float z)`: Add description.
   - Executes `addVelocity` behavior.
-- `setVelocity(@Nonnull Vector3d velocity)`
+- `setVelocity(@Nonnull Vector3d velocity)`: Add description.
   - Executes `setVelocity` behavior.
-- `setMoveOutOfSolid(boolean moveOutOfSolid)`
+- `setMoveOutOfSolid(boolean moveOutOfSolid)`: Add description.
   - Executes `setMoveOutOfSolid` behavior.
-- `setMoveOutOfSolid(double speed)`
+- `setMoveOutOfSolid(double speed)`: Add description.
   - Executes `setMoveOutOfSolid` behavior.
-- `getDragCoefficient(double density)`
+- `getDragCoefficient(double density)`: Add description.
   - Executes `getDragCoefficient` behavior.
-- `recomputeDragFactors(@Nonnull BoundingBox boundingBoxComponent)`
+- `recomputeDragFactors(@Nonnull BoundingBox boundingBoxComponent)`: Add description.
   - Executes `recomputeDragFactors` behavior.
 
 ## Notes

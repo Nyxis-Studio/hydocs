@@ -1,24 +1,24 @@
+**Source Hash:** `e3af7aa1e9f304594f95138126b238a103fbe07c4ceb4e6a7fbada1158c6d061`
+
 # BuilderActionFlockState
 
 ## Overview
-- Documentation for `BuilderActionFlockState`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getState(@Nonnull BuilderSupport support)`
+- `getState(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getState` behavior.
 
 ## Notes

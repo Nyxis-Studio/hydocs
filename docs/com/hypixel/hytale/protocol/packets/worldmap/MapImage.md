@@ -1,10 +1,10 @@
+**Source Hash:** `54967175b396f6de196d94918cfe39f5014dbe1a82087c0c425c713af0fcff6b`
+
 # MapImage
 
 ## Overview
-- Documentation for `MapImage`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.worldmap`.
 
-## Constructors
+## Constructor Descriptions
 - `MapImage()`
   - Creates a `MapImage` instance.
 - `MapImage(int width, int height, @Nullable int[] data)`
@@ -12,22 +12,22 @@
 - `MapImage(@Nonnull MapImage other)`
   - Creates a `MapImage` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

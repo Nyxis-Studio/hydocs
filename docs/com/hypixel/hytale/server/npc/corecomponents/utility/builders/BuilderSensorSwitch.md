@@ -1,26 +1,26 @@
+**Source Hash:** `07bcf2bce731ab5de9acceb7aa0b8363dc840907dace7922f4e5985dbad19ba2`
+
 # BuilderSensorSwitch
 
 ## Overview
-- Documentation for `BuilderSensorSwitch`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `registerTags(@Nonnull Set<String> tags)`
+- `registerTags(@Nonnull Set<String> tags)`: Add description.
   - Executes `registerTags` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getSwitch(@Nonnull BuilderSupport builderSupport)`
+- `getSwitch(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSwitch` behavior.
 
 ## Notes

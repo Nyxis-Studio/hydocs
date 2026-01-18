@@ -1,17 +1,17 @@
+**Source Hash:** `ee5b1c0ae212ad7ceb970821bfca828035967619d95942102e2926dfc3ccbebc`
+
 # SensorInteractionContext
 
 ## Overview
-- Documentation for `SensorInteractionContext`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorInteractionContext(@Nonnull BuilderSensorInteractionContext builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorInteractionContext` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

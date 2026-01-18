@@ -1,41 +1,41 @@
+**Source Hash:** `1d10a29a5f378e2f345c11f14afe3dddf0a995760d79921564603cf82f97f6aa`
+
 # Biome
 
 ## Overview
-- Documentation for `Biome`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `Biome(int id, String name, BiomeInterpolation interpolation, @Nonnull IHeightThresholdInterpreter heightmapInterpreter, CoverContainer coverContainer, LayerContainer layerContainer, PrefabContainer prefabContainer, TintContainer tintContainer, EnvironmentContainer environmentContainer, WaterContainer waterContainer, FadeContainer fadeContainer, NoiseProperty heightmapNoise, int mapColor)`
   - Creates a `Biome` instance.
 
-## Methods
-- `getName()`
+## Method Descriptions
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getInterpolation()`
+- `getInterpolation()`: Add description.
   - Executes `getInterpolation` behavior.
-- `getHeightmapInterpreter()`
+- `getHeightmapInterpreter()`: Add description.
   - Executes `getHeightmapInterpreter` behavior.
-- `getCoverContainer()`
+- `getCoverContainer()`: Add description.
   - Executes `getCoverContainer` behavior.
-- `getLayerContainer()`
+- `getLayerContainer()`: Add description.
   - Executes `getLayerContainer` behavior.
-- `getPrefabContainer()`
+- `getPrefabContainer()`: Add description.
   - Executes `getPrefabContainer` behavior.
-- `getTintContainer()`
+- `getTintContainer()`: Add description.
   - Executes `getTintContainer` behavior.
-- `getEnvironmentContainer()`
+- `getEnvironmentContainer()`: Add description.
   - Executes `getEnvironmentContainer` behavior.
-- `getWaterContainer()`
+- `getWaterContainer()`: Add description.
   - Executes `getWaterContainer` behavior.
-- `getFadeContainer()`
+- `getFadeContainer()`: Add description.
   - Executes `getFadeContainer` behavior.
-- `getHeightmapNoise()`
+- `getHeightmapNoise()`: Add description.
   - Executes `getHeightmapNoise` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getMapColor()`
+- `getMapColor()`: Add description.
   - Executes `getMapColor` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

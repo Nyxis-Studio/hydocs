@@ -1,17 +1,17 @@
+**Source Hash:** `aaac3f18c7e61c4b2245c6953e40b926775b8ee3b4494debea3d09b4e662054e`
+
 # SensorBlock
 
 ## Overview
-- Documentation for `SensorBlock`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorBlock(@Nonnull BuilderSensorBlock builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorBlock` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `d87a3b9dbded4471e132586cef930df5525a1944ae50988eb4725929bd587d0d`
+
 # ResourceFilter
 
 ## Overview
-- Documentation for `ResourceFilter`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.container.filter`.
 
-## Constructors
+## Constructor Descriptions
 - `ResourceFilter(ResourceQuantity resource)`
   - Creates a `ResourceFilter` instance.
 
-## Methods
-- `test(@Nullable Item item)`
+## Method Descriptions
+- `test(@Nullable Item item)`: Add description.
   - Executes `test` behavior.
-- `getResource()`
+- `getResource()`: Add description.
   - Executes `getResource` behavior.
 
 ## Notes

@@ -1,67 +1,67 @@
+**Source Hash:** `1e0a727ac6f4963e571d0f95d51e9950d33bac13fb098265050cab53053aed89`
+
 # WindowVoxelSpace
 
 ## Overview
-- Documentation for `WindowVoxelSpace`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.voxelspace`.
 
-## Constructors
+## Constructor Descriptions
 - `WindowVoxelSpace(@Nonnull VoxelSpace<T> voxelSpace)`
   - Creates a `WindowVoxelSpace` instance.
 
-## Methods
-- `setWindow(int minX, int minY, int minZ, int maxX, int maxY, int maxZ)`
+## Method Descriptions
+- `setWindow(int minX, int minY, int minZ, int maxX, int maxY, int maxZ)`: Add description.
   - Executes `setWindow` behavior.
-- `getWrappedSchematic()`
+- `getWrappedSchematic()`: Add description.
   - Executes `getWrappedSchematic` behavior.
-- `set(T content, int x, int y, int z)`
+- `set(T content, int x, int y, int z)`: Add description.
   - Executes `set` behavior.
-- `set(T content, @Nonnull Vector3i position)`
+- `set(T content, @Nonnull Vector3i position)`: Add description.
   - Executes `set` behavior.
-- `set(T content)`
+- `set(T content)`: Add description.
   - Executes `set` behavior.
-- `setOrigin(int x, int y, int z)`
+- `setOrigin(int x, int y, int z)`: Add description.
   - Executes `setOrigin` behavior.
-- `getContent(int x, int y, int z)`
+- `getContent(int x, int y, int z)`: Add description.
   - Executes `getContent` behavior.
-- `getContent(@Nonnull Vector3i position)`
+- `getContent(@Nonnull Vector3i position)`: Add description.
   - Executes `getContent` behavior.
-- `replace(T replacement, int x, int y, int z, @Nonnull Predicate<T> mask)`
+- `replace(T replacement, int x, int y, int z, @Nonnull Predicate<T> mask)`: Add description.
   - Executes `replace` behavior.
-- `pasteFrom(@Nonnull VoxelSpace<T> source)`
+- `pasteFrom(@Nonnull VoxelSpace<T> source)`: Add description.
   - Executes `pasteFrom` behavior.
-- `getOriginX()`
+- `getOriginX()`: Add description.
   - Executes `getOriginX` behavior.
-- `getOriginY()`
+- `getOriginY()`: Add description.
   - Executes `getOriginY` behavior.
-- `getOriginZ()`
+- `getOriginZ()`: Add description.
   - Executes `getOriginZ` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `isInsideSpace(int x, int y, int z)`
+- `isInsideSpace(int x, int y, int z)`: Add description.
   - Executes `isInsideSpace` behavior.
-- `isInsideSpace(@Nonnull Vector3i position)`
+- `isInsideSpace(@Nonnull Vector3i position)`: Add description.
   - Executes `isInsideSpace` behavior.
-- `forEach(@Nonnull VoxelConsumer<? super T> action)`
+- `forEach(@Nonnull VoxelConsumer<? super T> action)`: Add description.
   - Executes `forEach` behavior.
-- `minX()`
+- `minX()`: Add description.
   - Executes `minX` behavior.
-- `maxX()`
+- `maxX()`: Add description.
   - Executes `maxX` behavior.
-- `minY()`
+- `minY()`: Add description.
   - Executes `minY` behavior.
-- `maxY()`
+- `maxY()`: Add description.
   - Executes `maxY` behavior.
-- `minZ()`
+- `minZ()`: Add description.
   - Executes `minZ` behavior.
-- `maxZ()`
+- `maxZ()`: Add description.
   - Executes `maxZ` behavior.
-- `sizeX()`
+- `sizeX()`: Add description.
   - Executes `sizeX` behavior.
-- `sizeY()`
+- `sizeY()`: Add description.
   - Executes `sizeY` behavior.
-- `sizeZ()`
+- `sizeZ()`: Add description.
   - Executes `sizeZ` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

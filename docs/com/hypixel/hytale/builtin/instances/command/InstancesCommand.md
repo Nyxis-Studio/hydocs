@@ -1,15 +1,15 @@
+**Source Hash:** `6f77ba8be3be443ae550eb25ed40207d0044717d356e7cef1c691fccfb715dd3`
+
 # InstancesCommand
 
 ## Overview
-- Documentation for `InstancesCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.command`.
 
-## Constructors
+## Constructor Descriptions
 - `InstancesCommand()`
   - Creates a `InstancesCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

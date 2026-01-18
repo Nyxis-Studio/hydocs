@@ -1,17 +1,17 @@
+**Source Hash:** `fd71ce1e577f2a91470eac7ae824326c9582e3e577fdd370c8e8233c38c979a1`
+
 # SensorIsBackingAway
 
 ## Overview
-- Documentation for `SensorIsBackingAway`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.combat`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorIsBackingAway(@Nonnull BuilderSensorIsBackingAway builder)`
   - Creates a `SensorIsBackingAway` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

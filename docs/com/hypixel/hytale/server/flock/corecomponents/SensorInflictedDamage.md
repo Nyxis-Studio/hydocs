@@ -1,21 +1,21 @@
+**Source Hash:** `b54b26ba29f4f4f0547abe60e1c68e3ba7eb8b4fa0e3c6f9f59f0fde5a0dac5c`
+
 # SensorInflictedDamage
 
 ## Overview
-- Documentation for `SensorInflictedDamage`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorInflictedDamage(@Nonnull BuilderSensorInflictedDamage builder)`
   - Creates a `SensorInflictedDamage` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `inSameFlock(@Nonnull Ref<EntityStore> selfReference, @Nonnull Ref<EntityStore> target, @Nonnull Store<EntityStore> store)`
+- `inSameFlock(@Nonnull Ref<EntityStore> selfReference, @Nonnull Ref<EntityStore> target, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `inSameFlock` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

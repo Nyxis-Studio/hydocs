@@ -1,15 +1,15 @@
+**Source Hash:** `1e52aa50d7cf47c81c67293c8e1107ea69d55be703b0320ee4946dc246e40b75`
+
 # FlatMapQuery
 
 ## Overview
-- Documentation for `FlatMapQuery`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils.posqueries.predicates.generic`.
 
-## Constructors
+## Constructor Descriptions
 - `FlatMapQuery(SpatialQuery generator, SpatialQuery expand)`
   - Creates a `FlatMapQuery` instance.
 
-## Methods
-- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`
+## Method Descriptions
+- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`: Add description.
   - Executes `createCandidates` behavior.
 
 ## Notes

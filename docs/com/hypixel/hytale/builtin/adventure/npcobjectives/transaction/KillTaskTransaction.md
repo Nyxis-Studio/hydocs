@@ -1,25 +1,25 @@
+**Source Hash:** `8de60fbc165a495702d10191e0be88f57630df0a8858644c72cc50510789d454`
+
 # KillTaskTransaction
 
 ## Overview
-- Documentation for `KillTaskTransaction`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcobjectives.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `KillTaskTransaction(@Nonnull KillTask task, @Nonnull Objective objective, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
   - Creates a `KillTaskTransaction` instance.
 
-## Methods
-- `revert()`
+## Method Descriptions
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `getTask()`
+- `getTask()`: Add description.
   - Executes `getTask` behavior.
-- `getObjective()`
+- `getObjective()`: Add description.
   - Executes `getObjective` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
 
 ## Notes

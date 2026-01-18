@@ -1,10 +1,10 @@
+**Source Hash:** `21363c22431236c8f05c3971e84fe5564c045ce691760fe82ff879149f1bc600`
+
 # RoofConnectedBlockRuleSet
 
 ## Overview
-- Documentation for `RoofConnectedBlockRuleSet`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `RoofConnectedBlockRuleSet()`
   - Creates a `RoofConnectedBlockRuleSet` instance.
 - `RoofConnectedBlockRuleSet(@Nullable StairConnectedBlockRuleSet regular, @Nullable StairConnectedBlockRuleSet hollow, int topperBlockId, int width, @Nullable String materialName)`
@@ -12,22 +12,22 @@
 - `RoofConnectedBlockRuleSet(@Nonnull RoofConnectedBlockRuleSet other)`
   - Creates a `RoofConnectedBlockRuleSet` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

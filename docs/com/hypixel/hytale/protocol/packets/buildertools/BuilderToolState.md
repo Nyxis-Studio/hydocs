@@ -1,10 +1,10 @@
+**Source Hash:** `e028a91a53f397664e5f01f47c4e1d6eace298796dace67a9570474434df7743`
+
 # BuilderToolState
 
 ## Overview
-- Documentation for `BuilderToolState`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolState()`
   - Creates a `BuilderToolState` instance.
 - `BuilderToolState(@Nullable String id, boolean isBrush, @Nullable BuilderToolBrushData brushData, @Nullable Map<String, BuilderToolArg> args)`
@@ -12,22 +12,22 @@
 - `BuilderToolState(@Nonnull BuilderToolState other)`
   - Creates a `BuilderToolState` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

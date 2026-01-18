@@ -1,15 +1,15 @@
+**Source Hash:** `5c1f50417e2613e9b8c3ff7b1d22dcdae9b70a680dc4994de3586416a730637e`
+
 # EnableTmpTagsCommand
 
 ## Overview
-- Documentation for `EnableTmpTagsCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `EnableTmpTagsCommand()`
   - Creates a `EnableTmpTagsCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

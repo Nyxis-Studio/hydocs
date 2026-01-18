@@ -1,24 +1,24 @@
+**Source Hash:** `cf9751690b229e40506fe7e0bbbe61c62b2c59b94058ba1c57caf2c2aaee50b0`
+
 # BuilderActionDespawn
 
 ## Overview
-- Documentation for `BuilderActionDespawn`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.lifecycle.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isForced()`
+- `isForced()`: Add description.
   - Executes `isForced` behavior.
 
 ## Notes

@@ -1,28 +1,28 @@
+**Source Hash:** `3181d1c4315991198109081fc8a6bf277b42cb9ab591ffd6dd2c918d8f050aee`
+
 # BuilderSensorEntity
 
 ## Overview
-- Documentation for `BuilderSensorEntity`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isGetPlayers(@Nonnull BuilderSupport support)`
+- `isGetPlayers(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isGetPlayers` behavior.
-- `isGetNPCs(@Nonnull BuilderSupport support)`
+- `isGetNPCs(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isGetNPCs` behavior.
-- `isExcludeOwnType(@Nonnull BuilderSupport support)`
+- `isExcludeOwnType(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isExcludeOwnType` behavior.
 
 ## Notes

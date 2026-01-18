@@ -1,19 +1,19 @@
+**Source Hash:** `80d7614f89fc852e8d9b14fda217d2380cb721d07b80ac0d5e154a1d2f907bae`
+
 # TileBiomeJsonLoader
 
 ## Overview
-- Documentation for `TileBiomeJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `TileBiomeJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json, @Nonnull BiomeFileContext biomeContext)`
   - Creates a `TileBiomeJsonLoader` instance.
 
-## Methods
-- `load()`
+## Method Descriptions
+- `load()`: Add description.
   - Executes `load` behavior.
-- `loadWeight()`
+- `loadWeight()`: Add description.
   - Executes `loadWeight` behavior.
-- `loadSizeModifier()`
+- `loadSizeModifier()`: Add description.
   - Executes `loadSizeModifier` behavior.
 
 ## Notes

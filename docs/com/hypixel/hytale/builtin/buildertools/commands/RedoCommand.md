@@ -1,17 +1,17 @@
+**Source Hash:** `51dfb527e6b2fd21e0adc7c538703db89f5d2815ce2d46911dcc393010663929`
+
 # RedoCommand
 
 ## Overview
-- Documentation for `RedoCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `RedoCommand()`
   - Creates a `RedoCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `executeRedo(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, int count)`
+- `executeRedo(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, int count)`: Add description.
   - Executes `executeRedo` behavior.
 
 ## Notes

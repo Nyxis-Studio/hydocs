@@ -1,15 +1,15 @@
+**Source Hash:** `7db75e94c7fcfb5f498133ef1bee4182e99a9755f2b6c0435b127e74aaedaed6`
+
 # SafetyRollPlugin
 
 ## Overview
-- Documentation for `SafetyRollPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.safetyroll`.
 
-## Constructors
+## Constructor Descriptions
 - `SafetyRollPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `SafetyRollPlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
 
 ## Notes

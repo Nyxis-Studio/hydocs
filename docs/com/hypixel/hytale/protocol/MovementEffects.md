@@ -1,10 +1,10 @@
+**Source Hash:** `a9014b10f9976e170336b5fe2078c10dfe97bf49c7abbc51206ef2c46e87e6d4`
+
 # MovementEffects
 
 ## Overview
-- Documentation for `MovementEffects`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `MovementEffects()`
   - Creates a `MovementEffects` instance.
 - `MovementEffects(boolean disableForward, boolean disableBackward, boolean disableLeft, boolean disableRight, boolean disableSprint, boolean disableJump, boolean disableCrouch)`
@@ -12,22 +12,22 @@
 - `MovementEffects(@Nonnull MovementEffects other)`
   - Creates a `MovementEffects` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

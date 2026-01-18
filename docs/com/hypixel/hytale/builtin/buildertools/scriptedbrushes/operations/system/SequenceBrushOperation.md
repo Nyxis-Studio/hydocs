@@ -1,21 +1,21 @@
+**Source Hash:** `30843e36ef38ff607badef731bd29412014a412867c11eaa3b83e698639b482d`
+
 # SequenceBrushOperation
 
 ## Overview
-- Documentation for `SequenceBrushOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.system`.
 
-## Constructors
+## Constructor Descriptions
 - `SequenceBrushOperation(String name, String description, boolean doesOperateOnBlocks)`
   - Creates a `SequenceBrushOperation` instance.
 
-## Methods
-- `modifyBlocks(Ref<EntityStore> ref, BrushConfig brushConfig, BrushConfigCommandExecutor brushConfigCommandExecutor, BrushConfigEditStore edit, int x, int y, int z, ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBlocks(Ref<EntityStore> ref, BrushConfig brushConfig, BrushConfigCommandExecutor brushConfigCommandExecutor, BrushConfigEditStore edit, int x, int y, int z, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBlocks` behavior.
-- `beginIterationIndex(int iterationIndex)`
+- `beginIterationIndex(int iterationIndex)`: Add description.
   - Executes `beginIterationIndex` behavior.
-- `getNumModifyBlockIterations()`
+- `getNumModifyBlockIterations()`: Add description.
   - Executes `getNumModifyBlockIterations` behavior.
-- `doesOperateOnBlocks()`
+- `doesOperateOnBlocks()`: Add description.
   - Executes `doesOperateOnBlocks` behavior.
 
 ## Notes

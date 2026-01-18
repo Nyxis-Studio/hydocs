@@ -1,20 +1,20 @@
+**Source Hash:** `017f4b427f7def0aa12f4d644ac8c591655893643cdc16ade683d5a95653fdac`
+
 # BuilderEntityFilterOr
 
 ## Overview
-- Documentation for `BuilderEntityFilterOr`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

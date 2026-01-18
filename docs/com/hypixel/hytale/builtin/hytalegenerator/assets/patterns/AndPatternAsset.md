@@ -1,16 +1,16 @@
+**Source Hash:** `a4867095d6424e02ec4f927e674c16167f44a923d4b9c4ea35aa45eae228025f`
+
 # AndPatternAsset
 
 ## Overview
-- Documentation for `AndPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

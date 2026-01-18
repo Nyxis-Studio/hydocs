@@ -1,14 +1,14 @@
+**Source Hash:** `6bbc58c5502e71c35eded93991504d7828f0ed120910047eff7691f7eb958673`
+
 # IntBiObjectConsumer
 
 ## Overview
-- Documentation for `IntBiObjectConsumer`.
-- Declared as a interface in `com.hypixel.hytale.function.consumer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(int var1, T var2, J var3)`
+## Method Descriptions
+- `accept(int var1, T var2, J var3)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `d4ae863eec16850a088d611fcba4faca18430455d525710ef684c13620050029`
+
 # OpenItemStackContainerInteraction
 
 ## Overview
-- Documentation for `OpenItemStackContainerInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `6475aea1b8864ca325770ffb024c27878473a8d3e4cb89a9ab23ff9bc904c34b`
+
 # QueueMaterialProviderAsset
 
 ## Overview
-- Documentation for `QueueMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

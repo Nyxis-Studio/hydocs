@@ -1,17 +1,17 @@
+**Source Hash:** `2ebdc38bfe220df6ca74961acb3295712278efb73f5ab7f599ffa6b6d27640e9`
+
 # CustomUICommandType
 
 ## Overview
-- Documentation for `CustomUICommandType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `CustomUICommandType(int value)`
   - Creates a `CustomUICommandType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

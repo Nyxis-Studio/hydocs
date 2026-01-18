@@ -1,18 +1,18 @@
+**Source Hash:** `38620a97cf9e76fcb3ddd3c86c1d909549420e1303b53390e789c128fa047191`
+
 # LoggerUtil
 
 ## Overview
-- Documentation for `LoggerUtil`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getLogger()`
+## Method Descriptions
+- `getLogger()`: Add description.
   - Executes `getLogger` behavior.
-- `logException(@Nonnull String contextDescription, @Nonnull Throwable e)`
+- `logException(@Nonnull String contextDescription, @Nonnull Throwable e)`: Add description.
   - Executes `logException` behavior.
-- `logException(@Nonnull String contextDescription, @Nonnull Throwable e, @Nonnull Logger logger)`
+- `logException(@Nonnull String contextDescription, @Nonnull Throwable e, @Nonnull Logger logger)`: Add description.
   - Executes `logException` behavior.
 
 ## Notes

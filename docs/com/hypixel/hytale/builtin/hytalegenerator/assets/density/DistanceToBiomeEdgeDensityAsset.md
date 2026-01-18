@@ -1,16 +1,16 @@
+**Source Hash:** `1c70a59049254e1cc0f67fca80d8fb9c7a45dbf5bb2c772f6c6725fbd791540b`
+
 # DistanceToBiomeEdgeDensityAsset
 
 ## Overview
-- Documentation for `DistanceToBiomeEdgeDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

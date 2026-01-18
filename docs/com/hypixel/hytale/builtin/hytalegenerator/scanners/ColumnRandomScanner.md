@@ -1,21 +1,21 @@
+**Source Hash:** `2e553dc09d7c52b2ef09e5a4f15a385ed9fc7f58433e7eec914b919d9a302a93`
+
 # ColumnRandomScanner
 
 ## Overview
-- Documentation for `ColumnRandomScanner`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.scanners`.
 
-## Constructors
+## Constructor Descriptions
 - `ColumnRandomScanner(int minY, int maxY, int resultsCap, int seed, @Nonnull Strategy strategy, boolean isRelativeToPosition, @Nullable BiDouble2DoubleFunction bedFunction)`
   - Creates a `ColumnRandomScanner` instance.
 
-## Methods
-- `scan(@Nonnull Scanner.Context context)`
+## Method Descriptions
+- `scan(@Nonnull Scanner.Context context)`: Add description.
   - Executes `scan` behavior.
-- `scanPickValid(@Nonnull Scanner.Context context)`
+- `scanPickValid(@Nonnull Scanner.Context context)`: Add description.
   - Executes `scanPickValid` behavior.
-- `scanDartThrow(@Nonnull Scanner.Context context)`
+- `scanDartThrow(@Nonnull Scanner.Context context)`: Add description.
   - Executes `scanDartThrow` behavior.
-- `scanSpace()`
+- `scanSpace()`: Add description.
   - Executes `scanSpace` behavior.
 
 ## Notes

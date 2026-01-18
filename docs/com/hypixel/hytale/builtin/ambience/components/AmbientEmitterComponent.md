@@ -1,25 +1,25 @@
+**Source Hash:** `aca05ce940dc053ba46ff616c9457d268b4c78b9945d6ff9518173242c41d978`
+
 # AmbientEmitterComponent
 
 ## Overview
-- Documentation for `AmbientEmitterComponent`.
-- Declared as a class in `com.hypixel.hytale.builtin.ambience.components`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbientEmitterComponent()`
   - Creates a `AmbientEmitterComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSoundEventId()`
+- `getSoundEventId()`: Add description.
   - Executes `getSoundEventId` behavior.
-- `setSoundEventId(String soundEventId)`
+- `setSoundEventId(String soundEventId)`: Add description.
   - Executes `setSoundEventId` behavior.
-- `getSpawnedEmitter()`
+- `getSpawnedEmitter()`: Add description.
   - Executes `getSpawnedEmitter` behavior.
-- `setSpawnedEmitter(Ref<EntityStore> spawnedEmitter)`
+- `setSpawnedEmitter(Ref<EntityStore> spawnedEmitter)`: Add description.
   - Executes `setSpawnedEmitter` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

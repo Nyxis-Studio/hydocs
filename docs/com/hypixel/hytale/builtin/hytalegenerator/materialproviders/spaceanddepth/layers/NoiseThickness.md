@@ -1,17 +1,17 @@
+**Source Hash:** `23dcc1589bd6dc145af6b57921e5f0824fafc0d28828a48afcdc548fafd125c9`
+
 # NoiseThickness
 
 ## Overview
-- Documentation for `NoiseThickness`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.spaceanddepth.layers`.
 
-## Constructors
+## Constructor Descriptions
 - `NoiseThickness(@Nonnull Density density, @Nullable MaterialProvider<V> materialProvider)`
   - Creates a `NoiseThickness` instance.
 
-## Methods
-- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceToBiomeEdge)`
+## Method Descriptions
+- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceToBiomeEdge)`: Add description.
   - Executes `getThicknessAt` behavior.
-- `getMaterialProvider()`
+- `getMaterialProvider()`: Add description.
   - Executes `getMaterialProvider` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `9fe336b7f8b6bb6db9c4b4731fa0ffd3197d7f3a32f86a37dc1dfb562020f4c3`
+
 # FeatureProviderEvaluator
 
 ## Overview
-- Documentation for `FeatureProviderEvaluator`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `provides(EnumSet<Feature> var1)`
+## Method Descriptions
+- `provides(EnumSet<Feature> var1)`: Add description.
   - Executes `provides` behavior.
 
 ## Notes

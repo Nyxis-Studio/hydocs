@@ -1,15 +1,15 @@
+**Source Hash:** `90eb5e264ebfec077505437e9a4dcaa891b74d7a2f4b196874ceec5308211285`
+
 # BackupCommand
 
 ## Overview
-- Documentation for `BackupCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `BackupCommand()`
   - Creates a `BackupCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

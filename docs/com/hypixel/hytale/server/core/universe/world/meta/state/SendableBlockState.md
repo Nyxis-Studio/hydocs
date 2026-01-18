@@ -1,18 +1,18 @@
+**Source Hash:** `1f3e4d7f5cf81850f93ee53449a3513ebe2ffbc34898b4566ad0377b6fdf230b`
+
 # SendableBlockState
 
 ## Overview
-- Documentation for `SendableBlockState`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `sendTo(List<Packet> var1)`
+## Method Descriptions
+- `sendTo(List<Packet> var1)`: Add description.
   - Executes `sendTo` behavior.
-- `unloadFrom(List<Packet> var1)`
+- `unloadFrom(List<Packet> var1)`: Add description.
   - Executes `unloadFrom` behavior.
-- `canPlayerSee(PlayerRef player)`
+- `canPlayerSee(PlayerRef player)`: Add description.
   - Executes `canPlayerSee` behavior.
 
 ## Notes

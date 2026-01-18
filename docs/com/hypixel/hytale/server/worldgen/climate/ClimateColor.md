@@ -1,15 +1,15 @@
+**Source Hash:** `a51b939a3404c367b5813b035cf6c7e4c9bcf150bb522bd7475d5c3bf9552d78`
+
 # ClimateColor
 
 ## Overview
-- Documentation for `ClimateColor`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.climate`.
 
-## Constructors
+## Constructor Descriptions
 - `ClimateColor(int land, int shore, int ocean, int shallowOcean)`
   - Creates a `ClimateColor` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,10 +1,10 @@
+**Source Hash:** `e42d3ac72ac641cf800c3aaf93944f6ae866d1ccc0ab2a3cad3bf198bbcb3106`
+
 # PluginManifest
 
 ## Overview
-- Documentation for `PluginManifest`.
-- Declared as a class in `com.hypixel.hytale.common.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `PluginManifest()`
   - Creates a `PluginManifest` instance.
 - `PluginManifest(@Nonnull String group, @Nonnull String name, @Nonnull Semver version, @Nullable String description, @Nonnull List<AuthorInfo> authors, @Nullable String website, @Nullable String main, @Nullable SemverRange serverVersion, @Nonnull Map<PluginIdentifier, SemverRange> dependencies, @Nonnull Map<PluginIdentifier, SemverRange> optionalDependencies, @Nonnull Map<PluginIdentifier, SemverRange> loadBefore, @Nonnull List<PluginManifest> subPlugins, boolean disabledByDefault)`
@@ -12,64 +12,64 @@
 - `PluginManifest(this.group, this.name, this.version, this.description, Collections.emptyList()`
   - Creates a `PluginManifest` instance.
 
-## Methods
-- `getGroup()`
+## Method Descriptions
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getVersion()`
+- `getVersion()`: Add description.
   - Executes `getVersion` behavior.
-- `getDescription()`
+- `getDescription()`: Add description.
   - Executes `getDescription` behavior.
-- `getAuthors()`
+- `getAuthors()`: Add description.
   - Executes `getAuthors` behavior.
-- `getWebsite()`
+- `getWebsite()`: Add description.
   - Executes `getWebsite` behavior.
-- `setGroup(@Nonnull String group)`
+- `setGroup(@Nonnull String group)`: Add description.
   - Executes `setGroup` behavior.
-- `setName(@Nonnull String name)`
+- `setName(@Nonnull String name)`: Add description.
   - Executes `setName` behavior.
-- `setVersion(@Nullable Semver version)`
+- `setVersion(@Nullable Semver version)`: Add description.
   - Executes `setVersion` behavior.
-- `setDescription(@Nullable String description)`
+- `setDescription(@Nullable String description)`: Add description.
   - Executes `setDescription` behavior.
-- `setAuthors(@Nonnull List<AuthorInfo> authors)`
+- `setAuthors(@Nonnull List<AuthorInfo> authors)`: Add description.
   - Executes `setAuthors` behavior.
-- `setWebsite(@Nullable String website)`
+- `setWebsite(@Nullable String website)`: Add description.
   - Executes `setWebsite` behavior.
-- `getMain()`
+- `getMain()`: Add description.
   - Executes `getMain` behavior.
-- `getServerVersion()`
+- `getServerVersion()`: Add description.
   - Executes `getServerVersion` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `injectDependency(PluginIdentifier identifier, SemverRange range)`
+- `injectDependency(PluginIdentifier identifier, SemverRange range)`: Add description.
   - Executes `injectDependency` behavior.
-- `getOptionalDependencies()`
+- `getOptionalDependencies()`: Add description.
   - Executes `getOptionalDependencies` behavior.
-- `getLoadBefore()`
+- `getLoadBefore()`: Add description.
   - Executes `getLoadBefore` behavior.
-- `isDisabledByDefault()`
+- `isDisabledByDefault()`: Add description.
   - Executes `isDisabledByDefault` behavior.
-- `includesAssetPack()`
+- `includesAssetPack()`: Add description.
   - Executes `includesAssetPack` behavior.
-- `getSubPlugins()`
+- `getSubPlugins()`: Add description.
   - Executes `getSubPlugins` behavior.
-- `inherit(@Nonnull PluginManifest manifest)`
+- `inherit(@Nonnull PluginManifest manifest)`: Add description.
   - Executes `inherit` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `corePlugin(@Nonnull Class<?> pluginClass)`
+- `corePlugin(@Nonnull Class<?> pluginClass)`: Add description.
   - Executes `corePlugin` behavior.
-- `description(@Nonnull String description)`
+- `description(@Nonnull String description)`: Add description.
   - Executes `description` behavior.
-- `depends(Class<?> ... dependencies)`
+- `depends(Class<?> ... dependencies)`: Add description.
   - Executes `depends` behavior.
-- `optDepends(Class<?> ... dependencies)`
+- `optDepends(Class<?> ... dependencies)`: Add description.
   - Executes `optDepends` behavior.
-- `loadsBefore(Class<?> ... plugins)`
+- `loadsBefore(Class<?> ... plugins)`: Add description.
   - Executes `loadsBefore` behavior.
-- `build()`
+- `build()`: Add description.
   - Executes `build` behavior.
 
 ## Notes

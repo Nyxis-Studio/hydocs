@@ -1,10 +1,10 @@
+**Source Hash:** `e2d997ef2f0ca66efa505a73ee62b8ccb9deb257cdfb703b83f79015a476fb75`
+
 # TimeDistributionRecorder
 
 ## Overview
-- Documentation for `TimeDistributionRecorder`.
-- Declared as a class in `com.hypixel.hytale.common.benchmark`.
 
-## Constructors
+## Constructor Descriptions
 - `TimeDistributionRecorder(double maxSecs, double minSecs, int logSteps)`
   - Creates a `TimeDistributionRecorder` instance.
 - `TimeDistributionRecorder(double maxSecs, double minSecs)`
@@ -12,28 +12,28 @@
 - `TimeDistributionRecorder()`
   - Creates a `TimeDistributionRecorder` instance.
 
-## Methods
-- `reset()`
+## Method Descriptions
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `recordNanos(long nanos)`
+- `recordNanos(long nanos)`: Add description.
   - Executes `recordNanos` behavior.
-- `timeToIndex(double secs)`
+- `timeToIndex(double secs)`: Add description.
   - Executes `timeToIndex` behavior.
-- `indexToTime(int index)`
+- `indexToTime(int index)`: Add description.
   - Executes `indexToTime` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `formatHeader(@Nonnull Formatter formatter, @Nonnull String columnFormatHeader)`
+- `formatHeader(@Nonnull Formatter formatter, @Nonnull String columnFormatHeader)`: Add description.
   - Executes `formatHeader` behavior.
-- `formatValues(@Nonnull Formatter formatter, @Nonnull String columnFormatValue)`
+- `formatValues(@Nonnull Formatter formatter, @Nonnull String columnFormatValue)`: Add description.
   - Executes `formatValues` behavior.
-- `formatValues(@Nonnull Formatter formatter, long normalValue)`
+- `formatValues(@Nonnull Formatter formatter, long normalValue)`: Add description.
   - Executes `formatValues` behavior.
-- `formatValues(@Nonnull Formatter formatter, long normalValue, @Nonnull String columnFormatValue)`
+- `formatValues(@Nonnull Formatter formatter, long normalValue, @Nonnull String columnFormatValue)`: Add description.
   - Executes `formatValues` behavior.
 
 ## Notes

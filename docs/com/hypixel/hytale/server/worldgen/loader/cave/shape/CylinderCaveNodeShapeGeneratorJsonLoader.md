@@ -1,21 +1,21 @@
+**Source Hash:** `243b5fd6466813234a1a57eefa77da24fe29523d4e9b177161348a3db8b2b3c0`
+
 # CylinderCaveNodeShapeGeneratorJsonLoader
 
 ## Overview
-- Documentation for `CylinderCaveNodeShapeGeneratorJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `CylinderCaveNodeShapeGeneratorJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json)`
   - Creates a `CylinderCaveNodeShapeGeneratorJsonLoader` instance.
 
-## Methods
-- `loadRadius()`
+## Method Descriptions
+- `loadRadius()`: Add description.
   - Executes `loadRadius` behavior.
-- `loadMiddleRadius()`
+- `loadMiddleRadius()`: Add description.
   - Executes `loadMiddleRadius` behavior.
-- `loadLength()`
+- `loadLength()`: Add description.
   - Executes `loadLength` behavior.
-- `loadInheritParentRadius()`
+- `loadInheritParentRadius()`: Add description.
   - Executes `loadInheritParentRadius` behavior.
 
 ## Notes

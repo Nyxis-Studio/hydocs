@@ -1,15 +1,15 @@
+**Source Hash:** `3ef80e6df730ddd218cb0c9739ef43206071eb25ad3bef2a493b41344f5b1829`
+
 # VersionCommand
 
 ## Overview
-- Documentation for `VersionCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `VersionCommand()`
   - Creates a `VersionCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

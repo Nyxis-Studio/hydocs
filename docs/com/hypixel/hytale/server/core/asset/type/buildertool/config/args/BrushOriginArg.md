@@ -1,25 +1,25 @@
+**Source Hash:** `e6d2af9d21aa87b96fa198b871b9d138d44d409a40811400bd84499b1e2c3d23`
+
 # BrushOriginArg
 
 ## Overview
-- Documentation for `BrushOriginArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushOriginArg()`
   - Creates a `BrushOriginArg` instance.
 - `BrushOriginArg(BrushOrigin value)`
   - Creates a `BrushOriginArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toBrushOriginArgPacket()`
+- `toBrushOriginArgPacket()`: Add description.
   - Executes `toBrushOriginArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

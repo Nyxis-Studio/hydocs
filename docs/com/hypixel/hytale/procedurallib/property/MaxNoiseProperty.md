@@ -1,21 +1,21 @@
+**Source Hash:** `a68a7e7f4828248f0b2f0cbb1065f9b5fe4a20e52eac4ba32f297b039b942a6b`
+
 # MaxNoiseProperty
 
 ## Overview
-- Documentation for `MaxNoiseProperty`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.property`.
 
-## Constructors
+## Constructor Descriptions
 - `MaxNoiseProperty(NoiseProperty[] noiseProperties)`
   - Creates a `MaxNoiseProperty` instance.
 
-## Methods
-- `getNoiseProperties()`
+## Method Descriptions
+- `getNoiseProperties()`: Add description.
   - Executes `getNoiseProperties` behavior.
-- `get(int seed, double x, double y)`
+- `get(int seed, double x, double y)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, double x, double y, double z)`
+- `get(int seed, double x, double y, double z)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

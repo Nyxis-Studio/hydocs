@@ -1,30 +1,30 @@
+**Source Hash:** `3142028f3e5511d7ee44c7aad0990a770680d5c53cd594e2c62a52c8bd18c94d`
+
 # ChunkSpawnData
 
 ## Overview
-- Documentation for `ChunkSpawnData`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.component`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getChunkEnvironmentSpawnDataMap()`
+- `getChunkEnvironmentSpawnDataMap()`: Add description.
   - Executes `getChunkEnvironmentSpawnDataMap` behavior.
-- `isStarted()`
+- `isStarted()`: Add description.
   - Executes `isStarted` behavior.
-- `setStarted(boolean started)`
+- `setStarted(boolean started)`: Add description.
   - Executes `setStarted` behavior.
-- `setLastSpawn(long lastSpawn)`
+- `setLastSpawn(long lastSpawn)`: Add description.
   - Executes `setLastSpawn` behavior.
-- `getLastSpawn()`
+- `getLastSpawn()`: Add description.
   - Executes `getLastSpawn` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getEnvironmentSpawnData(int environment)`
+- `getEnvironmentSpawnData(int environment)`: Add description.
   - Executes `getEnvironmentSpawnData` behavior.
-- `isOnSpawnCooldown()`
+- `isOnSpawnCooldown()`: Add description.
   - Executes `isOnSpawnCooldown` behavior.
 
 ## Notes

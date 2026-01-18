@@ -1,14 +1,14 @@
+**Source Hash:** `a72d4246a3c3781da033cb0f219ad932d416bdbd6acfad9a0cfe1220f293b8b3`
+
 # IWorldMapProvider
 
 ## Overview
-- Documentation for `IWorldMapProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.worldmap.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getGenerator(World var1)`
+## Method Descriptions
+- `getGenerator(World var1)`: Add description.
   - Executes `getGenerator` behavior.
 
 ## Notes

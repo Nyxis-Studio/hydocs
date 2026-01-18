@@ -1,14 +1,14 @@
+**Source Hash:** `2cb69ca583e0cba729cd5fc0642583591b7c4b4236b3b195364159fd75c897c4`
+
 # ClientDelegatingProvider
 
 ## Overview
-- Documentation for `ClientDelegatingProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDisconnectReason(UUID uuid)`
+## Method Descriptions
+- `getDisconnectReason(UUID uuid)`: Add description.
   - Executes `getDisconnectReason` behavior.
 
 ## Notes

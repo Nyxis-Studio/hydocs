@@ -1,19 +1,19 @@
+**Source Hash:** `108c84c83e709afc4a61b10b441e6dfda3b39f87354ddf0aaf4088e36acc75e2`
+
 # ConnectedBlocksModule
 
 ## Overview
-- Documentation for `ConnectedBlocksModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
+## Constructor Descriptions
 - `ConnectedBlocksModule(@Nonnull JavaPluginInit init)`
   - Creates a `ConnectedBlocksModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `onBlockTypesChanged(@Nonnull LoadedAssetsEvent<String, BlockType, BlockTypeAssetMap<String, BlockType>> event)`
+- `onBlockTypesChanged(@Nonnull LoadedAssetsEvent<String, BlockType, BlockTypeAssetMap<String, BlockType>> event)`: Add description.
   - Executes `onBlockTypesChanged` behavior.
 
 ## Notes

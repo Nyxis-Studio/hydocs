@@ -1,15 +1,15 @@
+**Source Hash:** `cd159e41a75ff35072fcea8ab6eac8935c1cdb31f63cc1b94c2be009ea8276d2`
+
 # EntityRegistry
 
 ## Overview
-- Documentation for `EntityRegistry`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityRegistry(@Nonnull List<BooleanConsumer> registrations, BooleanSupplier precondition, String preconditionMessage)`
   - Creates a `EntityRegistry` instance.
 
-## Methods
-- `registerEntity(@Nonnull String key, @Nonnull Class<T> clazz, Function<World, T> constructor, DirectDecodeCodec<T> codec)`
+## Method Descriptions
+- `registerEntity(@Nonnull String key, @Nonnull Class<T> clazz, Function<World, T> constructor, DirectDecodeCodec<T> codec)`: Add description.
   - Executes `registerEntity` behavior.
 
 ## Notes

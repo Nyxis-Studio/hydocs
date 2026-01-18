@@ -1,14 +1,14 @@
+**Source Hash:** `f959828f19dbe51c53dfb760a0bd6998fcb900eb266fec984f1e9e2b8d91c140`
+
 # SpawnTestResult
 
 ## Overview
-- Documentation for `SpawnTestResult`.
-- Declared as a enum in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

@@ -1,19 +1,19 @@
+**Source Hash:** `0a759f2b4a5417ab05ff96dfd4bd33929819e30f52350088f7ec8e38e31a07a2`
+
 # RefreshInterval
 
 ## Overview
-- Documentation for `RefreshInterval`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `RefreshInterval(int days)`
   - Creates a `RefreshInterval` instance.
 - `RefreshInterval()`
   - Creates a `RefreshInterval` instance.
 
-## Methods
-- `getDays()`
+## Method Descriptions
+- `getDays()`: Add description.
   - Executes `getDays` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

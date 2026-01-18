@@ -1,17 +1,17 @@
+**Source Hash:** `72e22fcd19c78c042766cdcbed5f24ec348c0cc532d48515722d5a96b66d0536`
+
 # AndPattern
 
 ## Overview
-- Documentation for `AndPattern`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.patterns`.
 
-## Constructors
+## Constructor Descriptions
 - `AndPattern(@Nonnull List<Pattern> patterns)`
   - Creates a `AndPattern` instance.
 
-## Methods
-- `matches(@Nonnull Pattern.Context context)`
+## Method Descriptions
+- `matches(@Nonnull Pattern.Context context)`: Add description.
   - Executes `matches` behavior.
-- `readSpace()`
+- `readSpace()`: Add description.
   - Executes `readSpace` behavior.
 
 ## Notes

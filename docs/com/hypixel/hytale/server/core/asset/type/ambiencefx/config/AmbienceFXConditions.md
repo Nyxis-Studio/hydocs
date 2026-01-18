@@ -1,53 +1,53 @@
+**Source Hash:** `302fd20c7e5229e4a2cbd950656b5bd4013bdb51a0e0043f797ffded5f035666`
+
 # AmbienceFXConditions
 
 ## Overview
-- Documentation for `AmbienceFXConditions`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.ambiencefx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXConditions()`
   - Creates a `AmbienceFXConditions` instance.
 
-## Methods
-- `isNever()`
+## Method Descriptions
+- `isNever()`: Add description.
   - Executes `isNever` behavior.
-- `getEnvironmentIds()`
+- `getEnvironmentIds()`: Add description.
   - Executes `getEnvironmentIds` behavior.
-- `getEnvironmentIndices()`
+- `getEnvironmentIndices()`: Add description.
   - Executes `getEnvironmentIndices` behavior.
-- `getWeatherIds()`
+- `getWeatherIds()`: Add description.
   - Executes `getWeatherIds` behavior.
-- `getWeatherIndices()`
+- `getWeatherIndices()`: Add description.
   - Executes `getWeatherIndices` behavior.
-- `getFluidFXIds()`
+- `getFluidFXIds()`: Add description.
   - Executes `getFluidFXIds` behavior.
-- `getFluidFXIndices()`
+- `getFluidFXIndices()`: Add description.
   - Executes `getFluidFXIndices` behavior.
-- `getSurroundingBlockSoundSets()`
+- `getSurroundingBlockSoundSets()`: Add description.
   - Executes `getSurroundingBlockSoundSets` behavior.
-- `getAltitude()`
+- `getAltitude()`: Add description.
   - Executes `getAltitude` behavior.
-- `getWalls()`
+- `getWalls()`: Add description.
   - Executes `getWalls` behavior.
-- `getRoof()`
+- `getRoof()`: Add description.
   - Executes `getRoof` behavior.
-- `getFloor()`
+- `getFloor()`: Add description.
   - Executes `getFloor` behavior.
-- `getSunLightLevel()`
+- `getSunLightLevel()`: Add description.
   - Executes `getSunLightLevel` behavior.
-- `getTorchLightLevel()`
+- `getTorchLightLevel()`: Add description.
   - Executes `getTorchLightLevel` behavior.
-- `getGlobalLightLevel()`
+- `getGlobalLightLevel()`: Add description.
   - Executes `getGlobalLightLevel` behavior.
-- `getDayTime()`
+- `getDayTime()`: Add description.
   - Executes `getDayTime` behavior.
-- `isRoof()`
+- `isRoof()`: Add description.
   - Executes `isRoof` behavior.
-- `isFloor()`
+- `isFloor()`: Add description.
   - Executes `isFloor` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

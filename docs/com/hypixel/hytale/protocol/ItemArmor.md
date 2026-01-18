@@ -1,10 +1,10 @@
+**Source Hash:** `28bedadb5638cdac8c036bed735c3a7bea92649e3f5d0dcb549dfbfd85962ae4`
+
 # ItemArmor
 
 ## Overview
-- Documentation for `ItemArmor`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemArmor()`
   - Creates a `ItemArmor` instance.
 - `ItemArmor(@Nonnull ItemArmorSlot armorSlot, @Nullable Cosmetic[] cosmeticsToHide, @Nullable Map<Integer, Modifier[]> statModifiers, double baseDamageResistance, @Nullable Map<String, Modifier[]> damageResistance, @Nullable Map<String, Modifier[]> damageEnhancement, @Nullable Map<String, Modifier[]> damageClassEnhancement)`
@@ -12,22 +12,22 @@
 - `ItemArmor(@Nonnull ItemArmor other)`
   - Creates a `ItemArmor` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

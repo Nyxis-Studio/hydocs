@@ -1,15 +1,15 @@
+**Source Hash:** `8967b9f3cee0dc3d6deb26ff19b3e046fbf6be9e81691b1afcafdc98b3dd55a5`
+
 # ChunkMarkSaveCommand
 
 ## Overview
-- Documentation for `ChunkMarkSaveCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkMarkSaveCommand()`
   - Creates a `ChunkMarkSaveCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

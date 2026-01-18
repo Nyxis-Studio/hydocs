@@ -1,15 +1,15 @@
+**Source Hash:** `45432da4a737a0773991f7bb626aa45121f6d0ccdb51f27d424f0527d079b1c7`
+
 # KickCommand
 
 ## Overview
-- Documentation for `KickCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server`.
 
-## Constructors
+## Constructor Descriptions
 - `KickCommand()`
   - Creates a `KickCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

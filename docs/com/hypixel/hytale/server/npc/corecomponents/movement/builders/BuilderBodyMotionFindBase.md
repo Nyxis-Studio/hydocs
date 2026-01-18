@@ -1,61 +1,61 @@
+**Source Hash:** `7f19d8034fb633f4b0eaacf332e9313ac3d9ccdba51f4bb15193f55ce479f5e2`
+
 # BuilderBodyMotionFindBase
 
 ## Overview
-- Documentation for `BuilderBodyMotionFindBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderBodyMotionFindBase()`
   - Creates a `BuilderBodyMotionFindBase` instance.
 - `BuilderBodyMotionFindBase(boolean enableSteering)`
   - Creates a `BuilderBodyMotionFindBase` instance.
 
-## Methods
-- `readConfig(@Nonnull JsonElement data)`
+## Method Descriptions
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getNodesPerTick(@Nonnull BuilderSupport support)`
+- `getNodesPerTick(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getNodesPerTick` behavior.
-- `getMaxPathLength(@Nonnull BuilderSupport support)`
+- `getMaxPathLength(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMaxPathLength` behavior.
-- `getMaxOpenNodes(@Nonnull BuilderSupport support)`
+- `getMaxOpenNodes(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMaxOpenNodes` behavior.
-- `getMaxTotalNodes(@Nonnull BuilderSupport support)`
+- `getMaxTotalNodes(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMaxTotalNodes` behavior.
-- `isDiagonalMoves(@Nonnull BuilderSupport support)`
+- `isDiagonalMoves(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isDiagonalMoves` behavior.
-- `getUseBestPath(@Nonnull BuilderSupport support)`
+- `getUseBestPath(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getUseBestPath` behavior.
-- `isBuildOptimisedPath(@Nonnull BuilderSupport support)`
+- `isBuildOptimisedPath(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isBuildOptimisedPath` behavior.
-- `getPathSmoothing(@Nonnull BuilderSupport support)`
+- `getPathSmoothing(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getPathSmoothing` behavior.
-- `getRelativeSpeed(@Nonnull BuilderSupport support)`
+- `getRelativeSpeed(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeSpeed` behavior.
-- `getRelativeSpeedWaypoint(@Nonnull BuilderSupport support)`
+- `getRelativeSpeedWaypoint(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRelativeSpeedWaypoint` behavior.
-- `getWaypointRadius(@Nonnull BuilderSupport support)`
+- `getWaypointRadius(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getWaypointRadius` behavior.
-- `getRejectionWeight(@Nonnull BuilderSupport support)`
+- `getRejectionWeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRejectionWeight` behavior.
-- `getBlendHeading(@Nonnull BuilderSupport support)`
+- `getBlendHeading(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBlendHeading` behavior.
-- `isAvoidingBlockDamage(@Nonnull BuilderSupport support)`
+- `isAvoidingBlockDamage(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isAvoidingBlockDamage` behavior.
-- `isRelaxedMoveConstraints(@Nonnull BuilderSupport support)`
+- `isRelaxedMoveConstraints(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isRelaxedMoveConstraints` behavior.
-- `getThrottleDelayRange(@Nonnull BuilderSupport support)`
+- `getThrottleDelayRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getThrottleDelayRange` behavior.
-- `getThrottleIgnoreCount(@Nonnull BuilderSupport support)`
+- `getThrottleIgnoreCount(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getThrottleIgnoreCount` behavior.
-- `isUseSteering(@Nonnull BuilderSupport support)`
+- `isUseSteering(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isUseSteering` behavior.
-- `isUsePathfinder(@Nonnull BuilderSupport support)`
+- `isUsePathfinder(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isUsePathfinder` behavior.
-- `isSkipSteering(@Nonnull BuilderSupport support)`
+- `isSkipSteering(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isSkipSteering` behavior.
-- `getMinPathLength(@Nonnull BuilderSupport support)`
+- `getMinPathLength(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinPathLength` behavior.
-- `getDesiredAltitudeWeight(@Nonnull BuilderSupport support)`
+- `getDesiredAltitudeWeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
 
 ## Notes

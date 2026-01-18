@@ -1,10 +1,10 @@
+**Source Hash:** `9e805ea7d8509a6672477ff2d90de0d9cad5d25256eae9c31937acd0e8a0b66a`
+
 # ActiveAnimationComponent
 
 ## Overview
-- Documentation for `ActiveAnimationComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `ActiveAnimationComponent()`
   - Creates a `ActiveAnimationComponent` instance.
 - `ActiveAnimationComponent(String[] activeAnimations)`
@@ -12,16 +12,16 @@
 - `ActiveAnimationComponent(this.activeAnimations)`
   - Creates a `ActiveAnimationComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getActiveAnimations()`
+- `getActiveAnimations()`: Add description.
   - Executes `getActiveAnimations` behavior.
-- `setPlayingAnimation(AnimationSlot slot, @Nullable String animation)`
+- `setPlayingAnimation(AnimationSlot slot, @Nullable String animation)`: Add description.
   - Executes `setPlayingAnimation` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `c84a79aaa80d28b24b91c541d23d81f19064a6547c48044d3a70a39dc7b77dff`
+
 # UndoCommand
 
 ## Overview
-- Documentation for `UndoCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `UndoCommand()`
   - Creates a `UndoCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `executeUndo(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, int count)`
+- `executeUndo(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, int count)`: Add description.
   - Executes `executeUndo` behavior.
 
 ## Notes

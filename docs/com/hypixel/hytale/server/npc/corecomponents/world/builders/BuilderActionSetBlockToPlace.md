@@ -1,24 +1,24 @@
+**Source Hash:** `1522c71815d83d7822c761a780063262c3a468066e2f594203a1f2d5023f66dd`
+
 # BuilderActionSetBlockToPlace
 
 ## Overview
-- Documentation for `BuilderActionSetBlockToPlace`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBlockType(@Nonnull BuilderSupport support)`
+- `getBlockType(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBlockType` behavior.
 
 ## Notes

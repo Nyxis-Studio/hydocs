@@ -1,15 +1,15 @@
+**Source Hash:** `e8948b85ad56132f21c46277c3adbe08eee88ce486ac1761d743d69c80927cd2`
+
 # GrassTopMaterialProvider
 
 ## Overview
-- Documentation for `GrassTopMaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `GrassTopMaterialProvider(@Nonnull SolidMaterial grass, @Nonnull SolidMaterial dirt, @Nonnull SolidMaterial stone, @Nonnull SolidMaterial empty)`
   - Creates a `GrassTopMaterialProvider` instance.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
 
 ## Notes

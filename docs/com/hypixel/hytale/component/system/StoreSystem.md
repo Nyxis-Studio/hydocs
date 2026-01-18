@@ -1,16 +1,16 @@
+**Source Hash:** `47b9908d5f16a1ff7e1140f3a5260fc00347faa23187ea0280e503679a507360`
+
 # StoreSystem
 
 ## Overview
-- Documentation for `StoreSystem`.
-- Declared as a class in `com.hypixel.hytale.component.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onSystemAddedToStore(@Nonnull Store<ECS_TYPE> var1)`
+## Method Descriptions
+- `onSystemAddedToStore(@Nonnull Store<ECS_TYPE> var1)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<ECS_TYPE> var1)`
+- `onSystemRemovedFromStore(@Nonnull Store<ECS_TYPE> var1)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
 
 ## Notes

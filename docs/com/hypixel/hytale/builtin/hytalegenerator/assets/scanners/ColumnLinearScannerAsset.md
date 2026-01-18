@@ -1,14 +1,14 @@
+**Source Hash:** `083ef95841fa7e275f370fea341fc01385352df4b80e19422b40927f6fed5785`
+
 # ColumnLinearScannerAsset
 
 ## Overview
-- Documentation for `ColumnLinearScannerAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.scanners`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull ScannerAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull ScannerAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

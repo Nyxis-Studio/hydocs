@@ -1,10 +1,10 @@
+**Source Hash:** `fb8173e8dde3b83c7e8041c90830937af8d66208b7aab21bd789e11f2154da74`
+
 # UUIDComponent
 
 ## Overview
-- Documentation for `UUIDComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `UUIDComponent(@Nonnull UUID uuid)`
   - Creates a `UUIDComponent` instance.
 - `UUIDComponent()`
@@ -14,16 +14,16 @@
 - `UUIDComponent(UUID.randomUUID()`
   - Creates a `UUIDComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `generateVersion3UUID()`
+- `generateVersion3UUID()`: Add description.
   - Executes `generateVersion3UUID` behavior.
-- `randomUUID()`
+- `randomUUID()`: Add description.
   - Executes `randomUUID` behavior.
 
 ## Notes

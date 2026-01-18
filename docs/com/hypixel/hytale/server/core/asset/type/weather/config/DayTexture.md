@@ -1,21 +1,21 @@
+**Source Hash:** `06f2fccfd36e0c5afcc95880546e48c42f46309226b0e1259da92726a744f311`
+
 # DayTexture
 
 ## Overview
-- Documentation for `DayTexture`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.weather.config`.
 
-## Constructors
+## Constructor Descriptions
 - `DayTexture(int day, String texture)`
   - Creates a `DayTexture` instance.
 - `DayTexture()`
   - Creates a `DayTexture` instance.
 
-## Methods
-- `getDay()`
+## Method Descriptions
+- `getDay()`: Add description.
   - Executes `getDay` behavior.
-- `getTexture()`
+- `getTexture()`: Add description.
   - Executes `getTexture` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

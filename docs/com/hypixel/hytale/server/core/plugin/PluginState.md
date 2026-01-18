@@ -1,14 +1,14 @@
+**Source Hash:** `36fc25b394ff9ce2382fdf792454111490ba2a7655ebe0f809de476815c90892`
+
 # PluginState
 
 ## Overview
-- Documentation for `PluginState`.
-- Declared as a enum in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

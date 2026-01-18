@@ -1,25 +1,25 @@
+**Source Hash:** `c05b59e12df9431397124d7024a51584611111003f8e92e7a2903d650d617989`
+
 # VelocityConfig
 
 ## Overview
-- Documentation for `VelocityConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.splitvelocity`.
 
-## Constructors
+## Constructor Descriptions
 - `VelocityConfig(this.groundResistance, this.groundResistanceMax, this.airResistance, this.airResistanceMax, this.threshold, this.style)`
   - Creates a `VelocityConfig` instance.
 
-## Methods
-- `getGroundResistance()`
+## Method Descriptions
+- `getGroundResistance()`: Add description.
   - Executes `getGroundResistance` behavior.
-- `getAirResistance()`
+- `getAirResistance()`: Add description.
   - Executes `getAirResistance` behavior.
-- `getGroundResistanceMax()`
+- `getGroundResistanceMax()`: Add description.
   - Executes `getGroundResistanceMax` behavior.
-- `getAirResistanceMax()`
+- `getAirResistanceMax()`: Add description.
   - Executes `getAirResistanceMax` behavior.
-- `getThreshold()`
+- `getThreshold()`: Add description.
   - Executes `getThreshold` behavior.
-- `getStyle()`
+- `getStyle()`: Add description.
   - Executes `getStyle` behavior.
 
 ## Notes

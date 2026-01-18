@@ -1,10 +1,10 @@
+**Source Hash:** `aba3babc1043fb0f3ff24260941a37e1255cd0034a78e2c5352b0e826dabfbad`
+
 # SprintStaminaRegenDelay
 
 ## Overview
-- Documentation for `SprintStaminaRegenDelay`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.stamina`.
 
-## Constructors
+## Constructor Descriptions
 - `SprintStaminaRegenDelay()`
   - Creates a `SprintStaminaRegenDelay` instance.
 - `SprintStaminaRegenDelay(@Nonnull SprintStaminaRegenDelay other)`
@@ -12,26 +12,26 @@
 - `SprintStaminaRegenDelay(this)`
   - Creates a `SprintStaminaRegenDelay` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getValue()`
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `validate()`
+- `validate()`: Add description.
   - Executes `validate` behavior.
-- `hasDelay()`
+- `hasDelay()`: Add description.
   - Executes `hasDelay` behavior.
-- `markEmpty()`
+- `markEmpty()`: Add description.
   - Executes `markEmpty` behavior.
-- `update(int statIndex, float statValue)`
+- `update(int statIndex, float statValue)`: Add description.
   - Executes `update` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `invalidateResources()`
+- `invalidateResources()`: Add description.
   - Executes `invalidateResources` behavior.
 
 ## Notes

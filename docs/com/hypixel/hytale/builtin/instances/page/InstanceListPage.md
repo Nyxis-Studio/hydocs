@@ -1,27 +1,27 @@
+**Source Hash:** `c752885587c0d0f820060be2fdf811acc12e1d4364865f786a02ab677d405946`
+
 # InstanceListPage
 
 ## Overview
-- Documentation for `InstanceListPage`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.page`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceListPage(@Nonnull PlayerRef playerRef)`
   - Creates a `InstanceListPage` instance.
 
-## Methods
-- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `build` behavior.
-- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull PageData data)`
+- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull PageData data)`: Add description.
   - Executes `handleDataEvent` behavior.
-- `load(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+- `load(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `load` behavior.
-- `spawn(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+- `spawn(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `spawn` behavior.
-- `updateSelection(String instance)`
+- `updateSelection(String instance)`: Add description.
   - Executes `updateSelection` behavior.
-- `getInstance()`
+- `getInstance()`: Add description.
   - Executes `getInstance` behavior.
-- `getAction()`
+- `getAction()`: Add description.
   - Executes `getAction` behavior.
 
 ## Notes

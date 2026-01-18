@@ -1,18 +1,18 @@
+**Source Hash:** `c10dbee47f87e52a84ae230ffb51e8893e4f4b32f4c66dffbf277cd75fc2ef44`
+
 # TerrainDensityMaterialProviderAsset
 
 ## Overview
-- Documentation for `TerrainDensityMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

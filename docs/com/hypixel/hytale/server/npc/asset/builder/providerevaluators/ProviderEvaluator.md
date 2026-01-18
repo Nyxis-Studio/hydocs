@@ -1,14 +1,14 @@
+**Source Hash:** `a92255d7fda6914444b77baeefb417fbf7653613f12bac86501a1290b2954b37`
+
 # ProviderEvaluator
 
 ## Overview
-- Documentation for `ProviderEvaluator`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `resolveReferences(BuilderManager var1)`
+## Method Descriptions
+- `resolveReferences(BuilderManager var1)`: Add description.
   - Executes `resolveReferences` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `52f3f594276b63beda135432a103dfa0d20fe94932986744434b6c27732f3772`
+
 # WorldSpawnWrapper
 
 ## Overview
-- Documentation for `WorldSpawnWrapper`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.manager`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSpawnWrapper(@Nonnull WorldNPCSpawn spawn)`
   - Creates a `WorldSpawnWrapper` instance.
 
-## Methods
-- `getMoonPhaseWeightModifier(int moonPhase)`
+## Method Descriptions
+- `getMoonPhaseWeightModifier(int moonPhase)`: Add description.
   - Executes `getMoonPhaseWeightModifier` behavior.
 
 ## Notes

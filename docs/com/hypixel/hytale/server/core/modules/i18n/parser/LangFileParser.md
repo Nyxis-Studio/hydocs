@@ -1,18 +1,18 @@
+**Source Hash:** `aa44c0a18de84472bb268884fdc8de7fe1ae6b91cf703b2ddefa24894a82b250`
+
 # LangFileParser
 
 ## Overview
-- Documentation for `LangFileParser`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.parser`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `literal(@Nonnull String value)`
+## Method Descriptions
+- `literal(@Nonnull String value)`: Add description.
   - Executes `literal` behavior.
-- `escape(@Nonnull StringBuilder builder)`
+- `escape(@Nonnull StringBuilder builder)`: Add description.
   - Executes `escape` behavior.
-- `parse(@Nonnull BufferedReader reader)`
+- `parse(@Nonnull BufferedReader reader)`: Add description.
   - Executes `parse` behavior.
 
 ## Notes

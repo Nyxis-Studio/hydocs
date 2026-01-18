@@ -1,30 +1,30 @@
+**Source Hash:** `7b380122d254906bbf42a476754b78d26c3efd692960c407a098977ff45ae84b`
+
 # BuilderSensorCount
 
 ## Overview
-- Documentation for `BuilderSensorCount`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getCount(@Nonnull BuilderSupport builderSupport)`
+- `getCount(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getCount` behavior.
-- `getRange(@Nonnull BuilderSupport builderSupport)`
+- `getRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRange` behavior.
-- `getIncludeGroups()`
+- `getIncludeGroups()`: Add description.
   - Executes `getIncludeGroups` behavior.
-- `getExcludeGroups()`
+- `getExcludeGroups()`: Add description.
   - Executes `getExcludeGroups` behavior.
 
 ## Notes

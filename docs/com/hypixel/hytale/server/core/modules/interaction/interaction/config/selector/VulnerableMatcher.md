@@ -1,16 +1,16 @@
+**Source Hash:** `bad3f80f9a94e12074fb61297b8d62b4c97905c264ceceb5dfde2a3f2f947c19`
+
 # VulnerableMatcher
 
 ## Overview
-- Documentation for `VulnerableMatcher`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.selector`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test0(Ref<EntityStore> attacker, @Nonnull Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `test0(Ref<EntityStore> attacker, @Nonnull Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `test0` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `069d513eba795a64277b728e8ea054584e9274f6de33097d590808b5100ff5bd`
+
 # BlockChunk
 
 ## Overview
-- Documentation for `BlockChunk`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockChunk()`
   - Creates a `BlockChunk` instance.
 - `BlockChunk(int x, int z)`
@@ -14,130 +14,130 @@
 - `BlockChunk(ShortBytePalette height, IntBytePalette tint, EnvironmentChunk environments, BlockSection[] chunkSections)`
   - Creates a `BlockChunk` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `load(int x, int z)`
+- `load(int x, int z)`: Add description.
   - Executes `load` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `cloneSerializable()`
+- `cloneSerializable()`: Add description.
   - Executes `cloneSerializable` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getEnvironmentChunk()`
+- `getEnvironmentChunk()`: Add description.
   - Executes `getEnvironmentChunk` behavior.
-- `setEnvironmentChunk(EnvironmentChunk environmentChunk)`
+- `setEnvironmentChunk(EnvironmentChunk environmentChunk)`: Add description.
   - Executes `setEnvironmentChunk` behavior.
-- `getHeight(int x, int z)`
+- `getHeight(int x, int z)`: Add description.
   - Executes `getHeight` behavior.
-- `getHeight(int index)`
+- `getHeight(int index)`: Add description.
   - Executes `getHeight` behavior.
-- `setHeight(int x, int z, short height)`
+- `setHeight(int x, int z, short height)`: Add description.
   - Executes `setHeight` behavior.
-- `updateHeightmap()`
+- `updateHeightmap()`: Add description.
   - Executes `updateHeightmap` behavior.
-- `updateHeight(int x, int z)`
+- `updateHeight(int x, int z)`: Add description.
   - Executes `updateHeight` behavior.
-- `updateHeight(int x, int z, short startY)`
+- `updateHeight(int x, int z, short startY)`: Add description.
   - Executes `updateHeight` behavior.
-- `loadFromHolder(@Nonnull Holder<ChunkStore> holder)`
+- `loadFromHolder(@Nonnull Holder<ChunkStore> holder)`: Add description.
   - Executes `loadFromHolder` behavior.
-- `getSectionAtIndex(int index)`
+- `getSectionAtIndex(int index)`: Add description.
   - Executes `getSectionAtIndex` behavior.
-- `getSectionAtBlockY(int y)`
+- `getSectionAtBlockY(int y)`: Add description.
   - Executes `getSectionAtBlockY` behavior.
-- `getChunkSections()`
+- `getChunkSections()`: Add description.
   - Executes `getChunkSections` behavior.
-- `getSectionCount()`
+- `getSectionCount()`: Add description.
   - Executes `getSectionCount` behavior.
-- `getTint(int x, int z)`
+- `getTint(int x, int z)`: Add description.
   - Executes `getTint` behavior.
-- `setTint(int x, int z, int tint)`
+- `setTint(int x, int z, int tint)`: Add description.
   - Executes `setTint` behavior.
-- `getEnvironment(@Nonnull Vector3d position)`
+- `getEnvironment(@Nonnull Vector3d position)`: Add description.
   - Executes `getEnvironment` behavior.
-- `getEnvironment(@Nonnull Vector3i position)`
+- `getEnvironment(@Nonnull Vector3i position)`: Add description.
   - Executes `getEnvironment` behavior.
-- `getEnvironment(int x, int y, int z)`
+- `getEnvironment(int x, int y, int z)`: Add description.
   - Executes `getEnvironment` behavior.
-- `getEnvironmentColumn(int x, int z)`
+- `getEnvironmentColumn(int x, int z)`: Add description.
   - Executes `getEnvironmentColumn` behavior.
-- `setEnvironment(int x, int y, int z, int environment)`
+- `setEnvironment(int x, int y, int z, int environment)`: Add description.
   - Executes `setEnvironment` behavior.
-- `getRedBlockLight(int x, int y, int z)`
+- `getRedBlockLight(int x, int y, int z)`: Add description.
   - Executes `getRedBlockLight` behavior.
-- `getGreenBlockLight(int x, int y, int z)`
+- `getGreenBlockLight(int x, int y, int z)`: Add description.
   - Executes `getGreenBlockLight` behavior.
-- `getBlueBlockLight(int x, int y, int z)`
+- `getBlueBlockLight(int x, int y, int z)`: Add description.
   - Executes `getBlueBlockLight` behavior.
-- `getBlockLight(int x, int y, int z)`
+- `getBlockLight(int x, int y, int z)`: Add description.
   - Executes `getBlockLight` behavior.
-- `getSkyLight(int x, int y, int z)`
+- `getSkyLight(int x, int y, int z)`: Add description.
   - Executes `getSkyLight` behavior.
-- `getBlockLightIntensity(int x, int y, int z)`
+- `getBlockLightIntensity(int x, int y, int z)`: Add description.
   - Executes `getBlockLightIntensity` behavior.
-- `getBlock(int x, int y, int z)`
+- `getBlock(int x, int y, int z)`: Add description.
   - Executes `getBlock` behavior.
-- `setBlock(int x, int y, int z, int blockId, int rotation, int filler)`
+- `setBlock(int x, int y, int z, int blockId, int rotation, int filler)`: Add description.
   - Executes `setBlock` behavior.
-- `contains(int blockId)`
+- `contains(int blockId)`: Add description.
   - Executes `contains` behavior.
-- `count(int blockId)`
+- `count(int blockId)`: Add description.
   - Executes `count` behavior.
-- `blockCounts()`
+- `blockCounts()`: Add description.
   - Executes `blockCounts` behavior.
-- `blocks()`
+- `blocks()`: Add description.
   - Executes `blocks` behavior.
-- `blockCount()`
+- `blockCount()`: Add description.
   - Executes `blockCount` behavior.
-- `preTick(Instant gameTime)`
+- `preTick(Instant gameTime)`: Add description.
   - Executes `preTick` behavior.
-- `forEachTicking(T t, V v, ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`
+- `forEachTicking(T t, V v, ObjectPositionBlockFunction<T, V, BlockTickStrategy> acceptor)`: Add description.
   - Executes `forEachTicking` behavior.
-- `mergeTickingBlocks()`
+- `mergeTickingBlocks()`: Add description.
   - Executes `mergeTickingBlocks` behavior.
-- `setTicking(int x, int y, int z, boolean ticking)`
+- `setTicking(int x, int y, int z, boolean ticking)`: Add description.
   - Executes `setTicking` behavior.
-- `isTicking(int x, int y, int z)`
+- `isTicking(int x, int y, int z)`: Add description.
   - Executes `isTicking` behavior.
-- `getTickingBlocksCount()`
+- `getTickingBlocksCount()`: Add description.
   - Executes `getTickingBlocksCount` behavior.
-- `setNeighbourBlocksTicking(int x, int y, int z)`
+- `setNeighbourBlocksTicking(int x, int y, int z)`: Add description.
   - Executes `setNeighbourBlocksTicking` behavior.
-- `markNeedsSaving()`
+- `markNeedsSaving()`: Add description.
   - Executes `markNeedsSaving` behavior.
-- `getNeedsSaving()`
+- `getNeedsSaving()`: Add description.
   - Executes `getNeedsSaving` behavior.
-- `consumeNeedsSaving()`
+- `consumeNeedsSaving()`: Add description.
   - Executes `consumeNeedsSaving` behavior.
-- `markNeedsPhysics()`
+- `markNeedsPhysics()`: Add description.
   - Executes `markNeedsPhysics` behavior.
-- `consumeNeedsPhysics()`
+- `consumeNeedsPhysics()`: Add description.
   - Executes `consumeNeedsPhysics` behavior.
-- `invalidateChunkSection(int sectionIndex)`
+- `invalidateChunkSection(int sectionIndex)`: Add description.
   - Executes `invalidateChunkSection` behavior.
-- `takeMigratedSections()`
+- `takeMigratedSections()`: Add description.
   - Executes `takeMigratedSections` behavior.
-- `getMigratedSections()`
+- `getMigratedSections()`: Add description.
   - Executes `getMigratedSections` behavior.
-- `serialize(ExtraInfo extraInfo)`
+- `serialize(ExtraInfo extraInfo)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`
+- `deserialize(@Nonnull byte[] bytes, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `deserialize` behavior.
-- `getCachedHeightmapPacket()`
+- `getCachedHeightmapPacket()`: Add description.
   - Executes `getCachedHeightmapPacket` behavior.
-- `getCachedTintsPacket()`
+- `getCachedTintsPacket()`: Add description.
   - Executes `getCachedTintsPacket` behavior.
-- `getCachedEnvironmentsPacket()`
+- `getCachedEnvironmentsPacket()`: Add description.
   - Executes `getCachedEnvironmentsPacket` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `fetch(int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, Store<ChunkStore> store, CommandBuffer<ChunkStore> commandBuffer, PlayerRef player, @Nonnull List<CompletableFuture<Packet>> results)`
+- `fetch(int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk, Store<ChunkStore> store, CommandBuffer<ChunkStore> commandBuffer, PlayerRef player, @Nonnull List<CompletableFuture<Packet>> results)`: Add description.
   - Executes `fetch` behavior.
 
 ## Notes

@@ -1,63 +1,63 @@
+**Source Hash:** `e2a77bfffa46ff9950e6ab0c82f56a79719e1b9dcf8f52f809ebef5146d8c664`
+
 # ServerFileBrowser
 
 ## Overview
-- Documentation for `ServerFileBrowser`.
-- Declared as a class in `com.hypixel.hytale.server.core.ui.browser`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerFileBrowser(@Nonnull FileBrowserConfig config)`
   - Creates a `ServerFileBrowser` instance.
 - `ServerFileBrowser(@Nonnull FileBrowserConfig config, @Nullable Path initialRoot, @Nullable Path initialDir)`
   - Creates a `ServerFileBrowser` instance.
 
-## Methods
-- `buildRootSelector(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+## Method Descriptions
+- `buildRootSelector(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildRootSelector` behavior.
-- `buildSearchInput(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+- `buildSearchInput(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildSearchInput` behavior.
-- `buildCurrentPath(@Nonnull UICommandBuilder commandBuilder)`
+- `buildCurrentPath(@Nonnull UICommandBuilder commandBuilder)`: Add description.
   - Executes `buildCurrentPath` behavior.
-- `buildFileList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+- `buildFileList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildFileList` behavior.
-- `buildUI(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+- `buildUI(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildUI` behavior.
-- `handleEvent(@Nonnull FileBrowserEventData data)`
+- `handleEvent(@Nonnull FileBrowserEventData data)`: Add description.
   - Executes `handleEvent` behavior.
-- `visitFile(@Nonnull Path file, @Nonnull BasicFileAttributes attrs)`
+- `visitFile(@Nonnull Path file, @Nonnull BasicFileAttributes attrs)`: Add description.
   - Executes `visitFile` behavior.
-- `matchesExtension(@Nonnull String fileName)`
+- `matchesExtension(@Nonnull String fileName)`: Add description.
   - Executes `matchesExtension` behavior.
-- `removeExtensions(@Nonnull String fileName)`
+- `removeExtensions(@Nonnull String fileName)`: Add description.
   - Executes `removeExtensions` behavior.
-- `getRoot()`
+- `getRoot()`: Add description.
   - Executes `getRoot` behavior.
-- `setRoot(@Nonnull Path root)`
+- `setRoot(@Nonnull Path root)`: Add description.
   - Executes `setRoot` behavior.
-- `getCurrentDir()`
+- `getCurrentDir()`: Add description.
   - Executes `getCurrentDir` behavior.
-- `setCurrentDir(@Nonnull Path currentDir)`
+- `setCurrentDir(@Nonnull Path currentDir)`: Add description.
   - Executes `setCurrentDir` behavior.
-- `getSearchQuery()`
+- `getSearchQuery()`: Add description.
   - Executes `getSearchQuery` behavior.
-- `setSearchQuery(@Nonnull String searchQuery)`
+- `setSearchQuery(@Nonnull String searchQuery)`: Add description.
   - Executes `setSearchQuery` behavior.
-- `navigateUp()`
+- `navigateUp()`: Add description.
   - Executes `navigateUp` behavior.
-- `navigateTo(@Nonnull Path relativePath)`
+- `navigateTo(@Nonnull Path relativePath)`: Add description.
   - Executes `navigateTo` behavior.
-- `getSelectedItems()`
+- `getSelectedItems()`: Add description.
   - Executes `getSelectedItems` behavior.
-- `addSelection(@Nonnull String item)`
+- `addSelection(@Nonnull String item)`: Add description.
   - Executes `addSelection` behavior.
-- `clearSelection()`
+- `clearSelection()`: Add description.
   - Executes `clearSelection` behavior.
-- `getConfig()`
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `resolveSecure(@Nonnull String relativePath)`
+- `resolveSecure(@Nonnull String relativePath)`: Add description.
   - Executes `resolveSecure` behavior.
-- `resolveFromCurrent(@Nonnull String fileName)`
+- `resolveFromCurrent(@Nonnull String fileName)`: Add description.
   - Executes `resolveFromCurrent` behavior.
-- `findConfigRoot(@Nonnull String pathStr)`
+- `findConfigRoot(@Nonnull String pathStr)`: Add description.
   - Executes `findConfigRoot` behavior.
 
 ## Notes

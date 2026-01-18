@@ -1,10 +1,10 @@
+**Source Hash:** `b3afd0672ff06548a877e396759a8ded3af464d7e89fcfe3b150499250f0c0a0`
+
 # Semver
 
 ## Overview
-- Documentation for `Semver`.
-- Declared as a class in `com.hypixel.hytale.common.semver`.
 
-## Constructors
+## Constructor Descriptions
 - `Semver(long major, long minor, long patch)`
   - Creates a `Semver` instance.
 - `Semver(long major, long minor, long patch, String[] preRelease, String build)`
@@ -16,30 +16,30 @@
 - `Semver(major, minor, patch, preRelease, build)`
   - Creates a `Semver` instance.
 
-## Methods
-- `getMajor()`
+## Method Descriptions
+- `getMajor()`: Add description.
   - Executes `getMajor` behavior.
-- `getMinor()`
+- `getMinor()`: Add description.
   - Executes `getMinor` behavior.
-- `getPatch()`
+- `getPatch()`: Add description.
   - Executes `getPatch` behavior.
-- `getPreRelease()`
+- `getPreRelease()`: Add description.
   - Executes `getPreRelease` behavior.
-- `getBuild()`
+- `getBuild()`: Add description.
   - Executes `getBuild` behavior.
-- `satisfies(@Nonnull SemverRange range)`
+- `satisfies(@Nonnull SemverRange range)`: Add description.
   - Executes `satisfies` behavior.
-- `compareTo(@Nonnull Semver other)`
+- `compareTo(@Nonnull Semver other)`: Add description.
   - Executes `compareTo` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `fromString(String str)`
+- `fromString(String str)`: Add description.
   - Executes `fromString` behavior.
-- `fromString(String str, boolean strict)`
+- `fromString(String str, boolean strict)`: Add description.
   - Executes `fromString` behavior.
-- `validateBuild(@Nullable String build)`
+- `validateBuild(@Nullable String build)`: Add description.
   - Executes `validateBuild` behavior.
-- `validatePreRelease(@Nullable String[] preRelease)`
+- `validatePreRelease(@Nullable String[] preRelease)`: Add description.
   - Executes `validatePreRelease` behavior.
 
 ## Notes

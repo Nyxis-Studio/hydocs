@@ -1,26 +1,26 @@
+**Source Hash:** `51098fe8c5fc31259ae38ddff55f66ab62161b7f996c79d73b82de2620070997`
+
 # VoidEventConfig
 
 ## Overview
-- Documentation for `VoidEventConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.components.voidevent.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDurationSeconds()`
+## Method Descriptions
+- `getDurationSeconds()`: Add description.
   - Executes `getDurationSeconds` behavior.
-- `getShouldStartAfterSeconds(int portalTimeLimitSeconds)`
+- `getShouldStartAfterSeconds(int portalTimeLimitSeconds)`: Add description.
   - Executes `getShouldStartAfterSeconds` behavior.
-- `getInvasionPortalConfig()`
+- `getInvasionPortalConfig()`: Add description.
   - Executes `getInvasionPortalConfig` behavior.
-- `getStages()`
+- `getStages()`: Add description.
   - Executes `getStages` behavior.
-- `getStagesSortedByStartTime()`
+- `getStagesSortedByStartTime()`: Add description.
   - Executes `getStagesSortedByStartTime` behavior.
-- `getMusicAmbienceFX()`
+- `getMusicAmbienceFX()`: Add description.
   - Executes `getMusicAmbienceFX` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
 
 ## Notes

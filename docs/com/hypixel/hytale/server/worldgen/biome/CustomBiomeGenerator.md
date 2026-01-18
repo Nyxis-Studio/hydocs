@@ -1,25 +1,25 @@
+**Source Hash:** `4cccdfeefbf1b49d9d284e1bf2652ddde8b9dcd41ba7a6452c2e8752ff8625c6`
+
 # CustomBiomeGenerator
 
 ## Overview
-- Documentation for `CustomBiomeGenerator`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.biome`.
 
-## Constructors
+## Constructor Descriptions
 - `CustomBiomeGenerator(NoiseProperty noiseProperty, IDoubleThreshold threshold, IIntCondition biomeMask, int priority)`
   - Creates a `CustomBiomeGenerator` instance.
 
-## Methods
-- `shouldGenerateAt(int seed, double x, double z, @Nonnull ZoneGeneratorResult zoneResult, @Nonnull Biome customBiome)`
+## Method Descriptions
+- `shouldGenerateAt(int seed, double x, double z, @Nonnull ZoneGeneratorResult zoneResult, @Nonnull Biome customBiome)`: Add description.
   - Executes `shouldGenerateAt` behavior.
-- `isThreshold(double d)`
+- `isThreshold(double d)`: Add description.
   - Executes `isThreshold` behavior.
-- `isThreshold(double d, double factor)`
+- `isThreshold(double d, double factor)`: Add description.
   - Executes `isThreshold` behavior.
-- `isValidParentBiome(int index)`
+- `isValidParentBiome(int index)`: Add description.
   - Executes `isValidParentBiome` behavior.
-- `getPriority()`
+- `getPriority()`: Add description.
   - Executes `getPriority` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

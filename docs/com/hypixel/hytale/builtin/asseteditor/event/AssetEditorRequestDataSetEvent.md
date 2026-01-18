@@ -1,23 +1,23 @@
+**Source Hash:** `ac57fc4ac9fdcebc38119afddb3e6fed9323855d58851b94dfd515b640f382a4`
+
 # AssetEditorRequestDataSetEvent
 
 ## Overview
-- Documentation for `AssetEditorRequestDataSetEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.event`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorRequestDataSetEvent(EditorClient editorClient, String dataSet, String[] results)`
   - Creates a `AssetEditorRequestDataSetEvent` instance.
 
-## Methods
-- `getDataSet()`
+## Method Descriptions
+- `getDataSet()`: Add description.
   - Executes `getDataSet` behavior.
-- `getEditorClient()`
+- `getEditorClient()`: Add description.
   - Executes `getEditorClient` behavior.
-- `getResults()`
+- `getResults()`: Add description.
   - Executes `getResults` behavior.
-- `setResults(String[] results)`
+- `setResults(String[] results)`: Add description.
   - Executes `setResults` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

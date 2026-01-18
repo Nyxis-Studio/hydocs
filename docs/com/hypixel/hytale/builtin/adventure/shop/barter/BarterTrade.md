@@ -1,23 +1,23 @@
+**Source Hash:** `74daa240974bce2ccffaa36ae45d7889c372190fc1638c601000655a4b948d18`
+
 # BarterTrade
 
 ## Overview
-- Documentation for `BarterTrade`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `BarterTrade(BarterItemStack output, BarterItemStack[] input, int maxStock)`
   - Creates a `BarterTrade` instance.
 - `BarterTrade()`
   - Creates a `BarterTrade` instance.
 
-## Methods
-- `getOutput()`
+## Method Descriptions
+- `getOutput()`: Add description.
   - Executes `getOutput` behavior.
-- `getInput()`
+- `getInput()`: Add description.
   - Executes `getInput` behavior.
-- `getMaxStock()`
+- `getMaxStock()`: Add description.
   - Executes `getMaxStock` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

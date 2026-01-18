@@ -1,10 +1,10 @@
+**Source Hash:** `3608d7d97280c1fd40a88ec84568046da11fb35443b012954d9a1a76962afae7`
+
 # Holder
 
 ## Overview
-- Documentation for `Holder`.
-- Declared as a class in `com.hypixel.hytale.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Holder()`
   - Creates a `Holder` instance.
 - `Holder(@Nonnull ComponentRegistry<ECS_TYPE> registry)`
@@ -12,46 +12,46 @@
 - `Holder(@Nonnull ComponentRegistry<ECS_TYPE> registry, @Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components)`
   - Creates a `Holder` instance.
 
-## Methods
-- `emptyArray()`
+## Method Descriptions
+- `emptyArray()`: Add description.
   - Executes `emptyArray` behavior.
-- `ensureComponentsSize(int size)`
+- `ensureComponentsSize(int size)`: Add description.
   - Executes `ensureComponentsSize` behavior.
-- `init(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components)`
+- `init(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components)`: Add description.
   - Executes `init` behavior.
-- `_internal_init(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components, @Nonnull ComponentType<ECS_TYPE, UnknownComponents<ECS_TYPE>> unknownComponentType)`
+- `_internal_init(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull Component<ECS_TYPE>[] components, @Nonnull ComponentType<ECS_TYPE, UnknownComponents<ECS_TYPE>> unknownComponentType)`: Add description.
   - Executes `_internal_init` behavior.
-- `getArchetype()`
+- `getArchetype()`: Add description.
   - Executes `getArchetype` behavior.
-- `ensureComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `ensureComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `ensureComponent` behavior.
-- `ensureAndGetComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `ensureAndGetComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `ensureAndGetComponent` behavior.
-- `addComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+- `addComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`: Add description.
   - Executes `addComponent` behavior.
-- `addComponent0(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+- `addComponent0(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`: Add description.
   - Executes `addComponent0` behavior.
-- `replaceComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+- `replaceComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`: Add description.
   - Executes `replaceComponent` behavior.
-- `putComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`
+- `putComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType, @Nonnull T component)`: Add description.
   - Executes `putComponent` behavior.
-- `getComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `getComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `getComponent` behavior.
-- `removeComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `removeComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `removeComponent` behavior.
-- `tryRemoveComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `tryRemoveComponent(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `tryRemoveComponent` behavior.
-- `hasSerializableComponents(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`
+- `hasSerializableComponents(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`: Add description.
   - Executes `hasSerializableComponents` behavior.
-- `updateData(@Nonnull ComponentRegistry.Data<ECS_TYPE> oldData, @Nonnull ComponentRegistry.Data<ECS_TYPE> newData)`
+- `updateData(@Nonnull ComponentRegistry.Data<ECS_TYPE> oldData, @Nonnull ComponentRegistry.Data<ECS_TYPE> newData)`: Add description.
   - Executes `updateData` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

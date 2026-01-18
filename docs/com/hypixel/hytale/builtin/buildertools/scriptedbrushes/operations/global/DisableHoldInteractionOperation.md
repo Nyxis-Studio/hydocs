@@ -1,15 +1,15 @@
+**Source Hash:** `9f7e648381f9fc80626826bc48f93a0a0e481180f1c8a1fe7dd8efe9f03be16d`
+
 # DisableHoldInteractionOperation
 
 ## Overview
-- Documentation for `DisableHoldInteractionOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.global`.
 
-## Constructors
+## Constructor Descriptions
 - `DisableHoldInteractionOperation()`
   - Creates a `DisableHoldInteractionOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

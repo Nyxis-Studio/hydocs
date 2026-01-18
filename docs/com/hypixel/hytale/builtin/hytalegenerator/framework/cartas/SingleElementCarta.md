@@ -1,19 +1,19 @@
+**Source Hash:** `6179949f702112e683ba4780950abb50116eb6e1c3591319f621136d0d9ab3af`
+
 # SingleElementCarta
 
 ## Overview
-- Documentation for `SingleElementCarta`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.framework.cartas`.
 
-## Constructors
+## Constructor Descriptions
 - `SingleElementCarta()`
   - Creates a `SingleElementCarta` instance.
 
-## Methods
-- `of(@Nonnull R element)`
+## Method Descriptions
+- `of(@Nonnull R element)`: Add description.
   - Executes `of` behavior.
-- `apply(int x, int z, @Nonnull WorkerIndexer.Id id)`
+- `apply(int x, int z, @Nonnull WorkerIndexer.Id id)`: Add description.
   - Executes `apply` behavior.
-- `allPossibleValues()`
+- `allPossibleValues()`: Add description.
   - Executes `allPossibleValues` behavior.
 
 ## Notes

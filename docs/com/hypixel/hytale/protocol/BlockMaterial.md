@@ -1,17 +1,17 @@
+**Source Hash:** `6d6ea188f0e41b034b662219983f27e70475d1cb0eededd0c9cfd8f4eb672536`
+
 # BlockMaterial
 
 ## Overview
-- Documentation for `BlockMaterial`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockMaterial(int value)`
   - Creates a `BlockMaterial` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

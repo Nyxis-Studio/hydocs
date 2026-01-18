@@ -1,16 +1,16 @@
+**Source Hash:** `27e0c2a2afa028e9f82e0c87d25bc9d6cbd08c01a3e2fc15360949e8b0d4ab1d`
+
 # EnumArrayValidator
 
 ## Overview
-- Documentation for `EnumArrayValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(T[] var1, Class<T> var2)`
+## Method Descriptions
+- `test(T[] var1, Class<T> var2)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String var1, T[] var2)`
+- `errorMessage(String var1, T[] var2)`: Add description.
   - Executes `errorMessage` behavior.
 
 ## Notes

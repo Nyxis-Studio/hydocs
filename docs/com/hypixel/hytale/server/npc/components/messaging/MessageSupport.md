@@ -1,20 +1,20 @@
+**Source Hash:** `f327fa959174bd443911c840bb78c917d49ab7025091df1084c3f8b9e3e4b6cf`
+
 # MessageSupport
 
 ## Overview
-- Documentation for `MessageSupport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components.messaging`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getMessageSlots()`
+## Method Descriptions
+- `getMessageSlots()`: Add description.
   - Executes `getMessageSlots` behavior.
-- `isMessageQueued(int messageIndex)`
+- `isMessageQueued(int messageIndex)`: Add description.
   - Executes `isMessageQueued` behavior.
-- `isMessageEnabled(int messageIndex)`
+- `isMessageEnabled(int messageIndex)`: Add description.
   - Executes `isMessageEnabled` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

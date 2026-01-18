@@ -1,39 +1,39 @@
+**Source Hash:** `310ece952cc7e4434221da3f3786262259b93f75dd13f5beef76e7bd1ed6e8d6`
+
 # FadeContainer
 
 ## Overview
-- Documentation for `FadeContainer`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.container`.
 
-## Constructors
+## Constructor Descriptions
 - `FadeContainer(double maskFadeStart, double maskFadeLength, double terrainFadeStart, double terrainFadeLength, double fadeHeightmap)`
   - Creates a `FadeContainer` instance.
 
-## Methods
-- `getMaskFadeStart()`
+## Method Descriptions
+- `getMaskFadeStart()`: Add description.
   - Executes `getMaskFadeStart` behavior.
-- `getMaskFadeLength()`
+- `getMaskFadeLength()`: Add description.
   - Executes `getMaskFadeLength` behavior.
-- `getMaskFadeSum()`
+- `getMaskFadeSum()`: Add description.
   - Executes `getMaskFadeSum` behavior.
-- `getHeightFadeStart()`
+- `getHeightFadeStart()`: Add description.
   - Executes `getHeightFadeStart` behavior.
-- `getHeightFadeLength()`
+- `getHeightFadeLength()`: Add description.
   - Executes `getHeightFadeLength` behavior.
-- `getHeightFadeSum()`
+- `getHeightFadeSum()`: Add description.
   - Executes `getHeightFadeSum` behavior.
-- `getFadeHeightmap()`
+- `getFadeHeightmap()`: Add description.
   - Executes `getFadeHeightmap` behavior.
-- `getMaskFactor(@Nonnull ZoneGeneratorResult result)`
+- `getMaskFactor(@Nonnull ZoneGeneratorResult result)`: Add description.
   - Executes `getMaskFactor` behavior.
-- `getTerrainFactor(@Nonnull ZoneGeneratorResult result)`
+- `getTerrainFactor(@Nonnull ZoneGeneratorResult result)`: Add description.
   - Executes `getTerrainFactor` behavior.
-- `getFactor(@Nonnull ZoneGeneratorResult result, double distanceFromBorder, double gradientWidth)`
+- `getFactor(@Nonnull ZoneGeneratorResult result, double distanceFromBorder, double gradientWidth)`: Add description.
   - Executes `getFactor` behavior.
-- `shouldFade()`
+- `shouldFade()`: Add description.
   - Executes `shouldFade` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `limit(double d)`
+- `limit(double d)`: Add description.
   - Executes `limit` behavior.
 
 ## Notes

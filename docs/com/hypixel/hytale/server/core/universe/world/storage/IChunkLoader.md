@@ -1,16 +1,16 @@
+**Source Hash:** `9f32a8c8b0493df1ef8622408d48fee3643bdc8c1d1d7eb4d87508ef44e7725e`
+
 # IChunkLoader
 
 ## Overview
-- Documentation for `IChunkLoader`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.storage`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `loadHolder(int var1, int var2)`
+## Method Descriptions
+- `loadHolder(int var1, int var2)`: Add description.
   - Executes `loadHolder` behavior.
-- `getIndexes()`
+- `getIndexes()`: Add description.
   - Executes `getIndexes` behavior.
 
 ## Notes

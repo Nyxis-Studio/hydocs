@@ -1,133 +1,133 @@
+**Source Hash:** `a8e512ddd2bfe3c9da3f760239f8b9d35a635ce9c3d36b6c14047ab962788ffb`
+
 # CollisionResult
 
 ## Overview
-- Documentation for `CollisionResult`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
+## Constructor Descriptions
 - `CollisionResult()`
   - Creates a `CollisionResult` instance.
 - `CollisionResult(boolean enableSlides, boolean enableCharacters)`
   - Creates a `CollisionResult` instance.
 
-## Methods
-- `getConfig()`
+## Method Descriptions
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `getCollisionEntities()`
+- `getCollisionEntities()`: Add description.
   - Executes `getCollisionEntities` behavior.
-- `setCollisionEntities(List<Entity> collisionEntities)`
+- `setCollisionEntities(List<Entity> collisionEntities)`: Add description.
   - Executes `setCollisionEntities` behavior.
-- `getBoxBlockIntersection()`
+- `getBoxBlockIntersection()`: Add description.
   - Executes `getBoxBlockIntersection` behavior.
-- `getMovingBoxBoxCollision()`
+- `getMovingBoxBoxCollision()`: Add description.
   - Executes `getMovingBoxBoxCollision` behavior.
-- `allocCharacterCollision()`
+- `allocCharacterCollision()`: Add description.
   - Executes `allocCharacterCollision` behavior.
-- `addCollision(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+- `addCollision(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`: Add description.
   - Executes `addCollision` behavior.
-- `newCollision()`
+- `newCollision()`: Add description.
   - Executes `newCollision` behavior.
-- `addSlide(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+- `addSlide(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`: Add description.
   - Executes `addSlide` behavior.
-- `newSlide()`
+- `newSlide()`: Add description.
   - Executes `newSlide` behavior.
-- `addTrigger(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`
+- `addTrigger(@Nonnull IBlockCollisionEvaluator blockCollisionEvaluator, int index)`: Add description.
   - Executes `addTrigger` behavior.
-- `newTrigger()`
+- `newTrigger()`: Add description.
   - Executes `newTrigger` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `process()`
+- `process()`: Add description.
   - Executes `process` behavior.
-- `getBlockCollisionCount()`
+- `getBlockCollisionCount()`: Add description.
   - Executes `getBlockCollisionCount` behavior.
-- `getBlockCollision(int i)`
+- `getBlockCollision(int i)`: Add description.
   - Executes `getBlockCollision` behavior.
-- `getFirstBlockCollision()`
+- `getFirstBlockCollision()`: Add description.
   - Executes `getFirstBlockCollision` behavior.
-- `forgetFirstBlockCollision()`
+- `forgetFirstBlockCollision()`: Add description.
   - Executes `forgetFirstBlockCollision` behavior.
-- `getCharacterCollisionCount()`
+- `getCharacterCollisionCount()`: Add description.
   - Executes `getCharacterCollisionCount` behavior.
-- `getFirstCharacterCollision()`
+- `getFirstCharacterCollision()`: Add description.
   - Executes `getFirstCharacterCollision` behavior.
-- `forgetFirstCharacterCollision()`
+- `forgetFirstCharacterCollision()`: Add description.
   - Executes `forgetFirstCharacterCollision` behavior.
-- `pruneTriggerBlocks(double distance)`
+- `pruneTriggerBlocks(double distance)`: Add description.
   - Executes `pruneTriggerBlocks` behavior.
-- `getTriggerBlocks()`
+- `getTriggerBlocks()`: Add description.
   - Executes `getTriggerBlocks` behavior.
-- `defaultTriggerBlocksProcessing(@Nonnull InteractionManager manager, @Nonnull Entity entity, @Nonnull Ref<EntityStore> ref, boolean executeTriggers, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `defaultTriggerBlocksProcessing(@Nonnull InteractionManager manager, @Nonnull Entity entity, @Nonnull Ref<EntityStore> ref, boolean executeTriggers, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `defaultTriggerBlocksProcessing` behavior.
-- `doCollisionInteraction(@Nonnull InteractionManager manager, @Nonnull InteractionType type, @Nonnull Ref<EntityStore> ref, @Nonnull String interactions, @Nonnull BlockPosition pos, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `doCollisionInteraction(@Nonnull InteractionManager manager, @Nonnull InteractionType type, @Nonnull Ref<EntityStore> ref, @Nonnull String interactions, @Nonnull BlockPosition pos, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `doCollisionInteraction` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
-- `accept(long x, long y, long z)`
+- `accept(long x, long y, long z)`: Add description.
   - Executes `accept` behavior.
-- `processCollisionResult(boolean haveCollision, int hitboxIndex)`
+- `processCollisionResult(boolean haveCollision, int hitboxIndex)`: Add description.
   - Executes `processCollisionResult` behavior.
-- `iterateBlocks(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d direction, double length, boolean stopOnCollisionFound)`
+- `iterateBlocks(@Nonnull Box collider, @Nonnull Vector3d pos, @Nonnull Vector3d direction, double length, boolean stopOnCollisionFound)`: Add description.
   - Executes `iterateBlocks` behavior.
-- `acquireCollisionModule()`
+- `acquireCollisionModule()`: Add description.
   - Executes `acquireCollisionModule` behavior.
-- `disableSlides()`
+- `disableSlides()`: Add description.
   - Executes `disableSlides` behavior.
-- `enableSlides()`
+- `enableSlides()`: Add description.
   - Executes `enableSlides` behavior.
-- `disableCharacterCollisions()`
+- `disableCharacterCollisions()`: Add description.
   - Executes `disableCharacterCollisions` behavior.
-- `enableCharacterCollsions()`
+- `enableCharacterCollsions()`: Add description.
   - Executes `enableCharacterCollsions` behavior.
-- `isCheckingForCharacterCollisions()`
+- `isCheckingForCharacterCollisions()`: Add description.
   - Executes `isCheckingForCharacterCollisions` behavior.
-- `enableTriggerBlocks()`
+- `enableTriggerBlocks()`: Add description.
   - Executes `enableTriggerBlocks` behavior.
-- `disableTriggerBlocks()`
+- `disableTriggerBlocks()`: Add description.
   - Executes `disableTriggerBlocks` behavior.
-- `isCheckingTriggerBlocks()`
+- `isCheckingTriggerBlocks()`: Add description.
   - Executes `isCheckingTriggerBlocks` behavior.
-- `enableDamageBlocks()`
+- `enableDamageBlocks()`: Add description.
   - Executes `enableDamageBlocks` behavior.
-- `disableDamageBlocks()`
+- `disableDamageBlocks()`: Add description.
   - Executes `disableDamageBlocks` behavior.
-- `isCheckingDamageBlocks()`
+- `isCheckingDamageBlocks()`: Add description.
   - Executes `isCheckingDamageBlocks` behavior.
-- `setDamageBlocking(boolean blocking)`
+- `setDamageBlocking(boolean blocking)`: Add description.
   - Executes `setDamageBlocking` behavior.
-- `isDamageBlocking()`
+- `isDamageBlocking()`: Add description.
   - Executes `isDamageBlocking` behavior.
-- `setCollisionByMaterial(int collidingMaterials)`
+- `setCollisionByMaterial(int collidingMaterials)`: Add description.
   - Executes `setCollisionByMaterial` behavior.
-- `setCollisionByMaterial(int collidingMaterials, int walkableMaterials)`
+- `setCollisionByMaterial(int collidingMaterials, int walkableMaterials)`: Add description.
   - Executes `setCollisionByMaterial` behavior.
-- `getCollisionByMaterial()`
+- `getCollisionByMaterial()`: Add description.
   - Executes `getCollisionByMaterial` behavior.
-- `setDefaultCollisionBehaviour()`
+- `setDefaultCollisionBehaviour()`: Add description.
   - Executes `setDefaultCollisionBehaviour` behavior.
-- `setDefaultBlockCollisionPredicate()`
+- `setDefaultBlockCollisionPredicate()`: Add description.
   - Executes `setDefaultBlockCollisionPredicate` behavior.
-- `setDefaultNonWalkablePredicate()`
+- `setDefaultNonWalkablePredicate()`: Add description.
   - Executes `setDefaultNonWalkablePredicate` behavior.
-- `setNonWalkablePredicate(Predicate<CollisionConfig> classifier)`
+- `setNonWalkablePredicate(Predicate<CollisionConfig> classifier)`: Add description.
   - Executes `setNonWalkablePredicate` behavior.
-- `setWalkableByMaterial(int walkableMaterial)`
+- `setWalkableByMaterial(int walkableMaterial)`: Add description.
   - Executes `setWalkableByMaterial` behavior.
-- `updateDamageWalkableFlag()`
+- `updateDamageWalkableFlag()`: Add description.
   - Executes `updateDamageWalkableFlag` behavior.
-- `setDefaultWalkableBehaviour()`
+- `setDefaultWalkableBehaviour()`: Add description.
   - Executes `setDefaultWalkableBehaviour` behavior.
-- `setDefaultPlayerSettings()`
+- `setDefaultPlayerSettings()`: Add description.
   - Executes `setDefaultPlayerSettings` behavior.
-- `isComputeOverlaps()`
+- `isComputeOverlaps()`: Add description.
   - Executes `isComputeOverlaps` behavior.
-- `setComputeOverlaps(boolean computeOverlaps)`
+- `setComputeOverlaps(boolean computeOverlaps)`: Add description.
   - Executes `setComputeOverlaps` behavior.
-- `getLogger()`
+- `getLogger()`: Add description.
   - Executes `getLogger` behavior.
-- `shouldLog()`
+- `shouldLog()`: Add description.
   - Executes `shouldLog` behavior.
-- `setLogger(HytaleLogger logger)`
+- `setLogger(HytaleLogger logger)`: Add description.
   - Executes `setLogger` behavior.
 
 ## Notes

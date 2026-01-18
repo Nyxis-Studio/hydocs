@@ -1,17 +1,17 @@
+**Source Hash:** `a55f689ce860c1804e5bf9402b3d7930156826703de92a55dcbef468f448b5d1`
+
 # BasicCustomUIPage
 
 ## Overview
-- Documentation for `BasicCustomUIPage`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.pages`.
 
-## Constructors
+## Constructor Descriptions
 - `BasicCustomUIPage(@Nonnull PlayerRef playerRef, @Nonnull CustomPageLifetime lifetime)`
   - Creates a `BasicCustomUIPage` instance.
 
-## Methods
-- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `build` behavior.
-- `build(UICommandBuilder var1)`
+- `build(UICommandBuilder var1)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

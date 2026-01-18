@@ -1,17 +1,17 @@
+**Source Hash:** `d68dc7f66cc55b66b7ff876b24c58a1b72538ce605e52b7ca66c0de770dfb3cc`
+
 # GameModeCommand
 
 ## Overview
-- Documentation for `GameModeCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player`.
 
-## Constructors
+## Constructor Descriptions
 - `GameModeCommand()`
   - Creates a `GameModeCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `executeSync(@Nonnull CommandContext context)`
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

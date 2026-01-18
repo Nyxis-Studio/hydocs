@@ -1,15 +1,15 @@
+**Source Hash:** `467d325faae725566d086d16eca7146f133c244567c59ff1d530270a687d81e8`
+
 # PlayCommandBase
 
 ## Overview
-- Documentation for `PlayCommandBase`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.singleplayer.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayCommandBase(@Nonnull String name, @Nonnull String description, @Nonnull SingleplayerModule singleplayerModule, @Nonnull Access commandAccess)`
   - Creates a `PlayCommandBase` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

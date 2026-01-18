@@ -1,10 +1,10 @@
+**Source Hash:** `1b7b0a32cb0cfa94019076b913a801e27ed7f7c4c693c28f6a57adcd7748488f`
+
 # SetChunk
 
 ## Overview
-- Documentation for `SetChunk`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SetChunk()`
   - Creates a `SetChunk` instance.
 - `SetChunk(int x, int y, int z, @Nullable byte[] localLight, @Nullable byte[] globalLight, @Nullable byte[] data)`
@@ -12,24 +12,24 @@
 - `SetChunk(@Nonnull SetChunk other)`
   - Creates a `SetChunk` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

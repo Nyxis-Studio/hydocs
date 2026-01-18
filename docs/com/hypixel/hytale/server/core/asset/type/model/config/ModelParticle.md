@@ -1,10 +1,10 @@
+**Source Hash:** `5851b956bb25696f1023166f19aedd07d826938f60b35e45336aed97d64fec1b`
+
 # ModelParticle
 
 ## Overview
-- Documentation for `ModelParticle`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ModelParticle(String systemId, EntityPart targetEntityPart, String targetNodeName, Color color, float scale, Vector3f positionOffset, Direction rotationOffset, boolean detachedFromModel)`
   - Creates a `ModelParticle` instance.
 - `ModelParticle(ModelParticle other)`
@@ -14,28 +14,28 @@
 - `ModelParticle(this)`
   - Creates a `ModelParticle` instance.
 
-## Methods
-- `getSystemId()`
+## Method Descriptions
+- `getSystemId()`: Add description.
   - Executes `getSystemId` behavior.
-- `getTargetEntityPart()`
+- `getTargetEntityPart()`: Add description.
   - Executes `getTargetEntityPart` behavior.
-- `getTargetNodeName()`
+- `getTargetNodeName()`: Add description.
   - Executes `getTargetNodeName` behavior.
-- `getColor()`
+- `getColor()`: Add description.
   - Executes `getColor` behavior.
-- `getScale()`
+- `getScale()`: Add description.
   - Executes `getScale` behavior.
-- `getPositionOffset()`
+- `getPositionOffset()`: Add description.
   - Executes `getPositionOffset` behavior.
-- `getRotationOffset()`
+- `getRotationOffset()`: Add description.
   - Executes `getRotationOffset` behavior.
-- `isDetachedFromModel()`
+- `isDetachedFromModel()`: Add description.
   - Executes `isDetachedFromModel` behavior.
-- `scale(float scale)`
+- `scale(float scale)`: Add description.
   - Executes `scale` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,25 +1,25 @@
+**Source Hash:** `549811a7b6af98ebebfad13933cdf1c1257bb99e902e651535c93340104e312c`
+
 # BoolArg
 
 ## Overview
-- Documentation for `BoolArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `BoolArg()`
   - Creates a `BoolArg` instance.
 - `BoolArg(boolean value)`
   - Creates a `BoolArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toBoolArgPacket()`
+- `toBoolArgPacket()`: Add description.
   - Executes `toBoolArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `11f7a123588ef9cd6657a39bfbbe6d6447fb47be9e203f1b05281882448dbe2e`
+
 # ObjectiveHistoryCommand
 
 ## Overview
-- Documentation for `ObjectiveHistoryCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjectiveHistoryCommand()`
   - Creates a `ObjectiveHistoryCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

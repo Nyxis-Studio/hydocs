@@ -1,10 +1,10 @@
+**Source Hash:** `0b36a0c0bcf9eb65b65aadad57142b97417c8f52242290e5bc8e97140f5a2888`
+
 # AuthToken
 
 ## Overview
-- Documentation for `AuthToken`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthToken()`
   - Creates a `AuthToken` instance.
 - `AuthToken(@Nullable String accessToken, @Nullable String serverAuthorizationGrant)`
@@ -12,24 +12,24 @@
 - `AuthToken(@Nonnull AuthToken other)`
   - Creates a `AuthToken` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

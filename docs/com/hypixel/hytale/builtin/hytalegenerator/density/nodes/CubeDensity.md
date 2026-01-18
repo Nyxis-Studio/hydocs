@@ -1,15 +1,15 @@
+**Source Hash:** `a94670fb79201de3b58c373622c8131b465e30dee90d218264b0362b68467a7d`
+
 # CubeDensity
 
 ## Overview
-- Documentation for `CubeDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `CubeDensity(@Nonnull Double2DoubleFunction falloffFunction)`
   - Creates a `CubeDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `86bfb92c172f9a4bb8cd5e048c1a0dbb407ab2e5106cc77bfdc31b866eace47f`
+
 # BiIntPredicate
 
 ## Overview
-- Documentation for `BiIntPredicate`.
-- Declared as a interface in `com.hypixel.hytale.function.predicate`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(int var1, int var2)`
+## Method Descriptions
+- `test(int var1, int var2)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

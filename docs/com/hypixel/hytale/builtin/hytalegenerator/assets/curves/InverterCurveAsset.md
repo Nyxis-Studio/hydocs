@@ -1,16 +1,16 @@
+**Source Hash:** `e987ee43ca75b666b2166ede4cb24946343f18fd688a25f72085bfa8de2b20f7`
+
 # InverterCurveAsset
 
 ## Overview
-- Documentation for `InverterCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

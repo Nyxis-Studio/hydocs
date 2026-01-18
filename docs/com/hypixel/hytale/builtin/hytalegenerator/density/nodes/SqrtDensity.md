@@ -1,17 +1,17 @@
+**Source Hash:** `000f2a1b6c0251472b0233f3bf008d30b369630fa6f2cc3e08cb754b323b0941`
+
 # SqrtDensity
 
 ## Overview
-- Documentation for `SqrtDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `SqrtDensity(Density input)`
   - Creates a `SqrtDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

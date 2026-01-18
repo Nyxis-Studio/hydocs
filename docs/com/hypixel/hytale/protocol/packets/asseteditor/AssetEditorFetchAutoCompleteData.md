@@ -1,10 +1,10 @@
+**Source Hash:** `da0343d237f8f7fff1da07ab66b4e0087b8b6d2c65388ba6362e86e363f5a60f`
+
 # AssetEditorFetchAutoCompleteData
 
 ## Overview
-- Documentation for `AssetEditorFetchAutoCompleteData`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorFetchAutoCompleteData()`
   - Creates a `AssetEditorFetchAutoCompleteData` instance.
 - `AssetEditorFetchAutoCompleteData(int token, @Nullable String dataset, @Nullable String query)`
@@ -12,24 +12,24 @@
 - `AssetEditorFetchAutoCompleteData(@Nonnull AssetEditorFetchAutoCompleteData other)`
   - Creates a `AssetEditorFetchAutoCompleteData` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

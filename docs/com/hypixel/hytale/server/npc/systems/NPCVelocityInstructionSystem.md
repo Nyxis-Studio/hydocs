@@ -1,18 +1,18 @@
+**Source Hash:** `3ff465f836f6c72373721cb4737b212cc2dd66933d76a4434a3016dc164c5e4b`
+
 # NPCVelocityInstructionSystem
 
 ## Overview
-- Documentation for `NPCVelocityInstructionSystem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.systems`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

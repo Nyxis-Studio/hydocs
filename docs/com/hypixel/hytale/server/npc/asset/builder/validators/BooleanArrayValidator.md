@@ -1,18 +1,18 @@
+**Source Hash:** `f8cced1ecb85ef564fef7335c4d258ab774a10937d4f2fbf09c8ade75ebed0f3`
+
 # BooleanArrayValidator
 
 ## Overview
-- Documentation for `BooleanArrayValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(boolean[] var1)`
+## Method Descriptions
+- `test(boolean[] var1)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String var1, boolean[] var2)`
+- `errorMessage(String var1, boolean[] var2)`: Add description.
   - Executes `errorMessage` behavior.
-- `errorMessage(boolean[] var1)`
+- `errorMessage(boolean[] var1)`: Add description.
   - Executes `errorMessage` behavior.
 
 ## Notes

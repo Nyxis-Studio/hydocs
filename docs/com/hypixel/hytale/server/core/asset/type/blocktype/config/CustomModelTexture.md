@@ -1,23 +1,23 @@
+**Source Hash:** `fb9c9b601d794fedfdd77061b097ee823b47557549c479796b27e2eeda18e804`
+
 # CustomModelTexture
 
 ## Overview
-- Documentation for `CustomModelTexture`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `CustomModelTexture()`
   - Creates a `CustomModelTexture` instance.
 - `CustomModelTexture(String texture, int weight)`
   - Creates a `CustomModelTexture` instance.
 
-## Methods
-- `getTexture()`
+## Method Descriptions
+- `getTexture()`: Add description.
   - Executes `getTexture` behavior.
-- `getWeight()`
+- `getWeight()`: Add description.
   - Executes `getWeight` behavior.
-- `toPacket(float totalWight)`
+- `toPacket(float totalWight)`: Add description.
   - Executes `toPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

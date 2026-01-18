@@ -1,17 +1,17 @@
+**Source Hash:** `e762e91df0844081b2ab700517e8a9c7dc019bd3f247c5a05f126175f250814a`
+
 # MovementForceRotationType
 
 ## Overview
-- Documentation for `MovementForceRotationType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `MovementForceRotationType(int value)`
   - Creates a `MovementForceRotationType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

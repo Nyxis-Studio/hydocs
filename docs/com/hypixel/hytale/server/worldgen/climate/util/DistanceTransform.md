@@ -1,18 +1,18 @@
+**Source Hash:** `4704b18f907cba7772c10a2eadd297bdd1ac7eaf351c7afe3295113baeae96fc`
+
 # DistanceTransform
 
 ## Overview
-- Documentation for `DistanceTransform`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.climate.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(@Nonnull IntMap source, @Nonnull DoubleMap dest, double radius)`
+## Method Descriptions
+- `apply(@Nonnull IntMap source, @Nonnull DoubleMap dest, double radius)`: Add description.
   - Executes `apply` behavior.
-- `Node(int index, double distance)`
+- `Node(int index, double distance)`: Add description.
   - Executes `Node` behavior.
-- `sort(Node a, Node b)`
+- `sort(Node a, Node b)`: Add description.
   - Executes `sort` behavior.
 
 ## Notes

@@ -1,21 +1,21 @@
+**Source Hash:** `d979e03a00e0d80fb788e356f0ddf4bc2ea7eda578589a7b63852e5e65e164e6`
+
 # TimeModule
 
 ## Overview
-- Documentation for `TimeModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.time`.
 
-## Constructors
+## Constructor Descriptions
 - `TimeModule(@Nonnull JavaPluginInit init)`
   - Creates a `TimeModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getWorldTimeResourceType()`
+- `getWorldTimeResourceType()`: Add description.
   - Executes `getWorldTimeResourceType` behavior.
-- `getTimeResourceType()`
+- `getTimeResourceType()`: Add description.
   - Executes `getTimeResourceType` behavior.
 
 ## Notes

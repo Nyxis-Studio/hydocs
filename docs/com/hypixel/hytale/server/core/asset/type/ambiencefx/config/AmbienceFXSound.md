@@ -1,33 +1,33 @@
+**Source Hash:** `b4ed37b7824b0e14689132bf1f80373acf4653ea05951751f69a791ec773c389`
+
 # AmbienceFXSound
 
 ## Overview
-- Documentation for `AmbienceFXSound`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.ambiencefx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXSound(String soundEventId, AmbienceFXSoundPlay3D play3D, String blockSoundSetId, AmbienceFXAltitude altitude, Rangef frequency, Range radius)`
   - Creates a `AmbienceFXSound` instance.
 - `AmbienceFXSound()`
   - Creates a `AmbienceFXSound` instance.
 
-## Methods
-- `getSoundEventId()`
+## Method Descriptions
+- `getSoundEventId()`: Add description.
   - Executes `getSoundEventId` behavior.
-- `getSoundEventIndex()`
+- `getSoundEventIndex()`: Add description.
   - Executes `getSoundEventIndex` behavior.
-- `getPlay3D()`
+- `getPlay3D()`: Add description.
   - Executes `getPlay3D` behavior.
-- `getBlockSoundSetId()`
+- `getBlockSoundSetId()`: Add description.
   - Executes `getBlockSoundSetId` behavior.
-- `getAltitude()`
+- `getAltitude()`: Add description.
   - Executes `getAltitude` behavior.
-- `getFrequency()`
+- `getFrequency()`: Add description.
   - Executes `getFrequency` behavior.
-- `getRadius()`
+- `getRadius()`: Add description.
   - Executes `getRadius` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

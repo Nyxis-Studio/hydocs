@@ -1,16 +1,16 @@
+**Source Hash:** `065351645cad9938de4ab3b73f6f099edce447007be54e75e18dab357e96fbce`
+
 # VoidEventStage
 
 ## Overview
-- Documentation for `VoidEventStage`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.components.voidevent.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSecondsInto()`
+## Method Descriptions
+- `getSecondsInto()`: Add description.
   - Executes `getSecondsInto` behavior.
-- `getForcedWeatherId()`
+- `getForcedWeatherId()`: Add description.
   - Executes `getForcedWeatherId` behavior.
 
 ## Notes

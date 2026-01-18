@@ -1,19 +1,19 @@
+**Source Hash:** `572dd1b8a6395c3bdcf1d28cd88681f87c0956485e2b4f04155e68778dbd1e53`
+
 # LoadOperationsFromAssetOperation
 
 ## Overview
-- Documentation for `LoadOperationsFromAssetOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.saveandload`.
 
-## Constructors
+## Constructor Descriptions
 - `LoadOperationsFromAssetOperation()`
   - Creates a `LoadOperationsFromAssetOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
-- `getAssetId()`
+- `getAssetId()`: Add description.
   - Executes `getAssetId` behavior.
-- `setAssetId(@Nonnull String assetId)`
+- `setAssetId(@Nonnull String assetId)`: Add description.
   - Executes `setAssetId` behavior.
 
 ## Notes

@@ -1,193 +1,193 @@
+**Source Hash:** `ec456a309d15dbee3a5a6c56b04e5b50c01c6c761da15ad786d7450daed0fc01`
+
 # EntityModule
 
 ## Overview
-- Documentation for `EntityModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityModule(@Nonnull JavaPluginInit init)`
   - Creates a `EntityModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `getMigrationSystemType()`
+- `getMigrationSystemType()`: Add description.
   - Executes `getMigrationSystemType` behavior.
-- `getPlayerComponentType()`
+- `getPlayerComponentType()`: Add description.
   - Executes `getPlayerComponentType` behavior.
-- `getFrozenComponentType()`
+- `getFrozenComponentType()`: Add description.
   - Executes `getFrozenComponentType` behavior.
-- `getChunkTrackerComponentType()`
+- `getChunkTrackerComponentType()`: Add description.
   - Executes `getChunkTrackerComponentType` behavior.
-- `getPlayerSkinComponentType()`
+- `getPlayerSkinComponentType()`: Add description.
   - Executes `getPlayerSkinComponentType` behavior.
-- `getDisplayNameComponentType()`
+- `getDisplayNameComponentType()`: Add description.
   - Executes `getDisplayNameComponentType` behavior.
-- `getApplyRandomSkinPersistedComponent()`
+- `getApplyRandomSkinPersistedComponent()`: Add description.
   - Executes `getApplyRandomSkinPersistedComponent` behavior.
-- `getEntityGroupComponentType()`
+- `getEntityGroupComponentType()`: Add description.
   - Executes `getEntityGroupComponentType` behavior.
-- `getPlayerSpatialResourceType()`
+- `getPlayerSpatialResourceType()`: Add description.
   - Executes `getPlayerSpatialResourceType` behavior.
-- `getItemSpatialResourceType()`
+- `getItemSpatialResourceType()`: Add description.
   - Executes `getItemSpatialResourceType` behavior.
-- `getNetworkSendableSpatialResourceType()`
+- `getNetworkSendableSpatialResourceType()`: Add description.
   - Executes `getNetworkSendableSpatialResourceType` behavior.
-- `getCollisionResultComponentType()`
+- `getCollisionResultComponentType()`: Add description.
   - Executes `getCollisionResultComponentType` behavior.
-- `getDamageDataComponentType()`
+- `getDamageDataComponentType()`: Add description.
   - Executes `getDamageDataComponentType` behavior.
-- `getKnockbackComponentType()`
+- `getKnockbackComponentType()`: Add description.
   - Executes `getKnockbackComponentType` behavior.
-- `getDespawnComponentType()`
+- `getDespawnComponentType()`: Add description.
   - Executes `getDespawnComponentType` behavior.
-- `getSnapshotBufferComponentType()`
+- `getSnapshotBufferComponentType()`: Add description.
   - Executes `getSnapshotBufferComponentType` behavior.
-- `getInteractableComponentType()`
+- `getInteractableComponentType()`: Add description.
   - Executes `getInteractableComponentType` behavior.
-- `getIntangibleComponentType()`
+- `getIntangibleComponentType()`: Add description.
   - Executes `getIntangibleComponentType` behavior.
-- `getPreventPickupComponentType()`
+- `getPreventPickupComponentType()`: Add description.
   - Executes `getPreventPickupComponentType` behavior.
-- `getInvulnerableComponentType()`
+- `getInvulnerableComponentType()`: Add description.
   - Executes `getInvulnerableComponentType` behavior.
-- `getRespondToHitComponentType()`
+- `getRespondToHitComponentType()`: Add description.
   - Executes `getRespondToHitComponentType` behavior.
-- `getHiddenFromAdventurePlayerComponentType()`
+- `getHiddenFromAdventurePlayerComponentType()`: Add description.
   - Executes `getHiddenFromAdventurePlayerComponentType` behavior.
-- `getFromPrefabComponentType()`
+- `getFromPrefabComponentType()`: Add description.
   - Executes `getFromPrefabComponentType` behavior.
-- `getFromWorldGenComponentType()`
+- `getFromWorldGenComponentType()`: Add description.
   - Executes `getFromWorldGenComponentType` behavior.
-- `getWorldGenIdComponentType()`
+- `getWorldGenIdComponentType()`: Add description.
   - Executes `getWorldGenIdComponentType` behavior.
-- `getMovementManagerComponentType()`
+- `getMovementManagerComponentType()`: Add description.
   - Executes `getMovementManagerComponentType` behavior.
-- `getNameplateComponentType()`
+- `getNameplateComponentType()`: Add description.
   - Executes `getNameplateComponentType` behavior.
-- `getPreClearMarkersGroup()`
+- `getPreClearMarkersGroup()`: Add description.
   - Executes `getPreClearMarkersGroup` behavior.
-- `getPersistentRefCountComponentType()`
+- `getPersistentRefCountComponentType()`: Add description.
   - Executes `getPersistentRefCountComponentType` behavior.
-- `getTransformComponentType()`
+- `getTransformComponentType()`: Add description.
   - Executes `getTransformComponentType` behavior.
-- `getHeadRotationComponentType()`
+- `getHeadRotationComponentType()`: Add description.
   - Executes `getHeadRotationComponentType` behavior.
-- `getNetworkIdComponentType()`
+- `getNetworkIdComponentType()`: Add description.
   - Executes `getNetworkIdComponentType` behavior.
-- `getEffectControllerComponentType()`
+- `getEffectControllerComponentType()`: Add description.
   - Executes `getEffectControllerComponentType` behavior.
-- `getMovementStatesComponentType()`
+- `getMovementStatesComponentType()`: Add description.
   - Executes `getMovementStatesComponentType` behavior.
-- `getBlockEntityComponentType()`
+- `getBlockEntityComponentType()`: Add description.
   - Executes `getBlockEntityComponentType` behavior.
-- `getEntityScaleComponentType()`
+- `getEntityScaleComponentType()`: Add description.
   - Executes `getEntityScaleComponentType` behavior.
-- `getCameraManagerComponentType()`
+- `getCameraManagerComponentType()`: Add description.
   - Executes `getCameraManagerComponentType` behavior.
-- `getUuidComponentType()`
+- `getUuidComponentType()`: Add description.
   - Executes `getUuidComponentType` behavior.
-- `getPlayerInputComponentType()`
+- `getPlayerInputComponentType()`: Add description.
   - Executes `getPlayerInputComponentType` behavior.
-- `getKnockbackSimulationComponentType()`
+- `getKnockbackSimulationComponentType()`: Add description.
   - Executes `getKnockbackSimulationComponentType` behavior.
-- `getTeleportComponentType()`
+- `getTeleportComponentType()`: Add description.
   - Executes `getTeleportComponentType` behavior.
-- `getProjectileComponentType()`
+- `getProjectileComponentType()`: Add description.
   - Executes `getProjectileComponentType` behavior.
-- `getPendingTeleportComponentType()`
+- `getPendingTeleportComponentType()`: Add description.
   - Executes `getPendingTeleportComponentType` behavior.
-- `getModelComponentType()`
+- `getModelComponentType()`: Add description.
   - Executes `getModelComponentType` behavior.
-- `getPersistentModelComponentType()`
+- `getPersistentModelComponentType()`: Add description.
   - Executes `getPersistentModelComponentType` behavior.
-- `getPropComponentType()`
+- `getPropComponentType()`: Add description.
   - Executes `getPropComponentType` behavior.
-- `getBoundingBoxComponentType()`
+- `getBoundingBoxComponentType()`: Add description.
   - Executes `getBoundingBoxComponentType` behavior.
-- `getHitboxCollisionComponentType()`
+- `getHitboxCollisionComponentType()`: Add description.
   - Executes `getHitboxCollisionComponentType` behavior.
-- `getVelocityComponentType()`
+- `getVelocityComponentType()`: Add description.
   - Executes `getVelocityComponentType` behavior.
-- `getPhysicsValuesComponentType()`
+- `getPhysicsValuesComponentType()`: Add description.
   - Executes `getPhysicsValuesComponentType` behavior.
-- `getRepulsionComponentType()`
+- `getRepulsionComponentType()`: Add description.
   - Executes `getRepulsionComponentType` behavior.
-- `getEntitySpatialResourceType()`
+- `getEntitySpatialResourceType()`: Add description.
   - Executes `getEntitySpatialResourceType` behavior.
-- `getItemComponentType()`
+- `getItemComponentType()`: Add description.
   - Executes `getItemComponentType` behavior.
-- `getPickupItemComponentType()`
+- `getPickupItemComponentType()`: Add description.
   - Executes `getPickupItemComponentType` behavior.
-- `getPreventItemMergingType()`
+- `getPreventItemMergingType()`: Add description.
   - Executes `getPreventItemMergingType` behavior.
-- `getItemPhysicsComponentType()`
+- `getItemPhysicsComponentType()`: Add description.
   - Executes `getItemPhysicsComponentType` behavior.
-- `getDynamicLightComponentType()`
+- `getDynamicLightComponentType()`: Add description.
   - Executes `getDynamicLightComponentType` behavior.
-- `getPersistentDynamicLightComponentType()`
+- `getPersistentDynamicLightComponentType()`: Add description.
   - Executes `getPersistentDynamicLightComponentType` behavior.
-- `getPrefabCopyableComponentType()`
+- `getPrefabCopyableComponentType()`: Add description.
   - Executes `getPrefabCopyableComponentType` behavior.
-- `getRotateObjectComponentType()`
+- `getRotateObjectComponentType()`: Add description.
   - Executes `getRotateObjectComponentType` behavior.
-- `getNewSpawnComponentType()`
+- `getNewSpawnComponentType()`: Add description.
   - Executes `getNewSpawnComponentType` behavior.
-- `onMovementConfigLoadedAssetsEvent(@Nonnull LoadedAssetsEvent<String, MovementConfig, DefaultAssetMap<String, MovementConfig>> event)`
+- `onMovementConfigLoadedAssetsEvent(@Nonnull LoadedAssetsEvent<String, MovementConfig, DefaultAssetMap<String, MovementConfig>> event)`: Add description.
   - Executes `onMovementConfigLoadedAssetsEvent` behavior.
-- `onGameplayConfigLoadedAssetsEvent(LoadedAssetsEvent<String, GameplayConfig, DefaultAssetMap<String, GameplayConfig>> event)`
+- `onGameplayConfigLoadedAssetsEvent(LoadedAssetsEvent<String, GameplayConfig, DefaultAssetMap<String, GameplayConfig>> event)`: Add description.
   - Executes `onGameplayConfigLoadedAssetsEvent` behavior.
-- `getAudioComponentType()`
+- `getAudioComponentType()`: Add description.
   - Executes `getAudioComponentType` behavior.
-- `getMovementAudioComponentType()`
+- `getMovementAudioComponentType()`: Add description.
   - Executes `getMovementAudioComponentType` behavior.
-- `getPositionDataComponentType()`
+- `getPositionDataComponentType()`: Add description.
   - Executes `getPositionDataComponentType` behavior.
-- `getPlayerSettingsComponentType()`
+- `getPlayerSettingsComponentType()`: Add description.
   - Executes `getPlayerSettingsComponentType` behavior.
-- `getUniqueItemUsagesComponentType()`
+- `getUniqueItemUsagesComponentType()`: Add description.
   - Executes `getUniqueItemUsagesComponentType` behavior.
-- `getActiveAnimationComponentType()`
+- `getActiveAnimationComponentType()`: Add description.
   - Executes `getActiveAnimationComponentType` behavior.
-- `registerEntity(@Nonnull String id, @Nonnull Class<T> clazz, Function<World, T> entityConstructor, @Nullable DirectDecodeCodec<T> codec)`
+- `registerEntity(@Nonnull String id, @Nonnull Class<T> clazz, Function<World, T> entityConstructor, @Nullable DirectDecodeCodec<T> codec)`: Add description.
   - Executes `registerEntity` behavior.
-- `unregisterEntity(Class<T> clazz)`
+- `unregisterEntity(Class<T> clazz)`: Add description.
   - Executes `unregisterEntity` behavior.
-- `getConstructor(@Nullable Class<T> entityClass)`
+- `getConstructor(@Nullable Class<T> entityClass)`: Add description.
   - Executes `getConstructor` behavior.
-- `getCodec(@Nullable Class<T> entityClass)`
+- `getCodec(@Nullable Class<T> entityClass)`: Add description.
   - Executes `getCodec` behavior.
-- `getIdentifier(@Nullable Class<? extends Entity> entityClass)`
+- `getIdentifier(@Nullable Class<? extends Entity> entityClass)`: Add description.
   - Executes `getIdentifier` behavior.
-- `getComponentType(@Nullable Class<T> entityClass)`
+- `getComponentType(@Nullable Class<T> entityClass)`: Add description.
   - Executes `getComponentType` behavior.
-- `isKnown(@Nullable Entity entity)`
+- `isKnown(@Nullable Entity entity)`: Add description.
   - Executes `isKnown` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<EntityStore> ref, UUIDComponent oldComponent, @Nonnull UUIDComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, UUIDComponent oldComponent, @Nonnull UUIDComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull UUIDComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<EntityStore> ref, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
 
 ## Notes

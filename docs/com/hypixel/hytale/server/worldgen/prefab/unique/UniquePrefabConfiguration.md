@@ -1,49 +1,49 @@
+**Source Hash:** `5d2c00a41856e4c2b32dd8194d4dc7a1401c615fea0ca2fcae0bb85d78722705`
+
 # UniquePrefabConfiguration
 
 ## Overview
-- Documentation for `UniquePrefabConfiguration`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.prefab.unique`.
 
-## Constructors
+## Constructor Descriptions
 - `UniquePrefabConfiguration(ICoordinateRndCondition heightCondition, BlockMaskCondition placementConfiguration, PrefabRotation[] rotations, IIntCondition biomeMask, ICoordinateCondition mapCondition, IBlockFluidCondition parent, Vector2d anchor, Vector3d spawnOffset, double maxDistance, boolean fitHeightmap, boolean submerge, boolean onWater, int environmentId, int maxAttempts, double exclusionRadius, boolean spawnLocation, double zoneBorderExclusion, boolean showOnMap)`
   - Creates a `UniquePrefabConfiguration` instance.
 
-## Methods
-- `getAnchor()`
+## Method Descriptions
+- `getAnchor()`: Add description.
   - Executes `getAnchor` behavior.
-- `getMaxDistance()`
+- `getMaxDistance()`: Add description.
   - Executes `getMaxDistance` behavior.
-- `getMapCondition()`
+- `getMapCondition()`: Add description.
   - Executes `getMapCondition` behavior.
-- `getPlacementConfiguration()`
+- `getPlacementConfiguration()`: Add description.
   - Executes `getPlacementConfiguration` behavior.
-- `getSpawnOffset()`
+- `getSpawnOffset()`: Add description.
   - Executes `getSpawnOffset` behavior.
-- `isValidParentBiome(@Nonnull Biome biome)`
+- `isValidParentBiome(@Nonnull Biome biome)`: Add description.
   - Executes `isValidParentBiome` behavior.
-- `isFitHeightmap()`
+- `isFitHeightmap()`: Add description.
   - Executes `isFitHeightmap` behavior.
-- `isSubmerge()`
+- `isSubmerge()`: Add description.
   - Executes `isSubmerge` behavior.
-- `isValidParentBlock(int block, int fluid)`
+- `isValidParentBlock(int block, int fluid)`: Add description.
   - Executes `isValidParentBlock` behavior.
-- `getHeightCondition()`
+- `getHeightCondition()`: Add description.
   - Executes `getHeightCondition` behavior.
-- `getRotation(@Nonnull Random random)`
+- `getRotation(@Nonnull Random random)`: Add description.
   - Executes `getRotation` behavior.
-- `isOnWater()`
+- `isOnWater()`: Add description.
   - Executes `isOnWater` behavior.
-- `getEnvironmentId()`
+- `getEnvironmentId()`: Add description.
   - Executes `getEnvironmentId` behavior.
-- `getMaxAttempts()`
+- `getMaxAttempts()`: Add description.
   - Executes `getMaxAttempts` behavior.
-- `getExclusionRadiusSquared()`
+- `getExclusionRadiusSquared()`: Add description.
   - Executes `getExclusionRadiusSquared` behavior.
-- `isSpawnLocation()`
+- `isSpawnLocation()`: Add description.
   - Executes `isSpawnLocation` behavior.
-- `getZoneBorderExclusion()`
+- `getZoneBorderExclusion()`: Add description.
   - Executes `getZoneBorderExclusion` behavior.
-- `isShowOnMap()`
+- `isShowOnMap()`: Add description.
   - Executes `isShowOnMap` behavior.
 
 ## Notes

@@ -1,22 +1,22 @@
+**Source Hash:** `494460547989850f6761461af0586c065afbe14eb01fcf8d3741a96c820c91eb`
+
 # DisabledWorldMapProvider
 
 ## Overview
-- Documentation for `DisabledWorldMapProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getGenerator(World world)`
+## Method Descriptions
+- `getGenerator(World world)`: Add description.
   - Executes `getGenerator` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getWorldMapSettings()`
+- `getWorldMapSettings()`: Add description.
   - Executes `getWorldMapSettings` behavior.
-- `generate(World world, int imageWidth, int imageHeight, LongSet chunksToGenerate)`
+- `generate(World world, int imageWidth, int imageHeight, LongSet chunksToGenerate)`: Add description.
   - Executes `generate` behavior.
-- `generatePointsOfInterest(World world)`
+- `generatePointsOfInterest(World world)`: Add description.
   - Executes `generatePointsOfInterest` behavior.
 
 ## Notes

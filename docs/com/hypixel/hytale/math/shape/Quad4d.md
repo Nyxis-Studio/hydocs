@@ -1,10 +1,10 @@
+**Source Hash:** `ee8f87ec2be6f168f4641c108c7acb20b057beb0194452d2e4169bc8dbb2965c`
+
 # Quad4d
 
 ## Overview
-- Documentation for `Quad4d`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Quad4d(Vector4d a, Vector4d b, Vector4d c, Vector4d d)`
   - Creates a `Quad4d` instance.
 - `Quad4d()`
@@ -14,40 +14,40 @@
 - `Quad4d(@Nonnull Vector4d[] points, int a, int b, int c, int d)`
   - Creates a `Quad4d` instance.
 
-## Methods
-- `isFullyInsideFrustum()`
+## Method Descriptions
+- `isFullyInsideFrustum()`: Add description.
   - Executes `isFullyInsideFrustum` behavior.
-- `getA()`
+- `getA()`: Add description.
   - Executes `getA` behavior.
-- `getB()`
+- `getB()`: Add description.
   - Executes `getB` behavior.
-- `getC()`
+- `getC()`: Add description.
   - Executes `getC` behavior.
-- `getD()`
+- `getD()`: Add description.
   - Executes `getD` behavior.
-- `get(int idx)`
+- `get(int idx)`: Add description.
   - Executes `get` behavior.
-- `getMin(int component)`
+- `getMin(int component)`: Add description.
   - Executes `getMin` behavior.
-- `getMax(int component)`
+- `getMax(int component)`: Add description.
   - Executes `getMax` behavior.
-- `multiply(@Nonnull Matrix4d matrix)`
+- `multiply(@Nonnull Matrix4d matrix)`: Add description.
   - Executes `multiply` behavior.
-- `multiply(@Nonnull Matrix4d matrix, @Nonnull Quad4d target)`
+- `multiply(@Nonnull Matrix4d matrix, @Nonnull Quad4d target)`: Add description.
   - Executes `multiply` behavior.
-- `to2d(@Nonnull Quad2d target)`
+- `to2d(@Nonnull Quad2d target)`: Add description.
   - Executes `to2d` behavior.
-- `getCenter()`
+- `getCenter()`: Add description.
   - Executes `getCenter` behavior.
-- `getCenter(@Nonnull Vector4d target)`
+- `getCenter(@Nonnull Vector4d target)`: Add description.
   - Executes `getCenter` behavior.
-- `perspectiveTransform()`
+- `perspectiveTransform()`: Add description.
   - Executes `perspectiveTransform` behavior.
-- `getRandom(@Nonnull Random random)`
+- `getRandom(@Nonnull Random random)`: Add description.
   - Executes `getRandom` behavior.
-- `getRandom(@Nonnull Random random, @Nonnull Vector4d target)`
+- `getRandom(@Nonnull Random random, @Nonnull Vector4d target)`: Add description.
   - Executes `getRandom` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

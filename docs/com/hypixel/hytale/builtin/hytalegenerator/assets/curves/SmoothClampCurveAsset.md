@@ -1,16 +1,16 @@
+**Source Hash:** `fd01a941a2161b8474274c1ecebd60b310eb2e8d653fc4f69baa19ace7d7be62`
+
 # SmoothClampCurveAsset
 
 ## Overview
-- Documentation for `SmoothClampCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

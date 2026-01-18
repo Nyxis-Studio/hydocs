@@ -1,16 +1,16 @@
+**Source Hash:** `f359fd8d5869dcaf77250beb7741736b87f9b13423fcfe32df5b202e88088c21`
+
 # CombatTextUIComponentOpacityAnimationEvent
 
 ## Overview
-- Documentation for `CombatTextUIComponentOpacityAnimationEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui.asset`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `generatePacket()`
+## Method Descriptions
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

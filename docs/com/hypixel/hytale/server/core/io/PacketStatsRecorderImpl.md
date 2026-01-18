@@ -1,67 +1,67 @@
+**Source Hash:** `0513ab7eb8cae1d3bd4684390de4c9427e91dcffdbcf10b97e2b904bd7d5f9b7`
+
 # PacketStatsRecorderImpl
 
 ## Overview
-- Documentation for `PacketStatsRecorderImpl`.
-- Declared as a class in `com.hypixel.hytale.server.core.io`.
 
-## Constructors
+## Constructor Descriptions
 - `PacketStatsRecorderImpl()`
   - Creates a `PacketStatsRecorderImpl` instance.
 
-## Methods
-- `recordSend(int packetId, int uncompressedSize, int compressedSize)`
+## Method Descriptions
+- `recordSend(int packetId, int uncompressedSize, int compressedSize)`: Add description.
   - Executes `recordSend` behavior.
-- `recordReceive(int packetId, int uncompressedSize, int compressedSize)`
+- `recordReceive(int packetId, int uncompressedSize, int compressedSize)`: Add description.
   - Executes `recordReceive` behavior.
-- `getEntry(int packetId)`
+- `getEntry(int packetId)`: Add description.
   - Executes `getEntry` behavior.
-- `pruneOld(Queue<SizeRecord> queue, long now)`
+- `pruneOld(Queue<SizeRecord> queue, long now)`: Add description.
   - Executes `pruneOld` behavior.
-- `hasData()`
+- `hasData()`: Add description.
   - Executes `hasData` behavior.
-- `getPacketId()`
+- `getPacketId()`: Add description.
   - Executes `getPacketId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getSentCount()`
+- `getSentCount()`: Add description.
   - Executes `getSentCount` behavior.
-- `getSentUncompressedTotal()`
+- `getSentUncompressedTotal()`: Add description.
   - Executes `getSentUncompressedTotal` behavior.
-- `getSentCompressedTotal()`
+- `getSentCompressedTotal()`: Add description.
   - Executes `getSentCompressedTotal` behavior.
-- `getSentUncompressedMin()`
+- `getSentUncompressedMin()`: Add description.
   - Executes `getSentUncompressedMin` behavior.
-- `getSentUncompressedMax()`
+- `getSentUncompressedMax()`: Add description.
   - Executes `getSentUncompressedMax` behavior.
-- `getSentCompressedMin()`
+- `getSentCompressedMin()`: Add description.
   - Executes `getSentCompressedMin` behavior.
-- `getSentCompressedMax()`
+- `getSentCompressedMax()`: Add description.
   - Executes `getSentCompressedMax` behavior.
-- `getSentUncompressedAvg()`
+- `getSentUncompressedAvg()`: Add description.
   - Executes `getSentUncompressedAvg` behavior.
-- `getSentCompressedAvg()`
+- `getSentCompressedAvg()`: Add description.
   - Executes `getSentCompressedAvg` behavior.
-- `getReceivedCount()`
+- `getReceivedCount()`: Add description.
   - Executes `getReceivedCount` behavior.
-- `getReceivedUncompressedTotal()`
+- `getReceivedUncompressedTotal()`: Add description.
   - Executes `getReceivedUncompressedTotal` behavior.
-- `getReceivedCompressedTotal()`
+- `getReceivedCompressedTotal()`: Add description.
   - Executes `getReceivedCompressedTotal` behavior.
-- `getReceivedUncompressedMin()`
+- `getReceivedUncompressedMin()`: Add description.
   - Executes `getReceivedUncompressedMin` behavior.
-- `getReceivedUncompressedMax()`
+- `getReceivedUncompressedMax()`: Add description.
   - Executes `getReceivedUncompressedMax` behavior.
-- `getReceivedCompressedMin()`
+- `getReceivedCompressedMin()`: Add description.
   - Executes `getReceivedCompressedMin` behavior.
-- `getReceivedCompressedMax()`
+- `getReceivedCompressedMax()`: Add description.
   - Executes `getReceivedCompressedMax` behavior.
-- `getReceivedUncompressedAvg()`
+- `getReceivedUncompressedAvg()`: Add description.
   - Executes `getReceivedUncompressedAvg` behavior.
-- `getReceivedCompressedAvg()`
+- `getReceivedCompressedAvg()`: Add description.
   - Executes `getReceivedCompressedAvg` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `SizeRecord(long nanos, int uncompressedSize, int compressedSize)`
+- `SizeRecord(long nanos, int uncompressedSize, int compressedSize)`: Add description.
   - Executes `SizeRecord` behavior.
 
 ## Notes

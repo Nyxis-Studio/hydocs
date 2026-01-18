@@ -1,10 +1,10 @@
+**Source Hash:** `e5ef9d99059d8db2708ba6911fd9835708858e15b5f2411137c1eab58428fd79`
+
 # BlockSetExistsValidator
 
 ## Overview
-- Documentation for `BlockSetExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockSetExistsValidator()`
   - Creates a `BlockSetExistsValidator` instance.
 - `BlockSetExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `BlockSetExistsValidator(config)`
   - Creates a `BlockSetExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String blockSet)`
+- `test(String blockSet)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String blockSet, String attribute)`
+- `errorMessage(String blockSet, String attribute)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

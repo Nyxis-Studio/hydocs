@@ -1,17 +1,17 @@
+**Source Hash:** `bbe91a0e283dd6c0b601b121636c59e234dd3e6262205345ae35952729cd6851`
+
 # ItemRepairPage
 
 ## Overview
-- Documentation for `ItemRepairPage`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.pages.itemrepair`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemRepairPage(@Nonnull PlayerRef playerRef, @Nonnull ItemContainer itemContainer, double repairPenalty, ItemContext heldItemContext)`
   - Creates a `ItemRepairPage` instance.
 
-## Methods
-- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `build` behavior.
-- `getItemElements(@Nonnull ItemContainer itemContainer, double repairPenalty, ItemContext heldItemContext)`
+- `getItemElements(@Nonnull ItemContainer itemContainer, double repairPenalty, ItemContext heldItemContext)`: Add description.
   - Executes `getItemElements` behavior.
 
 ## Notes

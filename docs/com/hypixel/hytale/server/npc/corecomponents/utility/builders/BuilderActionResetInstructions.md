@@ -1,24 +1,24 @@
+**Source Hash:** `aac0cf3c2dec310beef84c9cc3a4050e5c560f21ffaf7fcbab70f98736716b6a`
+
 # BuilderActionResetInstructions
 
 ## Overview
-- Documentation for `BuilderActionResetInstructions`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getInstructions(@Nonnull BuilderSupport support)`
+- `getInstructions(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInstructions` behavior.
 
 ## Notes

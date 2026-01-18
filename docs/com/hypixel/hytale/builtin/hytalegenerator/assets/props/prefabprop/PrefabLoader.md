@@ -1,18 +1,18 @@
+**Source Hash:** `86c886b14d25286da9edac878fc3d543bbcdac62525a0aa18fd619e487a4947a`
+
 # PrefabLoader
 
 ## Overview
-- Documentation for `PrefabLoader`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props.prefabprop`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `loadAllPrefabBuffersUnder(@Nonnull Path dirPath, List<PrefabBuffer> pathPrefabs)`
+## Method Descriptions
+- `loadAllPrefabBuffersUnder(@Nonnull Path dirPath, List<PrefabBuffer> pathPrefabs)`: Add description.
   - Executes `loadAllPrefabBuffersUnder` behavior.
-- `loadPrefabBufferAt(@Nonnull Path filePath)`
+- `loadPrefabBufferAt(@Nonnull Path filePath)`: Add description.
   - Executes `loadPrefabBufferAt` behavior.
-- `hasJsonExtension(@Nonnull Path path)`
+- `hasJsonExtension(@Nonnull Path path)`: Add description.
   - Executes `hasJsonExtension` behavior.
 
 ## Notes

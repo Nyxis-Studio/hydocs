@@ -1,24 +1,24 @@
+**Source Hash:** `47d9790ab9afa1220797203c198112cc0d26e780daf32c4c684e49e77969fc4d`
+
 # ChunkWorldgenBenchmark
 
 ## Overview
-- Documentation for `ChunkWorldgenBenchmark`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.benchmark`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `start()`
+## Method Descriptions
+- `start()`: Add description.
   - Executes `start` behavior.
-- `stop()`
+- `stop()`: Add description.
   - Executes `stop` behavior.
-- `buildReport()`
+- `buildReport()`: Add description.
   - Executes `buildReport` behavior.
-- `isEnabled()`
+- `isEnabled()`: Add description.
   - Executes `isEnabled` behavior.
-- `registerPrefab(String name)`
+- `registerPrefab(String name)`: Add description.
   - Executes `registerPrefab` behavior.
-- `registerCaveNode(String name)`
+- `registerCaveNode(String name)`: Add description.
   - Executes `registerCaveNode` behavior.
 
 ## Notes

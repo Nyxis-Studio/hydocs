@@ -1,53 +1,53 @@
+**Source Hash:** `3719ef33fb0ca326e1225dc6f645088f199dfe57e460435a77665f9c9c7c3b7b`
+
 # ClimateGraph
 
 ## Overview
-- Documentation for `ClimateGraph`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.climate`.
 
-## Constructors
+## Constructor Descriptions
 - `ClimateGraph(int resolution, @Nonnull ClimateType[] parents, @Nonnull FadeMode fadeMode, double fadeRadius, double fadeDistance)`
   - Creates a `ClimateGraph` instance.
 
-## Methods
-- `fadeRadius()`
+## Method Descriptions
+- `fadeRadius()`: Add description.
   - Executes `fadeRadius` behavior.
-- `fadeDistance()`
+- `fadeDistance()`: Add description.
   - Executes `fadeDistance` behavior.
-- `fadeMode()`
+- `fadeMode()`: Add description.
   - Executes `fadeMode` behavior.
-- `refresh()`
+- `refresh()`: Add description.
   - Executes `refresh` behavior.
-- `getParents()`
+- `getParents()`: Add description.
   - Executes `getParents` behavior.
-- `getChildren()`
+- `getChildren()`: Add description.
   - Executes `getChildren` behavior.
-- `getTable()`
+- `getTable()`: Add description.
   - Executes `getTable` behavior.
-- `getFade()`
+- `getFade()`: Add description.
   - Executes `getFade` behavior.
-- `indexOf(double x, double y)`
+- `indexOf(double x, double y)`: Add description.
   - Executes `indexOf` behavior.
-- `getId(int index)`
+- `getId(int index)`: Add description.
   - Executes `getId` behavior.
-- `getFade(int index)`
+- `getFade(int index)`: Add description.
   - Executes `getFade` behavior.
-- `getFadeRaw(int index)`
+- `getFadeRaw(int index)`: Add description.
   - Executes `getFadeRaw` behavior.
-- `getId(double x, double y)`
+- `getId(double x, double y)`: Add description.
   - Executes `getId` behavior.
-- `getFade(double x, double y)`
+- `getFade(double x, double y)`: Add description.
   - Executes `getFade` behavior.
-- `getFadeRaw(double x, double y)`
+- `getFadeRaw(double x, double y)`: Add description.
   - Executes `getFadeRaw` behavior.
-- `getType(double x, double y)`
+- `getType(double x, double y)`: Add description.
   - Executes `getType` behavior.
-- `validate(int id)`
+- `validate(int id)`: Add description.
   - Executes `validate` behavior.
-- `getType(int id)`
+- `getType(int id)`: Add description.
   - Executes `getType` behavior.
-- `populateTable(IntMap table, DoubleMap fade)`
+- `populateTable(IntMap table, DoubleMap fade)`: Add description.
   - Executes `populateTable` behavior.
-- `populatePixel(int x, int y, IntMap table, boolean recursive)`
+- `populatePixel(int x, int y, IntMap table, boolean recursive)`: Add description.
   - Executes `populatePixel` behavior.
 
 ## Notes

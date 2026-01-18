@@ -1,39 +1,39 @@
+**Source Hash:** `b86e4be030f9fcf5a62942890334ad01be11054cb6c9fce960eb004a317d4d76`
+
 # CoordinateRandomizer
 
 ## Overview
-- Documentation for `CoordinateRandomizer`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.random`.
 
-## Constructors
+## Constructor Descriptions
 - `CoordinateRandomizer(AmplitudeNoiseProperty[] xNoise, AmplitudeNoiseProperty[] yNoise, AmplitudeNoiseProperty[] zNoise)`
   - Creates a `CoordinateRandomizer` instance.
 
-## Methods
-- `getXNoise()`
+## Method Descriptions
+- `getXNoise()`: Add description.
   - Executes `getXNoise` behavior.
-- `getYNoise()`
+- `getYNoise()`: Add description.
   - Executes `getYNoise` behavior.
-- `getZNoise()`
+- `getZNoise()`: Add description.
   - Executes `getZNoise` behavior.
-- `randomDoubleX(int seed, double x, double y)`
+- `randomDoubleX(int seed, double x, double y)`: Add description.
   - Executes `randomDoubleX` behavior.
-- `randomDoubleY(int seed, double x, double y)`
+- `randomDoubleY(int seed, double x, double y)`: Add description.
   - Executes `randomDoubleY` behavior.
-- `randomDoubleX(int seed, double x, double y, double z)`
+- `randomDoubleX(int seed, double x, double y, double z)`: Add description.
   - Executes `randomDoubleX` behavior.
-- `randomDoubleY(int seed, double x, double y, double z)`
+- `randomDoubleY(int seed, double x, double y, double z)`: Add description.
   - Executes `randomDoubleY` behavior.
-- `randomDoubleZ(int seed, double x, double y, double z)`
+- `randomDoubleZ(int seed, double x, double y, double z)`: Add description.
   - Executes `randomDoubleZ` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getProperty()`
+- `getProperty()`: Add description.
   - Executes `getProperty` behavior.
-- `setProperty(NoiseProperty property)`
+- `setProperty(NoiseProperty property)`: Add description.
   - Executes `setProperty` behavior.
-- `getAmplitude()`
+- `getAmplitude()`: Add description.
   - Executes `getAmplitude` behavior.
-- `setAmplitude(double amplitude)`
+- `setAmplitude(double amplitude)`: Add description.
   - Executes `setAmplitude` behavior.
 
 ## Notes

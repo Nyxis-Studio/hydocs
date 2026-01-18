@@ -1,19 +1,19 @@
+**Source Hash:** `b435d71c6da4d0bf1064087a91d339ceb30c9ea228384873151e0a280044cbf2`
+
 # RegeneratingValue
 
 ## Overview
-- Documentation for `RegeneratingValue`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entitystats`.
 
-## Constructors
+## Constructor Descriptions
 - `RegeneratingValue(@Nonnull EntityStatType.Regenerating regenerating)`
   - Creates a `RegeneratingValue` instance.
 
-## Methods
-- `shouldRegenerate(@Nonnull ComponentAccessor<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime, float dt, @Nonnull EntityStatType.Regenerating regenerating)`
+## Method Descriptions
+- `shouldRegenerate(@Nonnull ComponentAccessor<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime, float dt, @Nonnull EntityStatType.Regenerating regenerating)`: Add description.
   - Executes `shouldRegenerate` behavior.
-- `regenerate(@Nonnull ComponentAccessor<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime, float dt, @Nonnull EntityStatValue value, float currentAmount)`
+- `regenerate(@Nonnull ComponentAccessor<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull Instant currentTime, float dt, @Nonnull EntityStatValue value, float currentAmount)`: Add description.
   - Executes `regenerate` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

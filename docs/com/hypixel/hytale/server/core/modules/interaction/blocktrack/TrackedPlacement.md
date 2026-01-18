@@ -1,10 +1,10 @@
+**Source Hash:** `a4de541a537223b714c4c2b49be1eae22fbf236b983cde3757b8328f8fb89507`
+
 # TrackedPlacement
 
 ## Overview
-- Documentation for `TrackedPlacement`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.blocktrack`.
 
-## Constructors
+## Constructor Descriptions
 - `TrackedPlacement()`
   - Creates a `TrackedPlacement` instance.
 - `TrackedPlacement(String blockName)`
@@ -12,16 +12,16 @@
 - `TrackedPlacement(this.blockName)`
   - Creates a `TrackedPlacement` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@Nonnull Ref<ChunkStore> ref, @Nonnull AddReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<ChunkStore> ref, @Nonnull RemoveReason reason, @Nonnull Store<ChunkStore> store, @Nonnull CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

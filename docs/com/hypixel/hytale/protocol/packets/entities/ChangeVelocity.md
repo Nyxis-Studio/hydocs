@@ -1,10 +1,10 @@
+**Source Hash:** `f50cf892cdc8ebc128b21ffe78d4357c53a44dcd3ff7952e546fd1cc37ec2020`
+
 # ChangeVelocity
 
 ## Overview
-- Documentation for `ChangeVelocity`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.entities`.
 
-## Constructors
+## Constructor Descriptions
 - `ChangeVelocity()`
   - Creates a `ChangeVelocity` instance.
 - `ChangeVelocity(float x, float y, float z, @Nonnull ChangeVelocityType changeType, @Nullable VelocityConfig config)`
@@ -12,24 +12,24 @@
 - `ChangeVelocity(@Nonnull ChangeVelocity other)`
   - Creates a `ChangeVelocity` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

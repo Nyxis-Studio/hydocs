@@ -1,28 +1,28 @@
+**Source Hash:** `452f4982996d17e3fffe4ecff265c15643555295479545d40089d273f063d902`
+
 # BuilderActionTriggerSpawnBeacon
 
 ## Overview
-- Documentation for `BuilderActionTriggerSpawnBeacon`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBeaconId(@Nonnull BuilderSupport support)`
+- `getBeaconId(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBeaconId` behavior.
-- `getRange(@Nonnull BuilderSupport support)`
+- `getRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRange` behavior.
-- `getTargetSlot(@Nonnull BuilderSupport support)`
+- `getTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetSlot` behavior.
 
 ## Notes

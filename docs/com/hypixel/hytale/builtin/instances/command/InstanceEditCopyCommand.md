@@ -1,15 +1,15 @@
+**Source Hash:** `fa17c555f1395600d076af900f22ea29ed28502b7b4f914d11bd25170d704011`
+
 # InstanceEditCopyCommand
 
 ## Overview
-- Documentation for `InstanceEditCopyCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.command`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceEditCopyCommand()`
   - Creates a `InstanceEditCopyCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

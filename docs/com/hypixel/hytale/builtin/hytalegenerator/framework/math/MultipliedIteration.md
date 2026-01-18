@@ -1,16 +1,16 @@
+**Source Hash:** `bf1e79d9a43bfe2f634ea36219b98c9095ba6ac284c4405ab9465f07193add57`
+
 # MultipliedIteration
 
 ## Overview
-- Documentation for `MultipliedIteration`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.framework.math`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `calculateMultiplier(double startValue, double endValue, int numberOfIterations, double precision)`
+## Method Descriptions
+- `calculateMultiplier(double startValue, double endValue, int numberOfIterations, double precision)`: Add description.
   - Executes `calculateMultiplier` behavior.
-- `calculateIterations(double multiplier, double startValue, double endValue)`
+- `calculateIterations(double multiplier, double startValue, double endValue)`: Add description.
   - Executes `calculateIterations` behavior.
 
 ## Notes

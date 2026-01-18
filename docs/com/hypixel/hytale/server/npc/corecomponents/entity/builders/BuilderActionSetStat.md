@@ -1,28 +1,28 @@
+**Source Hash:** `1ca51e776983389d263813b991a25c96a9914009f7595e5a335184728951df6d`
+
 # BuilderActionSetStat
 
 ## Overview
-- Documentation for `BuilderActionSetStat`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getStat(@Nonnull BuilderSupport support)`
+- `getStat(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getStat` behavior.
-- `getValue(@Nonnull BuilderSupport support)`
+- `getValue(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getValue` behavior.
-- `isAdd(@Nonnull BuilderSupport support)`
+- `isAdd(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isAdd` behavior.
 
 ## Notes

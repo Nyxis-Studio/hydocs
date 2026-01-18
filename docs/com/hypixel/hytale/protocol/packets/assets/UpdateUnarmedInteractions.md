@@ -1,10 +1,10 @@
+**Source Hash:** `7f24ba547f0f079464cb9252335b4cc7878cba3d381d23298df92bd87eb47bea`
+
 # UpdateUnarmedInteractions
 
 ## Overview
-- Documentation for `UpdateUnarmedInteractions`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateUnarmedInteractions()`
   - Creates a `UpdateUnarmedInteractions` instance.
 - `UpdateUnarmedInteractions(@Nonnull UpdateType type, @Nullable Map<InteractionType, Integer> interactions)`
@@ -12,24 +12,24 @@
 - `UpdateUnarmedInteractions(@Nonnull UpdateUnarmedInteractions other)`
   - Creates a `UpdateUnarmedInteractions` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `4a5a16430adf7caea6317bec9e6d232014b27abceb11eaa3a8aa66541474a6f6`
+
 # InterpolatedBiomeCountList
 
 ## Overview
-- Documentation for `InterpolatedBiomeCountList`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cache`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(@Nonnull Biome biome)`
+## Method Descriptions
+- `get(@Nonnull Biome biome)`: Add description.
   - Executes `get` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `setCenter(@Nonnull ZoneBiomeResult result)`
+- `setCenter(@Nonnull ZoneBiomeResult result)`: Add description.
   - Executes `setCenter` behavior.
-- `add(@Nonnull ZoneBiomeResult result, int distance2)`
+- `add(@Nonnull ZoneBiomeResult result, int distance2)`: Add description.
   - Executes `add` behavior.
-- `getBiomeIds()`
+- `getBiomeIds()`: Add description.
   - Executes `getBiomeIds` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

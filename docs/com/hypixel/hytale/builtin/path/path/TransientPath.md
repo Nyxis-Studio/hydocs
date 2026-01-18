@@ -1,27 +1,27 @@
+**Source Hash:** `03e3f2726ffe48897d0e09222e0ab4759e5d8e1c2ad199d4417e5096c31d6051`
+
 # TransientPath
 
 ## Overview
-- Documentation for `TransientPath`.
-- Declared as a class in `com.hypixel.hytale.builtin.path.path`.
 
-## Constructors
+## Constructor Descriptions
 - `TransientPath()`
   - Creates a `TransientPath` instance.
 
-## Methods
-- `addWaypoint(@Nonnull Vector3d position, @Nonnull Vector3f rotation)`
+## Method Descriptions
+- `addWaypoint(@Nonnull Vector3d position, @Nonnull Vector3f rotation)`: Add description.
   - Executes `addWaypoint` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getPathWaypoints()`
+- `getPathWaypoints()`: Add description.
   - Executes `getPathWaypoints` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `buildPath(@Nonnull Vector3d origin, @Nonnull Vector3f rotation, @Nonnull Queue<RelativeWaypointDefinition> instructions, double scale)`
+- `buildPath(@Nonnull Vector3d origin, @Nonnull Vector3f rotation, @Nonnull Queue<RelativeWaypointDefinition> instructions, double scale)`: Add description.
   - Executes `buildPath` behavior.
 
 ## Notes

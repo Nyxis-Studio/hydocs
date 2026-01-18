@@ -1,27 +1,27 @@
+**Source Hash:** `c18dc8396f40222d6e6e370bf61b09b15e6627e59fc9edc97a28491d7f684364`
+
 # DamageBlockEvent
 
 ## Overview
-- Documentation for `DamageBlockEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageBlockEvent(@Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull BlockType blockType, float currentDamage, float damage)`
   - Creates a `DamageBlockEvent` instance.
 
-## Methods
-- `getItemInHand()`
+## Method Descriptions
+- `getItemInHand()`: Add description.
   - Executes `getItemInHand` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `setTargetBlock(@Nonnull Vector3i targetBlock)`
+- `setTargetBlock(@Nonnull Vector3i targetBlock)`: Add description.
   - Executes `setTargetBlock` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `getCurrentDamage()`
+- `getCurrentDamage()`: Add description.
   - Executes `getCurrentDamage` behavior.
-- `getDamage()`
+- `getDamage()`: Add description.
   - Executes `getDamage` behavior.
-- `setDamage(float damage)`
+- `setDamage(float damage)`: Add description.
   - Executes `setDamage` behavior.
 
 ## Notes

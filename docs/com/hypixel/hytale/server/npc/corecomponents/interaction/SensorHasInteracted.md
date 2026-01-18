@@ -1,17 +1,17 @@
+**Source Hash:** `d0a686880efdf1dac52595e0977f94d827ffd1fe6494985df31c103c087267df`
+
 # SensorHasInteracted
 
 ## Overview
-- Documentation for `SensorHasInteracted`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorHasInteracted(@Nonnull BuilderSensorBase builderSensorBase)`
   - Creates a `SensorHasInteracted` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

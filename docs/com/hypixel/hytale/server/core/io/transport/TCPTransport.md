@@ -1,19 +1,19 @@
+**Source Hash:** `82b3e6ca334f1c5c34694fdd669a3886d3a8e475ac688904b3e6a1d9d16daa91`
+
 # TCPTransport
 
 ## Overview
-- Documentation for `TCPTransport`.
-- Declared as a class in `com.hypixel.hytale.server.core.io.transport`.
 
-## Constructors
+## Constructor Descriptions
 - `TCPTransport()`
   - Creates a `TCPTransport` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `bind(InetSocketAddress address)`
+- `bind(InetSocketAddress address)`: Add description.
   - Executes `bind` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `ec58bd950034a0f107c30df665854a735b8a7cddafefeef9c268b0fa57732715`
+
 # EmptyLineCaveNodeShapeGeneratorJsonLoader
 
 ## Overview
-- Documentation for `EmptyLineCaveNodeShapeGeneratorJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyLineCaveNodeShapeGeneratorJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json)`
   - Creates a `EmptyLineCaveNodeShapeGeneratorJsonLoader` instance.
 
-## Methods
-- `loadLength()`
+## Method Descriptions
+- `loadLength()`: Add description.
   - Executes `loadLength` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `f2f09e55560e1460700ec05b95e24ec4103934b33d6a0aad62dcc697da23dd63`
+
 # BreakpointOperation
 
 ## Overview
-- Documentation for `BreakpointOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential`.
 
-## Constructors
+## Constructor Descriptions
 - `BreakpointOperation()`
   - Creates a `BreakpointOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor executor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor executor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
-- `shouldSendToChat(BrushConfigCommandExecutor.DebugOutputTarget target)`
+- `shouldSendToChat(BrushConfigCommandExecutor.DebugOutputTarget target)`: Add description.
   - Executes `shouldSendToChat` behavior.
-- `shouldSendToConsole(BrushConfigCommandExecutor.DebugOutputTarget target)`
+- `shouldSendToConsole(BrushConfigCommandExecutor.DebugOutputTarget target)`: Add description.
   - Executes `shouldSendToConsole` behavior.
 
 ## Notes

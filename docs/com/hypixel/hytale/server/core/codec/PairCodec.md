@@ -1,22 +1,22 @@
+**Source Hash:** `ec04cdc537204cec14ab78cda62bc3e7cb6fa3731d5340bb33ad4afb068cbdce`
+
 # PairCodec
 
 ## Overview
-- Documentation for `PairCodec`.
-- Declared as a class in `com.hypixel.hytale.server.core.codec`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toPair()`
+## Method Descriptions
+- `toPair()`: Add description.
   - Executes `toPair` behavior.
-- `fromPair(@Nonnull Pair<Integer, String> pair)`
+- `fromPair(@Nonnull Pair<Integer, String> pair)`: Add description.
   - Executes `fromPair` behavior.
-- `getLeft()`
+- `getLeft()`: Add description.
   - Executes `getLeft` behavior.
-- `getRight()`
+- `getRight()`: Add description.
   - Executes `getRight` behavior.
-- `fromPair(@Nonnull Pair<Integer, Integer> pair)`
+- `fromPair(@Nonnull Pair<Integer, Integer> pair)`: Add description.
   - Executes `fromPair` behavior.
 
 ## Notes

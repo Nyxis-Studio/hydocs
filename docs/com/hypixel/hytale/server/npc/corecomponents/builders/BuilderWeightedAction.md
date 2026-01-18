@@ -1,32 +1,32 @@
+**Source Hash:** `a386ae6efbf2997c4eec587e32515503c43055406fd9fec43f919a334e25dbed`
+
 # BuilderWeightedAction
 
 ## Overview
-- Documentation for `BuilderWeightedAction`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `getAction(@Nonnull BuilderSupport support)`
+- `getAction(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAction` behavior.
-- `getWeight(@Nonnull BuilderSupport support)`
+- `getWeight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getWeight` behavior.
 
 ## Notes

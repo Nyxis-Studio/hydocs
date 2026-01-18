@@ -1,21 +1,21 @@
+**Source Hash:** `65635e08e6fadb560a1dc5410047d158033a1e36e1742390a1666e77156b40c2`
+
 # SpawnSuppressionController
 
 ## Overview
-- Documentation for `SpawnSuppressionController`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.suppression.component`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnSuppressionController()`
   - Creates a `SpawnSuppressionController` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getSpawnSuppressorMap()`
+- `getSpawnSuppressorMap()`: Add description.
   - Executes `getSpawnSuppressorMap` behavior.
-- `getChunkSuppressionMap()`
+- `getChunkSuppressionMap()`: Add description.
   - Executes `getChunkSuppressionMap` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

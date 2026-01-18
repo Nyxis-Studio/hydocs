@@ -1,33 +1,33 @@
+**Source Hash:** `f27dc06f079efe2231e9613d2f642083b3b3ac4929871dd32a1d58814844739b`
+
 # MoveTransaction
 
 ## Overview
-- Documentation for `MoveTransaction`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `MoveTransaction(boolean succeeded, @Nonnull SlotTransaction removeTransaction, @Nonnull MoveType moveType, @Nonnull ItemContainer otherContainer, T addTransaction)`
   - Creates a `MoveTransaction` instance.
 
-## Methods
-- `succeeded()`
+## Method Descriptions
+- `succeeded()`: Add description.
   - Executes `succeeded` behavior.
-- `getRemoveTransaction()`
+- `getRemoveTransaction()`: Add description.
   - Executes `getRemoveTransaction` behavior.
-- `getMoveType()`
+- `getMoveType()`: Add description.
   - Executes `getMoveType` behavior.
-- `getOtherContainer()`
+- `getOtherContainer()`: Add description.
   - Executes `getOtherContainer` behavior.
-- `getAddTransaction()`
+- `getAddTransaction()`: Add description.
   - Executes `getAddTransaction` behavior.
-- `toInverted(@Nonnull ItemContainer itemContainer)`
+- `toInverted(@Nonnull ItemContainer itemContainer)`: Add description.
   - Executes `toInverted` behavior.
-- `wasSlotModified(short slot)`
+- `wasSlotModified(short slot)`: Add description.
   - Executes `wasSlotModified` behavior.
-- `toParent(ItemContainer parent, short start, ItemContainer container)`
+- `toParent(ItemContainer parent, short start, ItemContainer container)`: Add description.
   - Executes `toParent` behavior.
-- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`
+- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`: Add description.
   - Executes `fromParent` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

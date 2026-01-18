@@ -1,45 +1,45 @@
+**Source Hash:** `c97084e08d7bcdd4d8ce7e49503c6108ec8358c918a460b28cc70dbd3d219e15`
+
 # I18nModule
 
 ## Overview
-- Documentation for `I18nModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n`.
 
-## Constructors
+## Constructor Descriptions
 - `I18nModule(@Nonnull JavaPluginInit parent)`
   - Creates a `I18nModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `loadMessagesFromPack(AssetPack pack)`
+- `loadMessagesFromPack(AssetPack pack)`: Add description.
   - Executes `loadMessagesFromPack` behavior.
-- `getUpdatePacketsForChanges(String languageKey, @Nonnull Map<String, Map<String, String>> changed, @Nonnull Map<String, Map<String, String>> removed)`
+- `getUpdatePacketsForChanges(String languageKey, @Nonnull Map<String, Map<String, String>> changed, @Nonnull Map<String, Map<String, String>> removed)`: Add description.
   - Executes `getUpdatePacketsForChanges` behavior.
-- `addDefaultMessages(@Nonnull Map<String, String> messages, boolean isInitial)`
+- `addDefaultMessages(@Nonnull Map<String, String> messages, boolean isInitial)`: Add description.
   - Executes `addDefaultMessages` behavior.
-- `loadMessages(String languageKey, @Nonnull Path languagePath)`
+- `loadMessages(String languageKey, @Nonnull Path languagePath)`: Add description.
   - Executes `loadMessages` behavior.
-- `loadMessagesFrom(@Nonnull Map<String, String> messages, String prefix, @Nonnull Path path)`
+- `loadMessagesFrom(@Nonnull Map<String, String> messages, String prefix, @Nonnull Path path)`: Add description.
   - Executes `loadMessagesFrom` behavior.
-- `getPrefix(@Nonnull Path languagePath, @Nonnull Path path)`
+- `getPrefix(@Nonnull Path languagePath, @Nonnull Path path)`: Add description.
   - Executes `getPrefix` behavior.
-- `getMessages(String language)`
+- `getMessages(String language)`: Add description.
   - Executes `getMessages` behavior.
-- `getMessages(@Nonnull Map<String, Map<String, String>> languageMap, @Nullable String language)`
+- `getMessages(@Nonnull Map<String, Map<String, String>> languageMap, @Nullable String language)`: Add description.
   - Executes `getMessages` behavior.
-- `sendTranslations(@Nonnull PacketHandler packetHandler, String language)`
+- `sendTranslations(@Nonnull PacketHandler packetHandler, String language)`: Add description.
   - Executes `sendTranslations` behavior.
-- `getMessage(String language, @Nonnull String key)`
+- `getMessage(String language, @Nonnull String key)`: Add description.
   - Executes `getMessage` behavior.
-- `getKey()`
+- `getKey()`: Add description.
   - Executes `getKey` behavior.
-- `test(Path path, EventKind eventKind)`
+- `test(Path path, EventKind eventKind)`: Add description.
   - Executes `test` behavior.
-- `accept(Map<Path, EventKind> map)`
+- `accept(Map<Path, EventKind> map)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

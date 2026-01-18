@@ -1,15 +1,15 @@
+**Source Hash:** `aef52a1d84cc99ff66631363c4504e27f2d3070002d835393e0f1dc38527133a`
+
 # WorldSpawnPoint
 
 ## Overview
-- Documentation for `WorldSpawnPoint`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay.respawn`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldSpawnPoint()`
   - Creates a `WorldSpawnPoint` instance.
 
-## Methods
-- `respawnPlayer(@NonNullDecl World world, @NonNullDecl Ref<EntityStore> playerReference, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `respawnPlayer(@NonNullDecl World world, @NonNullDecl Ref<EntityStore> playerReference, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `respawnPlayer` behavior.
 
 ## Notes

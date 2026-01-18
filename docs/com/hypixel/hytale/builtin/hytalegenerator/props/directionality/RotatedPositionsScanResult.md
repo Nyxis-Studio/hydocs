@@ -1,17 +1,17 @@
+**Source Hash:** `d659c87b52d7b9580847090e5a6a812e2e0915de9901f98b302dbbb6fbaadc4c`
+
 # RotatedPositionsScanResult
 
 ## Overview
-- Documentation for `RotatedPositionsScanResult`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.props.directionality`.
 
-## Constructors
+## Constructor Descriptions
 - `RotatedPositionsScanResult(@Nonnull List<RotatedPosition> positions)`
   - Creates a `RotatedPositionsScanResult` instance.
 
-## Methods
-- `cast(ScanResult scanResult)`
+## Method Descriptions
+- `cast(ScanResult scanResult)`: Add description.
   - Executes `cast` behavior.
-- `isNegative()`
+- `isNegative()`: Add description.
   - Executes `isNegative` behavior.
 
 ## Notes

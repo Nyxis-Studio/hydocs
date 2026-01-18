@@ -1,19 +1,19 @@
+**Source Hash:** `e65a2f2f45ff33041337499ec1298f64db7e4fad8b02fb2c134daa5b87e6f499`
+
 # SystemChange
 
 ## Overview
-- Documentation for `SystemChange`.
-- Declared as a class in `com.hypixel.hytale.component.data.change`.
 
-## Constructors
+## Constructor Descriptions
 - `SystemChange(ChangeType type, ISystem<ECS_TYPE> system)`
   - Creates a `SystemChange` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getSystem()`
+- `getSystem()`: Add description.
   - Executes `getSystem` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `0d1f9244030ffd9236df8ac43a37129c2740f13fdb1542d95c28428e3a96c57b`
+
 # SpawnRejection
 
 ## Overview
-- Documentation for `SpawnRejection`.
-- Declared as a enum in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

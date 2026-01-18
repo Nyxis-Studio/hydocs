@@ -1,18 +1,18 @@
+**Source Hash:** `87c6cfcf30a0d69f0ed073bdb6e129101882b602c5c99439cd107216f9dd5feb`
+
 # FileMaskCache
 
 ## Overview
-- Documentation for `FileMaskCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIfPresentFileMask(String filename)`
+## Method Descriptions
+- `getIfPresentFileMask(String filename)`: Add description.
   - Executes `getIfPresentFileMask` behavior.
-- `putFileMask(String filename, T value)`
+- `putFileMask(String filename, T value)`: Add description.
   - Executes `putFileMask` behavior.
-- `cachedFile(String filename, @Nonnull Function<String, JsonElement> function)`
+- `cachedFile(String filename, @Nonnull Function<String, JsonElement> function)`: Add description.
   - Executes `cachedFile` behavior.
 
 ## Notes

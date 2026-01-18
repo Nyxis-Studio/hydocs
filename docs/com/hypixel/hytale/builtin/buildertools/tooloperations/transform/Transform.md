@@ -1,16 +1,16 @@
+**Source Hash:** `aef24830f3bc11701727d22388b2f5fc63d75f5a0ae7af34668b58f30b915ebf`
+
 # Transform
 
 ## Overview
-- Documentation for `Transform`.
-- Declared as a interface in `com.hypixel.hytale.builtin.buildertools.tooloperations.transform`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(Vector3i var1)`
+## Method Descriptions
+- `apply(Vector3i var1)`: Add description.
   - Executes `apply` behavior.
-- `then(Transform next)`
+- `then(Transform next)`: Add description.
   - Executes `then` behavior.
 
 ## Notes

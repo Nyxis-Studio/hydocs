@@ -1,18 +1,18 @@
+**Source Hash:** `aac0e31c19f6e886e5d353b5312e8478c510a3120da678ff71b66622cad88788`
+
 # BuilderActionWithDelay
 
 ## Overview
-- Documentation for `BuilderActionWithDelay`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `readCommonConfig(@Nonnull JsonElement data)`
+## Method Descriptions
+- `readCommonConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readCommonConfig` behavior.
-- `getDelayRange(@Nonnull BuilderSupport support)`
+- `getDelayRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDelayRange` behavior.
-- `getDefaultTimeoutRange()`
+- `getDefaultTimeoutRange()`: Add description.
   - Executes `getDefaultTimeoutRange` behavior.
 
 ## Notes

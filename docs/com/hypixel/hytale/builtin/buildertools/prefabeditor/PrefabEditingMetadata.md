@@ -1,51 +1,51 @@
+**Source Hash:** `8219fc65f879aed6f7d137ce59ea438edd20f6f44785ed335fa247b6aacf123a`
+
 # PrefabEditingMetadata
 
 ## Overview
-- Documentation for `PrefabEditingMetadata`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditingMetadata()`
   - Creates a `PrefabEditingMetadata` instance.
 - `PrefabEditingMetadata(@Nonnull Path prefabPath, @Nonnull Vector3i minPoint, @Nonnull Vector3i maxPoint, @Nonnull Vector3i anchorPoint, @Nonnull Vector3i pastePosition, @Nonnull World world)`
   - Creates a `PrefabEditingMetadata` instance.
 
-## Methods
-- `createAnchorEntityAt(@Nonnull Vector3i position, @Nonnull World world)`
+## Method Descriptions
+- `createAnchorEntityAt(@Nonnull Vector3i position, @Nonnull World world)`: Add description.
   - Executes `createAnchorEntityAt` behavior.
-- `setPrefabPath(@Nonnull Path prefabPath)`
+- `setPrefabPath(@Nonnull Path prefabPath)`: Add description.
   - Executes `setPrefabPath` behavior.
-- `setAnchorPoint(@Nonnull Vector3i newEntityPosition, @Nonnull World world)`
+- `setAnchorPoint(@Nonnull Vector3i newEntityPosition, @Nonnull World world)`: Add description.
   - Executes `setAnchorPoint` behavior.
-- `recreateAnchorEntity(@Nonnull World world)`
+- `recreateAnchorEntity(@Nonnull World world)`: Add description.
   - Executes `recreateAnchorEntity` behavior.
-- `sendAnchorHighlightingPacket(@Nonnull PacketHandler displayTo)`
+- `sendAnchorHighlightingPacket(@Nonnull PacketHandler displayTo)`: Add description.
   - Executes `sendAnchorHighlightingPacket` behavior.
-- `isLocationWithinPrefabBoundingBox(@Nonnull Vector3i location)`
+- `isLocationWithinPrefabBoundingBox(@Nonnull Vector3i location)`: Add description.
   - Executes `isLocationWithinPrefabBoundingBox` behavior.
-- `getAnchorPoint()`
+- `getAnchorPoint()`: Add description.
   - Executes `getAnchorPoint` behavior.
-- `getPastePosition()`
+- `getPastePosition()`: Add description.
   - Executes `getPastePosition` behavior.
-- `getOriginalFileAnchor()`
+- `getOriginalFileAnchor()`: Add description.
   - Executes `getOriginalFileAnchor` behavior.
-- `getPrefabPath()`
+- `getPrefabPath()`: Add description.
   - Executes `getPrefabPath` behavior.
-- `getMinPoint()`
+- `getMinPoint()`: Add description.
   - Executes `getMinPoint` behavior.
-- `getMaxPoint()`
+- `getMaxPoint()`: Add description.
   - Executes `getMaxPoint` behavior.
-- `getAnchorEntityUuid()`
+- `getAnchorEntityUuid()`: Add description.
   - Executes `getAnchorEntityUuid` behavior.
-- `getAnchorEntityPosition()`
+- `getAnchorEntityPosition()`: Add description.
   - Executes `getAnchorEntityPosition` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `isDirty()`
+- `isDirty()`: Add description.
   - Executes `isDirty` behavior.
-- `setDirty(boolean dirty)`
+- `setDirty(boolean dirty)`: Add description.
   - Executes `setDirty` behavior.
-- `isReadOnly()`
+- `isReadOnly()`: Add description.
   - Executes `isReadOnly` behavior.
 
 ## Notes

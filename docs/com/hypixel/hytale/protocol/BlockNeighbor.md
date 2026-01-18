@@ -1,17 +1,17 @@
+**Source Hash:** `94faad178a0281458707aca1654849781aebfcd02b22fea68d61757c4a562be4`
+
 # BlockNeighbor
 
 ## Overview
-- Documentation for `BlockNeighbor`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockNeighbor(int value)`
   - Creates a `BlockNeighbor` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

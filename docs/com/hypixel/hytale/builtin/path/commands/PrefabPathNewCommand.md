@@ -1,15 +1,15 @@
+**Source Hash:** `2d544f835b3f7549f49fc7065f636c8fee04f42ffac349f87ac6c775d357d2b6`
+
 # PrefabPathNewCommand
 
 ## Overview
-- Documentation for `PrefabPathNewCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.path.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabPathNewCommand()`
   - Creates a `PrefabPathNewCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

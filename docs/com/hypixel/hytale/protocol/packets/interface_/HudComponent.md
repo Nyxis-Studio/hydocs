@@ -1,17 +1,17 @@
+**Source Hash:** `e018eac3ad197031c30388924fbf3cadf2208e778e827da77fbaa060b6b35a18`
+
 # HudComponent
 
 ## Overview
-- Documentation for `HudComponent`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `HudComponent(int value)`
   - Creates a `HudComponent` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

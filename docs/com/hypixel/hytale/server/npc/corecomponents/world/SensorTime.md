@@ -1,17 +1,17 @@
+**Source Hash:** `f1fc71598a02377ba3d8fe3c5cf136160b441fbabe6208f72638d8a81d0d238b`
+
 # SensorTime
 
 ## Overview
-- Documentation for `SensorTime`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorTime(@Nonnull BuilderSensorTime builderSensorTime, @Nonnull BuilderSupport support)`
   - Creates a `SensorTime` instance.
 
-## Methods
-- `getSensorInfo()`
+## Method Descriptions
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
 
 ## Notes

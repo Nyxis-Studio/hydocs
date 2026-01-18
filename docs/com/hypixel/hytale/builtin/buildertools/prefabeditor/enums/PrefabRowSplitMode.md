@@ -1,15 +1,15 @@
+**Source Hash:** `6db976f42ed504e70f899434251bd551e1df4d755a82aa8ff004ebb0ad4aee84`
+
 # PrefabRowSplitMode
 
 ## Overview
-- Documentation for `PrefabRowSplitMode`.
-- Declared as a enum in `com.hypixel.hytale.builtin.buildertools.prefabeditor.enums`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabRowSplitMode(String localizationString)`
   - Creates a `PrefabRowSplitMode` instance.
 
-## Methods
-- `getLocalizationString()`
+## Method Descriptions
+- `getLocalizationString()`: Add description.
   - Executes `getLocalizationString` behavior.
 
 ## Notes

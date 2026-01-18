@@ -1,27 +1,27 @@
+**Source Hash:** `9d48a81b956fb16b0f6896c79e7856ef381045acf7b17ce489481afb3e5f45a8`
+
 # SpawnEntityTransactionRecord
 
 ## Overview
-- Documentation for `SpawnEntityTransactionRecord`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnEntityTransactionRecord(@Nonnull UUID worldUUID, @Nonnull UUID entityUUID)`
   - Creates a `SpawnEntityTransactionRecord` instance.
 - `SpawnEntityTransactionRecord()`
   - Creates a `SpawnEntityTransactionRecord` instance.
 
-## Methods
-- `revert()`
+## Method Descriptions
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
-- `removeEntity()`
+- `removeEntity()`: Add description.
   - Executes `removeEntity` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

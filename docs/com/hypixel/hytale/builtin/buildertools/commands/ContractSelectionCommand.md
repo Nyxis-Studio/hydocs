@@ -1,15 +1,15 @@
+**Source Hash:** `ed6c076566471152b7d129cd012d34742c2b4477ae21efa08d4b94316ee28463`
+
 # ContractSelectionCommand
 
 ## Overview
-- Documentation for `ContractSelectionCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `ContractSelectionCommand()`
   - Creates a `ContractSelectionCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

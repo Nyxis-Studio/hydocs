@@ -1,10 +1,10 @@
+**Source Hash:** `6f37174fa2efca0c6a79e8639e3c643a08724de92d2f579952da9427cd128d37`
+
 # MountedComponent
 
 ## Overview
-- Documentation for `MountedComponent`.
-- Declared as a class in `com.hypixel.hytale.builtin.mounts`.
 
-## Constructors
+## Constructor Descriptions
 - `MountedComponent(Ref<EntityStore> mountedToEntity, Vector3f attachmentOffset, MountController controller)`
   - Creates a `MountedComponent` instance.
 - `MountedComponent(Ref<ChunkStore> mountedToBlock, Vector3f attachmentOffset, BlockMountType blockMountType)`
@@ -12,24 +12,24 @@
 - `MountedComponent(this.mountedToEntity, this.attachmentOffset, this.controller)`
   - Creates a `MountedComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getMountedToEntity()`
+- `getMountedToEntity()`: Add description.
   - Executes `getMountedToEntity` behavior.
-- `getMountedToBlock()`
+- `getMountedToBlock()`: Add description.
   - Executes `getMountedToBlock` behavior.
-- `getAttachmentOffset()`
+- `getAttachmentOffset()`: Add description.
   - Executes `getAttachmentOffset` behavior.
-- `getControllerType()`
+- `getControllerType()`: Add description.
   - Executes `getControllerType` behavior.
-- `getBlockMountType()`
+- `getBlockMountType()`: Add description.
   - Executes `getBlockMountType` behavior.
-- `getMountedDurationMs()`
+- `getMountedDurationMs()`: Add description.
   - Executes `getMountedDurationMs` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

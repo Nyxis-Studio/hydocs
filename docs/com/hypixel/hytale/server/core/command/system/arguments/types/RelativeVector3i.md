@@ -1,10 +1,10 @@
+**Source Hash:** `d20e0bc8a6e35d858afcf1ebf0767c1b0d97dbad5bcf816e29347c5814a616d5`
+
 # RelativeVector3i
 
 ## Overview
-- Documentation for `RelativeVector3i`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeVector3i(new RelativeInteger(0, false)`
   - Creates a `RelativeVector3i` instance.
 - `RelativeVector3i(RelativeInteger x, RelativeInteger y, RelativeInteger z)`
@@ -12,18 +12,18 @@
 - `RelativeVector3i()`
   - Creates a `RelativeVector3i` instance.
 
-## Methods
-- `resolve(int xBase, int yBase, int zBase)`
+## Method Descriptions
+- `resolve(int xBase, int yBase, int zBase)`: Add description.
   - Executes `resolve` behavior.
-- `resolve(@Nonnull Vector3i base)`
+- `resolve(@Nonnull Vector3i base)`: Add description.
   - Executes `resolve` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `isRelativeX()`
+- `isRelativeX()`: Add description.
   - Executes `isRelativeX` behavior.
-- `isRelativeY()`
+- `isRelativeY()`: Add description.
   - Executes `isRelativeY` behavior.
-- `isRelativeZ()`
+- `isRelativeZ()`: Add description.
   - Executes `isRelativeZ` behavior.
 
 ## Notes

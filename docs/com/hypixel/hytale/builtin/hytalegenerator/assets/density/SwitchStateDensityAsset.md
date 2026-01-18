@@ -1,16 +1,16 @@
+**Source Hash:** `66a34a7751f332869721566e3e3018db504d40fef46c5892349cd89275e187cc`
+
 # SwitchStateDensityAsset
 
 ## Overview
-- Documentation for `SwitchStateDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

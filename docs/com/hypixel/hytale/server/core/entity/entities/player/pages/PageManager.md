@@ -1,32 +1,32 @@
+**Source Hash:** `4f56a8c5f9a44b4daf4e6037f633c4cde56e0ade2d6de5b4127fcd067ffb78fa`
+
 # PageManager
 
 ## Overview
-- Documentation for `PageManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.pages`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `init(@Nonnull PlayerRef playerRef, @Nonnull WindowManager windowManager)`
+## Method Descriptions
+- `init(@Nonnull PlayerRef playerRef, @Nonnull WindowManager windowManager)`: Add description.
   - Executes `init` behavior.
-- `clearCustomPageAcknowledgements()`
+- `clearCustomPageAcknowledgements()`: Add description.
   - Executes `clearCustomPageAcknowledgements` behavior.
-- `getCustomPage()`
+- `getCustomPage()`: Add description.
   - Executes `getCustomPage` behavior.
-- `setPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page)`
+- `setPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page)`: Add description.
   - Executes `setPage` behavior.
-- `setPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page, boolean canCloseThroughInteraction)`
+- `setPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page, boolean canCloseThroughInteraction)`: Add description.
   - Executes `setPage` behavior.
-- `openCustomPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomUIPage page)`
+- `openCustomPage(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomUIPage page)`: Add description.
   - Executes `openCustomPage` behavior.
-- `setPageWithWindows(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page, boolean canCloseThroughInteraction, Window ... windows)`
+- `setPageWithWindows(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull Page page, boolean canCloseThroughInteraction, Window ... windows)`: Add description.
   - Executes `setPageWithWindows` behavior.
-- `openCustomPageWithWindows(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomUIPage page, Window ... windows)`
+- `openCustomPageWithWindows(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomUIPage page, Window ... windows)`: Add description.
   - Executes `openCustomPageWithWindows` behavior.
-- `updateCustomPage(@Nonnull CustomPage page)`
+- `updateCustomPage(@Nonnull CustomPage page)`: Add description.
   - Executes `updateCustomPage` behavior.
-- `handleEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomPageEvent event)`
+- `handleEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull CustomPageEvent event)`: Add description.
   - Executes `handleEvent` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `007eb4e93469f961cd7c68995ee74b6c2e258ccaca1a0a9e526ac07f8f2b640c`
+
 # Box
 
 ## Overview
-- Documentation for `Box`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Box(Vector3d.ZERO, Vector3d.ALL_ONES)`
   - Creates a `Box` instance.
 - `Box(-width / 2.0, 0.0, -depth / 2.0, width / 2.0, height, depth / 2.0)`
@@ -24,100 +24,100 @@
 - `Box(this.min.getX()`
   - Creates a `Box` instance.
 
-## Methods
-- `horizontallyCentered(double width, double height, double depth)`
+## Method Descriptions
+- `horizontallyCentered(double width, double height, double depth)`: Add description.
   - Executes `horizontallyCentered` behavior.
-- `cube(@Nonnull Vector3d min, double side)`
+- `cube(@Nonnull Vector3d min, double side)`: Add description.
   - Executes `cube` behavior.
-- `centeredCube(@Nonnull Vector3d center, double inradius)`
+- `centeredCube(@Nonnull Vector3d center, double inradius)`: Add description.
   - Executes `centeredCube` behavior.
-- `setMinMax(@Nonnull Vector3d min, @Nonnull Vector3d max)`
+- `setMinMax(@Nonnull Vector3d min, @Nonnull Vector3d max)`: Add description.
   - Executes `setMinMax` behavior.
-- `setMinMax(@Nonnull double[] min, @Nonnull double[] max)`
+- `setMinMax(@Nonnull double[] min, @Nonnull double[] max)`: Add description.
   - Executes `setMinMax` behavior.
-- `setMinMax(@Nonnull float[] min, @Nonnull float[] max)`
+- `setMinMax(@Nonnull float[] min, @Nonnull float[] max)`: Add description.
   - Executes `setMinMax` behavior.
-- `setEmpty()`
+- `setEmpty()`: Add description.
   - Executes `setEmpty` behavior.
-- `setMinMax(double min, double max)`
+- `setMinMax(double min, double max)`: Add description.
   - Executes `setMinMax` behavior.
-- `union(@Nonnull Box bb)`
+- `union(@Nonnull Box bb)`: Add description.
   - Executes `union` behavior.
-- `assign(@Nonnull Box other)`
+- `assign(@Nonnull Box other)`: Add description.
   - Executes `assign` behavior.
-- `assign(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)`
+- `assign(double minX, double minY, double minZ, double maxX, double maxY, double maxZ)`: Add description.
   - Executes `assign` behavior.
-- `minkowskiSum(@Nonnull Box bb)`
+- `minkowskiSum(@Nonnull Box bb)`: Add description.
   - Executes `minkowskiSum` behavior.
-- `scale(float scale)`
+- `scale(float scale)`: Add description.
   - Executes `scale` behavior.
-- `normalize()`
+- `normalize()`: Add description.
   - Executes `normalize` behavior.
-- `rotateX(float angleInRadians)`
+- `rotateX(float angleInRadians)`: Add description.
   - Executes `rotateX` behavior.
-- `rotateY(float angleInRadians)`
+- `rotateY(float angleInRadians)`: Add description.
   - Executes `rotateY` behavior.
-- `rotateZ(float angleInRadians)`
+- `rotateZ(float angleInRadians)`: Add description.
   - Executes `rotateZ` behavior.
-- `offset(double x, double y, double z)`
+- `offset(double x, double y, double z)`: Add description.
   - Executes `offset` behavior.
-- `offset(@Nonnull Vector3d pos)`
+- `offset(@Nonnull Vector3d pos)`: Add description.
   - Executes `offset` behavior.
-- `sweep(@Nonnull Vector3d v)`
+- `sweep(@Nonnull Vector3d v)`: Add description.
   - Executes `sweep` behavior.
-- `extend(double extentX, double extentY, double extentZ)`
+- `extend(double extentX, double extentY, double extentZ)`: Add description.
   - Executes `extend` behavior.
-- `width()`
+- `width()`: Add description.
   - Executes `width` behavior.
-- `height()`
+- `height()`: Add description.
   - Executes `height` behavior.
-- `depth()`
+- `depth()`: Add description.
   - Executes `depth` behavior.
-- `dimension(@Nonnull Axis axis)`
+- `dimension(@Nonnull Axis axis)`: Add description.
   - Executes `dimension` behavior.
-- `getThickness()`
+- `getThickness()`: Add description.
   - Executes `getThickness` behavior.
-- `getMaximumThickness()`
+- `getMaximumThickness()`: Add description.
   - Executes `getMaximumThickness` behavior.
-- `getVolume()`
+- `getVolume()`: Add description.
   - Executes `getVolume` behavior.
-- `hasVolume()`
+- `hasVolume()`: Add description.
   - Executes `hasVolume` behavior.
-- `isIntersecting(@Nonnull Box other)`
+- `isIntersecting(@Nonnull Box other)`: Add description.
   - Executes `isIntersecting` behavior.
-- `isUnitBox()`
+- `isUnitBox()`: Add description.
   - Executes `isUnitBox` behavior.
-- `middleX()`
+- `middleX()`: Add description.
   - Executes `middleX` behavior.
-- `middleY()`
+- `middleY()`: Add description.
   - Executes `middleY` behavior.
-- `middleZ()`
+- `middleZ()`: Add description.
   - Executes `middleZ` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getMin()`
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `getBox(double x, double y, double z)`
+- `getBox(double x, double y, double z)`: Add description.
   - Executes `getBox` behavior.
-- `containsPosition(double x, double y, double z)`
+- `containsPosition(double x, double y, double z)`: Add description.
   - Executes `containsPosition` behavior.
-- `expand(double radius)`
+- `expand(double radius)`: Add description.
   - Executes `expand` behavior.
-- `containsBlock(int x, int y, int z)`
+- `containsBlock(int x, int y, int z)`: Add description.
   - Executes `containsBlock` behavior.
-- `containsBlock(@Nonnull Vector3i origin, int x, int y, int z)`
+- `containsBlock(@Nonnull Vector3i origin, int x, int y, int z)`: Add description.
   - Executes `containsBlock` behavior.
-- `forEachBlock(double x, double y, double z, double epsilon, @Nonnull TriIntPredicate consumer)`
+- `forEachBlock(double x, double y, double z, double epsilon, @Nonnull TriIntPredicate consumer)`: Add description.
   - Executes `forEachBlock` behavior.
-- `forEachBlock(double x, double y, double z, double epsilon, T t, @Nonnull TriIntObjPredicate<T> consumer)`
+- `forEachBlock(double x, double y, double z, double epsilon, T t, @Nonnull TriIntObjPredicate<T> consumer)`: Add description.
   - Executes `forEachBlock` behavior.
-- `getMaximumExtent()`
+- `getMaximumExtent()`: Add description.
   - Executes `getMaximumExtent` behavior.
-- `intersectsLine(@Nonnull Vector3d start, @Nonnull Vector3d end)`
+- `intersectsLine(@Nonnull Vector3d start, @Nonnull Vector3d end)`: Add description.
   - Executes `intersectsLine` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

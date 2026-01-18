@@ -1,17 +1,17 @@
+**Source Hash:** `064437efa1a160526d71b1a0418388380701207ee66f26766cba5d88a3724e26`
+
 # SensorPlayer
 
 ## Overview
-- Documentation for `SensorPlayer`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorPlayer(@Nonnull BuilderSensorPlayer builder, @Nonnull BuilderSupport builderSupport)`
   - Creates a `SensorPlayer` instance.
 
-## Methods
-- `isGetPlayers()`
+## Method Descriptions
+- `isGetPlayers()`: Add description.
   - Executes `isGetPlayers` behavior.
-- `isGetNPCs()`
+- `isGetNPCs()`: Add description.
   - Executes `isGetNPCs` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `69de809af763755c68ce6e5a781aaa74fa3015031d08431101013c6eace7ab88`
+
 # BuilderSensorMotionController
 
 ## Overview
-- Documentation for `BuilderSensorMotionController`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getMotionControllerName()`
+- `getMotionControllerName()`: Add description.
   - Executes `getMotionControllerName` behavior.
 
 ## Notes

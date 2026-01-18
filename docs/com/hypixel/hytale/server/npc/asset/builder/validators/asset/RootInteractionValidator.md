@@ -1,10 +1,10 @@
+**Source Hash:** `5d9a9e3743ee53ae36ba7ec343ca686370281fa3cfb914b06435a1f9365e58d1`
+
 # RootInteractionValidator
 
 ## Overview
-- Documentation for `RootInteractionValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `RootInteractionValidator()`
   - Creates a `RootInteractionValidator` instance.
 - `RootInteractionValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `RootInteractionValidator(config)`
   - Creates a `RootInteractionValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String value)`
+- `test(String value)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String value, String attribute)`
+- `errorMessage(String value, String attribute)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

@@ -1,27 +1,27 @@
+**Source Hash:** `bd7917ebea13db015f466c487069826af70e00aa4979f4aa92034228550532c3`
+
 # CommonObjectiveHistoryData
 
 ## Overview
-- Documentation for `CommonObjectiveHistoryData`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.historydata`.
 
-## Constructors
+## Constructor Descriptions
 - `CommonObjectiveHistoryData(String id, String category)`
   - Creates a `CommonObjectiveHistoryData` instance.
 - `CommonObjectiveHistoryData()`
   - Creates a `CommonObjectiveHistoryData` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getTimesCompleted()`
+- `getTimesCompleted()`: Add description.
   - Executes `getTimesCompleted` behavior.
-- `getLastCompletionTimestamp()`
+- `getLastCompletionTimestamp()`: Add description.
   - Executes `getLastCompletionTimestamp` behavior.
-- `getCategory()`
+- `getCategory()`: Add description.
   - Executes `getCategory` behavior.
-- `completed()`
+- `completed()`: Add description.
   - Executes `completed` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

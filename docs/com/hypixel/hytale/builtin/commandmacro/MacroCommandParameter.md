@@ -1,24 +1,24 @@
+**Source Hash:** `c9a938f741d243516a85171f508633f855389a34af92f4c0efcde7429d5c8dce`
+
 # MacroCommandParameter
 
 ## Overview
-- Documentation for `MacroCommandParameter`.
-- Declared as a class in `com.hypixel.hytale.builtin.commandmacro`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRequirement()`
+## Method Descriptions
+- `getRequirement()`: Add description.
   - Executes `getRequirement` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getDescription()`
+- `getDescription()`: Add description.
   - Executes `getDescription` behavior.
-- `getArgumentType()`
+- `getArgumentType()`: Add description.
   - Executes `getArgumentType` behavior.
-- `getDefaultValue()`
+- `getDefaultValue()`: Add description.
   - Executes `getDefaultValue` behavior.
-- `getDefaultValueDescription()`
+- `getDefaultValueDescription()`: Add description.
   - Executes `getDefaultValueDescription` behavior.
 
 ## Notes

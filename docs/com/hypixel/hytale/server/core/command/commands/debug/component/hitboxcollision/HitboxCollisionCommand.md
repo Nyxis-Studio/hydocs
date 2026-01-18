@@ -1,15 +1,15 @@
+**Source Hash:** `8682ff2641e0b179f6718b30211a4aee8b1b4e939c62faa0a609e9d21164f015`
+
 # HitboxCollisionCommand
 
 ## Overview
-- Documentation for `HitboxCollisionCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.component.hitboxcollision`.
 
-## Constructors
+## Constructor Descriptions
 - `HitboxCollisionCommand()`
   - Creates a `HitboxCollisionCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

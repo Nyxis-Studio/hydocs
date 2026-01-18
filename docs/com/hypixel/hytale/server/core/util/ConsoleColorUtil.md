@@ -1,14 +1,14 @@
+**Source Hash:** `586b41955d9e7a5e32ae0a0de5ec283a299441e6cc6fe3e517cbeacab1293f8f`
+
 # ConsoleColorUtil
 
 ## Overview
-- Documentation for `ConsoleColorUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

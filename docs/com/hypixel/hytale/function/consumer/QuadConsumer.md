@@ -1,14 +1,14 @@
+**Source Hash:** `a14eab7c3d9225d054bee513cfaa4811fa82e9dc789bfffe1115ee09c51213ab`
+
 # QuadConsumer
 
 ## Overview
-- Documentation for `QuadConsumer`.
-- Declared as a interface in `com.hypixel.hytale.function.consumer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(T var1, U var2, R var3, V var4)`
+## Method Descriptions
+- `accept(T var1, U var2, R var3, V var4)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

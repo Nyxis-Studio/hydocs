@@ -1,29 +1,29 @@
+**Source Hash:** `2760d41ae6dacba8b1fbef4b0436b837ad0486d0b1beded2f9db128e8799941e`
+
 # ProjectileModule
 
 ## Overview
-- Documentation for `ProjectileModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.projectile`.
 
-## Constructors
+## Constructor Descriptions
 - `ProjectileModule(@Nonnull JavaPluginInit init)`
   - Creates a `ProjectileModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `spawnProjectile(Ref<EntityStore> creatorRef, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull ProjectileConfig config, @Nonnull Vector3d position, @Nonnull Vector3d direction)`
+- `spawnProjectile(Ref<EntityStore> creatorRef, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull ProjectileConfig config, @Nonnull Vector3d position, @Nonnull Vector3d direction)`: Add description.
   - Executes `spawnProjectile` behavior.
-- `spawnProjectile(@Nullable UUID predictionId, Ref<EntityStore> creatorRef, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull ProjectileConfig config, @Nonnull Vector3d position, @Nonnull Vector3d direction)`
+- `spawnProjectile(@Nullable UUID predictionId, Ref<EntityStore> creatorRef, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull ProjectileConfig config, @Nonnull Vector3d position, @Nonnull Vector3d direction)`: Add description.
   - Executes `spawnProjectile` behavior.
-- `onProjectileSpawnInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> creatorRef, @Nonnull Store<EntityStore> store)`
+- `onProjectileSpawnInteraction(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> creatorRef, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onProjectileSpawnInteraction` behavior.
-- `getProjectileComponentType()`
+- `getProjectileComponentType()`: Add description.
   - Executes `getProjectileComponentType` behavior.
-- `getStandardPhysicsProviderComponentType()`
+- `getStandardPhysicsProviderComponentType()`: Add description.
   - Executes `getStandardPhysicsProviderComponentType` behavior.
-- `getPredictedProjectileComponentType()`
+- `getPredictedProjectileComponentType()`: Add description.
   - Executes `getPredictedProjectileComponentType` behavior.
 
 ## Notes

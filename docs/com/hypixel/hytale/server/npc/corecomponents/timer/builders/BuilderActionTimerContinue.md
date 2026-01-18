@@ -1,18 +1,18 @@
+**Source Hash:** `07ff9ff77c2148d923c4ea4781ec61e65b319ecb426c0612ebfc6b5288903902`
+
 # BuilderActionTimerContinue
 
 ## Overview
-- Documentation for `BuilderActionTimerContinue`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
 
 ## Notes

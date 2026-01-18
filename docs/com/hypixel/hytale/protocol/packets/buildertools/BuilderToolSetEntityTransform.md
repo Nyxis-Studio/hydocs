@@ -1,10 +1,10 @@
+**Source Hash:** `d2cbed2497c7267615c46d5a9204b84587351a3b24d538f4590c679f0fc41ecc`
+
 # BuilderToolSetEntityTransform
 
 ## Overview
-- Documentation for `BuilderToolSetEntityTransform`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolSetEntityTransform()`
   - Creates a `BuilderToolSetEntityTransform` instance.
 - `BuilderToolSetEntityTransform(int entityId, @Nullable ModelTransform modelTransform)`
@@ -12,24 +12,24 @@
 - `BuilderToolSetEntityTransform(@Nonnull BuilderToolSetEntityTransform other)`
   - Creates a `BuilderToolSetEntityTransform` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

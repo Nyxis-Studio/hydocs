@@ -1,17 +1,17 @@
+**Source Hash:** `cbc198a1fa2afc084822bf30259c13bb637defa621806d6066492f9fdf68dfea`
+
 # RotatorDensity
 
 ## Overview
-- Documentation for `RotatorDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `RotatorDensity(@Nonnull Density input, @Nonnull Vector3d newYAxis, double spinAngle)`
   - Creates a `RotatorDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

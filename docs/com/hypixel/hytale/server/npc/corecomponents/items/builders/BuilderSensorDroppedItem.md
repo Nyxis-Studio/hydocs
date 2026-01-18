@@ -1,32 +1,32 @@
+**Source Hash:** `c07a510960314835206c00f1a06fae9b1d2feb7d560ed21103b063f85cf4a1b8`
+
 # BuilderSensorDroppedItem
 
 ## Overview
-- Documentation for `BuilderSensorDroppedItem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.items.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `getRange(@Nonnull BuilderSupport support)`
+- `getRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRange` behavior.
-- `getViewSectorRadians(@Nonnull BuilderSupport builderSupport)`
+- `getViewSectorRadians(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getViewSectorRadians` behavior.
-- `getHasLineOfSight(@Nonnull BuilderSupport support)`
+- `getHasLineOfSight(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getHasLineOfSight` behavior.
-- `getItems(@Nonnull BuilderSupport support)`
+- `getItems(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getItems` behavior.
-- `getAttitudes(@Nonnull BuilderSupport support)`
+- `getAttitudes(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAttitudes` behavior.
 
 ## Notes

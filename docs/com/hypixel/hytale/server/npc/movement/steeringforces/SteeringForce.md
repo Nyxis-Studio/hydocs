@@ -1,14 +1,14 @@
+**Source Hash:** `a2d04d738559635f997bafeaed6dcde6a9fdb6320badd418a346da920f7e72f4`
+
 # SteeringForce
 
 ## Overview
-- Documentation for `SteeringForce`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.movement.steeringforces`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `compute(Steering var1)`
+## Method Descriptions
+- `compute(Steering var1)`: Add description.
   - Executes `compute` behavior.
 
 ## Notes

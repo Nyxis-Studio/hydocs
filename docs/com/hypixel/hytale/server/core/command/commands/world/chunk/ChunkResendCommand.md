@@ -1,15 +1,15 @@
+**Source Hash:** `e488412148b7740d01d30a6fffb12a34d38baa2da7bf807faa0bb56d23aa0321`
+
 # ChunkResendCommand
 
 ## Overview
-- Documentation for `ChunkResendCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkResendCommand()`
   - Creates a `ChunkResendCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

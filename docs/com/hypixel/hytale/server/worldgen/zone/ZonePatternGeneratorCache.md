@@ -1,15 +1,15 @@
+**Source Hash:** `bfeb103db32bfb01bebc8ef21e7bd1d98034087aeaabe0f2e48c2acaa843a12c`
+
 # ZonePatternGeneratorCache
 
 ## Overview
-- Documentation for `ZonePatternGeneratorCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.zone`.
 
-## Constructors
+## Constructor Descriptions
 - `ZonePatternGeneratorCache(ZonePatternProvider provider)`
   - Creates a `ZonePatternGeneratorCache` instance.
 
-## Methods
-- `get(int seed)`
+## Method Descriptions
+- `get(int seed)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

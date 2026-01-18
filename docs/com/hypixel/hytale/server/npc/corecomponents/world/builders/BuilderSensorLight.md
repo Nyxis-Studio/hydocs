@@ -1,36 +1,36 @@
+**Source Hash:** `9ec3f55d59bd06fe383a3047dbed38843525c01a7fad700f67aa12c1c4544f54`
+
 # BuilderSensorLight
 
 ## Overview
-- Documentation for `BuilderSensorLight`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getUsedTargetSlot(@Nonnull BuilderSupport support)`
+- `getUsedTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getUsedTargetSlot` behavior.
-- `getLightRange(@Nonnull BuilderSupport builderSupport)`
+- `getLightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getLightRange` behavior.
-- `getSkyLightRange(@Nonnull BuilderSupport builderSupport)`
+- `getSkyLightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSkyLightRange` behavior.
-- `getSunlightRange(@Nonnull BuilderSupport builderSupport)`
+- `getSunlightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSunlightRange` behavior.
-- `getRedLightRange(@Nonnull BuilderSupport builderSupport)`
+- `getRedLightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRedLightRange` behavior.
-- `getGreenLightRange(@Nonnull BuilderSupport builderSupport)`
+- `getGreenLightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getGreenLightRange` behavior.
-- `getBlueLightRange(@Nonnull BuilderSupport builderSupport)`
+- `getBlueLightRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getBlueLightRange` behavior.
 
 ## Notes

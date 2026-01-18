@@ -1,15 +1,15 @@
+**Source Hash:** `d4ac1bbdfb16840db4d1e3a8d6c671a93ab7caa46708188db1ad668f42fe341b`
+
 # TerrainDensityMaterialProvider
 
 ## Overview
-- Documentation for `TerrainDensityMaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `TerrainDensityMaterialProvider(@Nonnull List<FieldDelimiter<V>> delimiters)`
   - Creates a `TerrainDensityMaterialProvider` instance.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
 
 ## Notes

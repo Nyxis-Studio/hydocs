@@ -1,24 +1,24 @@
+**Source Hash:** `ba20262da4628ce05b50d996d5cade7d5d636699625e7e3bb7889983cb470ac5`
+
 # BuilderActionIgnoreForAvoidance
 
 ## Overview
-- Documentation for `BuilderActionIgnoreForAvoidance`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getTargetSlot(@Nonnull BuilderSupport support)`
+- `getTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetSlot` behavior.
 
 ## Notes

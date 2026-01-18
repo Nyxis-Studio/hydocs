@@ -1,14 +1,14 @@
+**Source Hash:** `928bd34740ad3e9e401b26784569d3874753460e748a00bf278cbd399d2c6f14`
+
 # BuilderMotionControllerMapUtil
 
 ## Overview
-- Documentation for `BuilderMotionControllerMapUtil`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

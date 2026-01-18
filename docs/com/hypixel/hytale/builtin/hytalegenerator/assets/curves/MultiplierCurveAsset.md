@@ -1,16 +1,16 @@
+**Source Hash:** `2604697d313910b4d815d023544a56f30052f599a85c722b79978ee6c61b4274`
+
 # MultiplierCurveAsset
 
 ## Overview
-- Documentation for `MultiplierCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

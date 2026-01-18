@@ -1,23 +1,23 @@
+**Source Hash:** `a40b806bdc95bb166904ea8afbca1230f50f14abc714022ad266286003481f32`
+
 # FluidParticle
 
 ## Overview
-- Documentation for `FluidParticle`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.fluidfx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `FluidParticle(String systemId, Color color, float scale)`
   - Creates a `FluidParticle` instance.
 - `FluidParticle()`
   - Creates a `FluidParticle` instance.
 
-## Methods
-- `getSystemId()`
+## Method Descriptions
+- `getSystemId()`: Add description.
   - Executes `getSystemId` behavior.
-- `getColor()`
+- `getColor()`: Add description.
   - Executes `getColor` behavior.
-- `getScale()`
+- `getScale()`: Add description.
   - Executes `getScale` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

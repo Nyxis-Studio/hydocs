@@ -1,31 +1,31 @@
+**Source Hash:** `504822d84c66fe7d0fb2a95368ff0fdbcf4bc9d48fa5b6ece189258e86effd5c`
+
 # DamageCalculator
 
 ## Overview
-- Documentation for `DamageCalculator`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.combat`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageCalculator()`
   - Creates a `DamageCalculator` instance.
 
-## Methods
-- `calculateDamage(double durationSeconds)`
+## Method Descriptions
+- `calculateDamage(double durationSeconds)`: Add description.
   - Executes `calculateDamage` behavior.
-- `scaleDamage(double durationSeconds, float damage)`
+- `scaleDamage(double durationSeconds, float damage)`: Add description.
   - Executes `scaleDamage` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getDamageClass()`
+- `getDamageClass()`: Add description.
   - Executes `getDamageClass` behavior.
-- `getSequentialModifierStep()`
+- `getSequentialModifierStep()`: Add description.
   - Executes `getSequentialModifierStep` behavior.
-- `getSequentialModifierMinimum()`
+- `getSequentialModifierMinimum()`: Add description.
   - Executes `getSequentialModifierMinimum` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

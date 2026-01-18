@@ -1,33 +1,33 @@
+**Source Hash:** `d2402db04f64aac0c1371a48e8682a7dfafc37f6326c197daa8f4ffe14ba72ff`
+
 # StandardPhysicsConfig
 
 ## Overview
-- Documentation for `StandardPhysicsConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.projectile.config`.
 
-## Constructors
+## Constructor Descriptions
 - `StandardPhysicsConfig()`
   - Creates a `StandardPhysicsConfig` instance.
 
-## Methods
-- `getGravity()`
+## Method Descriptions
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `apply(@Nonnull Holder<EntityStore> holder, @Nullable Ref<EntityStore> creatorRef, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor, boolean predicted)`
+- `apply(@Nonnull Holder<EntityStore> holder, @Nullable Ref<EntityStore> creatorRef, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor, boolean predicted)`: Add description.
   - Executes `apply` behavior.
-- `getBounciness()`
+- `getBounciness()`: Add description.
   - Executes `getBounciness` behavior.
-- `getBounceCount()`
+- `getBounceCount()`: Add description.
   - Executes `getBounceCount` behavior.
-- `getBounceLimit()`
+- `getBounceLimit()`: Add description.
   - Executes `getBounceLimit` behavior.
-- `isSticksVertically()`
+- `isSticksVertically()`: Add description.
   - Executes `isSticksVertically` behavior.
-- `isAllowRolling()`
+- `isAllowRolling()`: Add description.
   - Executes `isAllowRolling` behavior.
-- `getRollingFrictionFactor()`
+- `getRollingFrictionFactor()`: Add description.
   - Executes `getRollingFrictionFactor` behavior.
-- `getSwimmingDampingFactor()`
+- `getSwimmingDampingFactor()`: Add description.
   - Executes `getSwimmingDampingFactor` behavior.
-- `getHitWaterImpulseLoss()`
+- `getHitWaterImpulseLoss()`: Add description.
   - Executes `getHitWaterImpulseLoss` behavior.
 
 ## Notes

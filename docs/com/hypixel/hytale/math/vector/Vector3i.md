@@ -1,10 +1,10 @@
+**Source Hash:** `9d68fb43219c15f316c7dcd7b5890aba3548b9a15e635703395799eef5c4bda3`
+
 # Vector3i
 
 ## Overview
-- Documentation for `Vector3i`.
-- Declared as a class in `com.hypixel.hytale.math.vector`.
 
-## Constructors
+## Constructor Descriptions
 - `Vector3i(0, 0, 0)`
   - Creates a `Vector3i` instance.
 - `Vector3i()`
@@ -40,94 +40,94 @@
 - `Vector3i(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE)`
   - Creates a `Vector3i` instance.
 
-## Methods
-- `getX()`
+## Method Descriptions
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `setX(int x)`
+- `setX(int x)`: Add description.
   - Executes `setX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `setY(int y)`
+- `setY(int y)`: Add description.
   - Executes `setY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `setZ(int z)`
+- `setZ(int z)`: Add description.
   - Executes `setZ` behavior.
-- `assign(@Nonnull Vector3i v)`
+- `assign(@Nonnull Vector3i v)`: Add description.
   - Executes `assign` behavior.
-- `assign(int v)`
+- `assign(int v)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull int[] v)`
+- `assign(@Nonnull int[] v)`: Add description.
   - Executes `assign` behavior.
-- `assign(int x, int y, int z)`
+- `assign(int x, int y, int z)`: Add description.
   - Executes `assign` behavior.
-- `add(@Nonnull Vector3i v)`
+- `add(@Nonnull Vector3i v)`: Add description.
   - Executes `add` behavior.
-- `add(int x, int y, int z)`
+- `add(int x, int y, int z)`: Add description.
   - Executes `add` behavior.
-- `addScaled(@Nonnull Vector3i v, int s)`
+- `addScaled(@Nonnull Vector3i v, int s)`: Add description.
   - Executes `addScaled` behavior.
-- `subtract(@Nonnull Vector3i v)`
+- `subtract(@Nonnull Vector3i v)`: Add description.
   - Executes `subtract` behavior.
-- `subtract(int x, int y, int z)`
+- `subtract(int x, int y, int z)`: Add description.
   - Executes `subtract` behavior.
-- `negate()`
+- `negate()`: Add description.
   - Executes `negate` behavior.
-- `scale(int s)`
+- `scale(int s)`: Add description.
   - Executes `scale` behavior.
-- `scale(double s)`
+- `scale(double s)`: Add description.
   - Executes `scale` behavior.
-- `scale(@Nonnull Vector3i p)`
+- `scale(@Nonnull Vector3i p)`: Add description.
   - Executes `scale` behavior.
-- `cross(@Nonnull Vector3i v)`
+- `cross(@Nonnull Vector3i v)`: Add description.
   - Executes `cross` behavior.
-- `cross(@Nonnull Vector3i v, @Nonnull Vector3i res)`
+- `cross(@Nonnull Vector3i v, @Nonnull Vector3i res)`: Add description.
   - Executes `cross` behavior.
-- `dot(@Nonnull Vector3i other)`
+- `dot(@Nonnull Vector3i other)`: Add description.
   - Executes `dot` behavior.
-- `distanceTo(@Nonnull Vector3i v)`
+- `distanceTo(@Nonnull Vector3i v)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceTo(int x, int y, int z)`
+- `distanceTo(int x, int y, int z)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceSquaredTo(@Nonnull Vector3i v)`
+- `distanceSquaredTo(@Nonnull Vector3i v)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `distanceSquaredTo(int x, int y, int z)`
+- `distanceSquaredTo(int x, int y, int z)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `normalize()`
+- `normalize()`: Add description.
   - Executes `normalize` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
-- `squaredLength()`
+- `squaredLength()`: Add description.
   - Executes `squaredLength` behavior.
-- `setLength(int newLen)`
+- `setLength(int newLen)`: Add description.
   - Executes `setLength` behavior.
-- `clampLength(int maxLength)`
+- `clampLength(int maxLength)`: Add description.
   - Executes `clampLength` behavior.
-- `dropHash()`
+- `dropHash()`: Add description.
   - Executes `dropHash` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toVector3d()`
+- `toVector3d()`: Add description.
   - Executes `toVector3d` behavior.
-- `toVector3f()`
+- `toVector3f()`: Add description.
   - Executes `toVector3f` behavior.
-- `toVector3l()`
+- `toVector3l()`: Add description.
   - Executes `toVector3l` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `max(@Nonnull Vector3i a, @Nonnull Vector3i b)`
+- `max(@Nonnull Vector3i a, @Nonnull Vector3i b)`: Add description.
   - Executes `max` behavior.
-- `min(@Nonnull Vector3i a, @Nonnull Vector3i b)`
+- `min(@Nonnull Vector3i a, @Nonnull Vector3i b)`: Add description.
   - Executes `min` behavior.
-- `directionTo(@Nonnull Vector3i from, @Nonnull Vector3i to)`
+- `directionTo(@Nonnull Vector3i from, @Nonnull Vector3i to)`: Add description.
   - Executes `directionTo` behavior.
-- `add(@Nonnull Vector3i one, @Nonnull Vector3i two)`
+- `add(@Nonnull Vector3i one, @Nonnull Vector3i two)`: Add description.
   - Executes `add` behavior.
-- `add(@Nonnull Vector3i one, @Nonnull Vector3i two, @Nonnull Vector3i three)`
+- `add(@Nonnull Vector3i one, @Nonnull Vector3i two, @Nonnull Vector3i three)`: Add description.
   - Executes `add` behavior.
 
 ## Notes

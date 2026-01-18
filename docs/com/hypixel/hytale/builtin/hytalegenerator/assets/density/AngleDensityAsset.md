@@ -1,16 +1,16 @@
+**Source Hash:** `d994d91133eb1b06dde7f71c84a4fcd4e2ec9f55165b57ff4462f0e521ed1b6c`
+
 # AngleDensityAsset
 
 ## Overview
-- Documentation for `AngleDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `9671f9e063e6e403e697a30c88ebcbb4e2047d7fdbc9065d11640fb3c60c1ef1`
+
 # ReachLocationTaskAsset
 
 ## Overview
-- Documentation for `ReachLocationTaskAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.task`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getTargetLocationId()`
+## Method Descriptions
+- `getTargetLocationId()`: Add description.
   - Executes `getTargetLocationId` behavior.
-- `matchesAsset0(ObjectiveTaskAsset task)`
+- `matchesAsset0(ObjectiveTaskAsset task)`: Add description.
   - Executes `matchesAsset0` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

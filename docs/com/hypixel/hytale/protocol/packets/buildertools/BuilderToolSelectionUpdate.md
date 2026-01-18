@@ -1,10 +1,10 @@
+**Source Hash:** `81a2b572e6a3093106eee82c104fc43553f742a42d84b5cd95d979af8dbdf681`
+
 # BuilderToolSelectionUpdate
 
 ## Overview
-- Documentation for `BuilderToolSelectionUpdate`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolSelectionUpdate()`
   - Creates a `BuilderToolSelectionUpdate` instance.
 - `BuilderToolSelectionUpdate(int xMin, int yMin, int zMin, int xMax, int yMax, int zMax)`
@@ -12,24 +12,24 @@
 - `BuilderToolSelectionUpdate(@Nonnull BuilderToolSelectionUpdate other)`
   - Creates a `BuilderToolSelectionUpdate` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

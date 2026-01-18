@@ -1,25 +1,25 @@
+**Source Hash:** `2d94f7cc380a24d85c36492dc6fff952f7a0c42967c0cac4b76f88e72c7ebf5a`
+
 # Dependency
 
 ## Overview
-- Documentation for `Dependency`.
-- Declared as a class in `com.hypixel.hytale.component.dependency`.
 
-## Constructors
+## Constructor Descriptions
 - `Dependency(@Nonnull Order order, int priority)`
   - Creates a `Dependency` instance.
 - `Dependency(@Nonnull Order order, @Nonnull OrderPriority priority)`
   - Creates a `Dependency` instance.
 
-## Methods
-- `getOrder()`
+## Method Descriptions
+- `getOrder()`: Add description.
   - Executes `getOrder` behavior.
-- `getPriority()`
+- `getPriority()`: Add description.
   - Executes `getPriority` behavior.
-- `validate(@Nonnull ComponentRegistry<ECS_TYPE> var1)`
+- `validate(@Nonnull ComponentRegistry<ECS_TYPE> var1)`: Add description.
   - Executes `validate` behavior.
-- `resolveGraphEdge(@Nonnull ComponentRegistry<ECS_TYPE> var1, @Nonnull ISystem<ECS_TYPE> var2, @Nonnull DependencyGraph<ECS_TYPE> var3)`
+- `resolveGraphEdge(@Nonnull ComponentRegistry<ECS_TYPE> var1, @Nonnull ISystem<ECS_TYPE> var2, @Nonnull DependencyGraph<ECS_TYPE> var3)`: Add description.
   - Executes `resolveGraphEdge` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

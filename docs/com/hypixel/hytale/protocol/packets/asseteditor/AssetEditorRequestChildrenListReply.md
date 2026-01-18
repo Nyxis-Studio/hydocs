@@ -1,10 +1,10 @@
+**Source Hash:** `810761064e2d6f588d0a61c3ac23fbb569b7019b80974a0a749c83b8c893bf4a`
+
 # AssetEditorRequestChildrenListReply
 
 ## Overview
-- Documentation for `AssetEditorRequestChildrenListReply`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorRequestChildrenListReply()`
   - Creates a `AssetEditorRequestChildrenListReply` instance.
 - `AssetEditorRequestChildrenListReply(@Nullable AssetPath path, @Nullable String[] childrenIds)`
@@ -12,24 +12,24 @@
 - `AssetEditorRequestChildrenListReply(@Nonnull AssetEditorRequestChildrenListReply other)`
   - Creates a `AssetEditorRequestChildrenListReply` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

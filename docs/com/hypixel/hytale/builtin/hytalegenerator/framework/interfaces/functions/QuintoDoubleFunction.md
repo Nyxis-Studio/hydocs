@@ -1,14 +1,14 @@
+**Source Hash:** `bb68103cbcb4dc8412059dc3bcba23f95e13bcc639777893cdac982dbfd22557`
+
 # QuintoDoubleFunction
 
 ## Overview
-- Documentation for `QuintoDoubleFunction`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.framework.interfaces.functions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(double var1, double var3, double var5, double var7, double var9)`
+## Method Descriptions
+- `apply(double var1, double var3, double var5, double var7, double var9)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

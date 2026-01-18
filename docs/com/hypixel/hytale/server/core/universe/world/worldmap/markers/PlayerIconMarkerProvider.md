@@ -1,15 +1,15 @@
+**Source Hash:** `c118285fe4051aa252fb360a2cff85c2b3caebf4deccb077f4df15fd69fd2883`
+
 # PlayerIconMarkerProvider
 
 ## Overview
-- Documentation for `PlayerIconMarkerProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap.markers`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerIconMarkerProvider()`
   - Creates a `PlayerIconMarkerProvider` instance.
 
-## Methods
-- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+## Method Descriptions
+- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`: Add description.
   - Executes `update` behavior.
 
 ## Notes

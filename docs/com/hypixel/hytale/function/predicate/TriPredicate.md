@@ -1,14 +1,14 @@
+**Source Hash:** `e4fa32f93fa888640f83c7a6c047f3f75edcbd07f64da35981784efce8584a3e`
+
 # TriPredicate
 
 ## Overview
-- Documentation for `TriPredicate`.
-- Declared as a interface in `com.hypixel.hytale.function.predicate`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `test(T var1, R var2, S var3)`
+## Method Descriptions
+- `test(T var1, R var2, S var3)`: Add description.
   - Executes `test` behavior.
 
 ## Notes

@@ -1,62 +1,62 @@
+**Source Hash:** `53594b4295836ad13e3806de961bd03fbd0bd7fa12c188a58f47b03eb08a28a0`
+
 # LexerContext
 
 ## Overview
-- Documentation for `LexerContext`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression.compile`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `init(@Nonnull String expression)`
+## Method Descriptions
+- `init(@Nonnull String expression)`: Add description.
   - Executes `init` behavior.
-- `resetToken()`
+- `resetToken()`: Add description.
   - Executes `resetToken` behavior.
-- `setToken(Token token)`
+- `setToken(Token token)`: Add description.
   - Executes `setToken` behavior.
-- `getExpression()`
+- `getExpression()`: Add description.
   - Executes `getExpression` behavior.
-- `getToken()`
+- `getToken()`: Add description.
   - Executes `getToken` behavior.
-- `getTokenPosition()`
+- `getTokenPosition()`: Add description.
   - Executes `getTokenPosition` behavior.
-- `getTokenString()`
+- `getTokenString()`: Add description.
   - Executes `getTokenString` behavior.
-- `getTokenNumber()`
+- `getTokenNumber()`: Add description.
   - Executes `getTokenNumber` behavior.
-- `nextChar(String error)`
+- `nextChar(String error)`: Add description.
   - Executes `nextChar` behavior.
-- `haveChar()`
+- `haveChar()`: Add description.
   - Executes `haveChar` behavior.
-- `currentChar()`
+- `currentChar()`: Add description.
   - Executes `currentChar` behavior.
-- `peekChar(char defaultChar)`
+- `peekChar(char defaultChar)`: Add description.
   - Executes `peekChar` behavior.
-- `peekChar()`
+- `peekChar()`: Add description.
   - Executes `peekChar` behavior.
-- `peekChar(int lookahead, char defaultChar)`
+- `peekChar(int lookahead, char defaultChar)`: Add description.
   - Executes `peekChar` behavior.
-- `peekChar(int lookahead)`
+- `peekChar(int lookahead)`: Add description.
   - Executes `peekChar` behavior.
-- `eatWhiteSpace()`
+- `eatWhiteSpace()`: Add description.
   - Executes `eatWhiteSpace` behavior.
-- `addTokenCharacter(char ch)`
+- `addTokenCharacter(char ch)`: Add description.
   - Executes `addTokenCharacter` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `setPosition(int position)`
+- `setPosition(int position)`: Add description.
   - Executes `setPosition` behavior.
-- `adjustPosition(int newPosition)`
+- `adjustPosition(int newPosition)`: Add description.
   - Executes `adjustPosition` behavior.
-- `isNumber(char firstLetter)`
+- `isNumber(char firstLetter)`: Add description.
   - Executes `isNumber` behavior.
-- `parseNumber(char firstChar)`
+- `parseNumber(char firstChar)`: Add description.
   - Executes `parseNumber` behavior.
-- `copyDigits(char ch)`
+- `copyDigits(char ch)`: Add description.
   - Executes `copyDigits` behavior.
-- `parseIdent(char firstLetter)`
+- `parseIdent(char firstLetter)`: Add description.
   - Executes `parseIdent` behavior.
-- `parseString(char delimiter)`
+- `parseString(char delimiter)`: Add description.
   - Executes `parseString` behavior.
 
 ## Notes

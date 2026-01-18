@@ -1,15 +1,15 @@
+**Source Hash:** `2e14f2ec320fbf168dec84cc5929c84a5470a445025f3aac6b8915866c837afa`
+
 # LightingInfoCommand
 
 ## Overview
-- Documentation for `LightingInfoCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.lighting`.
 
-## Constructors
+## Constructor Descriptions
 - `LightingInfoCommand()`
   - Creates a `LightingInfoCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

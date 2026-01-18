@@ -1,16 +1,16 @@
+**Source Hash:** `adee84b2aca8e77777fd1aec1e01659e1f1bf000fc8c0faec08829ffbec3d15e`
+
 # MetricProvider
 
 ## Overview
-- Documentation for `MetricProvider`.
-- Declared as a interface in `com.hypixel.hytale.metrics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toMetricResults()`
+## Method Descriptions
+- `toMetricResults()`: Add description.
   - Executes `toMetricResults` behavior.
-- `maybe(@Nonnull Function<T, R> func)`
+- `maybe(@Nonnull Function<T, R> func)`: Add description.
   - Executes `maybe` behavior.
 
 ## Notes

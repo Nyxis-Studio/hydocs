@@ -1,10 +1,10 @@
+**Source Hash:** `9a7d0931cd35fc218545c1d13b04b6daf407bd727a06eb5eb93967315f91f14d`
+
 # Velocity
 
 ## Overview
-- Documentation for `Velocity`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Velocity()`
   - Creates a `Velocity` instance.
 - `Velocity(@Nonnull Velocity other)`
@@ -14,52 +14,52 @@
 - `Velocity(this)`
   - Creates a `Velocity` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `setZero()`
+- `setZero()`: Add description.
   - Executes `setZero` behavior.
-- `addForce(@Nonnull Vector3d force)`
+- `addForce(@Nonnull Vector3d force)`: Add description.
   - Executes `addForce` behavior.
-- `addForce(double x, double y, double z)`
+- `addForce(double x, double y, double z)`: Add description.
   - Executes `addForce` behavior.
-- `set(@Nonnull Vector3d newVelocity)`
+- `set(@Nonnull Vector3d newVelocity)`: Add description.
   - Executes `set` behavior.
-- `set(double x, double y, double z)`
+- `set(double x, double y, double z)`: Add description.
   - Executes `set` behavior.
-- `setClient(@Nonnull Vector3d newVelocity)`
+- `setClient(@Nonnull Vector3d newVelocity)`: Add description.
   - Executes `setClient` behavior.
-- `setClient(double x, double y, double z)`
+- `setClient(double x, double y, double z)`: Add description.
   - Executes `setClient` behavior.
-- `setX(double x)`
+- `setX(double x)`: Add description.
   - Executes `setX` behavior.
-- `setY(double y)`
+- `setY(double y)`: Add description.
   - Executes `setY` behavior.
-- `setZ(double z)`
+- `setZ(double z)`: Add description.
   - Executes `setZ` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getSpeed()`
+- `getSpeed()`: Add description.
   - Executes `getSpeed` behavior.
-- `addInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig config, @Nonnull ChangeVelocityType type)`
+- `addInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig config, @Nonnull ChangeVelocityType type)`: Add description.
   - Executes `addInstruction` behavior.
-- `getInstructions()`
+- `getInstructions()`: Add description.
   - Executes `getInstructions` behavior.
-- `getVelocity()`
+- `getVelocity()`: Add description.
   - Executes `getVelocity` behavior.
-- `getClientVelocity()`
+- `getClientVelocity()`: Add description.
   - Executes `getClientVelocity` behavior.
-- `assignVelocityTo(@Nonnull Vector3d vector)`
+- `assignVelocityTo(@Nonnull Vector3d vector)`: Add description.
   - Executes `assignVelocityTo` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getConfig()`
+- `getConfig()`: Add description.
   - Executes `getConfig` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
 
 ## Notes

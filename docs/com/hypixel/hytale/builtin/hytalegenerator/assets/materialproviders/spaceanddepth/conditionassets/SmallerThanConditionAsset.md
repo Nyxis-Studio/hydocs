@@ -1,14 +1,14 @@
+**Source Hash:** `d56b98eba342303d9636a92da26d2cbd605500668b56f322a62d0734b2d73943`
+
 # SmallerThanConditionAsset
 
 ## Overview
-- Documentation for `SmallerThanConditionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth.conditionassets`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

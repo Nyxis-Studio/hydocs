@@ -1,14 +1,14 @@
+**Source Hash:** `123dec319a55cc6a855b1be6a9b4d3e9f75ac05058de05dd6561f3c94b4b0af6`
+
 # IntToIntFunction
 
 ## Overview
-- Documentation for `IntToIntFunction`.
-- Declared as a interface in `com.hypixel.hytale.procedurallib.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `applyAsInt(int var1)`
+## Method Descriptions
+- `applyAsInt(int var1)`: Add description.
   - Executes `applyAsInt` behavior.
 
 ## Notes

@@ -1,19 +1,31 @@
+**Source Hash:** `4b29ad8884a8f4de60c251843120a5d25d3d0a500ac5bc6fac7943c53c75ab2e`
+**Last Updated:** `2026-01-18T17:16:53-03:00`
+
 # MissingAssetException
 
-**Overview**
-Runtime exception thrown when a referenced asset cannot be resolved.
-Supports optional extra context and integration with validation results.
+## Overview
+Runtime exception thrown when a referenced asset cannot be resolved. Provides static helpers that delegate to `AssetValidationResults` when available.
 
-**Constructors**
-- `MissingAssetException(String field, Class<? extends JsonAsset> assetType, Object assetId)`: builds a standard missing-asset message.
-- `MissingAssetException(String field, Class<? extends JsonAsset> assetType, Object assetId, String extra)`: adds extra context to the message.
+## Field Descriptions
+- `field`: Field name that referenced the missing asset.
+- `assetType`: Asset class that was expected.
+- `assetId`: Identifier of the missing asset.
 
-**Methods**
-- `getField()`: returns the field name that referenced the asset.
-- `getAssetType()`: returns the expected asset type.
-- `getAssetId()`: returns the missing asset id.
-- `handle(ExtraInfo extraInfo, String field, Class<? extends JsonAsset> assetType, Object assetId)`: delegates to `AssetValidationResults` when available.
-- `handle(ExtraInfo extraInfo, String field, Class<? extends JsonAsset> assetType, Object assetId, String extra)`: delegates with extra context.
+## Constructor Descriptions
+- `MissingAssetException(String field, Class<? extends JsonAsset> assetType, Object assetId)`: Builds a standard missing-asset message.
+- `MissingAssetException(String field, Class<? extends JsonAsset> assetType, Object assetId, String extra)`: Builds the message with extra context appended.
 
-**Notes**
-- Falls back to throwing directly when the validation results are not asset-aware.
+## Method Descriptions
+- `getField()`: Returns the field name that referenced the asset.
+- `getAssetType()`: Returns the expected asset type.
+- `getAssetId()`: Returns the missing asset id.
+- `handle(ExtraInfo extraInfo, String field, Class<? extends JsonAsset> assetType, Object assetId)`: Delegates missing-asset handling to `AssetValidationResults` when available, otherwise throws immediately.
+- `handle(ExtraInfo extraInfo, String field, Class<? extends JsonAsset> assetType, Object assetId, String extra)`: Delegates missing-asset handling with extra context when available, otherwise throws immediately.
+
+## Usage Notes
+- Use the static `handle` helpers when you want missing-asset behavior to respect validation result configuration.
+
+## Examples
+```java
+MissingAssetException.handle(extraInfo, "weapon", WeaponAsset.class, "sword_01");
+```

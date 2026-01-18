@@ -1,34 +1,34 @@
+**Source Hash:** `47f0fb9d827ec338974a3894cbdaf645b72c90c226342c91f7ca5327e0ae08a4`
+
 # CraftingBench
 
 ## Overview
-- Documentation for `CraftingBench`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.bench`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getCategories()`
+## Method Descriptions
+- `getCategories()`: Add description.
   - Executes `getCategories` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getIcon()`
+- `getIcon()`: Add description.
   - Executes `getIcon` behavior.
-- `getItemCategories()`
+- `getItemCategories()`: Add description.
   - Executes `getItemCategories` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getDiagram()`
+- `getDiagram()`: Add description.
   - Executes `getDiagram` behavior.
-- `getSlots()`
+- `getSlots()`: Add description.
   - Executes `getSlots` behavior.
-- `isSpecialSlot()`
+- `isSpecialSlot()`: Add description.
   - Executes `isSpecialSlot` behavior.
 
 ## Notes

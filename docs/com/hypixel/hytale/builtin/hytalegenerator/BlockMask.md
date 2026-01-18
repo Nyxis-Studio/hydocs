@@ -1,26 +1,26 @@
+**Source Hash:** `ac979d38234a23c239998c1640009246fc987b582b625f1f7b14fa38a9593cdf`
+
 # BlockMask
 
 ## Overview
-- Documentation for `BlockMask`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `canPlace(@Nonnull Material material)`
+## Method Descriptions
+- `canPlace(@Nonnull Material material)`: Add description.
   - Executes `canPlace` behavior.
-- `canPlace(int materialHash)`
+- `canPlace(int materialHash)`: Add description.
   - Executes `canPlace` behavior.
-- `canReplace(Material source, Material destination)`
+- `canReplace(Material source, Material destination)`: Add description.
   - Executes `canReplace` behavior.
-- `canReplace(int sourceHash, int destinationHash)`
+- `canReplace(int sourceHash, int destinationHash)`: Add description.
   - Executes `canReplace` behavior.
-- `setSkippedBlocks(@Nonnull MaterialSet materialSet)`
+- `setSkippedBlocks(@Nonnull MaterialSet materialSet)`: Add description.
   - Executes `setSkippedBlocks` behavior.
-- `putBlockMaskEntry(@Nonnull MaterialSet source, @Nonnull MaterialSet destination)`
+- `putBlockMaskEntry(@Nonnull MaterialSet source, @Nonnull MaterialSet destination)`: Add description.
   - Executes `putBlockMaskEntry` behavior.
-- `setDefaultMask(@Nonnull MaterialSet materialSet)`
+- `setDefaultMask(@Nonnull MaterialSet materialSet)`: Add description.
   - Executes `setDefaultMask` behavior.
 
 ## Notes

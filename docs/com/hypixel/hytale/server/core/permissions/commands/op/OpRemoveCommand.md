@@ -1,15 +1,15 @@
+**Source Hash:** `6b8726e3b9f198719c78053fc6f2c4e0692ec2f619edc5b0a51a9fbf041946f8`
+
 # OpRemoveCommand
 
 ## Overview
-- Documentation for `OpRemoveCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions.commands.op`.
 
-## Constructors
+## Constructor Descriptions
 - `OpRemoveCommand()`
   - Creates a `OpRemoveCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

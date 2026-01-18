@@ -1,10 +1,10 @@
+**Source Hash:** `f8293066719291d0bab2b360e6471c6cf2e851e7bdb4befa2393d3a22896269d`
+
 # ObjectiveLocationAreaBox
 
 ## Overview
-- Documentation for `ObjectiveLocationAreaBox`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.markerarea`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjectiveLocationAreaBox(Box entryBox, Box exitBox)`
   - Creates a `ObjectiveLocationAreaBox` instance.
 - `ObjectiveLocationAreaBox()`
@@ -12,26 +12,26 @@
 - `ObjectiveLocationAreaBox(entry, exit)`
   - Creates a `ObjectiveLocationAreaBox` instance.
 
-## Methods
-- `getEntryArea()`
+## Method Descriptions
+- `getEntryArea()`: Add description.
   - Executes `getEntryArea` behavior.
-- `getExitArea()`
+- `getExitArea()`: Add description.
   - Executes `getExitArea` behavior.
-- `getPlayersInEntryArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition)`
+- `getPlayersInEntryArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition)`: Add description.
   - Executes `getPlayersInEntryArea` behavior.
-- `getPlayersInExitArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition)`
+- `getPlayersInExitArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition)`: Add description.
   - Executes `getPlayersInExitArea` behavior.
-- `hasPlayerInExitArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull ComponentType<EntityStore, PlayerRef> playerRefComponentType, @Nonnull Vector3d markerPosition, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `hasPlayerInExitArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, @Nonnull ComponentType<EntityStore, PlayerRef> playerRefComponentType, @Nonnull Vector3d markerPosition, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `hasPlayerInExitArea` behavior.
-- `isPlayerInEntryArea(@Nonnull Vector3d playerPosition, @Nonnull Vector3d markerPosition)`
+- `isPlayerInEntryArea(@Nonnull Vector3d playerPosition, @Nonnull Vector3d markerPosition)`: Add description.
   - Executes `isPlayerInEntryArea` behavior.
-- `getRotatedArea(float yaw, float pitch)`
+- `getRotatedArea(float yaw, float pitch)`: Add description.
   - Executes `getRotatedArea` behavior.
-- `computeAreaBoxes()`
+- `computeAreaBoxes()`: Add description.
   - Executes `computeAreaBoxes` behavior.
-- `getPlayersInArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition, @Nonnull Box box)`
+- `getPlayersInArea(@Nonnull SpatialResource<Ref<EntityStore>, EntityStore> spatialComponent, List<Ref<EntityStore>> results, @Nonnull Vector3d markerPosition, @Nonnull Box box)`: Add description.
   - Executes `getPlayersInArea` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

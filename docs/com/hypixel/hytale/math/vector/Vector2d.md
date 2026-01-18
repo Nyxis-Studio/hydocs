@@ -1,10 +1,10 @@
+**Source Hash:** `bf41b81cf6312369c6ed0acb312d3dd660fa2f15b994be21b30d85d40aa15096`
+
 # Vector2d
 
 ## Overview
-- Documentation for `Vector2d`.
-- Declared as a class in `com.hypixel.hytale.math.vector`.
 
-## Constructors
+## Constructor Descriptions
 - `Vector2d(0.0, 0.0)`
   - Creates a `Vector2d` instance.
 - `Vector2d()`
@@ -34,92 +34,92 @@
 - `Vector2d(1.0, 1.0)`
   - Creates a `Vector2d` instance.
 
-## Methods
-- `getX()`
+## Method Descriptions
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `setX(double x)`
+- `setX(double x)`: Add description.
   - Executes `setX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `setY(double y)`
+- `setY(double y)`: Add description.
   - Executes `setY` behavior.
-- `assign(@Nonnull Vector2d v)`
+- `assign(@Nonnull Vector2d v)`: Add description.
   - Executes `assign` behavior.
-- `assign(double v)`
+- `assign(double v)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull double[] v)`
+- `assign(@Nonnull double[] v)`: Add description.
   - Executes `assign` behavior.
-- `assign(@Nonnull float[] v)`
+- `assign(@Nonnull float[] v)`: Add description.
   - Executes `assign` behavior.
-- `assign(double x, double y)`
+- `assign(double x, double y)`: Add description.
   - Executes `assign` behavior.
-- `add(@Nonnull Vector2d v)`
+- `add(@Nonnull Vector2d v)`: Add description.
   - Executes `add` behavior.
-- `add(double x, double y)`
+- `add(double x, double y)`: Add description.
   - Executes `add` behavior.
-- `addScaled(@Nonnull Vector2d v, double s)`
+- `addScaled(@Nonnull Vector2d v, double s)`: Add description.
   - Executes `addScaled` behavior.
-- `subtract(@Nonnull Vector2d v)`
+- `subtract(@Nonnull Vector2d v)`: Add description.
   - Executes `subtract` behavior.
-- `subtract(double x, double y)`
+- `subtract(double x, double y)`: Add description.
   - Executes `subtract` behavior.
-- `negate()`
+- `negate()`: Add description.
   - Executes `negate` behavior.
-- `scale(double s)`
+- `scale(double s)`: Add description.
   - Executes `scale` behavior.
-- `scale(@Nonnull Vector2d p)`
+- `scale(@Nonnull Vector2d p)`: Add description.
   - Executes `scale` behavior.
-- `dot(@Nonnull Vector2d other)`
+- `dot(@Nonnull Vector2d other)`: Add description.
   - Executes `dot` behavior.
-- `distanceTo(@Nonnull Vector2d v)`
+- `distanceTo(@Nonnull Vector2d v)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceTo(double x, double y)`
+- `distanceTo(double x, double y)`: Add description.
   - Executes `distanceTo` behavior.
-- `distanceSquaredTo(@Nonnull Vector2d v)`
+- `distanceSquaredTo(@Nonnull Vector2d v)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `distanceSquaredTo(double x, double y)`
+- `distanceSquaredTo(double x, double y)`: Add description.
   - Executes `distanceSquaredTo` behavior.
-- `normalize()`
+- `normalize()`: Add description.
   - Executes `normalize` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
-- `squaredLength()`
+- `squaredLength()`: Add description.
   - Executes `squaredLength` behavior.
-- `setLength(double newLen)`
+- `setLength(double newLen)`: Add description.
   - Executes `setLength` behavior.
-- `clampLength(double maxLength)`
+- `clampLength(double maxLength)`: Add description.
   - Executes `clampLength` behavior.
-- `floor()`
+- `floor()`: Add description.
   - Executes `floor` behavior.
-- `ceil()`
+- `ceil()`: Add description.
   - Executes `ceil` behavior.
-- `clipToZero(double epsilon)`
+- `clipToZero(double epsilon)`: Add description.
   - Executes `clipToZero` behavior.
-- `closeToZero(double epsilon)`
+- `closeToZero(double epsilon)`: Add description.
   - Executes `closeToZero` behavior.
-- `isFinite()`
+- `isFinite()`: Add description.
   - Executes `isFinite` behavior.
-- `dropHash()`
+- `dropHash()`: Add description.
   - Executes `dropHash` behavior.
-- `max(@Nonnull Vector2d a, @Nonnull Vector2d b)`
+- `max(@Nonnull Vector2d a, @Nonnull Vector2d b)`: Add description.
   - Executes `max` behavior.
-- `min(@Nonnull Vector2d a, @Nonnull Vector2d b)`
+- `min(@Nonnull Vector2d a, @Nonnull Vector2d b)`: Add description.
   - Executes `min` behavior.
-- `lerp(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`
+- `lerp(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`: Add description.
   - Executes `lerp` behavior.
-- `lerpUnclamped(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`
+- `lerpUnclamped(@Nonnull Vector2d a, @Nonnull Vector2d b, double t)`: Add description.
   - Executes `lerpUnclamped` behavior.
-- `distance(double x1, double y1, double x2, double y2)`
+- `distance(double x1, double y1, double x2, double y2)`: Add description.
   - Executes `distance` behavior.
-- `distanceSquared(double x1, double y1, double x2, double y2)`
+- `distanceSquared(double x1, double y1, double x2, double y2)`: Add description.
   - Executes `distanceSquared` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

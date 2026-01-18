@@ -1,10 +1,10 @@
+**Source Hash:** `ff3df6db31570aae4c147f8d39967a2ff86aea7bae6831eb23b052da5722e929`
+
 # PrefabBufferBlockEntry
 
 ## Overview
-- Documentation for `PrefabBufferBlockEntry`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.selection.buffer.impl`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabBufferBlockEntry(int y)`
   - Creates a `PrefabBufferBlockEntry` instance.
 - `PrefabBufferBlockEntry(int y, int blockId, String blockTypeKey)`
@@ -14,8 +14,8 @@
 - `PrefabBufferBlockEntry(int y, int blockId, String blockTypeKey, float chance, Holder<ChunkStore> state, int fluidId, byte fluidLevel, byte supportValue, int rotation, int filler)`
   - Creates a `PrefabBufferBlockEntry` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

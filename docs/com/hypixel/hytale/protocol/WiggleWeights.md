@@ -1,10 +1,10 @@
+**Source Hash:** `4bf68df3a3716ed7944600642243070a4b1ea93b47b4a4cd625b5705e2445e17`
+
 # WiggleWeights
 
 ## Overview
-- Documentation for `WiggleWeights`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `WiggleWeights()`
   - Creates a `WiggleWeights` instance.
 - `WiggleWeights(float x, float xDeceleration, float y, float yDeceleration, float z, float zDeceleration, float roll, float rollDeceleration, float pitch, float pitchDeceleration)`
@@ -12,22 +12,22 @@
 - `WiggleWeights(@Nonnull WiggleWeights other)`
   - Creates a `WiggleWeights` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `d69c771a88852479b2418793df758152d9d23ef5f495d54624fd162a3351c66d`
+
 # UpdatePlayerInventory
 
 ## Overview
-- Documentation for `UpdatePlayerInventory`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdatePlayerInventory()`
   - Creates a `UpdatePlayerInventory` instance.
 - `UpdatePlayerInventory(@Nullable InventorySection storage, @Nullable InventorySection armor, @Nullable InventorySection hotbar, @Nullable InventorySection utility, @Nullable InventorySection builderMaterial, @Nullable InventorySection tools, @Nullable InventorySection backpack, @Nonnull SortType sortType)`
@@ -12,24 +12,24 @@
 - `UpdatePlayerInventory(@Nonnull UpdatePlayerInventory other)`
   - Creates a `UpdatePlayerInventory` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

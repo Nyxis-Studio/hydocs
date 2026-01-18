@@ -1,17 +1,17 @@
+**Source Hash:** `dbafc213aa5058b14ced882701e9f495cdfb073f97779d0392b8450b5114404c`
+
 # EntityStatOp
 
 ## Overview
-- Documentation for `EntityStatOp`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStatOp(int value)`
   - Creates a `EntityStatOp` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

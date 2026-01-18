@@ -1,16 +1,16 @@
+**Source Hash:** `4f86bfd731923091f829d39812e20995624515b053dd13b752cab744b865da02`
+
 # RefSystem
 
 ## Overview
-- Documentation for `RefSystem`.
-- Declared as a class in `com.hypixel.hytale.component.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `onEntityAdded(@Nonnull Ref<ECS_TYPE> var1, @Nonnull AddReason var2, @Nonnull Store<ECS_TYPE> var3, @Nonnull CommandBuffer<ECS_TYPE> var4)`
+## Method Descriptions
+- `onEntityAdded(@Nonnull Ref<ECS_TYPE> var1, @Nonnull AddReason var2, @Nonnull Store<ECS_TYPE> var3, @Nonnull CommandBuffer<ECS_TYPE> var4)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<ECS_TYPE> var1, @Nonnull RemoveReason var2, @Nonnull Store<ECS_TYPE> var3, @Nonnull CommandBuffer<ECS_TYPE> var4)`
+- `onEntityRemove(@Nonnull Ref<ECS_TYPE> var1, @Nonnull RemoveReason var2, @Nonnull Store<ECS_TYPE> var3, @Nonnull CommandBuffer<ECS_TYPE> var4)`: Add description.
   - Executes `onEntityRemove` behavior.
 
 ## Notes

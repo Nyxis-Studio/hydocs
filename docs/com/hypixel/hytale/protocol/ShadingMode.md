@@ -1,17 +1,17 @@
+**Source Hash:** `195b63bd23cbd159754ae146b700fbadfc98d4de633362ba1b3bd6460ef98e22`
+
 # ShadingMode
 
 ## Overview
-- Documentation for `ShadingMode`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ShadingMode(int value)`
   - Creates a `ShadingMode` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

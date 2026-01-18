@@ -1,17 +1,17 @@
+**Source Hash:** `feb232249ce002e6ba86fcaab572049d8805724d4d9bf9b1404bdf0405c8a561`
+
 # HitboxCommand
 
 ## Overview
-- Documentation for `HitboxCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `HitboxCommand()`
   - Creates a `HitboxCommand` instance.
 
-## Methods
-- `formatBox(@Nonnull Box box)`
+## Method Descriptions
+- `formatBox(@Nonnull Box box)`: Add description.
   - Executes `formatBox` behavior.
-- `executeSync(@Nonnull CommandContext context)`
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

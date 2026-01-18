@@ -1,14 +1,14 @@
+**Source Hash:** `9b14c6d0860bc086dbde340f8e1d2951315136b16e073e1914501077f287a60c`
+
 # IntIterators
 
 ## Overview
-- Documentation for `IntIterators`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.iterators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `range(int start, int end)`
+## Method Descriptions
+- `range(int start, int end)`: Add description.
   - Executes `range` behavior.
 
 ## Notes

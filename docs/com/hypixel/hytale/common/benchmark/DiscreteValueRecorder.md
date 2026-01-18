@@ -1,41 +1,41 @@
+**Source Hash:** `93d011382c5ada9d10f78a0f27c07922ab155905f0cc3bf7d6dc6e3cb95b2d8f`
+
 # DiscreteValueRecorder
 
 ## Overview
-- Documentation for `DiscreteValueRecorder`.
-- Declared as a class in `com.hypixel.hytale.common.benchmark`.
 
-## Constructors
+## Constructor Descriptions
 - `DiscreteValueRecorder()`
   - Creates a `DiscreteValueRecorder` instance.
 
-## Methods
-- `reset()`
+## Method Descriptions
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `getMinValue(long def)`
+- `getMinValue(long def)`: Add description.
   - Executes `getMinValue` behavior.
-- `getMinValue()`
+- `getMinValue()`: Add description.
   - Executes `getMinValue` behavior.
-- `getMaxValue(long def)`
+- `getMaxValue(long def)`: Add description.
   - Executes `getMaxValue` behavior.
-- `getMaxValue()`
+- `getMaxValue()`: Add description.
   - Executes `getMaxValue` behavior.
-- `getCount()`
+- `getCount()`: Add description.
   - Executes `getCount` behavior.
-- `getAverage(long def)`
+- `getAverage(long def)`: Add description.
   - Executes `getAverage` behavior.
-- `getAverage()`
+- `getAverage()`: Add description.
   - Executes `getAverage` behavior.
-- `record(long value)`
+- `record(long value)`: Add description.
   - Executes `record` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `formatHeader(@Nonnull Formatter formatter)`
+- `formatHeader(@Nonnull Formatter formatter)`: Add description.
   - Executes `formatHeader` behavior.
-- `formatHeader(@Nonnull Formatter formatter, @Nonnull String columnFormatHeader)`
+- `formatHeader(@Nonnull Formatter formatter, @Nonnull String columnFormatHeader)`: Add description.
   - Executes `formatHeader` behavior.
-- `formatValues(@Nonnull Formatter formatter)`
+- `formatValues(@Nonnull Formatter formatter)`: Add description.
   - Executes `formatValues` behavior.
-- `formatValues(@Nonnull Formatter formatter, @Nonnull String columnFormatValue)`
+- `formatValues(@Nonnull Formatter formatter, @Nonnull String columnFormatValue)`: Add description.
   - Executes `formatValues` behavior.
 
 ## Notes

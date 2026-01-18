@@ -1,17 +1,17 @@
+**Source Hash:** `f6f61ca1d6a34889d02326211a558e2525f32945a24bfd94bcf9566dcfff57aa`
+
 # BlockPreviewVisibility
 
 ## Overview
-- Documentation for `BlockPreviewVisibility`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockPreviewVisibility(int value)`
   - Creates a `BlockPreviewVisibility` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

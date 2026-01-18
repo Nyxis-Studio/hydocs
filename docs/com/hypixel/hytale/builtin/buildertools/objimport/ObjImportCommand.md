@@ -1,15 +1,15 @@
+**Source Hash:** `65e734adfad0a5491dacebcf619f737ef9fca2a973146aac50456af150049548`
+
 # ObjImportCommand
 
 ## Overview
-- Documentation for `ObjImportCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.objimport`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjImportCommand()`
   - Creates a `ObjImportCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

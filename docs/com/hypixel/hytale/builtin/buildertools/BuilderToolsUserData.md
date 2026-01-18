@@ -1,29 +1,29 @@
+**Source Hash:** `bcf0392d0e5386ddd7863839f6d40ca8fb31941bcf2e9af062cf0c37087ca3b4`
+
 # BuilderToolsUserData
 
 ## Overview
-- Documentation for `BuilderToolsUserData`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolsUserData()`
   - Creates a `BuilderToolsUserData` instance.
 
-## Methods
-- `get(@Nonnull Player player)`
+## Method Descriptions
+- `get(@Nonnull Player player)`: Add description.
   - Executes `get` behavior.
-- `getComponentType()`
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `isRecordingSelectionHistory()`
+- `isRecordingSelectionHistory()`: Add description.
   - Executes `isRecordingSelectionHistory` behavior.
-- `setRecordSelectionHistory(boolean selectionHistory)`
+- `setRecordSelectionHistory(boolean selectionHistory)`: Add description.
   - Executes `setRecordSelectionHistory` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

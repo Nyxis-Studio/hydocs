@@ -1,29 +1,29 @@
+**Source Hash:** `6140628154b4b14536884085dcd17a8b49a544b8c4639e920844b97f95346553`
+
 # Registry
 
 ## Overview
-- Documentation for `Registry`.
-- Declared as a class in `com.hypixel.hytale.registry`.
 
-## Constructors
+## Constructor Descriptions
 - `Registry(@Nonnull List<BooleanConsumer> registrations, @Nonnull BooleanSupplier precondition, String preconditionMessage, @Nonnull RegistrationWrapFunction<T> wrappingFunction)`
   - Creates a `Registry` instance.
 
-## Methods
-- `checkPrecondition()`
+## Method Descriptions
+- `checkPrecondition()`: Add description.
   - Executes `checkPrecondition` behavior.
-- `isEnabled()`
+- `isEnabled()`: Add description.
   - Executes `isEnabled` behavior.
-- `enable()`
+- `enable()`: Add description.
   - Executes `enable` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `register(@Nonnull T registration)`
+- `register(@Nonnull T registration)`: Add description.
   - Executes `register` behavior.
-- `getRegistrations()`
+- `getRegistrations()`: Add description.
   - Executes `getRegistrations` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `wrap(T var1, BooleanSupplier var2, Runnable var3)`
+- `wrap(T var1, BooleanSupplier var2, Runnable var3)`: Add description.
   - Executes `wrap` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `58e1233cc17ea2ed33bbd2ef5b84eb88fabbfa2510035f295f0058b40df658d3`
+
 # StandardPhysicsTickSystem
 
 ## Overview
-- Documentation for `StandardPhysicsTickSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.projectile.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDependencies()`
+## Method Descriptions
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
 
 ## Notes

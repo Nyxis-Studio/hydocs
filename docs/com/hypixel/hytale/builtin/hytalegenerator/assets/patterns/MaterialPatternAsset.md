@@ -1,14 +1,14 @@
+**Source Hash:** `f3ca2e7ab137ae19598aef171bbce985454ab67de31ac09fd53dc8f0e51288ad`
+
 # MaterialPatternAsset
 
 ## Overview
-- Documentation for `MaterialPatternAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.patterns`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PatternAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PatternAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

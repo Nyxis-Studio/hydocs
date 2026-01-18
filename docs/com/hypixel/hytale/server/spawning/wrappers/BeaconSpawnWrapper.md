@@ -1,23 +1,23 @@
+**Source Hash:** `4b7ea5730b447748ef9ba4ccb0987d80af991e046183c6b3b1c0299ea0e68af8`
+
 # BeaconSpawnWrapper
 
 ## Overview
-- Documentation for `BeaconSpawnWrapper`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.wrappers`.
 
-## Constructors
+## Constructor Descriptions
 - `BeaconSpawnWrapper(@Nonnull BeaconNPCSpawn spawn)`
   - Creates a `BeaconSpawnWrapper` instance.
 
-## Methods
-- `getMinDistanceFromPlayerSquared()`
+## Method Descriptions
+- `getMinDistanceFromPlayerSquared()`: Add description.
   - Executes `getMinDistanceFromPlayerSquared` behavior.
-- `getTargetDistanceFromPlayerSquared()`
+- `getTargetDistanceFromPlayerSquared()`: Add description.
   - Executes `getTargetDistanceFromPlayerSquared` behavior.
-- `getBeaconRadius()`
+- `getBeaconRadius()`: Add description.
   - Executes `getBeaconRadius` behavior.
-- `getSpawnRadius()`
+- `getSpawnRadius()`: Add description.
   - Executes `getSpawnRadius` behavior.
-- `pickRole(Random chanceProvider)`
+- `pickRole(Random chanceProvider)`: Add description.
   - Executes `pickRole` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `351b19b8692fc78f5272c8ee77ec60ac03a2d2b826e88a4b849d91ea7cc16408`
+
 # NetworkId
 
 ## Overview
-- Documentation for `NetworkId`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.tracker`.
 
-## Constructors
+## Constructor Descriptions
 - `NetworkId(int id)`
   - Creates a `NetworkId` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

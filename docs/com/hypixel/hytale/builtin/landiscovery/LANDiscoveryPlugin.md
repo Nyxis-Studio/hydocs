@@ -1,27 +1,27 @@
+**Source Hash:** `40b67d28fb07a02491bf25d28e90acb3700a448beca9cbbe1c7ef54407f13f70`
+
 # LANDiscoveryPlugin
 
 ## Overview
-- Documentation for `LANDiscoveryPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.landiscovery`.
 
-## Constructors
+## Constructor Descriptions
 - `LANDiscoveryPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `LANDiscoveryPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `setLANDiscoveryEnabled(boolean enabled)`
+- `setLANDiscoveryEnabled(boolean enabled)`: Add description.
   - Executes `setLANDiscoveryEnabled` behavior.
-- `isLANDiscoveryEnabled()`
+- `isLANDiscoveryEnabled()`: Add description.
   - Executes `isLANDiscoveryEnabled` behavior.
-- `getLanDiscoveryThread()`
+- `getLanDiscoveryThread()`: Add description.
   - Executes `getLanDiscoveryThread` behavior.
 
 ## Notes

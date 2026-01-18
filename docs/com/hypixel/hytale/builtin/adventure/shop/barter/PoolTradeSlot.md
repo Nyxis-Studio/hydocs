@@ -1,27 +1,27 @@
+**Source Hash:** `394d3d33b351d2cc372539b101dac6fefefaa8e2fff4d3cb9b768f4a153eb7fb`
+
 # PoolTradeSlot
 
 ## Overview
-- Documentation for `PoolTradeSlot`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop.barter`.
 
-## Constructors
+## Constructor Descriptions
 - `PoolTradeSlot(int slotCount, @Nonnull WeightedTrade[] trades)`
   - Creates a `PoolTradeSlot` instance.
 - `PoolTradeSlot()`
   - Creates a `PoolTradeSlot` instance.
 
-## Methods
-- `getPoolSlotCount()`
+## Method Descriptions
+- `getPoolSlotCount()`: Add description.
   - Executes `getPoolSlotCount` behavior.
-- `getTrades()`
+- `getTrades()`: Add description.
   - Executes `getTrades` behavior.
-- `resolve(@Nonnull Random random)`
+- `resolve(@Nonnull Random random)`: Add description.
   - Executes `resolve` behavior.
-- `getSlotCount()`
+- `getSlotCount()`: Add description.
   - Executes `getSlotCount` behavior.
-- `selectWeightedIndex(@Nonnull List<WeightedTrade> trades, @Nonnull Random random)`
+- `selectWeightedIndex(@Nonnull List<WeightedTrade> trades, @Nonnull Random random)`: Add description.
   - Executes `selectWeightedIndex` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

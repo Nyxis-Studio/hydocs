@@ -1,10 +1,10 @@
+**Source Hash:** `f8d4d89ef8daa8304ecab8ababdf02adf9505b2bc303e76be66805901a2949e6`
+
 # Triangle4d
 
 ## Overview
-- Documentation for `Triangle4d`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Triangle4d(Vector4d a, Vector4d b, Vector4d c)`
   - Creates a `Triangle4d` instance.
 - `Triangle4d()`
@@ -14,32 +14,32 @@
 - `Triangle4d(@Nonnull Vector4d[] points, int a, int b, int c)`
   - Creates a `Triangle4d` instance.
 
-## Methods
-- `getA()`
+## Method Descriptions
+- `getA()`: Add description.
   - Executes `getA` behavior.
-- `getB()`
+- `getB()`: Add description.
   - Executes `getB` behavior.
-- `getC()`
+- `getC()`: Add description.
   - Executes `getC` behavior.
-- `getMin(int component)`
+- `getMin(int component)`: Add description.
   - Executes `getMin` behavior.
-- `getMax(int component)`
+- `getMax(int component)`: Add description.
   - Executes `getMax` behavior.
-- `assign(@Nonnull Vector4d v1, @Nonnull Vector4d v2, @Nonnull Vector4d v3)`
+- `assign(@Nonnull Vector4d v1, @Nonnull Vector4d v2, @Nonnull Vector4d v3)`: Add description.
   - Executes `assign` behavior.
-- `getRandom(@Nonnull Random random)`
+- `getRandom(@Nonnull Random random)`: Add description.
   - Executes `getRandom` behavior.
-- `getRandom(@Nonnull Random random, @Nonnull Vector4d vec)`
+- `getRandom(@Nonnull Random random, @Nonnull Vector4d vec)`: Add description.
   - Executes `getRandom` behavior.
-- `multiply(@Nonnull Matrix4d matrix)`
+- `multiply(@Nonnull Matrix4d matrix)`: Add description.
   - Executes `multiply` behavior.
-- `multiply(@Nonnull Matrix4d matrix, @Nonnull Triangle4d target)`
+- `multiply(@Nonnull Matrix4d matrix, @Nonnull Triangle4d target)`: Add description.
   - Executes `multiply` behavior.
-- `to2d(@Nonnull Triangle2d target)`
+- `to2d(@Nonnull Triangle2d target)`: Add description.
   - Executes `to2d` behavior.
-- `perspectiveTransform()`
+- `perspectiveTransform()`: Add description.
   - Executes `perspectiveTransform` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

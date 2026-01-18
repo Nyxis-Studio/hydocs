@@ -1,17 +1,17 @@
+**Source Hash:** `a44d1bd7963c4c9de0e153acc89c586a299a305f661eafc3a04c3bfc9a9558ee`
+
 # MultiCacheDensity
 
 ## Overview
-- Documentation for `MultiCacheDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `MultiCacheDensity(@Nonnull Density input, int threadCount, int capacity)`
   - Creates a `MultiCacheDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `db70a01b9926618bf140111ab24cf87932cb1f1ea4d1a4a7f18194ac5d384c16`
+
 # PrefabLoadingCache
 
 ## Overview
-- Documentation for `PrefabLoadingCache`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.prefab`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPrefabAccessor(WorldGenPrefabSupplier prefabSupplier)`
+## Method Descriptions
+- `getPrefabAccessor(WorldGenPrefabSupplier prefabSupplier)`: Add description.
   - Executes `getPrefabAccessor` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

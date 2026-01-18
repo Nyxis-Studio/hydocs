@@ -1,14 +1,14 @@
+**Source Hash:** `628437b18123c2cc4477650e1ee78b30b87bbb5ace75f2fe2c3fa4efc149c1ac`
+
 # TransactionStatus
 
 ## Overview
-- Documentation for `TransactionStatus`.
-- Declared as a enum in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

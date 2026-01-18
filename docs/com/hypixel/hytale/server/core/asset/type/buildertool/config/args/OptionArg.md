@@ -1,25 +1,25 @@
+**Source Hash:** `bb27a2a5822b13e2a8a13bc946a338feb5caa59b667b36cbc0baa4af6520408f`
+
 # OptionArg
 
 ## Overview
-- Documentation for `OptionArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `OptionArg()`
   - Creates a `OptionArg` instance.
 - `OptionArg(String value, String[] options)`
   - Creates a `OptionArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toOptionArgPacket()`
+- `toOptionArgPacket()`: Add description.
   - Executes `toOptionArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

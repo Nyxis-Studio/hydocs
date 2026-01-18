@@ -1,19 +1,19 @@
+**Source Hash:** `89ab409ee18f34ab3eaedd85550b158fc38d598eda72e26646319e20a490681c`
+
 # HeightThresholdCoordinateCondition
 
 ## Overview
-- Documentation for `HeightThresholdCoordinateCondition`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `HeightThresholdCoordinateCondition(IHeightThresholdInterpreter interpreter)`
   - Creates a `HeightThresholdCoordinateCondition` instance.
 
-## Methods
-- `eval(int seed, int x, int y)`
+## Method Descriptions
+- `eval(int seed, int x, int y)`: Add description.
   - Executes `eval` behavior.
-- `eval(int seed, int x, int y, int z)`
+- `eval(int seed, int x, int y, int z)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

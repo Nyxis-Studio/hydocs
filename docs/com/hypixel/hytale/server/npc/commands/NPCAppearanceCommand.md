@@ -1,15 +1,15 @@
+**Source Hash:** `bf18cce8094977195348cc0a78e2e2317260c7a6224f7a3999d1128cc84321d8`
+
 # NPCAppearanceCommand
 
 ## Overview
-- Documentation for `NPCAppearanceCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCAppearanceCommand()`
   - Creates a `NPCAppearanceCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull NPCEntity npc, @Nonnull World world, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull NPCEntity npc, @Nonnull World world, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

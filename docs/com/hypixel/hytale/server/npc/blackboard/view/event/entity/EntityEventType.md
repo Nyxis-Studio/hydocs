@@ -1,15 +1,15 @@
+**Source Hash:** `69f4678651ca56e71acbda56b26f9252e8583675db4d28cd45975715ef8c8b5a`
+
 # EntityEventType
 
 ## Overview
-- Documentation for `EntityEventType`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.blackboard.view.event.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityEventType(String description)`
   - Creates a `EntityEventType` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

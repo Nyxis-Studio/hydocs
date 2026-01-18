@@ -1,74 +1,74 @@
+**Source Hash:** `32283190b30549974e21dd1e2673f700b9ac2de22738638891bb679319ccc19a`
+
 # BlockState
 
 ## Overview
-- Documentation for `BlockState`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.meta`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setReference(Ref<ChunkStore> reference)`
+## Method Descriptions
+- `setReference(Ref<ChunkStore> reference)`: Add description.
   - Executes `setReference` behavior.
-- `getReference()`
+- `getReference()`: Add description.
   - Executes `getReference` behavior.
-- `unloadFromWorld()`
+- `unloadFromWorld()`: Add description.
   - Executes `unloadFromWorld` behavior.
-- `initialize(BlockType blockType)`
+- `initialize(BlockType blockType)`: Add description.
   - Executes `initialize` behavior.
-- `onUnload()`
+- `onUnload()`: Add description.
   - Executes `onUnload` behavior.
-- `validateInitialized()`
+- `validateInitialized()`: Add description.
   - Executes `validateInitialized` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `setPosition(WorldChunk chunk, @Nullable Vector3i position)`
+- `setPosition(WorldChunk chunk, @Nullable Vector3i position)`: Add description.
   - Executes `setPosition` behavior.
-- `setPosition(@Nonnull Vector3i position)`
+- `setPosition(@Nonnull Vector3i position)`: Add description.
   - Executes `setPosition` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `__internal_getPosition()`
+- `__internal_getPosition()`: Add description.
   - Executes `__internal_getPosition` behavior.
-- `getBlockX()`
+- `getBlockX()`: Add description.
   - Executes `getBlockX` behavior.
-- `getBlockY()`
+- `getBlockY()`: Add description.
   - Executes `getBlockY` behavior.
-- `getBlockZ()`
+- `getBlockZ()`: Add description.
   - Executes `getBlockZ` behavior.
-- `getBlockPosition()`
+- `getBlockPosition()`: Add description.
   - Executes `getBlockPosition` behavior.
-- `getCenteredBlockPosition()`
+- `getCenteredBlockPosition()`: Add description.
   - Executes `getCenteredBlockPosition` behavior.
-- `getChunk()`
+- `getChunk()`: Add description.
   - Executes `getChunk` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `getRotationIndex()`
+- `getRotationIndex()`: Add description.
   - Executes `getRotationIndex` behavior.
-- `invalidate()`
+- `invalidate()`: Add description.
   - Executes `invalidate` behavior.
-- `markNeedsSave()`
+- `markNeedsSave()`: Add description.
   - Executes `markNeedsSave` behavior.
-- `saveToDocument()`
+- `saveToDocument()`: Add description.
   - Executes `saveToDocument` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toHolder()`
+- `toHolder()`: Add description.
   - Executes `toHolder` behavior.
-- `load(BsonDocument doc, @Nonnull WorldChunk chunk, @Nonnull Vector3i pos)`
+- `load(BsonDocument doc, @Nonnull WorldChunk chunk, @Nonnull Vector3i pos)`: Add description.
   - Executes `load` behavior.
-- `load(BsonDocument doc, @Nullable WorldChunk chunk, Vector3i pos, BlockType blockType)`
+- `load(BsonDocument doc, @Nullable WorldChunk chunk, Vector3i pos, BlockType blockType)`: Add description.
   - Executes `load` behavior.
-- `ensureState(@Nonnull WorldChunk worldChunk, int x, int y, int z)`
+- `ensureState(@Nonnull WorldChunk worldChunk, int x, int y, int z)`: Add description.
   - Executes `ensureState` behavior.
-- `getBlockState(@Nullable Ref<ChunkStore> reference, @Nonnull ComponentAccessor<ChunkStore> componentAccessor)`
+- `getBlockState(@Nullable Ref<ChunkStore> reference, @Nonnull ComponentAccessor<ChunkStore> componentAccessor)`: Add description.
   - Executes `getBlockState` behavior.
-- `getBlockState(int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk)`
+- `getBlockState(int index, @Nonnull ArchetypeChunk<ChunkStore> archetypeChunk)`: Add description.
   - Executes `getBlockState` behavior.
-- `getBlockState(@Nonnull Holder<ChunkStore> holder)`
+- `getBlockState(@Nonnull Holder<ChunkStore> holder)`: Add description.
   - Executes `getBlockState` behavior.
-- `findComponentType(@Nonnull Archetype<ChunkStore> archetype, @Nonnull Class<C> entityClass)`
+- `findComponentType(@Nonnull Archetype<ChunkStore> archetype, @Nonnull Class<C> entityClass)`: Add description.
   - Executes `findComponentType` behavior.
 
 ## Notes

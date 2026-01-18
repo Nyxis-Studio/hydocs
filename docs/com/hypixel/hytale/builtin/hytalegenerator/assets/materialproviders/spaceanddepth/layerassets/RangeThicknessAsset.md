@@ -1,14 +1,14 @@
+**Source Hash:** `1e2e2ed2c6894229cfa8523e988e2884a7b793866f38e5bdc2ef2c923ff00ac8`
+
 # RangeThicknessAsset
 
 ## Overview
-- Documentation for `RangeThicknessAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth.layerassets`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `cleanUp()`
+## Method Descriptions
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

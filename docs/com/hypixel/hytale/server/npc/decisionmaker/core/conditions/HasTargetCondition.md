@@ -1,19 +1,19 @@
+**Source Hash:** `c43708259334b966e9fc6aebac1dd71a477c3c254c75909fb99648902c220b00`
+
 # HasTargetCondition
 
 ## Overview
-- Documentation for `HasTargetCondition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.core.conditions`.
 
-## Constructors
+## Constructor Descriptions
 - `HasTargetCondition()`
   - Creates a `HasTargetCondition` instance.
 
-## Methods
-- `getTargetSlot()`
+## Method Descriptions
+- `getTargetSlot()`: Add description.
   - Executes `getTargetSlot` behavior.
-- `evaluate(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+- `evaluate(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `evaluate` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

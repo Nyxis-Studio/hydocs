@@ -1,14 +1,14 @@
+**Source Hash:** `e46f84c334b760957c4f141dbc0e2ef22da38e73be195dd8c47f00226e2d3989`
+
 # OriginScannerAsset
 
 ## Overview
-- Documentation for `OriginScannerAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.scanners`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull ScannerAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull ScannerAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

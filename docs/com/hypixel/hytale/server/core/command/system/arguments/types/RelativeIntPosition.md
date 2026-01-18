@@ -1,21 +1,21 @@
+**Source Hash:** `4d2318d946f2899ca67eb14febdcf6a4fdf3cad2d5b296657846a37d539c0ca5`
+
 # RelativeIntPosition
 
 ## Overview
-- Documentation for `RelativeIntPosition`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `RelativeIntPosition(@Nonnull IntCoord x, @Nonnull IntCoord y, @Nonnull IntCoord z)`
   - Creates a `RelativeIntPosition` instance.
 
-## Methods
-- `getBlockPosition(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `getBlockPosition(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getBlockPosition` behavior.
-- `getBlockPosition(@Nonnull CommandContext context, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getBlockPosition(@Nonnull CommandContext context, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getBlockPosition` behavior.
-- `getBlockPosition(@Nonnull Vector3d base, @Nonnull ChunkStore chunkStore)`
+- `getBlockPosition(@Nonnull Vector3d base, @Nonnull ChunkStore chunkStore)`: Add description.
   - Executes `getBlockPosition` behavior.
-- `isRelative()`
+- `isRelative()`: Add description.
   - Executes `isRelative` behavior.
 
 ## Notes

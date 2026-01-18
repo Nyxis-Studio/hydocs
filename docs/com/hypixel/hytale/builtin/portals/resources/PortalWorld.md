@@ -1,55 +1,55 @@
+**Source Hash:** `5a183d7a6ec52cfc1920feb75e0adf5dc9ebbe56d64ca34e0ebae4973d5877f9`
+
 # PortalWorld
 
 ## Overview
-- Documentation for `PortalWorld`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.resources`.
 
-## Constructors
+## Constructor Descriptions
 - `PortalWorld()`
   - Creates a `PortalWorld` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `init(PortalType portalType, int timeLimitSeconds, PortalRemovalCondition removalCondition, PortalGameplayConfig gameplayConfig)`
+- `init(PortalType portalType, int timeLimitSeconds, PortalRemovalCondition removalCondition, PortalGameplayConfig gameplayConfig)`: Add description.
   - Executes `init` behavior.
-- `getPortalType()`
+- `getPortalType()`: Add description.
   - Executes `getPortalType` behavior.
-- `exists()`
+- `exists()`: Add description.
   - Executes `exists` behavior.
-- `getTimeLimitSeconds()`
+- `getTimeLimitSeconds()`: Add description.
   - Executes `getTimeLimitSeconds` behavior.
-- `getElapsedSeconds(World world)`
+- `getElapsedSeconds(World world)`: Add description.
   - Executes `getElapsedSeconds` behavior.
-- `getRemainingSeconds(World world)`
+- `getRemainingSeconds(World world)`: Add description.
   - Executes `getRemainingSeconds` behavior.
-- `setRemainingSeconds(World world, double seconds)`
+- `setRemainingSeconds(World world, double seconds)`: Add description.
   - Executes `setRemainingSeconds` behavior.
-- `getDiedInWorld()`
+- `getDiedInWorld()`: Add description.
   - Executes `getDiedInWorld` behavior.
-- `getSeesUi()`
+- `getSeesUi()`: Add description.
   - Executes `getSeesUi` behavior.
-- `getGameplayConfig()`
+- `getGameplayConfig()`: Add description.
   - Executes `getGameplayConfig` behavior.
-- `getVoidEventConfig()`
+- `getVoidEventConfig()`: Add description.
   - Executes `getVoidEventConfig` behavior.
-- `getSpawnPoint()`
+- `getSpawnPoint()`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `setSpawnPoint(Transform spawnPoint)`
+- `setSpawnPoint(Transform spawnPoint)`: Add description.
   - Executes `setSpawnPoint` behavior.
-- `getVoidEventRef()`
+- `getVoidEventRef()`: Add description.
   - Executes `getVoidEventRef` behavior.
-- `isVoidEventActive()`
+- `isVoidEventActive()`: Add description.
   - Executes `isVoidEventActive` behavior.
-- `setVoidEventRef(Ref<EntityStore> voidEventRef)`
+- `setVoidEventRef(Ref<EntityStore> voidEventRef)`: Add description.
   - Executes `setVoidEventRef` behavior.
-- `createFullPacket(World world)`
+- `createFullPacket(World world)`: Add description.
   - Executes `createFullPacket` behavior.
-- `createUpdatePacket(World world)`
+- `createUpdatePacket(World world)`: Add description.
   - Executes `createUpdatePacket` behavior.
-- `createStateForPacket(World world)`
+- `createStateForPacket(World world)`: Add description.
   - Executes `createStateForPacket` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `fb30016e15755828fdb330bfa251698d68b0ba304fa0818d216aa896a57e0544`
+
 # GetChunkFlags
 
 ## Overview
-- Documentation for `GetChunkFlags`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

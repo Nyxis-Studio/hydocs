@@ -1,16 +1,16 @@
+**Source Hash:** `fd8e48c3513f6694e157510a2a884ba459728df86dceb3c5932656f329ef31f0`
+
 # DensityReturnTypeAsset
 
 ## Overview
-- Documentation for `DensityReturnTypeAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density.positions.returntypes`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed, @Nonnull ReferenceBundle referenceBundle, @Nonnull WorkerIndexer workerIndexer)`: Add description.
   - Executes `build` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

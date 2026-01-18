@@ -1,17 +1,17 @@
+**Source Hash:** `43ccdd0f6ed4d12eea57062d83b8612aebce57f768177ca26246f12bdf1a1e89`
+
 # ReputationDataResource
 
 ## Overview
-- Documentation for `ReputationDataResource`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.reputation.store`.
 
-## Constructors
+## Constructor Descriptions
 - `ReputationDataResource()`
   - Creates a `ReputationDataResource` instance.
 
-## Methods
-- `getReputationStats()`
+## Method Descriptions
+- `getReputationStats()`: Add description.
   - Executes `getReputationStats` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

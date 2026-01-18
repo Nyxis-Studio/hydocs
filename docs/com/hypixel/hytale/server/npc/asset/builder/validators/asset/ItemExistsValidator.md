@@ -1,10 +1,10 @@
+**Source Hash:** `54d89d164732fa8e250fe9285c25c875b22e6b73e946d106d4d8e842d1cddc93`
+
 # ItemExistsValidator
 
 ## Overview
-- Documentation for `ItemExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemExistsValidator()`
   - Creates a `ItemExistsValidator` instance.
 - `ItemExistsValidator(boolean requireBlock, boolean allowDroplist)`
@@ -20,24 +20,24 @@
 - `ItemExistsValidator(config, false, true)`
   - Creates a `ItemExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String item)`
+- `test(String item)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String item, String attributeName)`
+- `errorMessage(String item, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `requireBlock()`
+- `requireBlock()`: Add description.
   - Executes `requireBlock` behavior.
-- `orDroplist()`
+- `orDroplist()`: Add description.
   - Executes `orDroplist` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
-- `orDroplistWithConfig(EnumSet<AssetValidator.Config> config)`
+- `orDroplistWithConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `orDroplistWithConfig` behavior.
 
 ## Notes

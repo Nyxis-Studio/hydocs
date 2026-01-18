@@ -1,42 +1,42 @@
+**Source Hash:** `7afeabeb14de4d3922d193c80f9877da4a3cf99a1fba3eaa0ba5c5ab3a83da04`
+
 # BuilderActionTest
 
 ## Overview
-- Documentation for `BuilderActionTest`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.debug.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBoolean(@Nonnull BuilderSupport support)`
+- `getBoolean(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBoolean` behavior.
-- `getDouble(@Nonnull BuilderSupport support)`
+- `getDouble(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getDouble` behavior.
-- `getFloat(@Nonnull BuilderSupport support)`
+- `getFloat(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getFloat` behavior.
-- `getInt(@Nonnull BuilderSupport support)`
+- `getInt(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getInt` behavior.
-- `getString(@Nonnull BuilderSupport support)`
+- `getString(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getString` behavior.
-- `getEnum(@Nonnull BuilderSupport support)`
+- `getEnum(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getEnum` behavior.
-- `getEnumSet(@Nonnull BuilderSupport support)`
+- `getEnumSet(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getEnumSet` behavior.
-- `getAsset(@Nonnull BuilderSupport support)`
+- `getAsset(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAsset` behavior.
-- `getNumberArray(@Nonnull BuilderSupport support)`
+- `getNumberArray(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getNumberArray` behavior.
-- `getStringArray(@Nonnull BuilderSupport support)`
+- `getStringArray(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getStringArray` behavior.
 
 ## Notes

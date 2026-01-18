@@ -1,10 +1,10 @@
+**Source Hash:** `5dc61c3fb21e513fb25b0d5ab3d4ad053e940106d8d2579c19343f8eab04a07c`
+
 # ConstantCoordinateDoubleSupplier
 
 ## Overview
-- Documentation for `ConstantCoordinateDoubleSupplier`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.function`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantCoordinateDoubleSupplier(0.0)`
   - Creates a `ConstantCoordinateDoubleSupplier` instance.
 - `ConstantCoordinateDoubleSupplier(1.0)`
@@ -12,12 +12,12 @@
 - `ConstantCoordinateDoubleSupplier(double value)`
   - Creates a `ConstantCoordinateDoubleSupplier` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `apply(int seed, int x, int y)`
+- `apply(int seed, int x, int y)`: Add description.
   - Executes `apply` behavior.
-- `apply(int seed, int x, int y, int z)`
+- `apply(int seed, int x, int y, int z)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

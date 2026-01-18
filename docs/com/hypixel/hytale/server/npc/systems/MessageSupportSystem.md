@@ -1,21 +1,21 @@
+**Source Hash:** `df14ebf5ab8540a06c8edcf055e99f2f42eb32be87e65c71c0ff28deeb3dfd52`
+
 # MessageSupportSystem
 
 ## Overview
-- Documentation for `MessageSupportSystem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `MessageSupportSystem(@Nonnull ComponentType<EntityStore, T> messageSupportComponentType, @Nonnull Set<Dependency<EntityStore>> dependencies)`
   - Creates a `MessageSupportSystem` instance.
 
-## Methods
-- `getDependencies()`
+## Method Descriptions
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `steppedTick` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `11b1f32007895d027c33bbe439050e831cded447d63859ff5e5b815e8d3a9ffb`
+
 # ComponentInfo
 
 ## Overview
-- Documentation for `ComponentInfo`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
+## Constructor Descriptions
 - `ComponentInfo(String name, int index, int nestingDepth)`
   - Creates a `ComponentInfo` instance.
 
-## Methods
-- `addField(String field)`
+## Method Descriptions
+- `addField(String field)`: Add description.
   - Executes `addField` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getFields()`
+- `getFields()`: Add description.
   - Executes `getFields` behavior.
 
 ## Notes

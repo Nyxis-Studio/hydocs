@@ -1,17 +1,17 @@
+**Source Hash:** `2b6a23ef4ca34ae27a5a02c8338ecea97daf572214ecd3adebd449efa26e496b`
+
 # ClickType
 
 ## Overview
-- Documentation for `ClickType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ClickType(int value)`
   - Creates a `ClickType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

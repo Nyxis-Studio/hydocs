@@ -1,23 +1,23 @@
+**Source Hash:** `5a112294ce657371eeaa36b46d5a843a5eb59957937e6337a12a80aa5f2f2d85`
+
 # BoxProp
 
 ## Overview
-- Documentation for `BoxProp`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.props`.
 
-## Constructors
+## Constructor Descriptions
 - `BoxProp(Vector3i range, @Nonnull Material material, @Nonnull Scanner scanner, @Nonnull Pattern pattern)`
   - Creates a `BoxProp` instance.
 
-## Methods
-- `scan(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull WorkerIndexer.Id id)`
+## Method Descriptions
+- `scan(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull WorkerIndexer.Id id)`: Add description.
   - Executes `scan` behavior.
-- `place(@Nonnull Prop.Context context)`
+- `place(@Nonnull Prop.Context context)`: Add description.
   - Executes `place` behavior.
-- `place(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace)`
+- `place(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace)`: Add description.
   - Executes `place` behavior.
-- `getContextDependency()`
+- `getContextDependency()`: Add description.
   - Executes `getContextDependency` behavior.
-- `getWriteBounds()`
+- `getWriteBounds()`: Add description.
   - Executes `getWriteBounds` behavior.
 
 ## Notes

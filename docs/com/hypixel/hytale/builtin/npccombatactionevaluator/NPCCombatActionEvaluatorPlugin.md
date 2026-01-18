@@ -1,23 +1,23 @@
+**Source Hash:** `9ad49591f4016b987c31234c8a06a5f8f81b52478ee4ac6931b02bfa53a6ede6`
+
 # NPCCombatActionEvaluatorPlugin
 
 ## Overview
-- Documentation for `NPCCombatActionEvaluatorPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCCombatActionEvaluatorPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `NPCCombatActionEvaluatorPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `getTargetMemoryComponentType()`
+- `getTargetMemoryComponentType()`: Add description.
   - Executes `getTargetMemoryComponentType` behavior.
-- `getCombatActionEvaluatorComponentType()`
+- `getCombatActionEvaluatorComponentType()`: Add description.
   - Executes `getCombatActionEvaluatorComponentType` behavior.
-- `getDamageMemoryComponentType()`
+- `getDamageMemoryComponentType()`: Add description.
   - Executes `getDamageMemoryComponentType` behavior.
 
 ## Notes

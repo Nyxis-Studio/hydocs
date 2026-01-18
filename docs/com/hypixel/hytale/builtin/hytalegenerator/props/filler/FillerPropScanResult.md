@@ -1,19 +1,19 @@
+**Source Hash:** `70fd8821cd6ea759d0adc966f06dcb5c6fc898ba8c77e9d51907d620482f4b92`
+
 # FillerPropScanResult
 
 ## Overview
-- Documentation for `FillerPropScanResult`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.props.filler`.
 
-## Constructors
+## Constructor Descriptions
 - `FillerPropScanResult(@Nullable List<Vector3i> positions)`
   - Creates a `FillerPropScanResult` instance.
 
-## Methods
-- `getFluidBlocks()`
+## Method Descriptions
+- `getFluidBlocks()`: Add description.
   - Executes `getFluidBlocks` behavior.
-- `cast(ScanResult scanResult)`
+- `cast(ScanResult scanResult)`: Add description.
   - Executes `cast` behavior.
-- `isNegative()`
+- `isNegative()`: Add description.
   - Executes `isNegative` behavior.
 
 ## Notes

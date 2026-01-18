@@ -1,15 +1,15 @@
+**Source Hash:** `373836c2494f039df4bf8ffd70c7e23fb9bfd58686e93fcae7f006a016cc5c48`
+
 # DownwardDepthMaterialProvider
 
 ## Overview
-- Documentation for `DownwardDepthMaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `DownwardDepthMaterialProvider(@Nonnull MaterialProvider<V> materialProvider, int depth)`
   - Creates a `DownwardDepthMaterialProvider` instance.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
 
 ## Notes

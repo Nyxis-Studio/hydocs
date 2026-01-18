@@ -1,25 +1,25 @@
+**Source Hash:** `81b33c91bac02bf9d0a4cf6bcb582981ed62a1499cd6ac199a94489624707b58`
+
 # HarvestingDropType
 
 ## Overview
-- Documentation for `HarvestingDropType`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `HarvestingDropType(String itemId, String dropListId)`
   - Creates a `HarvestingDropType` instance.
 - `HarvestingDropType()`
   - Creates a `HarvestingDropType` instance.
 
-## Methods
-- `toPacket()`
+## Method Descriptions
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `getItemId()`
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `withoutDrops()`
+- `withoutDrops()`: Add description.
   - Executes `withoutDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `7c1056554718091b10500d4c4b36a357d4ff2d010e72d8d49405c9f4994eecc1`
+
 # WorldPerfResetCommand
 
 ## Overview
-- Documentation for `WorldPerfResetCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world.perf`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldPerfResetCommand()`
   - Creates a `WorldPerfResetCommand` instance.
 
-## Methods
-- `execute(@NonNullDecl CommandContext context, @NonNullDecl World world, @NonNullDecl Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@NonNullDecl CommandContext context, @NonNullDecl World world, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

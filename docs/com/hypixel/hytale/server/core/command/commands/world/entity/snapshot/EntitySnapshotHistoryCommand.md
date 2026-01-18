@@ -1,15 +1,15 @@
+**Source Hash:** `793e95fa26f8fb4d383b0f4da78a4c6d382ca1929fe7e9cfa3f350d8f4422e78`
+
 # EntitySnapshotHistoryCommand
 
 ## Overview
-- Documentation for `EntitySnapshotHistoryCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.entity.snapshot`.
 
-## Constructors
+## Constructor Descriptions
 - `EntitySnapshotHistoryCommand()`
   - Creates a `EntitySnapshotHistoryCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

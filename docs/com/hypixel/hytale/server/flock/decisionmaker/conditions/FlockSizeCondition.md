@@ -1,17 +1,17 @@
+**Source Hash:** `9ce0a8f0864b462e70821d3526869a6f6000b2cc5e4b7d35af453f996c46a45d`
+
 # FlockSizeCondition
 
 ## Overview
-- Documentation for `FlockSizeCondition`.
-- Declared as a class in `com.hypixel.hytale.server.flock.decisionmaker.conditions`.
 
-## Constructors
+## Constructor Descriptions
 - `FlockSizeCondition()`
   - Creates a `FlockSizeCondition` instance.
 
-## Methods
-- `getInput(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+## Method Descriptions
+- `getInput(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `getInput` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

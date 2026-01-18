@@ -1,15 +1,15 @@
+**Source Hash:** `f713cbc18d1df7627872ece716bfda009f983c1c3f8d9cdfdd25b8db8657523a`
+
 # TeleportAllCommand
 
 ## Overview
-- Documentation for `TeleportAllCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportAllCommand()`
   - Creates a `TeleportAllCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

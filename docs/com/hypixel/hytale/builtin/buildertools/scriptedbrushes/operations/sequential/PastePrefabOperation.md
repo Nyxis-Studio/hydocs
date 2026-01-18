@@ -1,19 +1,19 @@
+**Source Hash:** `f26721c919bd774163ea9ea613130affe428c7d121cccb9fe956b3acccd4a05c`
+
 # PastePrefabOperation
 
 ## Overview
-- Documentation for `PastePrefabOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential`.
 
-## Constructors
+## Constructor Descriptions
 - `PastePrefabOperation()`
   - Creates a `PastePrefabOperation` instance.
 
-## Methods
-- `resetInternalState()`
+## Method Descriptions
+- `resetInternalState()`: Add description.
   - Executes `resetInternalState` behavior.
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
-- `modifyBlocks(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, BrushConfigCommandExecutor brushConfigCommandExecutor, BrushConfigEditStore edit, int x, int y, int z, ComponentAccessor<EntityStore> componentAccessor)`
+- `modifyBlocks(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, BrushConfigCommandExecutor brushConfigCommandExecutor, BrushConfigEditStore edit, int x, int y, int z, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBlocks` behavior.
 
 ## Notes

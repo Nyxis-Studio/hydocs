@@ -1,61 +1,61 @@
+**Source Hash:** `f73693a04f15972729216298e964dc3fb8009deae756fe90c94efa12ca776903`
+
 # CosmeticRegistry
 
 ## Overview
-- Documentation for `CosmeticRegistry`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `CosmeticRegistry(@Nonnull AssetPack pack)`
   - Creates a `CosmeticRegistry` instance.
 
-## Methods
-- `load(@Nonnull Path assetsDirectory, @Nonnull String file, @Nonnull Function<BsonDocument, T> func)`
+## Method Descriptions
+- `load(@Nonnull Path assetsDirectory, @Nonnull String file, @Nonnull Function<BsonDocument, T> func)`: Add description.
   - Executes `load` behavior.
-- `getEmotes()`
+- `getEmotes()`: Add description.
   - Executes `getEmotes` behavior.
-- `getEyeColors()`
+- `getEyeColors()`: Add description.
   - Executes `getEyeColors` behavior.
-- `getGradientSets()`
+- `getGradientSets()`: Add description.
   - Executes `getGradientSets` behavior.
-- `getBodyCharacteristics()`
+- `getBodyCharacteristics()`: Add description.
   - Executes `getBodyCharacteristics` behavior.
-- `getUnderwear()`
+- `getUnderwear()`: Add description.
   - Executes `getUnderwear` behavior.
-- `getEyebrows()`
+- `getEyebrows()`: Add description.
   - Executes `getEyebrows` behavior.
-- `getEars()`
+- `getEars()`: Add description.
   - Executes `getEars` behavior.
-- `getEyes()`
+- `getEyes()`: Add description.
   - Executes `getEyes` behavior.
-- `getFaces()`
+- `getFaces()`: Add description.
   - Executes `getFaces` behavior.
-- `getMouths()`
+- `getMouths()`: Add description.
   - Executes `getMouths` behavior.
-- `getFacialHairs()`
+- `getFacialHairs()`: Add description.
   - Executes `getFacialHairs` behavior.
-- `getPants()`
+- `getPants()`: Add description.
   - Executes `getPants` behavior.
-- `getOverpants()`
+- `getOverpants()`: Add description.
   - Executes `getOverpants` behavior.
-- `getUndertops()`
+- `getUndertops()`: Add description.
   - Executes `getUndertops` behavior.
-- `getOvertops()`
+- `getOvertops()`: Add description.
   - Executes `getOvertops` behavior.
-- `getHaircuts()`
+- `getHaircuts()`: Add description.
   - Executes `getHaircuts` behavior.
-- `getShoes()`
+- `getShoes()`: Add description.
   - Executes `getShoes` behavior.
-- `getHeadAccessories()`
+- `getHeadAccessories()`: Add description.
   - Executes `getHeadAccessories` behavior.
-- `getFaceAccessories()`
+- `getFaceAccessories()`: Add description.
   - Executes `getFaceAccessories` behavior.
-- `getEarAccessories()`
+- `getEarAccessories()`: Add description.
   - Executes `getEarAccessories` behavior.
-- `getGloves()`
+- `getGloves()`: Add description.
   - Executes `getGloves` behavior.
-- `getSkinFeatures()`
+- `getSkinFeatures()`: Add description.
   - Executes `getSkinFeatures` behavior.
-- `getCapes()`
+- `getCapes()`: Add description.
   - Executes `getCapes` behavior.
 
 ## Notes

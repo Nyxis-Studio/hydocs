@@ -1,17 +1,17 @@
+**Source Hash:** `c411309cc59560cb83c0fffd79813da00104984429cec9d79f3639e75f6101f6`
+
 # LoadedNPCEvent
 
 ## Overview
-- Documentation for `LoadedNPCEvent`.
-- Declared as a class in `com.hypixel.hytale.server.spawning`.
 
-## Constructors
+## Constructor Descriptions
 - `LoadedNPCEvent(@Nonnull BuilderInfo builderInfo)`
   - Creates a `LoadedNPCEvent` instance.
 
-## Methods
-- `getBuilderInfo()`
+## Method Descriptions
+- `getBuilderInfo()`: Add description.
   - Executes `getBuilderInfo` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,28 +1,28 @@
+**Source Hash:** `5f36a5a824d51dc0eeddc9d132287547985773f19ddb418a6465eeffb4a8d5d0`
+
 # AverageCollector
 
 ## Overview
-- Documentation for `AverageCollector`.
-- Declared as a class in `com.hypixel.hytale.metrics.metric`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `addAndGet(double v)`
+- `addAndGet(double v)`: Add description.
   - Executes `addAndGet` behavior.
-- `add(double v)`
+- `add(double v)`: Add description.
   - Executes `add` behavior.
-- `remove(double v)`
+- `remove(double v)`: Add description.
   - Executes `remove` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `add(double val, double v, int n)`
+- `add(double val, double v, int n)`: Add description.
   - Executes `add` behavior.
-- `set(double v)`
+- `set(double v)`: Add description.
   - Executes `set` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `062532ee99e462ee9bd932c2cdf01bb7aba25d4177cc8f8ef46bfa08958fd8e5`
+
 # BoundingBox
 
 ## Overview
-- Documentation for `BoundingBox`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `BoundingBox()`
   - Creates a `BoundingBox` instance.
 - `BoundingBox(@Nonnull Box boundingBox)`
@@ -12,18 +12,18 @@
 - `BoundingBox(this.boundingBox)`
   - Creates a `BoundingBox` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getBoundingBox()`
+- `getBoundingBox()`: Add description.
   - Executes `getBoundingBox` behavior.
-- `setBoundingBox(@Nonnull Box boundingBox)`
+- `setBoundingBox(@Nonnull Box boundingBox)`: Add description.
   - Executes `setBoundingBox` behavior.
-- `getDetailBoxes()`
+- `getDetailBoxes()`: Add description.
   - Executes `getDetailBoxes` behavior.
-- `setDetailBoxes(Map<String, DetailBox[]> detailBoxes)`
+- `setDetailBoxes(Map<String, DetailBox[]> detailBoxes)`: Add description.
   - Executes `setDetailBoxes` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

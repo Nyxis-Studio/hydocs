@@ -1,19 +1,19 @@
+**Source Hash:** `da763a29797d22c58171f8e66ce74b14b785d8465f7f3c550c52a1be9de9feef`
+
 # LegacyBeaconSpatialSystem
 
 ## Overview
-- Documentation for `LegacyBeaconSpatialSystem`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `LegacyBeaconSpatialSystem(ResourceType<EntityStore, SpatialResource<Ref<EntityStore>, EntityStore>> spatialResource)`
   - Creates a `LegacyBeaconSpatialSystem` instance.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+- `tick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `getPosition(@Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`
+- `getPosition(@Nonnull ArchetypeChunk<EntityStore> archetypeChunk, int index)`: Add description.
   - Executes `getPosition` behavior.
 
 ## Notes

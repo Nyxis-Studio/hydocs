@@ -1,37 +1,37 @@
+**Source Hash:** `7d274d633a7e97b092cc2e378af16b70c87ded7b5270674e21590d23358121fe`
+
 # ActionTimeout
 
 ## Overview
-- Documentation for `ActionTimeout`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionTimeout(@Nonnull BuilderActionTimeout builderActionTimeout, @Nonnull BuilderSupport builderSupport)`
   - Creates a `ActionTimeout` instance.
 
-## Methods
-- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `canExecute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `canExecute` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `registerWithSupport(Role role)`
+- `registerWithSupport(Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `componentCount()`
+- `componentCount()`: Add description.
   - Executes `componentCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
 
 ## Notes

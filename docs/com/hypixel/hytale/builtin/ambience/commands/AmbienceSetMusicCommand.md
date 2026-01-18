@@ -1,15 +1,15 @@
+**Source Hash:** `1e8c13ec6a8801e0f16d63a29ab657da0aa029e2dcd4fc325033299f91f62c8c`
+
 # AmbienceSetMusicCommand
 
 ## Overview
-- Documentation for `AmbienceSetMusicCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.ambience.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceSetMusicCommand()`
   - Creates a `AmbienceSetMusicCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

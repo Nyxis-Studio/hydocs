@@ -1,20 +1,20 @@
+**Source Hash:** `9702a51f24a4681d4ff708d4b34c0f4ba9b3a8bf98a6abae1a17010f2227350a`
+
 # StatsConditionBaseInteraction
 
 ## Overview
-- Documentation for `StatsConditionBaseInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.none`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `canAfford(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+- `canAfford(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `canAfford` behavior.
-- `canOverdraw(float value, float min)`
+- `canOverdraw(float value, float min)`: Add description.
   - Executes `canOverdraw` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

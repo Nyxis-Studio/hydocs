@@ -1,19 +1,19 @@
+**Source Hash:** `8856c9819b6d4d77f371f1801f58b076da056c024a185f2078dcb0bbd3e37503`
+
 # PluginInit
 
 ## Overview
-- Documentation for `PluginInit`.
-- Declared as a class in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `PluginInit(@Nonnull PluginManifest pluginManifest, @Nonnull Path dataDirectory)`
   - Creates a `PluginInit` instance.
 
-## Methods
-- `getPluginManifest()`
+## Method Descriptions
+- `getPluginManifest()`: Add description.
   - Executes `getPluginManifest` behavior.
-- `getDataDirectory()`
+- `getDataDirectory()`: Add description.
   - Executes `getDataDirectory` behavior.
-- `isInServerClassPath()`
+- `isInServerClassPath()`: Add description.
   - Executes `isInServerClassPath` behavior.
 
 ## Notes

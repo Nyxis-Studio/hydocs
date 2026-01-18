@@ -1,14 +1,14 @@
+**Source Hash:** `f0b411082daa8814904014bb539e7313358c04f27ea86ce618f80724136a0226`
+
 # PointKnockback
 
 ## Overview
-- Documentation for `PointKnockback`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.combat`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `calculateVector(@Nonnull Vector3d source, float yaw, @Nonnull Vector3d target)`
+## Method Descriptions
+- `calculateVector(@Nonnull Vector3d source, float yaw, @Nonnull Vector3d target)`: Add description.
   - Executes `calculateVector` behavior.
 
 ## Notes

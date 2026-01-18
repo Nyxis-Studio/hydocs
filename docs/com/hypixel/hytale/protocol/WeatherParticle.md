@@ -1,10 +1,10 @@
+**Source Hash:** `c08791b99e364d3f88bebf91d363007c6e4e33a2cd1dfab6b379d88d973f348c`
+
 # WeatherParticle
 
 ## Overview
-- Documentation for `WeatherParticle`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `WeatherParticle()`
   - Creates a `WeatherParticle` instance.
 - `WeatherParticle(@Nullable String systemId, @Nullable Color color, float scale, boolean isOvergroundOnly, float positionOffsetMultiplier)`
@@ -12,22 +12,22 @@
 - `WeatherParticle(@Nonnull WeatherParticle other)`
   - Creates a `WeatherParticle` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

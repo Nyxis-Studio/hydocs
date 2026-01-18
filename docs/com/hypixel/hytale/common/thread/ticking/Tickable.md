@@ -1,14 +1,14 @@
+**Source Hash:** `84a05e0460bc778e93e0913ad051fe099a229c4a60c0c55289e3fa6e7e3f2c04`
+
 # Tickable
 
 ## Overview
-- Documentation for `Tickable`.
-- Declared as a interface in `com.hypixel.hytale.common.thread.ticking`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tick(float var1)`
+## Method Descriptions
+- `tick(float var1)`: Add description.
   - Executes `tick` behavior.
 
 ## Notes

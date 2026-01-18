@@ -1,18 +1,18 @@
+**Source Hash:** `9c1f931c76b00624e6611977ca5b44a995e77b835dd4ad89048f2f1964f642ed`
+
 # LearnRecipeInteraction
 
 ## Overview
-- Documentation for `LearnRecipeInteraction`.
-- Declared as a class in `com.hypixel.hytale.builtin.crafting.interaction`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

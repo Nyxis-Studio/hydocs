@@ -1,17 +1,17 @@
+**Source Hash:** `07137cce732c956eab536af17610c1b1ff853c54821e285c6632a2039b990ef4`
+
 # FailedSpawnComponent
 
 ## Overview
-- Documentation for `FailedSpawnComponent`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `FailedSpawnComponent()`
   - Creates a `FailedSpawnComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

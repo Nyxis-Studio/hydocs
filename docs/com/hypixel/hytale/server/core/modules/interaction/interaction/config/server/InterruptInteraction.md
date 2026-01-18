@@ -1,14 +1,14 @@
+**Source Hash:** `0d5c43b7b3086c34594aad4e4fc6482f79ad358e0fb83bab38baf05ea3bc3924`
+
 # InterruptInteraction
 
 ## Overview
-- Documentation for `InterruptInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
 
 ## Notes

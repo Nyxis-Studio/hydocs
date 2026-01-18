@@ -1,10 +1,10 @@
+**Source Hash:** `d4513b9152c2dba750907077faf5abf14b2891056f5afae3cb992e44b53085d2`
+
 # ArgumentType
 
 ## Overview
-- Documentation for `ArgumentType`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.arguments.types`.
 
-## Constructors
+## Constructor Descriptions
 - `ArgumentType(@Nonnull Message name, @Nonnull Message argumentUsage, int numberOfParameters, String ... examples)`
   - Creates a `ArgumentType` instance.
 - `ArgumentType(@Nonnull String name, @Nonnull Message argumentUsage, int numberOfParameters, String ... examples)`
@@ -12,24 +12,24 @@
 - `ArgumentType(String name, @Nonnull String argumentUsage, int numberOfParameters, String ... examples)`
   - Creates a `ArgumentType` instance.
 
-## Methods
-- `processedGet(CommandSender sender, CommandContext context, Argument<?, DataType> argument)`
+## Method Descriptions
+- `processedGet(CommandSender sender, CommandContext context, Argument<?, DataType> argument)`: Add description.
   - Executes `processedGet` behavior.
-- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`
+- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`: Add description.
   - Executes `suggest` behavior.
-- `parse(@Nonnull String[] var1, @Nonnull ParseResult var2)`
+- `parse(@Nonnull String[] var1, @Nonnull ParseResult var2)`: Add description.
   - Executes `parse` behavior.
-- `getArgumentUsage()`
+- `getArgumentUsage()`: Add description.
   - Executes `getArgumentUsage` behavior.
-- `getNumberOfParameters()`
+- `getNumberOfParameters()`: Add description.
   - Executes `getNumberOfParameters` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getExamples()`
+- `getExamples()`: Add description.
   - Executes `getExamples` behavior.
-- `isListArgument()`
+- `isListArgument()`: Add description.
   - Executes `isListArgument` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `75040919494b6e0d3433833154ffdd69f200f0cfaa105366049f38c736f319f4`
+
 # AssetEditorUpdateWeatherPreviewLockEvent
 
 ## Overview
-- Documentation for `AssetEditorUpdateWeatherPreviewLockEvent`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.event`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorUpdateWeatherPreviewLockEvent(EditorClient editorClient, boolean locked)`
   - Creates a `AssetEditorUpdateWeatherPreviewLockEvent` instance.
 
-## Methods
-- `isLocked()`
+## Method Descriptions
+- `isLocked()`: Add description.
   - Executes `isLocked` behavior.
 
 ## Notes

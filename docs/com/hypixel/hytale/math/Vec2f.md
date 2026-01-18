@@ -1,10 +1,10 @@
+**Source Hash:** `0e446a9992a33037f914f242e36e6d79ab718864f0cd39123a0a5df0189eda64`
+
 # Vec2f
 
 ## Overview
-- Documentation for `Vec2f`.
-- Declared as a class in `com.hypixel.hytale.math`.
 
-## Constructors
+## Constructor Descriptions
 - `Vec2f(float x, float y)`
   - Creates a `Vec2f` instance.
 - `Vec2f()`
@@ -14,12 +14,12 @@
 - `Vec2f(" + this.x + ", " + this.y + ")`
   - Creates a `Vec2f` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `c3af090d56b79297e9be11c9d05158e52ec884eeb642548c086b3bea606484c6`
+
 # ObjectiveRewardHistoryData
 
 ## Overview
-- Documentation for `ObjectiveRewardHistoryData`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.historydata`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

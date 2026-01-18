@@ -1,17 +1,17 @@
+**Source Hash:** `ee372482ecb751b3477c6d00bfc6136ccf957d1d8842fe1a3230665c6c9d2eee`
+
 # SensorLeash
 
 ## Overview
-- Documentation for `SensorLeash`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorLeash(@Nonnull BuilderSensorLeash builderSensorLeash, @Nonnull BuilderSupport builderSupport)`
   - Creates a `SensorLeash` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

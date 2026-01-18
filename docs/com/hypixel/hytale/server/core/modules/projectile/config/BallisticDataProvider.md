@@ -1,14 +1,14 @@
+**Source Hash:** `058aac2809d01b54b27d6b16cad58f5920bbb2494f8946a187d8ae3332769e96`
+
 # BallisticDataProvider
 
 ## Overview
-- Documentation for `BallisticDataProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.projectile.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBallisticData()`
+## Method Descriptions
+- `getBallisticData()`: Add description.
   - Executes `getBallisticData` behavior.
 
 ## Notes

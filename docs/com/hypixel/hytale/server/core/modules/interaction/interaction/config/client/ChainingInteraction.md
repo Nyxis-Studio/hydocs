@@ -1,45 +1,45 @@
+**Source Hash:** `c4d4f227f47d50c60bf56b28b9be1a66a86f94ba07ee039e4269b87ab46b115a`
+
 # ChainingInteraction
 
 ## Overview
-- Documentation for `ChainingInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `ChainingInteraction()`
   - Creates a `ChainingInteraction` instance.
 
-## Methods
-- `getWaitForDataFrom()`
+## Method Descriptions
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateTick0` behavior.
-- `compile(@Nonnull OperationsBuilder builder)`
+- `compile(@Nonnull OperationsBuilder builder)`: Add description.
   - Executes `compile` behavior.
-- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`
+- `walk(@Nonnull Collector collector, @Nonnull InteractionContext context)`: Add description.
   - Executes `walk` behavior.
-- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`
+- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `needsRemoteSync()`
+- `needsRemoteSync()`: Add description.
   - Executes `needsRemoteSync` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getComponentType()`
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getTimeSinceLastAttackInSeconds()`
+- `getTimeSinceLastAttackInSeconds()`: Add description.
   - Executes `getTimeSinceLastAttackInSeconds` behavior.
-- `getNamedMap()`
+- `getNamedMap()`: Add description.
   - Executes `getNamedMap` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `of(int index)`
+- `of(int index)`: Add description.
   - Executes `of` behavior.
 
 ## Notes

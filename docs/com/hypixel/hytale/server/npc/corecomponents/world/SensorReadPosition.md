@@ -1,17 +1,17 @@
+**Source Hash:** `531d42f47f0729c2e87574aa20c335db8bc7e778246a6042fe91dbbf5f80fe25`
+
 # SensorReadPosition
 
 ## Overview
-- Documentation for `SensorReadPosition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorReadPosition(@Nonnull BuilderSensorReadPosition builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorReadPosition` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `7e797d0a3c6ebafadc95bffba5376594047822c4091e53cb12f59ba5d418a40e`
+
 # GreaterThanCondition
 
 ## Overview
-- Documentation for `GreaterThanCondition`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.spaceanddepth.conditions`.
 
-## Constructors
+## Constructor Descriptions
 - `GreaterThanCondition(int threshold, @Nonnull ConditionParameter parameter)`
   - Creates a `GreaterThanCondition` instance.
 
-## Methods
-- `qualifies(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling)`
+## Method Descriptions
+- `qualifies(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling)`: Add description.
   - Executes `qualifies` behavior.
 
 ## Notes

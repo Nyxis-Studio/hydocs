@@ -1,17 +1,17 @@
+**Source Hash:** `51b84a42784a863b825a0e828d593ccfe750ff7ed1f671a3013d3f2626d1fe94`
+
 # Projectile
 
 ## Overview
-- Documentation for `Projectile`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.projectile.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Projectile()`
   - Creates a `Projectile` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

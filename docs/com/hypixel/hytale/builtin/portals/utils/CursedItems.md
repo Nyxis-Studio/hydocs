@@ -1,19 +1,19 @@
+**Source Hash:** `19cadbf4d5e7540052f39c8fb507efe29bbef14fd0353e25a4f2d8999b49487f`
+
 # CursedItems
 
 ## Overview
-- Documentation for `CursedItems`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils`.
 
-## Constructors
+## Constructor Descriptions
 - `CursedItems()`
   - Creates a `CursedItems` instance.
 
-## Methods
-- `uncurseAll(ItemContainer itemContainer)`
+## Method Descriptions
+- `uncurseAll(ItemContainer itemContainer)`: Add description.
   - Executes `uncurseAll` behavior.
-- `deleteAll(Player player)`
+- `deleteAll(Player player)`: Add description.
   - Executes `deleteAll` behavior.
-- `deleteAll(ItemContainer itemContainer)`
+- `deleteAll(ItemContainer itemContainer)`: Add description.
   - Executes `deleteAll` behavior.
 
 ## Notes

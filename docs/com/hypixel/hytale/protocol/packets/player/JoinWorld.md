@@ -1,10 +1,10 @@
+**Source Hash:** `a712bf3dd787bd0b2b6cdd40d47782172dab152a5a86e0355735a58d50f296a2`
+
 # JoinWorld
 
 ## Overview
-- Documentation for `JoinWorld`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.player`.
 
-## Constructors
+## Constructor Descriptions
 - `JoinWorld()`
   - Creates a `JoinWorld` instance.
 - `JoinWorld(boolean clearWorld, boolean fadeInOut, @Nonnull UUID worldUuid)`
@@ -12,24 +12,24 @@
 - `JoinWorld(@Nonnull JoinWorld other)`
   - Creates a `JoinWorld` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,26 +1,26 @@
+**Source Hash:** `f6572668782b7e86ab97b91c1d1fe525911e685ae115aee833088b2f33ae311e`
+
 # BuilderSensorAnimation
 
 ## Overview
-- Documentation for `BuilderSensorAnimation`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.audiovisual.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getAnimationSlot(@Nonnull BuilderSupport support)`
+- `getAnimationSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAnimationSlot` behavior.
-- `getAnimationId(@Nonnull BuilderSupport support)`
+- `getAnimationId(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAnimationId` behavior.
 
 ## Notes

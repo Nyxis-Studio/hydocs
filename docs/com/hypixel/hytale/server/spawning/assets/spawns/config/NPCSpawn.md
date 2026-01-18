@@ -1,10 +1,10 @@
+**Source Hash:** `73800362fc5e7c77d16e4d589309aa95483b490dde2cea80b6ce4d8747d7dcc4`
+
 # NPCSpawn
 
 ## Overview
-- Documentation for `NPCSpawn`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.assets.spawns.config`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCSpawn(String id, RoleSpawnParameters[] npcs, DespawnParameters despawnParameters, String[] environments, IntSet environmentIds, double[] dayTimeRange, int[] moonPhaseRange, Map<LightType, double[]> lightTypeMap, boolean scaleDayTimeRange)`
   - Creates a `NPCSpawn` instance.
 - `NPCSpawn(String id)`
@@ -12,28 +12,28 @@
 - `NPCSpawn()`
   - Creates a `NPCSpawn` instance.
 
-## Methods
-- `validateLightRange(@Nonnull ValidationResults results, String parameter, @Nonnull double[] lightRange)`
+## Method Descriptions
+- `validateLightRange(@Nonnull ValidationResults results, String parameter, @Nonnull double[] lightRange)`: Add description.
   - Executes `validateLightRange` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getNPCs()`
+- `getNPCs()`: Add description.
   - Executes `getNPCs` behavior.
-- `getDespawnParameters()`
+- `getDespawnParameters()`: Add description.
   - Executes `getDespawnParameters` behavior.
-- `getEnvironments()`
+- `getEnvironments()`: Add description.
   - Executes `getEnvironments` behavior.
-- `getEnvironmentIds()`
+- `getEnvironmentIds()`: Add description.
   - Executes `getEnvironmentIds` behavior.
-- `getDayTimeRange()`
+- `getDayTimeRange()`: Add description.
   - Executes `getDayTimeRange` behavior.
-- `getMoonPhaseRange()`
+- `getMoonPhaseRange()`: Add description.
   - Executes `getMoonPhaseRange` behavior.
-- `getLightRange(LightType lightType)`
+- `getLightRange(LightType lightType)`: Add description.
   - Executes `getLightRange` behavior.
-- `isScaleDayTimeRange()`
+- `isScaleDayTimeRange()`: Add description.
   - Executes `isScaleDayTimeRange` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

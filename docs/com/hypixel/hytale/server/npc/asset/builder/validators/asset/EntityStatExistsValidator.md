@@ -1,10 +1,10 @@
+**Source Hash:** `ff8c7295bd19658d5ebc5cd3bb275a6f26a323cdde91c7eb1ec6cfdff0e318d1`
+
 # EntityStatExistsValidator
 
 ## Overview
-- Documentation for `EntityStatExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStatExistsValidator()`
   - Creates a `EntityStatExistsValidator` instance.
 - `EntityStatExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `EntityStatExistsValidator(config)`
   - Creates a `EntityStatExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String entityStat)`
+- `test(String entityStat)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String entityStat, String attributeName)`
+- `errorMessage(String entityStat, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

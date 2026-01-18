@@ -1,10 +1,10 @@
+**Source Hash:** `6f32a67b1e5c92aa363b6be473a198b3b8b7e97da9a247a0ee8711c805fa38d7`
+
 # BlockCounter
 
 ## Overview
-- Documentation for `BlockCounter`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.blocktrack`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockCounter()`
   - Creates a `BlockCounter` instance.
 - `BlockCounter(Object2IntMap<String> blockPlacementCounts)`
@@ -12,16 +12,16 @@
 - `BlockCounter(new Object2IntOpenHashMap<String>(this.blockPlacementCounts)`
   - Creates a `BlockCounter` instance.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `trackBlock(String blockName)`
+- `trackBlock(String blockName)`: Add description.
   - Executes `trackBlock` behavior.
-- `untrackBlock(String blockName)`
+- `untrackBlock(String blockName)`: Add description.
   - Executes `untrackBlock` behavior.
-- `getBlockPlacementCount(String blockName)`
+- `getBlockPlacementCount(String blockName)`: Add description.
   - Executes `getBlockPlacementCount` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

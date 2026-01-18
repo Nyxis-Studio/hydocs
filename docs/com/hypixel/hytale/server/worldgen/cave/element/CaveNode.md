@@ -1,41 +1,41 @@
+**Source Hash:** `fc567329324e1fa5e8c0397a93592400d674f6e04417ae580064cd257d4a35ef`
+
 # CaveNode
 
 ## Overview
-- Documentation for `CaveNode`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.element`.
 
-## Constructors
+## Constructor Descriptions
 - `CaveNode(int seedOffset, CaveNodeType caveNodeType, @Nonnull CaveNodeShape shape, float yaw, float pitch)`
   - Creates a `CaveNode` instance.
 
-## Methods
-- `getSeedOffset()`
+## Method Descriptions
+- `getSeedOffset()`: Add description.
   - Executes `getSeedOffset` behavior.
-- `getCaveNodeType()`
+- `getCaveNodeType()`: Add description.
   - Executes `getCaveNodeType` behavior.
-- `getShape()`
+- `getShape()`: Add description.
   - Executes `getShape` behavior.
-- `getCavePrefabs()`
+- `getCavePrefabs()`: Add description.
   - Executes `getCavePrefabs` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `getPitch()`
+- `getPitch()`: Add description.
   - Executes `getPitch` behavior.
-- `getEnd()`
+- `getEnd()`: Add description.
   - Executes `getEnd` behavior.
-- `addPrefab(@Nonnull CavePrefab prefab)`
+- `addPrefab(@Nonnull CavePrefab prefab)`: Add description.
   - Executes `addPrefab` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
-- `getFloorPosition(int seed, double x, double z)`
+- `getFloorPosition(int seed, double x, double z)`: Add description.
   - Executes `getFloorPosition` behavior.
-- `getCeilingPosition(int seed, double x, double z)`
+- `getCeilingPosition(int seed, double x, double z)`: Add description.
   - Executes `getCeilingPosition` behavior.
-- `forEachChunk(@Nonnull LongConsumer consumer)`
+- `forEachChunk(@Nonnull LongConsumer consumer)`: Add description.
   - Executes `forEachChunk` behavior.
-- `compile()`
+- `compile()`: Add description.
   - Executes `compile` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

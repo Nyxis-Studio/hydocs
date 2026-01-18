@@ -1,31 +1,31 @@
+**Source Hash:** `59428b7ff2a46843aa95e5b313f76234792731b2d6708d45ef818a3fdaf93308`
+
 # EmptyChunkStorageProvider
 
 ## Overview
-- Documentation for `EmptyChunkStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage.provider`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyChunkStorageProvider()`
   - Creates a `EmptyChunkStorageProvider` instance.
 
-## Methods
-- `getLoader(@NonNullDecl Store<ChunkStore> store)`
+## Method Descriptions
+- `getLoader(@NonNullDecl Store<ChunkStore> store)`: Add description.
   - Executes `getLoader` behavior.
-- `getSaver(@NonNullDecl Store<ChunkStore> store)`
+- `getSaver(@NonNullDecl Store<ChunkStore> store)`: Add description.
   - Executes `getSaver` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `close()`
+- `close()`: Add description.
   - Executes `close` behavior.
-- `loadHolder(int x, int z)`
+- `loadHolder(int x, int z)`: Add description.
   - Executes `loadHolder` behavior.
-- `getIndexes()`
+- `getIndexes()`: Add description.
   - Executes `getIndexes` behavior.
-- `saveHolder(int x, int z, @Nonnull Holder<ChunkStore> holder)`
+- `saveHolder(int x, int z, @Nonnull Holder<ChunkStore> holder)`: Add description.
   - Executes `saveHolder` behavior.
-- `removeHolder(int x, int z)`
+- `removeHolder(int x, int z)`: Add description.
   - Executes `removeHolder` behavior.
-- `flush()`
+- `flush()`: Add description.
   - Executes `flush` behavior.
 
 ## Notes

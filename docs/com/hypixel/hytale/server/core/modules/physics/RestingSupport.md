@@ -1,18 +1,18 @@
+**Source Hash:** `1c9b452c355d58600846207f45c4e791076fc0cf9d0f931f767a2ac484ad25ce`
+
 # RestingSupport
 
 ## Overview
-- Documentation for `RestingSupport`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hasChanged(@Nonnull World world)`
+## Method Descriptions
+- `hasChanged(@Nonnull World world)`: Add description.
   - Executes `hasChanged` behavior.
-- `rest(@Nonnull World world, @Nonnull Box boundingBox, @Nonnull Vector3d position)`
+- `rest(@Nonnull World world, @Nonnull Box boundingBox, @Nonnull Vector3d position)`: Add description.
   - Executes `rest` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

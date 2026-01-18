@@ -1,17 +1,17 @@
+**Source Hash:** `e00eb28e7b84eab66b562cb5d94ec662dd0a16037deb9e33ef8eee95f948af76`
+
 # OverlapBehavior
 
 ## Overview
-- Documentation for `OverlapBehavior`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `OverlapBehavior(int value)`
   - Creates a `OverlapBehavior` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

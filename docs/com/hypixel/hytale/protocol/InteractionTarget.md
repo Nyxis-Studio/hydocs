@@ -1,17 +1,17 @@
+**Source Hash:** `e4e958576f4ff5063cb5d8f37162f89f5319f133900cb6f42da51ac9230ba38e`
+
 # InteractionTarget
 
 ## Overview
-- Documentation for `InteractionTarget`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionTarget(int value)`
   - Creates a `InteractionTarget` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

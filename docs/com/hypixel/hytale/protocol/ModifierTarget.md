@@ -1,17 +1,17 @@
+**Source Hash:** `f6445f89149825438931b8be6def15db640608e7a72d4cd76cb60054150bfafb`
+
 # ModifierTarget
 
 ## Overview
-- Documentation for `ModifierTarget`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ModifierTarget(int value)`
   - Creates a `ModifierTarget` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

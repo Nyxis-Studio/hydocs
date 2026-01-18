@@ -1,10 +1,10 @@
+**Source Hash:** `908467f05321e989078a1a84c3212af56a3a4dd5cf65f0df6bd5e01b39a13875`
+
 # MouseInteraction
 
 ## Overview
-- Documentation for `MouseInteraction`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.player`.
 
-## Constructors
+## Constructor Descriptions
 - `MouseInteraction()`
   - Creates a `MouseInteraction` instance.
 - `MouseInteraction(long clientTimestamp, int activeSlot, @Nullable String itemInHandId, @Nullable Vector2f screenPoint, @Nullable MouseButtonEvent mouseButton, @Nullable MouseMotionEvent mouseMotion, @Nullable WorldInteraction worldInteraction)`
@@ -12,24 +12,24 @@
 - `MouseInteraction(@Nonnull MouseInteraction other)`
   - Creates a `MouseInteraction` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

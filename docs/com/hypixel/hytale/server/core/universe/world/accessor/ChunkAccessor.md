@@ -1,18 +1,18 @@
+**Source Hash:** `660ac67aabfe131646517fd464002f42fdb6e0f548035ff833cf1f58ae4fcb87`
+
 # ChunkAccessor
 
 ## Overview
-- Documentation for `ChunkAccessor`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.accessor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getFluidId(int x, int y, int z)`
+## Method Descriptions
+- `getFluidId(int x, int y, int z)`: Add description.
   - Executes `getFluidId` behavior.
-- `performBlockUpdate(int x, int y, int z)`
+- `performBlockUpdate(int x, int y, int z)`: Add description.
   - Executes `performBlockUpdate` behavior.
-- `performBlockUpdate(int x, int y, int z, boolean allowPartialLoad)`
+- `performBlockUpdate(int x, int y, int z, boolean allowPartialLoad)`: Add description.
   - Executes `performBlockUpdate` behavior.
 
 ## Notes

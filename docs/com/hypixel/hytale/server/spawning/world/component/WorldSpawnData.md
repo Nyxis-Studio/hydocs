@@ -1,74 +1,74 @@
+**Source Hash:** `8d98dc00a133e76d01ca8c8792c26df22021d488ff46213267074fe138b99f77`
+
 # WorldSpawnData
 
 ## Overview
-- Documentation for `WorldSpawnData`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.component`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getResourceType()`
+## Method Descriptions
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getActualNPCs()`
+- `getActualNPCs()`: Add description.
   - Executes `getActualNPCs` behavior.
-- `getExpectedNPCs()`
+- `getExpectedNPCs()`: Add description.
   - Executes `getExpectedNPCs` behavior.
-- `getExpectedNPCsInEmptyEnvironments()`
+- `getExpectedNPCsInEmptyEnvironments()`: Add description.
   - Executes `getExpectedNPCsInEmptyEnvironments` behavior.
-- `isUnspawnable()`
+- `isUnspawnable()`: Add description.
   - Executes `isUnspawnable` behavior.
-- `setUnspawnable(boolean unspawnable)`
+- `setUnspawnable(boolean unspawnable)`: Add description.
   - Executes `setUnspawnable` behavior.
-- `getChunkCount()`
+- `getChunkCount()`: Add description.
   - Executes `getChunkCount` behavior.
-- `adjustChunkCount(int amount)`
+- `adjustChunkCount(int amount)`: Add description.
   - Executes `adjustChunkCount` behavior.
-- `adjustSegmentCount(int amount)`
+- `adjustSegmentCount(int amount)`: Add description.
   - Executes `adjustSegmentCount` behavior.
-- `getSpiralIterator()`
+- `getSpiralIterator()`: Add description.
   - Executes `getSpiralIterator` behavior.
-- `averageSegmentCount()`
+- `averageSegmentCount()`: Add description.
   - Executes `averageSegmentCount` behavior.
-- `getActiveSpawnJobs()`
+- `getActiveSpawnJobs()`: Add description.
   - Executes `getActiveSpawnJobs` behavior.
-- `adjustActiveSpawnJobs(int amount, int trackedCount)`
+- `adjustActiveSpawnJobs(int amount, int trackedCount)`: Add description.
   - Executes `adjustActiveSpawnJobs` behavior.
-- `getTrackedCountFromJobs()`
+- `getTrackedCountFromJobs()`: Add description.
   - Executes `getTrackedCountFromJobs` behavior.
-- `getTotalSpawnJobBudgetUsed()`
+- `getTotalSpawnJobBudgetUsed()`: Add description.
   - Executes `getTotalSpawnJobBudgetUsed` behavior.
-- `getTotalSpawnJobsCompleted()`
+- `getTotalSpawnJobsCompleted()`: Add description.
   - Executes `getTotalSpawnJobsCompleted` behavior.
-- `addCompletedSpawnJob(int budgetUsed)`
+- `addCompletedSpawnJob(int budgetUsed)`: Add description.
   - Executes `addCompletedSpawnJob` behavior.
-- `getWorldEnvironmentSpawnData(int environmentIndex)`
+- `getWorldEnvironmentSpawnData(int environmentIndex)`: Add description.
   - Executes `getWorldEnvironmentSpawnData` behavior.
-- `getOrCreateWorldEnvironmentSpawnData(int environmentIndex, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getOrCreateWorldEnvironmentSpawnData(int environmentIndex, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getOrCreateWorldEnvironmentSpawnData` behavior.
-- `getWorldEnvironmentSpawnDataIndexes()`
+- `getWorldEnvironmentSpawnDataIndexes()`: Add description.
   - Executes `getWorldEnvironmentSpawnDataIndexes` behavior.
-- `updateSpawnability()`
+- `updateSpawnability()`: Add description.
   - Executes `updateSpawnability` behavior.
-- `forEachEnvironmentSpawnData(Consumer<WorldEnvironmentSpawnData> consumer)`
+- `forEachEnvironmentSpawnData(Consumer<WorldEnvironmentSpawnData> consumer)`: Add description.
   - Executes `forEachEnvironmentSpawnData` behavior.
-- `trackNPC(int environmentIndex, int roleIndex, int npcCount, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `trackNPC(int environmentIndex, int roleIndex, int npcCount, @Nonnull World world, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `trackNPC` behavior.
-- `untrackNPC(int environmentIndex, int roleIndex, int npcCount)`
+- `untrackNPC(int environmentIndex, int roleIndex, int npcCount)`: Add description.
   - Executes `untrackNPC` behavior.
-- `recalculateWorldCount()`
+- `recalculateWorldCount()`: Add description.
   - Executes `recalculateWorldCount` behavior.
-- `queueUnspawnableChunk(int environmentIndex, long chunkIndex)`
+- `queueUnspawnableChunk(int environmentIndex, long chunkIndex)`: Add description.
   - Executes `queueUnspawnableChunk` behavior.
-- `hasUnprocessedUnspawnableChunks()`
+- `hasUnprocessedUnspawnableChunks()`: Add description.
   - Executes `hasUnprocessedUnspawnableChunks` behavior.
-- `nextUnspawnableChunk()`
+- `nextUnspawnableChunk()`: Add description.
   - Executes `nextUnspawnableChunk` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `getEnvironmentIndex()`
+- `getEnvironmentIndex()`: Add description.
   - Executes `getEnvironmentIndex` behavior.
-- `getChunkIndex()`
+- `getChunkIndex()`: Add description.
   - Executes `getChunkIndex` behavior.
 
 ## Notes

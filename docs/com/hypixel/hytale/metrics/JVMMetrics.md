@@ -1,14 +1,14 @@
+**Source Hash:** `af4e978c6862d572cd53bf9691b799466379a8cf638c9d378aa6c7dc38581b56`
+
 # JVMMetrics
 
 ## Overview
-- Documentation for `JVMMetrics`.
-- Declared as a class in `com.hypixel.hytale.metrics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

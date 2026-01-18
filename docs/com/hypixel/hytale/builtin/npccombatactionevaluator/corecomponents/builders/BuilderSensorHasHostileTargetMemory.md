@@ -1,20 +1,20 @@
+**Source Hash:** `9e9dfba6a0368d81adb986e2d24e4a88df68b69cbc86da2c91c9366059e705dc`
+
 # BuilderSensorHasHostileTargetMemory
 
 ## Overview
-- Documentation for `BuilderSensorHasHostileTargetMemory`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

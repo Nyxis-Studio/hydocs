@@ -1,21 +1,21 @@
+**Source Hash:** `0aeaef9c1c30e8704a13f4da2b39db5f7b8a7f614e450075a7393e39a38bd613`
+
 # RemoveWorldEvent
 
 ## Overview
-- Documentation for `RemoveWorldEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.events`.
 
-## Constructors
+## Constructor Descriptions
 - `RemoveWorldEvent(@Nonnull World world, @Nonnull RemovalReason removalReason)`
   - Creates a `RemoveWorldEvent` instance.
 
-## Methods
-- `getRemovalReason()`
+## Method Descriptions
+- `getRemovalReason()`: Add description.
   - Executes `getRemovalReason` behavior.
-- `isCancelled()`
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

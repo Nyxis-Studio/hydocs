@@ -1,14 +1,14 @@
+**Source Hash:** `30692fd34270c7a9d957e0f495875302e538ba32f0e425d196355781eaf6c38e`
+
 # MoldingDirection
 
 ## Overview
-- Documentation for `MoldingDirection`.
-- Declared as a enum in `com.hypixel.hytale.builtin.hytalegenerator.props.prefab`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

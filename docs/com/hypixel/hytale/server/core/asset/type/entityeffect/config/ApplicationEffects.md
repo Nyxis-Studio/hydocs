@@ -1,21 +1,21 @@
+**Source Hash:** `b397b08010aa4037f9bcb73f4eec4cc4fe4e92cdf3c960a11806711b14e2aa2b`
+
 # ApplicationEffects
 
 ## Overview
-- Documentation for `ApplicationEffects`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.entityeffect.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ApplicationEffects()`
   - Creates a `ApplicationEffects` instance.
 
-## Methods
-- `getHorizontalSpeedMultiplier()`
+## Method Descriptions
+- `getHorizontalSpeedMultiplier()`: Add description.
   - Executes `getHorizontalSpeedMultiplier` behavior.
-- `getKnockbackMultiplier()`
+- `getKnockbackMultiplier()`: Add description.
   - Executes `getKnockbackMultiplier` behavior.
-- `processConfig()`
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

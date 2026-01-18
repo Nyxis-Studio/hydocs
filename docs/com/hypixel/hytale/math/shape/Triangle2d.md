@@ -1,10 +1,10 @@
+**Source Hash:** `02a26064bd45483cc32903a6f2f4b0dffd439951b71873c10fdbbb110078f9ad`
+
 # Triangle2d
 
 ## Overview
-- Documentation for `Triangle2d`.
-- Declared as a class in `com.hypixel.hytale.math.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `Triangle2d(Vector2d a, Vector2d b, Vector2d c)`
   - Creates a `Triangle2d` instance.
 - `Triangle2d()`
@@ -14,30 +14,30 @@
 - `Triangle2d(@Nonnull Vector2d[] points, int a, int b, int c)`
   - Creates a `Triangle2d` instance.
 
-## Methods
-- `getA()`
+## Method Descriptions
+- `getA()`: Add description.
   - Executes `getA` behavior.
-- `setA(Vector2d a)`
+- `setA(Vector2d a)`: Add description.
   - Executes `setA` behavior.
-- `getB()`
+- `getB()`: Add description.
   - Executes `getB` behavior.
-- `setB(Vector2d b)`
+- `setB(Vector2d b)`: Add description.
   - Executes `setB` behavior.
-- `getC()`
+- `getC()`: Add description.
   - Executes `getC` behavior.
-- `setC(Vector2d c)`
+- `setC(Vector2d c)`: Add description.
   - Executes `setC` behavior.
-- `getMinX()`
+- `getMinX()`: Add description.
   - Executes `getMinX` behavior.
-- `getMinY()`
+- `getMinY()`: Add description.
   - Executes `getMinY` behavior.
-- `getMaxX()`
+- `getMaxX()`: Add description.
   - Executes `getMaxX` behavior.
-- `getMaxY()`
+- `getMaxY()`: Add description.
   - Executes `getMaxY` behavior.
-- `getRandom(@Nonnull Random random)`
+- `getRandom(@Nonnull Random random)`: Add description.
   - Executes `getRandom` behavior.
-- `getRandom(@Nonnull Random random, @Nonnull Vector2d vec)`
+- `getRandom(@Nonnull Random random, @Nonnull Vector2d vec)`: Add description.
   - Executes `getRandom` behavior.
 
 ## Notes

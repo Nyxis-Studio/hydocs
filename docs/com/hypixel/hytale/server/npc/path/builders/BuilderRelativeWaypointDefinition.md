@@ -1,30 +1,30 @@
+**Source Hash:** `ccb6ff70d2ed4cc9aa70be86adcb95722b7b74cbd234893592bdcde888dbbc7d`
+
 # BuilderRelativeWaypointDefinition
 
 ## Overview
-- Documentation for `BuilderRelativeWaypointDefinition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.path.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `getDistance()`
+- `getDistance()`: Add description.
   - Executes `getDistance` behavior.
 
 ## Notes

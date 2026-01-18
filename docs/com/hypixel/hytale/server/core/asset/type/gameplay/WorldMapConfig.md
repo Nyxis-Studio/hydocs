@@ -1,22 +1,22 @@
+**Source Hash:** `e7c757f9fbf23900356259d8e95bf164d6b8774ab2e85ee62f58ea8d39d27065`
+
 # WorldMapConfig
 
 ## Overview
-- Documentation for `WorldMapConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isDisplaySpawn()`
+## Method Descriptions
+- `isDisplaySpawn()`: Add description.
   - Executes `isDisplaySpawn` behavior.
-- `isDisplayHome()`
+- `isDisplayHome()`: Add description.
   - Executes `isDisplayHome` behavior.
-- `isDisplayWarps()`
+- `isDisplayWarps()`: Add description.
   - Executes `isDisplayWarps` behavior.
-- `isDisplayDeathMarker()`
+- `isDisplayDeathMarker()`: Add description.
   - Executes `isDisplayDeathMarker` behavior.
-- `isDisplayPlayers()`
+- `isDisplayPlayers()`: Add description.
   - Executes `isDisplayPlayers` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `18c715d86cf247a4fe6384a458662dda3b4a7471fad10fd702dbda892f76227d`
+
 # ManualCurveAsset
 
 ## Overview
-- Documentation for `ManualCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves.manual`.
 
-## Constructors
+## Constructor Descriptions
 - `ManualCurveAsset()`
   - Creates a `ManualCurveAsset` instance.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

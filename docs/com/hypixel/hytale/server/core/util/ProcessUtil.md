@@ -1,14 +1,14 @@
+**Source Hash:** `13a7333bb39d6f8ce0e5b1507296574411a4829d17b32603328bc654b2f81850`
+
 # ProcessUtil
 
 ## Overview
-- Documentation for `ProcessUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isProcessRunning(int pid)`
+## Method Descriptions
+- `isProcessRunning(int pid)`: Add description.
   - Executes `isProcessRunning` behavior.
 
 ## Notes

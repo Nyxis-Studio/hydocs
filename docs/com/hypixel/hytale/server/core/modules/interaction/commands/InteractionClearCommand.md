@@ -1,15 +1,15 @@
+**Source Hash:** `1b0c5c4adc8fbc545a849e1f89a6e209098f296ff50d31c4ddaecff80eb6b5c6`
+
 # InteractionClearCommand
 
 ## Overview
-- Documentation for `InteractionClearCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionClearCommand()`
   - Creates a `InteractionClearCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,29 +1,29 @@
+**Source Hash:** `528edbe17e5f1eb4e954cd507b47ae3ba3b163ba31d2abeea4515b106b0b3f85`
+
 # ParallelTask
 
 ## Overview
-- Documentation for `ParallelTask`.
-- Declared as a class in `com.hypixel.hytale.component.task`.
 
-## Constructors
+## Constructor Descriptions
 - `ParallelTask(Supplier<D> supplier)`
   - Creates a `ParallelTask` instance.
 - `ParallelTask(CountedCompleter<?> completer, Supplier<D> supplier)`
   - Creates a `ParallelTask` instance.
 
-## Methods
-- `reinitialize()`
+## Method Descriptions
+- `reinitialize()`: Add description.
   - Executes `reinitialize` behavior.
-- `init()`
+- `init()`: Add description.
   - Executes `init` behavior.
-- `appendTask()`
+- `appendTask()`: Add description.
   - Executes `appendTask` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `get(int i)`
+- `get(int i)`: Add description.
   - Executes `get` behavior.
-- `compute()`
+- `compute()`: Add description.
   - Executes `compute` behavior.
-- `doInvoke()`
+- `doInvoke()`: Add description.
   - Executes `doInvoke` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `c8fdfe740428aa5570d0507e39461c3d8f291ac92f49cb6d587aaf0e1041873b`
+
 # ForceProvider
 
 ## Overview
-- Documentation for `ForceProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `update(PhysicsBodyState var1, ForceAccumulator var2, boolean var3)`
+## Method Descriptions
+- `update(PhysicsBodyState var1, ForceAccumulator var2, boolean var3)`: Add description.
   - Executes `update` behavior.
 
 ## Notes

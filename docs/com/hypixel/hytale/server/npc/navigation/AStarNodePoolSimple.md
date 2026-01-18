@@ -1,17 +1,17 @@
+**Source Hash:** `a298d556a38feb797e342b7095c430995b5646169e3da7a34bcd8454d07c24aa`
+
 # AStarNodePoolSimple
 
 ## Overview
-- Documentation for `AStarNodePoolSimple`.
-- Declared as a class in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
+## Constructor Descriptions
 - `AStarNodePoolSimple(int childCount)`
   - Creates a `AStarNodePoolSimple` instance.
 
-## Methods
-- `allocate()`
+## Method Descriptions
+- `allocate()`: Add description.
   - Executes `allocate` behavior.
-- `deallocate(AStarNode node)`
+- `deallocate(AStarNode node)`: Add description.
   - Executes `deallocate` behavior.
 
 ## Notes

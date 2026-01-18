@@ -1,10 +1,10 @@
+**Source Hash:** `710f3a5d592375328c760308debda191875f7b4e2cebaa4a12df9d016504cbbd`
+
 # DetailBox
 
 ## Overview
-- Documentation for `DetailBox`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.model.config`.
 
-## Constructors
+## Constructor Descriptions
 - `DetailBox()`
   - Creates a `DetailBox` instance.
 - `DetailBox(Vector3d offset, Box box)`
@@ -16,12 +16,12 @@
 - `DetailBox(new Vector3f((float)`
   - Creates a `DetailBox` instance.
 
-## Methods
-- `getOffset()`
+## Method Descriptions
+- `getOffset()`: Add description.
   - Executes `getOffset` behavior.
-- `getBox()`
+- `getBox()`: Add description.
   - Executes `getBox` behavior.
-- `scaled(float scale)`
+- `scaled(float scale)`: Add description.
   - Executes `scaled` behavior.
 
 ## Notes

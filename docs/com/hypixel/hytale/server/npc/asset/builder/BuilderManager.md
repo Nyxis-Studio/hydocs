@@ -1,131 +1,131 @@
+**Source Hash:** `f8b287a624d4e3915a9fc01862ee510c45422f90701df43b1d3a8e88cc9c61e1`
+
 # BuilderManager
 
 ## Overview
-- Documentation for `BuilderManager`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderManager()`
   - Creates a `BuilderManager` instance.
 
-## Methods
-- `registerFactory(@Nonnull BuilderFactory<T> factory)`
+## Method Descriptions
+- `registerFactory(@Nonnull BuilderFactory<T> factory)`: Add description.
   - Executes `registerFactory` behavior.
-- `addCategory(String name, Class<?> clazz)`
+- `addCategory(String name, Class<?> clazz)`: Add description.
   - Executes `addCategory` behavior.
-- `getCategoryName(@Nonnull Class<?> factoryClass)`
+- `getCategoryName(@Nonnull Class<?> factoryClass)`: Add description.
   - Executes `getCategoryName` behavior.
-- `getIndex(@Nullable String name)`
+- `getIndex(@Nullable String name)`: Add description.
   - Executes `getIndex` behavior.
-- `setAutoReload(boolean autoReload)`
+- `setAutoReload(boolean autoReload)`: Add description.
   - Executes `setAutoReload` behavior.
-- `lookupName(int index)`
+- `lookupName(int index)`: Add description.
   - Executes `lookupName` behavior.
-- `getOrCreateIndex(String name)`
+- `getOrCreateIndex(String name)`: Add description.
   - Executes `getOrCreateIndex` behavior.
-- `tryGetBuilderInfo(int builderIndex)`
+- `tryGetBuilderInfo(int builderIndex)`: Add description.
   - Executes `tryGetBuilderInfo` behavior.
-- `unloadBuilders(AssetPack pack)`
+- `unloadBuilders(AssetPack pack)`: Add description.
   - Executes `unloadBuilders` behavior.
-- `visitFile(@Nonnull Path file, @Nonnull BasicFileAttributes attrs)`
+- `visitFile(@Nonnull Path file, @Nonnull BasicFileAttributes attrs)`: Add description.
   - Executes `visitFile` behavior.
-- `loadBuilders(@Nonnull AssetPack pack, final boolean includeTests)`
+- `loadBuilders(@Nonnull AssetPack pack, final boolean includeTests)`: Add description.
   - Executes `loadBuilders` behavior.
-- `finishLoadingBuilders(@Nonnull Int2ObjectOpenHashMap<BuilderInfo> loadedBuilders, @Nonnull List<String> errors)`
+- `finishLoadingBuilders(@Nonnull Int2ObjectOpenHashMap<BuilderInfo> loadedBuilders, @Nonnull List<String> errors)`: Add description.
   - Executes `finishLoadingBuilders` behavior.
-- `assetEditorLoadFile(@Nonnull Path fileName)`
+- `assetEditorLoadFile(@Nonnull Path fileName)`: Add description.
   - Executes `assetEditorLoadFile` behavior.
-- `assetEditorRemoveFile(@Nonnull Path filePath)`
+- `assetEditorRemoveFile(@Nonnull Path filePath)`: Add description.
   - Executes `assetEditorRemoveFile` behavior.
-- `loadFile(@Nonnull Path fileName, boolean reloading, @Nonnull List<String> errors)`
+- `loadFile(@Nonnull Path fileName, boolean reloading, @Nonnull List<String> errors)`: Add description.
   - Executes `loadFile` behavior.
-- `loadFile(@Nonnull Path fileName, @Nonnull List<String> errors, @Nullable Object2IntMap<String> typeCounter, boolean includeTests, boolean reloading)`
+- `loadFile(@Nonnull Path fileName, @Nonnull List<String> errors, @Nullable Object2IntMap<String> typeCounter, boolean includeTests, boolean reloading)`: Add description.
   - Executes `loadFile` behavior.
-- `validateBuilder(@Nonnull BuilderInfo builderInfo)`
+- `validateBuilder(@Nonnull BuilderInfo builderInfo)`: Add description.
   - Executes `validateBuilder` behavior.
-- `getFactory(@Nonnull Class<?> clazz)`
+- `getFactory(@Nonnull Class<?> clazz)`: Add description.
   - Executes `getFactory` behavior.
-- `getCachedBuilderInfo(int index, @Nonnull Class<?> classType)`
+- `getCachedBuilderInfo(int index, @Nonnull Class<?> classType)`: Add description.
   - Executes `getCachedBuilderInfo` behavior.
-- `tryGetCachedValidBuilder(int index, @Nonnull Class<?> classType)`
+- `tryGetCachedValidBuilder(int index, @Nonnull Class<?> classType)`: Add description.
   - Executes `tryGetCachedValidBuilder` behavior.
-- `getCachedBuilder(int index, @Nonnull Class<?> classType)`
+- `getCachedBuilder(int index, @Nonnull Class<?> classType)`: Add description.
   - Executes `getCachedBuilder` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `getAllBuilders()`
+- `getAllBuilders()`: Add description.
   - Executes `getAllBuilders` behavior.
-- `getNameToIndexMap()`
+- `getNameToIndexMap()`: Add description.
   - Executes `getNameToIndexMap` behavior.
-- `findMatchingBuilder(@Nonnull BiPredicate<BuilderInfo, T> filter, T t)`
+- `findMatchingBuilder(@Nonnull BiPredicate<BuilderInfo, T> filter, T t)`: Add description.
   - Executes `findMatchingBuilder` behavior.
-- `getBuilderInfo(Builder<?> builder)`
+- `getBuilderInfo(Builder<?> builder)`: Add description.
   - Executes `getBuilderInfo` behavior.
-- `getTemplateNames()`
+- `getTemplateNames()`: Add description.
   - Executes `getTemplateNames` behavior.
-- `forceValidation(int builderIndex)`
+- `forceValidation(int builderIndex)`: Add description.
   - Executes `forceValidation` behavior.
-- `checkIfDeprecated(@Nonnull Builder<?> builder, @Nonnull BuilderFactory<?> builderFactory, @Nonnull JsonElement element, String fileName, String context)`
+- `checkIfDeprecated(@Nonnull Builder<?> builder, @Nonnull BuilderFactory<?> builderFactory, @Nonnull JsonElement element, String fileName, String context)`: Add description.
   - Executes `checkIfDeprecated` behavior.
-- `generateSchema(@Nonnull SchemaContext context)`
+- `generateSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `generateSchema` behavior.
-- `generateDescriptors()`
+- `generateDescriptors()`: Add description.
   - Executes `generateDescriptors` behavior.
-- `saveDescriptors(List<BuilderDescriptor> builderDescriptors, @Nonnull Path fileName)`
+- `saveDescriptors(List<BuilderDescriptor> builderDescriptors, @Nonnull Path fileName)`: Add description.
   - Executes `saveDescriptors` behavior.
-- `tryGetCachedValidRole(int builderIndex)`
+- `tryGetCachedValidRole(int builderIndex)`: Add description.
   - Executes `tryGetCachedValidRole` behavior.
-- `validateAllLoadedBuilders(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders, boolean validateDependents, @Nonnull List<String> errors)`
+- `validateAllLoadedBuilders(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders, boolean validateDependents, @Nonnull List<String> errors)`: Add description.
   - Executes `validateAllLoadedBuilders` behavior.
-- `onAllBuildersLoaded(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders)`
+- `onAllBuildersLoaded(@Nonnull Int2ObjectMap<BuilderInfo> loadedBuilders)`: Add description.
   - Executes `onAllBuildersLoaded` behavior.
-- `onBuilderReloaded(@Nonnull BuilderInfo builderInfo)`
+- `onBuilderReloaded(@Nonnull BuilderInfo builderInfo)`: Add description.
   - Executes `onBuilderReloaded` behavior.
-- `getPlayerGroupID()`
+- `getPlayerGroupID()`: Add description.
   - Executes `getPlayerGroupID` behavior.
-- `getSelfGroupID()`
+- `getSelfGroupID()`: Add description.
   - Executes `getSelfGroupID` behavior.
-- `onBuilderAdded(@Nonnull BuilderInfo builderInfo)`
+- `onBuilderAdded(@Nonnull BuilderInfo builderInfo)`: Add description.
   - Executes `onBuilderAdded` behavior.
-- `isDependant(@Nonnull Builder<?> builder, int builderIndex, int dependencyIndex)`
+- `isDependant(@Nonnull Builder<?> builder, int builderIndex, int dependencyIndex)`: Add description.
   - Executes `isDependant` behavior.
-- `cacheBuilder(String name, Builder<?> builder, Path path)`
+- `cacheBuilder(String name, Builder<?> builder, Path path)`: Add description.
   - Executes `cacheBuilder` behavior.
-- `removeBuilder(int index)`
+- `removeBuilder(int index)`: Add description.
   - Executes `removeBuilder` behavior.
-- `removeBuilder(String name)`
+- `removeBuilder(String name)`: Add description.
   - Executes `removeBuilder` behavior.
-- `tryGetCachedBuilderInfo(int index, @Nonnull Class<?> classType)`
+- `tryGetCachedBuilderInfo(int index, @Nonnull Class<?> classType)`: Add description.
   - Executes `tryGetCachedBuilderInfo` behavior.
-- `validateAllSpawnableNPCs(@Nonnull Int2ObjectMap<BuilderInfo> builders, @Nonnull List<String> errors)`
+- `validateAllSpawnableNPCs(@Nonnull Int2ObjectMap<BuilderInfo> builders, @Nonnull List<String> errors)`: Add description.
   - Executes `validateAllSpawnableNPCs` behavior.
-- `sendReloadNotification(Message message, @Nonnull Set<String> builders)`
+- `sendReloadNotification(Message message, @Nonnull Set<String> builders)`: Add description.
   - Executes `sendReloadNotification` behavior.
-- `isIgnoredFile(@Nonnull Path path)`
+- `isIgnoredFile(@Nonnull Path path)`: Add description.
   - Executes `isIgnoredFile` behavior.
-- `isJsonFile(@Nonnull Path path)`
+- `isJsonFile(@Nonnull Path path)`: Add description.
   - Executes `isJsonFile` behavior.
-- `isJsonFileName(@Nonnull Path path, EventKind eventKind)`
+- `isJsonFileName(@Nonnull Path path, EventKind eventKind)`: Add description.
   - Executes `isJsonFileName` behavior.
-- `builderNameFromPath(@Nonnull Path path)`
+- `builderNameFromPath(@Nonnull Path path)`: Add description.
   - Executes `builderNameFromPath` behavior.
-- `buildPathString(@Nonnull IntArrayList path, int index)`
+- `buildPathString(@Nonnull IntArrayList path, int index)`: Add description.
   - Executes `buildPathString` behavior.
-- `validateBuilder(@Nonnull BuilderInfo builderInfo, @Nonnull IntSet validatedDependencies, @Nonnull IntArrayList path)`
+- `validateBuilder(@Nonnull BuilderInfo builderInfo, @Nonnull IntSet validatedDependencies, @Nonnull IntArrayList path)`: Add description.
   - Executes `validateBuilder` behavior.
-- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex)`
+- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex)`: Add description.
   - Executes `computeAllDependencies` behavior.
-- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`
+- `computeAllDependencies(@Nonnull Builder<?> builder, int builderIndex, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`: Add description.
   - Executes `computeAllDependencies` behavior.
-- `iterateDependencies(@Nonnull IntIterator iterator, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`
+- `iterateDependencies(@Nonnull IntIterator iterator, @Nonnull IntSet dependencies, @Nonnull IntArrayList path)`: Add description.
   - Executes `iterateDependencies` behavior.
-- `reloadDependants(int dependency)`
+- `reloadDependants(int dependency)`: Add description.
   - Executes `reloadDependants` behavior.
-- `getKey()`
+- `getKey()`: Add description.
   - Executes `getKey` behavior.
-- `test(Path path, EventKind eventKind)`
+- `test(Path path, EventKind eventKind)`: Add description.
   - Executes `test` behavior.
-- `accept(Map<Path, EventKind> map)`
+- `accept(Map<Path, EventKind> map)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

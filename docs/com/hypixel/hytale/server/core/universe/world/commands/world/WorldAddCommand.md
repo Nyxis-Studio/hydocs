@@ -1,15 +1,15 @@
+**Source Hash:** `ee219648e335a686ca7e3f9848258981403e04e6d1843d5eb04609180288d41a`
+
 # WorldAddCommand
 
 ## Overview
-- Documentation for `WorldAddCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.world`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldAddCommand()`
   - Creates a `WorldAddCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

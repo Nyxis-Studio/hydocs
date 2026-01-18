@@ -1,21 +1,21 @@
+**Source Hash:** `ed0c94b0a1adc55daf5b98f89f358047ea3ffcca5d81a20bcec9f928b07941db`
+
 # BenchUpgradeRequirement
 
 ## Overview
-- Documentation for `BenchUpgradeRequirement`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.bench`.
 
-## Constructors
+## Constructor Descriptions
 - `BenchUpgradeRequirement(MaterialQuantity[] input, float timeSeconds)`
   - Creates a `BenchUpgradeRequirement` instance.
 - `BenchUpgradeRequirement()`
   - Creates a `BenchUpgradeRequirement` instance.
 
-## Methods
-- `getInput()`
+## Method Descriptions
+- `getInput()`: Add description.
   - Executes `getInput` behavior.
-- `getTimeSeconds()`
+- `getTimeSeconds()`: Add description.
   - Executes `getTimeSeconds` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

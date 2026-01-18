@@ -1,16 +1,16 @@
+**Source Hash:** `9ffff9fcc5477ed7e193df0c257fa9edbace7ac21c75692bab4642f075dc3194`
+
 # PlacementCountConditionInteraction
 
 ## Overview
-- Documentation for `PlacementCountConditionInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `getWaitForDataFrom()`
+- `getWaitForDataFrom()`: Add description.
   - Executes `getWaitForDataFrom` behavior.
 
 ## Notes

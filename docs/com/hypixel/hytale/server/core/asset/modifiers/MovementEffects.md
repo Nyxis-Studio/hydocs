@@ -1,17 +1,17 @@
+**Source Hash:** `e17793bf42156d90ef2b413f16ee21b447dc98243d478de173d5db1d71656257`
+
 # MovementEffects
 
 ## Overview
-- Documentation for `MovementEffects`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.modifiers`.
 
-## Constructors
+## Constructor Descriptions
 - `MovementEffects()`
   - Creates a `MovementEffects` instance.
 
-## Methods
-- `isDisableAll()`
+## Method Descriptions
+- `isDisableAll()`: Add description.
   - Executes `isDisableAll` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

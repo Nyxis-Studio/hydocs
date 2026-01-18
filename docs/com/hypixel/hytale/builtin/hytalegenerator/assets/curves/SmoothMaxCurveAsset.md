@@ -1,16 +1,16 @@
+**Source Hash:** `bb72eabb49759a5094cdf47f6996226cf67e2a2c003a7e062dbcaaa7d5807b8d`
+
 # SmoothMaxCurveAsset
 
 ## Overview
-- Documentation for `SmoothMaxCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

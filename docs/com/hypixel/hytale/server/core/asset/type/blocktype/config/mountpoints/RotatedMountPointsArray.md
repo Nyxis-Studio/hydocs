@@ -1,21 +1,21 @@
+**Source Hash:** `3168e8e03f5772cc92fb3d280f504e565950c5ba091a428c9aa231a56733975e`
+
 # RotatedMountPointsArray
 
 ## Overview
-- Documentation for `RotatedMountPointsArray`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.mountpoints`.
 
-## Constructors
+## Constructor Descriptions
 - `RotatedMountPointsArray()`
   - Creates a `RotatedMountPointsArray` instance.
 - `RotatedMountPointsArray(BlockMountPoint[] raw)`
   - Creates a `RotatedMountPointsArray` instance.
 
-## Methods
-- `size()`
+## Method Descriptions
+- `size()`: Add description.
   - Executes `size` behavior.
-- `getRaw()`
+- `getRaw()`: Add description.
   - Executes `getRaw` behavior.
-- `getRotated(int rotationIndex)`
+- `getRotated(int rotationIndex)`: Add description.
   - Executes `getRotated` behavior.
 
 ## Notes

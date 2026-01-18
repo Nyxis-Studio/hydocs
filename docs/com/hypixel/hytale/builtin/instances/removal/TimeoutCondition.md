@@ -1,19 +1,19 @@
+**Source Hash:** `1605178d3ffcaa5008a3de973943ac12b4f92ebbb4325fe6c429362aa857ebb1`
+
 # TimeoutCondition
 
 ## Overview
-- Documentation for `TimeoutCondition`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.removal`.
 
-## Constructors
+## Constructor Descriptions
 - `TimeoutCondition()`
   - Creates a `TimeoutCondition` instance.
 - `TimeoutCondition(double timeoutSeconds)`
   - Creates a `TimeoutCondition` instance.
 
-## Methods
-- `getTimeoutSeconds()`
+## Method Descriptions
+- `getTimeoutSeconds()`: Add description.
   - Executes `getTimeoutSeconds` behavior.
-- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`
+- `shouldRemoveWorld(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `shouldRemoveWorld` behavior.
 
 ## Notes

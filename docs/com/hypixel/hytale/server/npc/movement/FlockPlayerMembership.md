@@ -1,15 +1,15 @@
+**Source Hash:** `9aa59e2aab600da71032d530c726312160e586c5bd46c947c73e58e4240cdb85`
+
 # FlockPlayerMembership
 
 ## Overview
-- Documentation for `FlockPlayerMembership`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `FlockPlayerMembership(String description)`
   - Creates a `FlockPlayerMembership` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

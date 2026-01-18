@@ -1,47 +1,47 @@
+**Source Hash:** `525f11414a96956633fc7fbc3fec8465656b7acaa33dc10eeee4f3d3c8cb3b96`
+
 # ServerManager
 
 ## Overview
-- Documentation for `ServerManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.io`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerManager(@Nonnull JavaPluginInit init)`
   - Creates a `ServerManager` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `init()`
+- `init()`: Add description.
   - Executes `init` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `unbindAllListeners()`
+- `unbindAllListeners()`: Add description.
   - Executes `unbindAllListeners` behavior.
-- `getListeners()`
+- `getListeners()`: Add description.
   - Executes `getListeners` behavior.
-- `bind(@Nonnull InetSocketAddress address)`
+- `bind(@Nonnull InetSocketAddress address)`: Add description.
   - Executes `bind` behavior.
-- `unbind(@Nonnull Channel channel)`
+- `unbind(@Nonnull Channel channel)`: Add description.
   - Executes `unbind` behavior.
-- `getLocalOrPublicAddress()`
+- `getLocalOrPublicAddress()`: Add description.
   - Executes `getLocalOrPublicAddress` behavior.
-- `getNonLoopbackAddress()`
+- `getNonLoopbackAddress()`: Add description.
   - Executes `getNonLoopbackAddress` behavior.
-- `getPublicAddress()`
+- `getPublicAddress()`: Add description.
   - Executes `getPublicAddress` behavior.
-- `waitForBindComplete()`
+- `waitForBindComplete()`: Add description.
   - Executes `waitForBindComplete` behavior.
-- `registerSubPacketHandlers(@Nonnull Function<IPacketHandler, SubPacketHandler> supplier)`
+- `registerSubPacketHandlers(@Nonnull Function<IPacketHandler, SubPacketHandler> supplier)`: Add description.
   - Executes `registerSubPacketHandlers` behavior.
-- `populateSubPacketHandlers(@Nonnull GamePacketHandler packetHandler)`
+- `populateSubPacketHandlers(@Nonnull GamePacketHandler packetHandler)`: Add description.
   - Executes `populateSubPacketHandlers` behavior.
-- `bind0(@Nonnull InetSocketAddress address)`
+- `bind0(@Nonnull InetSocketAddress address)`: Add description.
   - Executes `bind0` behavior.
-- `unbind0(@Nonnull Channel channel)`
+- `unbind0(@Nonnull Channel channel)`: Add description.
   - Executes `unbind0` behavior.
 
 ## Notes

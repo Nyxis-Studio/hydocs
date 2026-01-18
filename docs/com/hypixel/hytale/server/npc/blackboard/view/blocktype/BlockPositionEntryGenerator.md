@@ -1,22 +1,22 @@
+**Source Hash:** `b7b0f03d00cdba152da91f74bb49e46b30a6682f4056bcb64b10df95b4eb0e5f`
+
 # BlockPositionEntryGenerator
 
 ## Overview
-- Documentation for `BlockPositionEntryGenerator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.blackboard.view.blocktype`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `generate(short changeCounter, int sectionIndex, @Nonnull BlockChunk chunk, IntList unifiedBlocksOfInterest, @Nonnull BitSet searchedBlockSets)`
+## Method Descriptions
+- `generate(short changeCounter, int sectionIndex, @Nonnull BlockChunk chunk, IntList unifiedBlocksOfInterest, @Nonnull BitSet searchedBlockSets)`: Add description.
   - Executes `generate` behavior.
-- `init(ChunkSectionReference sectionPointer, BitSet searchedBlockSets)`
+- `init(ChunkSectionReference sectionPointer, BitSet searchedBlockSets)`: Add description.
   - Executes `init` behavior.
-- `release()`
+- `release()`: Add description.
   - Executes `release` behavior.
-- `accept(int blockIndex)`
+- `accept(int blockIndex)`: Add description.
   - Executes `accept` behavior.
-- `getBlockData()`
+- `getBlockData()`: Add description.
   - Executes `getBlockData` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `488246d5afc17325a27175e5369d1cb82572ea369ca860a6c12ebd09958351c0`
+
 # BiDouble2DoubleFunction
 
 ## Overview
-- Documentation for `BiDouble2DoubleFunction`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.framework.interfaces.functions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `apply(double var1, double var3)`
+## Method Descriptions
+- `apply(double var1, double var3)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

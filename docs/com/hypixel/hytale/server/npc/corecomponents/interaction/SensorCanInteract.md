@@ -1,19 +1,19 @@
+**Source Hash:** `4a0a5a6bc655895dc379ca9ef384c2461a1af3d637880acea55989fdf763dfd5`
+
 # SensorCanInteract
 
 ## Overview
-- Documentation for `SensorCanInteract`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorCanInteract(@Nonnull BuilderSensorCanInteract builder, @Nonnull BuilderSupport support)`
   - Creates a `SensorCanInteract` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `registerWithSupport(@Nonnull Role role)`
+- `registerWithSupport(@Nonnull Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

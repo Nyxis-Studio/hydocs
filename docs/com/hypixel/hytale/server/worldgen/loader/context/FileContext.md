@@ -1,29 +1,29 @@
+**Source Hash:** `c411487d1cd79c18926b0721b96aad820f63aefbda5fc0166b11b520cf6c836e`
+
 # FileContext
 
 ## Overview
-- Documentation for `FileContext`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.context`.
 
-## Constructors
+## Constructor Descriptions
 - `FileContext(int id, String name, Path filepath, T parentContext)`
   - Creates a `FileContext` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getPath()`
+- `getPath()`: Add description.
   - Executes `getPath` behavior.
-- `getParentContext()`
+- `getParentContext()`: Add description.
   - Executes `getParentContext` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `contains(String name)`
+- `contains(String name)`: Add description.
   - Executes `contains` behavior.
-- `get(String name)`
+- `get(String name)`: Add description.
   - Executes `get` behavior.
-- `register(String name, T biome)`
+- `register(String name, T biome)`: Add description.
   - Executes `register` behavior.
 
 ## Notes

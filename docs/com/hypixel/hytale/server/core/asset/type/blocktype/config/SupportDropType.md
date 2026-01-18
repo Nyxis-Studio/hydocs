@@ -1,14 +1,14 @@
+**Source Hash:** `ef796cda59f1b085b890b01b23c9f70ee2554d1b4b619d39218bb428f7606ce1`
+
 # SupportDropType
 
 ## Overview
-- Documentation for `SupportDropType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

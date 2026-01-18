@@ -1,16 +1,16 @@
+**Source Hash:** `1e51ce4e9adcca94beea91124039639f5f45e66617a0b91b99ba42945a129037`
+
 # CeilingCurveAsset
 
 ## Overview
-- Documentation for `CeilingCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

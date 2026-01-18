@@ -1,25 +1,25 @@
+**Source Hash:** `7f561e239362d2d853657c114476212a9c3e39cc0ad73f1873003e41c811320b`
+
 # PointGenerator
 
 ## Overview
-- Documentation for `PointGenerator`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.logic.point`.
 
-## Constructors
+## Constructor Descriptions
 - `PointGenerator(int seedOffset, CellDistanceFunction cellDistanceFunction, PointEvaluator pointEvaluator)`
   - Creates a `PointGenerator` instance.
 
-## Methods
-- `getInterval()`
+## Method Descriptions
+- `getInterval()`: Add description.
   - Executes `getInterval` behavior.
-- `collect(int seed, double minX, double minY, double maxX, double maxY, IPointGenerator.PointConsumer2d consumer)`
+- `collect(int seed, double minX, double minY, double maxX, double maxY, IPointGenerator.PointConsumer2d consumer)`: Add description.
   - Executes `collect` behavior.
-- `collect0(int seed, double minX, double minY, double maxX, double maxY, PointConsumer<IPointGenerator.PointConsumer2d> pointConsumer, IPointGenerator.PointConsumer2d consumer)`
+- `collect0(int seed, double minX, double minY, double maxX, double maxY, PointConsumer<IPointGenerator.PointConsumer2d> pointConsumer, IPointGenerator.PointConsumer2d consumer)`: Add description.
   - Executes `collect0` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

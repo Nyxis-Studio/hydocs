@@ -1,14 +1,14 @@
+**Source Hash:** `4f4f504c2983e5372cb30db685e6f68b3a5dbf3a60fea199ca93418b0a3a005b`
+
 # IEventCallback
 
 ## Overview
-- Documentation for `IEventCallback`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.blackboard.view.event`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `notify(NPCEntity var1, EventType var2, NotificationType var3)`
+## Method Descriptions
+- `notify(NPCEntity var1, EventType var2, NotificationType var3)`: Add description.
   - Executes `notify` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `abfb219f7e7f58775fc85bc9ec61d628836c2d712c5176e51ad97c7a54f96d9e`
+
 # SetCreativeItem
 
 ## Overview
-- Documentation for `SetCreativeItem`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `SetCreativeItem()`
   - Creates a `SetCreativeItem` instance.
 - `SetCreativeItem(int inventorySectionId, int slotId, @Nonnull ItemQuantity item, boolean override)`
@@ -12,24 +12,24 @@
 - `SetCreativeItem(@Nonnull SetCreativeItem other)`
   - Creates a `SetCreativeItem` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

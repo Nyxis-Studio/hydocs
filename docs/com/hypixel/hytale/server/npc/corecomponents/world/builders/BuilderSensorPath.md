@@ -1,28 +1,28 @@
+**Source Hash:** `a6e1ee5060bf55d8d1ebaf6d587885a0a70344faecd0fd4650f2a3b0a114a1ad`
+
 # BuilderSensorPath
 
 ## Overview
-- Documentation for `BuilderSensorPath`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `registerTags(@Nonnull Set<String> tags)`
+- `registerTags(@Nonnull Set<String> tags)`: Add description.
   - Executes `registerTags` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `getPath(@Nonnull BuilderSupport support)`
+- `getPath(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getPath` behavior.
-- `getRange(@Nonnull BuilderSupport support)`
+- `getRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRange` behavior.
 
 ## Notes

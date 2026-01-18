@@ -1,15 +1,15 @@
+**Source Hash:** `b786a2f6ddc09020de0271712fc5a0382d370fec8df27358f5a86c6008615097`
+
 # EllipsoidCaveNodeShapeGeneratorJsonLoader
 
 ## Overview
-- Documentation for `EllipsoidCaveNodeShapeGeneratorJsonLoader`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `EllipsoidCaveNodeShapeGeneratorJsonLoader(@Nonnull SeedString<SeedStringResource> seed, Path dataFolder, JsonElement json)`
   - Creates a `EllipsoidCaveNodeShapeGeneratorJsonLoader` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

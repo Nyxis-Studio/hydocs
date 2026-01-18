@@ -1,14 +1,14 @@
+**Source Hash:** `adacd6edaa41aecde42b14d7d6474d9e56ec35bea97b6053080446accd8c6205`
+
 # IDoubleCoordinateHashSupplier
 
 ## Overview
-- Documentation for `IDoubleCoordinateHashSupplier`.
-- Declared as a interface in `com.hypixel.hytale.procedurallib.supplier`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `get(int var1, int var2, int var3, long var4)`
+## Method Descriptions
+- `get(int var1, int var2, int var3, long var4)`: Add description.
   - Executes `get` behavior.
 
 ## Notes

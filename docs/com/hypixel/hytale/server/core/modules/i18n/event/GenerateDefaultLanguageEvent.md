@@ -1,15 +1,15 @@
+**Source Hash:** `4c32226a50e4956c2fa4c80903f6433f05d9c5db8c4975c5c883753b579aa921`
+
 # GenerateDefaultLanguageEvent
 
 ## Overview
-- Documentation for `GenerateDefaultLanguageEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.event`.
 
-## Constructors
+## Constructor Descriptions
 - `GenerateDefaultLanguageEvent(ConcurrentHashMap<String, TranslationMap> translationFiles)`
   - Creates a `GenerateDefaultLanguageEvent` instance.
 
-## Methods
-- `putTranslationFile(@Nonnull String filename, @Nonnull TranslationMap translations)`
+## Method Descriptions
+- `putTranslationFile(@Nonnull String filename, @Nonnull TranslationMap translations)`: Add description.
   - Executes `putTranslationFile` behavior.
 
 ## Notes

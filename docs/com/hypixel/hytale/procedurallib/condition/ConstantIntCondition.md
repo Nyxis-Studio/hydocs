@@ -1,10 +1,10 @@
+**Source Hash:** `7ddadc124c28e6db3bd84f1e5b8c2073069cd5803d0c376bbb409d760b4c00d5`
+
 # ConstantIntCondition
 
 ## Overview
-- Documentation for `ConstantIntCondition`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantIntCondition(true)`
   - Creates a `ConstantIntCondition` instance.
 - `ConstantIntCondition(false)`
@@ -12,12 +12,12 @@
 - `ConstantIntCondition(boolean result)`
   - Creates a `ConstantIntCondition` instance.
 
-## Methods
-- `getResult()`
+## Method Descriptions
+- `getResult()`: Add description.
   - Executes `getResult` behavior.
-- `eval(int value)`
+- `eval(int value)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

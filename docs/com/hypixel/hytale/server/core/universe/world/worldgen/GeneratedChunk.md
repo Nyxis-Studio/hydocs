@@ -1,29 +1,29 @@
+**Source Hash:** `24fac032a9fe470e7fd99e36bcb32d6750067ed93c034be878b1b8ff2dfc5523`
+
 # GeneratedChunk
 
 ## Overview
-- Documentation for `GeneratedChunk`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `GeneratedChunk()`
   - Creates a `GeneratedChunk` instance.
 - `GeneratedChunk(GeneratedBlockChunk generatedBlockChunk, GeneratedBlockStateChunk generatedBlockStateChunk, GeneratedEntityChunk generatedEntityChunk, Holder<ChunkStore>[] sections)`
   - Creates a `GeneratedChunk` instance.
 
-## Methods
-- `getBlockChunk()`
+## Method Descriptions
+- `getBlockChunk()`: Add description.
   - Executes `getBlockChunk` behavior.
-- `getBlockStateChunk()`
+- `getBlockStateChunk()`: Add description.
   - Executes `getBlockStateChunk` behavior.
-- `getEntityChunk()`
+- `getEntityChunk()`: Add description.
   - Executes `getEntityChunk` behavior.
-- `getSections()`
+- `getSections()`: Add description.
   - Executes `getSections` behavior.
-- `toWorldChunk(World world)`
+- `toWorldChunk(World world)`: Add description.
   - Executes `toWorldChunk` behavior.
-- `toHolder(World world)`
+- `toHolder(World world)`: Add description.
   - Executes `toHolder` behavior.
-- `makeSections()`
+- `makeSections()`: Add description.
   - Executes `makeSections` behavior.
 
 ## Notes

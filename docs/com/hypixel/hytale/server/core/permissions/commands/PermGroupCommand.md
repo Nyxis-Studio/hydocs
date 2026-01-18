@@ -1,15 +1,15 @@
+**Source Hash:** `7fbbce076435d33a5ce69234a8ec30c6946614e59c1756cb23f13ab9909067c7`
+
 # PermGroupCommand
 
 ## Overview
-- Documentation for `PermGroupCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.permissions.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `PermGroupCommand()`
   - Creates a `PermGroupCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

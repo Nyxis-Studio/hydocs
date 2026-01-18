@@ -1,14 +1,14 @@
+**Source Hash:** `90497a65564d03836b902a7ffc9189f1044c2fb09c94172dcad34e248f3cb918`
+
 # MarkerBlockState
 
 ## Overview
-- Documentation for `MarkerBlockState`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.meta.state`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setMarker(WorldMapManager.MarkerReference var1)`
+## Method Descriptions
+- `setMarker(WorldMapManager.MarkerReference var1)`: Add description.
   - Executes `setMarker` behavior.
 
 ## Notes

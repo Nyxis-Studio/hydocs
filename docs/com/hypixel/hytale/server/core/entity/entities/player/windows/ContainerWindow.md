@@ -1,21 +1,21 @@
+**Source Hash:** `cdaeb0adec0e8100b5743a9b35bdc2a1aa9f2a303574d6d246df7e1062736f52`
+
 # ContainerWindow
 
 ## Overview
-- Documentation for `ContainerWindow`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
+## Constructor Descriptions
 - `ContainerWindow(@Nonnull ItemContainer itemContainer)`
   - Creates a `ContainerWindow` instance.
 
-## Methods
-- `getData()`
+## Method Descriptions
+- `getData()`: Add description.
   - Executes `getData` behavior.
-- `onOpen0()`
+- `onOpen0()`: Add description.
   - Executes `onOpen0` behavior.
-- `onClose0()`
+- `onClose0()`: Add description.
   - Executes `onClose0` behavior.
-- `getItemContainer()`
+- `getItemContainer()`: Add description.
   - Executes `getItemContainer` behavior.
 
 ## Notes

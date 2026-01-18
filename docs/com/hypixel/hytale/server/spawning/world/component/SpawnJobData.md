@@ -1,74 +1,74 @@
+**Source Hash:** `d29d6293f92de95a72fcb69bfe7e3ae065cd620f14404141690096b2abd80af9`
+
 # SpawnJobData
 
 ## Overview
-- Documentation for `SpawnJobData`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.world.component`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getJobId()`
+- `getJobId()`: Add description.
   - Executes `getJobId` behavior.
-- `getEnvironmentIndex()`
+- `getEnvironmentIndex()`: Add description.
   - Executes `getEnvironmentIndex` behavior.
-- `getTotalColumnsTested()`
+- `getTotalColumnsTested()`: Add description.
   - Executes `getTotalColumnsTested` behavior.
-- `incrementTotalColumnsTested()`
+- `incrementTotalColumnsTested()`: Add description.
   - Executes `incrementTotalColumnsTested` behavior.
-- `getTotalColumnsBlocked()`
+- `getTotalColumnsBlocked()`: Add description.
   - Executes `getTotalColumnsBlocked` behavior.
-- `incrementTotalColumnsBlocked()`
+- `incrementTotalColumnsBlocked()`: Add description.
   - Executes `incrementTotalColumnsBlocked` behavior.
-- `getBudgetUsed()`
+- `getBudgetUsed()`: Add description.
   - Executes `getBudgetUsed` behavior.
-- `setBudgetUsed(int budgetUsed)`
+- `setBudgetUsed(int budgetUsed)`: Add description.
   - Executes `setBudgetUsed` behavior.
-- `adjustBudgetUsed(int amount)`
+- `adjustBudgetUsed(int amount)`: Add description.
   - Executes `adjustBudgetUsed` behavior.
-- `getTotalBudgetUsed()`
+- `getTotalBudgetUsed()`: Add description.
   - Executes `getTotalBudgetUsed` behavior.
-- `isSpawnFrozen()`
+- `isSpawnFrozen()`: Add description.
   - Executes `isSpawnFrozen` behavior.
-- `setSpawnFrozen(boolean spawnFrozen)`
+- `setSpawnFrozen(boolean spawnFrozen)`: Add description.
   - Executes `setSpawnFrozen` behavior.
-- `getSpawningContext()`
+- `getSpawningContext()`: Add description.
   - Executes `getSpawningContext` behavior.
-- `getRoleIndex()`
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `getSpawnConfigIndex()`
+- `getSpawnConfigIndex()`: Add description.
   - Executes `getSpawnConfigIndex` behavior.
-- `getFlockSize()`
+- `getFlockSize()`: Add description.
   - Executes `getFlockSize` behavior.
-- `getFlockAsset()`
+- `getFlockAsset()`: Add description.
   - Executes `getFlockAsset` behavior.
-- `getSuppressionSpanHelper()`
+- `getSuppressionSpanHelper()`: Add description.
   - Executes `getSuppressionSpanHelper` behavior.
-- `getEnvironment()`
+- `getEnvironment()`: Add description.
   - Executes `getEnvironment` behavior.
-- `getSpansTried()`
+- `getSpansTried()`: Add description.
   - Executes `getSpansTried` behavior.
-- `incrementSpansTried()`
+- `incrementSpansTried()`: Add description.
   - Executes `incrementSpansTried` behavior.
-- `getSpansSuccess()`
+- `getSpansSuccess()`: Add description.
   - Executes `getSpansSuccess` behavior.
-- `incrementSpansSuccess()`
+- `incrementSpansSuccess()`: Add description.
   - Executes `incrementSpansSuccess` behavior.
-- `getRejectionMap()`
+- `getRejectionMap()`: Add description.
   - Executes `getRejectionMap` behavior.
-- `isIgnoreFullyPopulated()`
+- `isIgnoreFullyPopulated()`: Add description.
   - Executes `isIgnoreFullyPopulated` behavior.
-- `setIgnoreFullyPopulated(boolean ignoreFullyPopulated)`
+- `setIgnoreFullyPopulated(boolean ignoreFullyPopulated)`: Add description.
   - Executes `setIgnoreFullyPopulated` behavior.
-- `isTerminated()`
+- `isTerminated()`: Add description.
   - Executes `isTerminated` behavior.
-- `terminate()`
+- `terminate()`: Add description.
   - Executes `terminate` behavior.
-- `init(int roleIndex, Environment environment, int environmentIndex, @Nonnull SpawnWrapper<?> spawnConfig, FlockAsset flockDefinition, int flockSize)`
+- `init(int roleIndex, Environment environment, int environmentIndex, @Nonnull SpawnWrapper<?> spawnConfig, FlockAsset flockDefinition, int flockSize)`: Add description.
   - Executes `init` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

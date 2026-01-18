@@ -1,21 +1,21 @@
+**Source Hash:** `cfc93fbfa0e666ddd65093c197f730c36076bce3a40d47c80d9560d615991b64`
+
 # JavaPlugin
 
 ## Overview
-- Documentation for `JavaPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `JavaPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `JavaPlugin` instance.
 
-## Methods
-- `getFile()`
+## Method Descriptions
+- `getFile()`: Add description.
   - Executes `getFile` behavior.
-- `start0()`
+- `start0()`: Add description.
   - Executes `start0` behavior.
-- `getClassLoader()`
+- `getClassLoader()`: Add description.
   - Executes `getClassLoader` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
 
 ## Notes

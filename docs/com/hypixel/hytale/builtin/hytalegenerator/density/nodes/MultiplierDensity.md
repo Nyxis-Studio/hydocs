@@ -1,17 +1,17 @@
+**Source Hash:** `9fd35ad032c952d3f3ae9b5b2cb6285d9de878a581df7116a30b338a5094093d`
+
 # MultiplierDensity
 
 ## Overview
-- Documentation for `MultiplierDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `MultiplierDensity(@Nonnull List<Density> inputs)`
   - Creates a `MultiplierDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

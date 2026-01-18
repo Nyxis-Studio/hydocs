@@ -1,24 +1,24 @@
+**Source Hash:** `a1954bdb94fc9958df6c98787285597dcee235c49a245db64bfdddaf86214ff1`
+
 # BuilderEntityFilterViewSector
 
 ## Overview
-- Documentation for `BuilderEntityFilterViewSector`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getViewSectorRadians(@Nonnull BuilderSupport builderSupport)`
+- `getViewSectorRadians(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getViewSectorRadians` behavior.
 
 ## Notes

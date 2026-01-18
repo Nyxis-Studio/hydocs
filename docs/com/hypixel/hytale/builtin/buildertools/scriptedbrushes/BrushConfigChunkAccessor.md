@@ -1,29 +1,29 @@
+**Source Hash:** `883e325263f7411156168630f32ac8e12eb8596adc15b8b59e99407261776dcd`
+
 # BrushConfigChunkAccessor
 
 ## Overview
-- Documentation for `BrushConfigChunkAccessor`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigChunkAccessor(editOperation, delegate, centerX, centerZ, chunkRadius)`
   - Creates a `BrushConfigChunkAccessor` instance.
 - `BrushConfigChunkAccessor(BrushConfigEditStore editOperation, ChunkAccessor<WorldChunk> delegate, int centerX, int centerZ, int radius)`
   - Creates a `BrushConfigChunkAccessor` instance.
 
-## Methods
-- `atWorldCoords(BrushConfigEditStore editOperation, ChunkAccessor<WorldChunk> delegate, int centerX, int centerZ, int blockRadius)`
+## Method Descriptions
+- `atWorldCoords(BrushConfigEditStore editOperation, ChunkAccessor<WorldChunk> delegate, int centerX, int centerZ, int blockRadius)`: Add description.
   - Executes `atWorldCoords` behavior.
-- `atChunkCoords(BrushConfigEditStore editOperation, ChunkAccessor<WorldChunk> delegate, int centerX, int centerZ, int chunkRadius)`
+- `atChunkCoords(BrushConfigEditStore editOperation, ChunkAccessor<WorldChunk> delegate, int centerX, int centerZ, int chunkRadius)`: Add description.
   - Executes `atChunkCoords` behavior.
-- `getBlock(@Nonnull Vector3i pos)`
+- `getBlock(@Nonnull Vector3i pos)`: Add description.
   - Executes `getBlock` behavior.
-- `getBlock(int x, int y, int z)`
+- `getBlock(int x, int y, int z)`: Add description.
   - Executes `getBlock` behavior.
-- `getBlockIgnoringHistory(@Nonnull Vector3i pos)`
+- `getBlockIgnoringHistory(@Nonnull Vector3i pos)`: Add description.
   - Executes `getBlockIgnoringHistory` behavior.
-- `getBlockIgnoringHistory(int x, int y, int z)`
+- `getBlockIgnoringHistory(int x, int y, int z)`: Add description.
   - Executes `getBlockIgnoringHistory` behavior.
-- `getFluidId(int x, int y, int z)`
+- `getFluidId(int x, int y, int z)`: Add description.
   - Executes `getFluidId` behavior.
 
 ## Notes

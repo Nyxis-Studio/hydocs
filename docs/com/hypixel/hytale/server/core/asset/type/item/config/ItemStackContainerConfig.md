@@ -1,21 +1,21 @@
+**Source Hash:** `c35041dd5ee989edba389a333fc9da91222ec5ffd36189df6f3ffd1e9543d529`
+
 # ItemStackContainerConfig
 
 ## Overview
-- Documentation for `ItemStackContainerConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemStackContainerConfig()`
   - Creates a `ItemStackContainerConfig` instance.
 
-## Methods
-- `getCapacity()`
+## Method Descriptions
+- `getCapacity()`: Add description.
   - Executes `getCapacity` behavior.
-- `getGlobalFilter()`
+- `getGlobalFilter()`: Add description.
   - Executes `getGlobalFilter` behavior.
-- `getTagIndex()`
+- `getTagIndex()`: Add description.
   - Executes `getTagIndex` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

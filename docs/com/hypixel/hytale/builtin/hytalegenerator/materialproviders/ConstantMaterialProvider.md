@@ -1,15 +1,15 @@
+**Source Hash:** `f1059948dd2aacf84f11ea0505b77303f422b2a5c1a4448b791897a306bfa0df`
+
 # ConstantMaterialProvider
 
 ## Overview
-- Documentation for `ConstantMaterialProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantMaterialProvider(@Nullable V material)`
   - Creates a `ConstantMaterialProvider` instance.
 
-## Methods
-- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`
+## Method Descriptions
+- `getVoxelTypeAt(@Nonnull MaterialProvider.Context context)`: Add description.
   - Executes `getVoxelTypeAt` behavior.
 
 ## Notes

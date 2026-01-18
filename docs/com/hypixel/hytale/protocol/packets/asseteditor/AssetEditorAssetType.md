@@ -1,10 +1,10 @@
+**Source Hash:** `4aeafeae307d3508d129fe5615c089aa4c9e8aaeebb08612cd9a9230c0fe6c40`
+
 # AssetEditorAssetType
 
 ## Overview
-- Documentation for `AssetEditorAssetType`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.asseteditor`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetEditorAssetType()`
   - Creates a `AssetEditorAssetType` instance.
 - `AssetEditorAssetType(@Nullable String id, @Nullable String icon, boolean isColoredIcon, @Nullable String path, @Nullable String fileExtension, @Nonnull AssetEditorEditorType editorType)`
@@ -12,22 +12,22 @@
 - `AssetEditorAssetType(@Nonnull AssetEditorAssetType other)`
   - Creates a `AssetEditorAssetType` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `7a5c8da72a82aaceb7dfc64890de3fe40091a6e6c51b6b92603826d4072c215c`
+
 # DynamicLight
 
 ## Overview
-- Documentation for `DynamicLight`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `DynamicLight()`
   - Creates a `DynamicLight` instance.
 - `DynamicLight(ColorLight colorLight)`
@@ -12,16 +12,16 @@
 - `DynamicLight(new ColorLight(this.colorLight)`
   - Creates a `DynamicLight` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getColorLight()`
+- `getColorLight()`: Add description.
   - Executes `getColorLight` behavior.
-- `setColorLight(ColorLight colorLight)`
+- `setColorLight(ColorLight colorLight)`: Add description.
   - Executes `setColorLight` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

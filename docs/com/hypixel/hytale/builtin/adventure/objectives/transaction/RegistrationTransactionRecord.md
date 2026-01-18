@@ -1,29 +1,29 @@
+**Source Hash:** `eca12aef24c7f8240632fcd02aa23b295127391d53367fdab70cfdef67e23683`
+
 # RegistrationTransactionRecord
 
 ## Overview
-- Documentation for `RegistrationTransactionRecord`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `RegistrationTransactionRecord(BooleanConsumer registration)`
   - Creates a `RegistrationTransactionRecord` instance.
 - `RegistrationTransactionRecord(registration)`
   - Creates a `RegistrationTransactionRecord` instance.
 
-## Methods
-- `revert()`
+## Method Descriptions
+- `revert()`: Add description.
   - Executes `revert` behavior.
-- `complete()`
+- `complete()`: Add description.
   - Executes `complete` behavior.
-- `unload()`
+- `unload()`: Add description.
   - Executes `unload` behavior.
-- `shouldBeSerialized()`
+- `shouldBeSerialized()`: Add description.
   - Executes `shouldBeSerialized` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `wrap(@Nonnull EventRegistry registry)`
+- `wrap(@Nonnull EventRegistry registry)`: Add description.
   - Executes `wrap` behavior.
-- `append(@Nonnull TransactionRecord[] arr, @Nonnull EventRegistry registry)`
+- `append(@Nonnull TransactionRecord[] arr, @Nonnull EventRegistry registry)`: Add description.
   - Executes `append` behavior.
 
 ## Notes

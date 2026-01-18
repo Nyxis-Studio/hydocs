@@ -1,15 +1,15 @@
+**Source Hash:** `769edb49a9ab96a0596c5e8e039fb31b369a71ceeae53d87693f2c156b928b75`
+
 # NPCReputationPlugin
 
 ## Overview
-- Documentation for `NPCReputationPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcreputation`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCReputationPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `NPCReputationPlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
 
 ## Notes

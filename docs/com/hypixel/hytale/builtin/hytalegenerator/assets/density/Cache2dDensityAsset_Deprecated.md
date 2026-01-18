@@ -1,16 +1,16 @@
+**Source Hash:** `be6650acd23472a1914eabf26f786e9de9b21d56b2246f9f5dec7678ffe7f53d`
+
 # Cache2dDensityAsset_Deprecated
 
 ## Overview
-- Documentation for `Cache2dDensityAsset_Deprecated`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

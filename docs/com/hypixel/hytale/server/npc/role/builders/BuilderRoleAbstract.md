@@ -1,14 +1,14 @@
+**Source Hash:** `99b2cf2e8b650ec9b954d0de14214e1a5539d35167a9589d0f02c21a027e396e`
+
 # BuilderRoleAbstract
 
 ## Overview
-- Documentation for `BuilderRoleAbstract`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isSpawnable()`
+## Method Descriptions
+- `isSpawnable()`: Add description.
   - Executes `isSpawnable` behavior.
 
 ## Notes

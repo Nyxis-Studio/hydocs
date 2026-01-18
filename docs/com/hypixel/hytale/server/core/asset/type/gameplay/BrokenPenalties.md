@@ -1,19 +1,19 @@
+**Source Hash:** `d659b5d721a26d341776fc2b692e7d1165cdc1b0bca235c04eb08396b407ff48`
+
 # BrokenPenalties
 
 ## Overview
-- Documentation for `BrokenPenalties`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
+## Constructor Descriptions
 - `BrokenPenalties()`
   - Creates a `BrokenPenalties` instance.
 
-## Methods
-- `getTool(double defaultValue)`
+## Method Descriptions
+- `getTool(double defaultValue)`: Add description.
   - Executes `getTool` behavior.
-- `getArmor(double defaultValue)`
+- `getArmor(double defaultValue)`: Add description.
   - Executes `getArmor` behavior.
-- `getWeapon(double defaultValue)`
+- `getWeapon(double defaultValue)`: Add description.
   - Executes `getWeapon` behavior.
 
 ## Notes

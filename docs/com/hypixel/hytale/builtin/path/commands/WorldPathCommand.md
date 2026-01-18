@@ -1,15 +1,15 @@
+**Source Hash:** `e1f2205896208faa26863a8f1854bda3138cc4915ca50538559dc34e2fff7159`
+
 # WorldPathCommand
 
 ## Overview
-- Documentation for `WorldPathCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.path.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldPathCommand()`
   - Creates a `WorldPathCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

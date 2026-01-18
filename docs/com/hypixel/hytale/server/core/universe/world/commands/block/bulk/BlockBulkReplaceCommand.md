@@ -1,19 +1,19 @@
+**Source Hash:** `e19d1b76e0fce6dcceedc681081f7b47598c8de023db0864bc6b9829f77cb685`
+
 # BlockBulkReplaceCommand
 
 ## Overview
-- Documentation for `BlockBulkReplaceCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.commands.block.bulk`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockBulkReplaceCommand()`
   - Creates a `BlockBulkReplaceCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
-- `getBlockIdList(int blockId)`
+- `getBlockIdList(int blockId)`: Add description.
   - Executes `getBlockIdList` behavior.
-- `createNESWRotationLists(@Nonnull BlockType block, @Nonnull IntList blockIdList)`
+- `createNESWRotationLists(@Nonnull BlockType block, @Nonnull IntList blockIdList)`: Add description.
   - Executes `createNESWRotationLists` behavior.
 
 ## Notes

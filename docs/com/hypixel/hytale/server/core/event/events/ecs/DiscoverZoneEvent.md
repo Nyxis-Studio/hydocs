@@ -1,17 +1,17 @@
+**Source Hash:** `141f3f8f9e70a888f7f45ca9a74960eadd61f3ca991656afc5f178afb6c7b65e`
+
 # DiscoverZoneEvent
 
 ## Overview
-- Documentation for `DiscoverZoneEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `DiscoverZoneEvent(@Nonnull WorldMapTracker.ZoneDiscoveryInfo discoveryInfo)`
   - Creates a `DiscoverZoneEvent` instance.
 
-## Methods
-- `isCancelled()`
+## Method Descriptions
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
 
 ## Notes

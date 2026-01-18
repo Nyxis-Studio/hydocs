@@ -1,16 +1,16 @@
+**Source Hash:** `255ffc0e0ae91b444fc704904fee0dce7acb7c5ab2822081c9ca30aa39c5312d`
+
 # ClassTransformer
 
 ## Overview
-- Documentation for `ClassTransformer`.
-- Declared as a interface in `com.hypixel.hytale.plugin.early`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `priority()`
+## Method Descriptions
+- `priority()`: Add description.
   - Executes `priority` behavior.
-- `transform(@Nonnull String var1, @Nonnull String var2, @Nonnull byte[] var3)`
+- `transform(@Nonnull String var1, @Nonnull String var2, @Nonnull byte[] var3)`: Add description.
   - Executes `transform` behavior.
 
 ## Notes

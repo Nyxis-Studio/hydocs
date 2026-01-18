@@ -1,14 +1,14 @@
+**Source Hash:** `4a5a693994731748c5c5c120025c3dd75d32d913f1315dc60663a17af3f98d14`
+
 # ParameterProviderEvaluator
 
 ## Overview
-- Documentation for `ParameterProviderEvaluator`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hasParameter(String var1, ParameterType var2)`
+## Method Descriptions
+- `hasParameter(String var1, ParameterType var2)`: Add description.
   - Executes `hasParameter` behavior.
 
 ## Notes

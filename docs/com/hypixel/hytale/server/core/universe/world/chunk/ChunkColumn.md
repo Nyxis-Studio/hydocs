@@ -1,31 +1,31 @@
+**Source Hash:** `31fc6a9b4bd0039cfe7c434db78c8a700da251984fadac260dc659370573c5c3`
+
 # ChunkColumn
 
 ## Overview
-- Documentation for `ChunkColumn`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkColumn()`
   - Creates a `ChunkColumn` instance.
 - `ChunkColumn(Holder<ChunkStore>[] sectionHolders)`
   - Creates a `ChunkColumn` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSection(int section)`
+- `getSection(int section)`: Add description.
   - Executes `getSection` behavior.
-- `getSections()`
+- `getSections()`: Add description.
   - Executes `getSections` behavior.
-- `getSectionHolders()`
+- `getSectionHolders()`: Add description.
   - Executes `getSectionHolders` behavior.
-- `takeSectionHolders()`
+- `takeSectionHolders()`: Add description.
   - Executes `takeSectionHolders` behavior.
-- `putSectionHolders(Holder<ChunkStore>[] holders)`
+- `putSectionHolders(Holder<ChunkStore>[] holders)`: Add description.
   - Executes `putSectionHolders` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `cloneSerializable()`
+- `cloneSerializable()`: Add description.
   - Executes `cloneSerializable` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `63ba806dc1a904e828506651d08dfdc1fba50d7b517a11ee721c98c87b85bce3`
+
 # LightingInvalidateCommand
 
 ## Overview
-- Documentation for `LightingInvalidateCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.lighting`.
 
-## Constructors
+## Constructor Descriptions
 - `LightingInvalidateCommand()`
   - Creates a `LightingInvalidateCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

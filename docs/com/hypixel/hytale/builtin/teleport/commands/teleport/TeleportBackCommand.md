@@ -1,15 +1,15 @@
+**Source Hash:** `57aebf0a4728602e1ba1d707c315d6bce744ed2aec299c6f5fc862f027cf018d`
+
 # TeleportBackCommand
 
 ## Overview
-- Documentation for `TeleportBackCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportBackCommand()`
   - Creates a `TeleportBackCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `f5410740abc0cca1cd8c1928de5619b683a3da575ee0afb8fbd7acf73ca56474`
+
 # BotConfig
 
 ## Overview
-- Documentation for `BotConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.stresstest`.
 
-## Constructors
+## Constructor Descriptions
 - `BotConfig(double radius, Vector2d flyYHeight, double flySpeed, Transform spawn, int viewRadius)`
   - Creates a `BotConfig` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

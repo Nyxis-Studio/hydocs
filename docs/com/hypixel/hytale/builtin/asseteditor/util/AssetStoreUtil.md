@@ -1,14 +1,14 @@
+**Source Hash:** `440a49da3784ef498a2361181c8e7bb5987128d6669451cc31519adbfd37aaec`
+
 # AssetStoreUtil
 
 ## Overview
-- Documentation for `AssetStoreUtil`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIdFromIndex(@Nonnull AssetStore<K, T, M> assetStore, int assetIndex)`
+## Method Descriptions
+- `getIdFromIndex(@Nonnull AssetStore<K, T, M> assetStore, int assetIndex)`: Add description.
   - Executes `getIdFromIndex` behavior.
 
 ## Notes

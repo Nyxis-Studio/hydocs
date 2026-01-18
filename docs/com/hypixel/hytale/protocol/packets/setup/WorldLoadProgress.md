@@ -1,10 +1,10 @@
+**Source Hash:** `3df77a64210e0d275cc68f0d4903afc3cfad31711479f43cdfbdbd7b11220284`
+
 # WorldLoadProgress
 
 ## Overview
-- Documentation for `WorldLoadProgress`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.setup`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldLoadProgress()`
   - Creates a `WorldLoadProgress` instance.
 - `WorldLoadProgress(@Nullable String status, int percentComplete, int percentCompleteSubitem)`
@@ -12,24 +12,24 @@
 - `WorldLoadProgress(@Nonnull WorldLoadProgress other)`
   - Creates a `WorldLoadProgress` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

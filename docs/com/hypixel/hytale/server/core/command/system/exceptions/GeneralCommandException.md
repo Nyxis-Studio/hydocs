@@ -1,17 +1,17 @@
+**Source Hash:** `7446b8e7dd2bc4137f5f00d5ce784d78adaea711b11d93aac2460fa2bb3d2f23`
+
 # GeneralCommandException
 
 ## Overview
-- Documentation for `GeneralCommandException`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system.exceptions`.
 
-## Constructors
+## Constructor Descriptions
 - `GeneralCommandException(@Nonnull Message message)`
   - Creates a `GeneralCommandException` instance.
 
-## Methods
-- `sendTranslatedMessage(@Nonnull CommandSender sender)`
+## Method Descriptions
+- `sendTranslatedMessage(@Nonnull CommandSender sender)`: Add description.
   - Executes `sendTranslatedMessage` behavior.
-- `getMessageText()`
+- `getMessageText()`: Add description.
   - Executes `getMessageText` behavior.
 
 ## Notes

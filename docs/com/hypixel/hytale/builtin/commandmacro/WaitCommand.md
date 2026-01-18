@@ -1,15 +1,15 @@
+**Source Hash:** `c87315eb1dd88af41848223bb279c30c37b7a2eec1bfdd9b6faadecc653df51b`
+
 # WaitCommand
 
 ## Overview
-- Documentation for `WaitCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.commandmacro`.
 
-## Constructors
+## Constructor Descriptions
 - `WaitCommand()`
   - Creates a `WaitCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

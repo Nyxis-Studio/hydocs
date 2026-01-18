@@ -1,16 +1,16 @@
+**Source Hash:** `ae89ccd8ce1e94fa5754057aa0c3eff48a16cf3f56267e1d2a2ecaa814817852`
+
 # DistanceSCurveAsset
 
 ## Overview
-- Documentation for `DistanceSCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

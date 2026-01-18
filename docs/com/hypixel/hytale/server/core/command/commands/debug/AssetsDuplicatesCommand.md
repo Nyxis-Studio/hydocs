@@ -1,17 +1,17 @@
+**Source Hash:** `b25d3a9e6434e4b5bfbb21d281ff02efa357c632659b7c756caf0ef118ad61fa`
+
 # AssetsDuplicatesCommand
 
 ## Overview
-- Documentation for `AssetsDuplicatesCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetsDuplicatesCommand()`
   - Creates a `AssetsDuplicatesCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
-- `calculateTotalSize()`
+- `calculateTotalSize()`: Add description.
   - Executes `calculateTotalSize` behavior.
 
 ## Notes

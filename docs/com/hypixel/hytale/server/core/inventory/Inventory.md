@@ -1,10 +1,10 @@
+**Source Hash:** `829dc52ab8bbb25549e265dbee3014ff8ea401b5a708b650ff3d356a0c5a41f3`
+
 # Inventory
 
 ## Overview
-- Documentation for `Inventory`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `Inventory(null)`
   - Creates a `Inventory` instance.
 - `Inventory(Void dummy)`
@@ -18,120 +18,120 @@
 - `Inventory(newStorage, newArmor, newHotbar, newUtility, newTool, EmptyItemContainer.INSTANCE)`
   - Creates a `Inventory` instance.
 
-## Methods
-- `registerChangeEvents()`
+## Method Descriptions
+- `registerChangeEvents()`: Add description.
   - Executes `registerChangeEvents` behavior.
-- `registerBackpackListener()`
+- `registerBackpackListener()`: Add description.
   - Executes `registerBackpackListener` behavior.
-- `unregister()`
+- `unregister()`: Add description.
   - Executes `unregister` behavior.
-- `unregisterBackpackChange()`
+- `unregisterBackpackChange()`: Add description.
   - Executes `unregisterBackpackChange` behavior.
-- `markChanged()`
+- `markChanged()`: Add description.
   - Executes `markChanged` behavior.
-- `moveItem(int fromSectionId, int fromSlotId, int quantity, int toSectionId, int toSlotId)`
+- `moveItem(int fromSectionId, int fromSlotId, int quantity, int toSectionId, int toSlotId)`: Add description.
   - Executes `moveItem` behavior.
-- `smartMoveItem(int fromSectionId, int fromSlotId, int quantity, @Nonnull SmartMoveType moveType)`
+- `smartMoveItem(int fromSectionId, int fromSlotId, int quantity, @Nonnull SmartMoveType moveType)`: Add description.
   - Executes `smartMoveItem` behavior.
-- `takeAll(int inventorySectionId)`
+- `takeAll(int inventorySectionId)`: Add description.
   - Executes `takeAll` behavior.
-- `putAll(int inventorySectionId)`
+- `putAll(int inventorySectionId)`: Add description.
   - Executes `putAll` behavior.
-- `quickStack(int inventorySectionId)`
+- `quickStack(int inventorySectionId)`: Add description.
   - Executes `quickStack` behavior.
-- `dropAllItemStacks()`
+- `dropAllItemStacks()`: Add description.
   - Executes `dropAllItemStacks` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `getStorage()`
+- `getStorage()`: Add description.
   - Executes `getStorage` behavior.
-- `getArmor()`
+- `getArmor()`: Add description.
   - Executes `getArmor` behavior.
-- `getHotbar()`
+- `getHotbar()`: Add description.
   - Executes `getHotbar` behavior.
-- `getUtility()`
+- `getUtility()`: Add description.
   - Executes `getUtility` behavior.
-- `getTools()`
+- `getTools()`: Add description.
   - Executes `getTools` behavior.
-- `getBackpack()`
+- `getBackpack()`: Add description.
   - Executes `getBackpack` behavior.
-- `resizeBackpack(short capacity, List<ItemStack> remainder)`
+- `resizeBackpack(short capacity, List<ItemStack> remainder)`: Add description.
   - Executes `resizeBackpack` behavior.
-- `getCombinedHotbarFirst()`
+- `getCombinedHotbarFirst()`: Add description.
   - Executes `getCombinedHotbarFirst` behavior.
-- `getCombinedStorageFirst()`
+- `getCombinedStorageFirst()`: Add description.
   - Executes `getCombinedStorageFirst` behavior.
-- `getCombinedBackpackStorageHotbar()`
+- `getCombinedBackpackStorageHotbar()`: Add description.
   - Executes `getCombinedBackpackStorageHotbar` behavior.
-- `getCombinedArmorHotbarStorage()`
+- `getCombinedArmorHotbarStorage()`: Add description.
   - Executes `getCombinedArmorHotbarStorage` behavior.
-- `getCombinedArmorHotbarUtilityStorage()`
+- `getCombinedArmorHotbarUtilityStorage()`: Add description.
   - Executes `getCombinedArmorHotbarUtilityStorage` behavior.
-- `getCombinedHotbarUtilityConsumableStorage()`
+- `getCombinedHotbarUtilityConsumableStorage()`: Add description.
   - Executes `getCombinedHotbarUtilityConsumableStorage` behavior.
-- `getCombinedEverything()`
+- `getCombinedEverything()`: Add description.
   - Executes `getCombinedEverything` behavior.
-- `getContainerForItemPickup(@Nonnull Item item, PlayerSettings playerSettings)`
+- `getContainerForItemPickup(@Nonnull Item item, PlayerSettings playerSettings)`: Add description.
   - Executes `getContainerForItemPickup` behavior.
-- `setActiveSlot(int inventorySectionId, byte slot)`
+- `setActiveSlot(int inventorySectionId, byte slot)`: Add description.
   - Executes `setActiveSlot` behavior.
-- `getActiveSlot(int inventorySectionId)`
+- `getActiveSlot(int inventorySectionId)`: Add description.
   - Executes `getActiveSlot` behavior.
-- `getActiveHotbarSlot()`
+- `getActiveHotbarSlot()`: Add description.
   - Executes `getActiveHotbarSlot` behavior.
-- `setActiveHotbarSlot(byte slot)`
+- `setActiveHotbarSlot(byte slot)`: Add description.
   - Executes `setActiveHotbarSlot` behavior.
-- `getActiveHotbarItem()`
+- `getActiveHotbarItem()`: Add description.
   - Executes `getActiveHotbarItem` behavior.
-- `getActiveToolItem()`
+- `getActiveToolItem()`: Add description.
   - Executes `getActiveToolItem` behavior.
-- `getItemInHand()`
+- `getItemInHand()`: Add description.
   - Executes `getItemInHand` behavior.
-- `getActiveUtilitySlot()`
+- `getActiveUtilitySlot()`: Add description.
   - Executes `getActiveUtilitySlot` behavior.
-- `setActiveUtilitySlot(byte slot)`
+- `setActiveUtilitySlot(byte slot)`: Add description.
   - Executes `setActiveUtilitySlot` behavior.
-- `getUtilityItem()`
+- `getUtilityItem()`: Add description.
   - Executes `getUtilityItem` behavior.
-- `getActiveToolsSlot()`
+- `getActiveToolsSlot()`: Add description.
   - Executes `getActiveToolsSlot` behavior.
-- `setActiveToolsSlot(byte slot)`
+- `setActiveToolsSlot(byte slot)`: Add description.
   - Executes `setActiveToolsSlot` behavior.
-- `getToolsItem()`
+- `getToolsItem()`: Add description.
   - Executes `getToolsItem` behavior.
-- `getSectionById(int id)`
+- `getSectionById(int id)`: Add description.
   - Executes `getSectionById` behavior.
-- `consumeIsDirty()`
+- `consumeIsDirty()`: Add description.
   - Executes `consumeIsDirty` behavior.
-- `consumeNeedsSaving()`
+- `consumeNeedsSaving()`: Add description.
   - Executes `consumeNeedsSaving` behavior.
-- `setEntity(LivingEntity entity)`
+- `setEntity(LivingEntity entity)`: Add description.
   - Executes `setEntity` behavior.
-- `sortStorage(@Nonnull SortType type)`
+- `sortStorage(@Nonnull SortType type)`: Add description.
   - Executes `sortStorage` behavior.
-- `setSortType(SortType type)`
+- `setSortType(SortType type)`: Add description.
   - Executes `setSortType` behavior.
-- `containsBrokenItem()`
+- `containsBrokenItem()`: Add description.
   - Executes `containsBrokenItem` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `doMigration(Function<String, String> blockMigration)`
+- `doMigration(Function<String, String> blockMigration)`: Add description.
   - Executes `doMigration` behavior.
-- `postDecode()`
+- `postDecode()`: Add description.
   - Executes `postDecode` behavior.
-- `buildCombinedContains()`
+- `buildCombinedContains()`: Add description.
   - Executes `buildCombinedContains` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `ensureCapacity(@Nonnull Inventory inventory, List<ItemStack> remainder)`
+- `ensureCapacity(@Nonnull Inventory inventory, List<ItemStack> remainder)`: Add description.
   - Executes `ensureCapacity` behavior.
-- `setUsingToolsItem(boolean value)`
+- `setUsingToolsItem(boolean value)`: Add description.
   - Executes `setUsingToolsItem` behavior.
-- `usingToolsItem()`
+- `usingToolsItem()`: Add description.
   - Executes `usingToolsItem` behavior.
 
 ## Notes

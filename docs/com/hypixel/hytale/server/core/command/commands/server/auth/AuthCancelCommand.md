@@ -1,15 +1,15 @@
+**Source Hash:** `c121e0b95c2a4d376dc66de72363f13b73e7924653212753bc93f51becca96b2`
+
 # AuthCancelCommand
 
 ## Overview
-- Documentation for `AuthCancelCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthCancelCommand()`
   - Creates a `AuthCancelCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `6c94162cae21da2114df845c00887e6e7c6a8434c5a3acd0d34eb976f4b04418`
+
 # ParticleSpawnerGroup
 
 ## Overview
-- Documentation for `ParticleSpawnerGroup`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleSpawnerGroup()`
   - Creates a `ParticleSpawnerGroup` instance.
 - `ParticleSpawnerGroup(@Nullable String spawnerId, @Nullable Vector3f positionOffset, @Nullable Direction rotationOffset, boolean fixedRotation, float startDelay, @Nullable Rangef spawnRate, @Nullable Rangef waveDelay, int totalSpawners, int maxConcurrent, @Nullable InitialVelocity initialVelocity, @Nullable RangeVector3f emitOffset, @Nullable Rangef lifeSpan, @Nullable ParticleAttractor[] attractors)`
@@ -12,22 +12,22 @@
 - `ParticleSpawnerGroup(@Nonnull ParticleSpawnerGroup other)`
   - Creates a `ParticleSpawnerGroup` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

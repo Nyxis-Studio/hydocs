@@ -1,41 +1,41 @@
+**Source Hash:** `d588edafed82fa1ca2f07463ebd2b21af8227b75fa2e494376d9696c796b50d0`
+
 # BlockFace
 
 ## Overview
-- Documentation for `BlockFace`.
-- Declared as a enum in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockFace(FaceConnectionType faceConnectionType, BlockNeighbor blockNeighbor, Vector3i direction)`
   - Creates a `BlockFace` instance.
 - `BlockFace(@Nonnull FaceConnectionType faceConnectionType, BlockNeighbor blockNeighbor, BlockFace ... components)`
   - Creates a `BlockFace` instance.
 
-## Methods
-- `getFaceConnectionType()`
+## Method Descriptions
+- `getFaceConnectionType()`: Add description.
   - Executes `getFaceConnectionType` behavior.
-- `getComponents()`
+- `getComponents()`: Add description.
   - Executes `getComponents` behavior.
-- `getDirection()`
+- `getDirection()`: Add description.
   - Executes `getDirection` behavior.
-- `getConnectingFaces()`
+- `getConnectingFaces()`: Add description.
   - Executes `getConnectingFaces` behavior.
-- `getConnectingFaceOffsets()`
+- `getConnectingFaceOffsets()`: Add description.
   - Executes `getConnectingFaceOffsets` behavior.
-- `getConnectingFaces0()`
+- `getConnectingFaces0()`: Add description.
   - Executes `getConnectingFaces0` behavior.
-- `directionTo(@Nonnull BlockFace connectingFace)`
+- `directionTo(@Nonnull BlockFace connectingFace)`: Add description.
   - Executes `directionTo` behavior.
-- `lookup(Vector3i direction)`
+- `lookup(Vector3i direction)`: Add description.
   - Executes `lookup` behavior.
-- `rotate(@Nonnull BlockFace blockFace, @Nonnull Rotation rotationYaw, @Nonnull Rotation rotationPitch)`
+- `rotate(@Nonnull BlockFace blockFace, @Nonnull Rotation rotationYaw, @Nonnull Rotation rotationPitch)`: Add description.
   - Executes `rotate` behavior.
-- `rotate(@Nonnull BlockFace blockFace, @Nonnull Rotation rotationX, @Nonnull Rotation rotationY, @Nonnull Rotation rotationZ)`
+- `rotate(@Nonnull BlockFace blockFace, @Nonnull Rotation rotationX, @Nonnull Rotation rotationY, @Nonnull Rotation rotationZ)`: Add description.
   - Executes `rotate` behavior.
-- `flip(@Nonnull BlockFace blockFace)`
+- `flip(@Nonnull BlockFace blockFace)`: Add description.
   - Executes `flip` behavior.
-- `toProtocolBlockNeighbor()`
+- `toProtocolBlockNeighbor()`: Add description.
   - Executes `toProtocolBlockNeighbor` behavior.
-- `fromProtocolFace(@Nonnull com.hypixel.hytale.protocol.BlockFace face)`
+- `fromProtocolFace(@Nonnull com.hypixel.hytale.protocol.BlockFace face)`: Add description.
   - Executes `fromProtocolFace` behavior.
 
 ## Notes

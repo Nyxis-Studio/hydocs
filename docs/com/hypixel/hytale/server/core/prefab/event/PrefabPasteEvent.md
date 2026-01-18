@@ -1,17 +1,17 @@
+**Source Hash:** `186af4063d36009109fe5de68f7109fb4b47451341b4781b01d0821858db8ef3`
+
 # PrefabPasteEvent
 
 ## Overview
-- Documentation for `PrefabPasteEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.event`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabPasteEvent(int prefabId, boolean pasteStart)`
   - Creates a `PrefabPasteEvent` instance.
 
-## Methods
-- `getPrefabId()`
+## Method Descriptions
+- `getPrefabId()`: Add description.
   - Executes `getPrefabId` behavior.
-- `isPasteStart()`
+- `isPasteStart()`: Add description.
   - Executes `isPasteStart` behavior.
 
 ## Notes

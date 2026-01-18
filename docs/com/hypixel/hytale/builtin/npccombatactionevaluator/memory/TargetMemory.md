@@ -1,33 +1,33 @@
+**Source Hash:** `9cc6e1be4b559d9636029ec47d18fa90fb7c34c91f0d2efdaaad440c14902c7f`
+
 # TargetMemory
 
 ## Overview
-- Documentation for `TargetMemory`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.memory`.
 
-## Constructors
+## Constructor Descriptions
 - `TargetMemory(float rememberFor)`
   - Creates a `TargetMemory` instance.
 - `TargetMemory(this.rememberFor)`
   - Creates a `TargetMemory` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getKnownFriendlies()`
+- `getKnownFriendlies()`: Add description.
   - Executes `getKnownFriendlies` behavior.
-- `getKnownFriendliesList()`
+- `getKnownFriendliesList()`: Add description.
   - Executes `getKnownFriendliesList` behavior.
-- `getKnownHostiles()`
+- `getKnownHostiles()`: Add description.
   - Executes `getKnownHostiles` behavior.
-- `getKnownHostilesList()`
+- `getKnownHostilesList()`: Add description.
   - Executes `getKnownHostilesList` behavior.
-- `getRememberFor()`
+- `getRememberFor()`: Add description.
   - Executes `getRememberFor` behavior.
-- `getClosestHostile()`
+- `getClosestHostile()`: Add description.
   - Executes `getClosestHostile` behavior.
-- `setClosestHostile(Ref<EntityStore> ref)`
+- `setClosestHostile(Ref<EntityStore> ref)`: Add description.
   - Executes `setClosestHostile` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

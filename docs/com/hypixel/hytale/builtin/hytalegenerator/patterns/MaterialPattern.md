@@ -1,17 +1,17 @@
+**Source Hash:** `a4c6c244e28fef785abfe82b744d3aa2d2fb166674fbac26721e082b7f7df2d5`
+
 # MaterialPattern
 
 ## Overview
-- Documentation for `MaterialPattern`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.patterns`.
 
-## Constructors
+## Constructor Descriptions
 - `MaterialPattern(@Nonnull Material material)`
   - Creates a `MaterialPattern` instance.
 
-## Methods
-- `matches(@Nonnull Pattern.Context context)`
+## Method Descriptions
+- `matches(@Nonnull Pattern.Context context)`: Add description.
   - Executes `matches` behavior.
-- `readSpace()`
+- `readSpace()`: Add description.
   - Executes `readSpace` behavior.
 
 ## Notes

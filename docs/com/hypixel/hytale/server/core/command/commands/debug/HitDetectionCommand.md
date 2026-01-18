@@ -1,15 +1,15 @@
+**Source Hash:** `120043871ca546fea0913dd554030dc85e5c8a199a8160a6111f1462293c2d1c`
+
 # HitDetectionCommand
 
 ## Overview
-- Documentation for `HitDetectionCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `HitDetectionCommand()`
   - Creates a `HitDetectionCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

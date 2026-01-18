@@ -1,14 +1,14 @@
+**Source Hash:** `6433c5d7f3ba4b6396bc6fa9e6eb1c78151284c1a829e7dc36afc09ad95c43e4`
+
 # ChangeStatBaseInteraction
 
 ## Overview
-- Documentation for `ChangeStatBaseInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.server`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `toString()`
+## Method Descriptions
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

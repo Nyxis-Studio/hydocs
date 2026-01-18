@@ -1,14 +1,14 @@
+**Source Hash:** `a7ed06ec4bcd6a143656c5205f6d3ee0a210baa8426930e0d0e25287600d74af`
+
 # EnvironmentSource
 
 ## Overview
-- Documentation for `EnvironmentSource`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.biome`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getEnvironmentProvider()`
+## Method Descriptions
+- `getEnvironmentProvider()`: Add description.
   - Executes `getEnvironmentProvider` behavior.
 
 ## Notes

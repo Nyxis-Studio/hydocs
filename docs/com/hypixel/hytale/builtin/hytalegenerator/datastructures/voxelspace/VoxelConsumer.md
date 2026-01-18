@@ -1,14 +1,14 @@
+**Source Hash:** `e8f53538a81529e6850cf2b2045a3a99ac4ccc1e1b41a52ed7703cac7954422e`
+
 # VoxelConsumer
 
 ## Overview
-- Documentation for `VoxelConsumer`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.voxelspace`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(V var1, int var2, int var3, int var4)`
+## Method Descriptions
+- `accept(V var1, int var2, int var3, int var4)`: Add description.
   - Executes `accept` behavior.
 
 ## Notes

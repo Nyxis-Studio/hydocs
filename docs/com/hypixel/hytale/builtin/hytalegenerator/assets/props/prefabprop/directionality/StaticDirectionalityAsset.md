@@ -1,14 +1,14 @@
+**Source Hash:** `48cf54990b651d35d066da643d419352a85edea2ed05506658c180f70d5a0043`
+
 # StaticDirectionalityAsset
 
 ## Overview
-- Documentation for `StaticDirectionalityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.props.prefabprop.directionality`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DirectionalityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DirectionalityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

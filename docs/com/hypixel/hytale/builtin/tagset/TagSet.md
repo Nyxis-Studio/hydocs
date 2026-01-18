@@ -1,20 +1,20 @@
+**Source Hash:** `73497b75aa51f714ef5d5d90279c656a9c0ab18fef4c3aba059740af647ea9b3`
+
 # TagSet
 
 ## Overview
-- Documentation for `TagSet`.
-- Declared as a interface in `com.hypixel.hytale.builtin.tagset`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIncludedTagSets()`
+## Method Descriptions
+- `getIncludedTagSets()`: Add description.
   - Executes `getIncludedTagSets` behavior.
-- `getExcludedTagSets()`
+- `getExcludedTagSets()`: Add description.
   - Executes `getExcludedTagSets` behavior.
-- `getIncludedTags()`
+- `getIncludedTags()`: Add description.
   - Executes `getIncludedTags` behavior.
-- `getExcludedTags()`
+- `getExcludedTags()`: Add description.
   - Executes `getExcludedTags` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `c97d1ef069f35660207cb6e42c98ff55e4164e9061c0a9982049cb8743d44b16`
+
 # ServerStatsGcCommand
 
 ## Overview
-- Documentation for `ServerStatsGcCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.server`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerStatsGcCommand()`
   - Creates a `ServerStatsGcCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

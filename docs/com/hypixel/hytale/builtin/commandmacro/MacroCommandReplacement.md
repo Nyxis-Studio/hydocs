@@ -1,21 +1,21 @@
+**Source Hash:** `9a2ba009840950dae14cceb220415e87dcadd12937d5d4d999e4a6d3ab52d61d`
+
 # MacroCommandReplacement
 
 ## Overview
-- Documentation for `MacroCommandReplacement`.
-- Declared as a class in `com.hypixel.hytale.builtin.commandmacro`.
 
-## Constructors
+## Constructor Descriptions
 - `MacroCommandReplacement(String nameOfReplacingArg, String stringToReplaceWithValue, @Nullable String optionalArgumentKey)`
   - Creates a `MacroCommandReplacement` instance.
 - `MacroCommandReplacement(String replacementKey, String stringToReplaceWithValue)`
   - Creates a `MacroCommandReplacement` instance.
 
-## Methods
-- `getNameOfReplacingArg()`
+## Method Descriptions
+- `getNameOfReplacingArg()`: Add description.
   - Executes `getNameOfReplacingArg` behavior.
-- `getOptionalArgumentKey()`
+- `getOptionalArgumentKey()`: Add description.
   - Executes `getOptionalArgumentKey` behavior.
-- `getStringToReplaceWithValue()`
+- `getStringToReplaceWithValue()`: Add description.
   - Executes `getStringToReplaceWithValue` behavior.
 
 ## Notes

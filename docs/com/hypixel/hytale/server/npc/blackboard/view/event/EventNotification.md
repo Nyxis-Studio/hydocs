@@ -1,24 +1,24 @@
+**Source Hash:** `608b6ebd779ca90d5572f7774c8c88c85e4c1a34055e478038af57bbce2adefa`
+
 # EventNotification
 
 ## Overview
-- Documentation for `EventNotification`.
-- Declared as a class in `com.hypixel.hytale.server.npc.blackboard.view.event`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPosition()`
+## Method Descriptions
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `setPosition(double x, double y, double z)`
+- `setPosition(double x, double y, double z)`: Add description.
   - Executes `setPosition` behavior.
-- `getInitiator()`
+- `getInitiator()`: Add description.
   - Executes `getInitiator` behavior.
-- `setInitiator(Ref<EntityStore> initiator)`
+- `setInitiator(Ref<EntityStore> initiator)`: Add description.
   - Executes `setInitiator` behavior.
-- `getSet()`
+- `getSet()`: Add description.
   - Executes `getSet` behavior.
-- `setSet(int set)`
+- `setSet(int set)`: Add description.
   - Executes `setSet` behavior.
 
 ## Notes

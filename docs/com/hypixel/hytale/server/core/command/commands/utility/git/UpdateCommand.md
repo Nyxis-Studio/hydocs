@@ -1,15 +1,15 @@
+**Source Hash:** `7db5b593ae8a6a93d8401419b20e3bb1161865c752981dda6cbd9c6149e838f6`
+
 # UpdateCommand
 
 ## Overview
-- Documentation for `UpdateCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.git`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateCommand()`
   - Creates a `UpdateCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

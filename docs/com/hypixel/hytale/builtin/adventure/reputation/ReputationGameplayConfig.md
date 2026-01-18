@@ -1,21 +1,21 @@
+**Source Hash:** `e89f361e0f18a4e344bac4b9e9d99c36f42dda1cd5cdd6e49799e036a34e9cf1`
+
 # ReputationGameplayConfig
 
 ## Overview
-- Documentation for `ReputationGameplayConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.reputation`.
 
-## Constructors
+## Constructor Descriptions
 - `ReputationGameplayConfig()`
   - Creates a `ReputationGameplayConfig` instance.
 
-## Methods
-- `get(@Nonnull GameplayConfig config)`
+## Method Descriptions
+- `get(@Nonnull GameplayConfig config)`: Add description.
   - Executes `get` behavior.
-- `getOrDefault(@Nonnull GameplayConfig config)`
+- `getOrDefault(@Nonnull GameplayConfig config)`: Add description.
   - Executes `getOrDefault` behavior.
-- `getReputationStorageType()`
+- `getReputationStorageType()`: Add description.
   - Executes `getReputationStorageType` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

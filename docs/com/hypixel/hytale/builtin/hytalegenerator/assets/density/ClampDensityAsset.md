@@ -1,16 +1,16 @@
+**Source Hash:** `f8ce377e40b87359ff2b966a90000fa856b212a30c6f9e4848fbe0f1c59ba6ea`
+
 # ClampDensityAsset
 
 ## Overview
-- Documentation for `ClampDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

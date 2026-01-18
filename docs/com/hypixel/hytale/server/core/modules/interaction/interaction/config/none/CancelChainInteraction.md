@@ -1,21 +1,21 @@
+**Source Hash:** `e1c20829765309e91a4304dffbbc102e54f982b90bb547cf4ebfb670684eb82e`
+
 # CancelChainInteraction
 
 ## Overview
-- Documentation for `CancelChainInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.none`.
 
-## Constructors
+## Constructor Descriptions
 - `CancelChainInteraction()`
   - Creates a `CancelChainInteraction` instance.
 
-## Methods
-- `generatePacket()`
+## Method Descriptions
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
-- `simulateFirstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+- `simulateFirstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateFirstRun` behavior.
 
 ## Notes

@@ -1,26 +1,26 @@
+**Source Hash:** `76e288e81bc820f2f1ab99b4d78f4a9c8d177245cd934e442d36fbcfc0402582`
+
 # BuilderEntityFilterHeightDifference
 
 ## Overview
-- Documentation for `BuilderEntityFilterHeightDifference`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getHeightDifference(@Nonnull BuilderSupport support)`
+- `getHeightDifference(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getHeightDifference` behavior.
-- `isUseEyePosition(@Nonnull BuilderSupport support)`
+- `isUseEyePosition(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isUseEyePosition` behavior.
 
 ## Notes

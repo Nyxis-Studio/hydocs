@@ -1,25 +1,25 @@
+**Source Hash:** `d784b69a3ea0e718f2445f9f97eb0fe579d1e6032bcf3f11d8458d89e63a2345`
+
 # BrushShapeArg
 
 ## Overview
-- Documentation for `BrushShapeArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushShapeArg()`
   - Creates a `BrushShapeArg` instance.
 - `BrushShapeArg(BrushShape value)`
   - Creates a `BrushShapeArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toBrushShapeArgPacket()`
+- `toBrushShapeArgPacket()`: Add description.
   - Executes `toBrushShapeArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

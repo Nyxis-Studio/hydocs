@@ -1,16 +1,16 @@
+**Source Hash:** `c0f76887873e35de614b7b3b9de399ea9f2795f53cd4a913165d05937a45c5dc`
+
 # ImportedCurveAsset
 
 ## Overview
-- Documentation for `ImportedCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

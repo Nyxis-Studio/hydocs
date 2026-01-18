@@ -1,47 +1,47 @@
+**Source Hash:** `5084123290ebc70ba2ca3139d449ed75718fffc4f54a13abe47ef21ba5d4b95f`
+
 # DebugSupport
 
 ## Overview
-- Documentation for `DebugSupport`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role.support`.
 
-## Constructors
+## Constructor Descriptions
 - `DebugSupport(NPCEntity parent, @Nonnull BuilderRole builder)`
   - Creates a `DebugSupport` instance.
 
-## Methods
-- `getDebugDisplay()`
+## Method Descriptions
+- `getDebugDisplay()`: Add description.
   - Executes `getDebugDisplay` behavior.
-- `isTraceSuccess()`
+- `isTraceSuccess()`: Add description.
   - Executes `isTraceSuccess` behavior.
-- `isTraceFail()`
+- `isTraceFail()`: Add description.
   - Executes `isTraceFail` behavior.
-- `isTraceSensorFails()`
+- `isTraceSensorFails()`: Add description.
   - Executes `isTraceSensorFails` behavior.
-- `setLastFailingSensor(Sensor sensor)`
+- `setLastFailingSensor(Sensor sensor)`: Add description.
   - Executes `setLastFailingSensor` behavior.
-- `getLastFailingSensor()`
+- `getLastFailingSensor()`: Add description.
   - Executes `getLastFailingSensor` behavior.
-- `isDebugRoleSteering()`
+- `isDebugRoleSteering()`: Add description.
   - Executes `isDebugRoleSteering` behavior.
-- `isDebugMotionSteering()`
+- `isDebugMotionSteering()`: Add description.
   - Executes `isDebugMotionSteering` behavior.
-- `setDisplayCustomString(String displayCustomString)`
+- `setDisplayCustomString(String displayCustomString)`: Add description.
   - Executes `setDisplayCustomString` behavior.
-- `pollDisplayCustomString()`
+- `pollDisplayCustomString()`: Add description.
   - Executes `pollDisplayCustomString` behavior.
-- `setDisplayPathfinderString(String displayPathfinderString)`
+- `setDisplayPathfinderString(String displayPathfinderString)`: Add description.
   - Executes `setDisplayPathfinderString` behavior.
-- `pollDisplayPathfinderString()`
+- `pollDisplayPathfinderString()`: Add description.
   - Executes `pollDisplayPathfinderString` behavior.
-- `getDebugFlags()`
+- `getDebugFlags()`: Add description.
   - Executes `getDebugFlags` behavior.
-- `setDebugFlags(EnumSet<RoleDebugFlags> debugFlags)`
+- `setDebugFlags(EnumSet<RoleDebugFlags> debugFlags)`: Add description.
   - Executes `setDebugFlags` behavior.
-- `isDebugFlagSet(RoleDebugFlags flag)`
+- `isDebugFlagSet(RoleDebugFlags flag)`: Add description.
   - Executes `isDebugFlagSet` behavior.
-- `isAnyDebugFlagSet(@Nonnull EnumSet<RoleDebugFlags> flags)`
+- `isAnyDebugFlagSet(@Nonnull EnumSet<RoleDebugFlags> flags)`: Add description.
   - Executes `isAnyDebugFlagSet` behavior.
-- `activate()`
+- `activate()`: Add description.
   - Executes `activate` behavior.
 
 ## Notes

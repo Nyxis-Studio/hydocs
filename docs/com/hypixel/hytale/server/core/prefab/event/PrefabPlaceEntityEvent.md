@@ -1,17 +1,17 @@
+**Source Hash:** `460c03b74256da86fd4ee8747a3d578bfe5e5d5dbcdb591e4092b605af47ac2d`
+
 # PrefabPlaceEntityEvent
 
 ## Overview
-- Documentation for `PrefabPlaceEntityEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab.event`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabPlaceEntityEvent(int prefabId, @Nonnull Holder<EntityStore> holder)`
   - Creates a `PrefabPlaceEntityEvent` instance.
 
-## Methods
-- `getPrefabId()`
+## Method Descriptions
+- `getPrefabId()`: Add description.
   - Executes `getPrefabId` behavior.
-- `getHolder()`
+- `getHolder()`: Add description.
   - Executes `getHolder` behavior.
 
 ## Notes

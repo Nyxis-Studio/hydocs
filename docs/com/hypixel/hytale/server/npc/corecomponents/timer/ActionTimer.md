@@ -1,10 +1,10 @@
+**Source Hash:** `ae08f91f1f3281c4e2ba61b710c013df0f88e639fd87f662507ff67e7cf93ba4`
+
 # ActionTimer
 
 ## Overview
-- Documentation for `ActionTimer`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionTimer(@Nonnull BuilderActionTimer builderActionTimer, @Nonnull BuilderSupport builderSupport)`
   - Creates a `ActionTimer` instance.
 - `ActionTimer(@Nonnull BuilderActionTimerStart builderActionTimerStart, @Nonnull BuilderSupport builderSupport)`
@@ -20,20 +20,20 @@
 - `ActionTimer(BuilderActionTimerRestart builderActionTimerRestart, @Nonnull BuilderSupport builderSupport)`
   - Creates a `ActionTimer` instance.
 
-## Methods
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
-- `executeRestartAction()`
+- `executeRestartAction()`: Add description.
   - Executes `executeRestartAction` behavior.
-- `executeModifyAction()`
+- `executeModifyAction()`: Add description.
   - Executes `executeModifyAction` behavior.
-- `executeContinueAction()`
+- `executeContinueAction()`: Add description.
   - Executes `executeContinueAction` behavior.
-- `executePauseAction()`
+- `executePauseAction()`: Add description.
   - Executes `executePauseAction` behavior.
-- `executeStopAction()`
+- `executeStopAction()`: Add description.
   - Executes `executeStopAction` behavior.
-- `executeStartAction()`
+- `executeStartAction()`: Add description.
   - Executes `executeStartAction` behavior.
 
 ## Notes

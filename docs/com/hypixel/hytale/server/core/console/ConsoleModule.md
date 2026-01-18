@@ -1,25 +1,25 @@
+**Source Hash:** `acb41f655e7ab5618129902d0ff8f87413f71f1f8a480d413129d3ec56dd6493`
+
 # ConsoleModule
 
 ## Overview
-- Documentation for `ConsoleModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.console`.
 
-## Constructors
+## Constructor Descriptions
 - `ConsoleModule(@Nonnull JavaPluginInit init)`
   - Creates a `ConsoleModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `getTerminal()`
+- `getTerminal()`: Add description.
   - Executes `getTerminal` behavior.
-- `run()`
+- `run()`: Add description.
   - Executes `run` behavior.
-- `interrupt()`
+- `interrupt()`: Add description.
   - Executes `interrupt` behavior.
 
 ## Notes

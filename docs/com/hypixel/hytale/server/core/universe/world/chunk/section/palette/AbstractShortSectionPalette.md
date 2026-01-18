@@ -1,10 +1,10 @@
+**Source Hash:** `ecdd247e38c75a4e94f9838b832b98633f606f906dce0efb8dbca3dba2d406ef`
+
 # AbstractShortSectionPalette
 
 ## Overview
-- Documentation for `AbstractShortSectionPalette`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `AbstractShortSectionPalette(short[] blocks)`
   - Creates a `AbstractShortSectionPalette` instance.
 - `AbstractShortSectionPalette(short[] blocks, @Nonnull int[] data, int[] unique, int count)`
@@ -12,44 +12,44 @@
 - `AbstractShortSectionPalette(Int2ShortMap externalToInternal, Short2IntMap internalToExternal, BitSet internalIdSet, Short2ShortMap internalIdCount, short[] blocks)`
   - Creates a `AbstractShortSectionPalette` instance.
 
-## Methods
-- `get(int index)`
+## Method Descriptions
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `get0(int var1)`
+- `get0(int var1)`: Add description.
   - Executes `get0` behavior.
-- `set0(int var1, short var2)`
+- `set0(int var1, short var2)`: Add description.
   - Executes `set0` behavior.
-- `contains(int id)`
+- `contains(int id)`: Add description.
   - Executes `contains` behavior.
-- `containsAny(@Nonnull IntList ids)`
+- `containsAny(@Nonnull IntList ids)`: Add description.
   - Executes `containsAny` behavior.
-- `count()`
+- `count()`: Add description.
   - Executes `count` behavior.
-- `count(int id)`
+- `count(int id)`: Add description.
   - Executes `count` behavior.
-- `values()`
+- `values()`: Add description.
   - Executes `values` behavior.
-- `forEachValue(IntConsumer consumer)`
+- `forEachValue(IntConsumer consumer)`: Add description.
   - Executes `forEachValue` behavior.
-- `valueCounts()`
+- `valueCounts()`: Add description.
   - Executes `valueCounts` behavior.
-- `createBlockId(short internalId, int blockId)`
+- `createBlockId(short internalId, int blockId)`: Add description.
   - Executes `createBlockId` behavior.
-- `decrementBlockCount(short internalId)`
+- `decrementBlockCount(short internalId)`: Add description.
   - Executes `decrementBlockCount` behavior.
-- `incrementBlockCount(short internalId)`
+- `incrementBlockCount(short internalId)`: Add description.
   - Executes `incrementBlockCount` behavior.
-- `nextInternalId(short oldInternalId)`
+- `nextInternalId(short oldInternalId)`: Add description.
   - Executes `nextInternalId` behavior.
-- `isValidInternalId(int var1)`
+- `isValidInternalId(int var1)`: Add description.
   - Executes `isValidInternalId` behavior.
-- `serializeForPacket(@Nonnull ByteBuf buf)`
+- `serializeForPacket(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serializeForPacket` behavior.
-- `serialize(@Nonnull ISectionPalette.KeySerializer keySerializer, @Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ISectionPalette.KeySerializer keySerializer, @Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(@Nonnull ToIntFunction<ByteBuf> deserializer, @Nonnull ByteBuf buf, int version)`
+- `deserialize(@Nonnull ToIntFunction<ByteBuf> deserializer, @Nonnull ByteBuf buf, int version)`: Add description.
   - Executes `deserialize` behavior.
-- `find(@Nonnull IntList ids, @Nonnull IntSet internalIdHolder, @Nonnull IntConsumer indexConsumer)`
+- `find(@Nonnull IntList ids, @Nonnull IntSet internalIdHolder, @Nonnull IntConsumer indexConsumer)`: Add description.
   - Executes `find` behavior.
 
 ## Notes

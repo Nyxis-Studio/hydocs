@@ -1,22 +1,26 @@
+**Source Hash:** `6c030c6f126e56c0dcf7d647766abaec689d7dd0f1c444fceaf0eb62f8973f2e`
+**Last Updated:** `2026-01-18T18:19:14-03:00`
+
 # KillObjectiveTaskAsset
 
 ## Overview
-- Documentation for `KillObjectiveTaskAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcobjectives.assets`.
+Objective task asset that requires killing NPCs belonging to a configured NPC group.
 
-## Constructors
-- `KillObjectiveTaskAsset(String descriptionId, TaskConditionAsset[] taskConditions, Vector3i[] mapMarkers, int count, String npcGroupId)`
-  - Creates a `KillObjectiveTaskAsset` instance.
-- `KillObjectiveTaskAsset()`
-  - Creates a `KillObjectiveTaskAsset` instance.
+## Field Descriptions
+- `CODEC`: Builder codec for kill objective assets.
+- `npcGroupId`: NPC group identifier to match against kills.
 
-## Methods
-- `getNpcGroupId()`
-  - Executes `getNpcGroupId` behavior.
-- `matchesAsset0(ObjectiveTaskAsset task)`
-  - Executes `matchesAsset0` behavior.
-- `toString()`
-  - Executes `toString` behavior.
+## Constructor Descriptions
+- `KillObjectiveTaskAsset(String descriptionId, TaskConditionAsset[] taskConditions, Vector3i[] mapMarkers, int count, String npcGroupId)`: Creates a kill objective asset with a target group and count.
+- `KillObjectiveTaskAsset()`: Creates an empty asset instance for codec use.
 
-## Notes
-- No additional notes.
+## Method Descriptions
+- `getTaskScope()`: Returns `PLAYER_AND_MARKER` scope for kill objectives.
+- `getNpcGroupId()`: Returns the NPC group ID.
+- `matchesAsset0(ObjectiveTaskAsset task)`: Matches another kill asset by group ID.
+- `toString()`: Returns a debug string with group ID and inherited data.
+
+## Examples
+```java
+KillObjectiveTaskAsset asset = new KillObjectiveTaskAsset();
+```

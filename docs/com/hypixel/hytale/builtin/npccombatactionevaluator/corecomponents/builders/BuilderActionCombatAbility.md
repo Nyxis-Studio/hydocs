@@ -1,20 +1,20 @@
+**Source Hash:** `7daf1780bafd9ea57f438d086f9ea9dbbc07069c205c1b5a6852337cdfd067a6`
+
 # BuilderActionCombatAbility
 
 ## Overview
-- Documentation for `BuilderActionCombatAbility`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
 
 ## Notes

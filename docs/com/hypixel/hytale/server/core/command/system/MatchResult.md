@@ -1,10 +1,10 @@
+**Source Hash:** `1a21bce180f8234e06ecfd76c83282b4615de54847ae9d7fc95e4e2747975b86`
+
 # MatchResult
 
 ## Overview
-- Documentation for `MatchResult`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system`.
 
-## Constructors
+## Constructor Descriptions
 - `MatchResult(Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE)`
   - Creates a `MatchResult` instance.
 - `MatchResult(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE)`
@@ -14,24 +14,24 @@
 - `MatchResult(int term, int depth, int type, int match)`
   - Creates a `MatchResult` instance.
 
-## Methods
-- `of(int termDepth, int depth, int type, @Nonnull String text, @Nonnull String search)`
+## Method Descriptions
+- `of(int termDepth, int depth, int type, @Nonnull String text, @Nonnull String search)`: Add description.
   - Executes `of` behavior.
-- `getDepth()`
+- `getDepth()`: Add description.
   - Executes `getDepth` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getMatch()`
+- `getMatch()`: Add description.
   - Executes `getMatch` behavior.
-- `min(@Nonnull MatchResult other)`
+- `min(@Nonnull MatchResult other)`: Add description.
   - Executes `min` behavior.
-- `compareTo(@Nonnull MatchResult o)`
+- `compareTo(@Nonnull MatchResult o)`: Add description.
   - Executes `compareTo` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

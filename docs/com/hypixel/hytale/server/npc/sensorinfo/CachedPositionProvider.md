@@ -1,16 +1,16 @@
+**Source Hash:** `f6605a659823a8956bb8d89b9b93fca02f5471fc1cefffec6863e38c4f03c0e7`
+
 # CachedPositionProvider
 
 ## Overview
-- Documentation for `CachedPositionProvider`.
-- Declared as a class in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setIsFromCache(boolean status)`
+## Method Descriptions
+- `setIsFromCache(boolean status)`: Add description.
   - Executes `setIsFromCache` behavior.
-- `isFromCache()`
+- `isFromCache()`: Add description.
   - Executes `isFromCache` behavior.
 
 ## Notes

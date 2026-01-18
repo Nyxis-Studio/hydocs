@@ -1,17 +1,17 @@
+**Source Hash:** `11f8d4e4a39c11a47ae3e00a33b28a7cb7233daa46152821e832e927659aa5df`
+
 # CustomUIEventBindingType
 
 ## Overview
-- Documentation for `CustomUIEventBindingType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `CustomUIEventBindingType(int value)`
   - Creates a `CustomUIEventBindingType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

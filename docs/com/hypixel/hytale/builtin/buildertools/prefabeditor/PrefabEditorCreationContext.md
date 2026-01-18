@@ -1,46 +1,46 @@
+**Source Hash:** `a0ce65a429c521da4f172157d0f6f9a77d6ec3dbb4b7c5a0363e528e25f12190`
+
 # PrefabEditorCreationContext
 
 ## Overview
-- Documentation for `PrefabEditorCreationContext`.
-- Declared as a interface in `com.hypixel.hytale.builtin.buildertools.prefabeditor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getEditor()`
+## Method Descriptions
+- `getEditor()`: Add description.
   - Executes `getEditor` behavior.
-- `getEditorRef()`
+- `getEditorRef()`: Add description.
   - Executes `getEditorRef` behavior.
-- `getPrefabPaths()`
+- `getPrefabPaths()`: Add description.
   - Executes `getPrefabPaths` behavior.
-- `getBlocksBetweenEachPrefab()`
+- `getBlocksBetweenEachPrefab()`: Add description.
   - Executes `getBlocksBetweenEachPrefab` behavior.
-- `getPasteLevelGoal()`
+- `getPasteLevelGoal()`: Add description.
   - Executes `getPasteLevelGoal` behavior.
-- `loadChildPrefabs()`
+- `loadChildPrefabs()`: Add description.
   - Executes `loadChildPrefabs` behavior.
-- `shouldLoadEntities()`
+- `shouldLoadEntities()`: Add description.
   - Executes `shouldLoadEntities` behavior.
-- `getStackingAxis()`
+- `getStackingAxis()`: Add description.
   - Executes `getStackingAxis` behavior.
-- `getWorldGenType()`
+- `getWorldGenType()`: Add description.
   - Executes `getWorldGenType` behavior.
-- `getBlocksAboveSurface()`
+- `getBlocksAboveSurface()`: Add description.
   - Executes `getBlocksAboveSurface` behavior.
-- `getAlignment()`
+- `getAlignment()`: Add description.
   - Executes `getAlignment` behavior.
-- `getPrefabRootDirectory()`
+- `getPrefabRootDirectory()`: Add description.
   - Executes `getPrefabRootDirectory` behavior.
-- `isWorldTickingEnabled()`
+- `isWorldTickingEnabled()`: Add description.
   - Executes `isWorldTickingEnabled` behavior.
-- `getRowSplitMode()`
+- `getRowSplitMode()`: Add description.
   - Executes `getRowSplitMode` behavior.
-- `getUnprocessedPrefabPaths()`
+- `getUnprocessedPrefabPaths()`: Add description.
   - Executes `getUnprocessedPrefabPaths` behavior.
-- `getEnvironment()`
+- `getEnvironment()`: Add description.
   - Executes `getEnvironment` behavior.
-- `getGrassTint()`
+- `getGrassTint()`: Add description.
   - Executes `getGrassTint` behavior.
 
 ## Notes

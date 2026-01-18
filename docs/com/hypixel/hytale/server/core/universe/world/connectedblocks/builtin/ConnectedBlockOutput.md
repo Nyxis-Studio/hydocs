@@ -1,15 +1,15 @@
+**Source Hash:** `8f727e630123086da4b59dec2c6d797f8d74213391644f48e6d85b586feaacbe`
+
 # ConnectedBlockOutput
 
 ## Overview
-- Documentation for `ConnectedBlockOutput`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks.builtin`.
 
-## Constructors
+## Constructor Descriptions
 - `ConnectedBlockOutput()`
   - Creates a `ConnectedBlockOutput` instance.
 
-## Methods
-- `resolve(BlockType baseBlockType, BlockTypeAssetMap<String, BlockType> assetMap)`
+## Method Descriptions
+- `resolve(BlockType baseBlockType, BlockTypeAssetMap<String, BlockType> assetMap)`: Add description.
   - Executes `resolve` behavior.
 
 ## Notes

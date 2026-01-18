@@ -1,29 +1,29 @@
+**Source Hash:** `4dff7e2fad071aa3ad0b0f9fdd9b29ff8e03dbd0dff4dab042b0d5ddf5514f15`
+
 # AmbienceFXSoundEffect
 
 ## Overview
-- Documentation for `AmbienceFXSoundEffect`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.ambiencefx.config`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXSoundEffect(@Nullable String reverbEffectId, @Nullable String equalizerEffectId, boolean isInstant)`
   - Creates a `AmbienceFXSoundEffect` instance.
 - `AmbienceFXSoundEffect()`
   - Creates a `AmbienceFXSoundEffect` instance.
 
-## Methods
-- `processConfig()`
+## Method Descriptions
+- `processConfig()`: Add description.
   - Executes `processConfig` behavior.
-- `getReverbEffectId()`
+- `getReverbEffectId()`: Add description.
   - Executes `getReverbEffectId` behavior.
-- `getReverbEffectIndex()`
+- `getReverbEffectIndex()`: Add description.
   - Executes `getReverbEffectIndex` behavior.
-- `getEqualizerEffectId()`
+- `getEqualizerEffectId()`: Add description.
   - Executes `getEqualizerEffectId` behavior.
-- `getEqualizerEffectIndex()`
+- `getEqualizerEffectIndex()`: Add description.
   - Executes `getEqualizerEffectIndex` behavior.
-- `isInstant()`
+- `isInstant()`: Add description.
   - Executes `isInstant` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

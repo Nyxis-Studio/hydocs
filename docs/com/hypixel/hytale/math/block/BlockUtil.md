@@ -1,24 +1,24 @@
+**Source Hash:** `41fed2adf0440969f4e45ab763628a82f39d44255613310281c0358c18880077`
+
 # BlockUtil
 
 ## Overview
-- Documentation for `BlockUtil`.
-- Declared as a class in `com.hypixel.hytale.math.block`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `pack(@Nonnull Vector3i val)`
+## Method Descriptions
+- `pack(@Nonnull Vector3i val)`: Add description.
   - Executes `pack` behavior.
-- `pack(int x, int y, int z)`
+- `pack(int x, int y, int z)`: Add description.
   - Executes `pack` behavior.
-- `unpackX(long packed)`
+- `unpackX(long packed)`: Add description.
   - Executes `unpackX` behavior.
-- `unpackY(long packed)`
+- `unpackY(long packed)`: Add description.
   - Executes `unpackY` behavior.
-- `unpackZ(long packed)`
+- `unpackZ(long packed)`: Add description.
   - Executes `unpackZ` behavior.
-- `unpack(long packed)`
+- `unpack(long packed)`: Add description.
   - Executes `unpack` behavior.
 
 ## Notes

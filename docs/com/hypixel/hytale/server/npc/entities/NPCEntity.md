@@ -1,183 +1,183 @@
+**Source Hash:** `a5cf2ecef76f0c751bf9d77a47f8f787e48f3bdb9c38c054e313f05c71a99268`
+
 # NPCEntity
 
 ## Overview
-- Documentation for `NPCEntity`.
-- Declared as a class in `com.hypixel.hytale.server.npc.entities`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCEntity()`
   - Creates a `NPCEntity` instance.
 - `NPCEntity(@Nonnull World world)`
   - Creates a `NPCEntity` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getAlarmStore()`
+- `getAlarmStore()`: Add description.
   - Executes `getAlarmStore` behavior.
-- `createDefaultInventory()`
+- `createDefaultInventory()`: Add description.
   - Executes `createDefaultInventory` behavior.
-- `getRole()`
+- `getRole()`: Add description.
   - Executes `getRole` behavior.
-- `invalidateCachedHorizontalSpeedMultiplier()`
+- `invalidateCachedHorizontalSpeedMultiplier()`: Add description.
   - Executes `invalidateCachedHorizontalSpeedMultiplier` behavior.
-- `storeTickStartPosition(@Nonnull Vector3d position)`
+- `storeTickStartPosition(@Nonnull Vector3d position)`: Add description.
   - Executes `storeTickStartPosition` behavior.
-- `tickDespawnAnimationRemainingSeconds(float dt)`
+- `tickDespawnAnimationRemainingSeconds(float dt)`: Add description.
   - Executes `tickDespawnAnimationRemainingSeconds` behavior.
-- `setDespawnAnimationRemainingSeconds(float seconds)`
+- `setDespawnAnimationRemainingSeconds(float seconds)`: Add description.
   - Executes `setDespawnAnimationRemainingSeconds` behavior.
-- `tickDespawnRemainingSeconds(float dt)`
+- `tickDespawnRemainingSeconds(float dt)`: Add description.
   - Executes `tickDespawnRemainingSeconds` behavior.
-- `setDespawnRemainingSeconds(float seconds)`
+- `setDespawnRemainingSeconds(float seconds)`: Add description.
   - Executes `setDespawnRemainingSeconds` behavior.
-- `setDespawning(boolean despawning)`
+- `setDespawning(boolean despawning)`: Add description.
   - Executes `setDespawning` behavior.
-- `setPlayingDespawnAnim(boolean playingDespawnAnim)`
+- `setPlayingDespawnAnim(boolean playingDespawnAnim)`: Add description.
   - Executes `setPlayingDespawnAnim` behavior.
-- `tickDespawnCheckRemainingSeconds(float dt)`
+- `tickDespawnCheckRemainingSeconds(float dt)`: Add description.
   - Executes `tickDespawnCheckRemainingSeconds` behavior.
-- `setDespawnCheckRemainingSeconds(float seconds)`
+- `setDespawnCheckRemainingSeconds(float seconds)`: Add description.
   - Executes `setDespawnCheckRemainingSeconds` behavior.
-- `setInitialModelScale(float scale)`
+- `setInitialModelScale(float scale)`: Add description.
   - Executes `setInitialModelScale` behavior.
-- `getOldPosition()`
+- `getOldPosition()`: Add description.
   - Executes `getOldPosition` behavior.
-- `playAnimation(@Nonnull Ref<EntityStore> ref, @Nonnull AnimationSlot animationSlot, @Nullable String animationId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `playAnimation(@Nonnull Ref<EntityStore> ref, @Nonnull AnimationSlot animationSlot, @Nullable String animationId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `playAnimation` behavior.
-- `clearDamageData()`
+- `clearDamageData()`: Add description.
   - Executes `clearDamageData` behavior.
-- `setToDespawn()`
+- `setToDespawn()`: Add description.
   - Executes `setToDespawn` behavior.
-- `setDespawnTime(float time)`
+- `setDespawnTime(float time)`: Add description.
   - Executes `setDespawnTime` behavior.
-- `getDespawnTime()`
+- `getDespawnTime()`: Add description.
   - Executes `getDespawnTime` behavior.
-- `canBreathe(@Nonnull Ref<EntityStore> ref, @Nonnull BlockMaterial breathingMaterial, int fluidId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canBreathe(@Nonnull Ref<EntityStore> ref, @Nonnull BlockMaterial breathingMaterial, int fluidId, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canBreathe` behavior.
-- `getDamageData()`
+- `getDamageData()`: Add description.
   - Executes `getDamageData` behavior.
-- `getCanCauseDamage(@Nonnull Ref<EntityStore> attackerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getCanCauseDamage(@Nonnull Ref<EntityStore> attackerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getCanCauseDamage` behavior.
-- `onFlockSetState(@Nonnull Ref<EntityStore> ref, @Nonnull String state, @Nullable String subState, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `onFlockSetState(@Nonnull Ref<EntityStore> ref, @Nonnull String state, @Nullable String subState, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `onFlockSetState` behavior.
-- `onFlockSetTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`
+- `onFlockSetTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`: Add description.
   - Executes `onFlockSetTarget` behavior.
-- `saveLeashInformation(@Nonnull Vector3d position, @Nonnull Vector3f rotation)`
+- `saveLeashInformation(@Nonnull Vector3d position, @Nonnull Vector3f rotation)`: Add description.
   - Executes `saveLeashInformation` behavior.
-- `saveLeashBlockType()`
+- `saveLeashBlockType()`: Add description.
   - Executes `saveLeashBlockType` behavior.
-- `requiresLeashPosition()`
+- `requiresLeashPosition()`: Add description.
   - Executes `requiresLeashPosition` behavior.
-- `getLeashPoint()`
+- `getLeashPoint()`: Add description.
   - Executes `getLeashPoint` behavior.
-- `setLeashPoint(@Nonnull Vector3d leashPoint)`
+- `setLeashPoint(@Nonnull Vector3d leashPoint)`: Add description.
   - Executes `setLeashPoint` behavior.
-- `getLeashHeading()`
+- `getLeashHeading()`: Add description.
   - Executes `getLeashHeading` behavior.
-- `setLeashHeading(float leashHeading)`
+- `setLeashHeading(float leashHeading)`: Add description.
   - Executes `setLeashHeading` behavior.
-- `getLeashPitch()`
+- `getLeashPitch()`: Add description.
   - Executes `getLeashPitch` behavior.
-- `setLeashPitch(float leashPitch)`
+- `setLeashPitch(float leashPitch)`: Add description.
   - Executes `setLeashPitch` behavior.
-- `getHoverPhase()`
+- `getHoverPhase()`: Add description.
   - Executes `getHoverPhase` behavior.
-- `setHoverPhase(float hoverPhase)`
+- `setHoverPhase(float hoverPhase)`: Add description.
   - Executes `setHoverPhase` behavior.
-- `getHoverHeight()`
+- `getHoverHeight()`: Add description.
   - Executes `getHoverHeight` behavior.
-- `setHoverHeight(double hoverHeight)`
+- `setHoverHeight(double hoverHeight)`: Add description.
   - Executes `setHoverHeight` behavior.
-- `getRoleName()`
+- `getRoleName()`: Add description.
   - Executes `getRoleName` behavior.
-- `setRoleName(String roleName)`
+- `setRoleName(String roleName)`: Add description.
   - Executes `setRoleName` behavior.
-- `getRoleIndex()`
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `setRoleIndex(int roleIndex)`
+- `setRoleIndex(int roleIndex)`: Add description.
   - Executes `setRoleIndex` behavior.
-- `setRole(Role role)`
+- `setRole(Role role)`: Add description.
   - Executes `setRole` behavior.
-- `getSpawnRoleIndex()`
+- `getSpawnRoleIndex()`: Add description.
   - Executes `getSpawnRoleIndex` behavior.
-- `setSpawnRoleIndex(int spawnRoleIndex)`
+- `setSpawnRoleIndex(int spawnRoleIndex)`: Add description.
   - Executes `setSpawnRoleIndex` behavior.
-- `getBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`
+- `getBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `getBlockTypeBlackboardView` behavior.
-- `removeBlockTypeBlackboardView()`
+- `removeBlockTypeBlackboardView()`: Add description.
   - Executes `removeBlockTypeBlackboardView` behavior.
-- `initBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+- `initBlockTypeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `initBlockTypeBlackboardView` behavior.
-- `initBlockChangeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+- `initBlockChangeBlackboardView(@Nonnull Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `initBlockChangeBlackboardView` behavior.
-- `addBlackboardBlockTypeSets(IntList blackboardBlockSets)`
+- `addBlackboardBlockTypeSets(IntList blackboardBlockSets)`: Add description.
   - Executes `addBlackboardBlockTypeSets` behavior.
-- `getBlackboardBlockTypeSets()`
+- `getBlackboardBlockTypeSets()`: Add description.
   - Executes `getBlackboardBlockTypeSets` behavior.
-- `addBlackboardBlockChangeSets(@Nonnull BlockEventType type, @Nonnull IntSet sets)`
+- `addBlackboardBlockChangeSets(@Nonnull BlockEventType type, @Nonnull IntSet sets)`: Add description.
   - Executes `addBlackboardBlockChangeSets` behavior.
-- `getBlackboardBlockChangeSet(BlockEventType type)`
+- `getBlackboardBlockChangeSet(BlockEventType type)`: Add description.
   - Executes `getBlackboardBlockChangeSet` behavior.
-- `getBlackboardBlockChangeSets()`
+- `getBlackboardBlockChangeSets()`: Add description.
   - Executes `getBlackboardBlockChangeSets` behavior.
-- `notifyBlockChange(@Nonnull BlockEventType type, @Nonnull EventNotification notification)`
+- `notifyBlockChange(@Nonnull BlockEventType type, @Nonnull EventNotification notification)`: Add description.
   - Executes `notifyBlockChange` behavior.
-- `addBlackboardEntityEventSets(@Nonnull EntityEventType type, @Nonnull IntSet sets)`
+- `addBlackboardEntityEventSets(@Nonnull EntityEventType type, @Nonnull IntSet sets)`: Add description.
   - Executes `addBlackboardEntityEventSets` behavior.
-- `getBlackboardEntityEventSet(@Nonnull EntityEventType type)`
+- `getBlackboardEntityEventSet(@Nonnull EntityEventType type)`: Add description.
   - Executes `getBlackboardEntityEventSet` behavior.
-- `getBlackboardEntityEventSets()`
+- `getBlackboardEntityEventSets()`: Add description.
   - Executes `getBlackboardEntityEventSets` behavior.
-- `notifyEntityEvent(@Nonnull EntityEventType type, @Nonnull EntityEventNotification notification)`
+- `notifyEntityEvent(@Nonnull EntityEventType type, @Nonnull EntityEventNotification notification)`: Add description.
   - Executes `notifyEntityEvent` behavior.
-- `setEnvironment(int env)`
+- `setEnvironment(int env)`: Add description.
   - Executes `setEnvironment` behavior.
-- `getEnvironment()`
+- `getEnvironment()`: Add description.
   - Executes `getEnvironment` behavior.
-- `getSpawnConfiguration()`
+- `getSpawnConfiguration()`: Add description.
   - Executes `getSpawnConfiguration` behavior.
-- `setSpawnConfiguration(int spawnConfigurationIndex)`
+- `setSpawnConfiguration(int spawnConfigurationIndex)`: Add description.
   - Executes `setSpawnConfiguration` behavior.
-- `updateSpawnTrackingState(boolean newState)`
+- `updateSpawnTrackingState(boolean newState)`: Add description.
   - Executes `updateSpawnTrackingState` behavior.
-- `isDespawning()`
+- `isDespawning()`: Add description.
   - Executes `isDespawning` behavior.
-- `isPlayingDespawnAnim()`
+- `isPlayingDespawnAnim()`: Add description.
   - Executes `isPlayingDespawnAnim` behavior.
-- `getRoleDebugFlags()`
+- `getRoleDebugFlags()`: Add description.
   - Executes `getRoleDebugFlags` behavior.
-- `setRoleDebugFlags(@Nonnull EnumSet<RoleDebugFlags> flags)`
+- `setRoleDebugFlags(@Nonnull EnumSet<RoleDebugFlags> flags)`: Add description.
   - Executes `setRoleDebugFlags` behavior.
-- `setSpawnInstant(@Nonnull Instant spawned)`
+- `setSpawnInstant(@Nonnull Instant spawned)`: Add description.
   - Executes `setSpawnInstant` behavior.
-- `getSpawnInstant()`
+- `getSpawnInstant()`: Add description.
   - Executes `getSpawnInstant` behavior.
-- `setInventorySize(int hotbarCapacity, int inventoryCapacity, int offHandCapacity)`
+- `setInventorySize(int hotbarCapacity, int inventoryCapacity, int offHandCapacity)`: Add description.
   - Executes `setInventorySize` behavior.
-- `getLegacyWorldgenId()`
+- `getLegacyWorldgenId()`: Add description.
   - Executes `getLegacyWorldgenId` behavior.
-- `getPathManager()`
+- `getPathManager()`: Add description.
   - Executes `getPathManager` behavior.
-- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull String name, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull String name, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setAppearance` behavior.
-- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull ModelAsset modelAsset, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `setAppearance(@Nonnull Ref<EntityStore> ref, @Nonnull ModelAsset modelAsset, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setAppearance` behavior.
-- `getCurrentHorizontalSpeedMultiplier(@Nullable Ref<EntityStore> ref, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `getCurrentHorizontalSpeedMultiplier(@Nullable Ref<EntityStore> ref, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getCurrentHorizontalSpeedMultiplier` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getNPCTypeId()`
+- `getNPCTypeId()`: Add description.
   - Executes `getNPCTypeId` behavior.
-- `getNPCTypeIndex()`
+- `getNPCTypeIndex()`: Add description.
   - Executes `getNPCTypeIndex` behavior.
-- `addReservation(@Nonnull UUID playerUUID)`
+- `addReservation(@Nonnull UUID playerUUID)`: Add description.
   - Executes `addReservation` behavior.
-- `removeReservation(@Nonnull UUID playerUUID)`
+- `removeReservation(@Nonnull UUID playerUUID)`: Add description.
   - Executes `removeReservation` behavior.
-- `isReserved()`
+- `isReserved()`: Add description.
   - Executes `isReserved` behavior.
-- `isReservedBy(@Nonnull UUID playerUUID)`
+- `isReservedBy(@Nonnull UUID playerUUID)`: Add description.
   - Executes `isReservedBy` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `511b4d345b115024aa234ff4626123b90b991be31882dc7707276caf2e0b85a4`
+
 # ChatTagType
 
 ## Overview
-- Documentation for `ChatTagType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `ChatTagType(int value)`
   - Creates a `ChatTagType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

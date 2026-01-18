@@ -1,35 +1,35 @@
+**Source Hash:** `3718f8fa52e7be88f75916ab77f3682fee9549dd306647d325e76f546590d032`
+
 # ObjParser
 
 ## Overview
-- Documentation for `ObjParser`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.objimport`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjParser()`
   - Creates a `ObjParser` instance.
 
-## Methods
-- `parse(@Nonnull Path path)`
+## Method Descriptions
+- `parse(@Nonnull Path path)`: Add description.
   - Executes `parse` behavior.
-- `parseVertex(String[] parts, List<float[]> vertices, int lineNum)`
+- `parseVertex(String[] parts, List<float[]> vertices, int lineNum)`: Add description.
   - Executes `parseVertex` behavior.
-- `parseUvCoordinate(String[] parts, List<float[]> uvCoordinates, int lineNum)`
+- `parseUvCoordinate(String[] parts, List<float[]> uvCoordinates, int lineNum)`: Add description.
   - Executes `parseUvCoordinate` behavior.
-- `parseFace(String[] parts, List<int[]> faces, List<int[]> faceUvIndices, int uvCount, int lineNum)`
+- `parseFace(String[] parts, List<int[]> faces, List<int[]> faceUvIndices, int uvCount, int lineNum)`: Add description.
   - Executes `parseFace` behavior.
-- `ObjMesh(List<float[]> vertices, List<float[]> uvCoordinates, List<int[]> faces, List<int[]> faceUvIndices, List<String> faceMaterials, @Nullable String mtlLib)`
+- `ObjMesh(List<float[]> vertices, List<float[]> uvCoordinates, List<int[]> faces, List<int[]> faceUvIndices, List<String> faceMaterials, @Nullable String mtlLib)`: Add description.
   - Executes `ObjMesh` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
-- `getHeight()`
+- `getHeight()`: Add description.
   - Executes `getHeight` behavior.
-- `hasMaterials()`
+- `hasMaterials()`: Add description.
   - Executes `hasMaterials` behavior.
-- `hasUvCoordinates()`
+- `hasUvCoordinates()`: Add description.
   - Executes `hasUvCoordinates` behavior.
-- `transformZUpToYUp()`
+- `transformZUpToYUp()`: Add description.
   - Executes `transformZUpToYUp` behavior.
-- `transformXUpToYUp()`
+- `transformXUpToYUp()`: Add description.
   - Executes `transformXUpToYUp` behavior.
 
 ## Notes

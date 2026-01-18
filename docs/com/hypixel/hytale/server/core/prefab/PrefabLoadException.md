@@ -1,10 +1,10 @@
+**Source Hash:** `b8bb6a95f0ade0c648c6f51110270268ec43d11298c3a1cf918333e7ccca29ec`
+
 # PrefabLoadException
 
 ## Overview
-- Documentation for `PrefabLoadException`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabLoadException(@Nonnull Type type)`
   - Creates a `PrefabLoadException` instance.
 - `PrefabLoadException(Type type, String message)`
@@ -14,8 +14,8 @@
 - `PrefabLoadException(Type type, Throwable cause)`
   - Creates a `PrefabLoadException` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `cc734438103fdad42137b5c15858be0b0472478c5bb6300c52528f5061830fb2`
+
 # HLongOpenHashSet
 
 ## Overview
-- Documentation for `HLongOpenHashSet`.
-- Declared as a class in `com.hypixel.hytale.common.fastutil`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `removeIf(@Nonnull LongTriIntBiObjPredicate<T, V> predicate, int ia, int ib, int ic, T obj1, V obj2)`
+## Method Descriptions
+- `removeIf(@Nonnull LongTriIntBiObjPredicate<T, V> predicate, int ia, int ib, int ic, T obj1, V obj2)`: Add description.
   - Executes `removeIf` behavior.
 
 ## Notes

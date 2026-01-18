@@ -1,17 +1,17 @@
+**Source Hash:** `7504537c476b21ed4e34b57dec65270f9462bf50f622e3c9fc96eb1fb784c15a`
+
 # EntityFilterStandingOnBlock
 
 ## Overview
-- Documentation for `EntityFilterStandingOnBlock`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityFilterStandingOnBlock(@Nonnull BuilderEntityFilterStandingOnBlock builder, @Nonnull BuilderSupport support)`
   - Creates a `EntityFilterStandingOnBlock` instance.
 
-## Methods
-- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matchesEntity` behavior.
-- `cost()`
+- `cost()`: Add description.
   - Executes `cost` behavior.
 
 ## Notes

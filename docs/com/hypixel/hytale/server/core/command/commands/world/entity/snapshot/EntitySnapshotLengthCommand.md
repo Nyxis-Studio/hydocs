@@ -1,15 +1,15 @@
+**Source Hash:** `6801a90865299ff8071bb501274471b636fc74c670b321e102049031abb2b3f8`
+
 # EntitySnapshotLengthCommand
 
 ## Overview
-- Documentation for `EntitySnapshotLengthCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.entity.snapshot`.
 
-## Constructors
+## Constructor Descriptions
 - `EntitySnapshotLengthCommand()`
   - Creates a `EntitySnapshotLengthCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

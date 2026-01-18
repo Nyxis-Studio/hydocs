@@ -1,17 +1,17 @@
+**Source Hash:** `6cc42a9d8328a43f83750a0a74323beaf3e10f982abb2079cf5037100712b68d`
+
 # RotationMode
 
 ## Overview
-- Documentation for `RotationMode`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `RotationMode(int value)`
   - Creates a `RotationMode` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `9738a7e6980a728e3658f6ce1aada0d3182acb0cfe9f2bdbdecabc9c15ea1bec`
+
 # ChoiceRequirement
 
 ## Overview
-- Documentation for `ChoiceRequirement`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.pages.choices`.
 
-## Constructors
+## Constructor Descriptions
 - `ChoiceRequirement()`
   - Creates a `ChoiceRequirement` instance.
 
-## Methods
-- `canFulfillRequirement(@Nonnull Store<EntityStore> var1, @Nonnull Ref<EntityStore> var2, @Nonnull PlayerRef var3)`
+## Method Descriptions
+- `canFulfillRequirement(@Nonnull Store<EntityStore> var1, @Nonnull Ref<EntityStore> var2, @Nonnull PlayerRef var3)`: Add description.
   - Executes `canFulfillRequirement` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

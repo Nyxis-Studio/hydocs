@@ -1,17 +1,17 @@
+**Source Hash:** `5711fc1c66bd1a98f265fba717e34128e72eb637d1273c1c6c1001e4ea55b4bf`
+
 # StringHolderBase
 
 ## Overview
-- Documentation for `StringHolderBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.holder`.
 
-## Constructors
+## Constructor Descriptions
 - `StringHolderBase()`
   - Creates a `StringHolderBase` instance.
 
-## Methods
-- `addRelationValidator(BiConsumer<ExecutionContext, String> validator)`
+## Method Descriptions
+- `addRelationValidator(BiConsumer<ExecutionContext, String> validator)`: Add description.
   - Executes `addRelationValidator` behavior.
-- `validateRelations(ExecutionContext executionContext, String value)`
+- `validateRelations(ExecutionContext executionContext, String value)`: Add description.
   - Executes `validateRelations` behavior.
 
 ## Notes

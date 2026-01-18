@@ -1,14 +1,14 @@
+**Source Hash:** `49d7a04a76d776100c5dbf6161056218ff16e8f89d4f09aa76b3921fbcb62a46`
+
 # GCUtil
 
 ## Overview
-- Documentation for `GCUtil`.
-- Declared as a class in `com.hypixel.hytale.common.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `register(@Nonnull Consumer<GarbageCollectionNotificationInfo> consumer)`
+## Method Descriptions
+- `register(@Nonnull Consumer<GarbageCollectionNotificationInfo> consumer)`: Add description.
   - Executes `register` behavior.
 
 ## Notes

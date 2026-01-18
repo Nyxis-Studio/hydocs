@@ -1,19 +1,19 @@
+**Source Hash:** `a66c67215bd782543b2a1b6e6462e4beeafe906c9f00957a880ccf0217013d75`
+
 # SpawnSuppressorEntry
 
 ## Overview
-- Documentation for `SpawnSuppressorEntry`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.suppression`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnSuppressorEntry(String suppressionId, Vector3d position)`
   - Creates a `SpawnSuppressorEntry` instance.
 - `SpawnSuppressorEntry()`
   - Creates a `SpawnSuppressorEntry` instance.
 
-## Methods
-- `getPosition()`
+## Method Descriptions
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getSuppressionId()`
+- `getSuppressionId()`: Add description.
   - Executes `getSuppressionId` behavior.
 
 ## Notes

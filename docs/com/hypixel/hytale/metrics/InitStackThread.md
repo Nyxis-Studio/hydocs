@@ -1,14 +1,14 @@
+**Source Hash:** `dbfd43e6c62a3bdcae6037fcf3be6e6c153604c8e05378e673379ceaf55a9cb2`
+
 # InitStackThread
 
 ## Overview
-- Documentation for `InitStackThread`.
-- Declared as a interface in `com.hypixel.hytale.metrics`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getInitStack()`
+## Method Descriptions
+- `getInitStack()`: Add description.
   - Executes `getInitStack` behavior.
 
 ## Notes

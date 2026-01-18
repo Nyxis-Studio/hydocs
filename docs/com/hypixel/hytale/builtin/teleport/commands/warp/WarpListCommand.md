@@ -1,15 +1,15 @@
+**Source Hash:** `632dcc1adb6b74c47214e2c0f6c2cb2c5415f97ebb3a788f3a608ad9f8b5b34a`
+
 # WarpListCommand
 
 ## Overview
-- Documentation for `WarpListCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.warp`.
 
-## Constructors
+## Constructor Descriptions
 - `WarpListCommand()`
   - Creates a `WarpListCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

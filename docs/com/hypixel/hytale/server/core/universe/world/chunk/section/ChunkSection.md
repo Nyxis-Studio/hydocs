@@ -1,29 +1,29 @@
+**Source Hash:** `166e3270ea9f23b878de8cb12d234c758fd1a5289863574f40e2dbed21569146`
+
 # ChunkSection
 
 ## Overview
-- Documentation for `ChunkSection`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkSection()`
   - Creates a `ChunkSection` instance.
 - `ChunkSection(Ref<ChunkStore> chunkColumnReference, int x, int y, int z)`
   - Creates a `ChunkSection` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `load(Ref<ChunkStore> chunkReference, int x, int y, int z)`
+- `load(Ref<ChunkStore> chunkReference, int x, int y, int z)`: Add description.
   - Executes `load` behavior.
-- `getChunkColumnReference()`
+- `getChunkColumnReference()`: Add description.
   - Executes `getChunkColumnReference` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

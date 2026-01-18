@@ -1,52 +1,52 @@
+**Source Hash:** `bcab153fbce134bce6a2c38bea68fb0b1c7eb0afd67149c243a60c8774764ea1`
+
 # IndexedStorageChunkStorageProvider
 
 ## Overview
-- Documentation for `IndexedStorageChunkStorageProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.storage.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getLoader(@Nonnull Store<ChunkStore> store)`
+## Method Descriptions
+- `getLoader(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `getLoader` behavior.
-- `getSaver(@Nonnull Store<ChunkStore> store)`
+- `getSaver(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `getSaver` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `toFileName(int regionX, int regionZ)`
+- `toFileName(int regionX, int regionZ)`: Add description.
   - Executes `toFileName` behavior.
-- `fromFileName(@Nonnull String fileName)`
+- `fromFileName(@Nonnull String fileName)`: Add description.
   - Executes `fromFileName` behavior.
-- `close()`
+- `close()`: Add description.
   - Executes `close` behavior.
-- `loadBuffer(int x, int z)`
+- `loadBuffer(int x, int z)`: Add description.
   - Executes `loadBuffer` behavior.
-- `getIndexes()`
+- `getIndexes()`: Add description.
   - Executes `getIndexes` behavior.
-- `toMetricResults()`
+- `toMetricResults()`: Add description.
   - Executes `toMetricResults` behavior.
-- `saveBuffer(int x, int z, @Nonnull ByteBuffer buffer)`
+- `saveBuffer(int x, int z, @Nonnull ByteBuffer buffer)`: Add description.
   - Executes `saveBuffer` behavior.
-- `removeBuffer(int x, int z)`
+- `removeBuffer(int x, int z)`: Add description.
   - Executes `removeBuffer` behavior.
-- `flush()`
+- `flush()`: Add description.
   - Executes `flush` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `onSystemAddedToStore(@Nonnull Store<ChunkStore> store)`
+- `onSystemAddedToStore(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onSystemAddedToStore` behavior.
-- `onSystemRemovedFromStore(@Nonnull Store<ChunkStore> store)`
+- `onSystemRemovedFromStore(@Nonnull Store<ChunkStore> store)`: Add description.
   - Executes `onSystemRemovedFromStore` behavior.
-- `getResourceType()`
+- `getResourceType()`: Add description.
   - Executes `getResourceType` behavior.
-- `getCache()`
+- `getCache()`: Add description.
   - Executes `getCache` behavior.
-- `getOrTryOpen(int regionX, int regionZ)`
+- `getOrTryOpen(int regionX, int regionZ)`: Add description.
   - Executes `getOrTryOpen` behavior.
-- `getOrCreate(int regionX, int regionZ)`
+- `getOrCreate(int regionX, int regionZ)`: Add description.
   - Executes `getOrCreate` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

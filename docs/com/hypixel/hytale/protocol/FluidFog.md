@@ -1,17 +1,17 @@
+**Source Hash:** `0d82ca99cafff9bffe1f6485de6298e73626ca1a81ab9822c6730e0c3a8cf47b`
+
 # FluidFog
 
 ## Overview
-- Documentation for `FluidFog`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `FluidFog(int value)`
   - Creates a `FluidFog` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

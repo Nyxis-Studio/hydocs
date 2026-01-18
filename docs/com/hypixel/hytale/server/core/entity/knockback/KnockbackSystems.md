@@ -1,20 +1,20 @@
+**Source Hash:** `973962deda5540bfe501f00de1817447e9da17d3cb4419711a96145960e19d33`
+
 # KnockbackSystems
 
 ## Overview
-- Documentation for `KnockbackSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.knockback`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `4c9ce362a7c486d5f0f97e47989612a28dab9a235ccae93a6e0e4aef3f55dc75`
+
 # BasicWorldStructureAsset
 
 ## Overview
-- Documentation for `BasicWorldStructureAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.worldstructures.basic`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `buildBiomeMap(@Nonnull WorldStructureAsset.Argument argument)`
+## Method Descriptions
+- `buildBiomeMap(@Nonnull WorldStructureAsset.Argument argument)`: Add description.
   - Executes `buildBiomeMap` behavior.
-- `getBiomeTransitionDistance()`
+- `getBiomeTransitionDistance()`: Add description.
   - Executes `getBiomeTransitionDistance` behavior.
-- `getMaxBiomeEdgeDistance()`
+- `getMaxBiomeEdgeDistance()`: Add description.
   - Executes `getMaxBiomeEdgeDistance` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

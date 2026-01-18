@@ -1,15 +1,15 @@
+**Source Hash:** `f98460e3dba6a5bab3881dd91d643667b95721212b1927ab7b0b05abdea7e0e2`
+
 # CrouchSlidePlugin
 
 ## Overview
-- Documentation for `CrouchSlidePlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.crouchslide`.
 
-## Constructors
+## Constructor Descriptions
 - `CrouchSlidePlugin(@Nonnull JavaPluginInit init)`
   - Creates a `CrouchSlidePlugin` instance.
 
-## Methods
-- `setup()`
+## Method Descriptions
+- `setup()`: Add description.
   - Executes `setup` behavior.
 
 ## Notes

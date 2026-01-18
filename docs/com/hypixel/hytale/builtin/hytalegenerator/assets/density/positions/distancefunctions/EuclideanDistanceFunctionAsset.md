@@ -1,14 +1,14 @@
+**Source Hash:** `7bf9b8718bd387a089ded8cef59d61d442790ea623ccbac1dd054928ead95e9d`
+
 # EuclideanDistanceFunctionAsset
 
 ## Overview
-- Documentation for `EuclideanDistanceFunctionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density.positions.distancefunctions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull SeedBox parentSeed, double maxDistance)`
+## Method Descriptions
+- `build(@Nonnull SeedBox parentSeed, double maxDistance)`: Add description.
   - Executes `build` behavior.
 
 ## Notes

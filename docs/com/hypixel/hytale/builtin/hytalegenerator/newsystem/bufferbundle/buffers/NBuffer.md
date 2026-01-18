@@ -1,14 +1,14 @@
+**Source Hash:** `58c53842d45badfddcc2ee2f3786724f2dd536acf934f35b1ded8a40f1644342`
+
 # NBuffer
 
 ## Overview
-- Documentation for `NBuffer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.bufferbundle.buffers`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

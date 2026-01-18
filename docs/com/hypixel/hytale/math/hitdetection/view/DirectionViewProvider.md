@@ -1,39 +1,39 @@
+**Source Hash:** `03ad150c4cc3afe0f954a4b4661f50296a7a120b6cc67471145b8366a466c966`
+
 # DirectionViewProvider
 
 ## Overview
-- Documentation for `DirectionViewProvider`.
-- Declared as a class in `com.hypixel.hytale.math.hitdetection.view`.
 
-## Constructors
+## Constructor Descriptions
 - `DirectionViewProvider()`
   - Creates a `DirectionViewProvider` instance.
 - `DirectionViewProvider(Matrix4d matrix, Vector3d position, Vector3d direction, Vector3d up)`
   - Creates a `DirectionViewProvider` instance.
 
-## Methods
-- `getPosition()`
+## Method Descriptions
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `setPosition(@Nonnull Vector3d vec)`
+- `setPosition(@Nonnull Vector3d vec)`: Add description.
   - Executes `setPosition` behavior.
-- `setPosition(@Nonnull Vector3d vec, double offsetX, double offsetY, double offsetZ)`
+- `setPosition(@Nonnull Vector3d vec, double offsetX, double offsetY, double offsetZ)`: Add description.
   - Executes `setPosition` behavior.
-- `setPosition(double x, double y, double z)`
+- `setPosition(double x, double y, double z)`: Add description.
   - Executes `setPosition` behavior.
-- `setPosition(double x, double y, double z, double offsetX, double offsetY, double offsetZ)`
+- `setPosition(double x, double y, double z, double offsetX, double offsetY, double offsetZ)`: Add description.
   - Executes `setPosition` behavior.
-- `getDirection()`
+- `getDirection()`: Add description.
   - Executes `getDirection` behavior.
-- `setDirection(@Nonnull Vector3d vec)`
+- `setDirection(@Nonnull Vector3d vec)`: Add description.
   - Executes `setDirection` behavior.
-- `setDirection(double yaw, double pitch)`
+- `setDirection(double yaw, double pitch)`: Add description.
   - Executes `setDirection` behavior.
-- `setDirection(double x, double y, double z)`
+- `setDirection(double x, double y, double z)`: Add description.
   - Executes `setDirection` behavior.
-- `setUp(double x, double y, double z)`
+- `setUp(double x, double y, double z)`: Add description.
   - Executes `setUp` behavior.
-- `getMatrix()`
+- `getMatrix()`: Add description.
   - Executes `getMatrix` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

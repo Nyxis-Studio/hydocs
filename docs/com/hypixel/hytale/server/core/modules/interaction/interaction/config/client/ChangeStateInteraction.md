@@ -1,23 +1,23 @@
+**Source Hash:** `66333ff760d64be51ca242d7ac7b7375e7d81d51d79736d108ece734bb50e801`
+
 # ChangeStateInteraction
 
 ## Overview
-- Documentation for `ChangeStateInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `ChangeStateInteraction()`
   - Creates a `ChangeStateInteraction` instance.
 
-## Methods
-- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `interactWithBlock(@Nonnull World world, @Nonnull CommandBuffer<EntityStore> commandBuffer, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull Vector3i targetBlock, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `interactWithBlock` behavior.
-- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`
+- `simulateInteractWithBlock(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nullable ItemStack itemInHand, @Nonnull World world, @Nonnull Vector3i targetBlock)`: Add description.
   - Executes `simulateInteractWithBlock` behavior.
-- `generatePacket()`
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

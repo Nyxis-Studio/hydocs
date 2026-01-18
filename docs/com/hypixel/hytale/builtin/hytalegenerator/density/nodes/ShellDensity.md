@@ -1,15 +1,15 @@
+**Source Hash:** `8b35283db8419adf13b3af21c8a79953440361dc925f338518d46ee7f035b710`
+
 # ShellDensity
 
 ## Overview
-- Documentation for `ShellDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `ShellDensity(@Nonnull Double2DoubleFunction angleCurve, @Nonnull Double2DoubleFunction distanceCurve, @Nonnull Vector3d axis, boolean isMirrored)`
   - Creates a `ShellDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
 
 ## Notes

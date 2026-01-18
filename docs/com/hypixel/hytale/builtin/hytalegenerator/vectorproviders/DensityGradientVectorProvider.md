@@ -1,15 +1,15 @@
+**Source Hash:** `7ef06f9eafe075eca912970f283b7a5609a9ef2acd3117917b9ce8fc15747c94`
+
 # DensityGradientVectorProvider
 
 ## Overview
-- Documentation for `DensityGradientVectorProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.vectorproviders`.
 
-## Constructors
+## Constructor Descriptions
 - `DensityGradientVectorProvider(@Nonnull Density density, double sampleDistance)`
   - Creates a `DensityGradientVectorProvider` instance.
 
-## Methods
-- `process(@Nonnull VectorProvider.Context context)`
+## Method Descriptions
+- `process(@Nonnull VectorProvider.Context context)`: Add description.
   - Executes `process` behavior.
 
 ## Notes

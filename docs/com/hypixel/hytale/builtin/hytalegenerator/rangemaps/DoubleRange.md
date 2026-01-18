@@ -1,10 +1,10 @@
+**Source Hash:** `4eef6edd653152c6b9d8c564d4cb2211ec4f70f9767d911406dad42ba6560fd7`
+
 # DoubleRange
 
 ## Overview
-- Documentation for `DoubleRange`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.rangemaps`.
 
-## Constructors
+## Constructor Descriptions
 - `DoubleRange(double min, boolean inclusiveMin, double max, boolean inclusiveMax)`
   - Creates a `DoubleRange` instance.
 - `DoubleRange(min, true, max, true)`
@@ -12,20 +12,20 @@
 - `DoubleRange(min, false, max, false)`
   - Creates a `DoubleRange` instance.
 
-## Methods
-- `getMin()`
+## Method Descriptions
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `isInclusiveMin()`
+- `isInclusiveMin()`: Add description.
   - Executes `isInclusiveMin` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `isInclusiveMax()`
+- `isInclusiveMax()`: Add description.
   - Executes `isInclusiveMax` behavior.
-- `includes(double v)`
+- `includes(double v)`: Add description.
   - Executes `includes` behavior.
-- `inclusive(double min, double max)`
+- `inclusive(double min, double max)`: Add description.
   - Executes `inclusive` behavior.
-- `exclusive(double min, double max)`
+- `exclusive(double min, double max)`: Add description.
   - Executes `exclusive` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `37da864e8633413f631a80241ef9f62dedb9a32684864060a79ba5d54f04af04`
+
 # ItemEntityConfig
 
 ## Overview
-- Documentation for `ItemEntityConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemEntityConfig("Item", null, true)`
   - Creates a `ItemEntityConfig` instance.
 - `ItemEntityConfig(null, null, true)`
@@ -14,14 +14,14 @@
 - `ItemEntityConfig(String particleSystemId, Color particleColor, boolean showItemParticles)`
   - Creates a `ItemEntityConfig` instance.
 
-## Methods
-- `getPhysicsValues()`
+## Method Descriptions
+- `getPhysicsValues()`: Add description.
   - Executes `getPhysicsValues` behavior.
-- `getPickupRadius()`
+- `getPickupRadius()`: Add description.
   - Executes `getPickupRadius` behavior.
-- `getTtl()`
+- `getTtl()`: Add description.
   - Executes `getTtl` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

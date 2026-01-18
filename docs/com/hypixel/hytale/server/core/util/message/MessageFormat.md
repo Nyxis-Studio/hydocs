@@ -1,16 +1,16 @@
+**Source Hash:** `e84dd075ac99dd6659bc322c775c96093786e54b1ad21028e822d2212fffbf17`
+
 # MessageFormat
 
 ## Overview
-- Documentation for `MessageFormat`.
-- Declared as a class in `com.hypixel.hytale.server.core.util.message`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `enabled(boolean b)`
+## Method Descriptions
+- `enabled(boolean b)`: Add description.
   - Executes `enabled` behavior.
-- `list(@Nullable Message header, @Nonnull Collection<Message> values)`
+- `list(@Nullable Message header, @Nonnull Collection<Message> values)`: Add description.
   - Executes `list` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `3d7fe761d92ade1f72d2545a15b54f11056eefc0d07a88ab39da5319123e03a1`
+
 # UnconditionalFeatureProviderEvaluator
 
 ## Overview
-- Documentation for `UnconditionalFeatureProviderEvaluator`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.providerevaluators`.
 
-## Constructors
+## Constructor Descriptions
 - `UnconditionalFeatureProviderEvaluator(@Nonnull Feature feature)`
   - Creates a `UnconditionalFeatureProviderEvaluator` instance.
 
-## Methods
-- `provides(@Nonnull EnumSet<Feature> feature)`
+## Method Descriptions
+- `provides(@Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `provides` behavior.
-- `resolveReferences(BuilderManager manager)`
+- `resolveReferences(BuilderManager manager)`: Add description.
   - Executes `resolveReferences` behavior.
 
 ## Notes

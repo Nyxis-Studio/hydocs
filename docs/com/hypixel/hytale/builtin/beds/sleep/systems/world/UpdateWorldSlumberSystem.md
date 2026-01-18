@@ -1,18 +1,18 @@
+**Source Hash:** `9afaa963c704ca3eee88ac6da102350e37db83d1d009be162ba4bee403955a9f`
+
 # UpdateWorldSlumberSystem
 
 ## Overview
-- Documentation for `UpdateWorldSlumberSystem`.
-- Declared as a class in `com.hypixel.hytale.builtin.beds.sleep.systems.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `tick(float dt, int systemIndex, @NonNullDecl Store<EntityStore> store)`
+## Method Descriptions
+- `tick(float dt, int systemIndex, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `computeWakeupTime(WorldSlumber slumber)`
+- `computeWakeupTime(WorldSlumber slumber)`: Add description.
   - Executes `computeWakeupTime` behavior.
-- `isSomeoneAwake(ComponentAccessor<EntityStore> store)`
+- `isSomeoneAwake(ComponentAccessor<EntityStore> store)`: Add description.
   - Executes `isSomeoneAwake` behavior.
 
 ## Notes

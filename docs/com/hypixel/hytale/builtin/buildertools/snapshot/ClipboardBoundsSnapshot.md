@@ -1,10 +1,10 @@
+**Source Hash:** `8f9b50e5535c2ec2e3209c6a6297313364841e052e0432374bc315b78bfea97b`
+
 # ClipboardBoundsSnapshot
 
 ## Overview
-- Documentation for `ClipboardBoundsSnapshot`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.snapshot`.
 
-## Constructors
+## Constructor Descriptions
 - `ClipboardBoundsSnapshot(Vector3i.ZERO, Vector3i.ZERO)`
   - Creates a `ClipboardBoundsSnapshot` instance.
 - `ClipboardBoundsSnapshot(@Nonnull BlockSelection selection)`
@@ -14,12 +14,12 @@
 - `ClipboardBoundsSnapshot(state.getSelection()`
   - Creates a `ClipboardBoundsSnapshot` instance.
 
-## Methods
-- `getMin()`
+## Method Descriptions
+- `getMin()`: Add description.
   - Executes `getMin` behavior.
-- `getMax()`
+- `getMax()`: Add description.
   - Executes `getMax` behavior.
-- `restoreClipboard(Ref<EntityStore> ref, Player player, World world, @Nonnull BuilderToolsPlugin.BuilderState state, ComponentAccessor<EntityStore> componentAccessor)`
+- `restoreClipboard(Ref<EntityStore> ref, Player player, World world, @Nonnull BuilderToolsPlugin.BuilderState state, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `restoreClipboard` behavior.
 
 ## Notes

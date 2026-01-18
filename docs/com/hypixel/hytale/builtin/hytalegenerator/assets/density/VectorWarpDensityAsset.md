@@ -1,16 +1,16 @@
+**Source Hash:** `d9eba498c0d463b495614869e45d87870be1862ecc6aa0d295fb1ec2c4599530`
+
 # VectorWarpDensityAsset
 
 ## Overview
-- Documentation for `VectorWarpDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

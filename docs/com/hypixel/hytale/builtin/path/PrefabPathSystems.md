@@ -1,42 +1,42 @@
+**Source Hash:** `96b2204d53cbbfeac4e3d3d71ad2a3ee2c6b45859feb64467966ff5c70339b4d`
+
 # PrefabPathSystems
 
 ## Overview
-- Documentation for `PrefabPathSystems`.
-- Declared as a class in `com.hypixel.hytale.builtin.path`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `handle(@Nonnull Store store, @Nonnull CommandBuffer commandBuffer, @Nonnull PrefabPlaceEntityEvent event)`
+## Method Descriptions
+- `handle(@Nonnull Store store, @Nonnull CommandBuffer commandBuffer, @Nonnull PrefabPlaceEntityEvent event)`: Add description.
   - Executes `handle` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl WorldGenId component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl WorldGenId component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@NonNullDecl Ref<EntityStore> ref, @NullableDecl WorldGenId oldComponent, @NonNullDecl WorldGenId newComponent, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@NonNullDecl Ref<EntityStore> ref, @NullableDecl WorldGenId oldComponent, @NonNullDecl WorldGenId newComponent, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl WorldGenId component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@NonNullDecl Ref<EntityStore> ref, @NonNullDecl WorldGenId component, @NonNullDecl Store<EntityStore> store, @NonNullDecl CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull DisplayNameComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentAdded(@Nonnull Ref<EntityStore> ref, @Nonnull DisplayNameComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@Nonnull Ref<EntityStore> ref, DisplayNameComponent oldComponent, @Nonnull DisplayNameComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentSet(@Nonnull Ref<EntityStore> ref, DisplayNameComponent oldComponent, @Nonnull DisplayNameComponent newComponent, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull DisplayNameComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onComponentRemoved(@Nonnull Ref<EntityStore> ref, @Nonnull DisplayNameComponent component, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
-- `onEntityAdd(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl AddReason reason, @NonNullDecl Store<EntityStore> store)`
+- `onEntityAdd(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl AddReason reason, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl RemoveReason reason, @NonNullDecl Store<EntityStore> store)`
+- `onEntityRemoved(@NonNullDecl Holder<EntityStore> holder, @NonNullDecl RemoveReason reason, @NonNullDecl Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityAdd(@Nonnull Holder<EntityStore> holder, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityAdd` behavior.
-- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`
+- `onEntityRemoved(@Nonnull Holder<EntityStore> holder, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `onEntityRemoved` behavior.
 
 ## Notes

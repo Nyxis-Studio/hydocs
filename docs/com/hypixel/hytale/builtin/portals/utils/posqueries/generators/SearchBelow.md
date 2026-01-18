@@ -1,15 +1,15 @@
+**Source Hash:** `c46989402ab2ab1aaae204e349f2f947050acf20ab386a61a03a4e457cb7cbec`
+
 # SearchBelow
 
 ## Overview
-- Documentation for `SearchBelow`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils.posqueries.generators`.
 
-## Constructors
+## Constructor Descriptions
 - `SearchBelow(int height)`
   - Creates a `SearchBelow` instance.
 
-## Methods
-- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`
+## Method Descriptions
+- `createCandidates(World world, Vector3d origin, @Nullable SpatialQueryDebug debug)`: Add description.
   - Executes `createCandidates` behavior.
 
 ## Notes

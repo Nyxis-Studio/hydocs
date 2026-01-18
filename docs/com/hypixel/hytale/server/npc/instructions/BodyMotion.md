@@ -1,14 +1,14 @@
+**Source Hash:** `e80376e18e16397e2576fd29bfa4e5130bef9dd63686ac4f396041b31c3b6f4d`
+
 # BodyMotion
 
 ## Overview
-- Documentation for `BodyMotion`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.instructions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSteeringMotion()`
+## Method Descriptions
+- `getSteeringMotion()`: Add description.
   - Executes `getSteeringMotion` behavior.
 
 ## Notes

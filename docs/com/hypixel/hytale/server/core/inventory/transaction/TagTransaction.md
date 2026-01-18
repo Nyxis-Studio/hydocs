@@ -1,10 +1,10 @@
+**Source Hash:** `dfb6dc4427f3bfcb073d6c934be45ff3c80e7dd9441d324e13b3bc771d1c79f4`
+
 # TagTransaction
 
 ## Overview
-- Documentation for `TagTransaction`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `TagTransaction(boolean succeeded, @Nonnull ActionType action, int tagIndex, int remainder, boolean allOrNothing, boolean exactAmount, boolean filter, @Nonnull List<TagSlotTransaction> slotTransactions)`
   - Creates a `TagTransaction` instance.
 - `TagTransaction(this.succeeded()`
@@ -12,24 +12,24 @@
 - `TagTransaction(succeeded, this.action, this.tagIndex, this.remainder, this.allOrNothing, this.exactAmount, this.filter, slotTransactions)`
   - Creates a `TagTransaction` instance.
 
-## Methods
-- `getAction()`
+## Method Descriptions
+- `getAction()`: Add description.
   - Executes `getAction` behavior.
-- `getTagIndex()`
+- `getTagIndex()`: Add description.
   - Executes `getTagIndex` behavior.
-- `getRemainder()`
+- `getRemainder()`: Add description.
   - Executes `getRemainder` behavior.
-- `isAllOrNothing()`
+- `isAllOrNothing()`: Add description.
   - Executes `isAllOrNothing` behavior.
-- `isExactAmount()`
+- `isExactAmount()`: Add description.
   - Executes `isExactAmount` behavior.
-- `isFilter()`
+- `isFilter()`: Add description.
   - Executes `isFilter` behavior.
-- `toParent(ItemContainer parent, short start, ItemContainer container)`
+- `toParent(ItemContainer parent, short start, ItemContainer container)`: Add description.
   - Executes `toParent` behavior.
-- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`
+- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`: Add description.
   - Executes `fromParent` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

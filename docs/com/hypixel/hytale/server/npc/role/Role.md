@@ -1,227 +1,227 @@
+**Source Hash:** `af88d6f8d365212a4f6fff08177779edcbb142a662b71dbf0b978822e5b06959`
+
 # Role
 
 ## Overview
-- Documentation for `Role`.
-- Declared as a class in `com.hypixel.hytale.server.npc.role`.
 
-## Constructors
+## Constructor Descriptions
 - `Role(@Nonnull BuilderRole builder, @Nonnull BuilderSupport builderSupport)`
   - Creates a `Role` instance.
 
-## Methods
-- `getInitialMaxHealth()`
+## Method Descriptions
+- `getInitialMaxHealth()`: Add description.
   - Executes `getInitialMaxHealth` behavior.
-- `isAvoidingEntities()`
+- `isAvoidingEntities()`: Add description.
   - Executes `isAvoidingEntities` behavior.
-- `getCollisionProbeDistance()`
+- `getCollisionProbeDistance()`: Add description.
   - Executes `getCollisionProbeDistance` behavior.
-- `isApplySeparation()`
+- `isApplySeparation()`: Add description.
   - Executes `isApplySeparation` behavior.
-- `getSeparationDistance()`
+- `getSeparationDistance()`: Add description.
   - Executes `getSeparationDistance` behavior.
-- `getRootInstruction()`
+- `getRootInstruction()`: Add description.
   - Executes `getRootInstruction` behavior.
-- `getInteractionInstruction()`
+- `getInteractionInstruction()`: Add description.
   - Executes `getInteractionInstruction` behavior.
-- `getDeathInstruction()`
+- `getDeathInstruction()`: Add description.
   - Executes `getDeathInstruction` behavior.
-- `getBodySteering()`
+- `getBodySteering()`: Add description.
   - Executes `getBodySteering` behavior.
-- `getHeadSteering()`
+- `getHeadSteering()`: Add description.
   - Executes `getHeadSteering` behavior.
-- `getIgnoredEntitiesForAvoidance()`
+- `getIgnoredEntitiesForAvoidance()`: Add description.
   - Executes `getIgnoredEntitiesForAvoidance` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `getBalanceAsset()`
+- `getBalanceAsset()`: Add description.
   - Executes `getBalanceAsset` behavior.
-- `getInteractionVars()`
+- `getInteractionVars()`: Add description.
   - Executes `getInteractionVars` behavior.
-- `isMemory()`
+- `isMemory()`: Add description.
   - Executes `isMemory` behavior.
-- `getMemoriesNameOverride()`
+- `getMemoriesNameOverride()`: Add description.
   - Executes `getMemoriesNameOverride` behavior.
-- `getNameTranslationKey()`
+- `getNameTranslationKey()`: Add description.
   - Executes `getNameTranslationKey` behavior.
-- `isMemoriesNameOverriden()`
+- `isMemoriesNameOverriden()`: Add description.
   - Executes `isMemoriesNameOverriden` behavior.
-- `getSpawnLockTime()`
+- `getSpawnLockTime()`: Add description.
   - Executes `getSpawnLockTime` behavior.
-- `postRoleBuilt(@Nonnull BuilderSupport builderSupport)`
+- `postRoleBuilt(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `postRoleBuilt` behavior.
-- `loaded()`
+- `loaded()`: Add description.
   - Executes `loaded` behavior.
-- `spawned(@Nonnull Holder<EntityStore> holder, @Nonnull NPCEntity npcComponent)`
+- `spawned(@Nonnull Holder<EntityStore> holder, @Nonnull NPCEntity npcComponent)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded()`
+- `unloaded()`: Add description.
   - Executes `unloaded` behavior.
-- `removed()`
+- `removed()`: Add description.
   - Executes `removed` behavior.
-- `teleported(@Nonnull World from, @Nonnull World to)`
+- `teleported(@Nonnull World from, @Nonnull World to)`: Add description.
   - Executes `teleported` behavior.
-- `getAppearanceName()`
+- `getAppearanceName()`: Add description.
   - Executes `getAppearanceName` behavior.
-- `getActiveMotionController()`
+- `getActiveMotionController()`: Add description.
   - Executes `getActiveMotionController` behavior.
-- `getCombatSupport()`
+- `getCombatSupport()`: Add description.
   - Executes `getCombatSupport` behavior.
-- `getStateSupport()`
+- `getStateSupport()`: Add description.
   - Executes `getStateSupport` behavior.
-- `getWorldSupport()`
+- `getWorldSupport()`: Add description.
   - Executes `getWorldSupport` behavior.
-- `getMarkedEntitySupport()`
+- `getMarkedEntitySupport()`: Add description.
   - Executes `getMarkedEntitySupport` behavior.
-- `getPositionCache()`
+- `getPositionCache()`: Add description.
   - Executes `getPositionCache` behavior.
-- `getEntitySupport()`
+- `getEntitySupport()`: Add description.
   - Executes `getEntitySupport` behavior.
-- `getDebugSupport()`
+- `getDebugSupport()`: Add description.
   - Executes `getDebugSupport` behavior.
-- `isRoleChangeRequested()`
+- `isRoleChangeRequested()`: Add description.
   - Executes `isRoleChangeRequested` behavior.
-- `setRoleChangeRequested()`
+- `setRoleChangeRequested()`: Add description.
   - Executes `setRoleChangeRequested` behavior.
-- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull String name, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull String name, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setActiveMotionController` behavior.
-- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `setActiveMotionController(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `setActiveMotionController` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nullable MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nullable MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `setMotionControllers(@Nonnull NPCEntity npcComponent, @Nonnull Map<String, MotionController> motionControllers, @Nullable String initialMotionController)`
+- `setMotionControllers(@Nonnull NPCEntity npcComponent, @Nonnull Map<String, MotionController> motionControllers, @Nullable String initialMotionController)`: Add description.
   - Executes `setMotionControllers` behavior.
-- `updateMotionControllers(@Nullable Ref<EntityStore> ref, @Nullable Model model, @Nullable Box boundingBox, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `updateMotionControllers(@Nullable Ref<EntityStore> ref, @Nullable Model model, @Nullable Box boundingBox, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateMotionControllers` behavior.
-- `updateMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, @Nonnull Vector3d velocity, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateMovementState` behavior.
-- `tick(@Nonnull Ref<EntityStore> ref, float tickTime, @Nonnull Store<EntityStore> store)`
+- `tick(@Nonnull Ref<EntityStore> ref, float tickTime, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `tick` behavior.
-- `addDeferredAction(@Nonnull DeferredAction handler)`
+- `addDeferredAction(@Nonnull DeferredAction handler)`: Add description.
   - Executes `addDeferredAction` behavior.
-- `computeActionsAndSteering(@Nonnull Ref<EntityStore> ref, double tickTime, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, @Nonnull Store<EntityStore> store)`
+- `computeActionsAndSteering(@Nonnull Ref<EntityStore> ref, double tickTime, @Nonnull Steering bodySteering, @Nonnull Steering headSteering, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `computeActionsAndSteering` behavior.
-- `blendSeparation(@Nonnull Ref<EntityStore> selfRef, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull ComponentType<EntityStore, TransformComponent> transformComponentType, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `blendSeparation(@Nonnull Ref<EntityStore> selfRef, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull ComponentType<EntityStore, TransformComponent> transformComponentType, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `blendSeparation` behavior.
-- `getLastSeparationSteering()`
+- `getLastSeparationSteering()`: Add description.
   - Executes `getLastSeparationSteering` behavior.
-- `blendAvoidance(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `blendAvoidance(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Steering steering, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `blendAvoidance` behavior.
-- `getLastAvoidanceSteering()`
+- `getLastAvoidanceSteering()`: Add description.
   - Executes `getLastAvoidanceSteering` behavior.
-- `resetInstruction(int instruction)`
+- `resetInstruction(int instruction)`: Add description.
   - Executes `resetInstruction` behavior.
-- `getRoleName()`
+- `getRoleName()`: Add description.
   - Executes `getRoleName` behavior.
-- `getRoleIndex()`
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `setRoleIndex(int roleIndex, @Nonnull String roleName)`
+- `setRoleIndex(int roleIndex, @Nonnull String roleName)`: Add description.
   - Executes `setRoleIndex` behavior.
-- `isInvulnerable()`
+- `isInvulnerable()`: Add description.
   - Executes `isInvulnerable` behavior.
-- `isBreathesInAir()`
+- `isBreathesInAir()`: Add description.
   - Executes `isBreathesInAir` behavior.
-- `isBreathesInWater()`
+- `isBreathesInWater()`: Add description.
   - Executes `isBreathesInWater` behavior.
-- `getInertia()`
+- `getInertia()`: Add description.
   - Executes `getInertia` behavior.
-- `getKnockbackScale()`
+- `getKnockbackScale()`: Add description.
   - Executes `getKnockbackScale` behavior.
-- `canBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`
+- `canBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`: Add description.
   - Executes `canBreathe` behavior.
-- `couldBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`
+- `couldBreathe(@Nonnull BlockMaterial breathingMaterial, int fluidId)`: Add description.
   - Executes `couldBreathe` behavior.
-- `couldBreatheCached()`
+- `couldBreatheCached()`: Add description.
   - Executes `couldBreatheCached` behavior.
-- `addForce(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+- `addForce(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`: Add description.
   - Executes `addForce` behavior.
-- `forceVelocity(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig, boolean ignoreDamping)`
+- `forceVelocity(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig, boolean ignoreDamping)`: Add description.
   - Executes `forceVelocity` behavior.
-- `processAddVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+- `processAddVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`: Add description.
   - Executes `processAddVelocityInstruction` behavior.
-- `processSetVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`
+- `processSetVelocityInstruction(@Nonnull Vector3d velocity, @Nullable VelocityConfig velocityConfig)`: Add description.
   - Executes `processSetVelocityInstruction` behavior.
-- `isOnGround()`
+- `isOnGround()`: Add description.
   - Executes `isOnGround` behavior.
-- `setArmor(@Nonnull NPCEntity npcComponent, @Nullable String[] armor)`
+- `setArmor(@Nonnull NPCEntity npcComponent, @Nullable String[] armor)`: Add description.
   - Executes `setArmor` behavior.
-- `isPickupDropOnDeath()`
+- `isPickupDropOnDeath()`: Add description.
   - Executes `isPickupDropOnDeath` behavior.
-- `requiresLeashPosition()`
+- `requiresLeashPosition()`: Add description.
   - Executes `requiresLeashPosition` behavior.
-- `clearOnce()`
+- `clearOnce()`: Add description.
   - Executes `clearOnce` behavior.
-- `clearOnceIfNeeded()`
+- `clearOnceIfNeeded()`: Add description.
   - Executes `clearOnceIfNeeded` behavior.
-- `setMarkedTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`
+- `setMarkedTarget(@Nonnull String targetSlot, @Nonnull Ref<EntityStore> target)`: Add description.
   - Executes `setMarkedTarget` behavior.
-- `isFriendly(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `isFriendly(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isFriendly` behavior.
-- `isIgnoredForAvoidance(@Nonnull Ref<EntityStore> entityReference)`
+- `isIgnoredForAvoidance(@Nonnull Ref<EntityStore> entityReference)`: Add description.
   - Executes `isIgnoredForAvoidance` behavior.
-- `getAvoidanceMode()`
+- `getAvoidanceMode()`: Add description.
   - Executes `getAvoidanceMode` behavior.
-- `getCollisionRadius()`
+- `getCollisionRadius()`: Add description.
   - Executes `getCollisionRadius` behavior.
-- `getFlockSpawnTypes()`
+- `getFlockSpawnTypes()`: Add description.
   - Executes `getFlockSpawnTypes` behavior.
-- `getFlockAllowedRoles()`
+- `getFlockAllowedRoles()`: Add description.
   - Executes `getFlockAllowedRoles` behavior.
-- `isFlockSpawnTypesRandom()`
+- `isFlockSpawnTypesRandom()`: Add description.
   - Executes `isFlockSpawnTypesRandom` behavior.
-- `isCanLeadFlock()`
+- `isCanLeadFlock()`: Add description.
   - Executes `isCanLeadFlock` behavior.
-- `getFlockInfluenceRange()`
+- `getFlockInfluenceRange()`: Add description.
   - Executes `getFlockInfluenceRange` behavior.
-- `getDeathAnimationTime()`
+- `getDeathAnimationTime()`: Add description.
   - Executes `getDeathAnimationTime` behavior.
-- `getDeathInteraction()`
+- `getDeathInteraction()`: Add description.
   - Executes `getDeathInteraction` behavior.
-- `getDespawnAnimationTime()`
+- `getDespawnAnimationTime()`: Add description.
   - Executes `getDespawnAnimationTime` behavior.
-- `setReachedTerminalAction(boolean hasReached)`
+- `setReachedTerminalAction(boolean hasReached)`: Add description.
   - Executes `setReachedTerminalAction` behavior.
-- `hasReachedTerminalAction()`
+- `hasReachedTerminalAction()`: Add description.
   - Executes `hasReachedTerminalAction` behavior.
-- `setFlag(int index, boolean value)`
+- `setFlag(int index, boolean value)`: Add description.
   - Executes `setFlag` behavior.
-- `isFlagSet(int index)`
+- `isFlagSet(int index)`: Add description.
   - Executes `isFlagSet` behavior.
-- `isBackingAway()`
+- `isBackingAway()`: Add description.
   - Executes `isBackingAway` behavior.
-- `setBackingAway(boolean backingAway)`
+- `setBackingAway(boolean backingAway)`: Add description.
   - Executes `setBackingAway` behavior.
-- `swapTreeModeSteps(Instruction newStep)`
+- `swapTreeModeSteps(Instruction newStep)`: Add description.
   - Executes `swapTreeModeSteps` behavior.
-- `notifySensorMatch()`
+- `notifySensorMatch()`: Add description.
   - Executes `notifySensorMatch` behavior.
-- `resetAllInstructions()`
+- `resetAllInstructions()`: Add description.
   - Executes `resetAllInstructions` behavior.
-- `getSteeringMotionName()`
+- `getSteeringMotionName()`: Add description.
   - Executes `getSteeringMotionName` behavior.
-- `componentCount()`
+- `componentCount()`: Add description.
   - Executes `componentCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
-- `getInfo(Role role, ComponentInfo holder)`
+- `getInfo(Role role, ComponentInfo holder)`: Add description.
   - Executes `getInfo` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `setContext(IAnnotatedComponent parent, int index)`
+- `setContext(IAnnotatedComponent parent, int index)`: Add description.
   - Executes `setContext` behavior.
-- `getParent()`
+- `getParent()`: Add description.
   - Executes `getParent` behavior.
-- `getLabel()`
+- `getLabel()`: Add description.
   - Executes `getLabel` behavior.
-- `initialiseInventories(@Nonnull NPCEntity npcComponent)`
+- `initialiseInventories(@Nonnull NPCEntity npcComponent)`: Add description.
   - Executes `initialiseInventories` behavior.
-- `isCorpseStaysInFlock()`
+- `isCorpseStaysInFlock()`: Add description.
   - Executes `isCorpseStaysInFlock` behavior.
-- `onLoadFromWorldGenOrPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `onLoadFromWorldGenOrPrefab(@Nonnull Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `onLoadFromWorldGenOrPrefab` behavior.
-- `getRoleStats()`
+- `getRoleStats()`: Add description.
   - Executes `getRoleStats` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `tick(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, double var3, @Nonnull Store<EntityStore> var5)`
+- `tick(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, double var3, @Nonnull Store<EntityStore> var5)`: Add description.
   - Executes `tick` behavior.
 
 ## Notes

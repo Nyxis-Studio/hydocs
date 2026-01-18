@@ -1,15 +1,15 @@
+**Source Hash:** `c3c58d85df3bab93d9dd59e53270fabead5fb722880ef018aad55afd6060b054`
+
 # AssetTagsCommand
 
 ## Overview
-- Documentation for `AssetTagsCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetTagsCommand()`
   - Creates a `AssetTagsCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `efb353e4db292375fc565e5f48f2dcc15b4b98f462d56394ca82735d9499a32c`
+
 # AdventureMetadata
 
 ## Overview
-- Documentation for `AdventureMetadata`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.item.config.metadata`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isCursed()`
+## Method Descriptions
+- `isCursed()`: Add description.
   - Executes `isCursed` behavior.
-- `setCursed(boolean cursed)`
+- `setCursed(boolean cursed)`: Add description.
   - Executes `setCursed` behavior.
 
 ## Notes

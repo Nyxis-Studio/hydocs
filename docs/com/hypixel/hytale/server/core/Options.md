@@ -1,28 +1,28 @@
+**Source Hash:** `24ebaecdd8ed855dd5c54010bbae216644853a1fb2a0c4f12ed4ec9eadab3cdc`
+
 # Options
 
 ## Overview
-- Documentation for `Options`.
-- Declared as a class in `com.hypixel.hytale.server.core`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getOptionSet()`
+## Method Descriptions
+- `getOptionSet()`: Add description.
   - Executes `getOptionSet` behavior.
-- `getOrDefault(OptionSpec<T> optionSpec, @Nonnull OptionSet optionSet, T def)`
+- `getOrDefault(OptionSpec<T> optionSpec, @Nonnull OptionSet optionSet, T def)`: Add description.
   - Executes `getOrDefault` behavior.
-- `parse(String[] args)`
+- `parse(String[] args)`: Add description.
   - Executes `parse` behavior.
-- `valuePattern()`
+- `valuePattern()`: Add description.
   - Executes `valuePattern` behavior.
-- `convert(@Nonnull String value)`
+- `convert(@Nonnull String value)`: Add description.
   - Executes `convert` behavior.
-- `convert(@Nonnull String s)`
+- `convert(@Nonnull String s)`: Add description.
   - Executes `convert` behavior.
-- `valueType()`
+- `valueType()`: Add description.
   - Executes `valueType` behavior.
-- `convert(String value)`
+- `convert(String value)`: Add description.
   - Executes `convert` behavior.
 
 ## Notes

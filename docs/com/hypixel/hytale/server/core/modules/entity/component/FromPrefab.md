@@ -1,17 +1,17 @@
+**Source Hash:** `59c054e54301af124b2f6cbd5f5e816be3bf12807c28260431a5c9e72e512edf`
+
 # FromPrefab
 
 ## Overview
-- Documentation for `FromPrefab`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `FromPrefab()`
   - Creates a `FromPrefab` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

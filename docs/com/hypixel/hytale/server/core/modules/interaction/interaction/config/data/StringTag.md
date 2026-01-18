@@ -1,25 +1,25 @@
+**Source Hash:** `98fb801b0d2067b0930d02faaa79b3c95fa6514e7731f80e20f6551c5ae07cdb`
+
 # StringTag
 
 ## Overview
-- Documentation for `StringTag`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.data`.
 
-## Constructors
+## Constructor Descriptions
 - `StringTag(String tag)`
   - Creates a `StringTag` instance.
 - `StringTag(tag)`
   - Creates a `StringTag` instance.
 
-## Methods
-- `getTag()`
+## Method Descriptions
+- `getTag()`: Add description.
   - Executes `getTag` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `of(String tag)`
+- `of(String tag)`: Add description.
   - Executes `of` behavior.
 
 ## Notes

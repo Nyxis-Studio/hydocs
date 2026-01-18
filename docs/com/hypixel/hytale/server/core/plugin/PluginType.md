@@ -1,15 +1,15 @@
+**Source Hash:** `c14d675063ca8614f4757c4189d5db5efdc2bf90ca26f87e9f01b4720ca89d6c`
+
 # PluginType
 
 ## Overview
-- Documentation for `PluginType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `PluginType(String displayName)`
   - Creates a `PluginType` instance.
 
-## Methods
-- `getDisplayName()`
+## Method Descriptions
+- `getDisplayName()`: Add description.
   - Executes `getDisplayName` behavior.
 
 ## Notes

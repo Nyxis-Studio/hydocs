@@ -1,18 +1,18 @@
+**Source Hash:** `76dee3b23585947bf212a9c2b4fad81eae244046d22e16daa6aefc8bf4ff1f0f`
+
 # FieldFunctionAssignmentsAsset
 
 ## Overview
-- Documentation for `FieldFunctionAssignmentsAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.propassignments`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull AssignmentsAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull AssignmentsAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

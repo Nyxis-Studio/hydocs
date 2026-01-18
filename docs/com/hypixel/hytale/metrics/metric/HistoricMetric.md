@@ -1,10 +1,10 @@
+**Source Hash:** `f5740bd282cf36be718870006e9c6cc2d565dbe3585f286e1ac29352c3dba758`
+
 # HistoricMetric
 
 ## Overview
-- Documentation for `HistoricMetric`.
-- Declared as a class in `com.hypixel.hytale.metrics.metric`.
 
-## Constructors
+## Constructor Descriptions
 - `HistoricMetric()`
   - Creates a `HistoricMetric` instance.
 - `HistoricMetric(@Nonnull Builder builder)`
@@ -12,38 +12,38 @@
 - `HistoricMetric(this)`
   - Creates a `HistoricMetric` instance.
 
-## Methods
-- `getPeriodsNanos()`
+## Method Descriptions
+- `getPeriodsNanos()`: Add description.
   - Executes `getPeriodsNanos` behavior.
-- `calculateMin(int periodIndex)`
+- `calculateMin(int periodIndex)`: Add description.
   - Executes `calculateMin` behavior.
-- `getAverage(int periodIndex)`
+- `getAverage(int periodIndex)`: Add description.
   - Executes `getAverage` behavior.
-- `calculateMax(int periodIndex)`
+- `calculateMax(int periodIndex)`: Add description.
   - Executes `calculateMax` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `add(long timestampNanos, long value)`
+- `add(long timestampNanos, long value)`: Add description.
   - Executes `add` behavior.
-- `getTimestamps(int periodIndex)`
+- `getTimestamps(int periodIndex)`: Add description.
   - Executes `getTimestamps` behavior.
-- `getValues(int periodIndex)`
+- `getValues(int periodIndex)`: Add description.
   - Executes `getValues` behavior.
-- `getAllTimestamps()`
+- `getAllTimestamps()`: Add description.
   - Executes `getAllTimestamps` behavior.
-- `getAllValues()`
+- `getAllValues()`: Add description.
   - Executes `getAllValues` behavior.
-- `setAllTimestamps(@Nonnull long[] timestamps)`
+- `setAllTimestamps(@Nonnull long[] timestamps)`: Add description.
   - Executes `setAllTimestamps` behavior.
-- `setAllValues(@Nonnull long[] values)`
+- `setAllValues(@Nonnull long[] values)`: Add description.
   - Executes `setAllValues` behavior.
-- `getLastValue()`
+- `getLastValue()`: Add description.
   - Executes `getLastValue` behavior.
-- `builder(long minimumInterval, @Nonnull TimeUnit unit)`
+- `builder(long minimumInterval, @Nonnull TimeUnit unit)`: Add description.
   - Executes `builder` behavior.
-- `addPeriod(long period, @Nonnull TimeUnit unit)`
+- `addPeriod(long period, @Nonnull TimeUnit unit)`: Add description.
   - Executes `addPeriod` behavior.
-- `build()`
+- `build()`: Add description.
   - Executes `build` behavior.
 
 ## Notes

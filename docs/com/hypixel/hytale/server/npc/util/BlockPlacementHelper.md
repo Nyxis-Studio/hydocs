@@ -1,20 +1,20 @@
+**Source Hash:** `33f21bd265025886143cabe211da312334e9eb6dd3cb17373392f76214515f6c`
+
 # BlockPlacementHelper
 
 ## Overview
-- Documentation for `BlockPlacementHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `canPlaceUnitBlock(@Nonnull World world, BlockType placedBlockType, boolean allowEmptyMaterials, int x, int y, int z)`
+## Method Descriptions
+- `canPlaceUnitBlock(@Nonnull World world, BlockType placedBlockType, boolean allowEmptyMaterials, int x, int y, int z)`: Add description.
   - Executes `canPlaceUnitBlock` behavior.
-- `canPlaceBlock(@Nonnull World world, @Nonnull BlockType placedBlockType, int rotationIndex, boolean allowEmptyMaterials, int x, int y, int z)`
+- `canPlaceBlock(@Nonnull World world, @Nonnull BlockType placedBlockType, int rotationIndex, boolean allowEmptyMaterials, int x, int y, int z)`: Add description.
   - Executes `canPlaceBlock` behavior.
-- `testBlock(BlockType placedBlockType, @Nonnull BlockType blockType, boolean allowEmptyMaterials)`
+- `testBlock(BlockType placedBlockType, @Nonnull BlockType blockType, boolean allowEmptyMaterials)`: Add description.
   - Executes `testBlock` behavior.
-- `testSupportingBlock(@Nonnull BlockType blockType, int rotation, int filler)`
+- `testSupportingBlock(@Nonnull BlockType blockType, int rotation, int filler)`: Add description.
   - Executes `testSupportingBlock` behavior.
 
 ## Notes

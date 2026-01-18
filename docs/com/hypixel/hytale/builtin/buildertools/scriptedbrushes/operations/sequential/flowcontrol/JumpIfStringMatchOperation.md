@@ -1,15 +1,15 @@
+**Source Hash:** `1e1c69be906cf9023e7ab8ac4b46303c4f6c7096c300d7a340466aa91c5fbbde`
+
 # JumpIfStringMatchOperation
 
 ## Overview
-- Documentation for `JumpIfStringMatchOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.flowcontrol`.
 
-## Constructors
+## Constructor Descriptions
 - `JumpIfStringMatchOperation()`
   - Creates a `JumpIfStringMatchOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

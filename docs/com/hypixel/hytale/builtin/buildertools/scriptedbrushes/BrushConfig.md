@@ -1,109 +1,109 @@
+**Source Hash:** `5d6f7a2c7174e12faaa96c485380860e7ab2a786ad2c6d6e38cb8217d8abe4dc`
+
 # BrushConfig
 
 ## Overview
-- Documentation for `BrushConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfig()`
   - Creates a `BrushConfig` instance.
 - `BrushConfig(@Nonnull BrushConfig other)`
   - Creates a `BrushConfig` instance.
 
-## Methods
-- `beginExecution(Vector3i origin, boolean isHoldDownInteraction, InteractionType interactionType)`
+## Method Descriptions
+- `beginExecution(Vector3i origin, boolean isHoldDownInteraction, InteractionType interactionType)`: Add description.
   - Executes `beginExecution` behavior.
-- `endExecution()`
+- `endExecution()`: Add description.
   - Executes `endExecution` behavior.
-- `resetToDefaultValues()`
+- `resetToDefaultValues()`: Add description.
   - Executes `resetToDefaultValues` behavior.
-- `isHoldDownInteraction()`
+- `isHoldDownInteraction()`: Add description.
   - Executes `isHoldDownInteraction` behavior.
-- `isCurrentlyExecuting()`
+- `isCurrentlyExecuting()`: Add description.
   - Executes `isCurrentlyExecuting` behavior.
-- `getInteractionType()`
+- `getInteractionType()`: Add description.
   - Executes `getInteractionType` behavior.
-- `getOrigin()`
+- `getOrigin()`: Add description.
   - Executes `getOrigin` behavior.
-- `getOriginOffset()`
+- `getOriginOffset()`: Add description.
   - Executes `getOriginOffset` behavior.
-- `setOriginOffset(Vector3i originOffset)`
+- `setOriginOffset(Vector3i originOffset)`: Add description.
   - Executes `setOriginOffset` behavior.
-- `modifyOriginOffset(@Nonnull Vector3i originOffsetOffset)`
+- `modifyOriginOffset(@Nonnull Vector3i originOffsetOffset)`: Add description.
   - Executes `modifyOriginOffset` behavior.
-- `updateOriginWithOffsets()`
+- `updateOriginWithOffsets()`: Add description.
   - Executes `updateOriginWithOffsets` behavior.
-- `getRandom()`
+- `getRandom()`: Add description.
   - Executes `getRandom` behavior.
-- `getNextBlock()`
+- `getNextBlock()`: Add description.
   - Executes `getNextBlock` behavior.
-- `getNextMaterial()`
+- `getNextMaterial()`: Add description.
   - Executes `getNextMaterial` behavior.
-- `getBlockMask()`
+- `getBlockMask()`: Add description.
   - Executes `getBlockMask` behavior.
-- `setOperationMask(BlockMask mask)`
+- `setOperationMask(BlockMask mask)`: Add description.
   - Executes `setOperationMask` behavior.
-- `appendOperationMask(BlockMask mask)`
+- `appendOperationMask(BlockMask mask)`: Add description.
   - Executes `appendOperationMask` behavior.
-- `clearOperationMask()`
+- `clearOperationMask()`: Add description.
   - Executes `clearOperationMask` behavior.
-- `setUseBrushMask(boolean useBrushMask)`
+- `setUseBrushMask(boolean useBrushMask)`: Add description.
   - Executes `setUseBrushMask` behavior.
-- `setUseOperationMask(boolean useOperationMask)`
+- `setUseOperationMask(boolean useOperationMask)`: Add description.
   - Executes `setUseOperationMask` behavior.
-- `setBrushMask(BlockMask mask)`
+- `setBrushMask(BlockMask mask)`: Add description.
   - Executes `setBrushMask` behavior.
-- `refreshCombinedMasks()`
+- `refreshCombinedMasks()`: Add description.
   - Executes `refreshCombinedMasks` behavior.
-- `getDensity()`
+- `getDensity()`: Add description.
   - Executes `getDensity` behavior.
-- `setDensity(int density)`
+- `setDensity(int density)`: Add description.
   - Executes `setDensity` behavior.
-- `getHistoryMask()`
+- `getHistoryMask()`: Add description.
   - Executes `getHistoryMask` behavior.
-- `setHistoryMask(HistoryMask historyMask)`
+- `setHistoryMask(HistoryMask historyMask)`: Add description.
   - Executes `setHistoryMask` behavior.
-- `getShapeWidth()`
+- `getShapeWidth()`: Add description.
   - Executes `getShapeWidth` behavior.
-- `setShapeWidth(int shapeWidth)`
+- `setShapeWidth(int shapeWidth)`: Add description.
   - Executes `setShapeWidth` behavior.
-- `getShapeHeight()`
+- `getShapeHeight()`: Add description.
   - Executes `getShapeHeight` behavior.
-- `setShapeHeight(int shapeHeight)`
+- `setShapeHeight(int shapeHeight)`: Add description.
   - Executes `setShapeHeight` behavior.
-- `getShapeThickness()`
+- `getShapeThickness()`: Add description.
   - Executes `getShapeThickness` behavior.
-- `setShapeThickness(int shapeThickness)`
+- `setShapeThickness(int shapeThickness)`: Add description.
   - Executes `setShapeThickness` behavior.
-- `isCapped()`
+- `isCapped()`: Add description.
   - Executes `isCapped` behavior.
-- `setCapped(boolean capped)`
+- `setCapped(boolean capped)`: Add description.
   - Executes `setCapped` behavior.
-- `getShape()`
+- `getShape()`: Add description.
   - Executes `getShape` behavior.
-- `setShape(BrushShape shape)`
+- `setShape(BrushShape shape)`: Add description.
   - Executes `setShape` behavior.
-- `getPattern()`
+- `getPattern()`: Add description.
   - Executes `getPattern` behavior.
-- `setPattern(BlockPattern pattern)`
+- `setPattern(BlockPattern pattern)`: Add description.
   - Executes `setPattern` behavior.
-- `setErrorFlag(String errorMessage)`
+- `setErrorFlag(String errorMessage)`: Add description.
   - Executes `setErrorFlag` behavior.
-- `clearError()`
+- `clearError()`: Add description.
   - Executes `clearError` behavior.
-- `isHasExecutionContextEncounteredError()`
+- `isHasExecutionContextEncounteredError()`: Add description.
   - Executes `isHasExecutionContextEncounteredError` behavior.
-- `getExecutionErrorMessage()`
+- `getExecutionErrorMessage()`: Add description.
   - Executes `getExecutionErrorMessage` behavior.
-- `getOriginAfterOffset()`
+- `getOriginAfterOffset()`: Add description.
   - Executes `getOriginAfterOffset` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getInfo()`
+- `getInfo()`: Add description.
   - Executes `getInfo` behavior.
-- `getValue(BrushConfig brushConfig)`
+- `getValue(BrushConfig brushConfig)`: Add description.
   - Executes `getValue` behavior.
-- `loadData(BrushConfig copyTo, BrushConfig copyFrom)`
+- `loadData(BrushConfig copyTo, BrushConfig copyFrom)`: Add description.
   - Executes `loadData` behavior.
 
 ## Notes

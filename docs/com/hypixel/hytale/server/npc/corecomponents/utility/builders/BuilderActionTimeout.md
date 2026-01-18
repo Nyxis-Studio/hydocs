@@ -1,28 +1,28 @@
+**Source Hash:** `37cfb65986a1f6809567ee9963db6e2971f7e536c9f5e7fdd9313a5f3c4ebcad`
+
 # BuilderActionTimeout
 
 ## Overview
-- Documentation for `BuilderActionTimeout`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `isDelayAfter()`
+- `isDelayAfter()`: Add description.
   - Executes `isDelayAfter` behavior.
-- `getAction(@Nonnull BuilderSupport builderSupport)`
+- `getAction(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getAction` behavior.
 
 ## Notes

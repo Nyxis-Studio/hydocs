@@ -1,16 +1,16 @@
+**Source Hash:** `9453e43168c3a53dd3a32725b2b53282fad64dfa7c21c8339179fefff2b9acca`
+
 # MaxCurveAsset
 
 ## Overview
-- Documentation for `MaxCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

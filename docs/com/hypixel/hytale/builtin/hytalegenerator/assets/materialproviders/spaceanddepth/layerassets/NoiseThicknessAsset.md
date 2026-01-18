@@ -1,14 +1,14 @@
+**Source Hash:** `f899c220dba4c09229482b551526ed9276ca929f2de214c5430ed088a1fbd3fb`
+
 # NoiseThicknessAsset
 
 ## Overview
-- Documentation for `NoiseThicknessAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth.layerassets`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `cleanUp()`
+## Method Descriptions
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

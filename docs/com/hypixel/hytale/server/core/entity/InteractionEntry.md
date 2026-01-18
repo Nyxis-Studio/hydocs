@@ -1,63 +1,63 @@
+**Source Hash:** `f24e0232d08503c61e7a857f635400154e8bc47c2a5b040d4a7f0f20fb17f3a7`
+
 # InteractionEntry
 
 ## Overview
-- Documentation for `InteractionEntry`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionEntry(int index, int counter, int rootInteraction)`
   - Creates a `InteractionEntry` instance.
 
-## Methods
-- `getIndex()`
+## Method Descriptions
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `nextForkId()`
+- `nextForkId()`: Add description.
   - Executes `nextForkId` behavior.
-- `getNextForkId()`
+- `getNextForkId()`: Add description.
   - Executes `getNextForkId` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `setUseSimulationState(boolean useSimulationState)`
+- `setUseSimulationState(boolean useSimulationState)`: Add description.
   - Executes `setUseSimulationState` behavior.
-- `getTimeInSeconds(long tickTime)`
+- `getTimeInSeconds(long tickTime)`: Add description.
   - Executes `getTimeInSeconds` behavior.
-- `setTimestamp(long timestamp, float shift)`
+- `setTimestamp(long timestamp, float shift)`: Add description.
   - Executes `setTimestamp` behavior.
-- `getTimestamp()`
+- `getTimestamp()`: Add description.
   - Executes `getTimestamp` behavior.
-- `isUseSimulationState()`
+- `isUseSimulationState()`: Add description.
   - Executes `isUseSimulationState` behavior.
-- `getClientState()`
+- `getClientState()`: Add description.
   - Executes `getClientState` behavior.
-- `getMetaStore()`
+- `getMetaStore()`: Add description.
   - Executes `getMetaStore` behavior.
-- `getServerDataHashCode()`
+- `getServerDataHashCode()`: Add description.
   - Executes `getServerDataHashCode` behavior.
-- `getServerState()`
+- `getServerState()`: Add description.
   - Executes `getServerState` behavior.
-- `getSimulationState()`
+- `getSimulationState()`: Add description.
   - Executes `getSimulationState` behavior.
-- `setClientState(@Nullable InteractionSyncData clientState)`
+- `setClientState(@Nullable InteractionSyncData clientState)`: Add description.
   - Executes `setClientState` behavior.
-- `getWaitingForSyncData()`
+- `getWaitingForSyncData()`: Add description.
   - Executes `getWaitingForSyncData` behavior.
-- `setWaitingForSyncData(long waitingForSyncData)`
+- `setWaitingForSyncData(long waitingForSyncData)`: Add description.
   - Executes `setWaitingForSyncData` behavior.
-- `getWaitingForServerFinished()`
+- `getWaitingForServerFinished()`: Add description.
   - Executes `getWaitingForServerFinished` behavior.
-- `setWaitingForServerFinished(long waitingForServerFinished)`
+- `setWaitingForServerFinished(long waitingForServerFinished)`: Add description.
   - Executes `setWaitingForServerFinished` behavior.
-- `getWaitingForClientFinished()`
+- `getWaitingForClientFinished()`: Add description.
   - Executes `getWaitingForClientFinished` behavior.
-- `setWaitingForClientFinished(long waitingForClientFinished)`
+- `setWaitingForClientFinished(long waitingForClientFinished)`: Add description.
   - Executes `setWaitingForClientFinished` behavior.
-- `consumeDesyncFlag()`
+- `consumeDesyncFlag()`: Add description.
   - Executes `consumeDesyncFlag` behavior.
-- `flagDesync()`
+- `flagDesync()`: Add description.
   - Executes `flagDesync` behavior.
-- `consumeSendInitial()`
+- `consumeSendInitial()`: Add description.
   - Executes `consumeSendInitial` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

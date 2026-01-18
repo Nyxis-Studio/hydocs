@@ -1,10 +1,10 @@
+**Source Hash:** `359e507d23804ae87c3a17dd35da235bf10a6073e0d47ba3b55e11687566ab2e`
+
 # UIDisplayMode
 
 ## Overview
-- Documentation for `UIDisplayMode`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `UIDisplayMode(DisplayMode.NORMAL)`
   - Creates a `UIDisplayMode` instance.
 - `UIDisplayMode(DisplayMode.COMPACT)`
@@ -14,8 +14,8 @@
 - `UIDisplayMode(DisplayMode mode)`
   - Creates a `UIDisplayMode` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `1f61d42fbba430e4523d707af198ee1fa83f7e3bf0acc25e73a250c41d2acba5`
+
 # AbstractBan
 
 ## Overview
-- Documentation for `AbstractBan`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.accesscontrol.ban`.
 
-## Constructors
+## Constructor Descriptions
 - `AbstractBan(UUID target, UUID by, Instant timestamp, String reason)`
   - Creates a `AbstractBan` instance.
 
-## Methods
-- `getTarget()`
+## Method Descriptions
+- `getTarget()`: Add description.
   - Executes `getTarget` behavior.
-- `getBy()`
+- `getBy()`: Add description.
   - Executes `getBy` behavior.
-- `getTimestamp()`
+- `getTimestamp()`: Add description.
   - Executes `getTimestamp` behavior.
-- `getReason()`
+- `getReason()`: Add description.
   - Executes `getReason` behavior.
-- `toJsonObject()`
+- `toJsonObject()`: Add description.
   - Executes `toJsonObject` behavior.
 
 ## Notes

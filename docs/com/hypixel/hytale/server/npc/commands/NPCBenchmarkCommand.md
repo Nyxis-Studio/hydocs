@@ -1,21 +1,21 @@
+**Source Hash:** `b31b72a18d01c7a7386a7d70a3031bc92cee0ac93c6338d2e869edd790554c39`
+
 # NPCBenchmarkCommand
 
 ## Overview
-- Documentation for `NPCBenchmarkCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCBenchmarkCommand()`
   - Creates a `NPCBenchmarkCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
-- `logRoleDistribution(@Nonnull TimeDistributionRecorder rec, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`
+- `logRoleDistribution(@Nonnull TimeDistributionRecorder rec, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`: Add description.
   - Executes `logRoleDistribution` behavior.
-- `logSensorSupportUpdateTime(@Nonnull SensorSupportBenchmark bm, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`
+- `logSensorSupportUpdateTime(@Nonnull SensorSupportBenchmark bm, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`: Add description.
   - Executes `logSensorSupportUpdateTime` behavior.
-- `logSensorSupportLoS(@Nonnull SensorSupportBenchmark bm, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`
+- `logSensorSupportLoS(@Nonnull SensorSupportBenchmark bm, @Nonnull StringBuilder sb, @Nonnull Formatter formatter, @Nonnull String name)`: Add description.
   - Executes `logSensorSupportLoS` behavior.
 
 ## Notes

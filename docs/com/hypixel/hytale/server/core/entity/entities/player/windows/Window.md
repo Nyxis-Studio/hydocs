@@ -1,55 +1,55 @@
+**Source Hash:** `cf04369c554a825b255fa4172b3954a23009e6202ca90a520651c5d40b2268b1`
+
 # Window
 
 ## Overview
-- Documentation for `Window`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
+## Constructor Descriptions
 - `Window(@Nonnull WindowType windowType)`
   - Creates a `Window` instance.
 
-## Methods
-- `init(@Nonnull PlayerRef playerRef, @Nonnull WindowManager manager)`
+## Method Descriptions
+- `init(@Nonnull PlayerRef playerRef, @Nonnull WindowManager manager)`: Add description.
   - Executes `init` behavior.
-- `getData()`
+- `getData()`: Add description.
   - Executes `getData` behavior.
-- `onOpen0()`
+- `onOpen0()`: Add description.
   - Executes `onOpen0` behavior.
-- `onClose0()`
+- `onClose0()`: Add description.
   - Executes `onClose0` behavior.
-- `onOpen()`
+- `onOpen()`: Add description.
   - Executes `onOpen` behavior.
-- `onClose()`
+- `onClose()`: Add description.
   - Executes `onClose` behavior.
-- `handleAction(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull WindowAction action)`
+- `handleAction(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull WindowAction action)`: Add description.
   - Executes `handleAction` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `setId(int id)`
+- `setId(int id)`: Add description.
   - Executes `setId` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getPlayerRef()`
+- `getPlayerRef()`: Add description.
   - Executes `getPlayerRef` behavior.
-- `close()`
+- `close()`: Add description.
   - Executes `close` behavior.
-- `invalidate()`
+- `invalidate()`: Add description.
   - Executes `invalidate` behavior.
-- `setNeedRebuild()`
+- `setNeedRebuild()`: Add description.
   - Executes `setNeedRebuild` behavior.
-- `consumeIsDirty()`
+- `consumeIsDirty()`: Add description.
   - Executes `consumeIsDirty` behavior.
-- `consumeNeedRebuild()`
+- `consumeNeedRebuild()`: Add description.
   - Executes `consumeNeedRebuild` behavior.
-- `registerCloseEvent(@Nonnull Consumer<WindowCloseEvent> consumer)`
+- `registerCloseEvent(@Nonnull Consumer<WindowCloseEvent> consumer)`: Add description.
   - Executes `registerCloseEvent` behavior.
-- `registerCloseEvent(short priority, @Nonnull Consumer<WindowCloseEvent> consumer)`
+- `registerCloseEvent(short priority, @Nonnull Consumer<WindowCloseEvent> consumer)`: Add description.
   - Executes `registerCloseEvent` behavior.
-- `registerCloseEvent(@Nonnull EventPriority priority, @Nonnull Consumer<WindowCloseEvent> consumer)`
+- `registerCloseEvent(@Nonnull EventPriority priority, @Nonnull Consumer<WindowCloseEvent> consumer)`: Add description.
   - Executes `registerCloseEvent` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,46 +1,46 @@
+**Source Hash:** `7307229909335e7137ce40a9cb2c77216581c3a85ea666479b872c1e7e314ec4`
+
 # BuilderActionAttack
 
 ## Overview
-- Documentation for `BuilderActionAttack`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.combat.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getAttack(@Nonnull BuilderSupport builderSupport)`
+- `getAttack(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getAttack` behavior.
-- `getChargeTime(@Nonnull BuilderSupport support)`
+- `getChargeTime(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getChargeTime` behavior.
-- `getAttackPauseRange(@Nonnull BuilderSupport support)`
+- `getAttackPauseRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAttackPauseRange` behavior.
-- `getAimingTimeRange(@Nonnull BuilderSupport support)`
+- `getAimingTimeRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAimingTimeRange` behavior.
-- `getMeleeConeAngle()`
+- `getMeleeConeAngle()`: Add description.
   - Executes `getMeleeConeAngle` behavior.
-- `isCheckLineOfSight()`
+- `isCheckLineOfSight()`: Add description.
   - Executes `isCheckLineOfSight` behavior.
-- `isAvoidFriendlyFire()`
+- `isAvoidFriendlyFire()`: Add description.
   - Executes `isAvoidFriendlyFire` behavior.
-- `isDamageFriendlies()`
+- `isDamageFriendlies()`: Add description.
   - Executes `isDamageFriendlies` behavior.
-- `isSkipAiming()`
+- `isSkipAiming()`: Add description.
   - Executes `isSkipAiming` behavior.
-- `getChargeDistance(@Nonnull BuilderSupport support)`
+- `getChargeDistance(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getChargeDistance` behavior.
-- `getAttackParameterSlot(@Nonnull BuilderSupport support)`
+- `getAttackParameterSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAttackParameterSlot` behavior.
-- `getInteractionVars()`
+- `getInteractionVars()`: Add description.
   - Executes `getInteractionVars` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `4937e71bda786dc47a5821e2d1e1a5ef7600e91e5cbfd7ed82cd370be4e7ad89`
+
 # Scanner
 
 ## Overview
-- Documentation for `Scanner`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.scanners`.
 
-## Constructors
+## Constructor Descriptions
 - `Scanner()`
   - Creates a `Scanner` instance.
 
-## Methods
-- `scan(@Nonnull Context var1)`
+## Method Descriptions
+- `scan(@Nonnull Context var1)`: Add description.
   - Executes `scan` behavior.
-- `scanSpace()`
+- `scanSpace()`: Add description.
   - Executes `scanSpace` behavior.
-- `readSpaceWith(@Nonnull Pattern pattern)`
+- `readSpaceWith(@Nonnull Pattern pattern)`: Add description.
   - Executes `readSpaceWith` behavior.
-- `noScanner()`
+- `noScanner()`: Add description.
   - Executes `noScanner` behavior.
-- `scan(@Nonnull Context context)`
+- `scan(@Nonnull Context context)`: Add description.
   - Executes `scan` behavior.
 
 ## Notes

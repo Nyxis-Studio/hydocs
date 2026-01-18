@@ -1,47 +1,47 @@
+**Source Hash:** `70ea155f6ecdef1e141803aa7758c4257b47f1c2e1b35099dbe8a29d18f94ea0`
+
 # TetrahedronCaveNodeShape
 
 ## Overview
-- Documentation for `TetrahedronCaveNodeShape`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave.shape`.
 
-## Constructors
+## Constructor Descriptions
 - `TetrahedronCaveNodeShape(@Nonnull Vector3d o)`
   - Creates a `TetrahedronCaveNodeShape` instance.
 - `TetrahedronCaveNodeShape(origin)`
   - Creates a `TetrahedronCaveNodeShape` instance.
 
-## Methods
-- `getStart()`
+## Method Descriptions
+- `getStart()`: Add description.
   - Executes `getStart` behavior.
-- `getEnd()`
+- `getEnd()`: Add description.
   - Executes `getEnd` behavior.
-- `getAnchor(@Nonnull Vector3d vector, double tx, double ty, double tz)`
+- `getAnchor(@Nonnull Vector3d vector, double tx, double ty, double tz)`: Add description.
   - Executes `getAnchor` behavior.
-- `getBounds()`
+- `getBounds()`: Add description.
   - Executes `getBounds` behavior.
-- `getLowBoundX()`
+- `getLowBoundX()`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundZ()`
+- `getLowBoundZ()`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX()`
+- `getHighBoundX()`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundZ()`
+- `getHighBoundZ()`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `getLowBoundY()`
+- `getLowBoundY()`: Add description.
   - Executes `getLowBoundY` behavior.
-- `getHighBoundY()`
+- `getHighBoundY()`: Add description.
   - Executes `getHighBoundY` behavior.
-- `shouldReplace(int seed, double x, double z, int y)`
+- `shouldReplace(int seed, double x, double z, int y)`: Add description.
   - Executes `shouldReplace` behavior.
-- `getFloorPosition(int seed, double x, double z)`
+- `getFloorPosition(int seed, double x, double z)`: Add description.
   - Executes `getFloorPosition` behavior.
-- `getCeilingPosition(int seed, double x, double z)`
+- `getCeilingPosition(int seed, double x, double z)`: Add description.
   - Executes `getCeilingPosition` behavior.
-- `determine(@Nonnull Vector3d o, @Nonnull Vector3d n, double px, double py, double pz)`
+- `determine(@Nonnull Vector3d o, @Nonnull Vector3d n, double px, double py, double pz)`: Add description.
   - Executes `determine` behavior.
-- `determine(double ox, double oy, double oz, @Nonnull Vector3d n, double px, double py, double pz)`
+- `determine(double ox, double oy, double oz, @Nonnull Vector3d n, double px, double py, double pz)`: Add description.
   - Executes `determine` behavior.
-- `generateCaveNodeShape(Random random, CaveType caveType, CaveNode parentNode, CaveNodeType.CaveNodeChildEntry childEntry, @Nonnull Vector3d origin, float yaw, float pitch)`
+- `generateCaveNodeShape(Random random, CaveType caveType, CaveNode parentNode, CaveNodeType.CaveNodeChildEntry childEntry, @Nonnull Vector3d origin, float yaw, float pitch)`: Add description.
   - Executes `generateCaveNodeShape` behavior.
 
 ## Notes

@@ -1,28 +1,28 @@
+**Source Hash:** `d5771f3dced55f45c18b0cb8315ebd1249fa03d929dab5f201300f36dd052bad`
+
 # HashedBiCoordinateCache
 
 ## Overview
-- Documentation for `HashedBiCoordinateCache`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.datastructures.bicoordinatecache`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hash(int x, int z)`
+## Method Descriptions
+- `hash(int x, int z)`: Add description.
   - Executes `hash` behavior.
-- `get(int x, int z)`
+- `get(int x, int z)`: Add description.
   - Executes `get` behavior.
-- `isCached(int x, int z)`
+- `isCached(int x, int z)`: Add description.
   - Executes `isCached` behavior.
-- `save(int x, int z, @Nonnull T value)`
+- `save(int x, int z, @Nonnull T value)`: Add description.
   - Executes `save` behavior.
-- `flush(int x, int z)`
+- `flush(int x, int z)`: Add description.
   - Executes `flush` behavior.
-- `flush()`
+- `flush()`: Add description.
   - Executes `flush` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

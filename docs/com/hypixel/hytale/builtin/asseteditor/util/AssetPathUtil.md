@@ -1,18 +1,18 @@
+**Source Hash:** `7fb29eb3b59f07bb535ac10485f7edd4aa0da287110e6fbb8f6fcf28172c5ac8`
+
 # AssetPathUtil
 
 ## Overview
-- Documentation for `AssetPathUtil`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isInvalidFileName(@Nonnull Path path)`
+## Method Descriptions
+- `isInvalidFileName(@Nonnull Path path)`: Add description.
   - Executes `isInvalidFileName` behavior.
-- `removeInvalidFileNameChars(String name)`
+- `removeInvalidFileNameChars(String name)`: Add description.
   - Executes `removeInvalidFileNameChars` behavior.
-- `getIdFromPath(@Nonnull Path path)`
+- `getIdFromPath(@Nonnull Path path)`: Add description.
   - Executes `getIdFromPath` behavior.
 
 ## Notes

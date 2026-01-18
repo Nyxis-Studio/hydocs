@@ -1,48 +1,48 @@
+**Source Hash:** `92d9d1f4819dec481728e370cfae3f4b3a927c8b9df26d714863d5f0e3f1ea52`
+
 # CombatActionEvaluatorConfig
 
 ## Overview
-- Documentation for `CombatActionEvaluatorConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.evaluator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getAvailableActions()`
+## Method Descriptions
+- `getAvailableActions()`: Add description.
   - Executes `getAvailableActions` behavior.
-- `getActionSets()`
+- `getActionSets()`: Add description.
   - Executes `getActionSets` behavior.
-- `getRunConditions()`
+- `getRunConditions()`: Add description.
   - Executes `getRunConditions` behavior.
-- `getMinRunUtility()`
+- `getMinRunUtility()`: Add description.
   - Executes `getMinRunUtility` behavior.
-- `getMinActionUtility()`
+- `getMinActionUtility()`: Add description.
   - Executes `getMinActionUtility` behavior.
-- `getPredictabilityRange()`
+- `getPredictabilityRange()`: Add description.
   - Executes `getPredictabilityRange` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getBasicAttacks()`
+- `getBasicAttacks()`: Add description.
   - Executes `getBasicAttacks` behavior.
-- `getCombatActions()`
+- `getCombatActions()`: Add description.
   - Executes `getCombatActions` behavior.
-- `getAttacks()`
+- `getAttacks()`: Add description.
   - Executes `getAttacks` behavior.
-- `isRandom()`
+- `isRandom()`: Add description.
   - Executes `isRandom` behavior.
-- `getMaxRange()`
+- `getMaxRange()`: Add description.
   - Executes `getMaxRange` behavior.
-- `getMaxRangeSquared()`
+- `getMaxRangeSquared()`: Add description.
   - Executes `getMaxRangeSquared` behavior.
-- `getTimeout()`
+- `getTimeout()`: Add description.
   - Executes `getTimeout` behavior.
-- `getCooldownRange()`
+- `getCooldownRange()`: Add description.
   - Executes `getCooldownRange` behavior.
-- `getInteractionVars(InteractionContext c)`
+- `getInteractionVars(InteractionContext c)`: Add description.
   - Executes `getInteractionVars` behavior.
-- `isDamageFriendlies()`
+- `isDamageFriendlies()`: Add description.
   - Executes `isDamageFriendlies` behavior.
-- `shouldUseProjectedDistance()`
+- `shouldUseProjectedDistance()`: Add description.
   - Executes `shouldUseProjectedDistance` behavior.
 
 ## Notes

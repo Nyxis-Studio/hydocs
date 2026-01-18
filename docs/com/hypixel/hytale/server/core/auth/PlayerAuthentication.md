@@ -1,31 +1,31 @@
+**Source Hash:** `b791f021564dfac959eafd372b247a11fa03537af7cda2422338e6b853d57130`
+
 # PlayerAuthentication
 
 ## Overview
-- Documentation for `PlayerAuthentication`.
-- Declared as a class in `com.hypixel.hytale.server.core.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerAuthentication()`
   - Creates a `PlayerAuthentication` instance.
 - `PlayerAuthentication(@Nonnull UUID uuid, @Nonnull String username)`
   - Creates a `PlayerAuthentication` instance.
 
-## Methods
-- `getUsername()`
+## Method Descriptions
+- `getUsername()`: Add description.
   - Executes `getUsername` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `setUsername(@Nonnull String username)`
+- `setUsername(@Nonnull String username)`: Add description.
   - Executes `setUsername` behavior.
-- `setUuid(@Nonnull UUID uuid)`
+- `setUuid(@Nonnull UUID uuid)`: Add description.
   - Executes `setUuid` behavior.
-- `getReferralData()`
+- `getReferralData()`: Add description.
   - Executes `getReferralData` behavior.
-- `setReferralData(@Nullable byte[] referralData)`
+- `setReferralData(@Nullable byte[] referralData)`: Add description.
   - Executes `setReferralData` behavior.
-- `getReferralSource()`
+- `getReferralSource()`: Add description.
   - Executes `getReferralSource` behavior.
-- `setReferralSource(@Nullable HostAddress referralSource)`
+- `setReferralSource(@Nullable HostAddress referralSource)`: Add description.
   - Executes `setReferralSource` behavior.
 
 ## Notes

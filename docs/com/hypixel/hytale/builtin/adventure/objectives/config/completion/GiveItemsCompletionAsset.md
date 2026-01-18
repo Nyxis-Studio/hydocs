@@ -1,19 +1,19 @@
+**Source Hash:** `afcdbc90dabd2259abfa923df47b2e0b4da380ca15047b60520dd25a97589d9e`
+
 # GiveItemsCompletionAsset
 
 ## Overview
-- Documentation for `GiveItemsCompletionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.config.completion`.
 
-## Constructors
+## Constructor Descriptions
 - `GiveItemsCompletionAsset(String dropListId)`
   - Creates a `GiveItemsCompletionAsset` instance.
 - `GiveItemsCompletionAsset()`
   - Creates a `GiveItemsCompletionAsset` instance.
 
-## Methods
-- `getDropListId()`
+## Method Descriptions
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `a7eb250ab718510f4a7d0f5974d743bfa86eb8374afa7962bf8970b2aa99f83c`
+
 # WeightedAssignmentsAsset
 
 ## Overview
-- Documentation for `WeightedAssignmentsAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.propassignments`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull AssignmentsAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull AssignmentsAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

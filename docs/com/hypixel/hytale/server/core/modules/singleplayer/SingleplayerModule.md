@@ -1,39 +1,39 @@
+**Source Hash:** `8005285f893b3badd14ff6f56e510d7f4f1d2fabfa4dcb974a513968a2225829`
+
 # SingleplayerModule
 
 ## Overview
-- Documentation for `SingleplayerModule`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.singleplayer`.
 
-## Constructors
+## Constructor Descriptions
 - `SingleplayerModule(@Nonnull JavaPluginInit init)`
   - Creates a `SingleplayerModule` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `getAccess()`
+- `getAccess()`: Add description.
   - Executes `getAccess` behavior.
-- `getRequestedAccess()`
+- `getRequestedAccess()`: Add description.
   - Executes `getRequestedAccess` behavior.
-- `requestServerAccess(Access access)`
+- `requestServerAccess(Access access)`: Add description.
   - Executes `requestServerAccess` behavior.
-- `setPublicAddresses(List<InetSocketAddress> publicAddresses)`
+- `setPublicAddresses(List<InetSocketAddress> publicAddresses)`: Add description.
   - Executes `setPublicAddresses` behavior.
-- `updateAccess(@Nonnull Access access)`
+- `updateAccess(@Nonnull Access access)`: Add description.
   - Executes `updateAccess` behavior.
-- `checkClientPid()`
+- `checkClientPid()`: Add description.
   - Executes `checkClientPid` behavior.
-- `getUuid()`
+- `getUuid()`: Add description.
   - Executes `getUuid` behavior.
-- `getUsername()`
+- `getUsername()`: Add description.
   - Executes `getUsername` behavior.
-- `isOwner(@Nonnull PlayerRef player)`
+- `isOwner(@Nonnull PlayerRef player)`: Add description.
   - Executes `isOwner` behavior.
-- `isOwner(PlayerAuthentication playerAuth, @Nonnull UUID playerUuid)`
+- `isOwner(PlayerAuthentication playerAuth, @Nonnull UUID playerUuid)`: Add description.
   - Executes `isOwner` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `db9b00847f068e879c643419b0d5f52c09fe8c1ad38ca955bda0c6ab8dff2f90`
+
 # NPCThawCommand
 
 ## Overview
-- Documentation for `NPCThawCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCThawCommand()`
   - Creates a `NPCThawCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

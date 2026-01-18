@@ -1,15 +1,15 @@
+**Source Hash:** `15de44d3d711ea419529470a25705b03de66017d06ff4faf7b88828367bd0979`
+
 # AuthConfig
 
 ## Overview
-- Documentation for `AuthConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthConfig()`
   - Creates a `AuthConfig` instance.
 
-## Methods
-- `getServerAudience()`
+## Method Descriptions
+- `getServerAudience()`: Add description.
   - Executes `getServerAudience` behavior.
 
 ## Notes

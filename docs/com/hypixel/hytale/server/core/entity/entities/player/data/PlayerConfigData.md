@@ -1,56 +1,56 @@
+**Source Hash:** `bc77a612aedf055970ca02b8824424e3edc837735c67be93ca9fa5c1d2c4d3c4`
+
 # PlayerConfigData
 
 ## Overview
-- Documentation for `PlayerConfigData`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.data`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBlockIdVersion()`
+## Method Descriptions
+- `getBlockIdVersion()`: Add description.
   - Executes `getBlockIdVersion` behavior.
-- `setBlockIdVersion(int blockIdVersion)`
+- `setBlockIdVersion(int blockIdVersion)`: Add description.
   - Executes `setBlockIdVersion` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `setWorld(@Nonnull String world)`
+- `setWorld(@Nonnull String world)`: Add description.
   - Executes `setWorld` behavior.
-- `getPreset()`
+- `getPreset()`: Add description.
   - Executes `getPreset` behavior.
-- `setPreset(@Nonnull String preset)`
+- `setPreset(@Nonnull String preset)`: Add description.
   - Executes `setPreset` behavior.
-- `getKnownRecipes()`
+- `getKnownRecipes()`: Add description.
   - Executes `getKnownRecipes` behavior.
-- `setKnownRecipes(@Nonnull Set<String> knownRecipes)`
+- `setKnownRecipes(@Nonnull Set<String> knownRecipes)`: Add description.
   - Executes `setKnownRecipes` behavior.
-- `getPerWorldData()`
+- `getPerWorldData()`: Add description.
   - Executes `getPerWorldData` behavior.
-- `getPerWorldData(@Nonnull String worldName)`
+- `getPerWorldData(@Nonnull String worldName)`: Add description.
   - Executes `getPerWorldData` behavior.
-- `setPerWorldData(@Nonnull Map<String, PlayerWorldData> perWorldData)`
+- `setPerWorldData(@Nonnull Map<String, PlayerWorldData> perWorldData)`: Add description.
   - Executes `setPerWorldData` behavior.
-- `getDiscoveredZones()`
+- `getDiscoveredZones()`: Add description.
   - Executes `getDiscoveredZones` behavior.
-- `setDiscoveredZones(@Nonnull Set<String> discoveredZones)`
+- `setDiscoveredZones(@Nonnull Set<String> discoveredZones)`: Add description.
   - Executes `setDiscoveredZones` behavior.
-- `getDiscoveredInstances()`
+- `getDiscoveredInstances()`: Add description.
   - Executes `getDiscoveredInstances` behavior.
-- `setDiscoveredInstances(@Nonnull Set<UUID> discoveredInstances)`
+- `setDiscoveredInstances(@Nonnull Set<UUID> discoveredInstances)`: Add description.
   - Executes `setDiscoveredInstances` behavior.
-- `getReputationData()`
+- `getReputationData()`: Add description.
   - Executes `getReputationData` behavior.
-- `setReputationData(@Nonnull Object2IntMap<String> reputationData)`
+- `setReputationData(@Nonnull Object2IntMap<String> reputationData)`: Add description.
   - Executes `setReputationData` behavior.
-- `getActiveObjectiveUUIDs()`
+- `getActiveObjectiveUUIDs()`: Add description.
   - Executes `getActiveObjectiveUUIDs` behavior.
-- `setActiveObjectiveUUIDs(@Nonnull Set<UUID> activeObjectiveUUIDs)`
+- `setActiveObjectiveUUIDs(@Nonnull Set<UUID> activeObjectiveUUIDs)`: Add description.
   - Executes `setActiveObjectiveUUIDs` behavior.
-- `markChanged()`
+- `markChanged()`: Add description.
   - Executes `markChanged` behavior.
-- `consumeHasChanged()`
+- `consumeHasChanged()`: Add description.
   - Executes `consumeHasChanged` behavior.
-- `cleanup(@Nonnull Universe universe)`
+- `cleanup(@Nonnull Universe universe)`: Add description.
   - Executes `cleanup` behavior.
 
 ## Notes

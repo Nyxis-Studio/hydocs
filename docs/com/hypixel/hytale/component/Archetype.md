@@ -1,61 +1,61 @@
+**Source Hash:** `53bfdc5c209a92f77908378c63dbfc219ccc6b1ef7c4d115654d77326b0426e7`
+
 # Archetype
 
 ## Overview
-- Documentation for `Archetype`.
-- Declared as a class in `com.hypixel.hytale.component`.
 
-## Constructors
+## Constructor Descriptions
 - `Archetype(0, 0, ComponentType.EMPTY_ARRAY)`
   - Creates a `Archetype` instance.
 - `Archetype(int minIndex, int count, @Nonnull ComponentType<ECS_TYPE, ?>[] componentTypes)`
   - Creates a `Archetype` instance.
 
-## Methods
-- `empty()`
+## Method Descriptions
+- `empty()`: Add description.
   - Executes `empty` behavior.
-- `getMinIndex()`
+- `getMinIndex()`: Add description.
   - Executes `getMinIndex` behavior.
-- `count()`
+- `count()`: Add description.
   - Executes `count` behavior.
-- `length()`
+- `length()`: Add description.
   - Executes `length` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `contains(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`
+- `contains(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`: Add description.
   - Executes `contains` behavior.
-- `contains(@Nonnull Archetype<ECS_TYPE> archetype)`
+- `contains(@Nonnull Archetype<ECS_TYPE> archetype)`: Add description.
   - Executes `contains` behavior.
-- `validateComponentType(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`
+- `validateComponentType(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`: Add description.
   - Executes `validateComponentType` behavior.
-- `validateComponents(@Nonnull Component<ECS_TYPE>[] components, @Nullable ComponentType<ECS_TYPE, UnknownComponents<ECS_TYPE>> ignore)`
+- `validateComponents(@Nonnull Component<ECS_TYPE>[] components, @Nullable ComponentType<ECS_TYPE, UnknownComponents<ECS_TYPE>> ignore)`: Add description.
   - Executes `validateComponents` behavior.
-- `hasSerializableComponents(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`
+- `hasSerializableComponents(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`: Add description.
   - Executes `hasSerializableComponents` behavior.
-- `getSerializableArchetype(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`
+- `getSerializableArchetype(@Nonnull ComponentRegistry.Data<ECS_TYPE> data)`: Add description.
   - Executes `getSerializableArchetype` behavior.
-- `asExactQuery()`
+- `asExactQuery()`: Add description.
   - Executes `asExactQuery` behavior.
-- `of(@Nonnull ComponentType<ECS_TYPE, ?> componentTypes)`
+- `of(@Nonnull ComponentType<ECS_TYPE, ?> componentTypes)`: Add description.
   - Executes `of` behavior.
-- `of(ComponentType<ECS_TYPE, ?> ... componentTypes)`
+- `of(ComponentType<ECS_TYPE, ?> ... componentTypes)`: Add description.
   - Executes `of` behavior.
-- `add(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `add(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `add` behavior.
-- `remove(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `remove(@Nonnull Archetype<ECS_TYPE> archetype, @Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `remove` behavior.
-- `test(@Nonnull Archetype<ECS_TYPE> archetype)`
+- `test(@Nonnull Archetype<ECS_TYPE> archetype)`: Add description.
   - Executes `test` behavior.
-- `requiresComponentType(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`
+- `requiresComponentType(@Nonnull ComponentType<ECS_TYPE, ?> componentType)`: Add description.
   - Executes `requiresComponentType` behavior.
-- `validateRegistry(ComponentRegistry<ECS_TYPE> registry)`
+- `validateRegistry(ComponentRegistry<ECS_TYPE> registry)`: Add description.
   - Executes `validateRegistry` behavior.
-- `validate()`
+- `validate()`: Add description.
   - Executes `validate` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

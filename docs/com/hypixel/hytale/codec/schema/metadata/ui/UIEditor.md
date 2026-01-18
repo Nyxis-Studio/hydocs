@@ -1,23 +1,23 @@
+**Source Hash:** `061221e7fda510807a6d7fb5cc74eddd721d7dd0371341627373b06d7d08c6ee`
+
 # UIEditor
 
 ## Overview
-- Documentation for `UIEditor`.
-- Declared as a class in `com.hypixel.hytale.codec.schema.metadata.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `UIEditor(EditorComponent component)`
   - Creates a `UIEditor` instance.
 
-## Methods
-- `modify(@Nonnull Schema schema)`
+## Method Descriptions
+- `modify(@Nonnull Schema schema)`: Add description.
   - Executes `modify` behavior.
-- `init()`
+- `init()`: Add description.
   - Executes `init` behavior.
-- `setStep(Double step)`
+- `setStep(Double step)`: Add description.
   - Executes `setStep` behavior.
-- `setSuffix(String suffix)`
+- `setSuffix(String suffix)`: Add description.
   - Executes `setSuffix` behavior.
-- `setMaxDecimalPlaces(Integer maxDecimalPlaces)`
+- `setMaxDecimalPlaces(Integer maxDecimalPlaces)`: Add description.
   - Executes `setMaxDecimalPlaces` behavior.
 
 ## Notes

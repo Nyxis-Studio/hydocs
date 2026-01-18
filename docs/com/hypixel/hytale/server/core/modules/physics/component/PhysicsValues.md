@@ -1,10 +1,10 @@
+**Source Hash:** `fdd7a4a6edcf215af6fd5a1be470e731dead88a0175950e146e2526112b04c9a`
+
 # PhysicsValues
 
 ## Overview
-- Documentation for `PhysicsValues`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.component`.
 
-## Constructors
+## Constructor Descriptions
 - `PhysicsValues()`
   - Creates a `PhysicsValues` instance.
 - `PhysicsValues(@Nonnull PhysicsValues other)`
@@ -14,26 +14,26 @@
 - `PhysicsValues(this)`
   - Creates a `PhysicsValues` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `replaceValues(@Nonnull PhysicsValues other)`
+- `replaceValues(@Nonnull PhysicsValues other)`: Add description.
   - Executes `replaceValues` behavior.
-- `resetToDefault()`
+- `resetToDefault()`: Add description.
   - Executes `resetToDefault` behavior.
-- `scale(float scale)`
+- `scale(float scale)`: Add description.
   - Executes `scale` behavior.
-- `getMass()`
+- `getMass()`: Add description.
   - Executes `getMass` behavior.
-- `getDragCoefficient()`
+- `getDragCoefficient()`: Add description.
   - Executes `getDragCoefficient` behavior.
-- `isInvertedGravity()`
+- `isInvertedGravity()`: Add description.
   - Executes `isInvertedGravity` behavior.
-- `getDefault()`
+- `getDefault()`: Add description.
   - Executes `getDefault` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,87 +1,87 @@
+**Source Hash:** `8c29517a9e720f9771ea885747394e4071dfff07d60167ec376755f6cacba33c`
+
 # MotionControllerDive
 
 ## Overview
-- Documentation for `MotionControllerDive`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers`.
 
-## Constructors
+## Constructor Descriptions
 - `MotionControllerDive(@Nonnull BuilderSupport builderSupport, @Nonnull BuilderMotionControllerDive builder)`
   - Creates a `MotionControllerDive` instance.
 
-## Methods
-- `activate()`
+## Method Descriptions
+- `activate()`: Add description.
   - Executes `activate` behavior.
-- `getWanderVerticalMovementRatio()`
+- `getWanderVerticalMovementRatio()`: Add description.
   - Executes `getWanderVerticalMovementRatio` behavior.
-- `computeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering steering, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `computeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering steering, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeMove` behavior.
-- `shouldDampenAppliedVelocitiesY()`
+- `shouldDampenAppliedVelocitiesY()`: Add description.
   - Executes `shouldDampenAppliedVelocitiesY` behavior.
-- `shouldAlwaysUseGroundResistance()`
+- `shouldAlwaysUseGroundResistance()`: Add description.
   - Executes `shouldAlwaysUseGroundResistance` behavior.
-- `computeTranslation(@Nonnull Vector3d translation, double dt, float heading, double moveSpeed, double climbSpeed)`
+- `computeTranslation(@Nonnull Vector3d translation, double dt, float heading, double moveSpeed, double climbSpeed)`: Add description.
   - Executes `computeTranslation` behavior.
-- `isNearZero(float angle)`
+- `isNearZero(float angle)`: Add description.
   - Executes `isNearZero` behavior.
-- `setMotionKind(MotionKind motionKind)`
+- `setMotionKind(MotionKind motionKind)`: Add description.
   - Executes `setMotionKind` behavior.
-- `executeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `executeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `executeMove` behavior.
-- `constrainRotations(Role role, @Nonnull TransformComponent transform)`
+- `constrainRotations(Role role, @Nonnull TransformComponent transform)`: Add description.
   - Executes `constrainRotations` behavior.
-- `getCurrentMaxBodyRotationSpeed()`
+- `getCurrentMaxBodyRotationSpeed()`: Add description.
   - Executes `getCurrentMaxBodyRotationSpeed` behavior.
-- `canAct(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canAct(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canAct` behavior.
-- `inAir()`
+- `inAir()`: Add description.
   - Executes `inAir` behavior.
-- `inWater()`
+- `inWater()`: Add description.
   - Executes `inWater` behavior.
-- `onGround()`
+- `onGround()`: Add description.
   - Executes `onGround` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `bisect(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d validPosition, double validDistance, @Nonnull Vector3d invalidPosition, double invalidDistance, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `bisect(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d validPosition, double validDistance, @Nonnull Vector3d invalidPosition, double invalidDistance, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `bisect` behavior.
-- `bisect(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `bisect(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `bisect` behavior.
-- `probeMove(@Nonnull Ref<EntityStore> ref, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `probeMove(@Nonnull Ref<EntityStore> ref, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `probeMove` behavior.
-- `spawned()`
+- `spawned()`: Add description.
   - Executes `spawned` behavior.
-- `getCurrentSpeed()`
+- `getCurrentSpeed()`: Add description.
   - Executes `getCurrentSpeed` behavior.
-- `getCurrentTurnRadius()`
+- `getCurrentTurnRadius()`: Add description.
   - Executes `getCurrentTurnRadius` behavior.
-- `getMaxClimbAngle()`
+- `getMaxClimbAngle()`: Add description.
   - Executes `getMaxClimbAngle` behavior.
-- `getMaxSinkAngle()`
+- `getMaxSinkAngle()`: Add description.
   - Executes `getMaxSinkAngle` behavior.
-- `getMaximumSpeed()`
+- `getMaximumSpeed()`: Add description.
   - Executes `getMaximumSpeed` behavior.
-- `isFastMotionKind(double speed)`
+- `isFastMotionKind(double speed)`: Add description.
   - Executes `isFastMotionKind` behavior.
-- `is2D()`
+- `is2D()`: Add description.
   - Executes `is2D` behavior.
-- `canRestAtPlace()`
+- `canRestAtPlace()`: Add description.
   - Executes `canRestAtPlace` behavior.
-- `getDesiredAltitudeWeight()`
+- `getDesiredAltitudeWeight()`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
-- `getHeightOverGround()`
+- `getHeightOverGround()`: Add description.
   - Executes `getHeightOverGround` behavior.
-- `estimateVelocity(Steering steering, @Nonnull Vector3d velocityOut)`
+- `estimateVelocity(Steering steering, @Nonnull Vector3d velocityOut)`: Add description.
   - Executes `estimateVelocity` behavior.
-- `updateModelParameters(Ref<EntityStore> ref, Model model, @Nonnull Box boundingBox, ComponentAccessor<EntityStore> componentAccessor)`
+- `updateModelParameters(Ref<EntityStore> ref, Model model, @Nonnull Box boundingBox, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateModelParameters` behavior.
-- `dampForceVelocity(@Nonnull Vector3d forceVelocity, double forceVelocityDamping, double interval, ComponentAccessor<EntityStore> componentAccessor)`
+- `dampForceVelocity(@Nonnull Vector3d forceVelocity, double forceVelocityDamping, double interval, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `dampForceVelocity` behavior.
-- `relativeSwimDepthToBoundingBox(double swimDepth, @Nullable Box boundingBox, float eyeHeight)`
+- `relativeSwimDepthToBoundingBox(double swimDepth, @Nullable Box boundingBox, float eyeHeight)`: Add description.
   - Executes `relativeSwimDepthToBoundingBox` behavior.
-- `relativeSwimDepthToHeight(double swimDepth, @Nullable Box boundingBox, float eyeHeight)`
+- `relativeSwimDepthToHeight(double swimDepth, @Nullable Box boundingBox, float eyeHeight)`: Add description.
   - Executes `relativeSwimDepthToHeight` behavior.
-- `relativeSwimDepthToHeight(@Nullable Ref<EntityStore> ref, double swimDepth, Model model, Box boundingBox, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `relativeSwimDepthToHeight(@Nullable Ref<EntityStore> ref, double swimDepth, Model model, Box boundingBox, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `relativeSwimDepthToHeight` behavior.
-- `getDampingDeceleration()`
+- `getDampingDeceleration()`: Add description.
   - Executes `getDampingDeceleration` behavior.
 
 ## Notes

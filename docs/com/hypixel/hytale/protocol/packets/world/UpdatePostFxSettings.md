@@ -1,10 +1,10 @@
+**Source Hash:** `9150434c4739b52c415b02d38e3df053934860ca6e5336a3bd5f0b85d681b2fe`
+
 # UpdatePostFxSettings
 
 ## Overview
-- Documentation for `UpdatePostFxSettings`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdatePostFxSettings()`
   - Creates a `UpdatePostFxSettings` instance.
 - `UpdatePostFxSettings(float globalIntensity, float power, float sunshaftScale, float sunIntensity, float sunshaftIntensity)`
@@ -12,24 +12,24 @@
 - `UpdatePostFxSettings(@Nonnull UpdatePostFxSettings other)`
   - Creates a `UpdatePostFxSettings` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

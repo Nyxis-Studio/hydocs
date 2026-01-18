@@ -1,15 +1,15 @@
+**Source Hash:** `932d97ff593f58f672da500ee6f4ca1ea28841dd2ccb8e8f070dfa1e5e525dc8`
+
 # NoiseTypeJson
 
 ## Overview
-- Documentation for `NoiseTypeJson`.
-- Declared as a enum in `com.hypixel.hytale.procedurallib.json`.
 
-## Constructors
+## Constructor Descriptions
 - `NoiseTypeJson(NoiseType noiseType, Class<T> loaderClass)`
   - Creates a `NoiseTypeJson` instance.
 
-## Methods
-- `newLoader(SeedString<K> seed, Path dataFolder, JsonElement json)`
+## Method Descriptions
+- `newLoader(SeedString<K> seed, Path dataFolder, JsonElement json)`: Add description.
   - Executes `newLoader` behavior.
 
 ## Notes

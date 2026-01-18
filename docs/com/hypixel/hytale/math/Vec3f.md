@@ -1,10 +1,10 @@
+**Source Hash:** `4b30227b81afcd874102eb9edd884dd60abe0cbbe0719aa4068d317f7a3684fa`
+
 # Vec3f
 
 ## Overview
-- Documentation for `Vec3f`.
-- Declared as a class in `com.hypixel.hytale.math`.
 
-## Constructors
+## Constructor Descriptions
 - `Vec3f(float x, float y, float z)`
   - Creates a `Vec3f` instance.
 - `Vec3f()`
@@ -14,12 +14,12 @@
 - `Vec3f(" + this.x + ", " + this.y + ", " + this.z + ")`
   - Creates a `Vec3f` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

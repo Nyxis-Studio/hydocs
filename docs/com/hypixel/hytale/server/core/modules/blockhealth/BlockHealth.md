@@ -1,10 +1,10 @@
+**Source Hash:** `e044795c20c58aad16af7377504f117477e99be35165df2fd08c7b72c4a36bfb`
+
 # BlockHealth
 
 ## Overview
-- Documentation for `BlockHealth`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.blockhealth`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockHealth(1.0f, Instant.MIN)`
   - Creates a `BlockHealth` instance.
 - `BlockHealth()`
@@ -14,26 +14,26 @@
 - `BlockHealth(this.health, this.lastDamageGameTime)`
   - Creates a `BlockHealth` instance.
 
-## Methods
-- `setHealth(float health)`
+## Method Descriptions
+- `setHealth(float health)`: Add description.
   - Executes `setHealth` behavior.
-- `setLastDamageGameTime(Instant lastDamageGameTime)`
+- `setLastDamageGameTime(Instant lastDamageGameTime)`: Add description.
   - Executes `setLastDamageGameTime` behavior.
-- `getHealth()`
+- `getHealth()`: Add description.
   - Executes `getHealth` behavior.
-- `getLastDamageGameTime()`
+- `getLastDamageGameTime()`: Add description.
   - Executes `getLastDamageGameTime` behavior.
-- `isDestroyed()`
+- `isDestroyed()`: Add description.
   - Executes `isDestroyed` behavior.
-- `isFullHealth()`
+- `isFullHealth()`: Add description.
   - Executes `isFullHealth` behavior.
-- `deserialize(@Nonnull ByteBuf buf, byte version)`
+- `deserialize(@Nonnull ByteBuf buf, byte version)`: Add description.
   - Executes `deserialize` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

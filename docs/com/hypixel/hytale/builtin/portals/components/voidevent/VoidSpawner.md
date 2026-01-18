@@ -1,19 +1,19 @@
+**Source Hash:** `5f6ba3da0474951c4b303578b57410cdd5e23904e5865191bdb62e4ad4c7a1a9`
+
 # VoidSpawner
 
 ## Overview
-- Documentation for `VoidSpawner`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.components.voidevent`.
 
-## Constructors
+## Constructor Descriptions
 - `VoidSpawner()`
   - Creates a `VoidSpawner` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getSpawnBeaconUuids()`
+- `getSpawnBeaconUuids()`: Add description.
   - Executes `getSpawnBeaconUuids` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

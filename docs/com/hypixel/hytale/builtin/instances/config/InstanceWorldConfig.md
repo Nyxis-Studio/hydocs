@@ -1,31 +1,31 @@
+**Source Hash:** `72d7c56940ed281deb039de78f7132f73786158f6f5102e4951e58dc6723a01a`
+
 # InstanceWorldConfig
 
 ## Overview
-- Documentation for `InstanceWorldConfig`.
-- Declared as a class in `com.hypixel.hytale.builtin.instances.config`.
 
-## Constructors
+## Constructor Descriptions
 - `InstanceWorldConfig()`
   - Creates a `InstanceWorldConfig` instance.
 
-## Methods
-- `get(@Nonnull WorldConfig config)`
+## Method Descriptions
+- `get(@Nonnull WorldConfig config)`: Add description.
   - Executes `get` behavior.
-- `ensureAndGet(@Nonnull WorldConfig config)`
+- `ensureAndGet(@Nonnull WorldConfig config)`: Add description.
   - Executes `ensureAndGet` behavior.
-- `shouldPreventReconnection()`
+- `shouldPreventReconnection()`: Add description.
   - Executes `shouldPreventReconnection` behavior.
-- `getRemovalConditions()`
+- `getRemovalConditions()`: Add description.
   - Executes `getRemovalConditions` behavior.
-- `setRemovalConditions(RemovalCondition ... removalConditions)`
+- `setRemovalConditions(RemovalCondition ... removalConditions)`: Add description.
   - Executes `setRemovalConditions` behavior.
-- `getReturnPoint()`
+- `getReturnPoint()`: Add description.
   - Executes `getReturnPoint` behavior.
-- `setReturnPoint(@Nullable WorldReturnPoint returnPoint)`
+- `setReturnPoint(@Nullable WorldReturnPoint returnPoint)`: Add description.
   - Executes `setReturnPoint` behavior.
-- `getDiscovery()`
+- `getDiscovery()`: Add description.
   - Executes `getDiscovery` behavior.
-- `setDiscovery(@Nullable InstanceDiscoveryConfig discovery)`
+- `setDiscovery(@Nullable InstanceDiscoveryConfig discovery)`: Add description.
   - Executes `setDiscovery` behavior.
 
 ## Notes

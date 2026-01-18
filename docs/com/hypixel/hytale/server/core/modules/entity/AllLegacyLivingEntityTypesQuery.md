@@ -1,21 +1,21 @@
+**Source Hash:** `74a9b5d91463f9d4e198a635188a5e450f077cabcb28651d8a8eee6d63ca60c5`
+
 # AllLegacyLivingEntityTypesQuery
 
 ## Overview
-- Documentation for `AllLegacyLivingEntityTypesQuery`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `AllLegacyLivingEntityTypesQuery()`
   - Creates a `AllLegacyLivingEntityTypesQuery` instance.
 
-## Methods
-- `test(@Nonnull Archetype<EntityStore> archetype)`
+## Method Descriptions
+- `test(@Nonnull Archetype<EntityStore> archetype)`: Add description.
   - Executes `test` behavior.
-- `requiresComponentType(ComponentType<EntityStore, ?> componentType)`
+- `requiresComponentType(ComponentType<EntityStore, ?> componentType)`: Add description.
   - Executes `requiresComponentType` behavior.
-- `validateRegistry(ComponentRegistry<EntityStore> registry)`
+- `validateRegistry(ComponentRegistry<EntityStore> registry)`: Add description.
   - Executes `validateRegistry` behavior.
-- `validate()`
+- `validate()`: Add description.
   - Executes `validate` behavior.
 
 ## Notes

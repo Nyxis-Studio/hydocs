@@ -1,15 +1,15 @@
+**Source Hash:** `2ef3eefcdd16cc0158324f9364ebb9d263a5da86a9195645f775b4684978cf7b`
+
 # ReputationSetCommand
 
 ## Overview
-- Documentation for `ReputationSetCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.reputation.command`.
 
-## Constructors
+## Constructor Descriptions
 - `ReputationSetCommand()`
   - Creates a `ReputationSetCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nullable Ref<EntityStore> sourceRef, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

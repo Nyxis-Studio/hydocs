@@ -1,10 +1,10 @@
+**Source Hash:** `63b9af30159dea62e60ddb4f83dce7267c51fbf4498489120d9d66178b202ffe`
+
 # PixelProvider
 
 ## Overview
-- Documentation for `PixelProvider`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.zoom`.
 
-## Constructors
+## Constructor Descriptions
 - `PixelProvider(@Nonnull BufferedImage image)`
   - Creates a `PixelProvider` instance.
 - `PixelProvider(PixelProvider other)`
@@ -12,22 +12,22 @@
 - `PixelProvider(this)`
   - Creates a `PixelProvider` instance.
 
-## Methods
-- `getWidth()`
+## Method Descriptions
+- `getWidth()`: Add description.
   - Executes `getWidth` behavior.
-- `getHeight()`
+- `getHeight()`: Add description.
   - Executes `getHeight` behavior.
-- `getPixels()`
+- `getPixels()`: Add description.
   - Executes `getPixels` behavior.
-- `setPixel(int x, int y, int pixel)`
+- `setPixel(int x, int y, int pixel)`: Add description.
   - Executes `setPixel` behavior.
-- `getPixel(int x, int y)`
+- `getPixel(int x, int y)`: Add description.
   - Executes `getPixel` behavior.
-- `arrIndex(int x, int y)`
+- `arrIndex(int x, int y)`: Add description.
   - Executes `arrIndex` behavior.
-- `copy()`
+- `copy()`: Add description.
   - Executes `copy` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

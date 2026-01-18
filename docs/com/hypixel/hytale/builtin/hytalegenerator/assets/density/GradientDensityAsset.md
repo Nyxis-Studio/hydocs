@@ -1,16 +1,16 @@
+**Source Hash:** `8b1ac0a095eeec57c89b8679c002ee0ec1a5d402f92d11a6b670c14225ec7dc0`
+
 # GradientDensityAsset
 
 ## Overview
-- Documentation for `GradientDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

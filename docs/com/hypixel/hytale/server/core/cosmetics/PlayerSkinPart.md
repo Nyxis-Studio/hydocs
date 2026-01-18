@@ -1,39 +1,39 @@
+**Source Hash:** `88b1daf5026519e7f9c6d893830faf95251f3bd8bea20d9d5c83a375efaee639`
+
 # PlayerSkinPart
 
 ## Overview
-- Documentation for `PlayerSkinPart`.
-- Declared as a class in `com.hypixel.hytale.server.core.cosmetics`.
 
-## Constructors
+## Constructor Descriptions
 - `PlayerSkinPart(@Nonnull BsonDocument doc)`
   - Creates a `PlayerSkinPart` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getModel()`
+- `getModel()`: Add description.
   - Executes `getModel` behavior.
-- `getTextures()`
+- `getTextures()`: Add description.
   - Executes `getTextures` behavior.
-- `getVariants()`
+- `getVariants()`: Add description.
   - Executes `getVariants` behavior.
-- `isDefaultAsset()`
+- `isDefaultAsset()`: Add description.
   - Executes `isDefaultAsset` behavior.
-- `getTags()`
+- `getTags()`: Add description.
   - Executes `getTags` behavior.
-- `getHairType()`
+- `getHairType()`: Add description.
   - Executes `getHairType` behavior.
-- `doesRequireGenericHaircut()`
+- `doesRequireGenericHaircut()`: Add description.
   - Executes `doesRequireGenericHaircut` behavior.
-- `getHeadAccessoryType()`
+- `getHeadAccessoryType()`: Add description.
   - Executes `getHeadAccessoryType` behavior.
-- `getGreyscaleTexture()`
+- `getGreyscaleTexture()`: Add description.
   - Executes `getGreyscaleTexture` behavior.
-- `getGradientSet()`
+- `getGradientSet()`: Add description.
   - Executes `getGradientSet` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

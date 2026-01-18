@@ -1,17 +1,17 @@
+**Source Hash:** `d4b26146f0c7deb280e2eee251c22829397810c867480fbb771b31f7fe5d361a`
+
 # ParticleUVOption
 
 ## Overview
-- Documentation for `ParticleUVOption`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleUVOption(int value)`
   - Creates a `ParticleUVOption` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

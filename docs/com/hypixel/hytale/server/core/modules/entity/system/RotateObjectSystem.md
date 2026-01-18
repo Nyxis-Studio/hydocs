@@ -1,17 +1,17 @@
+**Source Hash:** `4a1ae7d0e13cb464ba6486ba6efc7962b5bbf8cbe828f07789a4e505275517e2`
+
 # RotateObjectSystem
 
 ## Overview
-- Documentation for `RotateObjectSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.system`.
 
-## Constructors
+## Constructor Descriptions
 - `RotateObjectSystem(@Nonnull ComponentType<EntityStore, TransformComponent> transformComponentType, @Nonnull ComponentType<EntityStore, RotateObjectComponent> rotateObjectComponentType)`
   - Creates a `RotateObjectSystem` instance.
 
-## Methods
-- `getQuery()`
+## Method Descriptions
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
 
 ## Notes

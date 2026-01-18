@@ -1,55 +1,55 @@
+**Source Hash:** `e9eb778926a6125f7f139e5b1e28459e48764cecd870c11ce7e89ead152f312c`
+
 # SensorEntityBase
 
 ## Overview
-- Documentation for `SensorEntityBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorEntityBase(@Nonnull BuilderSensorEntityBase builder, ISensorEntityPrioritiser prioritiser, @Nonnull BuilderSupport builderSupport)`
   - Creates a `SensorEntityBase` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `done()`
+- `done()`: Add description.
   - Executes `done` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `registerWithSupport(@Nonnull Role role)`
+- `registerWithSupport(@Nonnull Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `initialisePrioritiser()`
+- `initialisePrioritiser()`: Add description.
   - Executes `initialisePrioritiser` behavior.
-- `isGetPlayers()`
+- `isGetPlayers()`: Add description.
   - Executes `isGetPlayers` behavior.
-- `isGetNPCs()`
+- `isGetNPCs()`: Add description.
   - Executes `isGetNPCs` behavior.
-- `isExcludingOwnType()`
+- `isExcludingOwnType()`: Add description.
   - Executes `isExcludingOwnType` behavior.
-- `filterLockedEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `filterLockedEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `filterLockedEntity` behavior.
-- `filterEntityWithRange(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `filterEntityWithRange(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `filterEntityWithRange` behavior.
-- `filterEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `filterEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `filterEntity` behavior.
-- `filterPrioritisedPlayer(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `filterPrioritisedPlayer(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `filterPrioritisedPlayer` behavior.
-- `filterPrioritisedNPC(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `filterPrioritisedNPC(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `filterPrioritisedNPC` behavior.
-- `filterPrioritisedEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store, @Nonnull IEntityByPriorityFilter playerPrioritiser)`
+- `filterPrioritisedEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store, @Nonnull IEntityByPriorityFilter playerPrioritiser)`: Add description.
   - Executes `filterPrioritisedEntity` behavior.
-- `findPlayerOrEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+- `findPlayerOrEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `findPlayerOrEntity` behavior.
 
 ## Notes

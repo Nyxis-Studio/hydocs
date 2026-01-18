@@ -1,30 +1,30 @@
+**Source Hash:** `11644b1f15fdc5e7a5e37ffc452a50177f92ac0706485ce949dff325bd30b6e5`
+
 # BuilderSensorBeacon
 
 ## Overview
-- Documentation for `BuilderSensorBeacon`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getMessageSlot(@Nonnull BuilderSupport builderSupport)`
+- `getMessageSlot(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getMessageSlot` behavior.
-- `getRange(@Nonnull BuilderSupport builderSupport)`
+- `getRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRange` behavior.
-- `getTargetSlot(@Nonnull BuilderSupport support)`
+- `getTargetSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getTargetSlot` behavior.
-- `isConsume()`
+- `isConsume()`: Add description.
   - Executes `isConsume` behavior.
 
 ## Notes

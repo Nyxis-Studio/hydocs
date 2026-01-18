@@ -1,22 +1,22 @@
+**Source Hash:** `206a80ce23323d1329f2eb668a7189b94eb161d9afbcfa581a16baa930d5bf48`
+
 # DummyWorldGenProvider
 
 ## Overview
-- Documentation for `DummyWorldGenProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen.provider`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getGenerator()`
+## Method Descriptions
+- `getGenerator()`: Add description.
   - Executes `getGenerator` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getTimings()`
+- `getTimings()`: Add description.
   - Executes `getTimings` behavior.
-- `getSpawnPoints(int seed)`
+- `getSpawnPoints(int seed)`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `generate(int seed, long index, int cx, int cz, LongPredicate stillNeeded)`
+- `generate(int seed, long index, int cx, int cz, LongPredicate stillNeeded)`: Add description.
   - Executes `generate` behavior.
 
 ## Notes

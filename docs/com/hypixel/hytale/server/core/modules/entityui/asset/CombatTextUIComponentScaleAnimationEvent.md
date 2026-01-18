@@ -1,16 +1,16 @@
+**Source Hash:** `a4ef2ba89638cdaedc47addc6bc2b54733c50c70a58e2a23ae5f79921fc199e5`
+
 # CombatTextUIComponentScaleAnimationEvent
 
 ## Overview
-- Documentation for `CombatTextUIComponentScaleAnimationEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entityui.asset`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `generatePacket()`
+## Method Descriptions
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `24ce285e91733e81c5d9e17f5a7a930b97d65dd53b0b81829e9a3f54e7ca2533`
+
 # Indexer
 
 ## Overview
-- Documentation for `Indexer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIdFor(Object o)`
+## Method Descriptions
+- `getIdFor(Object o)`: Add description.
   - Executes `getIdFor` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
 
 ## Notes

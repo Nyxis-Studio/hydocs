@@ -1,26 +1,26 @@
+**Source Hash:** `f0004c4b970edff8f95e36d1c594f776bcd886b80f8036e288b255c885b482af`
+
 # CollisionModuleConfig
 
 ## Overview
-- Documentation for `CollisionModuleConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getExtentMax()`
+## Method Descriptions
+- `getExtentMax()`: Add description.
   - Executes `getExtentMax` behavior.
-- `setExtentMax(double extentMax)`
+- `setExtentMax(double extentMax)`: Add description.
   - Executes `setExtentMax` behavior.
-- `isDumpInvalidBlocks()`
+- `isDumpInvalidBlocks()`: Add description.
   - Executes `isDumpInvalidBlocks` behavior.
-- `setDumpInvalidBlocks(boolean dumpInvalidBlocks)`
+- `setDumpInvalidBlocks(boolean dumpInvalidBlocks)`: Add description.
   - Executes `setDumpInvalidBlocks` behavior.
-- `getMinimumThickness()`
+- `getMinimumThickness()`: Add description.
   - Executes `getMinimumThickness` behavior.
-- `setMinimumThickness(double minimumThickness)`
+- `setMinimumThickness(double minimumThickness)`: Add description.
   - Executes `setMinimumThickness` behavior.
-- `hasMinimumThickness()`
+- `hasMinimumThickness()`: Add description.
   - Executes `hasMinimumThickness` behavior.
 
 ## Notes

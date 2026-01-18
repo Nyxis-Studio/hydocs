@@ -1,48 +1,48 @@
+**Source Hash:** `3330c1441728cc3c1145be8b6eb378d0b4bd4e566f34b6e53cf60a7c2f1db150`
+
 # IChunkBounds
 
 ## Overview
-- Documentation for `IChunkBounds`.
-- Declared as a interface in `com.hypixel.hytale.server.worldgen.util.bounds`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getLowBoundX()`
+## Method Descriptions
+- `getLowBoundX()`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundZ()`
+- `getLowBoundZ()`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX()`
+- `getHighBoundX()`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundZ()`
+- `getHighBoundZ()`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `getLowBoundX(@Nonnull PrefabRotation rotation)`
+- `getLowBoundX(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getLowBoundX` behavior.
-- `getLowBoundZ(@Nonnull PrefabRotation rotation)`
+- `getLowBoundZ(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getLowBoundZ` behavior.
-- `getHighBoundX(@Nonnull PrefabRotation rotation)`
+- `getHighBoundX(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getHighBoundX` behavior.
-- `getHighBoundZ(@Nonnull PrefabRotation rotation)`
+- `getHighBoundZ(@Nonnull PrefabRotation rotation)`: Add description.
   - Executes `getHighBoundZ` behavior.
-- `intersectsChunk(long chunkIndex)`
+- `intersectsChunk(long chunkIndex)`: Add description.
   - Executes `intersectsChunk` behavior.
-- `intersectsChunk(int chunkX, int chunkZ)`
+- `intersectsChunk(int chunkX, int chunkZ)`: Add description.
   - Executes `intersectsChunk` behavior.
-- `randomX(@Nonnull Random random)`
+- `randomX(@Nonnull Random random)`: Add description.
   - Executes `randomX` behavior.
-- `randomZ(@Nonnull Random random)`
+- `randomZ(@Nonnull Random random)`: Add description.
   - Executes `randomZ` behavior.
-- `fractionX(double d)`
+- `fractionX(double d)`: Add description.
   - Executes `fractionX` behavior.
-- `fractionZ(double d)`
+- `fractionZ(double d)`: Add description.
   - Executes `fractionZ` behavior.
-- `getLowChunkX()`
+- `getLowChunkX()`: Add description.
   - Executes `getLowChunkX` behavior.
-- `getLowChunkZ()`
+- `getLowChunkZ()`: Add description.
   - Executes `getLowChunkZ` behavior.
-- `getHighChunkX()`
+- `getHighChunkX()`: Add description.
   - Executes `getHighChunkX` behavior.
-- `getHighChunkZ()`
+- `getHighChunkZ()`: Add description.
   - Executes `getHighChunkZ` behavior.
 
 ## Notes

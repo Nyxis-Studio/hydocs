@@ -1,16 +1,16 @@
+**Source Hash:** `449e9951f0e39dd48db05e80f1d0901189da5d9f939c91b138f9fe6d6a29f70c`
+
 # SpawnUtil
 
 ## Overview
-- Documentation for `SpawnUtil`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `applyFirstSpawnTransform(@Nonnull Holder<EntityStore> holder, @Nonnull World world, @Nonnull WorldConfig worldConfig, @Nonnull UUID playerUuid)`
+## Method Descriptions
+- `applyFirstSpawnTransform(@Nonnull Holder<EntityStore> holder, @Nonnull World world, @Nonnull WorldConfig worldConfig, @Nonnull UUID playerUuid)`: Add description.
   - Executes `applyFirstSpawnTransform` behavior.
-- `applyTransform(@Nonnull Holder<EntityStore> holder, @Nonnull Transform transform)`
+- `applyTransform(@Nonnull Holder<EntityStore> holder, @Nonnull Transform transform)`: Add description.
   - Executes `applyTransform` behavior.
 
 ## Notes

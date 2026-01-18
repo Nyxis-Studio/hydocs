@@ -1,10 +1,10 @@
+**Source Hash:** `b4dc10ee6cf0a20f5026d16a0d360cb9a7132c28f5135956fb359a3bef03e2a9`
+
 # MaskArg
 
 ## Overview
-- Documentation for `MaskArg`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.buildertool.config.args`.
 
-## Constructors
+## Constructor Descriptions
 - `MaskArg(BlockMask.EMPTY, false)`
   - Creates a `MaskArg` instance.
 - `MaskArg()`
@@ -14,16 +14,16 @@
 - `MaskArg(BlockMask value, boolean required)`
   - Creates a `MaskArg` instance.
 
-## Methods
-- `getCodec()`
+## Method Descriptions
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `fromString(@Nonnull String str)`
+- `fromString(@Nonnull String str)`: Add description.
   - Executes `fromString` behavior.
-- `toMaskArgPacket()`
+- `toMaskArgPacket()`: Add description.
   - Executes `toMaskArgPacket` behavior.
-- `setupPacket(@Nonnull BuilderToolArg packet)`
+- `setupPacket(@Nonnull BuilderToolArg packet)`: Add description.
   - Executes `setupPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `d14e0473ec91191db484037f3a2066681ccc8cf8c2e276dea9297c57c56475f4`
+
 # ParseResult
 
 ## Overview
-- Documentation for `ParseResult`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.system`.
 
-## Constructors
+## Constructor Descriptions
 - `ParseResult()`
   - Creates a `ParseResult` instance.
 - `ParseResult(boolean throwExceptionWhenFailed)`
   - Creates a `ParseResult` instance.
 
-## Methods
-- `fail(@Nonnull Message reason, Message ... otherMessages)`
+## Method Descriptions
+- `fail(@Nonnull Message reason, Message ... otherMessages)`: Add description.
   - Executes `fail` behavior.
-- `fail(@Nonnull Message reason)`
+- `fail(@Nonnull Message reason)`: Add description.
   - Executes `fail` behavior.
-- `failed()`
+- `failed()`: Add description.
   - Executes `failed` behavior.
-- `sendMessages(@Nonnull CommandSender sender)`
+- `sendMessages(@Nonnull CommandSender sender)`: Add description.
   - Executes `sendMessages` behavior.
 
 ## Notes

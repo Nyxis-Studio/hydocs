@@ -1,27 +1,27 @@
+**Source Hash:** `0d70e26fd3cc99609a3484cd625589d8d9c6b6b5bce0933fb80d108241f705e3`
+
 # TagSetPlugin
 
 ## Overview
-- Documentation for `TagSetPlugin`.
-- Declared as a class in `com.hypixel.hytale.builtin.tagset`.
 
-## Constructors
+## Constructor Descriptions
 - `TagSetPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `TagSetPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `registerTagSetType(Class<T> clazz)`
+- `registerTagSetType(Class<T> clazz)`: Add description.
   - Executes `registerTagSetType` behavior.
-- `get(Class<T> clazz)`
+- `get(Class<T> clazz)`: Add description.
   - Executes `get` behavior.
-- `putAssetSets(@Nonnull Map<String, T> tagSetAssets, @Nonnull Object2IntMap<String> tagSetIndexMap, @Nonnull Object2IntMap<String> tagIndexMap)`
+- `putAssetSets(@Nonnull Map<String, T> tagSetAssets, @Nonnull Object2IntMap<String> tagSetIndexMap, @Nonnull Object2IntMap<String> tagIndexMap)`: Add description.
   - Executes `putAssetSets` behavior.
-- `tagInSet(int tagSet, int tagIndex)`
+- `tagInSet(int tagSet, int tagIndex)`: Add description.
   - Executes `tagInSet` behavior.
-- `getSet(int tagSet)`
+- `getSet(int tagSet)`: Add description.
   - Executes `getSet` behavior.
 
 ## Notes

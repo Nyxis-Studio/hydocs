@@ -1,51 +1,51 @@
+**Source Hash:** `de9b78657166269e2684684aedc33590538c97d78a4ebead00ec3c39b87103ac`
+
 # ComponentRegistryProxy
 
 ## Overview
-- Documentation for `ComponentRegistryProxy`.
-- Declared as a class in `com.hypixel.hytale.component`.
 
-## Constructors
+## Constructor Descriptions
 - `ComponentRegistryProxy(List<BooleanConsumer> registrations, ComponentRegistry<ECS_TYPE> registry)`
   - Creates a `ComponentRegistryProxy` instance.
 
-## Methods
-- `shutdown()`
+## Method Descriptions
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`: Add description.
   - Executes `registerComponent` behavior.
-- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`: Add description.
   - Executes `registerComponent` behavior.
-- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec, boolean skipValidation)`
+- `registerComponent(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec, boolean skipValidation)`: Add description.
   - Executes `registerComponent` behavior.
-- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`
+- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull Supplier<T> supplier)`: Add description.
   - Executes `registerResource` behavior.
-- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`
+- `registerResource(@Nonnull Class<? super T> tClass, @Nonnull String id, @Nonnull BuilderCodec<T> codec)`: Add description.
   - Executes `registerResource` behavior.
-- `registerSpatialResource(@Nonnull Supplier<SpatialStructure<Ref<ECS_TYPE>>> supplier)`
+- `registerSpatialResource(@Nonnull Supplier<SpatialStructure<Ref<ECS_TYPE>>> supplier)`: Add description.
   - Executes `registerSpatialResource` behavior.
-- `registerSystemType(@Nonnull Class<? super T> systemTypeClass)`
+- `registerSystemType(@Nonnull Class<? super T> systemTypeClass)`: Add description.
   - Executes `registerSystemType` behavior.
-- `registerEntityEventType(@Nonnull Class<? super T> eventTypeClass)`
+- `registerEntityEventType(@Nonnull Class<? super T> eventTypeClass)`: Add description.
   - Executes `registerEntityEventType` behavior.
-- `registerWorldEventType(@Nonnull Class<? super T> eventTypeClass)`
+- `registerWorldEventType(@Nonnull Class<? super T> eventTypeClass)`: Add description.
   - Executes `registerWorldEventType` behavior.
-- `registerSystemGroup()`
+- `registerSystemGroup()`: Add description.
   - Executes `registerSystemGroup` behavior.
-- `registerSystem(@Nonnull ISystem<ECS_TYPE> system)`
+- `registerSystem(@Nonnull ISystem<ECS_TYPE> system)`: Add description.
   - Executes `registerSystem` behavior.
-- `registerSystem(@Nonnull ISystem<ECS_TYPE> system, boolean bypassClassCheck)`
+- `registerSystem(@Nonnull ISystem<ECS_TYPE> system, boolean bypassClassCheck)`: Add description.
   - Executes `registerSystem` behavior.
-- `registerComponentType(@Nonnull ComponentType<ECS_TYPE, T> componentType)`
+- `registerComponentType(@Nonnull ComponentType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `registerComponentType` behavior.
-- `registerResourceType(@Nonnull ResourceType<ECS_TYPE, T> componentType)`
+- `registerResourceType(@Nonnull ResourceType<ECS_TYPE, T> componentType)`: Add description.
   - Executes `registerResourceType` behavior.
-- `registerSystemType(@Nonnull SystemType<ECS_TYPE, T> systemType)`
+- `registerSystemType(@Nonnull SystemType<ECS_TYPE, T> systemType)`: Add description.
   - Executes `registerSystemType` behavior.
-- `registerEntityEventType(@Nonnull EntityEventType<ECS_TYPE, T> eventType)`
+- `registerEntityEventType(@Nonnull EntityEventType<ECS_TYPE, T> eventType)`: Add description.
   - Executes `registerEntityEventType` behavior.
-- `registerWorldEventType(@Nonnull WorldEventType<ECS_TYPE, T> eventType)`
+- `registerWorldEventType(@Nonnull WorldEventType<ECS_TYPE, T> eventType)`: Add description.
   - Executes `registerWorldEventType` behavior.
-- `registerSystemGroup(@Nonnull SystemGroup<ECS_TYPE> systemGroup)`
+- `registerSystemGroup(@Nonnull SystemGroup<ECS_TYPE> systemGroup)`: Add description.
   - Executes `registerSystemGroup` behavior.
 
 ## Notes

@@ -1,36 +1,36 @@
+**Source Hash:** `628ea11c83081ff31b9b0703947379397cd948d30c8662afe82e7230a1d3bc6c`
+
 # BuilderSensorSearchRay
 
 ## Overview
-- Documentation for `BuilderSensorSearchRay`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getAngle(@Nonnull BuilderSupport support)`
+- `getAngle(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAngle` behavior.
-- `getRange(@Nonnull BuilderSupport support)`
+- `getRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getRange` behavior.
-- `getBlockSet(@Nonnull BuilderSupport support)`
+- `getBlockSet(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBlockSet` behavior.
-- `getMinRetestAngle(@Nonnull BuilderSupport support)`
+- `getMinRetestAngle(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinRetestAngle` behavior.
-- `getMinRetestMove(@Nonnull BuilderSupport support)`
+- `getMinRetestMove(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getMinRetestMove` behavior.
-- `getThrottleTime(@Nonnull BuilderSupport support)`
+- `getThrottleTime(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getThrottleTime` behavior.
-- `getId(@Nonnull BuilderSupport support)`
+- `getId(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

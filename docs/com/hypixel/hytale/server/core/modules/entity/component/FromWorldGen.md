@@ -1,10 +1,10 @@
+**Source Hash:** `2e3272aff8ad38086e19cbd1da5557cf0e4b271a3c1234c56f6b33b122ea993c`
+
 # FromWorldGen
 
 ## Overview
-- Documentation for `FromWorldGen`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `FromWorldGen()`
   - Creates a `FromWorldGen` instance.
 - `FromWorldGen(int worldGenId)`
@@ -12,12 +12,12 @@
 - `FromWorldGen(this.worldGenId)`
   - Creates a `FromWorldGen` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getWorldGenId()`
+- `getWorldGenId()`: Add description.
   - Executes `getWorldGenId` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

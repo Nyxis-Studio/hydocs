@@ -1,14 +1,14 @@
+**Source Hash:** `c9b9c3e684c16d65d3ee39a952c7e785fac0ef3a8a8ec01d1e63221dc6989f9b`
+
 # ExplodeInteraction
 
 ## Overview
-- Documentation for `ExplodeInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `firstRun(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull CooldownHandler cooldownHandler)`: Add description.
   - Executes `firstRun` behavior.
 
 ## Notes

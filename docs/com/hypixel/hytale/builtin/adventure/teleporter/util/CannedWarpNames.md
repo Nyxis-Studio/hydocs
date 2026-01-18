@@ -1,19 +1,19 @@
+**Source Hash:** `865e02a2759367db0fc84fcfcd46caad7c14f4b8e0ad90f0b5f424bc1ad59970`
+
 # CannedWarpNames
 
 ## Overview
-- Documentation for `CannedWarpNames`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.teleporter.util`.
 
-## Constructors
+## Constructor Descriptions
 - `CannedWarpNames()`
   - Creates a `CannedWarpNames` instance.
 
-## Methods
-- `generateCannedWarpName(Ref<ChunkStore> blockRef, String language)`
+## Method Descriptions
+- `generateCannedWarpName(Ref<ChunkStore> blockRef, String language)`: Add description.
   - Executes `generateCannedWarpName` behavior.
-- `generateCannedWarpNameKey(Ref<ChunkStore> blockRef, String language)`
+- `generateCannedWarpNameKey(Ref<ChunkStore> blockRef, String language)`: Add description.
   - Executes `generateCannedWarpNameKey` behavior.
-- `getWarpNamesInWorld(World world)`
+- `getWarpNamesInWorld(World world)`: Add description.
   - Executes `getWarpNamesInWorld` behavior.
 
 ## Notes

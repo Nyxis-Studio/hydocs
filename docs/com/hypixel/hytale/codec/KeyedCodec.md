@@ -1,10 +1,10 @@
+**Source Hash:** `5b3e0a8520e1e86136c927ef961f3d671d95565fa3c2faffaa2f6b865e9e468b`
+
 # KeyedCodec
 
 ## Overview
-- Documentation for `KeyedCodec`.
-- Declared as a class in `com.hypixel.hytale.codec`.
 
-## Constructors
+## Constructor Descriptions
 - `KeyedCodec(@Nonnull String key, Codec<T> codec)`
   - Creates a `KeyedCodec` instance.
 - `KeyedCodec(@Nonnull String key, Codec<T> codec, boolean required)`
@@ -12,40 +12,40 @@
 - `KeyedCodec(@Nonnull String key, Codec<T> codec, boolean required, boolean bypassCaseCheck)`
   - Creates a `KeyedCodec` instance.
 
-## Methods
-- `getKey()`
+## Method Descriptions
+- `getKey()`: Add description.
   - Executes `getKey` behavior.
-- `getNow(BsonDocument document)`
+- `getNow(BsonDocument document)`: Add description.
   - Executes `getNow` behavior.
-- `getNow(BsonDocument document, @Nonnull ExtraInfo extraInfo)`
+- `getNow(BsonDocument document, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `getNow` behavior.
-- `getOrNull(BsonDocument document)`
+- `getOrNull(BsonDocument document)`: Add description.
   - Executes `getOrNull` behavior.
-- `getOrNull(BsonDocument document, @Nonnull ExtraInfo extraInfo)`
+- `getOrNull(BsonDocument document, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `getOrNull` behavior.
-- `get(BsonDocument document)`
+- `get(BsonDocument document)`: Add description.
   - Executes `get` behavior.
-- `get(@Nullable BsonDocument document, @Nonnull ExtraInfo extraInfo)`
+- `get(@Nullable BsonDocument document, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `get` behavior.
-- `getOrDefault(@Nullable BsonDocument document, @Nonnull ExtraInfo extraInfo, T def)`
+- `getOrDefault(@Nullable BsonDocument document, @Nonnull ExtraInfo extraInfo, T def)`: Add description.
   - Executes `getOrDefault` behavior.
-- `getAndInherit(@Nullable BsonDocument document, T parent, @Nonnull ExtraInfo extraInfo)`
+- `getAndInherit(@Nullable BsonDocument document, T parent, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `getAndInherit` behavior.
-- `put(@Nonnull BsonDocument document, T t)`
+- `put(@Nonnull BsonDocument document, T t)`: Add description.
   - Executes `put` behavior.
-- `put(@Nonnull BsonDocument document, @Nullable T t, @Nonnull ExtraInfo extraInfo)`
+- `put(@Nonnull BsonDocument document, @Nullable T t, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `put` behavior.
-- `decode(BsonValue bsonValue, @Nonnull ExtraInfo extraInfo)`
+- `decode(BsonValue bsonValue, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `decodeAndInherit(@Nullable BsonValue bsonValue, T parent, @Nonnull ExtraInfo extraInfo)`
+- `decodeAndInherit(@Nullable BsonValue bsonValue, T parent, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `decodeAndInherit` behavior.
-- `encode(T t, ExtraInfo extraInfo)`
+- `encode(T t, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `getChildCodec()`
+- `getChildCodec()`: Add description.
   - Executes `getChildCodec` behavior.
-- `isRequired()`
+- `isRequired()`: Add description.
   - Executes `isRequired` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

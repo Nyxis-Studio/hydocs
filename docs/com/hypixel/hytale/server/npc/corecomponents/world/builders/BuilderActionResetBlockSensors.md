@@ -1,24 +1,24 @@
+**Source Hash:** `bb795ea0cb6d40f5aa0aeea588882cecbb058f109e381a40d7f4a6c96fc059d9`
+
 # BuilderActionResetBlockSensors
 
 ## Overview
-- Documentation for `BuilderActionResetBlockSensors`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBlockSets(@Nonnull BuilderSupport support)`
+- `getBlockSets(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getBlockSets` behavior.
 
 ## Notes

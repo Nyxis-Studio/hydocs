@@ -1,95 +1,95 @@
+**Source Hash:** `829d87b86e72f8d9656b869c0da336020d4e7dab9902d224877a5c8cc6564ff6`
+
 # Steering
 
 ## Overview
-- Documentation for `Steering`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `Steering()`
   - Creates a `Steering` instance.
 
-## Methods
-- `clear()`
+## Method Descriptions
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `assign(@Nonnull Steering other)`
+- `assign(@Nonnull Steering other)`: Add description.
   - Executes `assign` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `clearTranslation()`
+- `clearTranslation()`: Add description.
   - Executes `clearTranslation` behavior.
-- `clearRotation()`
+- `clearRotation()`: Add description.
   - Executes `clearRotation` behavior.
-- `getTranslation()`
+- `getTranslation()`: Add description.
   - Executes `getTranslation` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `setX(double value)`
+- `setX(double value)`: Add description.
   - Executes `setX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `setY(double value)`
+- `setY(double value)`: Add description.
   - Executes `setY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `setZ(double value)`
+- `setZ(double value)`: Add description.
   - Executes `setZ` behavior.
-- `setTranslation(@Nonnull Vector3d translation)`
+- `setTranslation(@Nonnull Vector3d translation)`: Add description.
   - Executes `setTranslation` behavior.
-- `setTranslation(double x, double y, double z)`
+- `setTranslation(double x, double y, double z)`: Add description.
   - Executes `setTranslation` behavior.
-- `setTranslationRelativeSpeed(double relativeSpeed)`
+- `setTranslationRelativeSpeed(double relativeSpeed)`: Add description.
   - Executes `setTranslationRelativeSpeed` behavior.
-- `scaleTranslation(double speedFactor)`
+- `scaleTranslation(double speedFactor)`: Add description.
   - Executes `scaleTranslation` behavior.
-- `ensureMinTranslation(double relativeSpeed)`
+- `ensureMinTranslation(double relativeSpeed)`: Add description.
   - Executes `ensureMinTranslation` behavior.
-- `getMaxDistance()`
+- `getMaxDistance()`: Add description.
   - Executes `getMaxDistance` behavior.
-- `setMaxDistance(double maxDistance)`
+- `setMaxDistance(double maxDistance)`: Add description.
   - Executes `setMaxDistance` behavior.
-- `clearMaxDistance()`
+- `clearMaxDistance()`: Add description.
   - Executes `clearMaxDistance` behavior.
-- `getMaxDistanceComponentSelector()`
+- `getMaxDistanceComponentSelector()`: Add description.
   - Executes `getMaxDistanceComponentSelector` behavior.
-- `setMaxDistanceComponentSelector(Vector3d maxDistanceComponentSelector)`
+- `setMaxDistanceComponentSelector(Vector3d maxDistanceComponentSelector)`: Add description.
   - Executes `setMaxDistanceComponentSelector` behavior.
-- `clearMaxDistanceComponentSelector()`
+- `clearMaxDistanceComponentSelector()`: Add description.
   - Executes `clearMaxDistanceComponentSelector` behavior.
-- `getYaw()`
+- `getYaw()`: Add description.
   - Executes `getYaw` behavior.
-- `setYaw(float angle)`
+- `setYaw(float angle)`: Add description.
   - Executes `setYaw` behavior.
-- `clearYaw()`
+- `clearYaw()`: Add description.
   - Executes `clearYaw` behavior.
-- `getPitch()`
+- `getPitch()`: Add description.
   - Executes `getPitch` behavior.
-- `setPitch(float angle)`
+- `setPitch(float angle)`: Add description.
   - Executes `setPitch` behavior.
-- `clearPitch()`
+- `clearPitch()`: Add description.
   - Executes `clearPitch` behavior.
-- `getRoll()`
+- `getRoll()`: Add description.
   - Executes `getRoll` behavior.
-- `setRoll(float angle)`
+- `setRoll(float angle)`: Add description.
   - Executes `setRoll` behavior.
-- `clearRoll()`
+- `clearRoll()`: Add description.
   - Executes `clearRoll` behavior.
-- `setRelativeTurnSpeed(double relativeTurnSpeed)`
+- `setRelativeTurnSpeed(double relativeTurnSpeed)`: Add description.
   - Executes `setRelativeTurnSpeed` behavior.
-- `hasTranslation()`
+- `hasTranslation()`: Add description.
   - Executes `hasTranslation` behavior.
-- `hasYaw()`
+- `hasYaw()`: Add description.
   - Executes `hasYaw` behavior.
-- `hasPitch()`
+- `hasPitch()`: Add description.
   - Executes `hasPitch` behavior.
-- `hasRoll()`
+- `hasRoll()`: Add description.
   - Executes `hasRoll` behavior.
-- `getSpeed()`
+- `getSpeed()`: Add description.
   - Executes `getSpeed` behavior.
-- `getRelativeTurnSpeed()`
+- `getRelativeTurnSpeed()`: Add description.
   - Executes `getRelativeTurnSpeed` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

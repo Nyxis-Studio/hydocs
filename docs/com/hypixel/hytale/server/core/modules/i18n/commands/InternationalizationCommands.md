@@ -1,15 +1,15 @@
+**Source Hash:** `2dcc70d4e6782b69582a2e563dc68a362d5d45e85a5da04067ddca83e0c2676a`
+
 # InternationalizationCommands
 
 ## Overview
-- Documentation for `InternationalizationCommands`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.i18n.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `InternationalizationCommands()`
   - Creates a `InternationalizationCommands` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

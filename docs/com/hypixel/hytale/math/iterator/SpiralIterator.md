@@ -1,10 +1,10 @@
+**Source Hash:** `48dfb0905e62b2f328e548bdac7a8dfbab237a4c36974c602dc5fbdc376dc820`
+
 # SpiralIterator
 
 ## Overview
-- Documentation for `SpiralIterator`.
-- Declared as a class in `com.hypixel.hytale.math.iterator`.
 
-## Constructors
+## Constructor Descriptions
 - `SpiralIterator()`
   - Creates a `SpiralIterator` instance.
 - `SpiralIterator(int chunkX, int chunkZ, int radius)`
@@ -12,40 +12,40 @@
 - `SpiralIterator(int chunkX, int chunkZ, int radiusFrom, int radiusTo)`
   - Creates a `SpiralIterator` instance.
 
-## Methods
-- `init(int chunkX, int chunkZ, int radiusTo)`
+## Method Descriptions
+- `init(int chunkX, int chunkZ, int radiusTo)`: Add description.
   - Executes `init` behavior.
-- `init(int chunkX, int chunkZ, int radiusFrom, int radiusTo)`
+- `init(int chunkX, int chunkZ, int radiusFrom, int radiusTo)`: Add description.
   - Executes `init` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
-- `hasNext()`
+- `hasNext()`: Add description.
   - Executes `hasNext` behavior.
-- `isSetup()`
+- `isSetup()`: Add description.
   - Executes `isSetup` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `getMaxIndex()`
+- `getMaxIndex()`: Add description.
   - Executes `getMaxIndex` behavior.
-- `getChunkX()`
+- `getChunkX()`: Add description.
   - Executes `getChunkX` behavior.
-- `getChunkZ()`
+- `getChunkZ()`: Add description.
   - Executes `getChunkZ` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getDx()`
+- `getDx()`: Add description.
   - Executes `getDx` behavior.
-- `getDz()`
+- `getDz()`: Add description.
   - Executes `getDz` behavior.
-- `getCurrentRadius()`
+- `getCurrentRadius()`: Add description.
   - Executes `getCurrentRadius` behavior.
-- `getCompletedRadius()`
+- `getCompletedRadius()`: Add description.
   - Executes `getCompletedRadius` behavior.
-- `getPosFromIndex(int index)`
+- `getPosFromIndex(int index)`: Add description.
   - Executes `getPosFromIndex` behavior.
 
 ## Notes

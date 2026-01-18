@@ -1,51 +1,51 @@
+**Source Hash:** `823871f5fc967ec4fbac0925dca1db81e2d9587696b08305d741349f181869e6`
+
 # TickingThread
 
 ## Overview
-- Documentation for `TickingThread`.
-- Declared as a class in `com.hypixel.hytale.server.core.util.thread`.
 
-## Constructors
+## Constructor Descriptions
 - `TickingThread(String threadName)`
   - Creates a `TickingThread` instance.
 - `TickingThread(String threadName, int tps, boolean daemon)`
   - Creates a `TickingThread` instance.
 
-## Methods
-- `run()`
+## Method Descriptions
+- `run()`: Add description.
   - Executes `run` behavior.
-- `isIdle()`
+- `isIdle()`: Add description.
   - Executes `isIdle` behavior.
-- `tick(float var1)`
+- `tick(float var1)`: Add description.
   - Executes `tick` behavior.
-- `onStart()`
+- `onStart()`: Add description.
   - Executes `onStart` behavior.
-- `onShutdown()`
+- `onShutdown()`: Add description.
   - Executes `onShutdown` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `interrupt()`
+- `interrupt()`: Add description.
   - Executes `interrupt` behavior.
-- `stop()`
+- `stop()`: Add description.
   - Executes `stop` behavior.
-- `setTps(int tps)`
+- `setTps(int tps)`: Add description.
   - Executes `setTps` behavior.
-- `getTps()`
+- `getTps()`: Add description.
   - Executes `getTps` behavior.
-- `getTickStepNanos()`
+- `getTickStepNanos()`: Add description.
   - Executes `getTickStepNanos` behavior.
-- `getBufferedTickLengthMetricSet()`
+- `getBufferedTickLengthMetricSet()`: Add description.
   - Executes `getBufferedTickLengthMetricSet` behavior.
-- `clearMetrics()`
+- `clearMetrics()`: Add description.
   - Executes `clearMetrics` behavior.
-- `debugAssertInTickingThread()`
+- `debugAssertInTickingThread()`: Add description.
   - Executes `debugAssertInTickingThread` behavior.
-- `isInThread()`
+- `isInThread()`: Add description.
   - Executes `isInThread` behavior.
-- `isStarted()`
+- `isStarted()`: Add description.
   - Executes `isStarted` behavior.
-- `setThread(Thread thread)`
+- `setThread(Thread thread)`: Add description.
   - Executes `setThread` behavior.
-- `getThread()`
+- `getThread()`: Add description.
   - Executes `getThread` behavior.
 
 ## Notes

@@ -1,18 +1,18 @@
+**Source Hash:** `e0d647e4ae86cee744b90228e4bd85c1b84c16baa26e992a165ffc22961ea0b7`
+
 # ExportedVectorProviderAsset
 
 ## Overview
-- Documentation for `ExportedVectorProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.vectorproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull VectorProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull VectorProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `isSingleInstance()`
+- `isSingleInstance()`: Add description.
   - Executes `isSingleInstance` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `a6a989752a998f81fe7e46bbab08436b13b7dc30960ed5d31b998cd9dcfda189`
+
 # ColorUtil
 
 ## Overview
-- Documentation for `ColorUtil`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.loader.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hexString(@Nonnull String s)`
+## Method Descriptions
+- `hexString(@Nonnull String s)`: Add description.
   - Executes `hexString` behavior.
 
 ## Notes

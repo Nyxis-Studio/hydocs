@@ -1,75 +1,75 @@
+**Source Hash:** `f172c3b3638333f96dc5da6632eb96ec086f1327a70d96b254419959648a335d`
+
 # BrushConfigCommandExecutor
 
 ## Overview
-- Documentation for `BrushConfigCommandExecutor`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes`.
 
-## Constructors
+## Constructor Descriptions
 - `BrushConfigCommandExecutor(BrushConfig brushConfig)`
   - Creates a `BrushConfigCommandExecutor` instance.
 
-## Methods
-- `resetInternalState()`
+## Method Descriptions
+- `resetInternalState()`: Add description.
   - Executes `resetInternalState` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull World world, @Nonnull Vector3i origin, boolean isHoldDownInteraction, @Nonnull InteractionType interactionType, @Nullable Consumer<BrushConfig> existingBrushDataLoadingConsumer, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull World world, @Nonnull Vector3i origin, boolean isHoldDownInteraction, @Nonnull InteractionType interactionType, @Nullable Consumer<BrushConfig> existingBrushDataLoadingConsumer, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `execute` behavior.
-- `execute(@Nonnull Ref<EntityStore> ref, World world, Vector3i origin, boolean isHoldDownInteraction, InteractionType interactionType, ComponentAccessor<EntityStore> componentAccessor)`
+- `execute(@Nonnull Ref<EntityStore> ref, World world, Vector3i origin, boolean isHoldDownInteraction, InteractionType interactionType, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `execute` behavior.
-- `exitExecution(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+- `exitExecution(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `exitExecution` behavior.
-- `sendExecutionErrorMessage(PlayerRef playerRef, @Nonnull SequenceBrushOperation brushOperation)`
+- `sendExecutionErrorMessage(PlayerRef playerRef, @Nonnull SequenceBrushOperation brushOperation)`: Add description.
   - Executes `sendExecutionErrorMessage` behavior.
-- `storeOperatingIndex(String name, int index)`
+- `storeOperatingIndex(String name, int index)`: Add description.
   - Executes `storeOperatingIndex` behavior.
-- `loadOperatingIndex(String name)`
+- `loadOperatingIndex(String name)`: Add description.
   - Executes `loadOperatingIndex` behavior.
-- `loadOperatingIndex(String name, boolean allowFutureJump)`
+- `loadOperatingIndex(String name, boolean allowFutureJump)`: Add description.
   - Executes `loadOperatingIndex` behavior.
-- `clearAllPersistentVariables()`
+- `clearAllPersistentVariables()`: Add description.
   - Executes `clearAllPersistentVariables` behavior.
-- `clearPersistentVariable(String variableName)`
+- `clearPersistentVariable(String variableName)`: Add description.
   - Executes `clearPersistentVariable` behavior.
-- `setPersistentVariable(String variableName, int value)`
+- `setPersistentVariable(String variableName, int value)`: Add description.
   - Executes `setPersistentVariable` behavior.
-- `getPersistentVariableOrDefault(String variableName, int defaultValue)`
+- `getPersistentVariableOrDefault(String variableName, int defaultValue)`: Add description.
   - Executes `getPersistentVariableOrDefault` behavior.
-- `storeBrushConfigSnapshot(@Nonnull String name)`
+- `storeBrushConfigSnapshot(@Nonnull String name)`: Add description.
   - Executes `storeBrushConfigSnapshot` behavior.
-- `loadBrushConfigSnapshot(String name, BrushConfig.DataSettingFlags ... dataToLoad)`
+- `loadBrushConfigSnapshot(String name, BrushConfig.DataSettingFlags ... dataToLoad)`: Add description.
   - Executes `loadBrushConfigSnapshot` behavior.
-- `setAllowOverwritingSavedSnapshots(boolean allowOverwritingSavedSnapshots)`
+- `setAllowOverwritingSavedSnapshots(boolean allowOverwritingSavedSnapshots)`: Add description.
   - Executes `setAllowOverwritingSavedSnapshots` behavior.
-- `getSequentialOperations()`
+- `getSequentialOperations()`: Add description.
   - Executes `getSequentialOperations` behavior.
-- `getGlobalOperations()`
+- `getGlobalOperations()`: Add description.
   - Executes `getGlobalOperations` behavior.
-- `isIgnoreExistingBrushData()`
+- `isIgnoreExistingBrushData()`: Add description.
   - Executes `isIgnoreExistingBrushData` behavior.
-- `isInDebugSteppingMode()`
+- `isInDebugSteppingMode()`: Add description.
   - Executes `isInDebugSteppingMode` behavior.
-- `getEdit()`
+- `getEdit()`: Add description.
   - Executes `getEdit` behavior.
-- `setInDebugSteppingMode(boolean inDebugSteppingMode)`
+- `setInDebugSteppingMode(boolean inDebugSteppingMode)`: Add description.
   - Executes `setInDebugSteppingMode` behavior.
-- `setPrintOperations(boolean printOperations)`
+- `setPrintOperations(boolean printOperations)`: Add description.
   - Executes `setPrintOperations` behavior.
-- `setIgnoreExistingBrushData(boolean ignoreExistingBrushData)`
+- `setIgnoreExistingBrushData(boolean ignoreExistingBrushData)`: Add description.
   - Executes `setIgnoreExistingBrushData` behavior.
-- `setCurrentlyExecutingActionIndex(int newCurrentOperationIndex)`
+- `setCurrentlyExecutingActionIndex(int newCurrentOperationIndex)`: Add description.
   - Executes `setCurrentlyExecutingActionIndex` behavior.
-- `getCurrentOperationIndex()`
+- `getCurrentOperationIndex()`: Add description.
   - Executes `getCurrentOperationIndex` behavior.
-- `isEnableBreakpoints()`
+- `isEnableBreakpoints()`: Add description.
   - Executes `isEnableBreakpoints` behavior.
-- `setEnableBreakpoints(boolean enableBreakpoints)`
+- `setEnableBreakpoints(boolean enableBreakpoints)`: Add description.
   - Executes `setEnableBreakpoints` behavior.
-- `getDebugOutputTarget()`
+- `getDebugOutputTarget()`: Add description.
   - Executes `getDebugOutputTarget` behavior.
-- `setDebugOutputTarget(DebugOutputTarget debugOutputTarget)`
+- `setDebugOutputTarget(DebugOutputTarget debugOutputTarget)`: Add description.
   - Executes `setDebugOutputTarget` behavior.
-- `isBreakOnError()`
+- `isBreakOnError()`: Add description.
   - Executes `isBreakOnError` behavior.
-- `setBreakOnError(boolean breakOnError)`
+- `setBreakOnError(boolean breakOnError)`: Add description.
   - Executes `setBreakOnError` behavior.
 
 ## Notes

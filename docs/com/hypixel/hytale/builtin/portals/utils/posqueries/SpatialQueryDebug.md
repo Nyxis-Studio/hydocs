@@ -1,23 +1,23 @@
+**Source Hash:** `7c6b658d8eff9d9d0fbe6039fb529ddb86673db7f67d91a51d8647f684682992`
+
 # SpatialQueryDebug
 
 ## Overview
-- Documentation for `SpatialQueryDebug`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.utils.posqueries`.
 
-## Constructors
+## Constructor Descriptions
 - `SpatialQueryDebug()`
   - Creates a `SpatialQueryDebug` instance.
 
-## Methods
-- `appendLine(String string)`
+## Method Descriptions
+- `appendLine(String string)`: Add description.
   - Executes `appendLine` behavior.
-- `indent(String scopeReason)`
+- `indent(String scopeReason)`: Add description.
   - Executes `indent` behavior.
-- `unindent()`
+- `unindent()`: Add description.
   - Executes `unindent` behavior.
-- `fmt(Vector3d point)`
+- `fmt(Vector3d point)`: Add description.
   - Executes `fmt` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

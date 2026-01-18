@@ -1,18 +1,18 @@
+**Source Hash:** `5d26007d596f581f3d7ca13b41737e016ed30eeff3df98d02c2c526a8a2f3262`
+
 # BuilderEntityFilterWithToggle
 
 ## Overview
-- Documentation for `BuilderEntityFilterWithToggle`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `readCommonConfig(@Nonnull JsonElement data)`
+## Method Descriptions
+- `readCommonConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readCommonConfig` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
 
 ## Notes

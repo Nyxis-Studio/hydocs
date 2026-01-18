@@ -1,19 +1,19 @@
+**Source Hash:** `719fa356818c8a6c317914c6547f83c73ae57fa82a5337804926ad61c2851563`
+
 # PickupItemSystem
 
 ## Overview
-- Documentation for `PickupItemSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.item`.
 
-## Constructors
+## Constructor Descriptions
 - `PickupItemSystem(@Nonnull ComponentType<EntityStore, PickupItemComponent> pickupItemComponentType, @Nonnull ComponentType<EntityStore, TransformComponent> transformComponentType)`
   - Creates a `PickupItemSystem` instance.
 
-## Methods
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `updateMovement(@Nonnull PickupItemComponent pickupItemComponent, @Nonnull Vector3d current, @Nonnull Vector3d target, float dt)`
+- `updateMovement(@Nonnull PickupItemComponent pickupItemComponent, @Nonnull Vector3d current, @Nonnull Vector3d target, float dt)`: Add description.
   - Executes `updateMovement` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `6e239fd40a32d28bc2dc07658d836019558a3acfd9f218323589c0780d319887`
+
 # SystemGroupChange
 
 ## Overview
-- Documentation for `SystemGroupChange`.
-- Declared as a class in `com.hypixel.hytale.component.data.change`.
 
-## Constructors
+## Constructor Descriptions
 - `SystemGroupChange(ChangeType type, SystemGroup<ECS_TYPE> systemGroup)`
   - Creates a `SystemGroupChange` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getSystemGroup()`
+- `getSystemGroup()`: Add description.
   - Executes `getSystemGroup` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

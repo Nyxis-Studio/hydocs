@@ -1,10 +1,10 @@
+**Source Hash:** `c93f4c308da80805b50977b51c0a537de7c1bf8e6eaab7f26ec13f4ff0f695e4`
+
 # ItemReticleConfig
 
 ## Overview
-- Documentation for `ItemReticleConfig`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemReticleConfig()`
   - Creates a `ItemReticleConfig` instance.
 - `ItemReticleConfig(@Nullable String id, @Nullable String[] base, @Nullable Map<Integer, ItemReticle> serverEvents, @Nullable Map<ItemReticleClientEvent, ItemReticle> clientEvents)`
@@ -12,22 +12,22 @@
 - `ItemReticleConfig(@Nonnull ItemReticleConfig other)`
   - Creates a `ItemReticleConfig` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

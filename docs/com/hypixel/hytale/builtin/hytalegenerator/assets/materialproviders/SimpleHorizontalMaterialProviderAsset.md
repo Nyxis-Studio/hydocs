@@ -1,16 +1,16 @@
+**Source Hash:** `580508b4026b50bfb9d9fa887002f7ed2d5e8f70d6a6a5343fc0434234c641fd`
+
 # SimpleHorizontalMaterialProviderAsset
 
 ## Overview
-- Documentation for `SimpleHorizontalMaterialProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull MaterialProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull MaterialProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

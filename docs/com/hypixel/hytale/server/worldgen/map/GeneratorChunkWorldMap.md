@@ -1,17 +1,17 @@
+**Source Hash:** `2bcd83b3146581388f7415fe42c8b167edcc6a523b84a28d50e4073ec0d8b56c`
+
 # GeneratorChunkWorldMap
 
 ## Overview
-- Documentation for `GeneratorChunkWorldMap`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.map`.
 
-## Constructors
+## Constructor Descriptions
 - `GeneratorChunkWorldMap(@Nonnull ChunkGenerator generator, @Nonnull Executor executor)`
   - Creates a `GeneratorChunkWorldMap` instance.
 
-## Methods
-- `generatePointsOfInterest(@Nonnull World world)`
+## Method Descriptions
+- `generatePointsOfInterest(@Nonnull World world)`: Add description.
   - Executes `generatePointsOfInterest` behavior.
-- `getWorldMapSettings()`
+- `getWorldMapSettings()`: Add description.
   - Executes `getWorldMapSettings` behavior.
 
 ## Notes

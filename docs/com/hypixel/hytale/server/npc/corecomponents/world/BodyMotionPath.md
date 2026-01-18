@@ -1,39 +1,39 @@
+**Source Hash:** `8dd70f8c4881ae838c31eface5a4ab69079358664c7aa7ce7dd783349e4ee2ed`
+
 # BodyMotionPath
 
 ## Overview
-- Documentation for `BodyMotionPath`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `BodyMotionPath(@Nonnull BuilderBodyMotionPath builder, @Nonnull BuilderSupport support)`
   - Creates a `BodyMotionPath` instance.
 
-## Methods
-- `activate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `activate(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `activate` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeSteering` behavior.
-- `tickObservationDelay(double dt)`
+- `tickObservationDelay(double dt)`: Add description.
   - Executes `tickObservationDelay` behavior.
-- `pickNextObservationAngle()`
+- `pickNextObservationAngle()`: Add description.
   - Executes `pickNextObservationAngle` behavior.
-- `closeToPosition(Vector3d position, @Nonnull MotionController motionController)`
+- `closeToPosition(Vector3d position, @Nonnull MotionController motionController)`: Add description.
   - Executes `closeToPosition` behavior.
-- `invalidateWaypoint()`
+- `invalidateWaypoint()`: Add description.
   - Executes `invalidateWaypoint` behavior.
-- `nextWayPoint(@Nonnull IPath<?> path, @Nonnull WorldSupport support, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `nextWayPoint(@Nonnull IPath<?> path, @Nonnull WorldSupport support, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `nextWayPoint` behavior.
-- `getFirstWaypoint(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable IPath<?> path, @Nonnull Vector3d lastPos, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getFirstWaypoint(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable IPath<?> path, @Nonnull Vector3d lastPos, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getFirstWaypoint` behavior.
-- `waypointIndexUpdated(@Nonnull IPath<?> path, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `waypointIndexUpdated(@Nonnull IPath<?> path, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `waypointIndexUpdated` behavior.
-- `initializeCurrentDirection()`
+- `initializeCurrentDirection()`: Add description.
   - Executes `initializeCurrentDirection` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

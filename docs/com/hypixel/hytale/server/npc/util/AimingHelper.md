@@ -1,16 +1,16 @@
+**Source Hash:** `0aacee73d471823cc0ee12bb66e7c736e78d2f6652ad33cd001069ff4b285127`
+
 # AimingHelper
 
 ## Overview
-- Documentation for `AimingHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `ensurePossibleThrowSpeed(double distance, double y, double gravity, double throwSpeed)`
+## Method Descriptions
+- `ensurePossibleThrowSpeed(double distance, double y, double gravity, double throwSpeed)`: Add description.
   - Executes `ensurePossibleThrowSpeed` behavior.
-- `computePitch(double distance, double height, double velocity, double gravity, @Nonnull float[] resultingPitch)`
+- `computePitch(double distance, double height, double velocity, double gravity, @Nonnull float[] resultingPitch)`: Add description.
   - Executes `computePitch` behavior.
 
 ## Notes

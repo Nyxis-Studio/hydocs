@@ -1,10 +1,10 @@
+**Source Hash:** `5c10ef43ec0271170a3f6093739f3b14ae194c67e4d47da0f84278a841da68fb`
+
 # RootInteraction
 
 ## Overview
-- Documentation for `RootInteraction`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `RootInteraction()`
   - Creates a `RootInteraction` instance.
 - `RootInteraction(@Nullable String id, @Nullable int[] interactions, @Nullable InteractionCooldown cooldown, @Nullable Map<GameMode, RootInteractionSettings> settings, @Nullable InteractionRules rules, @Nullable int[] tags, float clickQueuingTimeout, boolean requireNewClick)`
@@ -12,22 +12,22 @@
 - `RootInteraction(@Nonnull RootInteraction other)`
   - Creates a `RootInteraction` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

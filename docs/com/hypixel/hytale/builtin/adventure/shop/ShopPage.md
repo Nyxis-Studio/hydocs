@@ -1,15 +1,15 @@
+**Source Hash:** `ab2a13265bdc298bfa5d5ae2c1b90c5af714890493c568356e4053e8bba993ee`
+
 # ShopPage
 
 ## Overview
-- Documentation for `ShopPage`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop`.
 
-## Constructors
+## Constructor Descriptions
 - `ShopPage(@Nonnull PlayerRef playerRef, String shopId)`
   - Creates a `ShopPage` instance.
 
-## Methods
-- `getShopElements(String shopId)`
+## Method Descriptions
+- `getShopElements(String shopId)`: Add description.
   - Executes `getShopElements` behavior.
 
 ## Notes

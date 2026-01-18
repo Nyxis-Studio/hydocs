@@ -1,16 +1,16 @@
+**Source Hash:** `cc7aa2e13a02aae52c7d7708d5cb529cd05dff04371c5e943c1c945fe64023c2`
+
 # AxisDensityAsset
 
 ## Overview
-- Documentation for `AxisDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

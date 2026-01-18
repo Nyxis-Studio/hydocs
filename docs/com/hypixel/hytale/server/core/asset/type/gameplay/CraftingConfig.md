@@ -1,18 +1,18 @@
+**Source Hash:** `5f1d55ac2967b9e7ac90320a1e303328552648afb2c732a44500d310f7860eb4`
+
 # CraftingConfig
 
 ## Overview
-- Documentation for `CraftingConfig`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.gameplay`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBenchMaterialHorizontalChestSearchRadius()`
+## Method Descriptions
+- `getBenchMaterialHorizontalChestSearchRadius()`: Add description.
   - Executes `getBenchMaterialHorizontalChestSearchRadius` behavior.
-- `getBenchMaterialVerticalChestSearchRadius()`
+- `getBenchMaterialVerticalChestSearchRadius()`: Add description.
   - Executes `getBenchMaterialVerticalChestSearchRadius` behavior.
-- `getBenchMaterialChestLimit()`
+- `getBenchMaterialChestLimit()`: Add description.
   - Executes `getBenchMaterialChestLimit` behavior.
 
 ## Notes

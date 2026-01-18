@@ -1,68 +1,68 @@
+**Source Hash:** `7f89ed489bdb4eb5c653fa7f767b73d6c8965ffc4de91ee414f3e3e41c10f244`
+
 # PathFollower
 
 ## Overview
-- Documentation for `PathFollower`.
-- Declared as a class in `com.hypixel.hytale.server.npc.navigation`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setPathSmoothing(int pathSmoothing)`
+## Method Descriptions
+- `setPathSmoothing(int pathSmoothing)`: Add description.
   - Executes `setPathSmoothing` behavior.
-- `getRelativeSpeed()`
+- `getRelativeSpeed()`: Add description.
   - Executes `getRelativeSpeed` behavior.
-- `setRelativeSpeed(double relativeSpeed)`
+- `setRelativeSpeed(double relativeSpeed)`: Add description.
   - Executes `setRelativeSpeed` behavior.
-- `setRelativeSpeedWaypoint(double relativeSpeedWaypoint)`
+- `setRelativeSpeedWaypoint(double relativeSpeedWaypoint)`: Add description.
   - Executes `setRelativeSpeedWaypoint` behavior.
-- `setWaypointRadius(double waypointRadius)`
+- `setWaypointRadius(double waypointRadius)`: Add description.
   - Executes `setWaypointRadius` behavior.
-- `setDebugNodes(boolean debugNodes)`
+- `setDebugNodes(boolean debugNodes)`: Add description.
   - Executes `setDebugNodes` behavior.
-- `shouldSmoothPath()`
+- `shouldSmoothPath()`: Add description.
   - Executes `shouldSmoothPath` behavior.
-- `setRejectionWeight(double rejectionWeight)`
+- `setRejectionWeight(double rejectionWeight)`: Add description.
   - Executes `setRejectionWeight` behavior.
-- `setBlendHeading(double blendHeading)`
+- `setBlendHeading(double blendHeading)`: Add description.
   - Executes `setBlendHeading` behavior.
-- `getCurrentWaypoint()`
+- `getCurrentWaypoint()`: Add description.
   - Executes `getCurrentWaypoint` behavior.
-- `getCurrentWaypointPosition()`
+- `getCurrentWaypointPosition()`: Add description.
   - Executes `getCurrentWaypointPosition` behavior.
-- `getNextWaypoint()`
+- `getNextWaypoint()`: Add description.
   - Executes `getNextWaypoint` behavior.
-- `getNextWaypointPosition()`
+- `getNextWaypointPosition()`: Add description.
   - Executes `getNextWaypointPosition` behavior.
-- `setPath(IWaypoint firstWaypoint, @Nonnull Vector3d startPosition)`
+- `setPath(IWaypoint firstWaypoint, @Nonnull Vector3d startPosition)`: Add description.
   - Executes `setPath` behavior.
-- `clearPath()`
+- `clearPath()`: Add description.
   - Executes `clearPath` behavior.
-- `pathInFinalStage()`
+- `pathInFinalStage()`: Add description.
   - Executes `pathInFinalStage` behavior.
-- `freezeWaypoint()`
+- `freezeWaypoint()`: Add description.
   - Executes `freezeWaypoint` behavior.
-- `isWaypointFrozen()`
+- `isWaypointFrozen()`: Add description.
   - Executes `isWaypointFrozen` behavior.
-- `setWaypointFrozen(boolean waypointFrozen)`
+- `setWaypointFrozen(boolean waypointFrozen)`: Add description.
   - Executes `setWaypointFrozen` behavior.
-- `executePath(@Nonnull Vector3d currentPosition, @Nonnull MotionController activeMotionController, @Nonnull Steering desiredSteering)`
+- `executePath(@Nonnull Vector3d currentPosition, @Nonnull MotionController activeMotionController, @Nonnull Steering desiredSteering)`: Add description.
   - Executes `executePath` behavior.
-- `computeRejection(@Nonnull Vector3d currentPosition, @Nonnull Vector3d target, @Nonnull MotionController activeMotionController)`
+- `computeRejection(@Nonnull Vector3d currentPosition, @Nonnull Vector3d target, @Nonnull MotionController activeMotionController)`: Add description.
   - Executes `computeRejection` behavior.
-- `updateCurrentTarget(@Nonnull Vector3d entityPosition, @Nonnull MotionController motionController)`
+- `updateCurrentTarget(@Nonnull Vector3d entityPosition, @Nonnull MotionController motionController)`: Add description.
   - Executes `updateCurrentTarget` behavior.
-- `smoothPath(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull MotionController motionController, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `smoothPath(@Nonnull Ref<EntityStore> ref, @Nonnull Vector3d position, @Nonnull MotionController motionController, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `smoothPath` behavior.
-- `canMoveTo(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, @Nonnull Vector3d position, @Nonnull Vector3d targetPosition, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canMoveTo(@Nonnull Ref<EntityStore> ref, @Nonnull MotionController motionController, @Nonnull Vector3d position, @Nonnull Vector3d targetPosition, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canMoveTo` behavior.
-- `getLength()`
+- `getLength()`: Add description.
   - Executes `getLength` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `advance(int skip)`
+- `advance(int skip)`: Add description.
   - Executes `advance` behavior.
-- `next()`
+- `next()`: Add description.
   - Executes `next` behavior.
 
 ## Notes

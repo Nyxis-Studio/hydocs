@@ -1,17 +1,17 @@
+**Source Hash:** `44b868319525275398979d4ce3122a7245dcf391843ce8e8ad161b0ffcfb7a7f`
+
 # FailOnType
 
 ## Overview
-- Documentation for `FailOnType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `FailOnType(int value)`
   - Creates a `FailOnType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

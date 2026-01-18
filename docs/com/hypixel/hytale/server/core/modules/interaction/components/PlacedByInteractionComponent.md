@@ -1,21 +1,21 @@
+**Source Hash:** `91587f48368c41a02567ac2d00d579d51daab3541f53523071c4889fe4dae6a5`
+
 # PlacedByInteractionComponent
 
 ## Overview
-- Documentation for `PlacedByInteractionComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.components`.
 
-## Constructors
+## Constructor Descriptions
 - `PlacedByInteractionComponent()`
   - Creates a `PlacedByInteractionComponent` instance.
 - `PlacedByInteractionComponent(UUID whoPlacedUuid)`
   - Creates a `PlacedByInteractionComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getWhoPlacedUuid()`
+- `getWhoPlacedUuid()`: Add description.
   - Executes `getWhoPlacedUuid` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

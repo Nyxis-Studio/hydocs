@@ -1,41 +1,41 @@
+**Source Hash:** `346fc811bbfe70cdf45422685bf548232143eddd42f13eef0f78e95be2fb5909`
+
 # WieldingInteraction
 
 ## Overview
-- Documentation for `WieldingInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.client`.
 
-## Constructors
+## Constructor Descriptions
 - `WieldingInteraction()`
   - Creates a `WieldingInteraction` instance.
 
-## Methods
-- `getKnockbackModifiers()`
+## Method Descriptions
+- `getKnockbackModifiers()`: Add description.
   - Executes `getKnockbackModifiers` behavior.
-- `getDamageModifiers()`
+- `getDamageModifiers()`: Add description.
   - Executes `getDamageModifiers` behavior.
-- `getAngledWielding()`
+- `getAngledWielding()`: Add description.
   - Executes `getAngledWielding` behavior.
-- `getBlockedEffects()`
+- `getBlockedEffects()`: Add description.
   - Executes `getBlockedEffects` behavior.
-- `getStaminaCost()`
+- `getStaminaCost()`: Add description.
   - Executes `getStaminaCost` behavior.
-- `getBlockedInteractions()`
+- `getBlockedInteractions()`: Add description.
   - Executes `getBlockedInteractions` behavior.
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+- `simulateTick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `simulateTick0` behavior.
-- `handle(@Nonnull Ref<EntityStore> ref, boolean firstRun, float time, @Nonnull InteractionType type, @Nonnull InteractionContext context)`
+- `handle(@Nonnull Ref<EntityStore> ref, boolean firstRun, float time, @Nonnull InteractionType type, @Nonnull InteractionContext context)`: Add description.
   - Executes `handle` behavior.
-- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`
+- `configurePacket(com.hypixel.hytale.protocol.Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getAngleRad()`
+- `getAngleRad()`: Add description.
   - Executes `getAngleRad` behavior.
-- `getAngleDistanceRad()`
+- `getAngleDistanceRad()`: Add description.
   - Executes `getAngleDistanceRad` behavior.
-- `computeStaminaAmountToConsume(float damageRaw, @Nonnull EntityStatMap entityStatMap)`
+- `computeStaminaAmountToConsume(float damageRaw, @Nonnull EntityStatMap entityStatMap)`: Add description.
   - Executes `computeStaminaAmountToConsume` behavior.
 
 ## Notes

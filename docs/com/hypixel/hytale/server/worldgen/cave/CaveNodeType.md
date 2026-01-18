@@ -1,73 +1,73 @@
+**Source Hash:** `63bbe4f0b06cdf8ce2706d4df8597e344b3413ae2dfee54bcf612e8c2394a717`
+
 # CaveNodeType
 
 ## Overview
-- Documentation for `CaveNodeType`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
+## Constructor Descriptions
 - `CaveNodeType(@Nonnull String name, @Nullable CavePrefabContainer prefabContainer, @Nonnull IWeightedMap<BlockFluidEntry> fillings, @Nonnull CaveNodeShapeEnum.CaveNodeShapeGenerator shapeGenerator, @Nonnull ICoordinateCondition heightCondition, @Nullable IDoubleRange childrenCountBounds, @Nonnull CaveNodeCoverEntry[] covers, int priority, int environment)`
   - Creates a `CaveNodeType` instance.
 
-## Methods
-- `getName()`
+## Method Descriptions
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getPrefabContainer()`
+- `getPrefabContainer()`: Add description.
   - Executes `getPrefabContainer` behavior.
-- `setChildren(@Nonnull CaveNodeChildEntry[] children)`
+- `setChildren(@Nonnull CaveNodeChildEntry[] children)`: Add description.
   - Executes `setChildren` behavior.
-- `getHeightCondition()`
+- `getHeightCondition()`: Add description.
   - Executes `getHeightCondition` behavior.
-- `getChildrenCountBounds()`
+- `getChildrenCountBounds()`: Add description.
   - Executes `getChildrenCountBounds` behavior.
-- `getFilling(@Nonnull Random random)`
+- `getFilling(@Nonnull Random random)`: Add description.
   - Executes `getFilling` behavior.
-- `generateCaveNodeShape(Random random, CaveType caveType, CaveNode parentNode, CaveNodeChildEntry childEntry, Vector3d origin, float yaw, float pitch)`
+- `generateCaveNodeShape(Random random, CaveType caveType, CaveNode parentNode, CaveNodeChildEntry childEntry, Vector3d origin, float yaw, float pitch)`: Add description.
   - Executes `generateCaveNodeShape` behavior.
-- `getCovers()`
+- `getCovers()`: Add description.
   - Executes `getCovers` behavior.
-- `getChildren()`
+- `getChildren()`: Add description.
   - Executes `getChildren` behavior.
-- `getPriority()`
+- `getPriority()`: Add description.
   - Executes `getPriority` behavior.
-- `hasEnvironment()`
+- `hasEnvironment()`: Add description.
   - Executes `hasEnvironment` behavior.
-- `getEnvironment()`
+- `getEnvironment()`: Add description.
   - Executes `getEnvironment` behavior.
-- `get(Random random)`
+- `get(Random random)`: Add description.
   - Executes `get` behavior.
-- `getMapCondition()`
+- `getMapCondition()`: Add description.
   - Executes `getMapCondition` behavior.
-- `getDensityCondition()`
+- `getDensityCondition()`: Add description.
   - Executes `getDensityCondition` behavior.
-- `getParentCondition()`
+- `getParentCondition()`: Add description.
   - Executes `getParentCondition` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getOffset()`
+- `getOffset()`: Add description.
   - Executes `getOffset` behavior.
-- `getEntry()`
+- `getEntry()`: Add description.
   - Executes `getEntry` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getTypes()`
+- `getTypes()`: Add description.
   - Executes `getTypes` behavior.
-- `getAnchor()`
+- `getAnchor()`: Add description.
   - Executes `getAnchor` behavior.
-- `getRotation(@Nonnull Random random)`
+- `getRotation(@Nonnull Random random)`: Add description.
   - Executes `getRotation` behavior.
-- `getChildrenLimit()`
+- `getChildrenLimit()`: Add description.
   - Executes `getChildrenLimit` behavior.
-- `getRepeat()`
+- `getRepeat()`: Add description.
   - Executes `getRepeat` behavior.
-- `getPitchModifier()`
+- `getPitchModifier()`: Add description.
   - Executes `getPitchModifier` behavior.
-- `getYawModifier()`
+- `getYawModifier()`: Add description.
   - Executes `getYawModifier` behavior.
-- `getChance()`
+- `getChance()`: Add description.
   - Executes `getChance` behavior.
-- `getYawMode()`
+- `getYawMode()`: Add description.
   - Executes `getYawMode` behavior.
-- `calc(float var1, Random var2)`
+- `calc(float var1, Random var2)`: Add description.
   - Executes `calc` behavior.
 
 ## Notes

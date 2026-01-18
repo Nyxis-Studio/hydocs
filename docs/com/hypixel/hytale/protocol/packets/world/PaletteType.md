@@ -1,17 +1,17 @@
+**Source Hash:** `8bbc771b94c274d235050d146cbd2bde0857d08692e9a278249dcc8d0a4b18ff`
+
 # PaletteType
 
 ## Overview
-- Documentation for `PaletteType`.
-- Declared as a enum in `com.hypixel.hytale.protocol.packets.world`.
 
-## Constructors
+## Constructor Descriptions
 - `PaletteType(int value)`
   - Creates a `PaletteType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

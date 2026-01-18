@@ -1,14 +1,14 @@
+**Source Hash:** `edb2d3fbb80d690850b6fc243be4b904cc9178cec47ec8ceb0a93f8cf9307b7d`
+
 # ManhattanDistanceFunction
 
 ## Overview
-- Documentation for `ManhattanDistanceFunction`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes.positions.distancefunctions`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDistance(@Nonnull Vector3d point)`
+## Method Descriptions
+- `getDistance(@Nonnull Vector3d point)`: Add description.
   - Executes `getDistance` behavior.
 
 ## Notes

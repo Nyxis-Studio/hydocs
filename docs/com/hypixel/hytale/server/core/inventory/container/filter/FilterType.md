@@ -1,17 +1,17 @@
+**Source Hash:** `6a81eadb7c2e9a4d22a1c3118baee05f94c811a33a9d655c5ffb59c6f8f48514`
+
 # FilterType
 
 ## Overview
-- Documentation for `FilterType`.
-- Declared as a enum in `com.hypixel.hytale.server.core.inventory.container.filter`.
 
-## Constructors
+## Constructor Descriptions
 - `FilterType(boolean input, boolean output)`
   - Creates a `FilterType` instance.
 
-## Methods
-- `allowInput()`
+## Method Descriptions
+- `allowInput()`: Add description.
   - Executes `allowInput` behavior.
-- `allowOutput()`
+- `allowOutput()`: Add description.
   - Executes `allowOutput` behavior.
 
 ## Notes

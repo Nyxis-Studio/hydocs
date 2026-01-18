@@ -1,17 +1,17 @@
+**Source Hash:** `3ee0418365c1d4742320d4ba55b2a86d7516df706b1ea6d6ed8555ad668437d5`
+
 # NormalizerDensity
 
 ## Overview
-- Documentation for `NormalizerDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `NormalizerDensity(double fromMin, double fromMax, double toMin, double toMax, Density input)`
   - Creates a `NormalizerDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

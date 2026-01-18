@@ -1,17 +1,17 @@
+**Source Hash:** `75146b1512f1cec53358064cb84a448ad814f4f5fe7668375b9a86f64b3ba469`
+
 # WeightedThicknessLayer
 
 ## Overview
-- Documentation for `WeightedThicknessLayer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.spaceanddepth.layers`.
 
-## Constructors
+## Constructor Descriptions
 - `WeightedThicknessLayer(@Nonnull WeightedMap<Integer> thicknessPool, @Nullable MaterialProvider<V> materialProvider, @Nonnull SeedBox seedBox)`
   - Creates a `WeightedThicknessLayer` instance.
 
-## Methods
-- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`
+## Method Descriptions
+- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`: Add description.
   - Executes `getThicknessAt` behavior.
-- `getMaterialProvider()`
+- `getMaterialProvider()`: Add description.
   - Executes `getMaterialProvider` behavior.
 
 ## Notes

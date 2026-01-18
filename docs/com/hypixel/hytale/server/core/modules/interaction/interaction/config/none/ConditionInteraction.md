@@ -1,21 +1,21 @@
+**Source Hash:** `a3bb5bb9ff36155b014620fbd3ca5e6abf407585b21e21c1c64b8f243228c433`
+
 # ConditionInteraction
 
 ## Overview
-- Documentation for `ConditionInteraction`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.interaction.config.none`.
 
-## Constructors
+## Constructor Descriptions
 - `ConditionInteraction()`
   - Creates a `ConditionInteraction` instance.
 
-## Methods
-- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`
+## Method Descriptions
+- `tick0(boolean firstRun, float time, @NonNullDecl InteractionType type, @Nonnull InteractionContext context, @NonNullDecl CooldownHandler cooldownHandler)`: Add description.
   - Executes `tick0` behavior.
-- `generatePacket()`
+- `generatePacket()`: Add description.
   - Executes `generatePacket` behavior.
-- `configurePacket(Interaction packet)`
+- `configurePacket(Interaction packet)`: Add description.
   - Executes `configurePacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

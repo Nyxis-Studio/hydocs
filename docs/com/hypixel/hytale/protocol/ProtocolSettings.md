@@ -1,15 +1,15 @@
+**Source Hash:** `a889e6b9f4b92859f3ea04ad9b2137feab3a4ee6b7f8663619fdc72955e395db`
+
 # ProtocolSettings
 
 ## Overview
-- Documentation for `ProtocolSettings`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ProtocolSettings()`
   - Creates a `ProtocolSettings` instance.
 
-## Methods
-- `validateHash(String hash)`
+## Method Descriptions
+- `validateHash(String hash)`: Add description.
   - Executes `validateHash` behavior.
 
 ## Notes

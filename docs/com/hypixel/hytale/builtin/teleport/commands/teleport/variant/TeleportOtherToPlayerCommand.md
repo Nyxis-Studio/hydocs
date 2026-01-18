@@ -1,15 +1,15 @@
+**Source Hash:** `5b0c6fad8fc1b56953662760a99398db35ee1a59ec3f25693b9d9a09084e2928`
+
 # TeleportOtherToPlayerCommand
 
 ## Overview
-- Documentation for `TeleportOtherToPlayerCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.teleport.commands.teleport.variant`.
 
-## Constructors
+## Constructor Descriptions
 - `TeleportOtherToPlayerCommand()`
   - Creates a `TeleportOtherToPlayerCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

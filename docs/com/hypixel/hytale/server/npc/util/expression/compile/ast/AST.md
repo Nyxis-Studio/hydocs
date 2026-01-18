@@ -1,35 +1,35 @@
+**Source Hash:** `ee20b78e35481e59961606ff65bb599335c29c7411dcc536717e01585cb69b02`
+
 # AST
 
 ## Overview
-- Documentation for `AST`.
-- Declared as a class in `com.hypixel.hytale.server.npc.util.expression.compile.ast`.
 
-## Constructors
+## Constructor Descriptions
 - `AST(@Nonnull ValueType valueType, @Nonnull Token token, int tokenPosition)`
   - Creates a `AST` instance.
 
-## Methods
-- `getParent()`
+## Method Descriptions
+- `getParent()`: Add description.
   - Executes `getParent` behavior.
-- `setParent(AST parent)`
+- `setParent(AST parent)`: Add description.
   - Executes `setParent` behavior.
-- `getValueType()`
+- `getValueType()`: Add description.
   - Executes `getValueType` behavior.
-- `getToken()`
+- `getToken()`: Add description.
   - Executes `getToken` behavior.
-- `getTokenPosition()`
+- `getTokenPosition()`: Add description.
   - Executes `getTokenPosition` behavior.
-- `isConstant()`
+- `isConstant()`: Add description.
   - Executes `isConstant` behavior.
-- `getString()`
+- `getString()`: Add description.
   - Executes `getString` behavior.
-- `getBoolean()`
+- `getBoolean()`: Add description.
   - Executes `getBoolean` behavior.
-- `getNumber()`
+- `getNumber()`: Add description.
   - Executes `getNumber` behavior.
-- `returnType()`
+- `returnType()`: Add description.
   - Executes `returnType` behavior.
-- `genCode(@Nonnull List<ExecutionContext.Instruction> list, Scope scope)`
+- `genCode(@Nonnull List<ExecutionContext.Instruction> list, Scope scope)`: Add description.
   - Executes `genCode` behavior.
 
 ## Notes

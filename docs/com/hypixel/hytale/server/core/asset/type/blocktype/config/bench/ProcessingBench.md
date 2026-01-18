@@ -1,54 +1,54 @@
+**Source Hash:** `95a10e4b912edd4fd1c662661db54f4f6cc57f911903013a4bd51d33b7ec5a47`
+
 # ProcessingBench
 
 ## Overview
-- Documentation for `ProcessingBench`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.bench`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getIconItem()`
+## Method Descriptions
+- `getIconItem()`: Add description.
   - Executes `getIconItem` behavior.
-- `getIcon()`
+- `getIcon()`: Add description.
   - Executes `getIcon` behavior.
-- `getIconName()`
+- `getIconName()`: Add description.
   - Executes `getIconName` behavior.
-- `getIconId()`
+- `getIconId()`: Add description.
   - Executes `getIconId` behavior.
-- `getInput(int tierLevel)`
+- `getInput(int tierLevel)`: Add description.
   - Executes `getInput` behavior.
-- `getFuel()`
+- `getFuel()`: Add description.
   - Executes `getFuel` behavior.
-- `getMaxFuel()`
+- `getMaxFuel()`: Add description.
   - Executes `getMaxFuel` behavior.
-- `getFuelDropItemId()`
+- `getFuelDropItemId()`: Add description.
   - Executes `getFuelDropItemId` behavior.
-- `getOutputSlotsCount(int tierLevel)`
+- `getOutputSlotsCount(int tierLevel)`: Add description.
   - Executes `getOutputSlotsCount` behavior.
-- `getExtraOutput()`
+- `getExtraOutput()`: Add description.
   - Executes `getExtraOutput` behavior.
-- `getEndSoundEventId()`
+- `getEndSoundEventId()`: Add description.
   - Executes `getEndSoundEventId` behavior.
-- `getEndSoundEventIndex()`
+- `getEndSoundEventIndex()`: Add description.
   - Executes `getEndSoundEventIndex` behavior.
-- `shouldAllowNoInputProcessing()`
+- `shouldAllowNoInputProcessing()`: Add description.
   - Executes `shouldAllowNoInputProcessing` behavior.
-- `equals(Object o)`
+- `equals(Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `getResourceTypeId()`
+- `getResourceTypeId()`: Add description.
   - Executes `getResourceTypeId` behavior.
-- `shouldFilterValidIngredients()`
+- `shouldFilterValidIngredients()`: Add description.
   - Executes `shouldFilterValidIngredients` behavior.
-- `getOutputs()`
+- `getOutputs()`: Add description.
   - Executes `getOutputs` behavior.
-- `getPerFuelItemsConsumed()`
+- `getPerFuelItemsConsumed()`: Add description.
   - Executes `getPerFuelItemsConsumed` behavior.
-- `isIgnoredFuelSource(Item id)`
+- `isIgnoredFuelSource(Item id)`: Add description.
   - Executes `isIgnoredFuelSource` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
 
 ## Notes

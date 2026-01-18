@@ -1,59 +1,59 @@
+**Source Hash:** `9926524fa1bc51b0e371455cf948509a7aa3cf7c17d6b1919bdd111397427fae`
+
 # CaveType
 
 ## Overview
-- Documentation for `CaveType`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.cave`.
 
-## Constructors
+## Constructor Descriptions
 - `CaveType(String name, CaveNodeType entryNodeType, IFloatRange yaw, IFloatRange pitch, IFloatRange depth, IHeightThresholdInterpreter heightFactors, IPointGenerator pointGenerator, Int2FlagsCondition biomeMask, BlockMaskCondition blockMask, ICoordinateCondition mapCondition, ICoordinateCondition heightCondition, IDoubleRange fixedEntryHeight, NoiseProperty fixedEntryHeightNoise, FluidLevel fluidLevel, int environment, boolean surfaceLimited, boolean submerge, double maximumSize)`
   - Creates a `CaveType` instance.
 
-## Methods
-- `getName()`
+## Method Descriptions
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getEntryNode()`
+- `getEntryNode()`: Add description.
   - Executes `getEntryNode` behavior.
-- `getModifiedStartHeight(int seed, int x, int y, int z, Random random)`
+- `getModifiedStartHeight(int seed, int x, int y, int z, Random random)`: Add description.
   - Executes `getModifiedStartHeight` behavior.
-- `getStartPitch(Random random)`
+- `getStartPitch(Random random)`: Add description.
   - Executes `getStartPitch` behavior.
-- `getStartYaw(Random random)`
+- `getStartYaw(Random random)`: Add description.
   - Executes `getStartYaw` behavior.
-- `getStartDepth(Random random)`
+- `getStartDepth(Random random)`: Add description.
   - Executes `getStartDepth` behavior.
-- `getHeightRadiusFactor(int seed, double x, double z, int y)`
+- `getHeightRadiusFactor(int seed, double x, double z, int y)`: Add description.
   - Executes `getHeightRadiusFactor` behavior.
-- `getHeightCondition()`
+- `getHeightCondition()`: Add description.
   - Executes `getHeightCondition` behavior.
-- `getEntryPointGenerator()`
+- `getEntryPointGenerator()`: Add description.
   - Executes `getEntryPointGenerator` behavior.
-- `getBiomeMask()`
+- `getBiomeMask()`: Add description.
   - Executes `getBiomeMask` behavior.
-- `getBlockMask()`
+- `getBlockMask()`: Add description.
   - Executes `getBlockMask` behavior.
-- `getFluidLevel()`
+- `getFluidLevel()`: Add description.
   - Executes `getFluidLevel` behavior.
-- `getEnvironment()`
+- `getEnvironment()`: Add description.
   - Executes `getEnvironment` behavior.
-- `isSurfaceLimited()`
+- `isSurfaceLimited()`: Add description.
   - Executes `isSurfaceLimited` behavior.
-- `isSubmerge()`
+- `isSubmerge()`: Add description.
   - Executes `isSubmerge` behavior.
-- `isEntryThreshold(int seed, int x, int z)`
+- `isEntryThreshold(int seed, int x, int z)`: Add description.
   - Executes `isEntryThreshold` behavior.
-- `isHeightThreshold(int seed, int x, int y, int z)`
+- `isHeightThreshold(int seed, int x, int y, int z)`: Add description.
   - Executes `isHeightThreshold` behavior.
-- `getMaximumSize()`
+- `getMaximumSize()`: Add description.
   - Executes `getMaximumSize` behavior.
-- `_hashCode()`
+- `_hashCode()`: Add description.
   - Executes `_hashCode` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getBlockEntry()`
+- `getBlockEntry()`: Add description.
   - Executes `getBlockEntry` behavior.
-- `getHeight()`
+- `getHeight()`: Add description.
   - Executes `getHeight` behavior.
 
 ## Notes

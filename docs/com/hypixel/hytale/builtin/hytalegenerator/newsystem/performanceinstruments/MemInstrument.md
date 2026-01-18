@@ -1,16 +1,16 @@
+**Source Hash:** `a021216bdef5e74055ac41506e99bf98d82d46d776350911793a6f03fe611f56`
+
 # MemInstrument
 
 ## Overview
-- Documentation for `MemInstrument`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.newsystem.performanceinstruments`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getMemoryUsage()`
+## Method Descriptions
+- `getMemoryUsage()`: Add description.
   - Executes `getMemoryUsage` behavior.
-- `Report(long size_bytes)`
+- `Report(long size_bytes)`: Add description.
   - Executes `Report` behavior.
 
 ## Notes

@@ -1,39 +1,39 @@
+**Source Hash:** `22096064e3d23eab6640e0666d01cf8e55bb30404025a45c06268a9099751367`
+
 # SensorAdjustPosition
 
 ## Overview
-- Documentation for `SensorAdjustPosition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorAdjustPosition(@Nonnull BuilderSensorAdjustPosition builder, @Nonnull BuilderSupport support, Sensor sensor)`
   - Creates a `SensorAdjustPosition` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
-- `registerWithSupport(Role role)`
+- `registerWithSupport(Role role)`: Add description.
   - Executes `registerWithSupport` behavior.
-- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`
+- `motionControllerChanged(@Nullable Ref<EntityStore> ref, @Nonnull NPCEntity npcComponent, MotionController motionController, @Nullable ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `motionControllerChanged` behavior.
-- `loaded(Role role)`
+- `loaded(Role role)`: Add description.
   - Executes `loaded` behavior.
-- `spawned(Role role)`
+- `spawned(Role role)`: Add description.
   - Executes `spawned` behavior.
-- `unloaded(Role role)`
+- `unloaded(Role role)`: Add description.
   - Executes `unloaded` behavior.
-- `removed(Role role)`
+- `removed(Role role)`: Add description.
   - Executes `removed` behavior.
-- `teleported(Role role, World from, World to)`
+- `teleported(Role role, World from, World to)`: Add description.
   - Executes `teleported` behavior.
-- `done()`
+- `done()`: Add description.
   - Executes `done` behavior.
-- `componentCount()`
+- `componentCount()`: Add description.
   - Executes `componentCount` behavior.
-- `getComponent(int index)`
+- `getComponent(int index)`: Add description.
   - Executes `getComponent` behavior.
-- `setContext(IAnnotatedComponent parent, int index)`
+- `setContext(IAnnotatedComponent parent, int index)`: Add description.
   - Executes `setContext` behavior.
 
 ## Notes

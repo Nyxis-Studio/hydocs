@@ -1,10 +1,10 @@
+**Source Hash:** `6088fcec1ea69264ad5680db3a236851c15a816cf698d8299773b6676a75eb15`
+
 # WorldGenId
 
 ## Overview
-- Documentation for `WorldGenId`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.component`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenId(int worldGenId)`
   - Creates a `WorldGenId` instance.
 - `WorldGenId()`
@@ -12,12 +12,12 @@
 - `WorldGenId(this.worldGenId)`
   - Creates a `WorldGenId` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getWorldGenId()`
+- `getWorldGenId()`: Add description.
   - Executes `getWorldGenId` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

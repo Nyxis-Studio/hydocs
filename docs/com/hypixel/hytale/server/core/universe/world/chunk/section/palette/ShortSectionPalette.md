@@ -1,10 +1,10 @@
+**Source Hash:** `172242d7d4c032027d84044f5db4f6910098eb97648712710094b99800d218eb`
+
 # ShortSectionPalette
 
 ## Overview
-- Documentation for `ShortSectionPalette`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `ShortSectionPalette()`
   - Creates a `ShortSectionPalette` instance.
 - `ShortSectionPalette(Int2ShortMap externalToInternal, Short2IntMap internalToExternal, BitSet internalIdSet, Short2ShortMap internalIdCount, short[] blocks)`
@@ -14,22 +14,22 @@
 - `ShortSectionPalette(shortExternalToInternal, shortInternalToExternal, shortInternalIdSet, shortInternalIdCount, shortBlocks)`
   - Creates a `ShortSectionPalette` instance.
 
-## Methods
-- `getPaletteType()`
+## Method Descriptions
+- `getPaletteType()`: Add description.
   - Executes `getPaletteType` behavior.
-- `get0(int idx)`
+- `get0(int idx)`: Add description.
   - Executes `get0` behavior.
-- `set0(int idx, short s)`
+- `set0(int idx, short s)`: Add description.
   - Executes `set0` behavior.
-- `shouldDemote()`
+- `shouldDemote()`: Add description.
   - Executes `shouldDemote` behavior.
-- `demote()`
+- `demote()`: Add description.
   - Executes `demote` behavior.
-- `promote()`
+- `promote()`: Add description.
   - Executes `promote` behavior.
-- `isValidInternalId(int internalId)`
+- `isValidInternalId(int internalId)`: Add description.
   - Executes `isValidInternalId` behavior.
-- `fromBytePalette(@Nonnull ByteSectionPalette section)`
+- `fromBytePalette(@Nonnull ByteSectionPalette section)`: Add description.
   - Executes `fromBytePalette` behavior.
 
 ## Notes

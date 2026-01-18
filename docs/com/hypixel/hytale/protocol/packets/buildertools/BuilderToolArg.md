@@ -1,10 +1,10 @@
+**Source Hash:** `dcd473547f25bf5a07bfd91266a7a05251b750ba64d2c2355fe9e7491f45c95c`
+
 # BuilderToolArg
 
 ## Overview
-- Documentation for `BuilderToolArg`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolArg()`
   - Creates a `BuilderToolArg` instance.
 - `BuilderToolArg(boolean required, @Nonnull BuilderToolArgType argType, @Nullable BuilderToolBoolArg boolArg, @Nullable BuilderToolFloatArg floatArg, @Nullable BuilderToolIntArg intArg, @Nullable BuilderToolStringArg stringArg, @Nullable BuilderToolBlockArg blockArg, @Nullable BuilderToolMaskArg maskArg, @Nullable BuilderToolBrushShapeArg brushShapeArg, @Nullable BuilderToolBrushOriginArg brushOriginArg, @Nullable BuilderToolBrushAxisArg brushAxisArg, @Nullable BuilderToolRotationArg rotationArg, @Nullable BuilderToolOptionArg optionArg)`
@@ -12,22 +12,22 @@
 - `BuilderToolArg(@Nonnull BuilderToolArg other)`
   - Creates a `BuilderToolArg` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

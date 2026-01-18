@@ -1,10 +1,10 @@
+**Source Hash:** `b9d5868c88a15f07886c3198422ab7cb57b5bf7d06a16b47d4f692d96eae8ac1`
+
 # ByteSectionPalette
 
 ## Overview
-- Documentation for `ByteSectionPalette`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section.palette`.
 
-## Constructors
+## Constructor Descriptions
 - `ByteSectionPalette()`
   - Creates a `ByteSectionPalette` instance.
 - `ByteSectionPalette(Int2ByteMap externalToInternal, Byte2IntMap internalToExternal, BitSet internalIdSet, Byte2ShortMap internalIdCount, byte[] blocks)`
@@ -12,28 +12,28 @@
 - `ByteSectionPalette(@Nonnull int[] data, int[] unique, int count)`
   - Creates a `ByteSectionPalette` instance.
 
-## Methods
-- `getPaletteType()`
+## Method Descriptions
+- `getPaletteType()`: Add description.
   - Executes `getPaletteType` behavior.
-- `get0(int idx)`
+- `get0(int idx)`: Add description.
   - Executes `get0` behavior.
-- `set0(int idx, byte b)`
+- `set0(int idx, byte b)`: Add description.
   - Executes `set0` behavior.
-- `shouldDemote()`
+- `shouldDemote()`: Add description.
   - Executes `shouldDemote` behavior.
-- `demote()`
+- `demote()`: Add description.
   - Executes `demote` behavior.
-- `promote()`
+- `promote()`: Add description.
   - Executes `promote` behavior.
-- `isValidInternalId(int internalId)`
+- `isValidInternalId(int internalId)`: Add description.
   - Executes `isValidInternalId` behavior.
-- `unsignedInternalId(byte internalId)`
+- `unsignedInternalId(byte internalId)`: Add description.
   - Executes `unsignedInternalId` behavior.
-- `sUnsignedInternalId(byte internalId)`
+- `sUnsignedInternalId(byte internalId)`: Add description.
   - Executes `sUnsignedInternalId` behavior.
-- `fromHalfBytePalette(@Nonnull HalfByteSectionPalette section)`
+- `fromHalfBytePalette(@Nonnull HalfByteSectionPalette section)`: Add description.
   - Executes `fromHalfBytePalette` behavior.
-- `fromShortPalette(@Nonnull ShortSectionPalette section)`
+- `fromShortPalette(@Nonnull ShortSectionPalette section)`: Add description.
   - Executes `fromShortPalette` behavior.
 
 ## Notes

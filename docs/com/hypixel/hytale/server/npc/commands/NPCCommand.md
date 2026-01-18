@@ -1,17 +1,17 @@
+**Source Hash:** `593efc5b767fadbed50bb4cc9f5011ba18a0c8d6a1b70afa223f657293c17d7e`
+
 # NPCCommand
 
 ## Overview
-- Documentation for `NPCCommand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCCommand()`
   - Creates a `NPCCommand` instance.
 
-## Methods
-- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`
+## Method Descriptions
+- `parse(@Nonnull String input, @Nonnull ParseResult parseResult)`: Add description.
   - Executes `parse` behavior.
-- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`
+- `suggest(@Nonnull CommandSender sender, @Nonnull String textAlreadyEntered, int numParametersTyped, @Nonnull SuggestionResult result)`: Add description.
   - Executes `suggest` behavior.
 
 ## Notes

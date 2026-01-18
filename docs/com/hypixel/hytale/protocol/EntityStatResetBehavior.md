@@ -1,17 +1,17 @@
+**Source Hash:** `e886ae2a0b283c014c16efb5b48c4d0245a2b85e5496242cdf4965de8a06e0fe`
+
 # EntityStatResetBehavior
 
 ## Overview
-- Documentation for `EntityStatResetBehavior`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityStatResetBehavior(int value)`
   - Creates a `EntityStatResetBehavior` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `edb56e48f23a698fd844e54cd47798a7b1f5c8acb49334ca68eb06e0c9d83ac0`
+
 # PowDensity
 
 ## Overview
-- Documentation for `PowDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `PowDensity(double exponent, Density input)`
   - Creates a `PowDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

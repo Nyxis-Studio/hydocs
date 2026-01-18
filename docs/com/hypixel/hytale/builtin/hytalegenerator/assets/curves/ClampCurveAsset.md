@@ -1,16 +1,16 @@
+**Source Hash:** `dd2ccc3e1925d07bc086fda966003f9ea2e5d4aa6512021391433c417574d36c`
+
 # ClampCurveAsset
 
 ## Overview
-- Documentation for `ClampCurveAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.curves`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

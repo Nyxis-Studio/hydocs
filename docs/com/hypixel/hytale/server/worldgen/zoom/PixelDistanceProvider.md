@@ -1,39 +1,39 @@
+**Source Hash:** `75d68c3e6072ee6eb93da172b04d5ce18ac6bd422b1bf5b5bdac471518bacf49`
+
 # PixelDistanceProvider
 
 ## Overview
-- Documentation for `PixelDistanceProvider`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.zoom`.
 
-## Constructors
+## Constructor Descriptions
 - `PixelDistanceProvider(@Nonnull PixelProvider image)`
   - Creates a `PixelDistanceProvider` instance.
 
-## Methods
-- `getColors()`
+## Method Descriptions
+- `getColors()`: Add description.
   - Executes `getColors` behavior.
-- `distanceSqToDifferentPixel(double ox, double oy, int px, int py)`
+- `distanceSqToDifferentPixel(double ox, double oy, int px, int py)`: Add description.
   - Executes `distanceSqToDifferentPixel` behavior.
-- `distanceSqToDiffInSeq(double ox, double oy, int pixel, int cellX, int cellY)`
+- `distanceSqToDiffInSeq(double ox, double oy, int pixel, int cellX, int cellY)`: Add description.
   - Executes `distanceSqToDiffInSeq` behavior.
-- `hasDifferentPixel(int cellX, int cellY, int pixel)`
+- `hasDifferentPixel(int cellX, int cellY, int pixel)`: Add description.
   - Executes `hasDifferentPixel` behavior.
-- `prepareSegmentTable()`
+- `prepareSegmentTable()`: Add description.
   - Executes `prepareSegmentTable` behavior.
-- `clampX(int x)`
+- `clampX(int x)`: Add description.
   - Executes `clampX` behavior.
-- `clampY(int y)`
+- `clampY(int y)`: Add description.
   - Executes `clampY` behavior.
-- `cellIndex(int cellX, int cellY)`
+- `cellIndex(int cellX, int cellY)`: Add description.
   - Executes `cellIndex` behavior.
-- `distanceSqToPixel(double ox, double oy, int px, int py)`
+- `distanceSqToPixel(double ox, double oy, int px, int py)`: Add description.
   - Executes `distanceSqToPixel` behavior.
-- `contains(int var1)`
+- `contains(int var1)`: Add description.
   - Executes `contains` behavior.
-- `size()`
+- `size()`: Add description.
   - Executes `size` behavior.
-- `contains(int pixel)`
+- `contains(int pixel)`: Add description.
   - Executes `contains` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

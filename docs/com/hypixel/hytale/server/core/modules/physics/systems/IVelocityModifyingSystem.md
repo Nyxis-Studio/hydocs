@@ -1,14 +1,14 @@
+**Source Hash:** `147ffcd19cb66273a217af6c0aa5587493ba17e2c332996a2ba4915a73905c46`
+
 # IVelocityModifyingSystem
 
 ## Overview
-- Documentation for `IVelocityModifyingSystem`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.physics.systems`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

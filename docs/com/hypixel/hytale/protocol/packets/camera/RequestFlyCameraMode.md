@@ -1,10 +1,10 @@
+**Source Hash:** `f4045abdfd7c1a82e6d4e9b021e4e1e6ff5a07387dbed0679641dc8d457e2287`
+
 # RequestFlyCameraMode
 
 ## Overview
-- Documentation for `RequestFlyCameraMode`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.camera`.
 
-## Constructors
+## Constructor Descriptions
 - `RequestFlyCameraMode()`
   - Creates a `RequestFlyCameraMode` instance.
 - `RequestFlyCameraMode(boolean entering)`
@@ -12,24 +12,24 @@
 - `RequestFlyCameraMode(@Nonnull RequestFlyCameraMode other)`
   - Creates a `RequestFlyCameraMode` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

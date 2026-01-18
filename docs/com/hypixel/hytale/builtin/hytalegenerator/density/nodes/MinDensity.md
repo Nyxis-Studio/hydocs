@@ -1,17 +1,17 @@
+**Source Hash:** `5c98cdc5c52e9d26a6c9e823b6e77d20ef3bf867cda16fc1b75a0b5263974d3b`
+
 # MinDensity
 
 ## Overview
-- Documentation for `MinDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `MinDensity(@Nonnull List<Density> inputs)`
   - Creates a `MinDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

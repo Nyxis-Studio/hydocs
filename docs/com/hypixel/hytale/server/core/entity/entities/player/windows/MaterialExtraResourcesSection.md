@@ -1,24 +1,24 @@
+**Source Hash:** `44e4f85fe7502cb9c1bb68106e7fd598958d26c18c09c066dcf7edf6ae2905d1`
+
 # MaterialExtraResourcesSection
 
 ## Overview
-- Documentation for `MaterialExtraResourcesSection`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setExtraMaterials(ItemQuantity[] extraMaterials)`
+## Method Descriptions
+- `setExtraMaterials(ItemQuantity[] extraMaterials)`: Add description.
   - Executes `setExtraMaterials` behavior.
-- `isValid()`
+- `isValid()`: Add description.
   - Executes `isValid` behavior.
-- `setValid(boolean valid)`
+- `setValid(boolean valid)`: Add description.
   - Executes `setValid` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `getItemContainer()`
+- `getItemContainer()`: Add description.
   - Executes `getItemContainer` behavior.
-- `setItemContainer(ItemContainer itemContainer)`
+- `setItemContainer(ItemContainer itemContainer)`: Add description.
   - Executes `setItemContainer` behavior.
 
 ## Notes

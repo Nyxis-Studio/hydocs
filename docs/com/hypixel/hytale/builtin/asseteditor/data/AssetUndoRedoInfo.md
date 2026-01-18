@@ -1,14 +1,14 @@
+**Source Hash:** `b9725028e4bd8f295dde46742f5c99acfc652001d5683c8fbd71958d2aef6599`
+
 # AssetUndoRedoInfo
 
 ## Overview
-- Documentation for `AssetUndoRedoInfo`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor.data`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

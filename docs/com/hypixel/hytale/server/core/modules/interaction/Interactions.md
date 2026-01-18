@@ -1,10 +1,10 @@
+**Source Hash:** `fb95e7e0afe51dad2962fd92c20986e11cc95b127b1d17a2ff080716a4280724`
+
 # Interactions
 
 ## Overview
-- Documentation for `Interactions`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction`.
 
-## Constructors
+## Constructor Descriptions
 - `Interactions()`
   - Creates a `Interactions` instance.
 - `Interactions(@Nonnull Map<InteractionType, String> interactions)`
@@ -12,22 +12,22 @@
 - `Interactions(this.interactions)`
   - Creates a `Interactions` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getInteractionId(@Nonnull InteractionType type)`
+- `getInteractionId(@Nonnull InteractionType type)`: Add description.
   - Executes `getInteractionId` behavior.
-- `setInteractionId(@Nonnull InteractionType type, @Nonnull String interactionId)`
+- `setInteractionId(@Nonnull InteractionType type, @Nonnull String interactionId)`: Add description.
   - Executes `setInteractionId` behavior.
-- `getInteractions()`
+- `getInteractions()`: Add description.
   - Executes `getInteractions` behavior.
-- `getInteractionHint()`
+- `getInteractionHint()`: Add description.
   - Executes `getInteractionHint` behavior.
-- `setInteractionHint(@Nullable String interactionHint)`
+- `setInteractionHint(@Nullable String interactionHint)`: Add description.
   - Executes `setInteractionHint` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `consumeNetworkOutdated()`
+- `consumeNetworkOutdated()`: Add description.
   - Executes `consumeNetworkOutdated` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `0d42c3e8b22d79fe5e3c7fffa753c382cd62dab0f83bfb54f9aed12d75bc1092`
+
 # NoiseType
 
 ## Overview
-- Documentation for `NoiseType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `NoiseType(int value)`
   - Creates a `NoiseType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

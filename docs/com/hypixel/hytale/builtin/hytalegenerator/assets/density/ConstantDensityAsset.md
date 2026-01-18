@@ -1,16 +1,16 @@
+**Source Hash:** `75b22b25085140fe31e9a8612f84a9fd2995a76a2f3463545ad45fecebf179e5`
+
 # ConstantDensityAsset
 
 ## Overview
-- Documentation for `ConstantDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,14 +1,14 @@
+**Source Hash:** `65cbd569e80d665afb0bdd4cc2841864d2ddee587b85815b49b0d90fb37ae2b9`
+
 # PrimitiveCodec
 
 ## Overview
-- Documentation for `PrimitiveCodec`.
-- Declared as a interface in `com.hypixel.hytale.codec`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

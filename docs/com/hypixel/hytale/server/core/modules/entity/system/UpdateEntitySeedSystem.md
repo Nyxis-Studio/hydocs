@@ -1,15 +1,15 @@
+**Source Hash:** `6e20faea133f2882a04c8fa73e2ad71020128b3f37f0aa0afe9ebd893bb9d214`
+
 # UpdateEntitySeedSystem
 
 ## Overview
-- Documentation for `UpdateEntitySeedSystem`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.system`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateEntitySeedSystem()`
   - Creates a `UpdateEntitySeedSystem` instance.
 
-## Methods
-- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `delayedTick(float dt, int systemIndex, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `delayedTick` behavior.
 
 ## Notes

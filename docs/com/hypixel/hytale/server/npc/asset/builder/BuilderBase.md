@@ -1,524 +1,524 @@
+**Source Hash:** `759bfe998900ae4be460e6ba29d6e4949da11a27e3e481e65729a6cf6ad654a0`
+
 # BuilderBase
 
 ## Overview
-- Documentation for `BuilderBase`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setTypeName(String name)`
+## Method Descriptions
+- `setTypeName(String name)`: Add description.
   - Executes `setTypeName` behavior.
-- `getTypeName()`
+- `getTypeName()`: Add description.
   - Executes `getTypeName` behavior.
-- `getLabel()`
+- `getLabel()`: Add description.
   - Executes `getLabel` behavior.
-- `setLabel(String label)`
+- `setLabel(String label)`: Add description.
   - Executes `setLabel` behavior.
-- `getEvaluatorHelper()`
+- `getEvaluatorHelper()`: Add description.
   - Executes `getEvaluatorHelper` behavior.
-- `getStateMappingHelper()`
+- `getStateMappingHelper()`: Add description.
   - Executes `getStateMappingHelper` behavior.
-- `getInstructionContextHelper()`
+- `getInstructionContextHelper()`: Add description.
   - Executes `getInstructionContextHelper` behavior.
-- `validateReferencedProvidedFeatures(BuilderManager manager, ExecutionContext context)`
+- `validateReferencedProvidedFeatures(BuilderManager manager, ExecutionContext context)`: Add description.
   - Executes `validateReferencedProvidedFeatures` behavior.
-- `canRequireFeature()`
+- `canRequireFeature()`: Add description.
   - Executes `canRequireFeature` behavior.
-- `excludeFromRegularBuilding()`
+- `excludeFromRegularBuilding()`: Add description.
   - Executes `excludeFromRegularBuilding` behavior.
-- `readConfig(BuilderContext owner, @Nonnull JsonElement data, BuilderManager builderManager, BuilderParameters builderParameters, BuilderValidationHelper builderValidationHelper)`
+- `readConfig(BuilderContext owner, @Nonnull JsonElement data, BuilderManager builderManager, BuilderParameters builderParameters, BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `readConfig` behavior.
-- `preReadConfig(BuilderContext owner, BuilderManager builderManager, BuilderParameters builderParameters, @Nullable BuilderValidationHelper builderValidationHelper)`
+- `preReadConfig(BuilderContext owner, BuilderManager builderManager, BuilderParameters builderParameters, @Nullable BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `preReadConfig` behavior.
-- `addQueryKey(String name)`
+- `addQueryKey(String name)`: Add description.
   - Executes `addQueryKey` behavior.
-- `getOwner()`
+- `getOwner()`: Add description.
   - Executes `getOwner` behavior.
-- `ignoreAttribute(String name)`
+- `ignoreAttribute(String name)`: Add description.
   - Executes `ignoreAttribute` behavior.
-- `postReadConfig(@Nonnull JsonElement data)`
+- `postReadConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `postReadConfig` behavior.
-- `readCommonConfig(JsonElement data)`
+- `readCommonConfig(JsonElement data)`: Add description.
   - Executes `readCommonConfig` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderManager()`
+- `getBuilderManager()`: Add description.
   - Executes `getBuilderManager` behavior.
-- `getBuilderParameters()`
+- `getBuilderParameters()`: Add description.
   - Executes `getBuilderParameters` behavior.
-- `expectJsonObject(@Nonnull JsonElement data, String name)`
+- `expectJsonObject(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectJsonObject` behavior.
-- `expectJsonArray(@Nonnull JsonElement data, String name)`
+- `expectJsonArray(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectJsonArray` behavior.
-- `expectString(@Nonnull JsonElement data, String name)`
+- `expectString(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectString` behavior.
-- `expectDouble(@Nonnull JsonElement data, String name)`
+- `expectDouble(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectDouble` behavior.
-- `expectInteger(@Nonnull JsonElement data, String name)`
+- `expectInteger(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectInteger` behavior.
-- `expectBoolean(@Nonnull JsonElement data, String name)`
+- `expectBoolean(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `expectBoolean` behavior.
-- `expectIntArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`
+- `expectIntArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`: Add description.
   - Executes `expectIntArray` behavior.
-- `expectIntArray(@Nonnull JsonElement data, String name, int size)`
+- `expectIntArray(@Nonnull JsonElement data, String name, int size)`: Add description.
   - Executes `expectIntArray` behavior.
-- `expectDoubleArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`
+- `expectDoubleArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`: Add description.
   - Executes `expectDoubleArray` behavior.
-- `expectDoubleArray(@Nonnull JsonElement data, String name, int size)`
+- `expectDoubleArray(@Nonnull JsonElement data, String name, int size)`: Add description.
   - Executes `expectDoubleArray` behavior.
-- `expectJsonArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`
+- `expectJsonArray(@Nonnull JsonElement data, String name, int minSize, int maxSize)`: Add description.
   - Executes `expectJsonArray` behavior.
-- `checkForUnexpectedComputeObject(@Nonnull JsonElement data, String name)`
+- `checkForUnexpectedComputeObject(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `checkForUnexpectedComputeObject` behavior.
-- `getRequiredJsonElement(@Nonnull JsonElement data, String name, boolean addKey)`
+- `getRequiredJsonElement(@Nonnull JsonElement data, String name, boolean addKey)`: Add description.
   - Executes `getRequiredJsonElement` behavior.
-- `getRequiredJsonElement(@Nonnull JsonElement data, String name)`
+- `getRequiredJsonElement(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `getRequiredJsonElement` behavior.
-- `getRequiredJsonElementIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull ParameterType type, boolean addKey)`
+- `getRequiredJsonElementIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull ParameterType type, boolean addKey)`: Add description.
   - Executes `getRequiredJsonElementIfNotOverridden` behavior.
-- `getRequiredJsonElementIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull ParameterType type)`
+- `getRequiredJsonElementIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull ParameterType type)`: Add description.
   - Executes `getRequiredJsonElementIfNotOverridden` behavior.
-- `getOptionalJsonElement(@Nonnull JsonElement data, String name, boolean addKey)`
+- `getOptionalJsonElement(@Nonnull JsonElement data, String name, boolean addKey)`: Add description.
   - Executes `getOptionalJsonElement` behavior.
-- `getOptionalJsonElement(@Nonnull JsonElement data, String name)`
+- `getOptionalJsonElement(@Nonnull JsonElement data, String name)`: Add description.
   - Executes `getOptionalJsonElement` behavior.
-- `requireString(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireString(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireString` behavior.
-- `getString(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, String defaultValue, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getString(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, String defaultValue, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getString` behavior.
-- `requireString(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireString(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireString` behavior.
-- `requireStringIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireStringIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireStringIfNotOverridden` behavior.
-- `getString(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, String defaultValue, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getString(@Nonnull JsonElement data, String name, @Nonnull StringHolder stringHolder, String defaultValue, StringValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getString` behavior.
-- `validateAndSet(String str, @Nullable StringValidator validator, @Nonnull Consumer<String> setter, String name)`
+- `validateAndSet(String str, @Nullable StringValidator validator, @Nonnull Consumer<String> setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `nonNull(@Nullable String[] array)`
+- `nonNull(@Nullable String[] array)`: Add description.
   - Executes `nonNull` behavior.
-- `expectStringArray(@Nonnull JsonElement data, @Nullable Function<String, String> mapper, String name, boolean warning)`
+- `expectStringArray(@Nonnull JsonElement data, @Nullable Function<String, String> mapper, String name, boolean warning)`: Add description.
   - Executes `expectStringArray` behavior.
-- `expectStringArray(@Nonnull JsonElement data, Function<String, String> mapper, String name)`
+- `expectStringArray(@Nonnull JsonElement data, Function<String, String> mapper, String name)`: Add description.
   - Executes `expectStringArray` behavior.
-- `getStringArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, String[] defaultValue, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getStringArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, String[] defaultValue, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getStringArray` behavior.
-- `requireStringArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireStringArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireStringArray` behavior.
-- `requireStringArray(@Nonnull JsonElement data, String name, @Nonnull StringArrayHolder holder, int minLength, int maxLength, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireStringArray(@Nonnull JsonElement data, String name, @Nonnull StringArrayHolder holder, int minLength, int maxLength, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireStringArray` behavior.
-- `requireTemporalArray(@Nonnull JsonElement data, String name, @Nonnull TemporalArrayHolder holder, int minLength, int maxLength, TemporalArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireTemporalArray(@Nonnull JsonElement data, String name, @Nonnull TemporalArrayHolder holder, int minLength, int maxLength, TemporalArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireTemporalArray` behavior.
-- `requireTemporalRange(@Nonnull JsonElement data, String name, @Nonnull TemporalArrayHolder holder, TemporalArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireTemporalRange(@Nonnull JsonElement data, String name, @Nonnull TemporalArrayHolder holder, TemporalArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireTemporalRange` behavior.
-- `getStringArray(@Nonnull JsonElement data, String name, @Nonnull StringArrayHolder holder, String[] defaultValue, int minLength, int maxLength, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getStringArray(@Nonnull JsonElement data, String name, @Nonnull StringArrayHolder holder, String[] defaultValue, int minLength, int maxLength, StringArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getStringArray` behavior.
-- `validateAndSet(String[] value, @Nullable StringArrayValidator validator, @Nonnull Consumer<String[]> setter, String name)`
+- `validateAndSet(String[] value, @Nullable StringArrayValidator validator, @Nonnull Consumer<String[]> setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `defaultArrayToString(@Nullable String[] defaultValue)`
+- `defaultArrayToString(@Nullable String[] defaultValue)`: Add description.
   - Executes `defaultArrayToString` behavior.
-- `requireOrGetDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, boolean required, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireOrGetDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, boolean required, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireOrGetDictionary` behavior.
-- `requireDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireDictionary` behavior.
-- `getDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getDictionary(@Nonnull JsonElement data, String name, String domain, @Nonnull BiConsumer<String, JsonElement> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getDictionary` behavior.
-- `requireDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleConsumer setter, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleConsumer setter, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireDouble` behavior.
-- `getDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleConsumer setter, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleConsumer setter, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getDouble` behavior.
-- `requireDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireDouble` behavior.
-- `requireDoubleIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireDoubleIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireDoubleIfNotOverridden` behavior.
-- `getDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getDouble(@Nonnull JsonElement data, String name, @Nonnull DoubleHolder doubleHolder, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getDouble` behavior.
-- `validateAndSet(double v, @Nullable DoubleValidator validator, @Nonnull DoubleConsumer setter, String name)`
+- `validateAndSet(double v, @Nullable DoubleValidator validator, @Nonnull DoubleConsumer setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `requireIntArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireIntArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireIntArray` behavior.
-- `getIntArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int[] defaultValue, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getIntArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int[] defaultValue, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getIntArray` behavior.
-- `requireIntArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireIntArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireIntArray` behavior.
-- `getIntArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int[] defaultValue, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getIntArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int[] defaultValue, int minLength, int maxLength, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getIntArray` behavior.
-- `requireIntRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireIntRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireIntRange` behavior.
-- `getIntRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int[] defaultValue, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getIntRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<int[]> setter, int[] defaultValue, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getIntRange` behavior.
-- `requireIntRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireIntRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireIntRange` behavior.
-- `getIntRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int[] defaultValue, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getIntRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int[] defaultValue, IntArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getIntRange` behavior.
-- `validateAndSet(int[] v, @Nullable IntArrayValidator validator, @Nonnull Consumer<int[]> setter, String name)`
+- `validateAndSet(int[] v, @Nullable IntArrayValidator validator, @Nonnull Consumer<int[]> setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `requireDoubleArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireDoubleArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireDoubleArray` behavior.
-- `getDoubleArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getDoubleArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getDoubleArray` behavior.
-- `requireDoubleArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireDoubleArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireDoubleArray` behavior.
-- `getDoubleArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getDoubleArray(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, int minLength, int maxLength, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getDoubleArray` behavior.
-- `requireDoubleRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireDoubleRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireDoubleRange` behavior.
-- `getDoubleRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getDoubleRange(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getDoubleRange` behavior.
-- `requireVector3d(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireVector3d(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireVector3d` behavior.
-- `getVector3d(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getVector3d(@Nonnull JsonElement data, String name, @Nonnull Consumer<double[]> setter, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getVector3d` behavior.
-- `requireDoubleRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireDoubleRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireDoubleRange` behavior.
-- `getDoubleRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getDoubleRange(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getDoubleRange` behavior.
-- `requireVector3d(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireVector3d(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireVector3d` behavior.
-- `getVector3d(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getVector3d(@Nonnull JsonElement data, String name, @Nonnull NumberArrayHolder holder, double[] defaultValue, DoubleArrayValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getVector3d` behavior.
-- `validateAndSet(double[] v, @Nullable DoubleArrayValidator validator, @Nonnull Consumer<double[]> setter, String name)`
+- `validateAndSet(double[] v, @Nullable DoubleArrayValidator validator, @Nonnull Consumer<double[]> setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `createVector3d(@Nonnull double[] coordinates)`
+- `createVector3d(@Nonnull double[] coordinates)`: Add description.
   - Executes `createVector3d` behavior.
-- `createVector3d(@Nullable double[] coordinates, @Nonnull Supplier<Vector3d> defaultSupplier)`
+- `createVector3d(@Nullable double[] coordinates, @Nonnull Supplier<Vector3d> defaultSupplier)`: Add description.
   - Executes `createVector3d` behavior.
-- `requireFloat(@Nonnull JsonElement data, String name, @Nonnull FloatConsumer setter, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireFloat(@Nonnull JsonElement data, String name, @Nonnull FloatConsumer setter, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireFloat` behavior.
-- `getFloat(@Nonnull JsonElement data, String name, @Nonnull FloatConsumer setter, float defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getFloat(@Nonnull JsonElement data, String name, @Nonnull FloatConsumer setter, float defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getFloat` behavior.
-- `requireFloat(@Nonnull JsonElement data, String name, @Nonnull FloatHolder floatHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireFloat(@Nonnull JsonElement data, String name, @Nonnull FloatHolder floatHolder, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireFloat` behavior.
-- `getFloat(@Nonnull JsonElement data, String name, @Nonnull FloatHolder floatHolder, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getFloat(@Nonnull JsonElement data, String name, @Nonnull FloatHolder floatHolder, double defaultValue, DoubleValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getFloat` behavior.
-- `validateAndSet(float v, @Nullable DoubleValidator validator, @Nonnull FloatConsumer setter, String name)`
+- `validateAndSet(float v, @Nullable DoubleValidator validator, @Nonnull FloatConsumer setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `requireInt(@Nonnull JsonElement data, String name, @Nonnull IntConsumer setter, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireInt(@Nonnull JsonElement data, String name, @Nonnull IntConsumer setter, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireInt` behavior.
-- `getInt(@Nonnull JsonElement data, String name, @Nonnull IntConsumer setter, int defaultValue, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getInt(@Nonnull JsonElement data, String name, @Nonnull IntConsumer setter, int defaultValue, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getInt` behavior.
-- `requireInt(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireInt(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireInt` behavior.
-- `requireIntIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireIntIfNotOverridden(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireIntIfNotOverridden` behavior.
-- `getInt(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, int defaultValue, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getInt(@Nonnull JsonElement data, String name, @Nonnull IntHolder intHolder, int defaultValue, IntValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getInt` behavior.
-- `validateAndSet(int v, @Nullable IntValidator validator, @Nonnull IntConsumer setter, String name)`
+- `validateAndSet(int v, @Nullable IntValidator validator, @Nonnull IntConsumer setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `requireBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanHolder booleanHolder, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanHolder booleanHolder, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireBoolean` behavior.
-- `getBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanHolder booleanHolder, boolean defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanHolder booleanHolder, boolean defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getBoolean` behavior.
-- `requireBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanConsumer setter, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanConsumer setter, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireBoolean` behavior.
-- `getBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanConsumer setter, boolean defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getBoolean(@Nonnull JsonElement data, String name, @Nonnull BooleanConsumer setter, boolean defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getBoolean` behavior.
-- `getParameterBlock(@Nonnull JsonElement data, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getParameterBlock(@Nonnull JsonElement data, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getParameterBlock` behavior.
-- `cleanupParameters()`
+- `cleanupParameters()`: Add description.
   - Executes `cleanupParameters` behavior.
-- `resolveValue(String txt, E[] enumConstants, String paramName)`
+- `resolveValue(String txt, E[] enumConstants, String paramName)`: Add description.
   - Executes `resolveValue` behavior.
-- `stringToEnum(@Nullable String value, E[] enumConstants, String ident)`
+- `stringToEnum(@Nullable String value, E[] enumConstants, String ident)`: Add description.
   - Executes `stringToEnum` behavior.
-- `getDomain(E[] enumConstants)`
+- `getDomain(E[] enumConstants)`: Add description.
   - Executes `getDomain` behavior.
-- `formatEnumCamelCase(@Nonnull String name)`
+- `formatEnumCamelCase(@Nonnull String name)`: Add description.
   - Executes `formatEnumCamelCase` behavior.
-- `getEnumValues(@Nonnull Class<E> enumClass)`
+- `getEnumValues(@Nonnull Class<E> enumClass)`: Add description.
   - Executes `getEnumValues` behavior.
-- `requireEnum(@Nonnull JsonElement data, String name, @Nonnull Consumer<E> setter, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireEnum(@Nonnull JsonElement data, String name, @Nonnull Consumer<E> setter, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireEnum` behavior.
-- `getEnum(@Nonnull JsonElement data, String name, @Nonnull Consumer<E> setter, @Nonnull Class<E> clazz, @Nullable E defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getEnum(@Nonnull JsonElement data, String name, @Nonnull Consumer<E> setter, @Nonnull Class<E> clazz, @Nullable E defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getEnum` behavior.
-- `requireEnum(@Nonnull JsonElement data, String name, @Nonnull EnumHolder<E> enumHolder, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireEnum(@Nonnull JsonElement data, String name, @Nonnull EnumHolder<E> enumHolder, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireEnum` behavior.
-- `getEnum(@Nonnull JsonElement data, String name, @Nonnull EnumHolder<E> enumHolder, @Nonnull Class<E> clazz, @Nonnull E defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getEnum(@Nonnull JsonElement data, String name, @Nonnull EnumHolder<E> enumHolder, @Nonnull Class<E> clazz, @Nonnull E defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getEnum` behavior.
-- `enumSetToStrings(@Nonnull EnumSet<E> enumSet)`
+- `enumSetToStrings(@Nonnull EnumSet<E> enumSet)`: Add description.
   - Executes `enumSetToStrings` behavior.
-- `stringsToEnumSet(@Nullable String[] array, @Nonnull Class<E> clazz, E[] enumConstants, String ident)`
+- `stringsToEnumSet(@Nullable String[] array, @Nonnull Class<E> clazz, E[] enumConstants, String ident)`: Add description.
   - Executes `stringsToEnumSet` behavior.
-- `stringsToEnumArray(@Nullable String[] array, @Nonnull Class<E> clazz, E[] enumConstants, String ident)`
+- `stringsToEnumArray(@Nullable String[] array, @Nonnull Class<E> clazz, E[] enumConstants, String ident)`: Add description.
   - Executes `stringsToEnumArray` behavior.
-- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull String elementAsString)`
+- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull String elementAsString)`: Add description.
   - Executes `toSet` behavior.
-- `toDebugFlagSet(String name, @Nonnull String elementAsString)`
+- `toDebugFlagSet(String name, @Nonnull String elementAsString)`: Add description.
   - Executes `toDebugFlagSet` behavior.
-- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull JsonArray jsonArray)`
+- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull JsonArray jsonArray)`: Add description.
   - Executes `toSet` behavior.
-- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull JsonElement jsonElement)`
+- `toSet(String name, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> t, @Nonnull JsonElement jsonElement)`: Add description.
   - Executes `toSet` behavior.
-- `requireEnumArray(@Nonnull JsonElement data, String name, @Nonnull EnumArrayHolder<E> enumArrayHolderHolder, @Nonnull Class<E> clazz, EnumArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireEnumArray(@Nonnull JsonElement data, String name, @Nonnull EnumArrayHolder<E> enumArrayHolderHolder, @Nonnull Class<E> clazz, EnumArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireEnumArray` behavior.
-- `requireEnumSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<? super EnumSet<E>> setter, @Nonnull Class<E> clazz, @Nonnull Supplier<? extends EnumSet<E>> factory, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireEnumSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<? super EnumSet<E>> setter, @Nonnull Class<E> clazz, @Nonnull Supplier<? extends EnumSet<E>> factory, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireEnumSet` behavior.
-- `getEnumSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<? super EnumSet<E>> setter, @Nonnull Class<E> clazz, @Nonnull Supplier<? extends EnumSet<E>> factory, @Nonnull EnumSet<E> defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getEnumSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<? super EnumSet<E>> setter, @Nonnull Class<E> clazz, @Nonnull Supplier<? extends EnumSet<E>> factory, @Nonnull EnumSet<E> defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getEnumSet` behavior.
-- `requireEnumSet(@Nonnull JsonElement data, String name, @Nonnull EnumSetHolder<E> enumSetHolder, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireEnumSet(@Nonnull JsonElement data, String name, @Nonnull EnumSetHolder<E> enumSetHolder, @Nonnull Class<E> clazz, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireEnumSet` behavior.
-- `getEnumSet(@Nonnull JsonElement data, String name, @Nonnull EnumSetHolder<E> enumSetHolder, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getEnumSet(@Nonnull JsonElement data, String name, @Nonnull EnumSetHolder<E> enumSetHolder, @Nonnull Class<E> clazz, @Nonnull EnumSet<E> defaultValue, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getEnumSet` behavior.
-- `getObjectSchema(@Nonnull Class<?> classType)`
+- `getObjectSchema(@Nonnull Class<?> classType)`: Add description.
   - Executes `getObjectSchema` behavior.
-- `getObject(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectReferenceHelper<?> builderObjectReferenceHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `getObject(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectReferenceHelper<?> builderObjectReferenceHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `getObject` behavior.
-- `requireObject(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectReferenceHelper<?> builderObjectReferenceHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `requireObject(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectReferenceHelper<?> builderObjectReferenceHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `requireObject` behavior.
-- `getCodecObject(@Nonnull JsonElement data, String name, @Nonnull BuilderCodecObjectHelper<?> helper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getCodecObject(@Nonnull JsonElement data, String name, @Nonnull BuilderCodecObjectHelper<?> helper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getCodecObject` behavior.
-- `requireCodecObject(@Nonnull JsonElement data, String name, @Nonnull BuilderCodecObjectHelper<?> helper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireCodecObject(@Nonnull JsonElement data, String name, @Nonnull BuilderCodecObjectHelper<?> helper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireCodecObject` behavior.
-- `requireEmbeddableArray(@Nonnull JsonElement data, String embedTag, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, @Nonnull ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `requireEmbeddableArray(@Nonnull JsonElement data, String embedTag, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, @Nonnull ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `requireEmbeddableArray` behavior.
-- `getArray(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `getArray(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `getArray` behavior.
-- `requireArray(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `requireArray(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator arrayValidator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `requireArray` behavior.
-- `requireArray0(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, @Nullable ArrayValidator validator, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `requireArray0(@Nonnull JsonElement data, String name, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, @Nullable ArrayValidator validator, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `requireArray0` behavior.
-- `requireArray(@Nonnull JsonElement data, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`
+- `requireArray(@Nonnull JsonElement data, @Nonnull BuilderObjectArrayHelper<?, ?> builderObjectArrayHelper, ArrayValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription, @Nonnull BuilderValidationHelper builderValidationHelper)`: Add description.
   - Executes `requireArray` behavior.
-- `requireAsset(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireAsset(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireAsset` behavior.
-- `getAsset(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, String defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getAsset(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, String defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getAsset` behavior.
-- `requireAsset(@Nonnull JsonElement data, String name, @Nonnull AssetHolder assetHolder, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireAsset(@Nonnull JsonElement data, String name, @Nonnull AssetHolder assetHolder, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireAsset` behavior.
-- `getAsset(@Nonnull JsonElement data, String name, @Nonnull AssetHolder assetHolder, String defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getAsset(@Nonnull JsonElement data, String name, @Nonnull AssetHolder assetHolder, String defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getAsset` behavior.
-- `validateAndSet(String str, @Nullable AssetValidator validator, @Nonnull Consumer<String> setter, String name)`
+- `validateAndSet(String str, @Nullable AssetValidator validator, @Nonnull Consumer<String> setter, String name)`: Add description.
   - Executes `validateAndSet` behavior.
-- `validateAssetList(@Nullable String[] assetList, @Nonnull AssetValidator validator, String attributeName, boolean testExistance)`
+- `validateAssetList(@Nullable String[] assetList, @Nonnull AssetValidator validator, String attributeName, boolean testExistance)`: Add description.
   - Executes `validateAssetList` behavior.
-- `validateAsset(@Nullable String assetName, @Nonnull AssetValidator validator, String attributeName, boolean testExistance)`
+- `validateAsset(@Nullable String assetName, @Nonnull AssetValidator validator, String attributeName, boolean testExistance)`: Add description.
   - Executes `validateAsset` behavior.
-- `validateSingleAsset(String assetName, @Nonnull AssetValidator validator, String attributeName)`
+- `validateSingleAsset(String assetName, @Nonnull AssetValidator validator, String attributeName)`: Add description.
   - Executes `validateSingleAsset` behavior.
-- `getAssetArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, String[] defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getAssetArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, String[] defaultValue, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getAssetArray` behavior.
-- `getAssetArray(@Nonnull JsonElement data, String name, @Nonnull AssetArrayHolder assetHolder, String[] defaultValue, int minLength, int maxLength, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getAssetArray(@Nonnull JsonElement data, String name, @Nonnull AssetArrayHolder assetHolder, String[] defaultValue, int minLength, int maxLength, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getAssetArray` behavior.
-- `requireAssetArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireAssetArray(@Nonnull JsonElement data, String name, @Nonnull Consumer<String[]> setter, Function<String, String> mapper, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireAssetArray` behavior.
-- `requireAssetArray(@Nonnull JsonElement data, String name, @Nonnull AssetArrayHolder assetHolder, int minLength, int maxLength, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `requireAssetArray(@Nonnull JsonElement data, String name, @Nonnull AssetArrayHolder assetHolder, int minLength, int maxLength, @Nonnull AssetValidator validator, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `requireAssetArray` behavior.
-- `validateAndSet(@Nullable String[] assetList, @Nullable AssetValidator validator, @Nonnull Consumer<String[]> setter, String attributeName)`
+- `validateAndSet(@Nullable String[] assetList, @Nullable AssetValidator validator, @Nonnull Consumer<String[]> setter, String attributeName)`: Add description.
   - Executes `validateAndSet` behavior.
-- `createDescriptor(@Nonnull Builder<?> builder, String builderName, String categoryName, BuilderManager builderManager, BuilderDescriptorState state, String shortDescription, String longDescription, Set<String> tags)`
+- `createDescriptor(@Nonnull Builder<?> builder, String builderName, String categoryName, BuilderManager builderManager, BuilderDescriptorState state, String shortDescription, String longDescription, Set<String> tags)`: Add description.
   - Executes `createDescriptor` behavior.
-- `isCreatingDescriptor()`
+- `isCreatingDescriptor()`: Add description.
   - Executes `isCreatingDescriptor` behavior.
-- `isCreatingSchema()`
+- `isCreatingSchema()`: Add description.
   - Executes `isCreatingSchema` behavior.
-- `getSchemaName()`
+- `getSchemaName()`: Add description.
   - Executes `getSchemaName` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
-- `getDescriptor(String builderName, String categoryName, BuilderManager builderManager)`
+- `getDescriptor(String builderName, String categoryName, BuilderManager builderManager)`: Add description.
   - Executes `getDescriptor` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `registerTags(@Nonnull Set<String> tags)`
+- `registerTags(@Nonnull Set<String> tags)`: Add description.
   - Executes `registerTags` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `validateNotAllStringsEmpty(String attribute1, String string1, String attribute2, String string2)`
+- `validateNotAllStringsEmpty(String attribute1, String string1, String attribute2, String string2)`: Add description.
   - Executes `validateNotAllStringsEmpty` behavior.
-- `validateAtMostOneString(String attribute1, String string1, String attribute2, String string2)`
+- `validateAtMostOneString(String attribute1, String string1, String attribute2, String string2)`: Add description.
   - Executes `validateAtMostOneString` behavior.
-- `validateOneSetString(String attribute1, String string1, String attribute2, String string2)`
+- `validateOneSetString(String attribute1, String string1, String attribute2, String string2)`: Add description.
   - Executes `validateOneSetString` behavior.
-- `validateOneSetAsset(@Nonnull AssetHolder value1, String attribute2, String string2)`
+- `validateOneSetAsset(@Nonnull AssetHolder value1, String attribute2, String string2)`: Add description.
   - Executes `validateOneSetAsset` behavior.
-- `validateOneSetAsset(@Nonnull AssetHolder value1, @Nonnull AssetHolder value2)`
+- `validateOneSetAsset(@Nonnull AssetHolder value1, @Nonnull AssetHolder value2)`: Add description.
   - Executes `validateOneSetAsset` behavior.
-- `validateOneSetAssetArray(@Nonnull AssetArrayHolder value1, String attribute2, String[] value2)`
+- `validateOneSetAssetArray(@Nonnull AssetArrayHolder value1, String attribute2, String[] value2)`: Add description.
   - Executes `validateOneSetAssetArray` behavior.
-- `validateOneSetAssetArray(@Nonnull AssetArrayHolder value1, @Nonnull AssetArrayHolder value2)`
+- `validateOneSetAssetArray(@Nonnull AssetArrayHolder value1, @Nonnull AssetArrayHolder value2)`: Add description.
   - Executes `validateOneSetAssetArray` behavior.
-- `validateNoDuplicates(Iterable<K> list, String variableName)`
+- `validateNoDuplicates(Iterable<K> list, String variableName)`: Add description.
   - Executes `validateNoDuplicates` behavior.
-- `validateDoubleRelation(String attribute1, double value1, @Nonnull RelationalOperator relation, String attribute2, double value2)`
+- `validateDoubleRelation(String attribute1, double value1, @Nonnull RelationalOperator relation, String attribute2, double value2)`: Add description.
   - Executes `validateDoubleRelation` behavior.
-- `validateDoubleRelation(@Nonnull DoubleHolder value1, @Nonnull RelationalOperator relation, String attribute2, double value2)`
+- `validateDoubleRelation(@Nonnull DoubleHolder value1, @Nonnull RelationalOperator relation, String attribute2, double value2)`: Add description.
   - Executes `validateDoubleRelation` behavior.
-- `validateDoubleRelation(String attribute1, double value1, @Nonnull RelationalOperator relation, @Nonnull DoubleHolder value2)`
+- `validateDoubleRelation(String attribute1, double value1, @Nonnull RelationalOperator relation, @Nonnull DoubleHolder value2)`: Add description.
   - Executes `validateDoubleRelation` behavior.
-- `validateDoubleRelation(@Nonnull DoubleHolder value1, @Nonnull RelationalOperator relation, @Nonnull DoubleHolder value2)`
+- `validateDoubleRelation(@Nonnull DoubleHolder value1, @Nonnull RelationalOperator relation, @Nonnull DoubleHolder value2)`: Add description.
   - Executes `validateDoubleRelation` behavior.
-- `validateFloatRelation(String attribute1, float value1, @Nonnull RelationalOperator relation, String attribute2, float value2)`
+- `validateFloatRelation(String attribute1, float value1, @Nonnull RelationalOperator relation, String attribute2, float value2)`: Add description.
   - Executes `validateFloatRelation` behavior.
-- `validateFloatRelation(@Nonnull FloatHolder value1, @Nonnull RelationalOperator relation, String attribute2, float value2)`
+- `validateFloatRelation(@Nonnull FloatHolder value1, @Nonnull RelationalOperator relation, String attribute2, float value2)`: Add description.
   - Executes `validateFloatRelation` behavior.
-- `validateFloatRelation(String attribute1, float value1, @Nonnull RelationalOperator relation, @Nonnull FloatHolder value2)`
+- `validateFloatRelation(String attribute1, float value1, @Nonnull RelationalOperator relation, @Nonnull FloatHolder value2)`: Add description.
   - Executes `validateFloatRelation` behavior.
-- `validateFloatRelation(@Nonnull FloatHolder value1, @Nonnull RelationalOperator relation, @Nonnull FloatHolder value2)`
+- `validateFloatRelation(@Nonnull FloatHolder value1, @Nonnull RelationalOperator relation, @Nonnull FloatHolder value2)`: Add description.
   - Executes `validateFloatRelation` behavior.
-- `validateIntRelation(String attribute1, int value1, @Nonnull RelationalOperator relation, String attribute2, int value2)`
+- `validateIntRelation(String attribute1, int value1, @Nonnull RelationalOperator relation, String attribute2, int value2)`: Add description.
   - Executes `validateIntRelation` behavior.
-- `validateIntRelation(@Nonnull IntHolder value1, @Nonnull RelationalOperator relation, String attribute2, int value2)`
+- `validateIntRelation(@Nonnull IntHolder value1, @Nonnull RelationalOperator relation, String attribute2, int value2)`: Add description.
   - Executes `validateIntRelation` behavior.
-- `validateIntRelation(String attribute1, int value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`
+- `validateIntRelation(String attribute1, int value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`: Add description.
   - Executes `validateIntRelation` behavior.
-- `validateIntRelation(@Nonnull IntHolder value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`
+- `validateIntRelation(@Nonnull IntHolder value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`: Add description.
   - Executes `validateIntRelation` behavior.
-- `validateIntRelationIfBooleanIs(boolean targetValue, boolean actualValue, @Nonnull IntHolder value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`
+- `validateIntRelationIfBooleanIs(boolean targetValue, boolean actualValue, @Nonnull IntHolder value1, @Nonnull RelationalOperator relation, @Nonnull IntHolder value2)`: Add description.
   - Executes `validateIntRelationIfBooleanIs` behavior.
-- `validateAnyPresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`
+- `validateAnyPresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`: Add description.
   - Executes `validateAnyPresent` behavior.
-- `validateAnyPresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`
+- `validateAnyPresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`: Add description.
   - Executes `validateAnyPresent` behavior.
-- `validateAnyPresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`
+- `validateAnyPresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`: Add description.
   - Executes `validateAnyPresent` behavior.
-- `validateOnePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`
+- `validateOnePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`: Add description.
   - Executes `validateOnePresent` behavior.
-- `validateOnePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`
+- `validateOnePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`: Add description.
   - Executes `validateOnePresent` behavior.
-- `validateOnePresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`
+- `validateOnePresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`: Add description.
   - Executes `validateOnePresent` behavior.
-- `validateOnePresent(@Nonnull String[] attributes, @Nonnull boolean[] readStatus)`
+- `validateOnePresent(@Nonnull String[] attributes, @Nonnull boolean[] readStatus)`: Add description.
   - Executes `validateOnePresent` behavior.
-- `validateOneOrNonePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`
+- `validateOneOrNonePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2)`: Add description.
   - Executes `validateOneOrNonePresent` behavior.
-- `validateOneOrNonePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`
+- `validateOneOrNonePresent(String attribute1, @Nonnull BuilderObjectHelper<?> objectHelper1, String attribute2, @Nonnull BuilderObjectHelper<?> objectHelper2, String attribute3, @Nonnull BuilderObjectHelper<?> objectHelper3)`: Add description.
   - Executes `validateOneOrNonePresent` behavior.
-- `validateOneOrNonePresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`
+- `validateOneOrNonePresent(@Nonnull String[] attributes, @Nonnull BuilderObjectHelper<?>[] objectHelpers)`: Add description.
   - Executes `validateOneOrNonePresent` behavior.
-- `validateOneOrNonePresent(@Nonnull String[] attributes, @Nonnull boolean[] readStatus)`
+- `validateOneOrNonePresent(@Nonnull String[] attributes, @Nonnull boolean[] readStatus)`: Add description.
   - Executes `validateOneOrNonePresent` behavior.
-- `validateExistsIfParameterSet(String parameter, boolean value, String attribute, @Nonnull BuilderObjectHelper<?> objectHelper)`
+- `validateExistsIfParameterSet(String parameter, boolean value, String attribute, @Nonnull BuilderObjectHelper<?> objectHelper)`: Add description.
   - Executes `validateExistsIfParameterSet` behavior.
-- `validateStringIfEnumIs(@Nonnull StringHolder parameter, @Nonnull StringValidator validator, @Nonnull EnumHolder<E> enumParameter, E targetValue)`
+- `validateStringIfEnumIs(@Nonnull StringHolder parameter, @Nonnull StringValidator validator, @Nonnull EnumHolder<E> enumParameter, E targetValue)`: Add description.
   - Executes `validateStringIfEnumIs` behavior.
-- `validateStringIfEnumIs(@Nonnull StringHolder parameter, @Nonnull StringValidator validator, String enumName, E targetValue, E enumValue)`
+- `validateStringIfEnumIs(@Nonnull StringHolder parameter, @Nonnull StringValidator validator, String enumName, E targetValue, E enumValue)`: Add description.
   - Executes `validateStringIfEnumIs` behavior.
-- `validateAssetIfEnumIs(@Nonnull AssetHolder parameter, @Nonnull AssetValidator validator, @Nonnull EnumHolder<E> enumParameter, E targetValue)`
+- `validateAssetIfEnumIs(@Nonnull AssetHolder parameter, @Nonnull AssetValidator validator, @Nonnull EnumHolder<E> enumParameter, E targetValue)`: Add description.
   - Executes `validateAssetIfEnumIs` behavior.
-- `validateAssetIfEnumIs(@Nonnull AssetHolder parameter, @Nonnull AssetValidator validator, String enumName, E targetValue, E enumValue)`
+- `validateAssetIfEnumIs(@Nonnull AssetHolder parameter, @Nonnull AssetValidator validator, String enumName, E targetValue, E enumValue)`: Add description.
   - Executes `validateAssetIfEnumIs` behavior.
-- `validateAny(String attribute1, boolean value1, String attribute2, boolean value2)`
+- `validateAny(String attribute1, boolean value1, String attribute2, boolean value2)`: Add description.
   - Executes `validateAny` behavior.
-- `validateAny(@Nonnull BooleanHolder value1, @Nonnull BooleanHolder value2)`
+- `validateAny(@Nonnull BooleanHolder value1, @Nonnull BooleanHolder value2)`: Add description.
   - Executes `validateAny` behavior.
-- `validateAny(@Nonnull BooleanHolder value1, String attribute2, boolean value2)`
+- `validateAny(@Nonnull BooleanHolder value1, String attribute2, boolean value2)`: Add description.
   - Executes `validateAny` behavior.
-- `validateAny(String attribute1, boolean value1, String attribute2, boolean value2, String attribute3, boolean value3)`
+- `validateAny(String attribute1, boolean value1, String attribute2, boolean value2, String attribute3, boolean value3)`: Add description.
   - Executes `validateAny` behavior.
-- `validateAny(@Nonnull String[] attributes, @Nonnull boolean[] values)`
+- `validateAny(@Nonnull String[] attributes, @Nonnull boolean[] values)`: Add description.
   - Executes `validateAny` behavior.
-- `validateAtMostOne(@Nonnull BooleanHolder value1, @Nonnull BooleanHolder value2)`
+- `validateAtMostOne(@Nonnull BooleanHolder value1, @Nonnull BooleanHolder value2)`: Add description.
   - Executes `validateAtMostOne` behavior.
-- `validateAtMostOne(@Nonnull BooleanHolder value1, String attribute2, boolean value2)`
+- `validateAtMostOne(@Nonnull BooleanHolder value1, String attribute2, boolean value2)`: Add description.
   - Executes `validateAtMostOne` behavior.
-- `validateBooleanImplicationAnyAntecedent(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState)`
+- `validateBooleanImplicationAnyAntecedent(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState)`: Add description.
   - Executes `validateBooleanImplicationAnyAntecedent` behavior.
-- `validateBooleanImplicationAllAntecedents(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState)`
+- `validateBooleanImplicationAllAntecedents(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState)`: Add description.
   - Executes `validateBooleanImplicationAllAntecedents` behavior.
-- `requireStringValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`
+- `requireStringValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`: Add description.
   - Executes `requireStringValueStoreParameter` behavior.
-- `requireIntValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`
+- `requireIntValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`: Add description.
   - Executes `requireIntValueStoreParameter` behavior.
-- `requireDoubleValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`
+- `requireDoubleValueStoreParameter(String parameter, ValueStoreValidator.UseType useType)`: Add description.
   - Executes `requireDoubleValueStoreParameter` behavior.
-- `validateBooleanImplication(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState, boolean anyAntecedent)`
+- `validateBooleanImplication(String[] attributes1, @Nonnull boolean[] values1, boolean antecedentState, String[] attributes2, @Nonnull boolean[] values2, boolean consequentState, boolean anyAntecedent)`: Add description.
   - Executes `validateBooleanImplication` behavior.
-- `provideFeature(@Nonnull Feature feature)`
+- `provideFeature(@Nonnull Feature feature)`: Add description.
   - Executes `provideFeature` behavior.
-- `overrideParameters(@Nonnull String[] parameters, ParameterType ... types)`
+- `overrideParameters(@Nonnull String[] parameters, ParameterType ... types)`: Add description.
   - Executes `overrideParameters` behavior.
-- `preventParameterOverride()`
+- `preventParameterOverride()`: Add description.
   - Executes `preventParameterOverride` behavior.
-- `provideFeatureOrParameters(ProviderEvaluator evaluator)`
+- `provideFeatureOrParameters(ProviderEvaluator evaluator)`: Add description.
   - Executes `provideFeatureOrParameters` behavior.
-- `provideFeature(@Nonnull EnumSet<Feature> feature)`
+- `provideFeature(@Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `provideFeature` behavior.
-- `requireFeature(@Nonnull EnumSet<Feature> feature)`
+- `requireFeature(@Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `requireFeature` behavior.
-- `requireFeatureIf(String enumName, E targetValue, E enumValue, @Nonnull EnumSet<Feature> feature)`
+- `requireFeatureIf(String enumName, E targetValue, E enumValue, @Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `requireFeatureIf` behavior.
-- `requireFeatureIf(String attribute, boolean requiredValue, boolean value, @Nonnull EnumSet<Feature> feature)`
+- `requireFeatureIf(String attribute, boolean requiredValue, boolean value, @Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `requireFeatureIf` behavior.
-- `requireFeatureIf(@Nonnull BooleanHolder parameter, boolean requiredValue, @Nonnull EnumSet<Feature> feature)`
+- `requireFeatureIf(@Nonnull BooleanHolder parameter, boolean requiredValue, @Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `requireFeatureIf` behavior.
-- `hasOverriddenParameter(String parameter, ParameterType type, @Nonnull FeatureEvaluatorHelper helper)`
+- `hasOverriddenParameter(String parameter, ParameterType type, @Nonnull FeatureEvaluatorHelper helper)`: Add description.
   - Executes `hasOverriddenParameter` behavior.
-- `validateOverriddenParameter(String parameter, @Nonnull ParameterType type, @Nonnull FeatureEvaluatorHelper helper)`
+- `validateOverriddenParameter(String parameter, @Nonnull ParameterType type, @Nonnull FeatureEvaluatorHelper helper)`: Add description.
   - Executes `validateOverriddenParameter` behavior.
-- `validateRequiresFeatureIf(String attribute, E requiredValue, E value, @Nonnull EnumSet<Feature> feature, @Nonnull FeatureEvaluatorHelper helper)`
+- `validateRequiresFeatureIf(String attribute, E requiredValue, E value, @Nonnull EnumSet<Feature> feature, @Nonnull FeatureEvaluatorHelper helper)`: Add description.
   - Executes `validateRequiresFeatureIf` behavior.
-- `validateRequiresFeatureIf(String attribute, boolean requiredValue, boolean value, @Nonnull EnumSet<Feature> feature, @Nonnull FeatureEvaluatorHelper helper)`
+- `validateRequiresFeatureIf(String attribute, boolean requiredValue, boolean value, @Nonnull EnumSet<Feature> feature, @Nonnull FeatureEvaluatorHelper helper)`: Add description.
   - Executes `validateRequiresFeatureIf` behavior.
-- `requireFeature(@Nonnull RequiredFeatureValidator validator)`
+- `requireFeature(@Nonnull RequiredFeatureValidator validator)`: Add description.
   - Executes `requireFeature` behavior.
-- `getDescriptionArray(@Nonnull EnumSet<Feature> feature)`
+- `getDescriptionArray(@Nonnull EnumSet<Feature> feature)`: Add description.
   - Executes `getDescriptionArray` behavior.
-- `resolveFeatureProviderReverences(BuilderManager manager)`
+- `resolveFeatureProviderReverences(BuilderManager manager)`: Add description.
   - Executes `resolveFeatureProviderReverences` behavior.
-- `registerStateSensor(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+- `registerStateSensor(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`: Add description.
   - Executes `registerStateSensor` behavior.
-- `registerStateSetter(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+- `registerStateSetter(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`: Add description.
   - Executes `registerStateSetter` behavior.
-- `registerStateRequirer(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`
+- `registerStateRequirer(String name, String subState, @Nonnull BiConsumer<Integer, Integer> setter)`: Add description.
   - Executes `registerStateRequirer` behavior.
-- `validateIsComponent()`
+- `validateIsComponent()`: Add description.
   - Executes `validateIsComponent` behavior.
-- `requireStateString(@Nonnull JsonElement data, String name, boolean componentAllowed, @Nonnull TriConsumer<String, String, Boolean> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `requireStateString(@Nonnull JsonElement data, String name, boolean componentAllowed, @Nonnull TriConsumer<String, String, Boolean> setter, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `requireStateString` behavior.
-- `getExistentStateSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<Int2ObjectMap<IntSet>> setter, @Nonnull StateMappingHelper stateHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`
+- `getExistentStateSet(@Nonnull JsonElement data, String name, @Nonnull Consumer<Int2ObjectMap<IntSet>> setter, @Nonnull StateMappingHelper stateHelper, BuilderDescriptorState state, String shortDescription, @Nullable String longDescription)`: Add description.
   - Executes `getExistentStateSet` behavior.
-- `getDefaultSubState(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, StringValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`
+- `getDefaultSubState(@Nonnull JsonElement data, String name, @Nonnull Consumer<String> setter, StringValidator validator, BuilderDescriptorState state, String shortDescription, String longDescription)`: Add description.
   - Executes `getDefaultSubState` behavior.
-- `increaseDepth()`
+- `increaseDepth()`: Add description.
   - Executes `increaseDepth` behavior.
-- `decreaseDepth()`
+- `decreaseDepth()`: Add description.
   - Executes `decreaseDepth` behavior.
-- `setNotComponent()`
+- `setNotComponent()`: Add description.
   - Executes `setNotComponent` behavior.
-- `isComponent()`
+- `isComponent()`: Add description.
   - Executes `isComponent` behavior.
-- `requireInstructionType(@Nonnull EnumSet<InstructionType> instructionType)`
+- `requireInstructionType(@Nonnull EnumSet<InstructionType> instructionType)`: Add description.
   - Executes `requireInstructionType` behavior.
-- `requireContext(@Nonnull EnumSet<InstructionType> instructionType, EnumSet<ComponentContext> componentContexts)`
+- `requireContext(@Nonnull EnumSet<InstructionType> instructionType, EnumSet<ComponentContext> componentContexts)`: Add description.
   - Executes `requireContext` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `runLoadTimeValidationHelper0(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, List<String> errors)`
+- `runLoadTimeValidationHelper0(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, List<String> errors)`: Add description.
   - Executes `runLoadTimeValidationHelper0` behavior.
-- `runLoadTimeValidationHelper(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, @Nonnull List<String> errors)`
+- `runLoadTimeValidationHelper(String configName, NPCLoadTimeValidationHelper loadTimeValidationHelper, ExecutionContext context, @Nonnull List<String> errors)`: Add description.
   - Executes `runLoadTimeValidationHelper` behavior.
-- `validateDynamicHolder(String configName, @Nonnull ValueHolder holder, ExecutionContext context, @Nonnull List<String> errors)`
+- `validateDynamicHolder(String configName, @Nonnull ValueHolder holder, ExecutionContext context, @Nonnull List<String> errors)`: Add description.
   - Executes `validateDynamicHolder` behavior.
-- `trackDynamicHolder(@Nonnull ValueHolder holder)`
+- `trackDynamicHolder(@Nonnull ValueHolder holder)`: Add description.
   - Executes `trackDynamicHolder` behavior.
-- `readString(@Nonnull JsonObject object, String key)`
+- `readString(@Nonnull JsonObject object, String key)`: Add description.
   - Executes `readString` behavior.
-- `readString(@Nonnull JsonObject jsonObject, String key, String defaultValue)`
+- `readString(@Nonnull JsonObject jsonObject, String key, String defaultValue)`: Add description.
   - Executes `readString` behavior.
-- `readBoolean(@Nonnull JsonObject jsonObject, String key, boolean defaultValue)`
+- `readBoolean(@Nonnull JsonObject jsonObject, String key, boolean defaultValue)`: Add description.
   - Executes `readBoolean` behavior.
-- `expectKey(@Nonnull JsonObject jsonObject, String key)`
+- `expectKey(@Nonnull JsonObject jsonObject, String key)`: Add description.
   - Executes `expectKey` behavior.
-- `expectStringElement(@Nonnull JsonElement element, String key)`
+- `expectStringElement(@Nonnull JsonElement element, String key)`: Add description.
   - Executes `expectStringElement` behavior.
-- `expectBooleanElement(@Nonnull JsonElement element, String key)`
+- `expectBooleanElement(@Nonnull JsonElement element, String key)`: Add description.
   - Executes `expectBooleanElement` behavior.
-- `expectObject(@Nonnull JsonElement element)`
+- `expectObject(@Nonnull JsonElement element)`: Add description.
   - Executes `expectObject` behavior.
-- `expectObject(@Nonnull JsonElement element, String key)`
+- `expectObject(@Nonnull JsonElement element, String key)`: Add description.
   - Executes `expectObject` behavior.
-- `readStringArray(@Nonnull JsonObject object, String key, @Nonnull StringValidator validator, String[] defaultValue)`
+- `readStringArray(@Nonnull JsonObject object, String key, @Nonnull StringValidator validator, String[] defaultValue)`: Add description.
   - Executes `readStringArray` behavior.
-- `readStringArray(@Nonnull JsonElement element, String key, @Nonnull StringValidator validator)`
+- `readStringArray(@Nonnull JsonElement element, String key, @Nonnull StringValidator validator)`: Add description.
   - Executes `readStringArray` behavior.
-- `addError(String error)`
+- `addError(String error)`: Add description.
   - Executes `addError` behavior.
-- `addError(@Nonnull Exception e)`
+- `addError(@Nonnull Exception e)`: Add description.
   - Executes `addError` behavior.
 
 ## Notes

@@ -1,22 +1,22 @@
+**Source Hash:** `d6559440d1e7fc2c3afe293f178497ade897011bf4415786f80a0ce0b8d1361b`
+
 # ISpawnProvider
 
 ## Overview
-- Documentation for `ISpawnProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.spawn`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getSpawnPoint(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `getSpawnPoint(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoint(@Nonnull Entity entity)`
+- `getSpawnPoint(@Nonnull Entity entity)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoint(@Nonnull World var1, @Nonnull UUID var2)`
+- `getSpawnPoint(@Nonnull World var1, @Nonnull UUID var2)`: Add description.
   - Executes `getSpawnPoint` behavior.
-- `getSpawnPoints()`
+- `getSpawnPoints()`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `isWithinSpawnDistance(@Nonnull Vector3d var1, double var2)`
+- `isWithinSpawnDistance(@Nonnull Vector3d var1, double var2)`: Add description.
   - Executes `isWithinSpawnDistance` behavior.
 
 ## Notes

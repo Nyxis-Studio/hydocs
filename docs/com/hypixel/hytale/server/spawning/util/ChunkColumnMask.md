@@ -1,44 +1,44 @@
+**Source Hash:** `01aa3bb12d092592e573429825ff7479305ed2030f0ea14be2ab275ff700021e`
+
 # ChunkColumnMask
 
 ## Overview
-- Documentation for `ChunkColumnMask`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `copyFrom(@Nonnull ChunkColumnMask src)`
+## Method Descriptions
+- `copyFrom(@Nonnull ChunkColumnMask src)`: Add description.
   - Executes `copyFrom` behavior.
-- `isEmpty()`
+- `isEmpty()`: Add description.
   - Executes `isEmpty` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `set()`
+- `set()`: Add description.
   - Executes `set` behavior.
-- `get(int x, int z)`
+- `get(int x, int z)`: Add description.
   - Executes `get` behavior.
-- `set(int x, int z)`
+- `set(int x, int z)`: Add description.
   - Executes `set` behavior.
-- `clear(int x, int z)`
+- `clear(int x, int z)`: Add description.
   - Executes `clear` behavior.
-- `clear(int index)`
+- `clear(int index)`: Add description.
   - Executes `clear` behavior.
-- `set(int x, int z, boolean value)`
+- `set(int x, int z, boolean value)`: Add description.
   - Executes `set` behavior.
-- `get(int index)`
+- `get(int index)`: Add description.
   - Executes `get` behavior.
-- `set(int bitIndex)`
+- `set(int bitIndex)`: Add description.
   - Executes `set` behavior.
-- `nextSetBit(int fromIndex)`
+- `nextSetBit(int fromIndex)`: Add description.
   - Executes `nextSetBit` behavior.
-- `nextClearBit(int fromIndex)`
+- `nextClearBit(int fromIndex)`: Add description.
   - Executes `nextClearBit` behavior.
-- `previousSetBit(int fromIndex)`
+- `previousSetBit(int fromIndex)`: Add description.
   - Executes `previousSetBit` behavior.
-- `previousClearBit(int fromIndex)`
+- `previousClearBit(int fromIndex)`: Add description.
   - Executes `previousClearBit` behavior.
-- `cardinality()`
+- `cardinality()`: Add description.
   - Executes `cardinality` behavior.
 
 ## Notes

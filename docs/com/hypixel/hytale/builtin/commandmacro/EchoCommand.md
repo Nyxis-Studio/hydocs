@@ -1,15 +1,15 @@
+**Source Hash:** `30afc5482e33a38017d8d9435300555d632a5e20efe4967419a4c6952a5304b2`
+
 # EchoCommand
 
 ## Overview
-- Documentation for `EchoCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.commandmacro`.
 
-## Constructors
+## Constructor Descriptions
 - `EchoCommand()`
   - Creates a `EchoCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

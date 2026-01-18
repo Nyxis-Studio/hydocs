@@ -1,145 +1,145 @@
+**Source Hash:** `0ce6cfef10cf84cff59b0e1472f552d038bc407e664883a2f116340c4958731c`
+
 # MotionControllerWalk
 
 ## Overview
-- Documentation for `MotionControllerWalk`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers`.
 
-## Constructors
+## Constructor Descriptions
 - `MotionControllerWalk(@Nonnull BuilderMotionControllerWalk builder, @Nonnull BuilderSupport builderSupport)`
   - Creates a `MotionControllerWalk` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `spawned()`
+- `spawned()`: Add description.
   - Executes `spawned` behavior.
-- `getWanderVerticalMovementRatio()`
+- `getWanderVerticalMovementRatio()`: Add description.
   - Executes `getWanderVerticalMovementRatio` behavior.
-- `adjustReadPosition(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`
+- `adjustReadPosition(Ref<EntityStore> ref, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `adjustReadPosition` behavior.
-- `adjustWritePosition(Ref<EntityStore> ref, double dt, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `adjustWritePosition(Ref<EntityStore> ref, double dt, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `adjustWritePosition` behavior.
-- `updateAscendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean horizontalIdleKind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateAscendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean horizontalIdleKind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateAscendingStates` behavior.
-- `updateDescendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean hovering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `updateDescendingStates(@Nonnull Ref<EntityStore> ref, @Nonnull MovementStates movementStates, boolean fastMotionKind, boolean hovering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateDescendingStates` behavior.
-- `isFastMotionKind(double speed)`
+- `isFastMotionKind(double speed)`: Add description.
   - Executes `isFastMotionKind` behavior.
-- `isInProgress()`
+- `isInProgress()`: Add description.
   - Executes `isInProgress` behavior.
-- `canAct(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `canAct(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `canAct` behavior.
-- `updateModelParameters(Ref<EntityStore> ref, Model model, @Nonnull Box boundingBox, ComponentAccessor<EntityStore> componentAccessor)`
+- `updateModelParameters(Ref<EntityStore> ref, Model model, @Nonnull Box boundingBox, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `updateModelParameters` behavior.
-- `constrainRotations(Role role, @Nonnull TransformComponent transform)`
+- `constrainRotations(Role role, @Nonnull TransformComponent transform)`: Add description.
   - Executes `constrainRotations` behavior.
-- `forceVelocity(@Nonnull Vector3d velocity, VelocityConfig velocityConfig, boolean ignoreDamping)`
+- `forceVelocity(@Nonnull Vector3d velocity, VelocityConfig velocityConfig, boolean ignoreDamping)`: Add description.
   - Executes `forceVelocity` behavior.
-- `inAir()`
+- `inAir()`: Add description.
   - Executes `inAir` behavior.
-- `onGround()`
+- `onGround()`: Add description.
   - Executes `onGround` behavior.
-- `standingOnBlockOfType(int blockSet)`
+- `standingOnBlockOfType(int blockSet)`: Add description.
   - Executes `standingOnBlockOfType` behavior.
-- `inWater()`
+- `inWater()`: Add description.
   - Executes `inWater` behavior.
-- `touchesWater(boolean defaultValue, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `touchesWater(boolean defaultValue, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `touchesWater` behavior.
-- `getCurrentSpeed()`
+- `getCurrentSpeed()`: Add description.
   - Executes `getCurrentSpeed` behavior.
-- `getCurrentTurnRadius()`
+- `getCurrentTurnRadius()`: Add description.
   - Executes `getCurrentTurnRadius` behavior.
-- `getMaxClimbAngle()`
+- `getMaxClimbAngle()`: Add description.
   - Executes `getMaxClimbAngle` behavior.
-- `getMaxSinkAngle()`
+- `getMaxSinkAngle()`: Add description.
   - Executes `getMaxSinkAngle` behavior.
-- `getMaximumSpeed()`
+- `getMaximumSpeed()`: Add description.
   - Executes `getMaximumSpeed` behavior.
-- `is2D()`
+- `is2D()`: Add description.
   - Executes `is2D` behavior.
-- `canRestAtPlace()`
+- `canRestAtPlace()`: Add description.
   - Executes `canRestAtPlace` behavior.
-- `getDesiredAltitudeWeight()`
+- `getDesiredAltitudeWeight()`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
-- `getHeightOverGround()`
+- `getHeightOverGround()`: Add description.
   - Executes `getHeightOverGround` behavior.
-- `estimateVelocity(@Nonnull Steering steering, @Nonnull Vector3d velocityOut)`
+- `estimateVelocity(@Nonnull Steering steering, @Nonnull Vector3d velocityOut)`: Add description.
   - Executes `estimateVelocity` behavior.
-- `setMotionKind(MotionKind motionKind)`
+- `setMotionKind(MotionKind motionKind)`: Add description.
   - Executes `setMotionKind` behavior.
-- `postReadPosition(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `postReadPosition(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `postReadPosition` behavior.
-- `translateToAccessiblePosition(@Nonnull Vector3d position, @Nullable Box boundingBox, double minYValue, double maxYValue, ComponentAccessor<EntityStore> componentAccessor)`
+- `translateToAccessiblePosition(@Nonnull Vector3d position, @Nullable Box boundingBox, double minYValue, double maxYValue, ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `translateToAccessiblePosition` behavior.
-- `translateToAccessiblePosition(@Nonnull Vector3d position, double minYValue, double maxYValue, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `translateToAccessiblePosition(@Nonnull Vector3d position, double minYValue, double maxYValue, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `translateToAccessiblePosition` behavior.
-- `computeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering steering, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `computeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nonnull Steering steering, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeMove` behavior.
-- `computeNewFallSpeed(double dt, double fallSpeed)`
+- `computeNewFallSpeed(double dt, double fallSpeed)`: Add description.
   - Executes `computeNewFallSpeed` behavior.
-- `executeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `executeMove(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Vector3d translation, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `executeMove` behavior.
-- `probeMove(@Nonnull Ref<EntityStore> ref, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `probeMove(@Nonnull Ref<EntityStore> ref, @Nonnull ProbeMoveData probeMoveData, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `probeMove` behavior.
-- `postExecuteMove()`
+- `postExecuteMove()`: Add description.
   - Executes `postExecuteMove` behavior.
-- `getCurrentMaxBodyRotationSpeed()`
+- `getCurrentMaxBodyRotationSpeed()`: Add description.
   - Executes `getCurrentMaxBodyRotationSpeed` behavior.
-- `computeHeading(float desiredAngle, double relativeTurnSpeed, float heading, double dt, boolean updateFullyRotated, boolean stopIfTurnedTooFar)`
+- `computeHeading(float desiredAngle, double relativeTurnSpeed, float heading, double dt, boolean updateFullyRotated, boolean stopIfTurnedTooFar)`: Add description.
   - Executes `computeHeading` behavior.
-- `initiateDescend(@Nonnull Vector3d translation, boolean wasOnGround, String logName, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `initiateDescend(@Nonnull Vector3d translation, boolean wasOnGround, String logName, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `initiateDescend` behavior.
-- `updateMovementVector(@Nonnull Vector3d probePosition, @Nonnull Vector3d probeMovement, @Nonnull Vector3d targetPosition, @Nonnull Vector3d directionComponentSelector)`
+- `updateMovementVector(@Nonnull Vector3d probePosition, @Nonnull Vector3d probeMovement, @Nonnull Vector3d targetPosition, @Nonnull Vector3d directionComponentSelector)`: Add description.
   - Executes `updateMovementVector` behavior.
-- `discardIgnorableSlideCollisions(@Nonnull CollisionResult collisionResult, @Nullable BlockCollisionData startCollision, boolean acknowledgeDamage)`
+- `discardIgnorableSlideCollisions(@Nonnull CollisionResult collisionResult, @Nullable BlockCollisionData startCollision, boolean acknowledgeDamage)`: Add description.
   - Executes `discardIgnorableSlideCollisions` behavior.
-- `getFirstCollision(@Nonnull CollisionResult collisionResult, boolean acknowledgeDamage)`
+- `getFirstCollision(@Nonnull CollisionResult collisionResult, boolean acknowledgeDamage)`: Add description.
   - Executes `getFirstCollision` behavior.
-- `bisect(@Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `bisect(@Nonnull Vector3d validPosition, @Nonnull Vector3d invalidPosition, @Nonnull Vector3d result, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `bisect` behavior.
-- `shortenSlide(@Nonnull Vector3d translation, double endSlide)`
+- `shortenSlide(@Nonnull Vector3d translation, double endSlide)`: Add description.
   - Executes `shortenSlide` behavior.
-- `shortenMovement(@Nonnull Vector3d start, @Nonnull Vector3d end, @Nonnull Vector3d result)`
+- `shortenMovement(@Nonnull Vector3d start, @Nonnull Vector3d end, @Nonnull Vector3d result)`: Add description.
   - Executes `shortenMovement` behavior.
-- `shortenMovement(double triggerScale)`
+- `shortenMovement(double triggerScale)`: Add description.
   - Executes `shortenMovement` behavior.
-- `validateTranslation(@Nonnull Vector3d translation, String kind)`
+- `validateTranslation(@Nonnull Vector3d translation, String kind)`: Add description.
   - Executes `validateTranslation` behavior.
-- `validateSpeeds(@Nonnull Ref<EntityStore> ref, @Nonnull String kind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `validateSpeeds(@Nonnull Ref<EntityStore> ref, @Nonnull String kind, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `validateSpeeds` behavior.
-- `lockOrientation(@Nonnull Steering steering, @Nonnull Vector3d translation, float heading)`
+- `lockOrientation(@Nonnull Steering steering, @Nonnull Vector3d translation, float heading)`: Add description.
   - Executes `lockOrientation` behavior.
-- `computeBlendHeading(float heading, float moveHeading, double dt, double speedEstimate, double relativeTurnSpeed)`
+- `computeBlendHeading(float heading, float moveHeading, double dt, double speedEstimate, double relativeTurnSpeed)`: Add description.
   - Executes `computeBlendHeading` behavior.
-- `computeBlendHeading(float heading, float moveHeading, double dt, double speedEstimate, float turnAngle, double relativeTurnSpeed)`
+- `computeBlendHeading(float heading, float moveHeading, double dt, double speedEstimate, float turnAngle, double relativeTurnSpeed)`: Add description.
   - Executes `computeBlendHeading` behavior.
-- `computeBlendTurnAngle(float heading, float moveHeading)`
+- `computeBlendTurnAngle(float heading, float moveHeading)`: Add description.
   - Executes `computeBlendTurnAngle` behavior.
-- `computeClimbMove(@Nonnull Vector3d climbDirection, double climbDistance, double distance, @Nonnull Vector3d translation)`
+- `computeClimbMove(@Nonnull Vector3d climbDirection, double climbDistance, double distance, @Nonnull Vector3d translation)`: Add description.
   - Executes `computeClimbMove` behavior.
-- `computeDescendDirection(@Nonnull Vector3d translation)`
+- `computeDescendDirection(@Nonnull Vector3d translation)`: Add description.
   - Executes `computeDescendDirection` behavior.
-- `computeClimbSpeed(double walkSpeed)`
+- `computeClimbSpeed(double walkSpeed)`: Add description.
   - Executes `computeClimbSpeed` behavior.
-- `tryClimb(@Nonnull Vector3d translation, boolean avoidingBlockDamage, boolean relaxMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `tryClimb(@Nonnull Vector3d translation, boolean avoidingBlockDamage, boolean relaxMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `tryClimb` behavior.
-- `computeClimbHeight(@Nonnull Vector3d position, @Nonnull Vector3d direction, double height, double forward, @Nullable Vector3d targetPosition, @Nonnull Vector2d results, boolean acknowledgeDamage, boolean relaxMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `computeClimbHeight(@Nonnull Vector3d position, @Nonnull Vector3d direction, double height, double forward, @Nullable Vector3d targetPosition, @Nonnull Vector2d results, boolean acknowledgeDamage, boolean relaxMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeClimbHeight` behavior.
-- `isDropBlocked(@Nonnull Vector3d position, double maxDropHeight, boolean updatePosition, boolean acknowledgeDamage, boolean relaxedMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `isDropBlocked(@Nonnull Vector3d position, double maxDropHeight, boolean updatePosition, boolean acknowledgeDamage, boolean relaxedMoveConstraints, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isDropBlocked` behavior.
-- `dropDistance(@Nonnull Vector3d position, double maxTestDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `dropDistance(@Nonnull Vector3d position, double maxTestDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `dropDistance` behavior.
-- `findDropBlockCollision(@Nonnull Vector3d position, double maxTestDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `findDropBlockCollision(@Nonnull Vector3d position, double maxTestDistance, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `findDropBlockCollision` behavior.
-- `isClimbable(@Nonnull BlockType blockType, @Nonnull Fluid fluid, boolean avoidDamageBlocks)`
+- `isClimbable(@Nonnull BlockType blockType, @Nonnull Fluid fluid, boolean avoidDamageBlocks)`: Add description.
   - Executes `isClimbable` behavior.
-- `isValidWalkPosition(@Nonnull Ref<ChunkStore> chunkRef, @Nonnull ComponentAccessor<ChunkStore> chunkStore, double x, double y, double z, boolean acknowledgeDamage, boolean relaxedMoveConstraints)`
+- `isValidWalkPosition(@Nonnull Ref<ChunkStore> chunkRef, @Nonnull ComponentAccessor<ChunkStore> chunkStore, double x, double y, double z, boolean acknowledgeDamage, boolean relaxedMoveConstraints)`: Add description.
   - Executes `isValidWalkPosition` behavior.
-- `isValidWalkPosition(@Nonnull ChunkStore chunkStore, double x, double y, double z, boolean acknowledgeDamage, boolean relaxedMoveConstraints)`
+- `isValidWalkPosition(@Nonnull ChunkStore chunkStore, double x, double y, double z, boolean acknowledgeDamage, boolean relaxedMoveConstraints)`: Add description.
   - Executes `isValidWalkPosition` behavior.
-- `maxMoveFactor(@Nonnull Vector3d position, @Nonnull Vector3d velocity, boolean acknowledgeDamage, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `maxMoveFactor(@Nonnull Vector3d position, @Nonnull Vector3d velocity, boolean acknowledgeDamage, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `maxMoveFactor` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

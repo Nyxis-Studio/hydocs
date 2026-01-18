@@ -1,35 +1,35 @@
+**Source Hash:** `b2643367c81a8849bca1faea02fb273f33f946b67dde201b9a78d9ca570f13ee`
+
 # SpawnController
 
 ## Overview
-- Documentation for `SpawnController`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.controllers`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnController(World world)`
   - Creates a `SpawnController` instance.
 
-## Methods
-- `getWorld()`
+## Method Descriptions
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `isUnspawnable()`
+- `isUnspawnable()`: Add description.
   - Executes `isUnspawnable` behavior.
-- `isDebugSpawnFrozen()`
+- `isDebugSpawnFrozen()`: Add description.
   - Executes `isDebugSpawnFrozen` behavior.
-- `getActualNPCs()`
+- `getActualNPCs()`: Add description.
   - Executes `getActualNPCs` behavior.
-- `getExpectedNPCs()`
+- `getExpectedNPCs()`: Add description.
   - Executes `getExpectedNPCs` behavior.
-- `getActiveJobCount()`
+- `getActiveJobCount()`: Add description.
   - Executes `getActiveJobCount` behavior.
-- `getMaxActiveJobs()`
+- `getMaxActiveJobs()`: Add description.
   - Executes `getMaxActiveJobs` behavior.
-- `getSpawnJob(int index)`
+- `getSpawnJob(int index)`: Add description.
   - Executes `getSpawnJob` behavior.
-- `getActiveJobs()`
+- `getActiveJobs()`: Add description.
   - Executes `getActiveJobs` behavior.
-- `addIdleJob(@Nonnull T job)`
+- `addIdleJob(@Nonnull T job)`: Add description.
   - Executes `addIdleJob` behavior.
-- `createRandomSpawnJob(ComponentAccessor<EntityStore> var1)`
+- `createRandomSpawnJob(ComponentAccessor<EntityStore> var1)`: Add description.
   - Executes `createRandomSpawnJob` behavior.
 
 ## Notes

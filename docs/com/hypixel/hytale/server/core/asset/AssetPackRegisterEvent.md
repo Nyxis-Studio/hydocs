@@ -1,15 +1,15 @@
+**Source Hash:** `debe01530bf04abdfe254a07bbf0e25e03ae46c0e712c2eda533cf29d0449c8e`
+
 # AssetPackRegisterEvent
 
 ## Overview
-- Documentation for `AssetPackRegisterEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `AssetPackRegisterEvent(AssetPack assetPack)`
   - Creates a `AssetPackRegisterEvent` instance.
 
-## Methods
-- `getAssetPack()`
+## Method Descriptions
+- `getAssetPack()`: Add description.
   - Executes `getAssetPack` behavior.
 
 ## Notes

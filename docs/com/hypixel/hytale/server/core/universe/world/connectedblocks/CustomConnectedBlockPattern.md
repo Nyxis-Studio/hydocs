@@ -1,14 +1,14 @@
+**Source Hash:** `d68f8e751500a7fcfa0dfd0ab964ec81b1745afba632f2cdfb129283c2785e16`
+
 # CustomConnectedBlockPattern
 
 ## Overview
-- Documentation for `CustomConnectedBlockPattern`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.connectedblocks`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `checkPatternRuleAgainstBlockType(@Nonnull CustomTemplateConnectedBlockRuleSet placedRuleset, @Nonnull CustomConnectedBlockTemplateAsset template, @Nonnull String block, @Nonnull ConnectedBlockPatternRule rule, @Nonnull String blockToTest, RotationTuple rotationToCheckUnrotated, int fillerToCheckUnrotated)`
+## Method Descriptions
+- `checkPatternRuleAgainstBlockType(@Nonnull CustomTemplateConnectedBlockRuleSet placedRuleset, @Nonnull CustomConnectedBlockTemplateAsset template, @Nonnull String block, @Nonnull ConnectedBlockPatternRule rule, @Nonnull String blockToTest, RotationTuple rotationToCheckUnrotated, int fillerToCheckUnrotated)`: Add description.
   - Executes `checkPatternRuleAgainstBlockType` behavior.
 
 ## Notes

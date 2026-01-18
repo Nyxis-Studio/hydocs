@@ -1,22 +1,22 @@
+**Source Hash:** `4e1c548c609f4ca7fe16d19dedb37c3dd93d0cfe8dbfc6ae42f94466b1184b0d`
+
 # BuilderBodyMotionMatchLook
 
 ## Overview
-- Documentation for `BuilderBodyMotionMatchLook`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
 
 ## Notes

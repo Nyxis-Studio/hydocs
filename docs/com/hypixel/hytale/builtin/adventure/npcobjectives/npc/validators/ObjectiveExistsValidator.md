@@ -1,30 +1,27 @@
+**Source Hash:** `9c5d20034f60c3313e9a41e591f1f47278b4040424bf434e862c897f3ed7b997`
+**Last Updated:** `2026-01-18T18:19:14-03:00`
+
 # ObjectiveExistsValidator
 
 ## Overview
-- Documentation for `ObjectiveExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcobjectives.npc.validators`.
+Asset validator that ensures an objective asset exists for a given name. Used by NPC builder configuration to validate objective references.
 
-## Constructors
-- `ObjectiveExistsValidator()`
-  - Creates a `ObjectiveExistsValidator` instance.
-- `ObjectiveExistsValidator(EnumSet<AssetValidator.Config> config)`
-  - Creates a `ObjectiveExistsValidator` instance.
-- `ObjectiveExistsValidator(config)`
-  - Creates a `ObjectiveExistsValidator` instance.
+## Field Descriptions
+- `DEFAULT_INSTANCE`: Shared validator instance used for required validation.
 
-## Methods
-- `getDomain()`
-  - Executes `getDomain` behavior.
-- `test(String objective)`
-  - Executes `test` behavior.
-- `errorMessage(String objective, String attributeName)`
-  - Executes `errorMessage` behavior.
-- `getAssetName()`
-  - Executes `getAssetName` behavior.
-- `required()`
-  - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
-  - Executes `withConfig` behavior.
+## Constructor Descriptions
+- `ObjectiveExistsValidator()`: Creates the default validator instance.
+- `ObjectiveExistsValidator(EnumSet<AssetValidator.Config> config)`: Creates a validator with custom configuration.
 
-## Notes
-- No additional notes.
+## Method Descriptions
+- `getDomain()`: Returns the domain name "Objective".
+- `test(String objective)`: Returns true when the objective asset exists.
+- `errorMessage(String objective, String attributeName)`: Returns an error message for missing objectives.
+- `getAssetName()`: Returns the asset class name for validation output.
+- `required()`: Returns the shared validator instance.
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Returns a validator with custom configuration.
+
+## Examples
+```java
+ObjectiveExistsValidator validator = ObjectiveExistsValidator.required();
+```

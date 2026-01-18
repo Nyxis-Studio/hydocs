@@ -1,17 +1,17 @@
+**Source Hash:** `ff95cebb3acc5a3ec7c33bf1bd27ce1f5a250e8e220fdf9766361e5bb5776eab`
+
 # PickupLocation
 
 ## Overview
-- Documentation for `PickupLocation`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `PickupLocation(int value)`
   - Creates a `PickupLocation` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

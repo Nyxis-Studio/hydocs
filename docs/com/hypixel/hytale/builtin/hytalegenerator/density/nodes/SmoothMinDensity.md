@@ -1,17 +1,17 @@
+**Source Hash:** `648d8e15c5ecf19c08fa491709c8d10cbd9547e970edeee79825570e035f79e9`
+
 # SmoothMinDensity
 
 ## Overview
-- Documentation for `SmoothMinDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `SmoothMinDensity(double range, Density inputA, Density inputB)`
   - Creates a `SmoothMinDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

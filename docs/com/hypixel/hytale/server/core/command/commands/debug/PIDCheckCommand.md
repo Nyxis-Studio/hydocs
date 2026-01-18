@@ -1,15 +1,15 @@
+**Source Hash:** `a29d592c026dc504f36e99ad40edaf618b67e5a401f3d9da1729864d6f24294a`
+
 # PIDCheckCommand
 
 ## Overview
-- Documentation for `PIDCheckCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug`.
 
-## Constructors
+## Constructor Descriptions
 - `PIDCheckCommand()`
   - Creates a `PIDCheckCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

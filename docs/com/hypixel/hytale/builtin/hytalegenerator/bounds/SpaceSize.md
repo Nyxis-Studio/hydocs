@@ -1,10 +1,10 @@
+**Source Hash:** `da59f05d1ae42e7dca87b90a9f10a77e9ef67415e54d65f00f51dfac64d38fe5`
+
 # SpaceSize
 
 ## Overview
-- Documentation for `SpaceSize`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.bounds`.
 
-## Constructors
+## Constructor Descriptions
 - `SpaceSize(@Nonnull Vector3i minInclusive, @Nonnull Vector3i maxExclusive)`
   - Creates a `SpaceSize` instance.
 - `SpaceSize(@Nonnull Vector3i voxel)`
@@ -20,24 +20,24 @@
 - `SpaceSize(new Vector3i()`
   - Creates a `SpaceSize` instance.
 
-## Methods
-- `moveBy(@Nonnull Vector3i delta)`
+## Method Descriptions
+- `moveBy(@Nonnull Vector3i delta)`: Add description.
   - Executes `moveBy` behavior.
-- `getMinInclusive()`
+- `getMinInclusive()`: Add description.
   - Executes `getMinInclusive` behavior.
-- `getMaxExclusive()`
+- `getMaxExclusive()`: Add description.
   - Executes `getMaxExclusive` behavior.
-- `getMaxInclusive()`
+- `getMaxInclusive()`: Add description.
   - Executes `getMaxInclusive` behavior.
-- `getRange()`
+- `getRange()`: Add description.
   - Executes `getRange` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `merge(@Nonnull SpaceSize a, @Nonnull SpaceSize b)`
+- `merge(@Nonnull SpaceSize a, @Nonnull SpaceSize b)`: Add description.
   - Executes `merge` behavior.
-- `stack(@Nonnull SpaceSize a, @Nonnull SpaceSize b)`
+- `stack(@Nonnull SpaceSize a, @Nonnull SpaceSize b)`: Add description.
   - Executes `stack` behavior.
-- `empty()`
+- `empty()`: Add description.
   - Executes `empty` behavior.
 
 ## Notes

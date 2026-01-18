@@ -1,53 +1,53 @@
+**Source Hash:** `0c3d4ea2b7fe2ae1a1225c2225ce1675eb46a01f5d64b19ebc620966c1bc32dc`
+
 # EmptyBlockAccessor
 
 ## Overview
-- Documentation for `EmptyBlockAccessor`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.accessor`.
 
-## Constructors
+## Constructor Descriptions
 - `EmptyBlockAccessor()`
   - Creates a `EmptyBlockAccessor` instance.
 
-## Methods
-- `getX()`
+## Method Descriptions
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getChunkAccessor()`
+- `getChunkAccessor()`: Add description.
   - Executes `getChunkAccessor` behavior.
-- `getBlock(int x, int y, int z)`
+- `getBlock(int x, int y, int z)`: Add description.
   - Executes `getBlock` behavior.
-- `setBlock(int x, int y, int z, int id, BlockType blockType, int rotation, int filler, int settings)`
+- `setBlock(int x, int y, int z, int id, BlockType blockType, int rotation, int filler, int settings)`: Add description.
   - Executes `setBlock` behavior.
-- `breakBlock(int x, int y, int z, int filler, int settings)`
+- `breakBlock(int x, int y, int z, int filler, int settings)`: Add description.
   - Executes `breakBlock` behavior.
-- `testBlocks(int x, int y, int z, BlockType blockTypeToTest, int rotation, TriIntPredicate predicate)`
+- `testBlocks(int x, int y, int z, BlockType blockTypeToTest, int rotation, TriIntPredicate predicate)`: Add description.
   - Executes `testBlocks` behavior.
-- `testBlockTypes(int x, int y, int z, BlockType blockTypeToTest, int rotation, IChunkAccessorSync.TestBlockFunction predicate)`
+- `testBlockTypes(int x, int y, int z, BlockType blockTypeToTest, int rotation, IChunkAccessorSync.TestBlockFunction predicate)`: Add description.
   - Executes `testBlockTypes` behavior.
-- `testPlaceBlock(int x, int y, int z, BlockType blockTypeToTest, int rotation)`
+- `testPlaceBlock(int x, int y, int z, BlockType blockTypeToTest, int rotation)`: Add description.
   - Executes `testPlaceBlock` behavior.
-- `testPlaceBlock(int x, int y, int z, BlockType blockTypeToTest, int rotation, IChunkAccessorSync.TestBlockFunction filter)`
+- `testPlaceBlock(int x, int y, int z, BlockType blockTypeToTest, int rotation, IChunkAccessorSync.TestBlockFunction filter)`: Add description.
   - Executes `testPlaceBlock` behavior.
-- `setTicking(int x, int y, int z, boolean ticking)`
+- `setTicking(int x, int y, int z, boolean ticking)`: Add description.
   - Executes `setTicking` behavior.
-- `isTicking(int x, int y, int z)`
+- `isTicking(int x, int y, int z)`: Add description.
   - Executes `isTicking` behavior.
-- `getState(int x, int y, int z)`
+- `getState(int x, int y, int z)`: Add description.
   - Executes `getState` behavior.
-- `getBlockComponentHolder(int x, int y, int z)`
+- `getBlockComponentHolder(int x, int y, int z)`: Add description.
   - Executes `getBlockComponentHolder` behavior.
-- `setState(int x, int y, int z, BlockState state, boolean notify)`
+- `setState(int x, int y, int z, BlockState state, boolean notify)`: Add description.
   - Executes `setState` behavior.
-- `getFluidId(int x, int y, int z)`
+- `getFluidId(int x, int y, int z)`: Add description.
   - Executes `getFluidId` behavior.
-- `getFluidLevel(int x, int y, int z)`
+- `getFluidLevel(int x, int y, int z)`: Add description.
   - Executes `getFluidLevel` behavior.
-- `getSupportValue(int x, int y, int z)`
+- `getSupportValue(int x, int y, int z)`: Add description.
   - Executes `getSupportValue` behavior.
-- `getFiller(int x, int y, int z)`
+- `getFiller(int x, int y, int z)`: Add description.
   - Executes `getFiller` behavior.
-- `getRotationIndex(int x, int y, int z)`
+- `getRotationIndex(int x, int y, int z)`: Add description.
   - Executes `getRotationIndex` behavior.
 
 ## Notes

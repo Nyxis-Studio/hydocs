@@ -1,23 +1,23 @@
+**Source Hash:** `6d3205d059515727b4dc7f53dddaabc001e27dee5c04aa906896ee60ad46c48b`
+
 # ClusterProp
 
 ## Overview
-- Documentation for `ClusterProp`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.props`.
 
-## Constructors
+## Constructor Descriptions
 - `ClusterProp(int range, @Nonnull Double2DoubleFunction weightCurve, int seed, @Nonnull WeightedMap<Prop> propWeightedMap, @Nonnull Pattern pattern, @Nonnull Scanner scanner)`
   - Creates a `ClusterProp` instance.
 
-## Methods
-- `scan(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull WorkerIndexer.Id id)`
+## Method Descriptions
+- `scan(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull WorkerIndexer.Id id)`: Add description.
   - Executes `scan` behavior.
-- `place(@Nonnull Prop.Context context)`
+- `place(@Nonnull Prop.Context context)`: Add description.
   - Executes `place` behavior.
-- `place(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull EntityContainer entityBuffer, @Nonnull WorkerIndexer.Id id, double distanceFromBiomeEdge)`
+- `place(@Nonnull Vector3i position, @Nonnull VoxelSpace<Material> materialSpace, @Nonnull EntityContainer entityBuffer, @Nonnull WorkerIndexer.Id id, double distanceFromBiomeEdge)`: Add description.
   - Executes `place` behavior.
-- `getContextDependency()`
+- `getContextDependency()`: Add description.
   - Executes `getContextDependency` behavior.
-- `getWriteBounds()`
+- `getWriteBounds()`: Add description.
   - Executes `getWriteBounds` behavior.
 
 ## Notes

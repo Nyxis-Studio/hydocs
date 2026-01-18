@@ -1,16 +1,16 @@
+**Source Hash:** `60c8465953ec34df9956873b6b97e20938ad34a2f3750f9c6efc2413d33be4f1`
+
 # ThrowableIntConsumer
 
 ## Overview
-- Documentation for `ThrowableIntConsumer`.
-- Declared as a interface in `com.hypixel.hytale.sneakythrow.consumer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `accept(int t)`
+## Method Descriptions
+- `accept(int t)`: Add description.
   - Executes `accept` behavior.
-- `acceptNow(int var1)`
+- `acceptNow(int var1)`: Add description.
   - Executes `acceptNow` behavior.
 
 ## Notes

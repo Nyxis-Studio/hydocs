@@ -1,10 +1,10 @@
+**Source Hash:** `ba734cff91825a8ce562bdea34ff2962b563a75299b8fffb8e42bdc326013022`
+
 # ObjectiveLocationMarker
 
 ## Overview
-- Documentation for `ObjectiveLocationMarker`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.objectives.markers.objectivelocation`.
 
-## Constructors
+## Constructor Descriptions
 - `ObjectiveLocationMarker()`
   - Creates a `ObjectiveLocationMarker` instance.
 - `ObjectiveLocationMarker(String objectiveLocationMarkerId)`
@@ -12,28 +12,28 @@
 - `ObjectiveLocationMarker(this.objectiveLocationMarkerId)`
   - Creates a `ObjectiveLocationMarker` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `setObjectiveLocationMarkerId(String objectiveLocationMarkerId)`
+- `setObjectiveLocationMarkerId(String objectiveLocationMarkerId)`: Add description.
   - Executes `setObjectiveLocationMarkerId` behavior.
-- `setActiveObjectiveUUID(UUID activeObjectiveUUID)`
+- `setActiveObjectiveUUID(UUID activeObjectiveUUID)`: Add description.
   - Executes `setActiveObjectiveUUID` behavior.
-- `getActiveObjective()`
+- `getActiveObjective()`: Add description.
   - Executes `getActiveObjective` behavior.
-- `setActiveObjective(Objective activeObjective)`
+- `setActiveObjective(Objective activeObjective)`: Add description.
   - Executes `setActiveObjective` behavior.
-- `getObjectiveLocationMarkerId()`
+- `getObjectiveLocationMarkerId()`: Add description.
   - Executes `getObjectiveLocationMarkerId` behavior.
-- `getUntrackPacket()`
+- `getUntrackPacket()`: Add description.
   - Executes `getUntrackPacket` behavior.
-- `setUntrackPacket(@Nonnull UntrackObjective untrackPacket)`
+- `setUntrackPacket(@Nonnull UntrackObjective untrackPacket)`: Add description.
   - Executes `setUntrackPacket` behavior.
-- `getArea()`
+- `getArea()`: Add description.
   - Executes `getArea` behavior.
-- `updateLocationMarkerValues(@Nonnull ObjectiveLocationMarkerAsset objectiveLocationMarkerAsset, float yaw, @Nonnull Store<EntityStore> store)`
+- `updateLocationMarkerValues(@Nonnull ObjectiveLocationMarkerAsset objectiveLocationMarkerAsset, float yaw, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `updateLocationMarkerValues` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

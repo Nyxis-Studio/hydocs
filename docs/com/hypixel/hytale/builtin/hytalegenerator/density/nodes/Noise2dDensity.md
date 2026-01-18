@@ -1,17 +1,17 @@
+**Source Hash:** `dfa35ef5b58e57ab3cefe423e24f0fe3327754eee0d7185f70044f524a6d0fe3`
+
 # Noise2dDensity
 
 ## Overview
-- Documentation for `Noise2dDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `Noise2dDensity(@Nonnull NoiseField noise)`
   - Creates a `Noise2dDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

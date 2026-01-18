@@ -1,33 +1,33 @@
+**Source Hash:** `735d97876c8a332447951a3800e906114ff484fc428e13b8621695f4fdf0ef35`
+
 # DamageDataComponent
 
 ## Overview
-- Documentation for `DamageDataComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.damage`.
 
-## Constructors
+## Constructor Descriptions
 - `DamageDataComponent()`
   - Creates a `DamageDataComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getLastCombatAction()`
+- `getLastCombatAction()`: Add description.
   - Executes `getLastCombatAction` behavior.
-- `setLastCombatAction(@Nonnull Instant lastCombatAction)`
+- `setLastCombatAction(@Nonnull Instant lastCombatAction)`: Add description.
   - Executes `setLastCombatAction` behavior.
-- `getLastDamageTime()`
+- `getLastDamageTime()`: Add description.
   - Executes `getLastDamageTime` behavior.
-- `setLastDamageTime(@Nonnull Instant lastDamageTime)`
+- `setLastDamageTime(@Nonnull Instant lastDamageTime)`: Add description.
   - Executes `setLastDamageTime` behavior.
-- `getLastChargeTime()`
+- `getLastChargeTime()`: Add description.
   - Executes `getLastChargeTime` behavior.
-- `setLastChargeTime(@Nonnull Instant lastChargeTime)`
+- `setLastChargeTime(@Nonnull Instant lastChargeTime)`: Add description.
   - Executes `setLastChargeTime` behavior.
-- `getCurrentWielding()`
+- `getCurrentWielding()`: Add description.
   - Executes `getCurrentWielding` behavior.
-- `setCurrentWielding(@Nullable WieldingInteraction currentWielding)`
+- `setCurrentWielding(@Nullable WieldingInteraction currentWielding)`: Add description.
   - Executes `setCurrentWielding` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

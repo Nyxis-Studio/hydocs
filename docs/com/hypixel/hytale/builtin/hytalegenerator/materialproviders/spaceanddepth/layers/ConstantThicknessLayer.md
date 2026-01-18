@@ -1,17 +1,17 @@
+**Source Hash:** `bf2f133026cbfe4c26d564d297771e8a64196c6d95b99cf46607daab19f979b9`
+
 # ConstantThicknessLayer
 
 ## Overview
-- Documentation for `ConstantThicknessLayer`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.materialproviders.spaceanddepth.layers`.
 
-## Constructors
+## Constructor Descriptions
 - `ConstantThicknessLayer(int thickness, @Nullable MaterialProvider<V> materialProvider)`
   - Creates a `ConstantThicknessLayer` instance.
 
-## Methods
-- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`
+## Method Descriptions
+- `getThicknessAt(int x, int y, int z, int depthIntoFloor, int depthIntoCeiling, int spaceAboveFloor, int spaceBelowCeiling, double distanceTOBiomeEdge)`: Add description.
   - Executes `getThicknessAt` behavior.
-- `getMaterialProvider()`
+- `getMaterialProvider()`: Add description.
   - Executes `getMaterialProvider` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `c89e8445087240773d1c6bc87720ad20714910b14cbdc7681b70a033212f272f`
+
 # SubmergeCommand
 
 ## Overview
-- Documentation for `SubmergeCommand`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `SubmergeCommand()`
   - Creates a `SubmergeCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

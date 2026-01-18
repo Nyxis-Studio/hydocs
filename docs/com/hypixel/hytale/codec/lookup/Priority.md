@@ -1,10 +1,10 @@
+**Source Hash:** `5b2a30cbd99dd274586e2868b151714cb8cd971a8393c2a03974df4f58eff4fd`
+
 # Priority
 
 ## Overview
-- Documentation for `Priority`.
-- Declared as a class in `com.hypixel.hytale.codec.lookup`.
 
-## Constructors
+## Constructor Descriptions
 - `Priority(-1000)`
   - Creates a `Priority` instance.
 - `Priority(0)`
@@ -14,20 +14,20 @@
 - `Priority(this.level - by)`
   - Creates a `Priority` instance.
 
-## Methods
-- `getLevel()`
+## Method Descriptions
+- `getLevel()`: Add description.
   - Executes `getLevel` behavior.
-- `before()`
+- `before()`: Add description.
   - Executes `before` behavior.
-- `before(int by)`
+- `before(int by)`: Add description.
   - Executes `before` behavior.
-- `after()`
+- `after()`: Add description.
   - Executes `after` behavior.
-- `after(int by)`
+- `after(int by)`: Add description.
   - Executes `after` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

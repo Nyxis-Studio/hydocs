@@ -1,17 +1,17 @@
+**Source Hash:** `0145475c753341053dea836add58784c046f5b305b5911af2594aed47f408ed4`
+
 # SensorInAir
 
 ## Overview
-- Documentation for `SensorInAir`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.movement`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorInAir(@Nonnull BuilderSensorBase builderSensorBase)`
   - Creates a `SensorInAir` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `c58c82c32595ca33b62d3ece4baf107fa2f3ba26a0bce5f8a170ffcda668d9ad`
+
 # OffsetOperation
 
 ## Overview
-- Documentation for `OffsetOperation`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.scriptedbrushes.operations.sequential.offsets`.
 
-## Constructors
+## Constructor Descriptions
 - `OffsetOperation()`
   - Creates a `OffsetOperation` instance.
 
-## Methods
-- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `modifyBrushConfig(@Nonnull Ref<EntityStore> ref, @Nonnull BrushConfig brushConfig, @Nonnull BrushConfigCommandExecutor brushConfigCommandExecutor, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `modifyBrushConfig` behavior.
 
 ## Notes

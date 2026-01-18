@@ -1,52 +1,52 @@
+**Source Hash:** `9c81261b2dabf43082be663497206b0a142c68be4815d470734ca38f20fb08b7`
+
 # UICommandBuilder
 
 ## Overview
-- Documentation for `UICommandBuilder`.
-- Declared as a class in `com.hypixel.hytale.server.core.ui.builder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `clear(String selector)`
+## Method Descriptions
+- `clear(String selector)`: Add description.
   - Executes `clear` behavior.
-- `remove(String selector)`
+- `remove(String selector)`: Add description.
   - Executes `remove` behavior.
-- `append(String documentPath)`
+- `append(String documentPath)`: Add description.
   - Executes `append` behavior.
-- `append(String selector, String documentPath)`
+- `append(String selector, String documentPath)`: Add description.
   - Executes `append` behavior.
-- `appendInline(String selector, String document)`
+- `appendInline(String selector, String document)`: Add description.
   - Executes `appendInline` behavior.
-- `insertBefore(String selector, String documentPath)`
+- `insertBefore(String selector, String documentPath)`: Add description.
   - Executes `insertBefore` behavior.
-- `insertBeforeInline(String selector, String document)`
+- `insertBeforeInline(String selector, String document)`: Add description.
   - Executes `insertBeforeInline` behavior.
-- `setBsonValue(String selector, BsonValue bsonValue)`
+- `setBsonValue(String selector, BsonValue bsonValue)`: Add description.
   - Executes `setBsonValue` behavior.
-- `set(String selector, @Nonnull Value<T> ref)`
+- `set(String selector, @Nonnull Value<T> ref)`: Add description.
   - Executes `set` behavior.
-- `setNull(String selector)`
+- `setNull(String selector)`: Add description.
   - Executes `setNull` behavior.
-- `set(String selector, @Nonnull String str)`
+- `set(String selector, @Nonnull String str)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, @Nonnull Message message)`
+- `set(String selector, @Nonnull Message message)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, boolean b)`
+- `set(String selector, boolean b)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, float n)`
+- `set(String selector, float n)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, int n)`
+- `set(String selector, int n)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, double n)`
+- `set(String selector, double n)`: Add description.
   - Executes `set` behavior.
-- `setObject(String selector, @Nonnull Object data)`
+- `setObject(String selector, @Nonnull Object data)`: Add description.
   - Executes `setObject` behavior.
-- `set(String selector, @Nonnull T[] data)`
+- `set(String selector, @Nonnull T[] data)`: Add description.
   - Executes `set` behavior.
-- `set(String selector, @Nonnull List<T> data)`
+- `set(String selector, @Nonnull List<T> data)`: Add description.
   - Executes `set` behavior.
-- `getCommands()`
+- `getCommands()`: Add description.
   - Executes `getCommands` behavior.
 
 ## Notes

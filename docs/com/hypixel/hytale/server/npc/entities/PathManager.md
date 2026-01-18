@@ -1,20 +1,20 @@
+**Source Hash:** `8b0a4ef9932018ea2d578359f15ef7dce27fbaadda17882e520056ccf7b96024`
+
 # PathManager
 
 ## Overview
-- Documentation for `PathManager`.
-- Declared as a class in `com.hypixel.hytale.server.npc.entities`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setPrefabPath(@Nonnull UUID currentPath, @Nonnull IPrefabPath path)`
+## Method Descriptions
+- `setPrefabPath(@Nonnull UUID currentPath, @Nonnull IPrefabPath path)`: Add description.
   - Executes `setPrefabPath` behavior.
-- `setTransientPath(@Nonnull IPath<?> path)`
+- `setTransientPath(@Nonnull IPath<?> path)`: Add description.
   - Executes `setTransientPath` behavior.
-- `isFollowingPath()`
+- `isFollowingPath()`: Add description.
   - Executes `isFollowingPath` behavior.
-- `getCurrentPathHint()`
+- `getCurrentPathHint()`: Add description.
   - Executes `getCurrentPathHint` behavior.
 
 ## Notes

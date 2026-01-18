@@ -1,24 +1,24 @@
+**Source Hash:** `429b5c7cdc7f4b56f03b7ef6bac916d28872eee98f86614d6454fab5531a171c`
+
 # BuilderSensorLeash
 
 ## Overview
-- Documentation for `BuilderSensorLeash`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getRange(@Nonnull BuilderSupport builderSupport)`
+- `getRange(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getRange` behavior.
 
 ## Notes

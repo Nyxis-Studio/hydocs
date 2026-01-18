@@ -1,21 +1,21 @@
+**Source Hash:** `c7ff4131ff03c9ca98a5a9491cf2a6706c6c82927d5b9001995ed14c088b4861`
+
 # FileCommonAsset
 
 ## Overview
-- Documentation for `FileCommonAsset`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.common.asset`.
 
-## Constructors
+## Constructor Descriptions
 - `FileCommonAsset(Path file, @Nonnull String name, byte[] bytes)`
   - Creates a `FileCommonAsset` instance.
 - `FileCommonAsset(Path file, @Nonnull String name, @Nonnull String hash, byte[] bytes)`
   - Creates a `FileCommonAsset` instance.
 
-## Methods
-- `getFile()`
+## Method Descriptions
+- `getFile()`: Add description.
   - Executes `getFile` behavior.
-- `getBlob0()`
+- `getBlob0()`: Add description.
   - Executes `getBlob0` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

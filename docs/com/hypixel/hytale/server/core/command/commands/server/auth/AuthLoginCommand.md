@@ -1,15 +1,15 @@
+**Source Hash:** `f9028455c8224cdf645ea2626aa4529d7f1e163560af75a351099ddf2a274b17`
+
 # AuthLoginCommand
 
 ## Overview
-- Documentation for `AuthLoginCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.server.auth`.
 
-## Constructors
+## Constructor Descriptions
 - `AuthLoginCommand()`
   - Creates a `AuthLoginCommand` instance.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

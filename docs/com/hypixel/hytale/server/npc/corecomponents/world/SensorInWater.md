@@ -1,17 +1,17 @@
+**Source Hash:** `e5778467d2481609e70f89ddff1a5ccb373f363eb1cdfc0a6cb4cbb74c200fe6`
+
 # SensorInWater
 
 ## Overview
-- Documentation for `SensorInWater`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.world`.
 
-## Constructors
+## Constructor Descriptions
 - `SensorInWater(@Nonnull BuilderSensorInWater builderSensorBase)`
   - Creates a `SensorInWater` instance.
 
-## Methods
-- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matches(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matches` behavior.
-- `getSensorInfo()`
+- `getSensorInfo()`: Add description.
   - Executes `getSensorInfo` behavior.
 
 ## Notes

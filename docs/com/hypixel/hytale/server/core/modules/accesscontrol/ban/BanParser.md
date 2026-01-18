@@ -1,14 +1,14 @@
+**Source Hash:** `f8566f7f12eb5b6980a5167b6de61c1ec00cc57011cb2a0b40538b542f579984`
+
 # BanParser
 
 ## Overview
-- Documentation for `BanParser`.
-- Declared as a interface in `com.hypixel.hytale.server.core.modules.accesscontrol.ban`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `parse(JsonObject var1)`
+## Method Descriptions
+- `parse(JsonObject var1)`: Add description.
   - Executes `parse` behavior.
 
 ## Notes

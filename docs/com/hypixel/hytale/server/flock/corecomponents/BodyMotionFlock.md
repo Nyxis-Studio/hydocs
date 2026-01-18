@@ -1,15 +1,15 @@
+**Source Hash:** `dc408e92d88db387746ab5f40372a3a3a55fd0eb589f56ed3e0bb95fbab2bc17`
+
 # BodyMotionFlock
 
 ## Overview
-- Documentation for `BodyMotionFlock`.
-- Declared as a class in `com.hypixel.hytale.server.flock.corecomponents`.
 
-## Constructors
+## Constructor Descriptions
 - `BodyMotionFlock(@Nonnull BuilderBodyMotionFlock builderBodyMotionFlock)`
   - Creates a `BodyMotionFlock` instance.
 
-## Methods
-- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+## Method Descriptions
+- `computeSteering(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, @Nullable InfoProvider sensorInfo, double dt, @Nonnull Steering desiredSteering, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `computeSteering` behavior.
 
 ## Notes

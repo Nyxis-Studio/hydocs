@@ -1,19 +1,19 @@
+**Source Hash:** `b45bf4ea6d76980b849681b0bc39e3f70f0d97f68e9aee08636d6acbfbb49d95`
+
 # PersistentMetaKey
 
 ## Overview
-- Documentation for `PersistentMetaKey`.
-- Declared as a class in `com.hypixel.hytale.server.core.meta`.
 
-## Constructors
+## Constructor Descriptions
 - `PersistentMetaKey(int id, String key, Codec<T> codec)`
   - Creates a `PersistentMetaKey` instance.
 
-## Methods
-- `getKey()`
+## Method Descriptions
+- `getKey()`: Add description.
   - Executes `getKey` behavior.
-- `getCodec()`
+- `getCodec()`: Add description.
   - Executes `getCodec` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

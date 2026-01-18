@@ -1,22 +1,22 @@
+**Source Hash:** `dc764f0a71807cf555ed867a5570776634d5fe5f32932518ccc94253cbe8cb26`
+
 # BuilderEntityFilterLineOfSight
 
 ## Overview
-- Documentation for `BuilderEntityFilterLineOfSight`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(BuilderSupport builderSupport)`
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(JsonElement data)`
+- `readConfig(JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
 
 ## Notes

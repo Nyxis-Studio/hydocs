@@ -1,10 +1,10 @@
+**Source Hash:** `bbb9bb9d48d993a5d56c96eb04c8e8a98ccb7ca139f4608dd13d391499e4ff4e`
+
 # Teleport
 
 ## Overview
-- Documentation for `Teleport`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.teleport`.
 
-## Constructors
+## Constructor Descriptions
 - `Teleport(@Nullable World world, @Nonnull Transform transform)`
   - Creates a `Teleport` instance.
 - `Teleport(@Nullable World world, @Nonnull Vector3d position, @Nonnull Vector3f rotation)`
@@ -16,26 +16,26 @@
 - `Teleport(this.world, this.position, this.rotation)`
   - Creates a `Teleport` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `withHeadRotation(@Nonnull Vector3f headRotation)`
+- `withHeadRotation(@Nonnull Vector3f headRotation)`: Add description.
   - Executes `withHeadRotation` behavior.
-- `withResetRoll()`
+- `withResetRoll()`: Add description.
   - Executes `withResetRoll` behavior.
-- `withoutVelocityReset()`
+- `withoutVelocityReset()`: Add description.
   - Executes `withoutVelocityReset` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `getPosition()`
+- `getPosition()`: Add description.
   - Executes `getPosition` behavior.
-- `getRotation()`
+- `getRotation()`: Add description.
   - Executes `getRotation` behavior.
-- `getHeadRotation()`
+- `getHeadRotation()`: Add description.
   - Executes `getHeadRotation` behavior.
-- `isResetVelocity()`
+- `isResetVelocity()`: Add description.
   - Executes `isResetVelocity` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

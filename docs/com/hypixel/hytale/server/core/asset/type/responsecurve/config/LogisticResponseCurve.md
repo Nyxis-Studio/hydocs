@@ -1,27 +1,27 @@
+**Source Hash:** `248ab77f71258c83b51134114c129bbfc0ce1f9a29019f7cf2d72a862756a5df`
+
 # LogisticResponseCurve
 
 ## Overview
-- Documentation for `LogisticResponseCurve`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.responsecurve.config`.
 
-## Constructors
+## Constructor Descriptions
 - `LogisticResponseCurve(double rateOfChange, double ceiling, double horizontalShift, double verticalShift)`
   - Creates a `LogisticResponseCurve` instance.
 - `LogisticResponseCurve()`
   - Creates a `LogisticResponseCurve` instance.
 
-## Methods
-- `computeY(double x)`
+## Method Descriptions
+- `computeY(double x)`: Add description.
   - Executes `computeY` behavior.
-- `getRateOfChange()`
+- `getRateOfChange()`: Add description.
   - Executes `getRateOfChange` behavior.
-- `getCeiling()`
+- `getCeiling()`: Add description.
   - Executes `getCeiling` behavior.
-- `getHorizontalShift()`
+- `getHorizontalShift()`: Add description.
   - Executes `getHorizontalShift` behavior.
-- `getVerticalShift()`
+- `getVerticalShift()`: Add description.
   - Executes `getVerticalShift` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

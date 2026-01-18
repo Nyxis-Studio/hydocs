@@ -1,27 +1,27 @@
+**Source Hash:** `90b83db9d5b2c12b9985390a89965ba6c8e168c4e2646a51508908dd04bd7081`
+
 # WorldMap
 
 ## Overview
-- Documentation for `WorldMap`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.map`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldMap(int chunks)`
   - Creates a `WorldMap` instance.
 
-## Methods
-- `getPointsOfInterest()`
+## Method Descriptions
+- `getPointsOfInterest()`: Add description.
   - Executes `getPointsOfInterest` behavior.
-- `getChunks()`
+- `getChunks()`: Add description.
   - Executes `getChunks` behavior.
-- `addPointOfInterest(String id, String name, String markerType, @Nonnull Vector3i pos)`
+- `addPointOfInterest(String id, String name, String markerType, @Nonnull Vector3i pos)`: Add description.
   - Executes `addPointOfInterest` behavior.
-- `addPointOfInterest(String id, String name, String markerType, @Nonnull Vector3d pos)`
+- `addPointOfInterest(String id, String name, String markerType, @Nonnull Vector3d pos)`: Add description.
   - Executes `addPointOfInterest` behavior.
-- `addPointOfInterest(String id, String name, String markerType, @Nonnull Transform transform)`
+- `addPointOfInterest(String id, String name, String markerType, @Nonnull Transform transform)`: Add description.
   - Executes `addPointOfInterest` behavior.
-- `toPacket()`
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

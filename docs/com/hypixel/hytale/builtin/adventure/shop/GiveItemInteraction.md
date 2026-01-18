@@ -1,23 +1,23 @@
+**Source Hash:** `acc7b8256537c1c8701b5b6dd0bf202a5287b1adc4396f02d699b093f3822916`
+
 # GiveItemInteraction
 
 ## Overview
-- Documentation for `GiveItemInteraction`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.shop`.
 
-## Constructors
+## Constructor Descriptions
 - `GiveItemInteraction(String itemId, int quantity)`
   - Creates a `GiveItemInteraction` instance.
 - `GiveItemInteraction()`
   - Creates a `GiveItemInteraction` instance.
 
-## Methods
-- `getItemId()`
+## Method Descriptions
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `run(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef)`
+- `run(@Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef)`: Add description.
   - Executes `run` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

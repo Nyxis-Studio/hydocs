@@ -1,14 +1,14 @@
+**Source Hash:** `e11a985c9d21b43369f2c9d2dc4b4b9c62d819935dcd02d5ed6f9d403f5117f0`
+
 # ItemContainerWindow
 
 ## Overview
-- Documentation for `ItemContainerWindow`.
-- Declared as a interface in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getItemContainer()`
+## Method Descriptions
+- `getItemContainer()`: Add description.
   - Executes `getItemContainer` behavior.
 
 ## Notes

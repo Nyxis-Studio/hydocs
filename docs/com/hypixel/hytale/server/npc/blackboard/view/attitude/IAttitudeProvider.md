@@ -1,14 +1,14 @@
+**Source Hash:** `173b374035b9f17fd14329e80a7ca3d194618bb8d3563c6b173fdb53909641d3`
+
 # IAttitudeProvider
 
 ## Overview
-- Documentation for `IAttitudeProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.blackboard.view.attitude`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getAttitude(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, @Nonnull Ref<EntityStore> var3, @Nonnull ComponentAccessor<EntityStore> var4)`
+## Method Descriptions
+- `getAttitude(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, @Nonnull Ref<EntityStore> var3, @Nonnull ComponentAccessor<EntityStore> var4)`: Add description.
   - Executes `getAttitude` behavior.
 
 ## Notes

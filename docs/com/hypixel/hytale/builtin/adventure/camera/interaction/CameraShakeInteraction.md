@@ -1,15 +1,27 @@
+**Source Hash:** `9c84226ccdddf7cb467958122e3a57088e7da31b07a583c5631a6c70ade970bd`
+**Last Updated:** `2026-01-18T17:26:43-03:00`
+
 # CameraShakeInteraction
 
-**Overview**
-Instant interaction that triggers a camera shake on use.
-Resolves a `CameraEffect` asset and sends the corresponding packet.
+## Overview
+Instant interaction that triggers a camera shake on use. Resolves a `CameraEffect` asset and sends the corresponding packet.
 
-**Constructors**
-- Uses the codec builder to construct instances; no explicit constructor defined.
+## Field Descriptions
+- `CODEC`: Builder codec for decoding camera shake interactions.
+- `effectId`: Camera effect asset id to play.
+- `effectIndex`: Cached asset index for the camera effect.
 
-**Methods**
-- `firstRun(InteractionType type, InteractionContext context, CooldownHandler cooldownHandler)`: sends the camera shake packet if the effect is resolved.
-- `toString()`: returns a diagnostic string.
+## Constructor Descriptions
+- None. Instances are built via `CODEC`.
 
-**Notes**
-- Caches the effect index after decoding the asset reference.
+## Method Descriptions
+- `firstRun(InteractionType type, InteractionContext context, CooldownHandler cooldownHandler)`: Resolves the player, looks up the camera effect asset by index, and sends the shake packet when available.
+- `toString()`: Returns a diagnostic string.
+
+## Usage Notes
+- Effect indices are cached after decode to avoid repeated asset lookups.
+
+## Examples
+```java
+CameraShakeInteraction interaction = CameraShakeInteraction.CODEC.decode(reader, extraInfo);
+```

@@ -1,10 +1,10 @@
+**Source Hash:** `dd33c2b3f007d82af2e46cf803f7b2bfe363f7f18e6048a37ab9fe266fa60177`
+
 # CameraManager
 
 ## Overview
-- Documentation for `CameraManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player`.
 
-## Constructors
+## Constructor Descriptions
 - `CameraManager()`
   - Creates a `CameraManager` instance.
 - `CameraManager(@Nonnull CameraManager other)`
@@ -12,30 +12,30 @@
 - `CameraManager(this)`
   - Creates a `CameraManager` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `resetCamera(@Nonnull PlayerRef ref)`
+- `resetCamera(@Nonnull PlayerRef ref)`: Add description.
   - Executes `resetCamera` behavior.
-- `handleMouseButtonState(MouseButtonType mouseButtonType, MouseButtonState state, Vector3i targetBlock)`
+- `handleMouseButtonState(MouseButtonType mouseButtonType, MouseButtonState state, Vector3i targetBlock)`: Add description.
   - Executes `handleMouseButtonState` behavior.
-- `getMouseButtonState(MouseButtonType mouseButtonType)`
+- `getMouseButtonState(MouseButtonType mouseButtonType)`: Add description.
   - Executes `getMouseButtonState` behavior.
-- `getLastMouseButtonPressedPosition(MouseButtonType mouseButtonType)`
+- `getLastMouseButtonPressedPosition(MouseButtonType mouseButtonType)`: Add description.
   - Executes `getLastMouseButtonPressedPosition` behavior.
-- `getLastMouseButtonReleasedPosition(MouseButtonType mouseButtonType)`
+- `getLastMouseButtonReleasedPosition(MouseButtonType mouseButtonType)`: Add description.
   - Executes `getLastMouseButtonReleasedPosition` behavior.
-- `setLastScreenPoint(Vector2d lastScreenPoint)`
+- `setLastScreenPoint(Vector2d lastScreenPoint)`: Add description.
   - Executes `setLastScreenPoint` behavior.
-- `getLastScreenPoint()`
+- `getLastScreenPoint()`: Add description.
   - Executes `getLastScreenPoint` behavior.
-- `setLastBlockPosition(Vector3i targetBlock)`
+- `setLastBlockPosition(Vector3i targetBlock)`: Add description.
   - Executes `setLastBlockPosition` behavior.
-- `getLastTargetBlock()`
+- `getLastTargetBlock()`: Add description.
   - Executes `getLastTargetBlock` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

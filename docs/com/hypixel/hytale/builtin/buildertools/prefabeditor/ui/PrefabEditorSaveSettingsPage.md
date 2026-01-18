@@ -1,23 +1,23 @@
+**Source Hash:** `2a78849d33a5c61f911e97d09f033447a50f8e67a073cdee1d89647f4cab734b`
+
 # PrefabEditorSaveSettingsPage
 
 ## Overview
-- Documentation for `PrefabEditorSaveSettingsPage`.
-- Declared as a class in `com.hypixel.hytale.builtin.buildertools.prefabeditor.ui`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabEditorSaveSettingsPage(@Nonnull PlayerRef playerRef, @Nonnull PrefabEditSession prefabEditSession)`
   - Creates a `PrefabEditorSaveSettingsPage` instance.
 
-## Methods
-- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `build` behavior.
-- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull PageData data)`
+- `handleDataEvent(@Nonnull Ref<EntityStore> ref, @Nonnull Store<EntityStore> store, @Nonnull PageData data)`: Add description.
   - Executes `handleDataEvent` behavior.
-- `buildPrefabList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`
+- `buildPrefabList(@Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder)`: Add description.
   - Executes `buildPrefabList` behavior.
-- `getWritableSavePath(@Nonnull PrefabEditingMetadata metadata)`
+- `getWritableSavePath(@Nonnull PrefabEditingMetadata metadata)`: Add description.
   - Executes `getWritableSavePath` behavior.
-- `onSavingFailed(@Nonnull Message errorMessage)`
+- `onSavingFailed(@Nonnull Message errorMessage)`: Add description.
   - Executes `onSavingFailed` behavior.
 
 ## Notes

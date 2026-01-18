@@ -1,14 +1,14 @@
+**Source Hash:** `b2a544d802c47de1ba6539faaed60e73b3b2df39f4c4d962c5b2b9e1a84720a9`
+
 # OrConditionAsset
 
 ## Overview
-- Documentation for `OrConditionAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth.conditionassets`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

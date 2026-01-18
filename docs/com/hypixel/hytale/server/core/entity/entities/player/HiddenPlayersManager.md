@@ -1,18 +1,18 @@
+**Source Hash:** `3d1f2e42037f84e55aa64e69b573711a64ea1a576347b4e036b165e0a7a014ef`
+
 # HiddenPlayersManager
 
 ## Overview
-- Documentation for `HiddenPlayersManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hidePlayer(@Nonnull UUID uuid)`
+## Method Descriptions
+- `hidePlayer(@Nonnull UUID uuid)`: Add description.
   - Executes `hidePlayer` behavior.
-- `showPlayer(@Nonnull UUID uuid)`
+- `showPlayer(@Nonnull UUID uuid)`: Add description.
   - Executes `showPlayer` behavior.
-- `isPlayerHidden(@Nonnull UUID uuid)`
+- `isPlayerHidden(@Nonnull UUID uuid)`: Add description.
   - Executes `isPlayerHidden` behavior.
 
 ## Notes

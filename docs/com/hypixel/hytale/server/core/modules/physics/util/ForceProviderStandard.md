@@ -1,28 +1,28 @@
+**Source Hash:** `6ed6fddc9795b67952d7ed2d50e2739e173c17dd4f65b2de5cb73938fdcf7143`
+
 # ForceProviderStandard
 
 ## Overview
-- Documentation for `ForceProviderStandard`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.physics.util`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getMass(double var1)`
+## Method Descriptions
+- `getMass(double var1)`: Add description.
   - Executes `getMass` behavior.
-- `getVolume()`
+- `getVolume()`: Add description.
   - Executes `getVolume` behavior.
-- `getDensity()`
+- `getDensity()`: Add description.
   - Executes `getDensity` behavior.
-- `getProjectedArea(PhysicsBodyState var1, double var2)`
+- `getProjectedArea(PhysicsBodyState var1, double var2)`: Add description.
   - Executes `getProjectedArea` behavior.
-- `getFrictionCoefficient()`
+- `getFrictionCoefficient()`: Add description.
   - Executes `getFrictionCoefficient` behavior.
-- `getForceProviderStandardState()`
+- `getForceProviderStandardState()`: Add description.
   - Executes `getForceProviderStandardState` behavior.
-- `update(@Nonnull PhysicsBodyState bodyState, @Nonnull ForceAccumulator accumulator, boolean onGround)`
+- `update(@Nonnull PhysicsBodyState bodyState, @Nonnull ForceAccumulator accumulator, boolean onGround)`: Add description.
   - Executes `update` behavior.
-- `clipForce(@Nonnull Vector3d value, @Nonnull Vector3d threshold)`
+- `clipForce(@Nonnull Vector3d value, @Nonnull Vector3d threshold)`: Add description.
   - Executes `clipForce` behavior.
 
 ## Notes

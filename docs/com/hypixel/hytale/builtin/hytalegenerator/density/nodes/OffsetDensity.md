@@ -1,17 +1,17 @@
+**Source Hash:** `bafd4604abcc55ebbf98fa96994e23fccea7fd7e93b256ae6e4e3a261d5a5caf`
+
 # OffsetDensity
 
 ## Overview
-- Documentation for `OffsetDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `OffsetDensity(@Nonnull Double2DoubleFunction offsetFunction, Density input)`
   - Creates a `OffsetDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

@@ -1,21 +1,21 @@
+**Source Hash:** `5e19fe534fbc837c732fadc6f237aa83d3e667079be18d1e437bd744c2488f4c`
+
 # StepComponent
 
 ## Overview
-- Documentation for `StepComponent`.
-- Declared as a class in `com.hypixel.hytale.server.npc.components`.
 
-## Constructors
+## Constructor Descriptions
 - `StepComponent(float tickLength)`
   - Creates a `StepComponent` instance.
 - `StepComponent(this.tickLength)`
   - Creates a `StepComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getTickLength()`
+- `getTickLength()`: Add description.
   - Executes `getTickLength` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

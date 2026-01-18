@@ -1,15 +1,15 @@
+**Source Hash:** `1e64374e4ce5927e2540ff09d97c01c5a3c53309114c691cb62d239871c6515d`
+
 # InventoryBackpackCommand
 
 ## Overview
-- Documentation for `InventoryBackpackCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.player.inventory`.
 
-## Constructors
+## Constructor Descriptions
 - `InventoryBackpackCommand()`
   - Creates a `InventoryBackpackCommand` instance.
 
-## Methods
-- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`
+## Method Descriptions
+- `execute(@Nonnull CommandContext context, @Nonnull Store<EntityStore> store, @Nonnull Ref<EntityStore> ref, @Nonnull PlayerRef playerRef, @Nonnull World world)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

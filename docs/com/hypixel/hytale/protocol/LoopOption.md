@@ -1,17 +1,17 @@
+**Source Hash:** `563a6e7ba6322a358390a85cc9f576ec513237e76eeaa569975f340693bedc84`
+
 # LoopOption
 
 ## Overview
-- Documentation for `LoopOption`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `LoopOption(int value)`
   - Creates a `LoopOption` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

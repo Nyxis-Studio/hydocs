@@ -1,10 +1,10 @@
+**Source Hash:** `39defe584c66a9efca0c3b42413bc1e74f22535fdc862ea8aaab29c9f9d4fda5`
+
 # BuilderToolBrushOriginArg
 
 ## Overview
-- Documentation for `BuilderToolBrushOriginArg`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolBrushOriginArg()`
   - Creates a `BuilderToolBrushOriginArg` instance.
 - `BuilderToolBrushOriginArg(@Nonnull BrushOrigin defaultValue)`
@@ -12,22 +12,22 @@
 - `BuilderToolBrushOriginArg(@Nonnull BuilderToolBrushOriginArg other)`
   - Creates a `BuilderToolBrushOriginArg` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,16 +1,16 @@
+**Source Hash:** `ba6e769b1933324077e613d3a90452f6a3989af0ea46cab0ca14ecfb01e5e452`
+
 # WeightedThicknessLayerAsset
 
 ## Overview
-- Documentation for `WeightedThicknessLayerAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.materialproviders.spaceanddepth.layerassets`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `cleanUp()`
+## Method Descriptions
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
-- `getId()`
+- `getId()`: Add description.
   - Executes `getId` behavior.
 
 ## Notes

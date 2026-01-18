@@ -1,35 +1,35 @@
+**Source Hash:** `41b3b9571839fdf4e4c3b79a3ff9f00667f7ff8239ec42ebd4fe2f296f98ddd8`
+
 # BoolDoublePair
 
 ## Overview
-- Documentation for `BoolDoublePair`.
-- Declared as a class in `com.hypixel.hytale.common.tuple`.
 
-## Constructors
+## Constructor Descriptions
 - `BoolDoublePair(boolean left, double right)`
   - Creates a `BoolDoublePair` instance.
 - `BoolDoublePair(left, right)`
   - Creates a `BoolDoublePair` instance.
 
-## Methods
-- `getKey()`
+## Method Descriptions
+- `getKey()`: Add description.
   - Executes `getKey` behavior.
-- `getLeft()`
+- `getLeft()`: Add description.
   - Executes `getLeft` behavior.
-- `getValue()`
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `getRight()`
+- `getRight()`: Add description.
   - Executes `getRight` behavior.
-- `compareTo(@Nonnull BoolDoublePair other)`
+- `compareTo(@Nonnull BoolDoublePair other)`: Add description.
   - Executes `compareTo` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `toString(@Nonnull String format)`
+- `toString(@Nonnull String format)`: Add description.
   - Executes `toString` behavior.
-- `of(boolean left, double right)`
+- `of(boolean left, double right)`: Add description.
   - Executes `of` behavior.
 
 ## Notes

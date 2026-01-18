@@ -1,15 +1,15 @@
+**Source Hash:** `3e2319158bb7ebd4ae18b7b802f1376affbf4f053c8dffb50ad944637a7aae5b`
+
 # ActionPlaySound
 
 ## Overview
-- Documentation for `ActionPlaySound`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.audiovisual`.
 
-## Constructors
+## Constructor Descriptions
 - `ActionPlaySound(@Nonnull BuilderActionPlaySound builderActionPlaySound, @Nonnull BuilderSupport support)`
   - Creates a `ActionPlaySound` instance.
 
-## Methods
-- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `execute(@Nonnull Ref<EntityStore> ref, @Nonnull Role role, InfoProvider sensorInfo, double dt, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `execute` behavior.
 
 ## Notes

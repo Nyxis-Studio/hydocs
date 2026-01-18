@@ -1,158 +1,158 @@
+**Source Hash:** `d51f4090c33715b30ad24ce5d4a167a93905047624c2ee64a93650766bad5d71`
+
 # MotionController
 
 ## Overview
-- Documentation for `MotionController`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.movement.controllers`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getRole()`
+- `getRole()`: Add description.
   - Executes `getRole` behavior.
-- `setRole(Role var1)`
+- `setRole(Role var1)`: Add description.
   - Executes `setRole` behavior.
-- `setInertia(double var1)`
+- `setInertia(double var1)`: Add description.
   - Executes `setInertia` behavior.
-- `setKnockbackScale(double var1)`
+- `setKnockbackScale(double var1)`: Add description.
   - Executes `setKnockbackScale` behavior.
-- `getGravity()`
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `spawned()`
+- `spawned()`: Add description.
   - Executes `spawned` behavior.
-- `activate()`
+- `activate()`: Add description.
   - Executes `activate` behavior.
-- `deactivate()`
+- `deactivate()`: Add description.
   - Executes `deactivate` behavior.
-- `updateModelParameters(@Nullable Ref<EntityStore> var1, Model var2, Box var3, @Nullable ComponentAccessor<EntityStore> var4)`
+- `updateModelParameters(@Nullable Ref<EntityStore> var1, Model var2, Box var3, @Nullable ComponentAccessor<EntityStore> var4)`: Add description.
   - Executes `updateModelParameters` behavior.
-- `steer(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, @Nonnull Steering var3, @Nonnull Steering var4, double var5, @Nonnull ComponentAccessor<EntityStore> var7)`
+- `steer(@Nonnull Ref<EntityStore> var1, @Nonnull Role var2, @Nonnull Steering var3, @Nonnull Steering var4, double var5, @Nonnull ComponentAccessor<EntityStore> var7)`: Add description.
   - Executes `steer` behavior.
-- `probeMove(@Nonnull Ref<EntityStore> var1, Vector3d var2, Vector3d var3, ProbeMoveData var4, @Nonnull ComponentAccessor<EntityStore> var5)`
+- `probeMove(@Nonnull Ref<EntityStore> var1, Vector3d var2, Vector3d var3, ProbeMoveData var4, @Nonnull ComponentAccessor<EntityStore> var5)`: Add description.
   - Executes `probeMove` behavior.
-- `probeMove(@Nonnull Ref<EntityStore> var1, ProbeMoveData var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+- `probeMove(@Nonnull Ref<EntityStore> var1, ProbeMoveData var2, @Nonnull ComponentAccessor<EntityStore> var3)`: Add description.
   - Executes `probeMove` behavior.
-- `constrainRotations(Role var1, TransformComponent var2)`
+- `constrainRotations(Role var1, TransformComponent var2)`: Add description.
   - Executes `constrainRotations` behavior.
-- `getCurrentMaxBodyRotationSpeed()`
+- `getCurrentMaxBodyRotationSpeed()`: Add description.
   - Executes `getCurrentMaxBodyRotationSpeed` behavior.
-- `updateMovementState(@Nonnull Ref<EntityStore> var1, @Nonnull MovementStates var2, @Nonnull Steering var3, @Nonnull Vector3d var4, @Nonnull ComponentAccessor<EntityStore> var5)`
+- `updateMovementState(@Nonnull Ref<EntityStore> var1, @Nonnull MovementStates var2, @Nonnull Steering var3, @Nonnull Vector3d var4, @Nonnull ComponentAccessor<EntityStore> var5)`: Add description.
   - Executes `updateMovementState` behavior.
-- `isValidPosition(Vector3d var1, ComponentAccessor<EntityStore> var2)`
+- `isValidPosition(Vector3d var1, ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `isValidPosition` behavior.
-- `canAct(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+- `canAct(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `canAct` behavior.
-- `isInProgress()`
+- `isInProgress()`: Add description.
   - Executes `isInProgress` behavior.
-- `isObstructed()`
+- `isObstructed()`: Add description.
   - Executes `isObstructed` behavior.
-- `inAir()`
+- `inAir()`: Add description.
   - Executes `inAir` behavior.
-- `inWater()`
+- `inWater()`: Add description.
   - Executes `inWater` behavior.
-- `onGround()`
+- `onGround()`: Add description.
   - Executes `onGround` behavior.
-- `standingOnBlockOfType(int var1)`
+- `standingOnBlockOfType(int var1)`: Add description.
   - Executes `standingOnBlockOfType` behavior.
-- `getMaximumSpeed()`
+- `getMaximumSpeed()`: Add description.
   - Executes `getMaximumSpeed` behavior.
-- `getCurrentSpeed()`
+- `getCurrentSpeed()`: Add description.
   - Executes `getCurrentSpeed` behavior.
-- `estimateVelocity(Steering var1, Vector3d var2)`
+- `estimateVelocity(Steering var1, Vector3d var2)`: Add description.
   - Executes `estimateVelocity` behavior.
-- `getCurrentTurnRadius()`
+- `getCurrentTurnRadius()`: Add description.
   - Executes `getCurrentTurnRadius` behavior.
-- `waypointDistance(Vector3d var1, Vector3d var2)`
+- `waypointDistance(Vector3d var1, Vector3d var2)`: Add description.
   - Executes `waypointDistance` behavior.
-- `waypointDistanceSquared(Vector3d var1, Vector3d var2)`
+- `waypointDistanceSquared(Vector3d var1, Vector3d var2)`: Add description.
   - Executes `waypointDistanceSquared` behavior.
-- `waypointDistance(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+- `waypointDistance(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`: Add description.
   - Executes `waypointDistance` behavior.
-- `waypointDistanceSquared(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`
+- `waypointDistanceSquared(@Nonnull Ref<EntityStore> var1, Vector3d var2, @Nonnull ComponentAccessor<EntityStore> var3)`: Add description.
   - Executes `waypointDistanceSquared` behavior.
-- `getMaxClimbAngle()`
+- `getMaxClimbAngle()`: Add description.
   - Executes `getMaxClimbAngle` behavior.
-- `getMaxSinkAngle()`
+- `getMaxSinkAngle()`: Add description.
   - Executes `getMaxSinkAngle` behavior.
-- `translateToAccessiblePosition(Vector3d var1, Box var2, double var3, double var5, ComponentAccessor<EntityStore> var7)`
+- `translateToAccessiblePosition(Vector3d var1, Box var2, double var3, double var5, ComponentAccessor<EntityStore> var7)`: Add description.
   - Executes `translateToAccessiblePosition` behavior.
-- `getComponentSelector()`
+- `getComponentSelector()`: Add description.
   - Executes `getComponentSelector` behavior.
-- `getPlanarComponentSelector()`
+- `getPlanarComponentSelector()`: Add description.
   - Executes `getPlanarComponentSelector` behavior.
-- `setComponentSelector(Vector3d var1)`
+- `setComponentSelector(Vector3d var1)`: Add description.
   - Executes `setComponentSelector` behavior.
-- `is2D()`
+- `is2D()`: Add description.
   - Executes `is2D` behavior.
-- `getWorldNormal()`
+- `getWorldNormal()`: Add description.
   - Executes `getWorldNormal` behavior.
-- `getWorldAntiNormal()`
+- `getWorldAntiNormal()`: Add description.
   - Executes `getWorldAntiNormal` behavior.
-- `addForce(@Nonnull Vector3d var1, @Nullable VelocityConfig var2)`
+- `addForce(@Nonnull Vector3d var1, @Nullable VelocityConfig var2)`: Add description.
   - Executes `addForce` behavior.
-- `getForce()`
+- `getForce()`: Add description.
   - Executes `getForce` behavior.
-- `forceVelocity(@Nonnull Vector3d var1, @Nullable VelocityConfig var2, boolean var3)`
+- `forceVelocity(@Nonnull Vector3d var1, @Nullable VelocityConfig var2, boolean var3)`: Add description.
   - Executes `forceVelocity` behavior.
-- `getDesiredVerticalRange(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`
+- `getDesiredVerticalRange(@Nonnull Ref<EntityStore> var1, @Nonnull ComponentAccessor<EntityStore> var2)`: Add description.
   - Executes `getDesiredVerticalRange` behavior.
-- `getWanderVerticalMovementRatio()`
+- `getWanderVerticalMovementRatio()`: Add description.
   - Executes `getWanderVerticalMovementRatio` behavior.
-- `setAvoidingBlockDamage(boolean var1)`
+- `setAvoidingBlockDamage(boolean var1)`: Add description.
   - Executes `setAvoidingBlockDamage` behavior.
-- `isAvoidingBlockDamage()`
+- `isAvoidingBlockDamage()`: Add description.
   - Executes `isAvoidingBlockDamage` behavior.
-- `willReceiveBlockDamage()`
+- `willReceiveBlockDamage()`: Add description.
   - Executes `willReceiveBlockDamage` behavior.
-- `requirePreciseMovement(Vector3d var1)`
+- `requirePreciseMovement(Vector3d var1)`: Add description.
   - Executes `requirePreciseMovement` behavior.
-- `requireDepthProbing()`
+- `requireDepthProbing()`: Add description.
   - Executes `requireDepthProbing` behavior.
-- `enableHeadingBlending(double var1, Vector3d var3, double var4)`
+- `enableHeadingBlending(double var1, Vector3d var3, double var4)`: Add description.
   - Executes `enableHeadingBlending` behavior.
-- `enableHeadingBlending()`
+- `enableHeadingBlending()`: Add description.
   - Executes `enableHeadingBlending` behavior.
-- `setRelaxedMoveConstraints(boolean var1)`
+- `setRelaxedMoveConstraints(boolean var1)`: Add description.
   - Executes `setRelaxedMoveConstraints` behavior.
-- `isRelaxedMoveConstraints()`
+- `isRelaxedMoveConstraints()`: Add description.
   - Executes `isRelaxedMoveConstraints` behavior.
-- `getNavState()`
+- `getNavState()`: Add description.
   - Executes `getNavState` behavior.
-- `getThrottleDuration()`
+- `getThrottleDuration()`: Add description.
   - Executes `getThrottleDuration` behavior.
-- `getTargetDeltaSquared()`
+- `getTargetDeltaSquared()`: Add description.
   - Executes `getTargetDeltaSquared` behavior.
-- `setNavState(NavState var1, double var2, double var4)`
+- `setNavState(NavState var1, double var2, double var4)`: Add description.
   - Executes `setNavState` behavior.
-- `setForceRecomputePath(boolean var1)`
+- `setForceRecomputePath(boolean var1)`: Add description.
   - Executes `setForceRecomputePath` behavior.
-- `isForceRecomputePath()`
+- `isForceRecomputePath()`: Add description.
   - Executes `isForceRecomputePath` behavior.
-- `canRestAtPlace()`
+- `canRestAtPlace()`: Add description.
   - Executes `canRestAtPlace` behavior.
-- `beforeInstructionSensorsAndActions(double var1)`
+- `beforeInstructionSensorsAndActions(double var1)`: Add description.
   - Executes `beforeInstructionSensorsAndActions` behavior.
-- `beforeInstructionMotion(double var1)`
+- `beforeInstructionMotion(double var1)`: Add description.
   - Executes `beforeInstructionMotion` behavior.
-- `matchesType(@Nonnull Class<? extends MotionController> clazz)`
+- `matchesType(@Nonnull Class<? extends MotionController> clazz)`: Add description.
   - Executes `matchesType` behavior.
-- `getDesiredAltitudeWeight()`
+- `getDesiredAltitudeWeight()`: Add description.
   - Executes `getDesiredAltitudeWeight` behavior.
-- `getHeightOverGround()`
+- `getHeightOverGround()`: Add description.
   - Executes `getHeightOverGround` behavior.
-- `clearOverrides()`
+- `clearOverrides()`: Add description.
   - Executes `clearOverrides` behavior.
-- `getSquaredDistance(@Nonnull Vector3d p1, @Nonnull Vector3d p2, boolean useProjectedDistance)`
+- `getSquaredDistance(@Nonnull Vector3d p1, @Nonnull Vector3d p2, boolean useProjectedDistance)`: Add description.
   - Executes `getSquaredDistance` behavior.
-- `updatePhysicsValues(PhysicsValues var1)`
+- `updatePhysicsValues(PhysicsValues var1)`: Add description.
   - Executes `updatePhysicsValues` behavior.
-- `isInMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementState state, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `isInMovementState(@Nonnull Ref<EntityStore> ref, @Nonnull MovementState state, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `isInMovementState` behavior.
-- `assign(double current, double min, double max)`
+- `assign(double current, double min, double max)`: Add description.
   - Executes `assign` behavior.
-- `isWithinRange()`
+- `isWithinRange()`: Add description.
   - Executes `isWithinRange` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `4582413aba03123a75dfbc94fcfbba7cb76473e60cf3d3efccbd96e088d3477b`
+
 # Cosmetic
 
 ## Overview
-- Documentation for `Cosmetic`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `Cosmetic(int value)`
   - Creates a `Cosmetic` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

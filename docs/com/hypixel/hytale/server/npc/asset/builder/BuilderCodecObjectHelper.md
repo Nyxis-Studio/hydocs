@@ -1,19 +1,19 @@
+**Source Hash:** `a1890071c074cad48d2df24654208a0ee6e6139b4c9ae83f5b8e97480355361a`
+
 # BuilderCodecObjectHelper
 
 ## Overview
-- Documentation for `BuilderCodecObjectHelper`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderCodecObjectHelper(Class<?> classType, Codec<T> codec, Validator<T> validator)`
   - Creates a `BuilderCodecObjectHelper` instance.
 
-## Methods
-- `build()`
+## Method Descriptions
+- `build()`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data, @Nonnull ExtraInfo extraInfo)`
+- `readConfig(@Nonnull JsonElement data, @Nonnull ExtraInfo extraInfo)`: Add description.
   - Executes `readConfig` behavior.
-- `hasValue()`
+- `hasValue()`: Add description.
   - Executes `hasValue` behavior.
 
 ## Notes

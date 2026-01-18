@@ -1,29 +1,29 @@
+**Source Hash:** `f54d98edb845ba0bd812cf3bde936e8b9e410847a50436df0e98bf22a4d2bdfd`
+
 # CloseWorldWhenBreakingDeviceSystems
 
 ## Overview
-- Documentation for `CloseWorldWhenBreakingDeviceSystems`.
-- Declared as a class in `com.hypixel.hytale.builtin.portals.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `CloseWorldWhenBreakingDeviceSystems()`
   - Creates a `CloseWorldWhenBreakingDeviceSystems` instance.
 
-## Methods
-- `maybeCloseFragmentWorld(@Nullable PortalDevice device)`
+## Method Descriptions
+- `maybeCloseFragmentWorld(@Nullable PortalDevice device)`: Add description.
   - Executes `maybeCloseFragmentWorld` behavior.
-- `onEntityAdded(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl AddReason reason, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityAdded(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl AddReason reason, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl RemoveReason reason, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`
+- `onEntityRemove(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl RemoveReason reason, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `componentType()`
+- `componentType()`: Add description.
   - Executes `componentType` behavior.
-- `onComponentAdded(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl PortalDevice component, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentAdded(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl PortalDevice component, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentAdded` behavior.
-- `onComponentSet(@NonNullDecl Ref<ChunkStore> ref, @NullableDecl PortalDevice oldComponent, @NonNullDecl PortalDevice newComponent, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentSet(@NonNullDecl Ref<ChunkStore> ref, @NullableDecl PortalDevice oldComponent, @NonNullDecl PortalDevice newComponent, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentSet` behavior.
-- `onComponentRemoved(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl PortalDevice component, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`
+- `onComponentRemoved(@NonNullDecl Ref<ChunkStore> ref, @NonNullDecl PortalDevice component, @NonNullDecl Store<ChunkStore> store, @NonNullDecl CommandBuffer<ChunkStore> commandBuffer)`: Add description.
   - Executes `onComponentRemoved` behavior.
 
 ## Notes

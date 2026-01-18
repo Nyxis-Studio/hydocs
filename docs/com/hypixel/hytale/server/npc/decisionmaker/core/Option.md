@@ -1,31 +1,31 @@
+**Source Hash:** `832a24e1b01e52a92c5ac8114badb98bef5ddfb76ce2bc0beb065879582a4b00`
+
 # Option
 
 ## Overview
-- Documentation for `Option`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.core`.
 
-## Constructors
+## Constructor Descriptions
 - `Option()`
   - Creates a `Option` instance.
 
-## Methods
-- `getConditions()`
+## Method Descriptions
+- `getConditions()`: Add description.
   - Executes `getConditions` behavior.
-- `getWeightCoefficient()`
+- `getWeightCoefficient()`: Add description.
   - Executes `getWeightCoefficient` behavior.
-- `sortConditions()`
+- `sortConditions()`: Add description.
   - Executes `sortConditions` behavior.
-- `setupNPC(Role role)`
+- `setupNPC(Role role)`: Add description.
   - Executes `setupNPC` behavior.
-- `setupNPC(Holder<EntityStore> holder)`
+- `setupNPC(Holder<EntityStore> holder)`: Add description.
   - Executes `setupNPC` behavior.
-- `calculateUtility(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`
+- `calculateUtility(int selfIndex, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, Ref<EntityStore> target, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`: Add description.
   - Executes `calculateUtility` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getSimplicity()`
+- `getSimplicity()`: Add description.
   - Executes `getSimplicity` behavior.
 
 ## Notes

@@ -1,20 +1,20 @@
+**Source Hash:** `cd49dbb01c02f27e1bd3c134fa580f15859db5d1b6568a1a33d6b9c6e332d462`
+
 # Shape2D
 
 ## Overview
-- Documentation for `Shape2D`.
-- Declared as a interface in `com.hypixel.hytale.math.shape`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getBox(@Nonnull Vector2d position)`
+## Method Descriptions
+- `getBox(@Nonnull Vector2d position)`: Add description.
   - Executes `getBox` behavior.
-- `getBox(double var1, double var3)`
+- `getBox(double var1, double var3)`: Add description.
   - Executes `getBox` behavior.
-- `containsPosition(Vector2d var1, Vector2d var2)`
+- `containsPosition(Vector2d var1, Vector2d var2)`: Add description.
   - Executes `containsPosition` behavior.
-- `containsPosition(Vector2d var1, double var2, double var4)`
+- `containsPosition(Vector2d var1, double var2, double var4)`: Add description.
   - Executes `containsPosition` behavior.
 
 ## Notes

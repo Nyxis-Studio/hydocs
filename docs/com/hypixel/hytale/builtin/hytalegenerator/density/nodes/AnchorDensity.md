@@ -1,17 +1,17 @@
+**Source Hash:** `491bb7503a755b39610610f11ceeb6cb0e1f14a733ad32807c71b9976d9bc372`
+
 # AnchorDensity
 
 ## Overview
-- Documentation for `AnchorDensity`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.density.nodes`.
 
-## Constructors
+## Constructor Descriptions
 - `AnchorDensity(Density input, boolean isReversed)`
   - Creates a `AnchorDensity` instance.
 
-## Methods
-- `process(@Nonnull Density.Context context)`
+## Method Descriptions
+- `process(@Nonnull Density.Context context)`: Add description.
   - Executes `process` behavior.
-- `setInputs(@Nonnull Density[] inputs)`
+- `setInputs(@Nonnull Density[] inputs)`: Add description.
   - Executes `setInputs` behavior.
 
 ## Notes

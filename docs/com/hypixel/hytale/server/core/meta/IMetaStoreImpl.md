@@ -1,20 +1,20 @@
+**Source Hash:** `a285d7e919749a8ebb6f801e41ece0d22d3788697a2351acff39c7251a69f1cd`
+
 # IMetaStoreImpl
 
 ## Overview
-- Documentation for `IMetaStoreImpl`.
-- Declared as a interface in `com.hypixel.hytale.server.core.meta`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRegistry()`
+## Method Descriptions
+- `getRegistry()`: Add description.
   - Executes `getRegistry` behavior.
-- `decode(BsonDocument var1, ExtraInfo var2)`
+- `decode(BsonDocument var1, ExtraInfo var2)`: Add description.
   - Executes `decode` behavior.
-- `encode(ExtraInfo var1)`
+- `encode(ExtraInfo var1)`: Add description.
   - Executes `encode` behavior.
-- `forEachUnknownEntry(BiConsumer<String, BsonValue> var1)`
+- `forEachUnknownEntry(BiConsumer<String, BsonValue> var1)`: Add description.
   - Executes `forEachUnknownEntry` behavior.
 
 ## Notes

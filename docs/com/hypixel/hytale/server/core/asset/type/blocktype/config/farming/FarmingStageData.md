@@ -1,28 +1,28 @@
+**Source Hash:** `d5c0012d26f7a26ff31c177484db71fb0606fd1a59d8ca78193d5e45d4967bc0`
+
 # FarmingStageData
 
 ## Overview
-- Documentation for `FarmingStageData`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config.farming`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getDuration()`
+## Method Descriptions
+- `getDuration()`: Add description.
   - Executes `getDuration` behavior.
-- `getSoundEventId()`
+- `getSoundEventId()`: Add description.
   - Executes `getSoundEventId` behavior.
-- `getSoundEventIndex()`
+- `getSoundEventIndex()`: Add description.
   - Executes `getSoundEventIndex` behavior.
-- `implementsShouldStop()`
+- `implementsShouldStop()`: Add description.
   - Executes `implementsShouldStop` behavior.
-- `shouldStop(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z)`
+- `shouldStop(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z)`: Add description.
   - Executes `shouldStop` behavior.
-- `apply(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z, @Nullable FarmingStageData previousStage)`
+- `apply(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z, @Nullable FarmingStageData previousStage)`: Add description.
   - Executes `apply` behavior.
-- `remove(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z)`
+- `remove(ComponentAccessor<ChunkStore> commandBuffer, Ref<ChunkStore> sectionRef, Ref<ChunkStore> blockRef, int x, int y, int z)`: Add description.
   - Executes `remove` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

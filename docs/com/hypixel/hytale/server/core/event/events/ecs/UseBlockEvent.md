@@ -1,25 +1,25 @@
+**Source Hash:** `5169c3f1645ff99c149f8e56139d5fb49d43742ed734e6770713c48c5a4c25da`
+
 # UseBlockEvent
 
 ## Overview
-- Documentation for `UseBlockEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.ecs`.
 
-## Constructors
+## Constructor Descriptions
 - `UseBlockEvent(@Nonnull InteractionType interactionType, @Nonnull InteractionContext context, @Nonnull Vector3i targetBlock, @Nonnull BlockType blockType)`
   - Creates a `UseBlockEvent` instance.
 
-## Methods
-- `getInteractionType()`
+## Method Descriptions
+- `getInteractionType()`: Add description.
   - Executes `getInteractionType` behavior.
-- `getContext()`
+- `getContext()`: Add description.
   - Executes `getContext` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `getBlockType()`
+- `getBlockType()`: Add description.
   - Executes `getBlockType` behavior.
-- `isCancelled()`
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
 
 ## Notes

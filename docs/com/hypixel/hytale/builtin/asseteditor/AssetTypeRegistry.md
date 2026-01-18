@@ -1,30 +1,30 @@
+**Source Hash:** `6dbbb80a21f49fbacd9abdea81557327790d2197c77e4fbd82b3e975f6a8332d`
+
 # AssetTypeRegistry
 
 ## Overview
-- Documentation for `AssetTypeRegistry`.
-- Declared as a class in `com.hypixel.hytale.builtin.asseteditor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRegisteredAssetTypeHandlers()`
+## Method Descriptions
+- `getRegisteredAssetTypeHandlers()`: Add description.
   - Executes `getRegisteredAssetTypeHandlers` behavior.
-- `registerAssetType(@Nonnull AssetTypeHandler assetType)`
+- `registerAssetType(@Nonnull AssetTypeHandler assetType)`: Add description.
   - Executes `registerAssetType` behavior.
-- `unregisterAssetType(@Nonnull AssetTypeHandler assetType)`
+- `unregisterAssetType(@Nonnull AssetTypeHandler assetType)`: Add description.
   - Executes `unregisterAssetType` behavior.
-- `getAssetTypeHandler(String id)`
+- `getAssetTypeHandler(String id)`: Add description.
   - Executes `getAssetTypeHandler` behavior.
-- `getAssetTypeHandlerForPath(@Nonnull Path path)`
+- `getAssetTypeHandlerForPath(@Nonnull Path path)`: Add description.
   - Executes `getAssetTypeHandlerForPath` behavior.
-- `isPathInAssetTypeFolder(@Nonnull Path path)`
+- `isPathInAssetTypeFolder(@Nonnull Path path)`: Add description.
   - Executes `isPathInAssetTypeFolder` behavior.
-- `tryGetAssetTypeHandler(@Nonnull Path assetPath, @Nonnull EditorClient editorClient, int requestToken)`
+- `tryGetAssetTypeHandler(@Nonnull Path assetPath, @Nonnull EditorClient editorClient, int requestToken)`: Add description.
   - Executes `tryGetAssetTypeHandler` behavior.
-- `sendPacket(@Nonnull EditorClient editorClient)`
+- `sendPacket(@Nonnull EditorClient editorClient)`: Add description.
   - Executes `sendPacket` behavior.
-- `setupPacket()`
+- `setupPacket()`: Add description.
   - Executes `setupPacket` behavior.
 
 ## Notes

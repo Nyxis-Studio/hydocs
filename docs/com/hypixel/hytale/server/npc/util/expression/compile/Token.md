@@ -1,10 +1,10 @@
+**Source Hash:** `34a2e24a1e238caef2f2be7e71b00ddfe11d1bc255367d13f4d2ce7c3201e22e`
+
 # Token
 
 ## Overview
-- Documentation for `Token`.
-- Declared as a enum in `com.hypixel.hytale.server.npc.util.expression.compile`.
 
-## Constructors
+## Constructor Descriptions
 - `Token(String text, int precedence)`
   - Creates a `Token` instance.
 - `Token(String text, int precedence, EnumSet<TokenFlags> flags)`
@@ -12,40 +12,40 @@
 - `Token(String text, int precedence, EnumSet<TokenFlags> flags, Token matchingBracket, Token unaryVariant)`
   - Creates a `Token` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `getPrecedence()`
+- `getPrecedence()`: Add description.
   - Executes `getPrecedence` behavior.
-- `getFlags()`
+- `getFlags()`: Add description.
   - Executes `getFlags` behavior.
-- `containsAnyFlag(@Nonnull EnumSet<TokenFlags> testFlags)`
+- `containsAnyFlag(@Nonnull EnumSet<TokenFlags> testFlags)`: Add description.
   - Executes `containsAnyFlag` behavior.
-- `isEndToken()`
+- `isEndToken()`: Add description.
   - Executes `isEndToken` behavior.
-- `isOperand()`
+- `isOperand()`: Add description.
   - Executes `isOperand` behavior.
-- `isLiteral()`
+- `isLiteral()`: Add description.
   - Executes `isLiteral` behavior.
-- `isOperator()`
+- `isOperator()`: Add description.
   - Executes `isOperator` behavior.
-- `isRightToLeft()`
+- `isRightToLeft()`: Add description.
   - Executes `isRightToLeft` behavior.
-- `canBeUnary()`
+- `canBeUnary()`: Add description.
   - Executes `canBeUnary` behavior.
-- `getUnaryVariant()`
+- `getUnaryVariant()`: Add description.
   - Executes `getUnaryVariant` behavior.
-- `isUnary()`
+- `isUnary()`: Add description.
   - Executes `isUnary` behavior.
-- `isOpenBracket()`
+- `isOpenBracket()`: Add description.
   - Executes `isOpenBracket` behavior.
-- `isOpenTuple()`
+- `isOpenTuple()`: Add description.
   - Executes `isOpenTuple` behavior.
-- `isCloseBracket()`
+- `isCloseBracket()`: Add description.
   - Executes `isCloseBracket` behavior.
-- `getMatchingBracket()`
+- `getMatchingBracket()`: Add description.
   - Executes `getMatchingBracket` behavior.
-- `isList()`
+- `isList()`: Add description.
   - Executes `isList` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `fd80586bd1bcf35246c62bcae35bc0058d9ac4e20a783a4db2c251e40b36e9dd`
+
 # BarterShopExistsValidator
 
 ## Overview
-- Documentation for `BarterShopExistsValidator`.
-- Declared as a class in `com.hypixel.hytale.builtin.adventure.npcshop.npc`.
 
-## Constructors
+## Constructor Descriptions
 - `BarterShopExistsValidator()`
   - Creates a `BarterShopExistsValidator` instance.
 - `BarterShopExistsValidator(EnumSet<AssetValidator.Config> config)`
@@ -12,18 +12,18 @@
 - `BarterShopExistsValidator(config)`
   - Creates a `BarterShopExistsValidator` instance.
 
-## Methods
-- `getDomain()`
+## Method Descriptions
+- `getDomain()`: Add description.
   - Executes `getDomain` behavior.
-- `test(String marker)`
+- `test(String marker)`: Add description.
   - Executes `test` behavior.
-- `errorMessage(String marker, String attributeName)`
+- `errorMessage(String marker, String attributeName)`: Add description.
   - Executes `errorMessage` behavior.
-- `getAssetName()`
+- `getAssetName()`: Add description.
   - Executes `getAssetName` behavior.
-- `required()`
+- `required()`: Add description.
   - Executes `required` behavior.
-- `withConfig(EnumSet<AssetValidator.Config> config)`
+- `withConfig(EnumSet<AssetValidator.Config> config)`: Add description.
   - Executes `withConfig` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `fa4d26ccbdd02414de79474d0eaa98130c1a05d0440448055872405e490c72c2`
+
 # ParticleCollisionBlockType
 
 ## Overview
-- Documentation for `ParticleCollisionBlockType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleCollisionBlockType(int value)`
   - Creates a `ParticleCollisionBlockType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

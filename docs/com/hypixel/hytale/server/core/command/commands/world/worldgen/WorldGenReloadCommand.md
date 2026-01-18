@@ -1,17 +1,17 @@
+**Source Hash:** `38ff3d0afb3aee686239fea2a2fcf76f00c93bac1c5e948197e271d43826701a`
+
 # WorldGenReloadCommand
 
 ## Overview
-- Documentation for `WorldGenReloadCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.world.worldgen`.
 
-## Constructors
+## Constructor Descriptions
 - `WorldGenReloadCommand()`
   - Creates a `WorldGenReloadCommand` instance.
 
-## Methods
-- `executeAsync(@Nonnull CommandContext context, @Nonnull World world)`
+## Method Descriptions
+- `executeAsync(@Nonnull CommandContext context, @Nonnull World world)`: Add description.
   - Executes `executeAsync` behavior.
-- `clearChunks(@Nonnull CommandContext context, @Nonnull World world)`
+- `clearChunks(@Nonnull CommandContext context, @Nonnull World world)`: Add description.
   - Executes `clearChunks` behavior.
 
 ## Notes

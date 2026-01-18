@@ -1,44 +1,44 @@
+**Source Hash:** `ae26d910dcd8017cd6300ef0925245d009511f0ad807cb65ae0abd4c0d7ae3e6`
+
 # WindowManager
 
 ## Overview
-- Documentation for `WindowManager`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity.entities.player.windows`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `init(@Nonnull PlayerRef playerRef)`
+## Method Descriptions
+- `init(@Nonnull PlayerRef playerRef)`: Add description.
   - Executes `init` behavior.
-- `clientOpenWindow(@Nonnull Window window)`
+- `clientOpenWindow(@Nonnull Window window)`: Add description.
   - Executes `clientOpenWindow` behavior.
-- `openWindow(@Nonnull Window window)`
+- `openWindow(@Nonnull Window window)`: Add description.
   - Executes `openWindow` behavior.
-- `openWindows(Window ... windows)`
+- `openWindows(Window ... windows)`: Add description.
   - Executes `openWindows` behavior.
-- `setWindow(int id, @Nonnull Window window)`
+- `setWindow(int id, @Nonnull Window window)`: Add description.
   - Executes `setWindow` behavior.
-- `setWindow0(int id, @Nonnull Window window)`
+- `setWindow0(int id, @Nonnull Window window)`: Add description.
   - Executes `setWindow0` behavior.
-- `getWindow(int id)`
+- `getWindow(int id)`: Add description.
   - Executes `getWindow` behavior.
-- `getWindows()`
+- `getWindows()`: Add description.
   - Executes `getWindows` behavior.
-- `updateWindow(@Nonnull Window window)`
+- `updateWindow(@Nonnull Window window)`: Add description.
   - Executes `updateWindow` behavior.
-- `closeWindow(int id)`
+- `closeWindow(int id)`: Add description.
   - Executes `closeWindow` behavior.
-- `closeAllWindows()`
+- `closeAllWindows()`: Add description.
   - Executes `closeAllWindows` behavior.
-- `markWindowChanged(int id)`
+- `markWindowChanged(int id)`: Add description.
   - Executes `markWindowChanged` behavior.
-- `updateWindows()`
+- `updateWindows()`: Add description.
   - Executes `updateWindows` behavior.
-- `validateWindows()`
+- `validateWindows()`: Add description.
   - Executes `validateWindows` behavior.
-- `closeAndRemoveAll(@Nonnull Map<UUID, W> windows)`
+- `closeAndRemoveAll(@Nonnull Map<UUID, W> windows)`: Add description.
   - Executes `closeAndRemoveAll` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

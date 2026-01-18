@@ -1,29 +1,29 @@
+**Source Hash:** `2ec48a5701fd1b1038407e45a0d78af8fbd445c53ba66ee099b95c1e833c7316`
+
 # OffsetNoiseProperty
 
 ## Overview
-- Documentation for `OffsetNoiseProperty`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.property`.
 
-## Constructors
+## Constructor Descriptions
 - `OffsetNoiseProperty(NoiseProperty noiseProperty, double offset)`
   - Creates a `OffsetNoiseProperty` instance.
 - `OffsetNoiseProperty(NoiseProperty noiseProperty, double offsetX, double offsetY, double offsetZ)`
   - Creates a `OffsetNoiseProperty` instance.
 
-## Methods
-- `getNoiseProperty()`
+## Method Descriptions
+- `getNoiseProperty()`: Add description.
   - Executes `getNoiseProperty` behavior.
-- `getOffsetX()`
+- `getOffsetX()`: Add description.
   - Executes `getOffsetX` behavior.
-- `getOffsetY()`
+- `getOffsetY()`: Add description.
   - Executes `getOffsetY` behavior.
-- `getOffsetZ()`
+- `getOffsetZ()`: Add description.
   - Executes `getOffsetZ` behavior.
-- `get(int seed, double x, double y)`
+- `get(int seed, double x, double y)`: Add description.
   - Executes `get` behavior.
-- `get(int seed, double x, double y, double z)`
+- `get(int seed, double x, double y, double z)`: Add description.
   - Executes `get` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

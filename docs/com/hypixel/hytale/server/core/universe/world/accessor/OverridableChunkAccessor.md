@@ -1,14 +1,14 @@
+**Source Hash:** `39771ee8b5267b3c2248f1a84d33ea4d09ab33e6b91c34603c84221916728f38`
+
 # OverridableChunkAccessor
 
 ## Overview
-- Documentation for `OverridableChunkAccessor`.
-- Declared as a interface in `com.hypixel.hytale.server.core.universe.world.accessor`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `overwrite(X var1)`
+## Method Descriptions
+- `overwrite(X var1)`: Add description.
   - Executes `overwrite` behavior.
 
 ## Notes

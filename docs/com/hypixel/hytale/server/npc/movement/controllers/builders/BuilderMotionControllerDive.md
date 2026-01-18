@@ -1,62 +1,62 @@
+**Source Hash:** `4e14c06e965cb76a5afb05ae4356b906193c056a87c66f40801b515994c1b4a1`
+
 # BuilderMotionControllerDive
 
 ## Overview
-- Documentation for `BuilderMotionControllerDive`.
-- Declared as a class in `com.hypixel.hytale.server.npc.movement.controllers.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `getMinHorizontalSpeed()`
+- `getMinHorizontalSpeed()`: Add description.
   - Executes `getMinHorizontalSpeed` behavior.
-- `getAcceleration()`
+- `getAcceleration()`: Add description.
   - Executes `getAcceleration` behavior.
-- `getMaxVerticalSpeed()`
+- `getMaxVerticalSpeed()`: Add description.
   - Executes `getMaxVerticalSpeed` behavior.
-- `getGravity()`
+- `getGravity()`: Add description.
   - Executes `getGravity` behavior.
-- `getMaxFallSpeed()`
+- `getMaxFallSpeed()`: Add description.
   - Executes `getMaxFallSpeed` behavior.
-- `getMaxSinkSpeed()`
+- `getMaxSinkSpeed()`: Add description.
   - Executes `getMaxSinkSpeed` behavior.
-- `getMaxMoveTurnAngle()`
+- `getMaxMoveTurnAngle()`: Add description.
   - Executes `getMaxMoveTurnAngle` behavior.
-- `getMaxRotationSpeed()`
+- `getMaxRotationSpeed()`: Add description.
   - Executes `getMaxRotationSpeed` behavior.
-- `getMinDiveDepth()`
+- `getMinDiveDepth()`: Add description.
   - Executes `getMinDiveDepth` behavior.
-- `getMaxDiveDepth()`
+- `getMaxDiveDepth()`: Add description.
   - Executes `getMaxDiveDepth` behavior.
-- `getMinWaterDepth()`
+- `getMinWaterDepth()`: Add description.
   - Executes `getMinWaterDepth` behavior.
-- `getMaxWaterDepth()`
+- `getMaxWaterDepth()`: Add description.
   - Executes `getMaxWaterDepth` behavior.
-- `getMinDepthAboveGround()`
+- `getMinDepthAboveGround()`: Add description.
   - Executes `getMinDepthAboveGround` behavior.
-- `getMinDepthBelowSurface()`
+- `getMinDepthBelowSurface()`: Add description.
   - Executes `getMinDepthBelowSurface` behavior.
-- `getSwimDepth()`
+- `getSwimDepth()`: Add description.
   - Executes `getSwimDepth` behavior.
-- `getSinkRatio()`
+- `getSinkRatio()`: Add description.
   - Executes `getSinkRatio` behavior.
-- `getFastDiveThreshold()`
+- `getFastDiveThreshold()`: Add description.
   - Executes `getFastDiveThreshold` behavior.
-- `getDesiredDepthWeight()`
+- `getDesiredDepthWeight()`: Add description.
   - Executes `getDesiredDepthWeight` behavior.
-- `canSpawn(@Nonnull SpawningContext context)`
+- `canSpawn(@Nonnull SpawningContext context)`: Add description.
   - Executes `canSpawn` behavior.
 
 ## Notes

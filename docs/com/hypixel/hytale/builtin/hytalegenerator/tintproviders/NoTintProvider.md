@@ -1,14 +1,14 @@
+**Source Hash:** `49c6bd8c040071de5238531958956768dcbfbe15a88552b1e9e34b7b7089050d`
+
 # NoTintProvider
 
 ## Overview
-- Documentation for `NoTintProvider`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.tintproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

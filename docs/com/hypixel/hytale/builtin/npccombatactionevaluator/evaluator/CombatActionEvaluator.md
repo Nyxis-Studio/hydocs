@@ -1,117 +1,117 @@
+**Source Hash:** `2bc473194b005648a3717691d706d4d7947e6bffa93cf36f5593f306e519c875`
+
 # CombatActionEvaluator
 
 ## Overview
-- Documentation for `CombatActionEvaluator`.
-- Declared as a class in `com.hypixel.hytale.builtin.npccombatactionevaluator.evaluator`.
 
-## Constructors
+## Constructor Descriptions
 - `CombatActionEvaluator(@Nonnull Role role, @Nonnull CombatActionEvaluatorConfig config, @Nonnull CombatActionEvaluatorSystems.CombatConstructionData data)`
   - Creates a `CombatActionEvaluator` instance.
 - `CombatActionEvaluator()`
   - Creates a `CombatActionEvaluator` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `getRunOption()`
+- `getRunOption()`: Add description.
   - Executes `getRunOption` behavior.
-- `getMinRunUtility()`
+- `getMinRunUtility()`: Add description.
   - Executes `getMinRunUtility` behavior.
-- `getEvaluationContext()`
+- `getEvaluationContext()`: Add description.
   - Executes `getEvaluationContext` behavior.
-- `getLastRunNanos()`
+- `getLastRunNanos()`: Add description.
   - Executes `getLastRunNanos` behavior.
-- `setLastRunNanos(long lastRunNanos)`
+- `setLastRunNanos(long lastRunNanos)`: Add description.
   - Executes `setLastRunNanos` behavior.
-- `getRunInState()`
+- `getRunInState()`: Add description.
   - Executes `getRunInState` behavior.
-- `setCurrentBasicAttackSet(int subState, CombatActionEvaluatorConfig.BasicAttacks attacks)`
+- `setCurrentBasicAttackSet(int subState, CombatActionEvaluatorConfig.BasicAttacks attacks)`: Add description.
   - Executes `setCurrentBasicAttackSet` behavior.
-- `getCurrentBasicAttack()`
+- `getCurrentBasicAttack()`: Add description.
   - Executes `getCurrentBasicAttack` behavior.
-- `setCurrentBasicAttack(String attack, boolean damageFriendlies, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+- `setCurrentBasicAttack(String attack, boolean damageFriendlies, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`: Add description.
   - Executes `setCurrentBasicAttack` behavior.
-- `getNextBasicAttackIndex()`
+- `getNextBasicAttackIndex()`: Add description.
   - Executes `getNextBasicAttackIndex` behavior.
-- `setNextBasicAttackIndex(int next)`
+- `setNextBasicAttackIndex(int next)`: Add description.
   - Executes `setNextBasicAttackIndex` behavior.
-- `canUseBasicAttack(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer)`
+- `canUseBasicAttack(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `canUseBasicAttack` behavior.
-- `tickBasicAttackCoolDown(float dt)`
+- `tickBasicAttackCoolDown(float dt)`: Add description.
   - Executes `tickBasicAttackCoolDown` behavior.
-- `getBasicAttackTarget()`
+- `getBasicAttackTarget()`: Add description.
   - Executes `getBasicAttackTarget` behavior.
-- `setBasicAttackTarget(Ref<EntityStore> target)`
+- `setBasicAttackTarget(Ref<EntityStore> target)`: Add description.
   - Executes `setBasicAttackTarget` behavior.
-- `tickBasicAttackTimeout(float dt)`
+- `tickBasicAttackTimeout(float dt)`: Add description.
   - Executes `tickBasicAttackTimeout` behavior.
-- `setBasicAttackTimeout(double timeout)`
+- `setBasicAttackTimeout(double timeout)`: Add description.
   - Executes `setBasicAttackTimeout` behavior.
-- `getPrimaryTarget()`
+- `getPrimaryTarget()`: Add description.
   - Executes `getPrimaryTarget` behavior.
-- `clearPrimaryTarget()`
+- `clearPrimaryTarget()`: Add description.
   - Executes `clearPrimaryTarget` behavior.
-- `setActiveOptions(List<Evaluator.OptionHolder> options)`
+- `setActiveOptions(List<Evaluator.OptionHolder> options)`: Add description.
   - Executes `setActiveOptions` behavior.
-- `getMarkedTargetSlot()`
+- `getMarkedTargetSlot()`: Add description.
   - Executes `getMarkedTargetSlot` behavior.
-- `getMaxRangeSlot()`
+- `getMaxRangeSlot()`: Add description.
   - Executes `getMaxRangeSlot` behavior.
-- `getMinRangeSlot()`
+- `getMinRangeSlot()`: Add description.
   - Executes `getMinRangeSlot` behavior.
-- `getPositioningAngleSlot()`
+- `getPositioningAngleSlot()`: Add description.
   - Executes `getPositioningAngleSlot` behavior.
-- `getCurrentAttack()`
+- `getCurrentAttack()`: Add description.
   - Executes `getCurrentAttack` behavior.
-- `getChargeFor()`
+- `getChargeFor()`: Add description.
   - Executes `getChargeFor` behavior.
-- `getCurrentInteractionType()`
+- `getCurrentInteractionType()`: Add description.
   - Executes `getCurrentInteractionType` behavior.
-- `getCurrentInteractionVarsGetter()`
+- `getCurrentInteractionVarsGetter()`: Add description.
   - Executes `getCurrentInteractionVarsGetter` behavior.
-- `shouldDamageFriendlies()`
+- `shouldDamageFriendlies()`: Add description.
   - Executes `shouldDamageFriendlies` behavior.
-- `requiresAiming()`
+- `requiresAiming()`: Add description.
   - Executes `requiresAiming` behavior.
-- `shouldPositionFirst()`
+- `shouldPositionFirst()`: Add description.
   - Executes `shouldPositionFirst` behavior.
-- `getChargeDistance()`
+- `getChargeDistance()`: Add description.
   - Executes `getChargeDistance` behavior.
-- `setCurrentInteraction(String currentInteraction, InteractionType interactionType, float chargeFor, boolean damageFriendlies, boolean requireAiming, boolean positionFirst, double chargeDistance, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+- `setCurrentInteraction(String currentInteraction, InteractionType interactionType, float chargeFor, boolean damageFriendlies, boolean requireAiming, boolean positionFirst, double chargeDistance, Function<InteractionContext, Map<String, String>> interactionVarsGetter)`: Add description.
   - Executes `setCurrentInteraction` behavior.
-- `getCurrentAction()`
+- `getCurrentAction()`: Add description.
   - Executes `getCurrentAction` behavior.
-- `consumePostExecutionDistanceRange()`
+- `consumePostExecutionDistanceRange()`: Add description.
   - Executes `consumePostExecutionDistanceRange` behavior.
-- `setTimeout(float timeout)`
+- `setTimeout(float timeout)`: Add description.
   - Executes `setTimeout` behavior.
-- `clearTimeout()`
+- `clearTimeout()`: Add description.
   - Executes `clearTimeout` behavior.
-- `hasTimedOut(float dt)`
+- `hasTimedOut(float dt)`: Add description.
   - Executes `hasTimedOut` behavior.
-- `selectNextCombatAction(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull Role role, ValueStore valueStore)`
+- `selectNextCombatAction(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull Role role, ValueStore valueStore)`: Add description.
   - Executes `selectNextCombatAction` behavior.
-- `completeCurrentAction(boolean forceClearAbility, boolean clearBasicAttack)`
+- `completeCurrentAction(boolean forceClearAbility, boolean clearBasicAttack)`: Add description.
   - Executes `completeCurrentAction` behavior.
-- `terminateCurrentAction()`
+- `terminateCurrentAction()`: Add description.
   - Executes `terminateCurrentAction` behavior.
-- `clearCurrentBasicAttack()`
+- `clearCurrentBasicAttack()`: Add description.
   - Executes `clearCurrentBasicAttack` behavior.
-- `setupNPC(Role role)`
+- `setupNPC(Role role)`: Add description.
   - Executes `setupNPC` behavior.
-- `setupNPC(Holder<EntityStore> holder)`
+- `setupNPC(Holder<EntityStore> holder)`: Add description.
   - Executes `setupNPC` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `calculateUtility(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`
+- `calculateUtility(int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, CommandBuffer<EntityStore> commandBuffer, @Nonnull EvaluationContext context)`: Add description.
   - Executes `calculateUtility` behavior.
-- `getTotalUtility(double threshold)`
+- `getTotalUtility(double threshold)`: Add description.
   - Executes `getTotalUtility` behavior.
-- `tryPick(double currentWeight, double threshold)`
+- `tryPick(double currentWeight, double threshold)`: Add description.
   - Executes `tryPick` behavior.
-- `getOptionTarget()`
+- `getOptionTarget()`: Add description.
   - Executes `getOptionTarget` behavior.
-- `setLastUsedNanos(long lastUsedNanos)`
+- `setLastUsedNanos(long lastUsedNanos)`: Add description.
   - Executes `setLastUsedNanos` behavior.
 
 ## Notes

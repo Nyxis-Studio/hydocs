@@ -1,19 +1,19 @@
+**Source Hash:** `aedf8f66966874b6d93d9ec5c4438678b3e627fa3a37303748147aa67db10781`
+
 # UpdatePrefabsCommand
 
 ## Overview
-- Documentation for `UpdatePrefabsCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.utility.git`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdatePrefabsCommand()`
   - Creates a `UpdatePrefabsCommand` instance.
 
-## Methods
-- `getCommands(@Nonnull String senderDisplayName)`
+## Method Descriptions
+- `getCommands(@Nonnull String senderDisplayName)`: Add description.
   - Executes `getCommands` behavior.
-- `getCommands(@Nonnull String var1)`
+- `getCommands(@Nonnull String var1)`: Add description.
   - Executes `getCommands` behavior.
-- `executeAsync(@Nonnull CommandContext context)`
+- `executeAsync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeAsync` behavior.
 
 ## Notes

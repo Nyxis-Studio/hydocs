@@ -1,17 +1,17 @@
+**Source Hash:** `7d4778d2e90bedd2e336f8f8497e3b0101a99444f8783b17e5405b21f0c5372d`
+
 # SoundCategory
 
 ## Overview
-- Documentation for `SoundCategory`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `SoundCategory(int value)`
   - Creates a `SoundCategory` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

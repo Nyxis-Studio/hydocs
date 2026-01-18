@@ -1,16 +1,16 @@
+**Source Hash:** `1dc2f0bf72abcb3b02d62426ba4d939c12f2e4e63381941f63610b7f33270cca`
+
 # ConstantAssignmentsAsset
 
 ## Overview
-- Documentation for `ConstantAssignmentsAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.propassignments`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull AssignmentsAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull AssignmentsAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

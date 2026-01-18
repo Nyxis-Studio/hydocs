@@ -1,25 +1,25 @@
+**Source Hash:** `6b12636010a15e455fe11c1d56f32f755c8c5574b48cbd159b52e0756c3dc1e7`
+
 # SubTypeTypeAdapterFactory
 
 ## Overview
-- Documentation for `SubTypeTypeAdapterFactory`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder.validators`.
 
-## Constructors
+## Constructor Descriptions
 - `SubTypeTypeAdapterFactory(Class<?> baseClassType, String typeFieldName)`
   - Creates a `SubTypeTypeAdapterFactory` instance.
 - `SubTypeTypeAdapterFactory(baseClass, typeFieldName)`
   - Creates a `SubTypeTypeAdapterFactory` instance.
 
-## Methods
-- `of(Class<?> baseClass, String typeFieldName)`
+## Method Descriptions
+- `of(Class<?> baseClass, String typeFieldName)`: Add description.
   - Executes `of` behavior.
-- `registerSubType(Class<?> clazz, String name)`
+- `registerSubType(Class<?> clazz, String name)`: Add description.
   - Executes `registerSubType` behavior.
-- `create(@Nonnull Gson gson, @Nonnull TypeToken<T> type)`
+- `create(@Nonnull Gson gson, @Nonnull TypeToken<T> type)`: Add description.
   - Executes `create` behavior.
-- `write(JsonWriter out, @Nonnull T value)`
+- `write(JsonWriter out, @Nonnull T value)`: Add description.
   - Executes `write` behavior.
-- `read(JsonReader in)`
+- `read(JsonReader in)`: Add description.
   - Executes `read` behavior.
 
 ## Notes

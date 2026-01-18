@@ -1,21 +1,21 @@
+**Source Hash:** `096fdd4cfd6a15170fcd88b728425ee8533f2219d1d906f4b55204c0fa3fdefc`
+
 # OrQuery
 
 ## Overview
-- Documentation for `OrQuery`.
-- Declared as a class in `com.hypixel.hytale.component.query`.
 
-## Constructors
+## Constructor Descriptions
 - `OrQuery(Query<ECS_TYPE> ... queries)`
   - Creates a `OrQuery` instance.
 
-## Methods
-- `test(Archetype<ECS_TYPE> archetype)`
+## Method Descriptions
+- `test(Archetype<ECS_TYPE> archetype)`: Add description.
   - Executes `test` behavior.
-- `requiresComponentType(ComponentType<ECS_TYPE, ?> componentType)`
+- `requiresComponentType(ComponentType<ECS_TYPE, ?> componentType)`: Add description.
   - Executes `requiresComponentType` behavior.
-- `validateRegistry(ComponentRegistry<ECS_TYPE> registry)`
+- `validateRegistry(ComponentRegistry<ECS_TYPE> registry)`: Add description.
   - Executes `validateRegistry` behavior.
-- `validate()`
+- `validate()`: Add description.
   - Executes `validate` behavior.
 
 ## Notes

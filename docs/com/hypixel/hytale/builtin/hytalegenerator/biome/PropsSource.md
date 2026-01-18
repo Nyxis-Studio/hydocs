@@ -1,16 +1,16 @@
+**Source Hash:** `a0cb2ff7f681be05c9f4992b7691ba90b59a8fec2654902272f34f6b59da940b`
+
 # PropsSource
 
 ## Overview
-- Documentation for `PropsSource`.
-- Declared as a interface in `com.hypixel.hytale.builtin.hytalegenerator.biome`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getPropFields()`
+## Method Descriptions
+- `getPropFields()`: Add description.
   - Executes `getPropFields` behavior.
-- `getAllPropDistributions()`
+- `getAllPropDistributions()`: Add description.
   - Executes `getAllPropDistributions` behavior.
 
 ## Notes

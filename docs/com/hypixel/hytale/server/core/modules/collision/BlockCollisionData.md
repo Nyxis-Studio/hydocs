@@ -1,22 +1,22 @@
+**Source Hash:** `e5ec92f65ac6000cfff436c17c1f9794a1b10aaa46e9b02cf8cdc10ed32c451b`
+
 # BlockCollisionData
 
 ## Overview
-- Documentation for `BlockCollisionData`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.collision`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `setBlockData(@Nonnull CollisionConfig collisionConfig)`
+## Method Descriptions
+- `setBlockData(@Nonnull CollisionConfig collisionConfig)`: Add description.
   - Executes `setBlockData` behavior.
-- `setDetailBoxIndex(int detailBoxIndex)`
+- `setDetailBoxIndex(int detailBoxIndex)`: Add description.
   - Executes `setDetailBoxIndex` behavior.
-- `setTouchingOverlapping(boolean touching, boolean overlapping)`
+- `setTouchingOverlapping(boolean touching, boolean overlapping)`: Add description.
   - Executes `setTouchingOverlapping` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

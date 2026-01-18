@@ -1,16 +1,16 @@
+**Source Hash:** `bfaf70f8f383df66639f3f3396413bad6641ad55e97fb9e5207c06375489f57c`
+
 # UnionPositionProviderAsset
 
 ## Overview
-- Documentation for `UnionPositionProviderAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.positionproviders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull PositionProviderAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull PositionProviderAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `da5aa23cd0c0a2fd5520e536bd85868a012d9b1a57f412b1bd75e5c760a6e522`
+
 # AmbienceFXMusic
 
 ## Overview
-- Documentation for `AmbienceFXMusic`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AmbienceFXMusic()`
   - Creates a `AmbienceFXMusic` instance.
 - `AmbienceFXMusic(@Nullable String[] tracks, float volume)`
@@ -12,22 +12,22 @@
 - `AmbienceFXMusic(@Nonnull AmbienceFXMusic other)`
   - Creates a `AmbienceFXMusic` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,38 +1,38 @@
+**Source Hash:** `484f748dacfb13b2d502f38306a2410387ec3c6374f857bf243ba08c83b26f85`
+
 # GeneratedChunkSection
 
 ## Overview
-- Documentation for `GeneratedChunkSection`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRotationIndex(int x, int y, int z)`
+## Method Descriptions
+- `getRotationIndex(int x, int y, int z)`: Add description.
   - Executes `getRotationIndex` behavior.
-- `getRotationIndex(int index)`
+- `getRotationIndex(int index)`: Add description.
   - Executes `getRotationIndex` behavior.
-- `getBlock(int x, int y, int z)`
+- `getBlock(int x, int y, int z)`: Add description.
   - Executes `getBlock` behavior.
-- `getFiller(int x, int y, int z)`
+- `getFiller(int x, int y, int z)`: Add description.
   - Executes `getFiller` behavior.
-- `getBlock(int index)`
+- `getBlock(int index)`: Add description.
   - Executes `getBlock` behavior.
-- `setBlock(int x, int y, int z, int block, int rotation, int filler)`
+- `setBlock(int x, int y, int z, int block, int rotation, int filler)`: Add description.
   - Executes `setBlock` behavior.
-- `setBlock(int index, int block, int rotation, int filler)`
+- `setBlock(int index, int block, int rotation, int filler)`: Add description.
   - Executes `setBlock` behavior.
-- `getData()`
+- `getData()`: Add description.
   - Executes `getData` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `isSolidAir()`
+- `isSolidAir()`: Add description.
   - Executes `isSolidAir` behavior.
-- `toChunkSection()`
+- `toChunkSection()`: Add description.
   - Executes `toChunkSection` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int version)`
+- `deserialize(@Nonnull ByteBuf buf, int version)`: Add description.
   - Executes `deserialize` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `0aeaa5def0bf8f238e07c8790bc98d133d6efb61e6fd8947d52b19a9fb835455`
+
 # ChunkSectionReference
 
 ## Overview
-- Documentation for `ChunkSectionReference`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.chunk.section`.
 
-## Constructors
+## Constructor Descriptions
 - `ChunkSectionReference(BlockChunk chunk, BlockSection section, int sectionIndex)`
   - Creates a `ChunkSectionReference` instance.
 
-## Methods
-- `getChunk()`
+## Method Descriptions
+- `getChunk()`: Add description.
   - Executes `getChunk` behavior.
-- `getSection()`
+- `getSection()`: Add description.
   - Executes `getSection` behavior.
-- `getSectionIndex()`
+- `getSectionIndex()`: Add description.
   - Executes `getSectionIndex` behavior.
 
 ## Notes

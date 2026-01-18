@@ -1,19 +1,19 @@
+**Source Hash:** `4089e1f6501d7750e8579e5fb29dcf5cd817fb15b7c0be465efb666bf83ae59f`
+
 # EntityFilterItemInHand
 
 ## Overview
-- Documentation for `EntityFilterItemInHand`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityFilterItemInHand(@Nonnull BuilderEntityFilterItemInHand builder, @Nonnull BuilderSupport builderSupport)`
   - Creates a `EntityFilterItemInHand` instance.
 
-## Methods
-- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `matchesEntity(@Nonnull Ref<EntityStore> ref, @Nonnull Ref<EntityStore> targetRef, @Nonnull Role role, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `matchesEntity` behavior.
-- `cost()`
+- `cost()`: Add description.
   - Executes `cost` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
 
 ## Notes

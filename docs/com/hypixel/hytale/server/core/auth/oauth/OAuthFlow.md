@@ -1,23 +1,23 @@
+**Source Hash:** `6895b174b9c2df6b5876be6e2ed9560c147caad95d2b12fa484e0ac865f7abba`
+
 # OAuthFlow
 
 ## Overview
-- Documentation for `OAuthFlow`.
-- Declared as a class in `com.hypixel.hytale.server.core.auth.oauth`.
 
-## Constructors
+## Constructor Descriptions
 - `OAuthFlow()`
   - Creates a `OAuthFlow` instance.
 
-## Methods
-- `onSuccess(OAuthClient.TokenResponse tokenResponse)`
+## Method Descriptions
+- `onSuccess(OAuthClient.TokenResponse tokenResponse)`: Add description.
   - Executes `onSuccess` behavior.
-- `onFailure(String errorMessage)`
+- `onFailure(String errorMessage)`: Add description.
   - Executes `onFailure` behavior.
-- `getResult()`
+- `getResult()`: Add description.
   - Executes `getResult` behavior.
-- `getErrorMessage()`
+- `getErrorMessage()`: Add description.
   - Executes `getErrorMessage` behavior.
-- `getFuture()`
+- `getFuture()`: Add description.
   - Executes `getFuture` behavior.
 
 ## Notes

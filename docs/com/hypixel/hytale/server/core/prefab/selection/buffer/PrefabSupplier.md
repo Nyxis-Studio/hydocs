@@ -1,14 +1,14 @@
+**Source Hash:** `dd9c24a571cdc8a1be826ebda6aecdcb97476e54d1aba2e772d34ce1df863b66`
+
 # PrefabSupplier
 
 ## Overview
-- Documentation for `PrefabSupplier`.
-- Declared as a interface in `com.hypixel.hytale.server.core.prefab.selection.buffer`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- None.
+## Method Descriptions
+- `none()`: No documented methods.
 
 ## Notes
 - No additional notes.

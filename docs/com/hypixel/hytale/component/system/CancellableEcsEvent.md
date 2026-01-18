@@ -1,16 +1,16 @@
+**Source Hash:** `65886520172fa453350bf8aca807c1b6cbe42a93859ac8ee4c2da38e4a5ec0cc`
+
 # CancellableEcsEvent
 
 ## Overview
-- Documentation for `CancellableEcsEvent`.
-- Declared as a class in `com.hypixel.hytale.component.system`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `isCancelled()`
+## Method Descriptions
+- `isCancelled()`: Add description.
   - Executes `isCancelled` behavior.
-- `setCancelled(boolean cancelled)`
+- `setCancelled(boolean cancelled)`: Add description.
   - Executes `setCancelled` behavior.
 
 ## Notes

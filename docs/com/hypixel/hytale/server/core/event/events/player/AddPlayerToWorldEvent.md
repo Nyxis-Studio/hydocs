@@ -1,23 +1,23 @@
+**Source Hash:** `e44e9ab83dbdd726db07847b53f50b56296e09c4694a265ef82b84e645f2ec3d`
+
 # AddPlayerToWorldEvent
 
 ## Overview
-- Documentation for `AddPlayerToWorldEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.player`.
 
-## Constructors
+## Constructor Descriptions
 - `AddPlayerToWorldEvent(@Nonnull Holder<EntityStore> holder, @Nonnull World world)`
   - Creates a `AddPlayerToWorldEvent` instance.
 
-## Methods
-- `getHolder()`
+## Method Descriptions
+- `getHolder()`: Add description.
   - Executes `getHolder` behavior.
-- `getWorld()`
+- `getWorld()`: Add description.
   - Executes `getWorld` behavior.
-- `shouldBroadcastJoinMessage()`
+- `shouldBroadcastJoinMessage()`: Add description.
   - Executes `shouldBroadcastJoinMessage` behavior.
-- `setBroadcastJoinMessage(boolean broadcastJoinMessage)`
+- `setBroadcastJoinMessage(boolean broadcastJoinMessage)`: Add description.
   - Executes `setBroadcastJoinMessage` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

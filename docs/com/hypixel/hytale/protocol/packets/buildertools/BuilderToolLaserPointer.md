@@ -1,10 +1,10 @@
+**Source Hash:** `e67ce3b3c5490087fe0c5e8a6c4a19c3b9bce6110a1ff2a72ed21234859587f7`
+
 # BuilderToolLaserPointer
 
 ## Overview
-- Documentation for `BuilderToolLaserPointer`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.buildertools`.
 
-## Constructors
+## Constructor Descriptions
 - `BuilderToolLaserPointer()`
   - Creates a `BuilderToolLaserPointer` instance.
 - `BuilderToolLaserPointer(int playerNetworkId, float startX, float startY, float startZ, float endX, float endY, float endZ, int color, int durationMs)`
@@ -12,24 +12,24 @@
 - `BuilderToolLaserPointer(@Nonnull BuilderToolLaserPointer other)`
   - Creates a `BuilderToolLaserPointer` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,15 +1,15 @@
+**Source Hash:** `5f8dc1bd9e25849e9a32986b01ee2ec0413f00e33346b1a1e7e16035102f85cc`
+
 # BodyMotionTimer
 
 ## Overview
-- Documentation for `BodyMotionTimer`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.timer`.
 
-## Constructors
+## Constructor Descriptions
 - `BodyMotionTimer(@Nonnull BuilderBodyMotionTimer builder, @Nonnull BuilderSupport builderSupport, BodyMotion motion)`
   - Creates a `BodyMotionTimer` instance.
 
-## Methods
-- `getSteeringMotion()`
+## Method Descriptions
+- `getSteeringMotion()`: Add description.
   - Executes `getSteeringMotion` behavior.
 
 ## Notes

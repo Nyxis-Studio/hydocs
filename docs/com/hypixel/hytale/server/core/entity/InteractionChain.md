@@ -1,165 +1,165 @@
+**Source Hash:** `5506110208021becd374164f2a4e10175f5dc31a90e9c2efe91e74052af93830`
+
 # InteractionChain
 
 ## Overview
-- Documentation for `InteractionChain`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionChain(InteractionType type, InteractionContext context, InteractionChainData chainData, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean requiresClient)`
   - Creates a `InteractionChain` instance.
 - `InteractionChain(ForkedChainId forkedChainId, ForkedChainId baseForkedChainId, InteractionType type, InteractionContext context, InteractionChainData chainData, @Nonnull RootInteraction rootInteraction, @Nullable Runnable onCompletion, boolean requiresClient)`
   - Creates a `InteractionChain` instance.
 
-## Methods
-- `getType()`
+## Method Descriptions
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getChainId()`
+- `getChainId()`: Add description.
   - Executes `getChainId` behavior.
-- `getForkedChainId()`
+- `getForkedChainId()`: Add description.
   - Executes `getForkedChainId` behavior.
-- `getBaseForkedChainId()`
+- `getBaseForkedChainId()`: Add description.
   - Executes `getBaseForkedChainId` behavior.
-- `getInitialRootInteraction()`
+- `getInitialRootInteraction()`: Add description.
   - Executes `getInitialRootInteraction` behavior.
-- `isPredicted()`
+- `isPredicted()`: Add description.
   - Executes `isPredicted` behavior.
-- `getContext()`
+- `getContext()`: Add description.
   - Executes `getContext` behavior.
-- `getChainData()`
+- `getChainData()`: Add description.
   - Executes `getChainData` behavior.
-- `getServerState()`
+- `getServerState()`: Add description.
   - Executes `getServerState` behavior.
-- `requiresClient()`
+- `requiresClient()`: Add description.
   - Executes `requiresClient` behavior.
-- `getRootInteraction()`
+- `getRootInteraction()`: Add description.
   - Executes `getRootInteraction` behavior.
-- `getSimulatedRootInteraction()`
+- `getSimulatedRootInteraction()`: Add description.
   - Executes `getSimulatedRootInteraction` behavior.
-- `getOperationCounter()`
+- `getOperationCounter()`: Add description.
   - Executes `getOperationCounter` behavior.
-- `setOperationCounter(int operationCounter)`
+- `setOperationCounter(int operationCounter)`: Add description.
   - Executes `setOperationCounter` behavior.
-- `getSimulatedOperationCounter()`
+- `getSimulatedOperationCounter()`: Add description.
   - Executes `getSimulatedOperationCounter` behavior.
-- `setSimulatedOperationCounter(int simulatedOperationCounter)`
+- `setSimulatedOperationCounter(int simulatedOperationCounter)`: Add description.
   - Executes `setSimulatedOperationCounter` behavior.
-- `wasPreTicked()`
+- `wasPreTicked()`: Add description.
   - Executes `wasPreTicked` behavior.
-- `setPreTicked(boolean preTicked)`
+- `setPreTicked(boolean preTicked)`: Add description.
   - Executes `setPreTicked` behavior.
-- `getOperationIndex()`
+- `getOperationIndex()`: Add description.
   - Executes `getOperationIndex` behavior.
-- `nextOperationIndex()`
+- `nextOperationIndex()`: Add description.
   - Executes `nextOperationIndex` behavior.
-- `getClientOperationIndex()`
+- `getClientOperationIndex()`: Add description.
   - Executes `getClientOperationIndex` behavior.
-- `findForkedChain(@Nonnull ForkedChainId chainId, @Nullable InteractionChainData data)`
+- `findForkedChain(@Nonnull ForkedChainId chainId, @Nullable InteractionChainData data)`: Add description.
   - Executes `findForkedChain` behavior.
-- `getForkedChain(@Nonnull ForkedChainId chainId)`
+- `getForkedChain(@Nonnull ForkedChainId chainId)`: Add description.
   - Executes `getForkedChain` behavior.
-- `putForkedChain(@Nonnull ForkedChainId chainId, @Nonnull InteractionChain chain)`
+- `putForkedChain(@Nonnull ForkedChainId chainId, @Nonnull InteractionChain chain)`: Add description.
   - Executes `putForkedChain` behavior.
-- `getTempForkedChain(@Nonnull ForkedChainId chainId)`
+- `getTempForkedChain(@Nonnull ForkedChainId chainId)`: Add description.
   - Executes `getTempForkedChain` behavior.
-- `hasSentInitial()`
+- `hasSentInitial()`: Add description.
   - Executes `hasSentInitial` behavior.
-- `setSentInitial(boolean sentInitial)`
+- `setSentInitial(boolean sentInitial)`: Add description.
   - Executes `setSentInitial` behavior.
-- `getTimeShift()`
+- `getTimeShift()`: Add description.
   - Executes `getTimeShift` behavior.
-- `setTimeShift(float timeShift)`
+- `setTimeShift(float timeShift)`: Add description.
   - Executes `setTimeShift` behavior.
-- `consumeFirstRun()`
+- `consumeFirstRun()`: Add description.
   - Executes `consumeFirstRun` behavior.
-- `isFirstRun()`
+- `isFirstRun()`: Add description.
   - Executes `isFirstRun` behavior.
-- `setFirstRun(boolean firstRun)`
+- `setFirstRun(boolean firstRun)`: Add description.
   - Executes `setFirstRun` behavior.
-- `getCallDepth()`
+- `getCallDepth()`: Add description.
   - Executes `getCallDepth` behavior.
-- `getSimulatedCallDepth()`
+- `getSimulatedCallDepth()`: Add description.
   - Executes `getSimulatedCallDepth` behavior.
-- `pushRoot(RootInteraction nextInteraction, boolean simulate)`
+- `pushRoot(RootInteraction nextInteraction, boolean simulate)`: Add description.
   - Executes `pushRoot` behavior.
-- `popRoot()`
+- `popRoot()`: Add description.
   - Executes `popRoot` behavior.
-- `getTimeInSeconds()`
+- `getTimeInSeconds()`: Add description.
   - Executes `getTimeInSeconds` behavior.
-- `setOnCompletion(Runnable onCompletion)`
+- `setOnCompletion(Runnable onCompletion)`: Add description.
   - Executes `setOnCompletion` behavior.
-- `getClientState()`
+- `getClientState()`: Add description.
   - Executes `getClientState` behavior.
-- `setClientState(InteractionState state)`
+- `setClientState(InteractionState state)`: Add description.
   - Executes `setClientState` behavior.
-- `getOrCreateInteractionEntry(int index)`
+- `getOrCreateInteractionEntry(int index)`: Add description.
   - Executes `getOrCreateInteractionEntry` behavior.
-- `getInteraction(int index)`
+- `getInteraction(int index)`: Add description.
   - Executes `getInteraction` behavior.
-- `removeInteractionEntry(@Nonnull InteractionManager interactionManager, int index)`
+- `removeInteractionEntry(@Nonnull InteractionManager interactionManager, int index)`: Add description.
   - Executes `removeInteractionEntry` behavior.
-- `putInteractionSyncData(int index, InteractionSyncData data)`
+- `putInteractionSyncData(int index, InteractionSyncData data)`: Add description.
   - Executes `putInteractionSyncData` behavior.
-- `clearInteractionSyncData(int operationIndex)`
+- `clearInteractionSyncData(int operationIndex)`: Add description.
   - Executes `clearInteractionSyncData` behavior.
-- `removeInteractionSyncData(int index)`
+- `removeInteractionSyncData(int index)`: Add description.
   - Executes `removeInteractionSyncData` behavior.
-- `updateSyncPosition(int index)`
+- `updateSyncPosition(int index)`: Add description.
   - Executes `updateSyncPosition` behavior.
-- `isSyncDataOutOfOrder(int index)`
+- `isSyncDataOutOfOrder(int index)`: Add description.
   - Executes `isSyncDataOutOfOrder` behavior.
-- `syncFork(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionManager manager, @Nonnull SyncInteractionChain packet)`
+- `syncFork(@Nonnull Ref<EntityStore> ref, @Nonnull InteractionManager manager, @Nonnull SyncInteractionChain packet)`: Add description.
   - Executes `syncFork` behavior.
-- `copyTempFrom(@Nonnull TempChain temp)`
+- `copyTempFrom(@Nonnull TempChain temp)`: Add description.
   - Executes `copyTempFrom` behavior.
-- `forkedIdToIndex(@Nonnull ForkedChainId chainId)`
+- `forkedIdToIndex(@Nonnull ForkedChainId chainId)`: Add description.
   - Executes `forkedIdToIndex` behavior.
-- `setChainId(int chainId)`
+- `setChainId(int chainId)`: Add description.
   - Executes `setChainId` behavior.
-- `getBaseType()`
+- `getBaseType()`: Add description.
   - Executes `getBaseType` behavior.
-- `setBaseType(InteractionType baseType)`
+- `setBaseType(InteractionType baseType)`: Add description.
   - Executes `setBaseType` behavior.
-- `getForkedChains()`
+- `getForkedChains()`: Add description.
   - Executes `getForkedChains` behavior.
-- `getTempForkedChainData()`
+- `getTempForkedChainData()`: Add description.
   - Executes `getTempForkedChainData` behavior.
-- `getTimestamp()`
+- `getTimestamp()`: Add description.
   - Executes `getTimestamp` behavior.
-- `setTimestamp(long timestamp)`
+- `setTimestamp(long timestamp)`: Add description.
   - Executes `setTimestamp` behavior.
-- `getWaitingForServerFinished()`
+- `getWaitingForServerFinished()`: Add description.
   - Executes `getWaitingForServerFinished` behavior.
-- `setWaitingForServerFinished(long waitingForServerFinished)`
+- `setWaitingForServerFinished(long waitingForServerFinished)`: Add description.
   - Executes `setWaitingForServerFinished` behavior.
-- `getWaitingForClientFinished()`
+- `getWaitingForClientFinished()`: Add description.
   - Executes `getWaitingForClientFinished` behavior.
-- `setWaitingForClientFinished(long waitingForClientFinished)`
+- `setWaitingForClientFinished(long waitingForClientFinished)`: Add description.
   - Executes `setWaitingForClientFinished` behavior.
-- `setServerState(InteractionState serverState)`
+- `setServerState(InteractionState serverState)`: Add description.
   - Executes `setServerState` behavior.
-- `getFinalState()`
+- `getFinalState()`: Add description.
   - Executes `getFinalState` behavior.
-- `setFinalState(InteractionState finalState)`
+- `setFinalState(InteractionState finalState)`: Add description.
   - Executes `setFinalState` behavior.
-- `flagDesync()`
+- `flagDesync()`: Add description.
   - Executes `flagDesync` behavior.
-- `isDesynced()`
+- `isDesynced()`: Add description.
   - Executes `isDesynced` behavior.
-- `getNewForks()`
+- `getNewForks()`: Add description.
   - Executes `getNewForks` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getOrCreateTempForkedChain(@Nonnull ForkedChainId chainId)`
+- `getOrCreateTempForkedChain(@Nonnull ForkedChainId chainId)`: Add description.
   - Executes `getOrCreateTempForkedChain` behavior.
-- `clearInteractionSyncData(int index)`
+- `clearInteractionSyncData(int index)`: Add description.
   - Executes `clearInteractionSyncData` behavior.
-- `setChainData(InteractionChainData chainData)`
+- `setChainData(InteractionChainData chainData)`: Add description.
   - Executes `setChainData` behavior.
-- `setBaseForkedChainId(ForkedChainId baseForkedChainId)`
+- `setBaseForkedChainId(ForkedChainId baseForkedChainId)`: Add description.
   - Executes `setBaseForkedChainId` behavior.
-- `setForkedChainId(ForkedChainId forkedChainId)`
+- `setForkedChainId(ForkedChainId forkedChainId)`: Add description.
   - Executes `setForkedChainId` behavior.
-- `CallState(RootInteraction rootInteraction, int operationCounter)`
+- `CallState(RootInteraction rootInteraction, int operationCounter)`: Add description.
   - Executes `CallState` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `2fa25047a345dd3c84accfdc8d42583d546f2841dcde31725cfd3ba3e1682bb1`
+
 # SingleDoubleCondition
 
 ## Overview
-- Documentation for `SingleDoubleCondition`.
-- Declared as a class in `com.hypixel.hytale.procedurallib.condition`.
 
-## Constructors
+## Constructor Descriptions
 - `SingleDoubleCondition(double value)`
   - Creates a `SingleDoubleCondition` instance.
 
-## Methods
-- `eval(double value)`
+## Method Descriptions
+- `eval(double value)`: Add description.
   - Executes `eval` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

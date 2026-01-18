@@ -1,62 +1,62 @@
+**Source Hash:** `73bb4414bf7846daa7df8feabf8a6c0db8d4a1d132b928015e50f09e8ac6941a`
+
 # BuilderInstruction
 
 ## Overview
-- Documentation for `BuilderInstruction`.
-- Declared as a class in `com.hypixel.hytale.server.npc.instructions.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`
+- `validate(String configName, @Nonnull NPCLoadTimeValidationHelper validationHelper, @Nonnull ExecutionContext context, Scope globalScope, @Nonnull List<String> errors)`: Add description.
   - Executes `validate` behavior.
-- `category()`
+- `category()`: Add description.
   - Executes `category` behavior.
-- `isEnabled(ExecutionContext context)`
+- `isEnabled(ExecutionContext context)`: Add description.
   - Executes `isEnabled` behavior.
-- `setCurrentStateName(String name)`
+- `setCurrentStateName(String name)`: Add description.
   - Executes `setCurrentStateName` behavior.
-- `hasActions()`
+- `hasActions()`: Add description.
   - Executes `hasActions` behavior.
-- `hasBodyMotion()`
+- `hasBodyMotion()`: Add description.
   - Executes `hasBodyMotion` behavior.
-- `hasHeadMotion()`
+- `hasHeadMotion()`: Add description.
   - Executes `hasHeadMotion` behavior.
-- `hasNestedInstructions()`
+- `hasNestedInstructions()`: Add description.
   - Executes `hasNestedInstructions` behavior.
-- `getSensor(@Nonnull BuilderSupport builderSupport)`
+- `getSensor(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getSensor` behavior.
-- `getBodyMotion(@Nonnull BuilderSupport builderSupport)`
+- `getBodyMotion(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getBodyMotion` behavior.
-- `getHeadMotion(@Nonnull BuilderSupport support)`
+- `getHeadMotion(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getHeadMotion` behavior.
-- `getActionList(@Nonnull BuilderSupport builderSupport)`
+- `getActionList(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `getActionList` behavior.
-- `getSteps(@Nonnull BuilderSupport support)`
+- `getSteps(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getSteps` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getTag()`
+- `getTag()`: Add description.
   - Executes `getTag` behavior.
-- `isContinueAfter()`
+- `isContinueAfter()`: Add description.
   - Executes `isContinueAfter` behavior.
-- `getChance(@Nonnull BuilderSupport support)`
+- `getChance(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getChance` behavior.
-- `isTreeMode()`
+- `isTreeMode()`: Add description.
   - Executes `isTreeMode` behavior.
-- `isInvertTreeModeResult(@Nonnull BuilderSupport support)`
+- `isInvertTreeModeResult(@Nonnull BuilderSupport support)`: Add description.
   - Executes `isInvertTreeModeResult` behavior.
-- `requiresName()`
+- `requiresName()`: Add description.
   - Executes `requiresName` behavior.
 
 ## Notes

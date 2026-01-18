@@ -1,34 +1,34 @@
+**Source Hash:** `0ad776b6bd072c11b447d3b989af85b04dbfa378d7fc7465db8a790ca031cbac`
+
 # LegacyEntityTrackerSystems
 
 ## Overview
-- Documentation for `LegacyEntityTrackerSystems`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.tracker`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `sendPlayerSelf(@Nonnull Ref<EntityStore> viewerRef, @Nonnull Store<EntityStore> store)`
+## Method Descriptions
+- `sendPlayerSelf(@Nonnull Ref<EntityStore> viewerRef, @Nonnull Store<EntityStore> store)`: Add description.
   - Executes `sendPlayerSelf` behavior.
-- `clear(@Nonnull Player player, @Nonnull Holder<EntityStore> holder)`
+- `clear(@Nonnull Player player, @Nonnull Holder<EntityStore> holder)`: Add description.
   - Executes `clear` behavior.
-- `getGroup()`
+- `getGroup()`: Add description.
   - Executes `getGroup` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `tick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `tick` behavior.
-- `queueUpdatesFor(@Nonnull Ref<EntityStore> ref, @Nonnull LivingEntity entity, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`
+- `queueUpdatesFor(@Nonnull Ref<EntityStore> ref, @Nonnull LivingEntity entity, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`: Add description.
   - Executes `queueUpdatesFor` behavior.
-- `queueUpdatesFor(Ref<EntityStore> ref, @Nonnull PlayerSkinComponent component, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`
+- `queueUpdatesFor(Ref<EntityStore> ref, @Nonnull PlayerSkinComponent component, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`: Add description.
   - Executes `queueUpdatesFor` behavior.
-- `queueUpdatesFor(Ref<EntityStore> ref, @Nullable ModelComponent model, float entityScale, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`
+- `queueUpdatesFor(Ref<EntityStore> ref, @Nullable ModelComponent model, float entityScale, @Nonnull Map<Ref<EntityStore>, EntityTrackerSystems.EntityViewer> visibleTo)`: Add description.
   - Executes `queueUpdatesFor` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `canHideEntities(Entity entity, @Nonnull PlayerSettings settings)`
+- `canHideEntities(Entity entity, @Nonnull PlayerSettings settings)`: Add description.
   - Executes `canHideEntities` behavior.
 
 ## Notes

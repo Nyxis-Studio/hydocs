@@ -1,21 +1,21 @@
+**Source Hash:** `548fafe2372bb4f906f801c59fe17a450e3faf6ec83dfe2d20f0e177b62394a6`
+
 # TimerSystem
 
 ## Overview
-- Documentation for `TimerSystem`.
-- Declared as a class in `com.hypixel.hytale.server.npc.systems`.
 
-## Constructors
+## Constructor Descriptions
 - `TimerSystem(@Nonnull ComponentType<EntityStore, Timers> timersComponentType, @Nonnull Set<Dependency<EntityStore>> dependencies)`
   - Creates a `TimerSystem` instance.
 
-## Methods
-- `getDependencies()`
+## Method Descriptions
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `isParallel(int archetypeChunkSize, int taskCount)`
+- `isParallel(int archetypeChunkSize, int taskCount)`: Add description.
   - Executes `isParallel` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
-- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `steppedTick(float dt, int index, @Nonnull ArchetypeChunk<EntityStore> archetypeChunk, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `steppedTick` behavior.
 
 ## Notes

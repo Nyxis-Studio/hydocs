@@ -1,10 +1,10 @@
+**Source Hash:** `2f4c7bf60e58f337c025721d06af7b7c5482ceff0fbee821e75504f2926a79ae`
+
 # BlockBreakingDropType
 
 ## Overview
-- Documentation for `BlockBreakingDropType`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.blocktype.config`.
 
-## Constructors
+## Constructor Descriptions
 - `BlockBreakingDropType(String gatherType, int quality, int quantity, String itemId, String dropListId)`
   - Creates a `BlockBreakingDropType` instance.
 - `BlockBreakingDropType()`
@@ -12,22 +12,22 @@
 - `BlockBreakingDropType(this.gatherType, 0, 0, null, null)`
   - Creates a `BlockBreakingDropType` instance.
 
-## Methods
-- `toPacket()`
+## Method Descriptions
+- `toPacket()`: Add description.
   - Executes `toPacket` behavior.
-- `getGatherType()`
+- `getGatherType()`: Add description.
   - Executes `getGatherType` behavior.
-- `getQuality()`
+- `getQuality()`: Add description.
   - Executes `getQuality` behavior.
-- `getQuantity()`
+- `getQuantity()`: Add description.
   - Executes `getQuantity` behavior.
-- `getItemId()`
+- `getItemId()`: Add description.
   - Executes `getItemId` behavior.
-- `getDropListId()`
+- `getDropListId()`: Add description.
   - Executes `getDropListId` behavior.
-- `withoutDrops()`
+- `withoutDrops()`: Add description.
   - Executes `withoutDrops` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,23 +1,23 @@
+**Source Hash:** `960060bdfb6e07ecad112ea7147ad57e1c52cf1698ed9b802ffd954a46325437`
+
 # ParticleCollision
 
 ## Overview
-- Documentation for `ParticleCollision`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.type.particle.config`.
 
-## Constructors
+## Constructor Descriptions
 - `ParticleCollision(ParticleCollisionBlockType blockType, ParticleCollisionAction action, ParticleRotationInfluence particleRotationInfluence)`
   - Creates a `ParticleCollision` instance.
 - `ParticleCollision()`
   - Creates a `ParticleCollision` instance.
 
-## Methods
-- `getParticleMapCollision()`
+## Method Descriptions
+- `getParticleMapCollision()`: Add description.
   - Executes `getParticleMapCollision` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
-- `getParticleRotationInfluence()`
+- `getParticleRotationInfluence()`: Add description.
   - Executes `getParticleRotationInfluence` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

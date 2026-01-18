@@ -1,26 +1,26 @@
+**Source Hash:** `fa68c194afee59f588928190be70f61e9d559fd3073b4d5afb1c41f4e901f6b4`
+
 # BuilderActionSetFlag
 
 ## Overview
-- Documentation for `BuilderActionSetFlag`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.utility.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `getFlagSlot(@Nonnull BuilderSupport support)`
+- `getFlagSlot(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getFlagSlot` behavior.
-- `getValue(@Nonnull BuilderSupport support)`
+- `getValue(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getValue` behavior.
 
 ## Notes

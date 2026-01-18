@@ -1,17 +1,17 @@
+**Source Hash:** `e62f213d33d971646e634458a2b2945814250e7b31998f3385221451e1c59bbb`
+
 # PhysicsType
 
 ## Overview
-- Documentation for `PhysicsType`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `PhysicsType(int value)`
   - Creates a `PhysicsType` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

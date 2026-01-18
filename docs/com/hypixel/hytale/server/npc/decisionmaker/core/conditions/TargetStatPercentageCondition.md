@@ -1,17 +1,17 @@
+**Source Hash:** `c365b6f8cd83e3f54aee69997e7d41b554196d8e20bb5b87af8528070793537c`
+
 # TargetStatPercentageCondition
 
 ## Overview
-- Documentation for `TargetStatPercentageCondition`.
-- Declared as a class in `com.hypixel.hytale.server.npc.decisionmaker.core.conditions`.
 
-## Constructors
+## Constructor Descriptions
 - `TargetStatPercentageCondition()`
   - Creates a `TargetStatPercentageCondition` instance.
 
-## Methods
-- `getNormalisedInput(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, @Nullable Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`
+## Method Descriptions
+- `getNormalisedInput(int selfIndex, ArchetypeChunk<EntityStore> archetypeChunk, @Nullable Ref<EntityStore> target, @Nonnull CommandBuffer<EntityStore> commandBuffer, EvaluationContext context)`: Add description.
   - Executes `getNormalisedInput` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

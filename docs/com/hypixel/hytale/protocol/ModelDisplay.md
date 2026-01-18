@@ -1,10 +1,10 @@
+**Source Hash:** `0b76733c47380dd00de5e34e9ac6040d8bec7a671b42292ffda7eff5904d34d4`
+
 # ModelDisplay
 
 ## Overview
-- Documentation for `ModelDisplay`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ModelDisplay()`
   - Creates a `ModelDisplay` instance.
 - `ModelDisplay(@Nullable String node, @Nullable String attachTo, @Nullable Vector3f translation, @Nullable Vector3f rotation, @Nullable Vector3f scale)`
@@ -12,22 +12,22 @@
 - `ModelDisplay(@Nonnull ModelDisplay other)`
   - Creates a `ModelDisplay` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

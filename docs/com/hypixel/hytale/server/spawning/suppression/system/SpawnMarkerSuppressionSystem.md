@@ -1,19 +1,19 @@
+**Source Hash:** `4ccecdcd1f1b1a58439c8c9a2e590274021688db42fd7519310397745bf68949`
+
 # SpawnMarkerSuppressionSystem
 
 ## Overview
-- Documentation for `SpawnMarkerSuppressionSystem`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.suppression.system`.
 
-## Constructors
+## Constructor Descriptions
 - `SpawnMarkerSuppressionSystem(ComponentType<EntityStore, SpawnMarkerEntity> spawnMarkerEntityComponentType, ResourceType<EntityStore, SpawnSuppressionController> spawnSuppressionControllerResourceType)`
   - Creates a `SpawnMarkerSuppressionSystem` instance.
 
-## Methods
-- `onEntityAdded(@Nonnull Ref<EntityStore> reference, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+## Method Descriptions
+- `onEntityAdded(@Nonnull Ref<EntityStore> reference, @Nonnull AddReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityAdded` behavior.
-- `onEntityRemove(@Nonnull Ref<EntityStore> reference, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`
+- `onEntityRemove(@Nonnull Ref<EntityStore> reference, @Nonnull RemoveReason reason, @Nonnull Store<EntityStore> store, @Nonnull CommandBuffer<EntityStore> commandBuffer)`: Add description.
   - Executes `onEntityRemove` behavior.
-- `getQuery()`
+- `getQuery()`: Add description.
   - Executes `getQuery` behavior.
 
 ## Notes

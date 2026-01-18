@@ -1,19 +1,19 @@
+**Source Hash:** `6b1b00bf7ef8e74f974145048dca42a5dfd5ffe8d53a82f762124e93577fd48b`
+
 # PrefabCopyableComponent
 
 ## Overview
-- Documentation for `PrefabCopyableComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.prefab`.
 
-## Constructors
+## Constructor Descriptions
 - `PrefabCopyableComponent()`
   - Creates a `PrefabCopyableComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `get()`
+- `get()`: Add description.
   - Executes `get` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

@@ -1,19 +1,19 @@
+**Source Hash:** `6523445ae4de68fd5558988034b60dfee23913fdccedb1ac980c4a74375959d1`
+
 # PathEvent
 
 ## Overview
-- Documentation for `PathEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.asset.monitor`.
 
-## Constructors
+## Constructor Descriptions
 - `PathEvent(EventKind eventKind, long timestamp)`
   - Creates a `PathEvent` instance.
 
-## Methods
-- `getEventKind()`
+## Method Descriptions
+- `getEventKind()`: Add description.
   - Executes `getEventKind` behavior.
-- `getTimestamp()`
+- `getTimestamp()`: Add description.
   - Executes `getTimestamp` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

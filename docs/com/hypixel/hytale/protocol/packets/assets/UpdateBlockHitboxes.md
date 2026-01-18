@@ -1,10 +1,10 @@
+**Source Hash:** `85f9b5f07ad9cb4e63bead25df6a517eebe6431cbd970ede54595ad1eaca07dd`
+
 # UpdateBlockHitboxes
 
 ## Overview
-- Documentation for `UpdateBlockHitboxes`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.assets`.
 
-## Constructors
+## Constructor Descriptions
 - `UpdateBlockHitboxes()`
   - Creates a `UpdateBlockHitboxes` instance.
 - `UpdateBlockHitboxes(@Nonnull UpdateType type, int maxId, @Nullable Map<Integer, Hitbox[]> blockBaseHitboxes)`
@@ -12,24 +12,24 @@
 - `UpdateBlockHitboxes(@Nonnull UpdateBlockHitboxes other)`
   - Creates a `UpdateBlockHitboxes` instance.
 
-## Methods
-- `getId()`
+## Method Descriptions
+- `getId()`: Add description.
   - Executes `getId` behavior.
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

@@ -1,34 +1,34 @@
+**Source Hash:** `bc683ad86877a3b821db0cb68240d4dd6fe49cd413d4fb0ee66e1617ea27cdd7`
+
 # NPCBeaconSpawnJob
 
 ## Overview
-- Documentation for `NPCBeaconSpawnJob`.
-- Declared as a class in `com.hypixel.hytale.server.spawning.jobs`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getRoleIndex()`
+## Method Descriptions
+- `getRoleIndex()`: Add description.
   - Executes `getRoleIndex` behavior.
-- `getPlayer()`
+- `getPlayer()`: Add description.
   - Executes `getPlayer` behavior.
-- `getSpawnsThisRound()`
+- `getSpawnsThisRound()`: Add description.
   - Executes `getSpawnsThisRound` behavior.
-- `getFlockSize()`
+- `getFlockSize()`: Add description.
   - Executes `getFlockSize` behavior.
-- `getFlockAsset()`
+- `getFlockAsset()`: Add description.
   - Executes `getFlockAsset` behavior.
-- `shouldTerminate()`
+- `shouldTerminate()`: Add description.
   - Executes `shouldTerminate` behavior.
-- `budgetAvailable()`
+- `budgetAvailable()`: Add description.
   - Executes `budgetAvailable` behavior.
-- `reset()`
+- `reset()`: Add description.
   - Executes `reset` behavior.
-- `getSpawnable()`
+- `getSpawnable()`: Add description.
   - Executes `getSpawnable` behavior.
-- `getSpawnableName()`
+- `getSpawnableName()`: Add description.
   - Executes `getSpawnableName` behavior.
-- `beginProbing(@Nonnull PlayerRef targetPlayer, int spawnsThisRound, int roleIndex, @Nullable FlockAsset flockDefinition)`
+- `beginProbing(@Nonnull PlayerRef targetPlayer, int spawnsThisRound, int roleIndex, @Nullable FlockAsset flockDefinition)`: Add description.
   - Executes `beginProbing` behavior.
 
 ## Notes

@@ -1,24 +1,24 @@
+**Source Hash:** `3723fadfb86acd39f635bda56e2c167345d38a43370bf0d428aeb8ff8c99ab5e`
+
 # BuilderEntityFilterMovementState
 
 ## Overview
-- Documentation for `BuilderEntityFilterMovementState`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.entity.filters.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(BuilderSupport builderSupport)`
+## Method Descriptions
+- `build(BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getShortDescription()`
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getMovementState()`
+- `getMovementState()`: Add description.
   - Executes `getMovementState` behavior.
 
 ## Notes

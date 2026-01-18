@@ -1,17 +1,17 @@
+**Source Hash:** `d1e993c9f62a7459dadc2ddf82346d6abe48505604122838e244075b85c7a9e3`
+
 # ItemReticleClientEvent
 
 ## Overview
-- Documentation for `ItemReticleClientEvent`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemReticleClientEvent(int value)`
   - Creates a `ItemReticleClientEvent` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

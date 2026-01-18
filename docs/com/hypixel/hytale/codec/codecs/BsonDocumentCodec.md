@@ -1,20 +1,20 @@
+**Source Hash:** `a1e5ddf13f0c70441bc59b75a50f142df8b730bfbaff4a858e9cfa4fb946008e`
+
 # BsonDocumentCodec
 
 ## Overview
-- Documentation for `BsonDocumentCodec`.
-- Declared as a class in `com.hypixel.hytale.codec.codecs`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`
+## Method Descriptions
+- `decode(@Nonnull BsonValue bsonValue, ExtraInfo extraInfo)`: Add description.
   - Executes `decode` behavior.
-- `encode(BsonDocument document, ExtraInfo extraInfo)`
+- `encode(BsonDocument document, ExtraInfo extraInfo)`: Add description.
   - Executes `encode` behavior.
-- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`
+- `decodeJson(@Nonnull RawJsonReader reader, ExtraInfo extraInfo)`: Add description.
   - Executes `decodeJson` behavior.
-- `toSchema(@Nonnull SchemaContext context)`
+- `toSchema(@Nonnull SchemaContext context)`: Add description.
   - Executes `toSchema` behavior.
 
 ## Notes

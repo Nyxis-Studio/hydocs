@@ -1,31 +1,31 @@
+**Source Hash:** `4fd9807bdf6b6914fe6b02e87e39bf97b27d7910eb709b5d59cec31ff465ec55`
+
 # SystemGroup
 
 ## Overview
-- Documentation for `SystemGroup`.
-- Declared as a class in `com.hypixel.hytale.component`.
 
-## Constructors
+## Constructor Descriptions
 - `SystemGroup(@Nonnull ComponentRegistry<ECS_TYPE> registry, int index, @Nonnull Set<Dependency<ECS_TYPE>> dependencies)`
   - Creates a `SystemGroup` instance.
 
-## Methods
-- `getRegistry()`
+## Method Descriptions
+- `getRegistry()`: Add description.
   - Executes `getRegistry` behavior.
-- `getDependencies()`
+- `getDependencies()`: Add description.
   - Executes `getDependencies` behavior.
-- `getIndex()`
+- `getIndex()`: Add description.
   - Executes `getIndex` behavior.
-- `validateRegistry(@Nonnull ComponentRegistry<ECS_TYPE> registry)`
+- `validateRegistry(@Nonnull ComponentRegistry<ECS_TYPE> registry)`: Add description.
   - Executes `validateRegistry` behavior.
-- `validate()`
+- `validate()`: Add description.
   - Executes `validate` behavior.
-- `compareTo(@Nonnull SystemGroup<ECS_TYPE> o)`
+- `compareTo(@Nonnull SystemGroup<ECS_TYPE> o)`: Add description.
   - Executes `compareTo` behavior.
-- `equals(@Nullable Object o)`
+- `equals(@Nullable Object o)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

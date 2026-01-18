@@ -1,10 +1,10 @@
+**Source Hash:** `ff8ec48d4644a3dfa2ed16d96fbf328c4813c2d0bf6cbe90ca895b8219cb081e`
+
 # SoundEventLayerRandomSettings
 
 ## Overview
-- Documentation for `SoundEventLayerRandomSettings`.
-- Declared as a class in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `SoundEventLayerRandomSettings()`
   - Creates a `SoundEventLayerRandomSettings` instance.
 - `SoundEventLayerRandomSettings(float minVolume, float maxVolume, float minPitch, float maxPitch, float maxStartOffset)`
@@ -12,22 +12,22 @@
 - `SoundEventLayerRandomSettings(@Nonnull SoundEventLayerRandomSettings other)`
   - Creates a `SoundEventLayerRandomSettings` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

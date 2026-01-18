@@ -1,37 +1,37 @@
+**Source Hash:** `fcd8173672c1d3c5e5a697bbed8884cca147bce751ecf0c54756712a5e89bfb8`
+
 # VarInt
 
 ## Overview
-- Documentation for `VarInt`.
-- Declared as a class in `com.hypixel.hytale.math.data`.
 
-## Constructors
+## Constructor Descriptions
 - `VarInt()`
   - Creates a `VarInt` instance.
 
-## Methods
-- `writeSignedVarLong(long value, @Nonnull DataOutput out)`
+## Method Descriptions
+- `writeSignedVarLong(long value, @Nonnull DataOutput out)`: Add description.
   - Executes `writeSignedVarLong` behavior.
-- `writeUnsignedVarLong(long value, @Nonnull DataOutput out)`
+- `writeUnsignedVarLong(long value, @Nonnull DataOutput out)`: Add description.
   - Executes `writeUnsignedVarLong` behavior.
-- `writeSignedVarInt(int value, @Nonnull DataOutput out)`
+- `writeSignedVarInt(int value, @Nonnull DataOutput out)`: Add description.
   - Executes `writeSignedVarInt` behavior.
-- `writeUnsignedVarInt(int value, @Nonnull DataOutput out)`
+- `writeUnsignedVarInt(int value, @Nonnull DataOutput out)`: Add description.
   - Executes `writeUnsignedVarInt` behavior.
-- `writeSignedVarInt(int value)`
+- `writeSignedVarInt(int value)`: Add description.
   - Executes `writeSignedVarInt` behavior.
-- `writeUnsignedVarInt(int value)`
+- `writeUnsignedVarInt(int value)`: Add description.
   - Executes `writeUnsignedVarInt` behavior.
-- `readSignedVarLong(@Nonnull DataInput in)`
+- `readSignedVarLong(@Nonnull DataInput in)`: Add description.
   - Executes `readSignedVarLong` behavior.
-- `readUnsignedVarLong(@Nonnull DataInput in)`
+- `readUnsignedVarLong(@Nonnull DataInput in)`: Add description.
   - Executes `readUnsignedVarLong` behavior.
-- `readSignedVarInt(@Nonnull DataInput in)`
+- `readSignedVarInt(@Nonnull DataInput in)`: Add description.
   - Executes `readSignedVarInt` behavior.
-- `readUnsignedVarInt(@Nonnull DataInput in)`
+- `readUnsignedVarInt(@Nonnull DataInput in)`: Add description.
   - Executes `readUnsignedVarInt` behavior.
-- `readSignedVarInt(@Nonnull byte[] bytes)`
+- `readSignedVarInt(@Nonnull byte[] bytes)`: Add description.
   - Executes `readSignedVarInt` behavior.
-- `readUnsignedVarInt(@Nonnull byte[] bytes)`
+- `readUnsignedVarInt(@Nonnull byte[] bytes)`: Add description.
   - Executes `readUnsignedVarInt` behavior.
 
 ## Notes

@@ -1,10 +1,10 @@
+**Source Hash:** `f10b600bed1d0886885b97ef30aacd9d2411d5a9b40ce4fdd3120af58b4810d9`
+
 # InteractionContext
 
 ## Overview
-- Documentation for `InteractionContext`.
-- Declared as a class in `com.hypixel.hytale.server.core.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionContext(@Nullable InteractionManager interactionManager, @Nullable Ref<EntityStore> owningEntity, int heldItemSectionId, @Nullable ItemContainer heldItemContainer, byte heldItemSlot, @Nullable ItemStack heldItem)`
   - Creates a `InteractionContext` instance.
 - `InteractionContext(@Nullable InteractionManager interactionManager, @Nullable Ref<EntityStore> owningEntity, @Nullable Ref<EntityStore> runningForEntity, int heldItemSectionId, @Nullable ItemContainer heldItemContainer, byte heldItemSlot, @Nullable ItemStack heldItem)`
@@ -24,98 +24,98 @@
 - `InteractionContext(null, null, -1, null, -1, null)`
   - Creates a `InteractionContext` instance.
 
-## Methods
-- `fork(@Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+## Method Descriptions
+- `fork(@Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`: Add description.
   - Executes `fork` behavior.
-- `fork(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+- `fork(@Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`: Add description.
   - Executes `fork` behavior.
-- `fork(@Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`
+- `fork(@Nonnull InteractionChainData data, @Nonnull InteractionType type, @Nonnull InteractionContext context, @Nonnull RootInteraction rootInteraction, boolean predicted)`: Add description.
   - Executes `fork` behavior.
-- `duplicate()`
+- `duplicate()`: Add description.
   - Executes `duplicate` behavior.
-- `getEntity()`
+- `getEntity()`: Add description.
   - Executes `getEntity` behavior.
-- `getOwningEntity()`
+- `getOwningEntity()`: Add description.
   - Executes `getOwningEntity` behavior.
-- `execute(@Nonnull RootInteraction nextInteraction)`
+- `execute(@Nonnull RootInteraction nextInteraction)`: Add description.
   - Executes `execute` behavior.
-- `getChain()`
+- `getChain()`: Add description.
   - Executes `getChain` behavior.
-- `getEntry()`
+- `getEntry()`: Add description.
   - Executes `getEntry` behavior.
-- `getOperationCounter()`
+- `getOperationCounter()`: Add description.
   - Executes `getOperationCounter` behavior.
-- `setOperationCounter(int operationCounter)`
+- `setOperationCounter(int operationCounter)`: Add description.
   - Executes `setOperationCounter` behavior.
-- `jump(@Nonnull Label label)`
+- `jump(@Nonnull Label label)`: Add description.
   - Executes `jump` behavior.
-- `getOriginalItemType()`
+- `getOriginalItemType()`: Add description.
   - Executes `getOriginalItemType` behavior.
-- `getHeldItemSectionId()`
+- `getHeldItemSectionId()`: Add description.
   - Executes `getHeldItemSectionId` behavior.
-- `getHeldItemContainer()`
+- `getHeldItemContainer()`: Add description.
   - Executes `getHeldItemContainer` behavior.
-- `getHeldItemSlot()`
+- `getHeldItemSlot()`: Add description.
   - Executes `getHeldItemSlot` behavior.
-- `getHeldItem()`
+- `getHeldItem()`: Add description.
   - Executes `getHeldItem` behavior.
-- `setHeldItem(@Nullable ItemStack heldItem)`
+- `setHeldItem(@Nullable ItemStack heldItem)`: Add description.
   - Executes `setHeldItem` behavior.
-- `createHeldItemContext()`
+- `createHeldItemContext()`: Add description.
   - Executes `createHeldItemContext` behavior.
-- `getInteractionVarsGetter()`
+- `getInteractionVarsGetter()`: Add description.
   - Executes `getInteractionVarsGetter` behavior.
-- `getInteractionVars()`
+- `getInteractionVars()`: Add description.
   - Executes `getInteractionVars` behavior.
-- `setInteractionVarsGetter(Function<InteractionContext, Map<String, String>> interactionVarsGetter)`
+- `setInteractionVarsGetter(Function<InteractionContext, Map<String, String>> interactionVarsGetter)`: Add description.
   - Executes `setInteractionVarsGetter` behavior.
-- `getInteractionManager()`
+- `getInteractionManager()`: Add description.
   - Executes `getInteractionManager` behavior.
-- `getTargetEntity()`
+- `getTargetEntity()`: Add description.
   - Executes `getTargetEntity` behavior.
-- `getTargetBlock()`
+- `getTargetBlock()`: Add description.
   - Executes `getTargetBlock` behavior.
-- `getMetaStore()`
+- `getMetaStore()`: Add description.
   - Executes `getMetaStore` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `getClientState()`
+- `getClientState()`: Add description.
   - Executes `getClientState` behavior.
-- `getServerState()`
+- `getServerState()`: Add description.
   - Executes `getServerState` behavior.
-- `getInstanceStore()`
+- `getInstanceStore()`: Add description.
   - Executes `getInstanceStore` behavior.
-- `allowSkipChainOnClick()`
+- `allowSkipChainOnClick()`: Add description.
   - Executes `allowSkipChainOnClick` behavior.
-- `setLabels(Label[] labels)`
+- `setLabels(Label[] labels)`: Add description.
   - Executes `setLabels` behavior.
-- `hasLabels()`
+- `hasLabels()`: Add description.
   - Executes `hasLabels` behavior.
-- `getLabel(int index)`
+- `getLabel(int index)`: Add description.
   - Executes `getLabel` behavior.
-- `getSnapshot(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `getSnapshot(@Nonnull Ref<EntityStore> ref, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `getSnapshot` behavior.
-- `setSnapshotProvider(@Nullable SnapshotProvider snapshotProvider)`
+- `setSnapshotProvider(@Nullable SnapshotProvider snapshotProvider)`: Add description.
   - Executes `setSnapshotProvider` behavior.
-- `setTimeShift(float shift)`
+- `setTimeShift(float shift)`: Add description.
   - Executes `setTimeShift` behavior.
-- `getCommandBuffer()`
+- `getCommandBuffer()`: Add description.
   - Executes `getCommandBuffer` behavior.
-- `getRootInteractionId(@Nonnull InteractionType type)`
+- `getRootInteractionId(@Nonnull InteractionType type)`: Add description.
   - Executes `getRootInteractionId` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `forProxyEntity(InteractionManager manager, @Nonnull LivingEntity entity, Ref<EntityStore> runningForEntity)`
+- `forProxyEntity(InteractionManager manager, @Nonnull LivingEntity entity, Ref<EntityStore> runningForEntity)`: Add description.
   - Executes `forProxyEntity` behavior.
-- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forInteraction` behavior.
-- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, int equipSlot, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`
+- `forInteraction(@Nonnull InteractionManager manager, @Nonnull Ref<EntityStore> ref, @Nonnull InteractionType type, int equipSlot, @Nonnull ComponentAccessor<EntityStore> componentAccessor)`: Add description.
   - Executes `forInteraction` behavior.
-- `withoutEntity()`
+- `withoutEntity()`: Add description.
   - Executes `withoutEntity` behavior.
-- `defaultGetVars(@Nonnull InteractionContext c)`
+- `defaultGetVars(@Nonnull InteractionContext c)`: Add description.
   - Executes `defaultGetVars` behavior.
-- `getSnapshot(CommandBuffer<EntityStore> var1, Ref<EntityStore> var2, int var3)`
+- `getSnapshot(CommandBuffer<EntityStore> var1, Ref<EntityStore> var2, int var3)`: Add description.
   - Executes `getSnapshot` behavior.
 
 ## Notes

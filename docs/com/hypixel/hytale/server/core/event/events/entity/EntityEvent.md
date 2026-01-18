@@ -1,17 +1,17 @@
+**Source Hash:** `4d897053901c0dde7429c4583380cc8eaad7e39160ccab1a2f2e694a9648047f`
+
 # EntityEvent
 
 ## Overview
-- Documentation for `EntityEvent`.
-- Declared as a class in `com.hypixel.hytale.server.core.event.events.entity`.
 
-## Constructors
+## Constructor Descriptions
 - `EntityEvent(EntityType entity)`
   - Creates a `EntityEvent` instance.
 
-## Methods
-- `getEntity()`
+## Method Descriptions
+- `getEntity()`: Add description.
   - Executes `getEntity` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes

@@ -1,17 +1,17 @@
+**Source Hash:** `0ae08a79bccd9ab61ad6850c7978a6e0e8a49c4f4d879f0fa7d6c61734ba1964`
+
 # AnimationSlot
 
 ## Overview
-- Documentation for `AnimationSlot`.
-- Declared as a enum in `com.hypixel.hytale.protocol`.
 
-## Constructors
+## Constructor Descriptions
 - `AnimationSlot(int value)`
   - Creates a `AnimationSlot` instance.
 
-## Methods
-- `getValue()`
+## Method Descriptions
+- `getValue()`: Add description.
   - Executes `getValue` behavior.
-- `fromValue(int value)`
+- `fromValue(int value)`: Add description.
   - Executes `fromValue` behavior.
 
 ## Notes

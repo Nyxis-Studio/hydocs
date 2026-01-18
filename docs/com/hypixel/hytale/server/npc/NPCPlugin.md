@@ -1,171 +1,171 @@
+**Source Hash:** `c7b71960ef58bda89699861d9ad1b10ca2c84abb30ca7a2b842822f51722e7b5`
+
 # NPCPlugin
 
 ## Overview
-- Documentation for `NPCPlugin`.
-- Declared as a class in `com.hypixel.hytale.server.npc`.
 
-## Constructors
+## Constructor Descriptions
 - `NPCPlugin(@Nonnull JavaPluginInit init)`
   - Creates a `NPCPlugin` instance.
 
-## Methods
-- `get()`
+## Method Descriptions
+- `get()`: Add description.
   - Executes `get` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `onSchemaGenerate(@Nonnull GenerateSchemaEvent event)`
+- `onSchemaGenerate(@Nonnull GenerateSchemaEvent event)`: Add description.
   - Executes `onSchemaGenerate` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `getBlackboardResourceType()`
+- `getBlackboardResourceType()`: Add description.
   - Executes `getBlackboardResourceType` behavior.
-- `getSortBufferProviderResourceResourceType()`
+- `getSortBufferProviderResourceResourceType()`: Add description.
   - Executes `getSortBufferProviderResourceResourceType` behavior.
-- `getAStarNodePoolProviderSimpleResourceType()`
+- `getAStarNodePoolProviderSimpleResourceType()`: Add description.
   - Executes `getAStarNodePoolProviderSimpleResourceType` behavior.
-- `getNpcSpatialResource()`
+- `getNpcSpatialResource()`: Add description.
   - Executes `getNpcSpatialResource` behavior.
-- `getBeaconSupportComponentType()`
+- `getBeaconSupportComponentType()`: Add description.
   - Executes `getBeaconSupportComponentType` behavior.
-- `getNpcBlockEventSupportComponentType()`
+- `getNpcBlockEventSupportComponentType()`: Add description.
   - Executes `getNpcBlockEventSupportComponentType` behavior.
-- `getPlayerBlockEventSupportComponentType()`
+- `getPlayerBlockEventSupportComponentType()`: Add description.
   - Executes `getPlayerBlockEventSupportComponentType` behavior.
-- `getNpcEntityEventSupportComponentType()`
+- `getNpcEntityEventSupportComponentType()`: Add description.
   - Executes `getNpcEntityEventSupportComponentType` behavior.
-- `getPlayerEntityEventSupportComponentType()`
+- `getPlayerEntityEventSupportComponentType()`: Add description.
   - Executes `getPlayerEntityEventSupportComponentType` behavior.
-- `getStepComponentType()`
+- `getStepComponentType()`: Add description.
   - Executes `getStepComponentType` behavior.
-- `getFailedSpawnComponentType()`
+- `getFailedSpawnComponentType()`: Add description.
   - Executes `getFailedSpawnComponentType` behavior.
-- `getTimersComponentType()`
+- `getTimersComponentType()`: Add description.
   - Executes `getTimersComponentType` behavior.
-- `getStateEvaluatorComponentType()`
+- `getStateEvaluatorComponentType()`: Add description.
   - Executes `getStateEvaluatorComponentType` behavior.
-- `getValueStoreComponentType()`
+- `getValueStoreComponentType()`: Add description.
   - Executes `getValueStoreComponentType` behavior.
-- `setupNPCLoading()`
+- `setupNPCLoading()`: Add description.
   - Executes `setupNPCLoading` behavior.
-- `getPresetCoverageTestNPCs()`
+- `getPresetCoverageTestNPCs()`: Add description.
   - Executes `getPresetCoverageTestNPCs` behavior.
-- `spawnNPC(@Nonnull Store<EntityStore> store, @Nonnull String npcType, @Nullable String groupType, @Nonnull Vector3d position, @Nonnull Vector3f rotation)`
+- `spawnNPC(@Nonnull Store<EntityStore> store, @Nonnull String npcType, @Nullable String groupType, @Nonnull Vector3d position, @Nonnull Vector3f rotation)`: Add description.
   - Executes `spawnNPC` behavior.
-- `reloadNPCsWithRole(int roleIndex)`
+- `reloadNPCsWithRole(int roleIndex)`: Add description.
   - Executes `reloadNPCsWithRole` behavior.
-- `onNPCGroupsLoaded(LoadedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`
+- `onNPCGroupsLoaded(LoadedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`: Add description.
   - Executes `onNPCGroupsLoaded` behavior.
-- `onNPCGroupsRemoved(RemovedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`
+- `onNPCGroupsRemoved(RemovedAssetsEvent<String, NPCGroup, AssetMap<String, NPCGroup>> event)`: Add description.
   - Executes `onNPCGroupsRemoved` behavior.
-- `onAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`
+- `onAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`: Add description.
   - Executes `onAttitudeGroupsLoaded` behavior.
-- `onAttitudeGroupsRemoved(RemovedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`
+- `onAttitudeGroupsRemoved(RemovedAssetsEvent<String, AttitudeGroup, AssetMap<String, AttitudeGroup>> event)`: Add description.
   - Executes `onAttitudeGroupsRemoved` behavior.
-- `onItemAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`
+- `onItemAttitudeGroupsLoaded(@Nonnull LoadedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`: Add description.
   - Executes `onItemAttitudeGroupsLoaded` behavior.
-- `onItemAttitudeGroupsRemoved(RemovedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`
+- `onItemAttitudeGroupsRemoved(RemovedAssetsEvent<String, ItemAttitudeGroup, AssetMap<String, ItemAttitudeGroup>> event)`: Add description.
   - Executes `onItemAttitudeGroupsRemoved` behavior.
-- `putItemAttitudeGroups()`
+- `putItemAttitudeGroups()`: Add description.
   - Executes `putItemAttitudeGroups` behavior.
-- `onPathChange(WorldPathChangedEvent event)`
+- `onPathChange(WorldPathChangedEvent event)`: Add description.
   - Executes `onPathChange` behavior.
-- `getPathChangeRevision()`
+- `getPathChangeRevision()`: Add description.
   - Executes `getPathChangeRevision` behavior.
-- `onNPCsLoaded(AllNPCsLoadedEvent event)`
+- `onNPCsLoaded(AllNPCsLoadedEvent event)`: Add description.
   - Executes `onNPCsLoaded` behavior.
-- `putNPCGroups()`
+- `putNPCGroups()`: Add description.
   - Executes `putNPCGroups` behavior.
-- `putAttitudeGroups()`
+- `putAttitudeGroups()`: Add description.
   - Executes `putAttitudeGroups` behavior.
-- `getName(int builderIndex)`
+- `getName(int builderIndex)`: Add description.
   - Executes `getName` behavior.
-- `getIndex(String builderName)`
+- `getIndex(String builderName)`: Add description.
   - Executes `getIndex` behavior.
-- `tryGetCachedValidRole(int roleIndex)`
+- `tryGetCachedValidRole(int roleIndex)`: Add description.
   - Executes `tryGetCachedValidRole` behavior.
-- `getBuilderInfo(Builder<?> builder)`
+- `getBuilderInfo(Builder<?> builder)`: Add description.
   - Executes `getBuilderInfo` behavior.
-- `getRoleTemplateNames(boolean spawnableOnly)`
+- `getRoleTemplateNames(boolean spawnableOnly)`: Add description.
   - Executes `getRoleTemplateNames` behavior.
-- `hasRoleName(String roleName)`
+- `hasRoleName(String roleName)`: Add description.
   - Executes `hasRoleName` behavior.
-- `validateSpawnableRole(String roleName)`
+- `validateSpawnableRole(String roleName)`: Add description.
   - Executes `validateSpawnableRole` behavior.
-- `getRoleBuilderInfo(int roleIndex)`
+- `getRoleBuilderInfo(int roleIndex)`: Add description.
   - Executes `getRoleBuilderInfo` behavior.
-- `setBuilderInvalid(int builderIndex)`
+- `setBuilderInvalid(int builderIndex)`: Add description.
   - Executes `setBuilderInvalid` behavior.
-- `getAttitudeMap()`
+- `getAttitudeMap()`: Add description.
   - Executes `getAttitudeMap` behavior.
-- `getItemAttitudeMap()`
+- `getItemAttitudeMap()`: Add description.
   - Executes `getItemAttitudeMap` behavior.
-- `testAndValidateRole(@Nullable BuilderInfo builderInfo)`
+- `testAndValidateRole(@Nullable BuilderInfo builderInfo)`: Add description.
   - Executes `testAndValidateRole` behavior.
-- `forceValidation(int builderIndex)`
+- `forceValidation(int builderIndex)`: Add description.
   - Executes `forceValidation` behavior.
-- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, Model spawnModel, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, Vector3f rotation, Model spawnModel, TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`: Add description.
   - Executes `spawnEntity` behavior.
-- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, @Nullable Vector3f rotation, @Nullable Model spawnModel, @Nullable TriConsumer<NPCEntity, Holder<EntityStore>, Store<EntityStore>> preAddToWorld, @Nullable TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`
+- `spawnEntity(@Nonnull Store<EntityStore> store, int roleIndex, @Nonnull Vector3d position, @Nullable Vector3f rotation, @Nullable Model spawnModel, @Nullable TriConsumer<NPCEntity, Holder<EntityStore>, Store<EntityStore>> preAddToWorld, @Nullable TriConsumer<NPCEntity, Ref<EntityStore>, Store<EntityStore>> postSpawn)`: Add description.
   - Executes `spawnEntity` behavior.
-- `prepareRoleBuilderInfo(int roleIndex)`
+- `prepareRoleBuilderInfo(int roleIndex)`: Add description.
   - Executes `prepareRoleBuilderInfo` behavior.
-- `buildRole(@Nonnull Builder<Role> roleBuilder, @Nonnull BuilderInfo builderInfo, @Nonnull BuilderSupport builderSupport, int roleIndex)`
+- `buildRole(@Nonnull Builder<Role> roleBuilder, @Nonnull BuilderInfo builderInfo, @Nonnull BuilderSupport builderSupport, int roleIndex)`: Add description.
   - Executes `buildRole` behavior.
-- `onModelsChanged(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`
+- `onModelsChanged(@Nonnull LoadedAssetsEvent<String, ModelAsset, DefaultAssetMap<String, ModelAsset>> event)`: Add description.
   - Executes `onModelsChanged` behavior.
-- `generateDescriptors()`
+- `generateDescriptors()`: Add description.
   - Executes `generateDescriptors` behavior.
-- `saveDescriptors()`
+- `saveDescriptors()`: Add description.
   - Executes `saveDescriptors` behavior.
-- `getBuilderManager()`
+- `getBuilderManager()`: Add description.
   - Executes `getBuilderManager` behavior.
-- `getMaxBlackboardBlockCountPerType()`
+- `getMaxBlackboardBlockCountPerType()`: Add description.
   - Executes `getMaxBlackboardBlockCountPerType` behavior.
-- `isLogFailingTestErrors()`
+- `isLogFailingTestErrors()`: Add description.
   - Executes `isLogFailingTestErrors` behavior.
-- `startRoleBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<TimeDistributionRecorder>> onFinished)`
+- `startRoleBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<TimeDistributionRecorder>> onFinished)`: Add description.
   - Executes `startRoleBenchmark` behavior.
-- `collectRoleTick(int roleIndex, long nanos)`
+- `collectRoleTick(int roleIndex, long nanos)`: Add description.
   - Executes `collectRoleTick` behavior.
-- `isBenchmarkingRole()`
+- `isBenchmarkingRole()`: Add description.
   - Executes `isBenchmarkingRole` behavior.
-- `startSensorSupportBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<SensorSupportBenchmark>> onFinished)`
+- `startSensorSupportBenchmark(double seconds, @Nonnull Consumer<Int2ObjectMap<SensorSupportBenchmark>> onFinished)`: Add description.
   - Executes `startSensorSupportBenchmark` behavior.
-- `isBenchmarkingSensorSupport()`
+- `isBenchmarkingSensorSupport()`: Add description.
   - Executes `isBenchmarkingSensorSupport` behavior.
-- `isBenchmarking()`
+- `isBenchmarking()`: Add description.
   - Executes `isBenchmarking` behavior.
-- `collectSensorSupportPlayerList(int roleIndex, long getNanos, double maxPlayerDistanceSorted, double maxPlayerDistance, double maxPlayerDistanceAvoidance, int numPlayers)`
+- `collectSensorSupportPlayerList(int roleIndex, long getNanos, double maxPlayerDistanceSorted, double maxPlayerDistance, double maxPlayerDistanceAvoidance, int numPlayers)`: Add description.
   - Executes `collectSensorSupportPlayerList` behavior.
-- `collectSensorSupportEntityList(int roleIndex, long getNanos, double maxEntityDistanceSorted, double maxEntityDistance, double maxEntityDistanceAvoidance, int numEntities)`
+- `collectSensorSupportEntityList(int roleIndex, long getNanos, double maxEntityDistanceSorted, double maxEntityDistance, double maxEntityDistanceAvoidance, int numEntities)`: Add description.
   - Executes `collectSensorSupportEntityList` behavior.
-- `collectSensorSupportLosTest(int roleIndex, boolean cacheHit, long time)`
+- `collectSensorSupportLosTest(int roleIndex, boolean cacheHit, long time)`: Add description.
   - Executes `collectSensorSupportLosTest` behavior.
-- `collectSensorSupportInverseLosTest(int roleIndex, boolean cacheHit)`
+- `collectSensorSupportInverseLosTest(int roleIndex, boolean cacheHit)`: Add description.
   - Executes `collectSensorSupportInverseLosTest` behavior.
-- `collectSensorSupportFriendlyBlockingTest(int roleIndex, boolean cacheHit)`
+- `collectSensorSupportFriendlyBlockingTest(int roleIndex, boolean cacheHit)`: Add description.
   - Executes `collectSensorSupportFriendlyBlockingTest` behavior.
-- `collectSensorSupportTickDone(int roleIndex)`
+- `collectSensorSupportTickDone(int roleIndex)`: Add description.
   - Executes `collectSensorSupportTickDone` behavior.
-- `registerCoreComponentType(String name, @Nonnull Supplier<Builder<T>> builder)`
+- `registerCoreComponentType(String name, @Nonnull Supplier<Builder<T>> builder)`: Add description.
   - Executes `registerCoreComponentType` behavior.
-- `setRoleBuilderNeedsReload(Builder<?> builder)`
+- `setRoleBuilderNeedsReload(Builder<?> builder)`: Add description.
   - Executes `setRoleBuilderNeedsReload` behavior.
-- `registerCoreFactories()`
+- `registerCoreFactories()`: Add description.
   - Executes `registerCoreFactories` behavior.
-- `onBalanceAssetsChanged(@Nonnull LoadedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`
+- `onBalanceAssetsChanged(@Nonnull LoadedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`: Add description.
   - Executes `onBalanceAssetsChanged` behavior.
-- `onBalanceAssetsRemoved(@Nonnull RemovedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`
+- `onBalanceAssetsRemoved(@Nonnull RemovedAssetsEvent<String, BalanceAsset, DefaultAssetMap<String, BalanceAsset>> event)`: Add description.
   - Executes `onBalanceAssetsRemoved` behavior.
-- `isGenerateDescriptors()`
+- `isGenerateDescriptors()`: Add description.
   - Executes `isGenerateDescriptors` behavior.
-- `isGenerateDescriptorsFile()`
+- `isGenerateDescriptorsFile()`: Add description.
   - Executes `isGenerateDescriptorsFile` behavior.
-- `isAutoReload()`
+- `isAutoReload()`: Add description.
   - Executes `isAutoReload` behavior.
-- `isValidateBuilder()`
+- `isValidateBuilder()`: Add description.
   - Executes `isValidateBuilder` behavior.
-- `getMaxBlackboardBlockType()`
+- `getMaxBlackboardBlockType()`: Add description.
   - Executes `getMaxBlackboardBlockType` behavior.
 
 ## Notes

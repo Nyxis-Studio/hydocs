@@ -1,26 +1,26 @@
+**Source Hash:** `35193c8993b404280250e850a80e70a9ef48c09eedcddd5e16975ba024885bdb`
+
 # IPositionProvider
 
 ## Overview
-- Documentation for `IPositionProvider`.
-- Declared as a interface in `com.hypixel.hytale.server.npc.sensorinfo`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hasPosition()`
+## Method Descriptions
+- `hasPosition()`: Add description.
   - Executes `hasPosition` behavior.
-- `providePosition(Vector3d var1)`
+- `providePosition(Vector3d var1)`: Add description.
   - Executes `providePosition` behavior.
-- `getX()`
+- `getX()`: Add description.
   - Executes `getX` behavior.
-- `getY()`
+- `getY()`: Add description.
   - Executes `getY` behavior.
-- `getZ()`
+- `getZ()`: Add description.
   - Executes `getZ` behavior.
-- `getTarget()`
+- `getTarget()`: Add description.
   - Executes `getTarget` behavior.
-- `clear()`
+- `clear()`: Add description.
   - Executes `clear` behavior.
 
 ## Notes

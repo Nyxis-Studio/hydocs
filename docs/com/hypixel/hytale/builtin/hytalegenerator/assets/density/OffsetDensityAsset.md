@@ -1,16 +1,16 @@
+**Source Hash:** `2641a3b0951bcd65a9a0e45292dc75467de8ed7adb572e6b4639ffad8056f63b`
+
 # OffsetDensityAsset
 
 ## Overview
-- Documentation for `OffsetDensityAsset`.
-- Declared as a class in `com.hypixel.hytale.builtin.hytalegenerator.assets.density`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `build(@Nonnull DensityAsset.Argument argument)`
+## Method Descriptions
+- `build(@Nonnull DensityAsset.Argument argument)`: Add description.
   - Executes `build` behavior.
-- `cleanUp()`
+- `cleanUp()`: Add description.
   - Executes `cleanUp` behavior.
 
 ## Notes

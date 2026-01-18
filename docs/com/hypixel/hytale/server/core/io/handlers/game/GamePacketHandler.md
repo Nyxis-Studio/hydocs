@@ -1,79 +1,79 @@
+**Source Hash:** `4e1fa3fe2f926dcda1bac2d90796736b2c59b9e50a5e380baa463f25366c7c62`
+
 # GamePacketHandler
 
 ## Overview
-- Documentation for `GamePacketHandler`.
-- Declared as a class in `com.hypixel.hytale.server.core.io.handlers.game`.
 
-## Constructors
+## Constructor Descriptions
 - `GamePacketHandler(@Nonnull Channel channel, @Nonnull ProtocolVersion protocolVersion, @Nonnull PlayerAuthentication auth)`
   - Creates a `GamePacketHandler` instance.
 
-## Methods
-- `getInteractionPacketQueue()`
+## Method Descriptions
+- `getInteractionPacketQueue()`: Add description.
   - Executes `getInteractionPacketQueue` behavior.
-- `getPlayerRef()`
+- `getPlayerRef()`: Add description.
   - Executes `getPlayerRef` behavior.
-- `setPlayerRef(@Nonnull PlayerRef playerRef, @Nonnull Player playerComponent)`
+- `setPlayerRef(@Nonnull PlayerRef playerRef, @Nonnull Player playerComponent)`: Add description.
   - Executes `setPlayerRef` behavior.
-- `getIdentifier()`
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `registerHandlers()`
+- `registerHandlers()`: Add description.
   - Executes `registerHandlers` behavior.
-- `closed(ChannelHandlerContext ctx)`
+- `closed(ChannelHandlerContext ctx)`: Add description.
   - Executes `closed` behavior.
-- `disconnect(@Nonnull String message)`
+- `disconnect(@Nonnull String message)`: Add description.
   - Executes `disconnect` behavior.
-- `handle(@Nonnull Disconnect packet)`
+- `handle(@Nonnull Disconnect packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull MouseInteraction packet)`
+- `handle(@Nonnull MouseInteraction packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ClientMovement packet)`
+- `handle(@Nonnull ClientMovement packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ChatMessage packet)`
+- `handle(@Nonnull ChatMessage packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull RequestAssets packet)`
+- `handle(@Nonnull RequestAssets packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull CustomPageEvent packet)`
+- `handle(@Nonnull CustomPageEvent packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ViewRadius packet)`
+- `handle(@Nonnull ViewRadius packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull UpdateLanguage packet)`
+- `handle(@Nonnull UpdateLanguage packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ClientOpenWindow packet)`
+- `handle(@Nonnull ClientOpenWindow packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull SendWindowAction packet)`
+- `handle(@Nonnull SendWindowAction packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull SyncPlayerPreferences packet)`
+- `handle(@Nonnull SyncPlayerPreferences packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ClientPlaceBlock packet)`
+- `handle(@Nonnull ClientPlaceBlock packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull RemoveMapMarker packet)`
+- `handle(@Nonnull RemoveMapMarker packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull CloseWindow packet)`
+- `handle(@Nonnull CloseWindow packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull UpdateServerAccess packet)`
+- `handle(@Nonnull UpdateServerAccess packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull SetServerAccess packet)`
+- `handle(@Nonnull SetServerAccess packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull RequestMachinimaActorModel packet)`
+- `handle(@Nonnull RequestMachinimaActorModel packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull UpdateMachinimaScene packet)`
+- `handle(@Nonnull UpdateMachinimaScene packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull ClientReady packet)`
+- `handle(@Nonnull ClientReady packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull UpdateWorldMapVisible packet)`
+- `handle(@Nonnull UpdateWorldMapVisible packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull TeleportToWorldMapMarker packet)`
+- `handle(@Nonnull TeleportToWorldMapMarker packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull TeleportToWorldMapPosition packet)`
+- `handle(@Nonnull TeleportToWorldMapPosition packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull SyncInteractionChains packet)`
+- `handle(@Nonnull SyncInteractionChains packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull MountMovement packet)`
+- `handle(@Nonnull MountMovement packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull SetPaused packet)`
+- `handle(@Nonnull SetPaused packet)`: Add description.
   - Executes `handle` behavior.
-- `handle(@Nonnull RequestFlyCameraMode packet)`
+- `handle(@Nonnull RequestFlyCameraMode packet)`: Add description.
   - Executes `handle` behavior.
 
 ## Notes

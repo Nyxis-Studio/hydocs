@@ -1,15 +1,15 @@
+**Source Hash:** `2afcc5324a0b1bff2f6320b6420933243aacdc49688cd60d56d78f05818cbb82`
+
 # ServerGCCommand
 
 ## Overview
-- Documentation for `ServerGCCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.command.commands.debug.server`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerGCCommand()`
   - Creates a `ServerGCCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

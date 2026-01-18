@@ -1,15 +1,15 @@
+**Source Hash:** `5dc441538405f7ebb4d4b427efbde7f93407f687a8ff9b0cd7d0ed2fb8668ecd`
+
 # POIMarkerProvider
 
 ## Overview
-- Documentation for `POIMarkerProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldmap.markers`.
 
-## Constructors
+## Constructor Descriptions
 - `POIMarkerProvider()`
   - Creates a `POIMarkerProvider` instance.
 
-## Methods
-- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`
+## Method Descriptions
+- `update(@Nonnull World world, @Nonnull GameplayConfig gameplayConfig, @Nonnull WorldMapTracker tracker, int chunkViewRadius, int playerChunkX, int playerChunkZ)`: Add description.
   - Executes `update` behavior.
 
 ## Notes

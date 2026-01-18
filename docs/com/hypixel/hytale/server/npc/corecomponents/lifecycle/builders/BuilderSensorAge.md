@@ -1,24 +1,24 @@
+**Source Hash:** `3f5a2f78baacb6c3159e6b6e66b1572d1487b13e0a42fca99b86a41167c9a7c1`
+
 # BuilderSensorAge
 
 ## Overview
-- Documentation for `BuilderSensorAge`.
-- Declared as a class in `com.hypixel.hytale.server.npc.corecomponents.lifecycle.builders`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `getShortDescription()`
+## Method Descriptions
+- `getShortDescription()`: Add description.
   - Executes `getShortDescription` behavior.
-- `getLongDescription()`
+- `getLongDescription()`: Add description.
   - Executes `getLongDescription` behavior.
-- `build(@Nonnull BuilderSupport builderSupport)`
+- `build(@Nonnull BuilderSupport builderSupport)`: Add description.
   - Executes `build` behavior.
-- `getBuilderDescriptorState()`
+- `getBuilderDescriptorState()`: Add description.
   - Executes `getBuilderDescriptorState` behavior.
-- `readConfig(@Nonnull JsonElement data)`
+- `readConfig(@Nonnull JsonElement data)`: Add description.
   - Executes `readConfig` behavior.
-- `getAgeRange(@Nonnull BuilderSupport support)`
+- `getAgeRange(@Nonnull BuilderSupport support)`: Add description.
   - Executes `getAgeRange` behavior.
 
 ## Notes

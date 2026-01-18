@@ -1,10 +1,10 @@
+**Source Hash:** `a21b58ed3b95a338a039da98e4c74a443b0c372980d26eb50620e8213cc70d2c`
+
 # ItemPhysicsComponent
 
 ## Overview
-- Documentation for `ItemPhysicsComponent`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.entity.item`.
 
-## Constructors
+## Constructor Descriptions
 - `ItemPhysicsComponent()`
   - Creates a `ItemPhysicsComponent` instance.
 - `ItemPhysicsComponent(Vector3d scaledVelocity, CollisionResult collisionResult)`
@@ -12,10 +12,10 @@
 - `ItemPhysicsComponent(this.scaledVelocity, this.collisionResult)`
   - Creates a `ItemPhysicsComponent` instance.
 
-## Methods
-- `getComponentType()`
+## Method Descriptions
+- `getComponentType()`: Add description.
   - Executes `getComponentType` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
 
 ## Notes

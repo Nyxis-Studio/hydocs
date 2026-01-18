@@ -1,71 +1,71 @@
+**Source Hash:** `9b79ef8baf55f269daef9842ce0acd94968577445a7f31cf4966587e96c74d51`
+
 # PluginBase
 
 ## Overview
-- Documentation for `PluginBase`.
-- Declared as a class in `com.hypixel.hytale.server.core.plugin`.
 
-## Constructors
+## Constructor Descriptions
 - `PluginBase(@Nonnull PluginInit init)`
   - Creates a `PluginBase` instance.
 
-## Methods
-- `withConfig(@Nonnull BuilderCodec<T> configCodec)`
+## Method Descriptions
+- `withConfig(@Nonnull BuilderCodec<T> configCodec)`: Add description.
   - Executes `withConfig` behavior.
-- `withConfig(@Nonnull String name, @Nonnull BuilderCodec<T> configCodec)`
+- `withConfig(@Nonnull String name, @Nonnull BuilderCodec<T> configCodec)`: Add description.
   - Executes `withConfig` behavior.
-- `preLoad()`
+- `preLoad()`: Add description.
   - Executes `preLoad` behavior.
-- `getName()`
+- `getName()`: Add description.
   - Executes `getName` behavior.
-- `getLogger()`
+- `getLogger()`: Add description.
   - Executes `getLogger` behavior.
-- `getIdentifier()`
+- `getIdentifier()`: Add description.
   - Executes `getIdentifier` behavior.
-- `getManifest()`
+- `getManifest()`: Add description.
   - Executes `getManifest` behavior.
-- `getDataDirectory()`
+- `getDataDirectory()`: Add description.
   - Executes `getDataDirectory` behavior.
-- `getState()`
+- `getState()`: Add description.
   - Executes `getState` behavior.
-- `getClientFeatureRegistry()`
+- `getClientFeatureRegistry()`: Add description.
   - Executes `getClientFeatureRegistry` behavior.
-- `getCommandRegistry()`
+- `getCommandRegistry()`: Add description.
   - Executes `getCommandRegistry` behavior.
-- `getEventRegistry()`
+- `getEventRegistry()`: Add description.
   - Executes `getEventRegistry` behavior.
-- `getBlockStateRegistry()`
+- `getBlockStateRegistry()`: Add description.
   - Executes `getBlockStateRegistry` behavior.
-- `getEntityRegistry()`
+- `getEntityRegistry()`: Add description.
   - Executes `getEntityRegistry` behavior.
-- `getTaskRegistry()`
+- `getTaskRegistry()`: Add description.
   - Executes `getTaskRegistry` behavior.
-- `getEntityStoreRegistry()`
+- `getEntityStoreRegistry()`: Add description.
   - Executes `getEntityStoreRegistry` behavior.
-- `getChunkStoreRegistry()`
+- `getChunkStoreRegistry()`: Add description.
   - Executes `getChunkStoreRegistry` behavior.
-- `getAssetRegistry()`
+- `getAssetRegistry()`: Add description.
   - Executes `getAssetRegistry` behavior.
-- `getCodecRegistry(@Nonnull MapKeyMapCodec<V> mapCodec)`
+- `getCodecRegistry(@Nonnull MapKeyMapCodec<V> mapCodec)`: Add description.
   - Executes `getCodecRegistry` behavior.
-- `getBasePermission()`
+- `getBasePermission()`: Add description.
   - Executes `getBasePermission` behavior.
-- `isDisabled()`
+- `isDisabled()`: Add description.
   - Executes `isDisabled` behavior.
-- `isEnabled()`
+- `isEnabled()`: Add description.
   - Executes `isEnabled` behavior.
-- `setup0()`
+- `setup0()`: Add description.
   - Executes `setup0` behavior.
-- `setup()`
+- `setup()`: Add description.
   - Executes `setup` behavior.
-- `start0()`
+- `start0()`: Add description.
   - Executes `start0` behavior.
-- `start()`
+- `start()`: Add description.
   - Executes `start` behavior.
-- `shutdown0(boolean shutdown)`
+- `shutdown0(boolean shutdown)`: Add description.
   - Executes `shutdown0` behavior.
-- `shutdown()`
+- `shutdown()`: Add description.
   - Executes `shutdown` behavior.
-- `getType()`
+- `getType()`: Add description.
   - Executes `getType` behavior.
 
 ## Notes

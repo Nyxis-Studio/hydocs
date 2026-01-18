@@ -1,19 +1,19 @@
+**Source Hash:** `aabeef893a8d0e191a9b2d2e6ab6c20777bb2d170a41141c084eaddf5c540d22`
+
 # RandomCoordinateDoubleSupplier
 
 ## Overview
-- Documentation for `RandomCoordinateDoubleSupplier`.
-- Declared as a class in `com.hypixel.hytale.server.worldgen.util.function`.
 
-## Constructors
+## Constructor Descriptions
 - `RandomCoordinateDoubleSupplier(IDoubleRange range)`
   - Creates a `RandomCoordinateDoubleSupplier` instance.
 
-## Methods
-- `getRange()`
+## Method Descriptions
+- `getRange()`: Add description.
   - Executes `getRange` behavior.
-- `apply(int seed, int x, int y)`
+- `apply(int seed, int x, int y)`: Add description.
   - Executes `apply` behavior.
-- `apply(int seed, int x, int y, int z)`
+- `apply(int seed, int x, int y, int z)`: Add description.
   - Executes `apply` behavior.
 
 ## Notes

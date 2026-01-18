@@ -1,22 +1,22 @@
+**Source Hash:** `1300416dd17e43940bc4819da270b6d4a9db027c6520e3970724c3d188690630`
+
 # SpawnableWithModelBuilder
 
 ## Overview
-- Documentation for `SpawnableWithModelBuilder`.
-- Declared as a class in `com.hypixel.hytale.server.npc.asset.builder`.
 
-## Constructors
-- None.
+## Constructor Descriptions
+- `none()`: No documented methods.
 
-## Methods
-- `hasDynamicDependencies()`
+## Method Descriptions
+- `hasDynamicDependencies()`: Add description.
   - Executes `hasDynamicDependencies` behavior.
-- `addDynamicDependency(int builderIndex)`
+- `addDynamicDependency(int builderIndex)`: Add description.
   - Executes `addDynamicDependency` behavior.
-- `getDynamicDependencies()`
+- `getDynamicDependencies()`: Add description.
   - Executes `getDynamicDependencies` behavior.
-- `clearDynamicDependencies()`
+- `clearDynamicDependencies()`: Add description.
   - Executes `clearDynamicDependencies` behavior.
-- `isSpawnable()`
+- `isSpawnable()`: Add description.
   - Executes `isSpawnable` behavior.
 
 ## Notes

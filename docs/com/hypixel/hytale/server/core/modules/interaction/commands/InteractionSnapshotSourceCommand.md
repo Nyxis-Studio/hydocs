@@ -1,15 +1,15 @@
+**Source Hash:** `599ce6c21360644f5945eb2cec84249c69ee9b2b3ca9beeeae5545d61313cd7d`
+
 # InteractionSnapshotSourceCommand
 
 ## Overview
-- Documentation for `InteractionSnapshotSourceCommand`.
-- Declared as a class in `com.hypixel.hytale.server.core.modules.interaction.commands`.
 
-## Constructors
+## Constructor Descriptions
 - `InteractionSnapshotSourceCommand()`
   - Creates a `InteractionSnapshotSourceCommand` instance.
 
-## Methods
-- `executeSync(@Nonnull CommandContext context)`
+## Method Descriptions
+- `executeSync(@Nonnull CommandContext context)`: Add description.
   - Executes `executeSync` behavior.
 
 ## Notes

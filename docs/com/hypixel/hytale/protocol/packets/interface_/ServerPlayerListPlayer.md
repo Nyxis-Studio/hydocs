@@ -1,10 +1,10 @@
+**Source Hash:** `e501996d3a6b0ce95881b77666532ed6ae727496824aa95747a4af8f211c4ae4`
+
 # ServerPlayerListPlayer
 
 ## Overview
-- Documentation for `ServerPlayerListPlayer`.
-- Declared as a class in `com.hypixel.hytale.protocol.packets.interface_`.
 
-## Constructors
+## Constructor Descriptions
 - `ServerPlayerListPlayer()`
   - Creates a `ServerPlayerListPlayer` instance.
 - `ServerPlayerListPlayer(@Nonnull UUID uuid, @Nullable String username, @Nullable UUID worldUuid, int ping)`
@@ -12,22 +12,22 @@
 - `ServerPlayerListPlayer(@Nonnull ServerPlayerListPlayer other)`
   - Creates a `ServerPlayerListPlayer` instance.
 
-## Methods
-- `deserialize(@Nonnull ByteBuf buf, int offset)`
+## Method Descriptions
+- `deserialize(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `deserialize` behavior.
-- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`
+- `computeBytesConsumed(@Nonnull ByteBuf buf, int offset)`: Add description.
   - Executes `computeBytesConsumed` behavior.
-- `serialize(@Nonnull ByteBuf buf)`
+- `serialize(@Nonnull ByteBuf buf)`: Add description.
   - Executes `serialize` behavior.
-- `computeSize()`
+- `computeSize()`: Add description.
   - Executes `computeSize` behavior.
-- `validateStructure(@Nonnull ByteBuf buffer, int offset)`
+- `validateStructure(@Nonnull ByteBuf buffer, int offset)`: Add description.
   - Executes `validateStructure` behavior.
-- `clone()`
+- `clone()`: Add description.
   - Executes `clone` behavior.
-- `equals(Object obj)`
+- `equals(Object obj)`: Add description.
   - Executes `equals` behavior.
-- `hashCode()`
+- `hashCode()`: Add description.
   - Executes `hashCode` behavior.
 
 ## Notes

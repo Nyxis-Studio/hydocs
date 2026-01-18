@@ -1,25 +1,25 @@
+**Source Hash:** `e50f252b40a897dc10dd5f09d58a1f523bdeb4df3d530031df361d35471db58b`
+
 # FlatWorldGenProvider
 
 ## Overview
-- Documentation for `FlatWorldGenProvider`.
-- Declared as a class in `com.hypixel.hytale.server.core.universe.world.worldgen.provider`.
 
-## Constructors
+## Constructor Descriptions
 - `FlatWorldGenProvider()`
   - Creates a `FlatWorldGenProvider` instance.
 - `FlatWorldGenProvider(Color tint, Layer[] layers)`
   - Creates a `FlatWorldGenProvider` instance.
 
-## Methods
-- `getGenerator()`
+## Method Descriptions
+- `getGenerator()`: Add description.
   - Executes `getGenerator` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
-- `getTimings()`
+- `getTimings()`: Add description.
   - Executes `getTimings` behavior.
-- `getSpawnPoints(int seed)`
+- `getSpawnPoints(int seed)`: Add description.
   - Executes `getSpawnPoints` behavior.
-- `generate(int seed, long index, int cx, int cz, LongPredicate stillNeeded)`
+- `generate(int seed, long index, int cx, int cz, LongPredicate stillNeeded)`: Add description.
   - Executes `generate` behavior.
 
 ## Notes

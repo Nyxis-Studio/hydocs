@@ -1,10 +1,10 @@
+**Source Hash:** `607f56a0ad9505a84d9292ec1877e4a4458fdf734bb9c9fae5fa6ae8eac2e2a9`
+
 # ClearTransaction
 
 ## Overview
-- Documentation for `ClearTransaction`.
-- Declared as a class in `com.hypixel.hytale.server.core.inventory.transaction`.
 
-## Constructors
+## Constructor Descriptions
 - `ClearTransaction(true, 0, ItemStack.EMPTY_ARRAY)`
   - Creates a `ClearTransaction` instance.
 - `ClearTransaction(boolean succeeded, short start, @Nonnull ItemStack[] items)`
@@ -16,18 +16,18 @@
 - `ClearTransaction(this.succeeded, newStart, Arrays.copyOf(this.items, (int)`
   - Creates a `ClearTransaction` instance.
 
-## Methods
-- `succeeded()`
+## Method Descriptions
+- `succeeded()`: Add description.
   - Executes `succeeded` behavior.
-- `wasSlotModified(short slot)`
+- `wasSlotModified(short slot)`: Add description.
   - Executes `wasSlotModified` behavior.
-- `getItems()`
+- `getItems()`: Add description.
   - Executes `getItems` behavior.
-- `toParent(ItemContainer parent, short start, ItemContainer container)`
+- `toParent(ItemContainer parent, short start, ItemContainer container)`: Add description.
   - Executes `toParent` behavior.
-- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`
+- `fromParent(ItemContainer parent, short start, @Nonnull ItemContainer container)`: Add description.
   - Executes `fromParent` behavior.
-- `toString()`
+- `toString()`: Add description.
   - Executes `toString` behavior.
 
 ## Notes
