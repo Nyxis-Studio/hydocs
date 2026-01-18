@@ -118,11 +118,24 @@ jobs:
           echo "Created VERSION.json:"
           cat build/VERSION.json
 
+      - name: Create documentation ZIP
+        env:
+          VERSION: ${{ steps.determine-version.outputs.version }}
+        run: |
+          echo "Creating documentation archive..."
+          cd build
+          zip -r ../hytale-docs-${VERSION}.zip .
+          cd ..
+
+          # Verify ZIP was created
+          ls -lh hytale-docs-${VERSION}.zip
+          echo "ZIP archive created successfully"
+
       - name: Upload documentation artifacts
         uses: actions/upload-artifact@v4
         with:
           name: hytale-documentation
-          path: build/
+          path: hytale-docs-*.zip
           retention-days: 30
 
   deploy-to-s3:
@@ -135,7 +148,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: hytale-documentation
-          path: build/
+          path: .
+
+      - name: Extract documentation ZIP
+        env:
+          VERSION: ${{ needs.build-documentation.outputs.version }}
+        run: |
+          echo "Extracting documentation archive..."
+          unzip -q hytale-docs-${VERSION}.zip -d build/
+          ls -lah build/ | head -10
+          echo "Extraction complete"
 
       - name: Install MinIO Client
         run: |
@@ -165,20 +187,24 @@ jobs:
         env:
           VERSION: ${{ needs.build-documentation.outputs.version }}
         run: |
-          echo "Uploading to s3storage/${{ secrets.S3_BUCKET }}/versions/$VERSION/"
-          mc cp --recursive build/ s3storage/${{ secrets.S3_BUCKET }}/versions/$VERSION/
+          echo "Uploading documentation ZIP to s3storage/${{ secrets.S3_BUCKET }}/versions/$VERSION/"
 
-          echo "Upload completed successfully"
+          # Upload the ZIP file
+          mc cp hytale-docs-${VERSION}.zip s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-${VERSION}.zip
+
+          echo "ZIP upload completed successfully"
 
       - name: Update latest version
+        env:
+          VERSION: ${{ needs.build-documentation.outputs.version }}
         run: |
-          echo "Updating latest/ to point to newest build..."
+          echo "Updating latest documentation ZIP..."
 
-          # Remove old latest (ignore errors if doesn't exist)
-          mc rm --recursive --force s3storage/${{ secrets.S3_BUCKET }}/latest/ 2>/dev/null || true
+          # Remove old latest ZIP (ignore errors if doesn't exist)
+          mc rm --force s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-latest.zip 2>/dev/null || true
 
-          # Copy new latest
-          mc cp --recursive build/ s3storage/${{ secrets.S3_BUCKET }}/latest/
+          # Upload new latest ZIP
+          mc cp hytale-docs-${VERSION}.zip s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-latest.zip
 
           echo "Latest version updated successfully"
 
@@ -188,11 +214,11 @@ jobs:
         run: |
           echo "Setting public download access..."
 
-          # Set public access for latest
-          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/latest/
+          # Set public access for versioned ZIP
+          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-${VERSION}.zip
 
-          # Set public access for versioned build
-          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions/$VERSION/
+          # Set public access for latest ZIP
+          mc anonymous set download s3storage/${{ secrets.S3_BUCKET }}/versions/hytale-docs-latest.zip
 
           echo "Public access configured successfully"
 
@@ -203,8 +229,8 @@ jobs:
           # List all versions
           echo "Generating versions.json..."
 
-          # Get list of version directories
-          VERSIONS=$(mc ls s3storage/${{ secrets.S3_BUCKET }}/versions/ | awk '{print $NF}' | sed 's#/##g' | jq -R -s -c 'split("\n")[:-1]')
+          # Get list of version ZIP files
+          VERSIONS=$(mc ls s3storage/${{ secrets.S3_BUCKET }}/versions/ | grep "hytale-docs-" | grep -v "latest" | awk '{print $NF}' | sed 's/hytale-docs-//g' | sed 's/.zip//g' | jq -R -s -c 'split("\n")[:-1]')
 
           # Create versions.json
           cat > versions.json << EOF
@@ -242,33 +268,23 @@ jobs:
           - **Build Number**: \`${{ github.run_number }}\`
           - **JAR Source**: \`$JAR_URL\`
 
-          ## Public URLs
+          ## Download Documentation
 
           ### Latest Version (Stable URL)
-          - **Index**: [$ENDPOINT_CLEAN/$S3_BUCKET/latest/INDEX.md]($ENDPOINT_CLEAN/$S3_BUCKET/latest/INDEX.md)
-          - **Class Lookup**: [$ENDPOINT_CLEAN/$S3_BUCKET/latest/class_lookup.json]($ENDPOINT_CLEAN/$S3_BUCKET/latest/class_lookup.json)
-          - **Version Info**: [$ENDPOINT_CLEAN/$S3_BUCKET/latest/VERSION.json]($ENDPOINT_CLEAN/$S3_BUCKET/latest/VERSION.json)
+          - **Download ZIP**: [$ENDPOINT_CLEAN/$S3_BUCKET/versions/hytale-docs-latest.zip]($ENDPOINT_CLEAN/$S3_BUCKET/versions/hytale-docs-latest.zip)
 
           ### This Build (Versioned)
-          - **Index**: [$ENDPOINT_CLEAN/$S3_BUCKET/versions/$VERSION/INDEX.md]($ENDPOINT_CLEAN/$S3_BUCKET/versions/$VERSION/INDEX.md)
-          - **Class Lookup**: [$ENDPOINT_CLEAN/$S3_BUCKET/versions/$VERSION/class_lookup.json]($ENDPOINT_CLEAN/$S3_BUCKET/versions/$VERSION/class_lookup.json)
+          - **Download ZIP**: [$ENDPOINT_CLEAN/$S3_BUCKET/versions/hytale-docs-$VERSION.zip]($ENDPOINT_CLEAN/$S3_BUCKET/versions/hytale-docs-$VERSION.zip)
 
           ### All Versions
           - **Versions List**: [$ENDPOINT_CLEAN/$S3_BUCKET/versions.json]($ENDPOINT_CLEAN/$S3_BUCKET/versions.json)
 
-          ## MCP Configuration
-
-          Configure your MCP server to use:
-          \`\`\`
-          $ENDPOINT_CLEAN/$S3_BUCKET/latest/class_lookup.json
-          \`\`\`
-
           ## Next Steps
 
-          1. Test the documentation by opening the Index URL above
-          2. Verify class_lookup.json is valid JSON
-          3. Update your MCP server configuration if needed
-          4. Share the documentation URL with your team
+          1. Download the ZIP file using the link above
+          2. Extract the ZIP to access the documentation
+          3. Open \`INDEX.md\` to start browsing
+          4. Use \`class_lookup.json\` for MCP integration if needed
 
           ---
           *Generated by [Hydocs GitHub Actions](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})*
